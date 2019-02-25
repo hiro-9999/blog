@@ -1,0 +1,33 @@
+
+https://ampbyexample.com/components/amp-video/
+https://ampbyexample.com/components/amp-video/source/
+
+<amp-video width="480"
+  height="270"
+  poster="/img/tokyo.jpg"
+  layout="responsive"
+  controls
+  autoplay>
+  <div fallback>
+    <p>Your browser doesn't support HTML5 video.</p>
+  </div>
+  <!-- displayed if HLS is supported -->
+  <source type="application/vnd.apple.mpegurl" src="/video/tokyo.m3u8">
+  <!-- displayed if HLS is not supported -->
+  <source type="video/mp4" src="/video/tokyo-no-hls.mp4">
+</amp-video>
+
+Safari might be the only one that supports (amp-video & amp-ima-video) hls (.m3u8 video extensions) natively. I tested with
+
+Chrome v67.0.3396.99
+Firefox v61.0.1
+Safari v11.1.1
+You can check if your browser supports the hls here: https://codepen.io/kenanbalija/pen/GBgmxG
+
+...
+<amp-video width="480" height="270" 
+         layout="fixed"
+         controls>
+
+<source type="application/vnd.apple.mpegURL" src="https://video-dev.github.io/streams/x36xhzz/x36xhzz.m3u8">
+<source type="video/webm" src="https://ampbyexample.com/video/tokyo.webm">
