@@ -9,3 +9,6 @@ http://caibaojian.com/vue/
 
 NutUI 2.0:
 https://www.toutiao.com/a6662628293960794636/
+
+资料
+https://www.zhideedu.com/vue%20js%E5%AE%9E%E6%88%98%20pdf
