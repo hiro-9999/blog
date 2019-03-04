@@ -34,5 +34,7 @@ nuxt + firebase
 https://qiita.com/redshoga/items/da5c0e247e0df314a257
 https://qiita.com/potato4d/items/cfddeb8732fec63cb29c
 
+https://inside.dmm.com/entry/2018/04/10/nuxt-firebase
+
 SPA
 https://www.oro.com/ja/technology/001/
