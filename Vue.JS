@@ -38,6 +38,7 @@ https://inside.dmm.com/entry/2018/04/10/nuxt-firebase
 https://inside.dmm.com/entry/2018/11/06/nuxt2-pwa-gae-se
 
 https://yamitzky.hatenablog.com/entry/2018/12/10/232946
+https://yamitzky.hatenablog.com/entry/2018/10/23/210924
 
 SPA
 https://www.oro.com/ja/technology/001/
