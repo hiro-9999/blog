@@ -29,3 +29,10 @@ http://webpack.wuhaolin.cn/
 https://segmentfault.com/a/1190000009782174
 https://juejin.im/entry/59b74efd51882532c85c835e
 https://segmentfault.com/search?q=%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BAwebpack%E5%AD%A6%E4%B9%A0
+
+nuxt + firebase
+https://qiita.com/redshoga/items/da5c0e247e0df314a257
+https://qiita.com/potato4d/items/cfddeb8732fec63cb29c
+
+SPA
+https://www.oro.com/ja/technology/001/
