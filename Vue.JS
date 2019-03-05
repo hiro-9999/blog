@@ -1,6 +1,11 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+axios既提供了并发的封装，也没有fetch的各种问题，而且体积也较小，当之无愧现在最应该选用的请求的方式
+https://jp.vuejs.org/v2/cookbook/using-axios-to-consume-apis.html
+https://qiita.com/shisama/items/61cdcc09dc69fd8d3127
+axiosというHTTPリクエストを行うためのライブラリがあります。
+Node.js 7からasync/awaitを使えるようになりました。
 
 
 VUE　chrome debug
@@ -49,7 +54,4 @@ https://tech.libinc.co.jp/entry/2018/11/15/143000
 SPA
 https://www.oro.com/ja/technology/001/
 
-axios既提供了并发的封装，也没有fetch的各种问题，而且体积也较小，当之无愧现在最应该选用的请求的方式
-https://qiita.com/shisama/items/61cdcc09dc69fd8d3127
-axiosというHTTPリクエストを行うためのライブラリがあります。
-Node.js 7からasync/awaitを使えるようになりました。
+
