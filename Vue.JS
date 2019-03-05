@@ -48,3 +48,6 @@ https://tech.libinc.co.jp/entry/2018/11/15/143000
 
 SPA
 https://www.oro.com/ja/technology/001/
+
+axios既提供了并发的封装，也没有fetch的各种问题，而且体积也较小，当之无愧现在最应该选用的请求的方式
+https://www.toutiao.com/a6658039407179727374/?tt_from=copy_link&utm_campaign=client_share&timestamp=1551783273&app=news_article&utm_source=copy_link&iid=59706816032&utm_medium=toutiao_ios&group_id=6658039407179727374
