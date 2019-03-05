@@ -3,6 +3,9 @@ http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
 https://www.getrevue.co/profile/vuenewsletter
 
+HTML5 video player
+http://browserify.org/
+
 vue hooks
 https://www.getrevue.co/profile/vuenewsletter/issues/132-huge-improvement-in-new-vetur-release-go-and-get-linusborg-a-coffee-try-out-hooks-with-erik-hanchett-162011
 
