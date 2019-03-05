@@ -3,6 +3,9 @@ http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
 https://www.getrevue.co/profile/vuenewsletter
 
+vue hooks
+https://www.getrevue.co/profile/vuenewsletter/issues/132-huge-improvement-in-new-vetur-release-go-and-get-linusborg-a-coffee-try-out-hooks-with-erik-hanchett-162011
+
 https://www.vuemastery.com/pdf/Nuxtjs-Cheat-Sheet.pdf?utm_source=newsletter&utm_medium=email&utm_campaign=a_free_gift_from_vue_mastery&utm_term=2019-03-05
 
 axios既提供了并发的封装，也没有fetch的各种问题，而且体积也较小，当之无愧现在最应该选用的请求的方式
