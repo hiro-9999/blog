@@ -80,3 +80,5 @@ npm install --save-dev babel-eslint@7.2.3
 
 https://nodejs.org/en/
 npm i
+https://www.npmjs.com/package/npm-install-peers
+npm install -g npm-install-peers
