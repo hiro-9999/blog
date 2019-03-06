@@ -73,3 +73,6 @@ https://www.oro.com/ja/technology/001/
 
 環境：
 npm install webpack-dev-middleware --save-dev
+
+npm view babel-eslint@7.* version
+npm install --save-dev babel-eslint@7.2.3 
