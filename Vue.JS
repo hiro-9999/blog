@@ -4,6 +4,7 @@ http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 https://www.getrevue.co/profile/vuenewsletter
 
 UI example:
+https://github.com/dmtrbrl/tmdb-app
 https://www.jqwidgets.com/vue/?gclid=EAIaIQobChMIyNjSpIzt4AIVTzuWCh3bHgDpEAEYASAAEgI7UvD_BwE
 https://vuejsexamples.com/tag/menu/
 
