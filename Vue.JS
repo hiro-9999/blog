@@ -8,6 +8,9 @@ https://github.com/dmtrbrl/tmdb-app
 https://www.jqwidgets.com/vue/?gclid=EAIaIQobChMIyNjSpIzt4AIVTzuWCh3bHgDpEAEYASAAEgI7UvD_BwE
 https://vuejsexamples.com/tag/menu/
 
+https://github.com/vuejs/awesome-vue
+https://cn.vuejs.org/v2/guide/join.html
+
 HTML5 video player
 http://browserify.org/
 
