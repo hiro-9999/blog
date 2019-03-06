@@ -72,6 +72,7 @@ SPA
 https://www.oro.com/ja/technology/001/
 
 環境：
+npm i -D webpack@latest
 npm install webpack-dev-middleware --save-dev
 
 npm view babel-eslint@7.* version
