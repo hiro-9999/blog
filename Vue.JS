@@ -79,3 +79,4 @@ npm install --save-dev babel-eslint@7.2.3
 
 
 https://nodejs.org/en/
+npm i
