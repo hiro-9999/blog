@@ -3,6 +3,10 @@ http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
 https://www.getrevue.co/profile/vuenewsletter
 
+UI example:
+https://www.jqwidgets.com/vue/?gclid=EAIaIQobChMIyNjSpIzt4AIVTzuWCh3bHgDpEAEYASAAEgI7UvD_BwE
+https://vuejsexamples.com/tag/menu/
+
 HTML5 video player
 http://browserify.org/
 
