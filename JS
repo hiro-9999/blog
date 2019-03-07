@@ -3,3 +3,8 @@ AI img
 
 debug console
 https://qiita.com/kashira2339/items/874f95aaaa59f4a17d3d
+
+JavaScriptで直下の子要素を取得する:
+https://qiita.com/tohu/items/3cc70d2dda0e49973c5f
+$('.box').find('div')
+var findLi = $('#hoge').children();
