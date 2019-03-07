@@ -8,3 +8,46 @@ JavaScriptで直下の子要素を取得する:
 https://qiita.com/tohu/items/3cc70d2dda0e49973c5f
 $('.box').find('div')
 var findLi = $('#hoge').children();
+
+「#id」「element」「.class」セレクター
+https://www.buildinsider.net/web/jqueryref/036
+
+要素からクラス名を取得するには、jqueryのattr関数を使用する。
+以下のように。
+$(セレクタ).attr('class');
+
+http://cly7796.net/wp/javascript/get-a-class-with-multiple-specifications-with-jquery/
+<div class="sample hoge fuga aaaaa"></div>
+$(function() {
+    var classVal = $('.sample').attr('class'); // classの値を取得
+    var classVals = classVal.split(' '); // 取得した値を分割
+ 
+    // 配列になっているのでforで一つずつ取得できる
+    for (var i = 0; i < classVals.length; i++) {
+        console.log(classVals[i]);
+    }
+});
+
+var result = $('#wrap').find('.text');
+console.log( result.length );
+var result = $('#wrap').find('.text');
+ https://www.sejuku.net/blog/37474
+if( result.length ) {
+ 
+    console.log('存在します');
+ 
+}
+else {
+ 
+    console.log('存在しません！');
+ 
+}
+
+<img src="img/img_1.jpg" width="300">
+http://web-wizardry.net/jquery/jquery%E3%81%A7attr%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%93%E3%81%86/
+var img_path =  $("img").attr("src");
+
+<div class="owl-wrapper" style="width: 3600px; left: 0px; display: block; transition: all 500ms ease 0s; transform: translate3d(0px, 0px, 0px);">
+<div class="owl-item" style="width: 180px;"><li class="item-list" data-tracking_id="608be2375a45587e9f8fb55b610d0226" data-content_id="ebod00682" data-product_id="ebod00682" data-price="1980">
+
+
