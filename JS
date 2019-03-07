@@ -68,6 +68,7 @@ alert($('#hoge').css("-webkit-transform"));
 matrix(1, 0, 0, 1, 237, 5)
 うーん、4番目が x で5番目が y なんだろうな…じゃあ z はどこに出るんだろう。
 
+a = new WebKitCSSMatrix($(‘.owl-wrapper’).css(‘transform’)).e == -900 ? 2 : 1;
 <div class="owl-wrapper" style="width: 3600px; left: 0px; display: block; transition: all 500ms ease 0s; transform: translate3d(0px, 0px, 0px);">
 <div class="owl-item" style="width: 180px;"><li class="item-list" data-tracking_id="608be2375a45587e9f8fb55b610d0226" data-content_id="ebod00682" data-product_id="ebod00682" data-price="1980">
 
