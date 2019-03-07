@@ -83,8 +83,19 @@ npm install --save-dev babel-eslint@7.2.3
 npm install webpack -g
 npm install -D babel-loader @babel/core @babel/preset-env webpack
 
+npm install -g npm-install-peers
+
+npm install --save-dev mini-css-extract-plugin
+npm i @angular/flex-layout@7.0.0-beta.22 --save
+npm install -D babel-loader @babel/core @babel/preset-env webpack
+
+npm install webpack@1.15.0 --save-dev && rm -rf node-modules && npm install
 
 https://nodejs.org/en/
 npm i
 https://www.npmjs.com/package/npm-install-peers
 npm install -g npm-install-peers
+
+npm audit fix --force
+
+
