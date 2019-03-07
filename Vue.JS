@@ -99,3 +99,13 @@ npm install -g npm-install-peers
 npm audit fix --force
 
 
+https://qiita.com/mimikun/items/860bad42c9b5bd10c7f4
+モジュールインストール
+
+npm i -D electron
+npm i -D react react-dom
+npm i -D babel-core babel-preset-react babel-preset-env
+npm i -D webpack babel-loader
+npm i -D webpack-cli
+
+
