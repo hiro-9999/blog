@@ -80,6 +80,8 @@ npm install webpack-dev-middleware --save-dev
 
 npm view babel-eslint@7.* version
 npm install --save-dev babel-eslint@7.2.3 
+npm install webpack -g
+npm install -D babel-loader @babel/core @babel/preset-env webpack
 
 
 https://nodejs.org/en/
