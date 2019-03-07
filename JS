@@ -15,7 +15,8 @@ https://www.buildinsider.net/web/jqueryref/036
 要素からクラス名を取得するには、jqueryのattr関数を使用する。
 以下のように。
 $(セレクタ).attr('class');
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+http://www.recipi.jp/9353
 http://cly7796.net/wp/javascript/get-a-class-with-multiple-specifications-with-jquery/
 <div class="sample hoge fuga aaaaa"></div>
 $(function() {
