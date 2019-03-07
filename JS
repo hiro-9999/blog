@@ -49,6 +49,9 @@ http://web-wizardry.net/jquery/jquery%E3%81%A7attr%E3%82%92%E6%B4%BB%E7%94%A8%E3
 var img_path =  $("img").attr("src");
 
 CSSを取得する
+new WebKitCSSMatrix($('.owl-wrapper').css('transform')).e
+-900
+
 https://www.sejuku.net/blog/38778
  var result = $('div').css('border');
  console.log( result );
