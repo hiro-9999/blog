@@ -48,7 +48,25 @@ else {
 http://web-wizardry.net/jquery/jquery%E3%81%A7attr%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%93%E3%81%86/
 var img_path =  $("img").attr("src");
 
+CSSを取得する
+https://www.sejuku.net/blog/38778
+ var result = $('div').css('border');
+ console.log( result );
+ 
+ CSSのtransformの各種値をjQueryで取得
+ http://arakaze.ready.jp/archives/3654
+ #hoge {
+    -webkit-transform: translate3d(237px, 5px, 0px);
+}
+1
+alert($('#hoge').css("-webkit-transform"));
+取りあえずこう書いてみると、下記のように出力されました。
+
+matrix(1, 0, 0, 1, 237, 5)
+うーん、4番目が x で5番目が y なんだろうな…じゃあ z はどこに出るんだろう。
+
 <div class="owl-wrapper" style="width: 3600px; left: 0px; display: block; transition: all 500ms ease 0s; transform: translate3d(0px, 0px, 0px);">
 <div class="owl-item" style="width: 180px;"><li class="item-list" data-tracking_id="608be2375a45587e9f8fb55b610d0226" data-content_id="ebod00682" data-product_id="ebod00682" data-price="1980">
 
-
+$('.owl-wrapper').css('transform');
+"matrix(1, 0, 0, 1, -900, 0)"
