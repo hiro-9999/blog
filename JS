@@ -45,6 +45,8 @@ else {
  
 }
 
+a = $('#list-5001').find('div.js-carousel.js-carousel-5.caro-hide-next');
+
 <img src="img/img_1.jpg" width="300">
 http://web-wizardry.net/jquery/jquery%E3%81%A7attr%E3%82%92%E6%B4%BB%E7%94%A8%E3%81%97%E3%81%A6%E3%81%84%E3%81%93%E3%81%86/
 var img_path =  $("img").attr("src");
