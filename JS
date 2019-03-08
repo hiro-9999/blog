@@ -32,6 +32,7 @@ $(function() {
 var result = $('#wrap').find('.text');
 console.log( result.length );
 var result = $('#wrap').find('.text');
+find():
  https://www.sejuku.net/blog/37474
 if( result.length ) {
  
