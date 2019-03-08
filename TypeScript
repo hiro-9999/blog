@@ -1,1 +1,18 @@
 TypeScript 将取代 JavaScript！
+
+2019 年度大预测！
+
+随着基础的建立和不断改进的网络体验，WebAssembly将焕发青春；
+React继续领跑，Vue和Angular的用户持续增长；
+CSS-in-JS取代普通CSS，成为默认的网页样式化方法；
+原生网页组件会被开发人员再次重视；
+性能仍是关注焦点，而PWA和代码分割将成为每个应用程序的标准；
+PWA的采用使Web应用具备离线能力和无缝的桌面/移动体验，更接近原生App；
+CLI工具和框架的应用将持续增长，以便开发人员集中精力在功能实现上；
+更多的公司将采用具有统一代码库的移动解决方案，如React Native或Flutter；
+主流容器化工具（如Docker、Kubernetes）在前端开发中将变得更加普遍；
+GraphQL一飞冲天，将被更多的公司采用；
+TypeScript取代标准JavaScript，成为默认选择；
+虚拟现实通过使用诸如A-Frame、React VR和Google VR向前大步迈进。
+
+https://levelup.gitconnected.com/a-recap-of-frontend-development-in-2018-715724c9441d
