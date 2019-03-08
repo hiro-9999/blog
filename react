@@ -1,1 +1,17 @@
 Enzyme为React.js应用提供的快速组件级UI测试功能
+
+
+//想了解React Suspense的更多信息，可以看看Dan Abramov的关于使用Suspense API来构建应用程序的演讲：
+https://medium.com/@dan_abramov。
+
+//ReactをdebugするためにGoogle Chromeに入れるプラグイン 
+https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en
+
+//React + Redux のフロー図解
+https://qiita.com/mpyw/items/a816c6380219b1d5a3bf
+
+//debug
+cd {APP ROOT}/front/
+sh setup-uncompiled-environment.sh
+cd {APP ROOT}/front/react/
+npm run start:watch 
