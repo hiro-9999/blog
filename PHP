@@ -4,3 +4,6 @@ https://www.w3schools.com/php/default.asp
 https://juejin.im/post/5aa77049f265da237410a54b
 
 https://laravel-china.github.io/php-the-right-way/
+
+includ
+http://php.net/manual/ja/function.include.php
