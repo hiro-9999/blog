@@ -27,3 +27,6 @@ http://buburinweb.wp.xdomain.jp/html-php-part
 <?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
  
 </div>
+https://nabewakashi.com/php-include
+
+https://teach.web-represent.link/category/wordpress/
