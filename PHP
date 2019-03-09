@@ -10,3 +10,6 @@ https://laravel-china.github.io/php-the-right-way/
 
 includ
 http://php.net/manual/ja/function.include.php
+
+require：
+https://woshidan.hatenablog.com/entry/2014/02/06/071512
