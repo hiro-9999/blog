@@ -17,3 +17,13 @@ https://woshidan.hatenablog.com/entry/2014/02/06/071512
 静的HTMLサイトの共通部分をPHPによるパーツ化する方法
 http://buburinweb.wp.xdomain.jp/html-php-part
 <?php include (dirname(__FILE__).'gnav.html'); ?>
+
+
+共通部分
+http://buburinweb.wp.xdomain.jp/html-php-part
+<div id="header">ヘッダー部分になります
+ 
+// ▼共通化するグローバルナビゲーション部分を、PHPのinclude関数を使って読み込み
+<?php include( $_SERVER['DOCUMENT_ROOT'] . '/global_menu.php'); ?>
+ 
+</div>
