@@ -9,3 +9,12 @@ http://www.booklist.mobi
 web books
 https://juejin.im/post/5c0098f66fb9a049dd80019e
 https://www.jianshu.com/p/f7a82e01681f
+
+
+《微服务：从设计到部署》这本书是 Chris Richardson 和 Floyd Smith 联合编写的微服务电子书 Designing and Deploying Microservices 的中文版，其从不同角度全面介绍了微服务：微服务的优点与缺点、API 网关、进程间通信（IPC）、服务发现、事件驱动数据管理、微服务部署策略、重构单体。
+
+书籍地址：
+
+Github：https://github.com/oopsguy/microservices-from-design-to-deployment-chinese
+
+GitBook：https://www.gitbook.com/book/docshome/microservices/details
