@@ -30,3 +30,6 @@ http://buburinweb.wp.xdomain.jp/html-php-part
 https://nabewakashi.com/php-include
 
 https://teach.web-represent.link/category/wordpress/
+
+//submit
+https://www.formget.com/php-post-get/
