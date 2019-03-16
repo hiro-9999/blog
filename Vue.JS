@@ -1,6 +1,22 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+官网 (PC 端)：https://nutui.jd.com
+
+Github 仓库：https://github.com/jdf2e/nutui/
+
+更新日志：https://github.com/jdf2e/nutui/releases
+
+反馈建议：https://github.com/jdf2e/nutui/issues
+
+NutUI 按需加载插件：
+https://www.npmjs.com/package/@nutui/babel-plugin-separate-import
+
+Vue 模板工程构建工具：https://www.npmjs.com/package/gaea-cli
+
+不依赖 wifi 热点的 H5 真机测试工具 Carefree: https://carefree.jd.com/
+
+
 https://www.getrevue.co/profile/vuenewsletter
 
 UI example:
