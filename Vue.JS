@@ -8,6 +8,12 @@ https://github.com/ElemeFE/element
 iview:
 https://www.iviewui.com/
 
+//Beginning Vue.js
+Gary JenningsAndrea Passaglia
+
+//Hands-On Styling Vue.js Web Apps with Element UI and iView
+Haider Rehman
+
 官网 (PC 端)：https://nutui.jd.com
 
 Github 仓库：https://github.com/jdf2e/nutui/
