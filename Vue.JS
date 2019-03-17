@@ -3,6 +3,7 @@ http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
 UI:
 https://element.eleme.io/#/en-US
+https://github.com/ElemeFE/element
 
 官网 (PC 端)：https://nutui.jd.com
 
