@@ -1,6 +1,9 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+UI:
+https://element.eleme.io/#/en-US
+
 官网 (PC 端)：https://nutui.jd.com
 
 Github 仓库：https://github.com/jdf2e/nutui/
