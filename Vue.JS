@@ -7,7 +7,8 @@ https://element.eleme.io/#/en-US
 https://github.com/ElemeFE/element
 iview:
 https://www.iviewui.com/
-
+//LEARNING PATH: Build 7 Real World Applications with Vue.js
+By Daniel Khalil, Jack Herrington and Rushabh Jadvani
 //Beginning Vue.js
 Gary JenningsAndrea Passaglia
 
