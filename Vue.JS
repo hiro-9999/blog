@@ -9,8 +9,11 @@ Since I didn’t deploy the index.html to a remote server or build a custom app 
     I will continue to use Browsersync ( https://www.browsersync.io/ ) for loading files during local development.
 
 To install Browsersync, Node.js and NPM are required. The good news is that both are installed 
-when you install Node.js. Node.js can be installed by following the directions at https://nodejs.org/ .
-
+when you install Node.js. Node.js can be installed by following the directions at https://nodejs.org/ 
+                                        
+note.js.
+https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09
+                                        
 UI:
 element:
 https://element.eleme.io/#/en-US
