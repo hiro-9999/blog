@@ -12,6 +12,8 @@ Vue.config.devtools = true;
 https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ja
 
 https://cli.vuejs.org/
+sudo npm i -g typescript
+npm install -g @vue/cli
 
 BROWSERSYNC
 In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
