@@ -12,7 +12,10 @@ Vue.config.devtools = true;
 https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ja
 
 https://cli.vuejs.org/
+
 npm install -g yarn
+yarn install
+ yarn upgrade ts-node@8.0.1
 sudo npm i -g typescript
 
 npm install -g @vue/cli
