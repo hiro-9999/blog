@@ -1,6 +1,14 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+new Vue({
+el: '#app',
+data: {
+message: 'hello world'
+}
+});
+Vue.config.devtools = true;
+
 BROWSERSYNC
 In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
 This means it was being served from a server at localhost port 3000. 
