@@ -12,7 +12,9 @@ Vue.config.devtools = true;
 https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ja
 
 https://cli.vuejs.org/
+npm install -g yarn
 sudo npm i -g typescript
+
 npm install -g @vue/cli
 
 BROWSERSYNC
