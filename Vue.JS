@@ -1,6 +1,7 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+Vue.config.devtools = true;
 new Vue({
 el: '#app',
 data: {
@@ -8,6 +9,7 @@ message: 'hello world'
 }
 });
 Vue.config.devtools = true;
+https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ja
 
 BROWSERSYNC
 In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
