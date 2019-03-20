@@ -43,6 +43,7 @@ brew install nodebrew
 Vue > Visual Studio Code デバッグ
 https://qiita.com/sugasaki/items/71d16a9dbf331e77a902
 npm install -g jshint
+debugger;
 
 環境記事
 https://cloudpack.media/43084
