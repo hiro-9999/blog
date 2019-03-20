@@ -1,6 +1,16 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+BROWSERSYNC
+In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
+This means it was being served from a server at localhost port 3000. 
+Since I didn’t deploy the index.html to a remote server or build a custom app to view it, 
+  I was able to use Browsersync for hosting the files locally. Unless otherwise noted, 
+    I will continue to use Browsersync ( https://www.browsersync.io/ ) for loading files during local development.
+
+To install Browsersync, Node.js and NPM are required. The good news is that both are installed 
+when you install Node.js. Node.js can be installed by following the directions at https://nodejs.org/ .
+
 UI:
 element:
 https://element.eleme.io/#/en-US
