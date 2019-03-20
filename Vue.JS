@@ -28,6 +28,12 @@ npm install -D typescript
 npm install -g ts-node
 npm install -g typescript
 
+vue-cli 
+https://qiita.com/atoris/items/6e603e59228f0ccadfd8
+npm uninstall vue-cli -g
+npm i -g yarn
+yarn --version
+
 https://www.te-nu.com/entry/2018/09/20/154714
 環境：　https://qiita.com/reflet/items/16f90cbb0db68fd6a498
 brew install nodebrew
