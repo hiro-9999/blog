@@ -23,6 +23,9 @@ sudo npm i -g typescript
 
 npm install -g @vue/cli
 
+環境記事
+https://cloudpack.media/43084
+
 BROWSERSYNC
 In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
 This means it was being served from a server at localhost port 3000. 
