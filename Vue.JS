@@ -40,12 +40,8 @@ https://www.te-nu.com/entry/2018/09/20/154714
 環境：　https://qiita.com/reflet/items/16f90cbb0db68fd6a498
 brew install nodebrew
 
-npm install -g yarn
-yarn install
- yarn upgrade ts-node@8.0.1
-sudo npm i -g typescript
-
-npm install -g @vue/cli
+Vue > Visual Studio Code デバッグ
+https://qiita.com/sugasaki/items/71d16a9dbf331e77a902
 
 環境記事
 https://cloudpack.media/43084
