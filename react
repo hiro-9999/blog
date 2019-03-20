@@ -1,5 +1,8 @@
 Enzyme为React.js应用提供的快速组件级UI测试功能
 
+Reactをはじめます＆デバッグ環境も
+http://babywkb.hatenablog.com/entry/2018/03/03/001330
+https://qiita.com/ozepon/items/d5659f068ed1408f3c17
 
 //想了解React Suspense的更多信息，可以看看Dan Abramov的关于使用Suspense API来构建应用程序的演讲：
 https://medium.com/@dan_abramov。
