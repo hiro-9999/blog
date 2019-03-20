@@ -24,3 +24,6 @@ npm run start:watch
 
 //https://www.toutiao.com/a6642115403436786179/
 CLI工具包已经成为开发人员在2018年创建应用程序的主要方式。流行的框架包括Next.js（React的服务端渲染(SSR)）、Create-React-App（客户端React）、Nuxt.js（Vue的服务端渲染(SSR)）、Vue CLI（客户端Vue）、Expo CLI for React Native，当然默认地也包括Angular。
+
+SonarQuber:
+https://kakkoyakakko2.hatenablog.com/entry/2019/02/12/003000
