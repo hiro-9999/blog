@@ -13,6 +13,9 @@ https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanh
 
 https://cli.vuejs.org/
 
+環境：　https://qiita.com/reflet/items/16f90cbb0db68fd6a498
+brew install nodebrew
+
 npm install -g yarn
 yarn install
  yarn upgrade ts-node@8.0.1
