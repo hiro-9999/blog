@@ -15,6 +15,12 @@ note.js.
 https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09
 https://qiita.com/Alex_mht_code/items/422f5ce10d9c9d5729b7
                                         
+# nodebrew setup時に打つと出てきたやつ
+export PATH=/usr/local/var/nodebrew/current/bin:$PATH
+export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+npm update -g npm
+                                        
 UI:
 element:
 https://element.eleme.io/#/en-US
