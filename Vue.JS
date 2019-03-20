@@ -13,6 +13,8 @@ https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanh
 
 https://cli.vuejs.org/
 
+npm install --save-dev typescript ts-loader
+https://qiita.com/isihigameKoudai/items/70c0cb93931cf508a53a
 環境：　https://qiita.com/reflet/items/16f90cbb0db68fd6a498
 brew install nodebrew
 
