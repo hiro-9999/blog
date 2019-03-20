@@ -11,6 +11,8 @@ message: 'hello world'
 Vue.config.devtools = true;
 https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd/related?hl=ja
 
+https://cli.vuejs.org/
+
 BROWSERSYNC
 In Figure 1-1, the address that the browser was viewing was http://localhost:3000/. 
 This means it was being served from a server at localhost port 3000. 
