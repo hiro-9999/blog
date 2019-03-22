@@ -21,6 +21,16 @@ https://github.com/googlesamples/android-architecture-components/tree/master/Wor
 
 WorkManager:
 https://qiita.com/ikemura23/items/e67634dafd537243327b
+WorkManager APIを使用すると、遅延タスク、非同期タスク、および実行するタイミングを簡単に指定できます。これらのAPIを使用すると、タスクを作成し、
+即時または適切なタイミングでWorkManagerに渡すことができます。
+デバイスAPIレベルやアプリ状態などの要因に基づいて、タスクを実行するための適切な方法を選択します。
+アプリケーションの実行中にWorkManagerがいずれかのタスクを実行すると、WorkManagerはアプリケーションのプロセス内の新しいスレッドでタスクを実行できます。
+あなたのアプリが実行されていない場合、ワークマネージャは、バックグラウンドタスクをスケジュールするための適切な方法を選択します-デバイスの
+APIレベルに応じたとの依存関係を含め、ワークマネージャが使用する可能性のある JobScheduler、Firebase JobDispatcherを、かAlarmManager。
+
+JobScheduler
+https://qiita.com/kofuk/items/d32dbd05b70c0fa73010
+
 
 Build a complete native mobile app with NativeScript-Vue:
 https://medium.com/learning-lab/lessons-learned-on-writing-apps-with-nativescript-vuejs-bd6a3066f0cb
