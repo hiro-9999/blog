@@ -3,6 +3,9 @@ https://akira-watson.com/android/adt-mac.html
  cd /Library/Java/JavaVirtualMachines/
  
  /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home
+ 
+ 
+ https://developer.android.com/about/versions/pie/android-9.0-migration?hl=ja
 
 ユニットテスト - Spek
 https://dev.classmethod.jp/smartphone/android-spek-kotlin/
