@@ -6,6 +6,8 @@ https://qiita.com/shinyay/items/f699c94a20a2071c3694
 
 https://github.com/moriiimo/UnitTestWithSpek
 
+./gradlew cleanBuildCache
+https://developer.android.com/studio/build/build-cache#clear_the_build_cache
 
 Androidアプリの.gitignore
 https://qiita.com/jumperson/items/fa66995fb68de2847ffd
