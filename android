@@ -1,6 +1,8 @@
 Android Studio をMacにインストールする
 https://akira-watson.com/android/adt-mac.html
  cd /Library/Java/JavaVirtualMachines/
+ 
+ /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home
 
 ユニットテスト - Spek
 https://dev.classmethod.jp/smartphone/android-spek-kotlin/
