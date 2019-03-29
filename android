@@ -3,8 +3,9 @@ https://akira-watson.com/android/adt-mac.html
  cd /Library/Java/JavaVirtualMachines/
  
  //Android Studio で AARファイルを作って読み込む
+ https://developer.android.com/studio/projects/android-library?hl=ja
  https://qiita.com/izuki_y/items/bd61a2cf8473bf6bd9fb
- 
+ https://techbooster.org/android/18043/
  
  ./gradlew assembleDebug --info
  
