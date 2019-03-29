@@ -2,6 +2,9 @@ Android Studio をMacにインストールする
 https://akira-watson.com/android/adt-mac.html
  cd /Library/Java/JavaVirtualMachines/
  
+ //Android Studio で AARファイルを作って読み込む
+ https://qiita.com/izuki_y/items/bd61a2cf8473bf6bd9fb
+ 
  
  ./gradlew assembleDebug --info
  
