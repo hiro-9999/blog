@@ -30,6 +30,9 @@ https://qiita.com/jumperson/items/fa66995fb68de2847ffd
 Android Studioでエラー詳細を表示する方法
 https://develop.hateblo.jp/entry/2018/08/31/084811
 
+HLS ABR
+https://cloudpack.media/39343
+
 
 ./gradlew assembleDebug --stacktrace
 
