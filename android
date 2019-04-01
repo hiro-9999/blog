@@ -30,6 +30,10 @@ https://qiita.com/jumperson/items/fa66995fb68de2847ffd
 Android Studioでエラー詳細を表示する方法
 https://develop.hateblo.jp/entry/2018/08/31/084811
 
+java 
+ls -l /System/Library/Frameworks/JavaVM.framework/Versions
+https://qiita.com/ringo/items/db58b34dc02a941b297f
+
 HLS ABR
 https://github.com/google/ExoPlayer/blob/release-v2/demos/main/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java
  TrackSelection.Factory trackSelectionFactory;
