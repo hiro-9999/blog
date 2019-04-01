@@ -32,6 +32,13 @@ https://develop.hateblo.jp/entry/2018/08/31/084811
 
 java 
  /usr/libexec/java_home -V
+ brew install jenv
+ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+ echo 'eval "$(jenv init -)"' >> ~/.zshrc
+ source ~/.zshrc
+ jenv add $(/usr/libexec/java_home -v 1.8) 
+  jenv versions
+  jenv global 1.8
 https://qiita.com/takuya71/items/8d670d8f216af87cfe01
 
 HLS ABR
