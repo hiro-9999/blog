@@ -31,6 +31,19 @@ Android Studioでエラー詳細を表示する方法
 https://develop.hateblo.jp/entry/2018/08/31/084811
 
 HLS ABR
+https://github.com/google/ExoPlayer/blob/release-v2/demos/main/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java
+ TrackSelection.Factory trackSelectionFactory;
+      String abrAlgorithm = intent.getStringExtra(ABR_ALGORITHM_EXTRA);
+      if (abrAlgorithm == null || ABR_ALGORITHM_DEFAULT.equals(abrAlgorithm)) {
+        trackSelectionFactory = new AdaptiveTrackSelection.Factory();
+      } else if (ABR_ALGORITHM_RANDOM.equals(abrAlgorithm)) {
+        trackSelectionFactory = new RandomTrackSelection.Factory();
+      } else {
+        showToast(R.string.error_unrecognized_abr_algorithm);
+        finish();
+        return;
+      }
+
 https://zocada.com/adaptive-hls-streaming-android-google-exoplayer/
 https://qiita.com/takusemba/items/f0c505a479bb663af318
 https://medium.com/fungjai/playing-video-by-exoplayer-b97903be0b33
