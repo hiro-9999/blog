@@ -30,6 +30,9 @@ https://qiita.com/jumperson/items/fa66995fb68de2847ffd
 Android Studioでエラー詳細を表示する方法
 https://develop.hateblo.jp/entry/2018/08/31/084811
 
+WIFI環境：
+http://fushiroyama.hatenablog.com/entry/2018/02/21/120937
+
 java 
  /usr/libexec/java_home -V
  brew install jenv
