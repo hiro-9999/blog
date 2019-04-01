@@ -49,6 +49,7 @@ java
    https://qiita.com/takuya71/items/8d670d8f216af87cfe01
 
 HLS ABR
+example :https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/
 https://github.com/google/ExoPlayer/blob/release-v2/demos/main/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java
  TrackSelection.Factory trackSelectionFactory;
       String abrAlgorithm = intent.getStringExtra(ABR_ALGORITHM_EXTRA);
