@@ -39,7 +39,14 @@ java
  jenv add $(/usr/libexec/java_home -v 1.8) 
   jenv versions
   jenv global 1.8
-https://qiita.com/takuya71/items/8d670d8f216af87cfe01
+  jenv doctor
+  java -version
+  export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"
+  jenv enable-plugin export
+  echo $JAVA_HOME
+
+   https://qiita.com/takuya71/items/8d670d8f216af87cfe01
 
 HLS ABR
 https://github.com/google/ExoPlayer/blob/release-v2/demos/main/src/main/java/com/google/android/exoplayer2/demo/PlayerActivity.java
