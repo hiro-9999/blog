@@ -33,7 +33,7 @@ https://develop.hateblo.jp/entry/2018/08/31/084811
 WIFI環境：
 http://fushiroyama.hatenablog.com/entry/2018/02/21/120937
 
-java 
+java http://www.oracle.com/technetwork/java/javase/downloads/index.html
  /usr/libexec/java_home -V
  brew install jenv
  echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
