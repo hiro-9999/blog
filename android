@@ -16,7 +16,9 @@ https://akira-watson.com/android/adt-mac.html
  
  firebase:
  https://firebase.google.com/docs/android/setup?hl=ja
- 
+ https://firebase.google.com/docs/database/android/retrieve-data
+ Query recentPostsQuery = databaseReference.child("posts")
+        .limitToFirst(100);
  
  
  https://developer.android.com/about/versions/pie/android-9.0-migration?hl=ja
