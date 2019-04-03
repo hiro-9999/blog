@@ -22,6 +22,12 @@ https://akira-watson.com/android/adt-mac.html
  
  
  https://developer.android.com/about/versions/pie/android-9.0-migration?hl=ja
+ 
+ 
+ 1) Removed build folder from app -> build
+2) Reboot the device
+3) build -> Clean build
+4) build / run on device
 
 ユニットテスト - Spek
 https://dev.classmethod.jp/smartphone/android-spek-kotlin/
