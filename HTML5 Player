@@ -4,12 +4,25 @@ http://viblast.com/player/#pricing
 https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8
 https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/
 
+//viblast help
+https://support.viblast.com/support/home
 
 http://videosws.praegnanz.de/
 https://github.com/Viblast/videosws
+//DISABLING ABR
+https://docs.viblast.com/player/api-abr
+This can be achieved by setting the data-viblast-abr attribute of the video element to false. The default value is true meaning that abr streaming is enabled.
+
+    <video data-viblast-key="sadQdxx" data-viblast-abr="false" src="stream.mpd" /> 
 
 
 https://docs.viblast.com/player/video-tag-howto
+
+//cors-on-wowza
+https://docs.viblast.com/player/cors/cors-on-wowza
+
+curl -I http://cdn3.viblast.com/streams/hls/airshow/playlist.m3u8
+https://docs.viblast.com/player/before-you-start#how-to-configure-cors-for-my-streaming-server
 
 hls test:
 https://github.com/bitmovin/demos/tree/master/player/stream-test
