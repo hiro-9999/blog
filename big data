@@ -1,0 +1,15 @@
+代码传送门：
+
+https://github.com/facebookresearch/PyTorch-BigGraph
+
+食用索引：
+
+https://torchbiggraph.readthedocs.io/en/latest/
+
+论文传送门：
+
+https://arxiv.org/abs/1903.12287
+
+博客传送门：
+
+https://ai.facebook.com/blog/open-sourcing-pytorch-biggraph-for-faster-embeddings-of-extremely-large-graphs/
