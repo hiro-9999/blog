@@ -19,7 +19,7 @@ This can be achieved by setting the data-viblast-abr attribute of the video elem
 https://docs.viblast.com/player/video-tag-howto
 
 //test url for r18
-https://firebasestorage.googleapis.com/v0/b/r-player.appspot.com/o/splayer-samples%2Fhtmlplayer%2Fr18-live-demo.htm?alt=media&token=434c394d-0fc4-4ca8-88b3-d13813f04f27
+https://firebasestorage.googleapis.com/v0/b/r-player.appspot.com/o/splayer-samples%2Fhtmlplayer%2Fr18-live-demo.htm?alt=media&token=d5b7775c-7786-45e3-9d46-06482430f326
 
 //cors-on-wowza
 https://docs.viblast.com/player/cors/cors-on-wowza
