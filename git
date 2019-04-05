@@ -4,11 +4,25 @@ http://blog.jobbole.com/96088/?utm_medium=hao.caibaojian.com&utm_source=hao.caib
 https://qiita.com/Shaula/items/1e13808946d8ca8bacbc
 https://git-scm.com/docs/git-bisect
 
-Gitのコミットメッセージを後から変更する方法をわかりやすく書いてみた | 株式会社グランフェアズ
-https://www.granfairs.com/blog/staff/git-commit-fix
+
 git commit --amend -m "hahahah"
 git log --oneline
-git rebase -i HEAD~3
-「pick」を「edit」に書き換える
+git rebase -i origin/develop
+「pick」を「edit」に書き換える [r]に書き換える
 git commit --amend -m "hahahah"
 git rebase --continue
+
+
+
+  520  git checkout origin/R18COMDEV-1774_ST_BUG_yama
+  521  git branch -m R18COMDEV-1774_ST_BUG_yama_awdawdawd
+  522  git branch -m R18COMDEV-1774_ST_BUG_yama R18COMDEV-1774_ST_BUG_yama_awdawdawd
+  523  git log
+  524  git checkout -b R18COMDEV-1774_ST_BUG_yama
+  525  git log
+  526  history
+  527  git log
+  528  git rebase -i origin/develop
+  529  git log
+ 
+  532  git push origin R18COMDEV- --force
