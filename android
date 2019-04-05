@@ -5,6 +5,7 @@ https://qiita.com/pside/items/9dad3fa438b4e4f82e88
 pathPrefix
 $ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d http://example.com/test.mp4
 http://wavetalker.blog134.fc2.com/blog-entry-72.html
+  if (Intent.ACTION_VIEW.equals(action)) {
 
 Android Studio をMacにインストールする
 https://akira-watson.com/android/adt-mac.html
