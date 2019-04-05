@@ -4,3 +4,11 @@ http://blog.jobbole.com/96088/?utm_medium=hao.caibaojian.com&utm_source=hao.caib
 https://qiita.com/Shaula/items/1e13808946d8ca8bacbc
 https://git-scm.com/docs/git-bisect
 
+Gitのコミットメッセージを後から変更する方法をわかりやすく書いてみた | 株式会社グランフェアズ
+https://www.granfairs.com/blog/staff/git-commit-fix
+git commit --amend -m "hahahah"
+git log --oneline
+git rebase -i HEAD~3
+「pick」を「edit」に書き換える
+git commit --amend -m "hahahah"
+git rebase --continue
