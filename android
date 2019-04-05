@@ -3,6 +3,7 @@ https://qiita.com/oigus-k/items/03044da9a9f7f1754346
 
 https://qiita.com/pside/items/9dad3fa438b4e4f82e88
 pathPrefix
+$ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d http://example.com/test.mp4
 
 Android Studio をMacにインストールする
 https://akira-watson.com/android/adt-mac.html
