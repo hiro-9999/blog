@@ -12,6 +12,9 @@ https://www.youtube.com/watch?v=N_x7SV3I3P0
 
 https://medium.com/google-developers/introduction-to-motionlayout-part-i-29208674b10d
 
+https://developer.android.com/training/constraint-layout/index.html
+ConstraintLayout is available in an API library that's compatible with Android 2.3 (API level 9) and higher. This page provides a guide to building a layout with ConstraintLayout in Android Studio 3.0 or higher. If you'd like more information about the Layout Editor itself, see the Android Studio guide to Build a UI with Layout Editor.
+
 モザイクをかけたい
 https://qiita.com/furu8ma/items/2ae3bd8a1e9d18707c64
 
