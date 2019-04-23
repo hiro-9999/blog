@@ -7,3 +7,4 @@ https://m.toutiaocdn.com/group/6682886707651543563/?app=news_article&timestamp=1
 論文導讀：利用MI-LSTM預測股價
 這篇文章是2018年剛發表的paper，算是非常新但是滿有趣的方法，針對一般的股票建構一個預測隔日價格的LSTM模型，以下就是他的方法思路。
 
+https://www.finlab.tw/categories/AI看股票/index.html
