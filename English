@@ -5,6 +5,8 @@ https://www.youtube.com/channel/UCHaHD477h-FeBbVh9Sh7syA
 https://www.youtube.com/channel/UC_0NfufarVw04vDfWFm8z_Q
 https://www.engvid.com/
 
+https://learningenglish.voanews.com/a/lets-learn-english-lesson-27-i-cant-come-in/3457316.html
+
 How do I export the YouTube auto-generated captions
 if(yt.config_.TTS_URL.length) window.location.href=yt.config_.TTS_URL+"&kind=asr&fmt=srv1&lang=en"
 https://www.youtube.com/watch?v=hnYwMqwPlUA
