@@ -6,6 +6,7 @@ https://www.youtube.com/channel/UC_0NfufarVw04vDfWFm8z_Q
 https://www.engvid.com/
 
 How do I export the YouTube auto-generated captions
+if(yt.config_.TTS_URL.length) window.location.href=yt.config_.TTS_URL+"&kind=asr&fmt=srv1&lang=en"
 http://titaniumhelp.fullerton.edu/m/FAQ/l/498105-how-do-i-export-the-youtube-auto-generated-captions
 
 GRE
