@@ -1,0 +1,15 @@
+【课程结构】
+        1.微信小程序的设计思路和理念
+        2.微信小程序注册步骤
+        3.小程序安装教程
+        4.微信研发整体架构分析
+        5.js，json，wxss，wxml各自的意义
+        6.第一个例子Hello World的创建和启动
+        7.创建导航栏，程序后台采用ssm，springmvc4+mybatis3+spring4的mvc结构和json数据。
+        8.项目各组件实战
+【区别】
+       1.学习微信小程序，您不需要任何其他语言的基础，请把她当成一种新的语言。
+       2.她不等同于web开发，如果您还认为她就是web开发，那会让人笑话，更是会让同事知道您是个门外汉。
+       
+小程序开发工具
+https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html
