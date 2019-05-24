@@ -1,6 +1,9 @@
 Web側から特定アプリがインストールされているか判定・処理する方法 #魔法のランプ編 - Qiita
 https://qiita.com/oigus-k/items/03044da9a9f7f1754346
 
+json->auto java
+http://www.jsonschema2pojo.org/
+
 //kotlin
 https://kotlinconf.com/2018/talks/
 
