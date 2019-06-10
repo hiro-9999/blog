@@ -15,3 +15,7 @@ Kotlin 和 Java 一样是一种静态类型的编程语言
 
 http://github.com/jetbrains/kotlin
 Kotiin 团队打造的库 Anko (https://github.com/kotlin/anko)
+
+kotlinc 命令就可以从命令行编译代码，然后就可以用 java 命令执行你的代码:
+kotlinc <source file or directory> -include-runtime -d <jar name> 
+Java Jar <Jar name>
