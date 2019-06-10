@@ -19,3 +19,4 @@ Kotiin 团队打造的库 Anko (https://github.com/kotlin/anko)
 kotlinc 命令就可以从命令行编译代码，然后就可以用 java 命令执行你的代码:
 kotlinc <source file or directory> -include-runtime -d <jar name> 
 Java Jar <Jar name>
+在 Kotlin 中， if 是表达式，而不是语句。语句和表达式的区别在于，表达 式有佳，并且能作为另一个表达式的一部分使用;而语句总是包围着它的代码 块中的顶层元素，并且没有自己的值。在 Java 中，所有的控制结构都是语句 。
