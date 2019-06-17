@@ -30,11 +30,12 @@ adb pull /data/data/com.dmm.app.rplayer/databases/prdownloader.db /Users/yamaguc
 
 https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
 https://www.brightcove.com/ja/blog/2017/01/dealing-drm-understanding-drm-and-how-produce-protected-content
-
+ex:
 https://developers.google.com/cast/docs/mpl/streaming_protocols
 https://codelabs.developers.google.com/codelabs/cast-videos-android/#1
 Register your Google Cast device at the Google Cast SDK Developer Console.
 
 You must register the device so that you can use it for testing. See Devices for more information about registering devices.
-
+Start:
 https://developers.google.com/cast/docs/developers#setup_for_development
+https://www.gaprot.jp/pickup/tips/android-chromecast
