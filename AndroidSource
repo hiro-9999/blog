@@ -39,3 +39,7 @@ You must register the device so that you can use it for testing. See Devices for
 Start:
 https://developers.google.com/cast/docs/developers#setup_for_development
 https://www.gaprot.jp/pickup/tips/android-chromecast
+https://android.jlelse.eu/sending-media-to-chromecast-has-never-been-easier-c331eeef1e0a
+
+good ex:
+https://github.com/mkaflowski/HybridMediaPlayer
