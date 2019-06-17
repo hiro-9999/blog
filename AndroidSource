@@ -33,3 +33,8 @@ https://www.brightcove.com/ja/blog/2017/01/dealing-drm-understanding-drm-and-how
 
 https://developers.google.com/cast/docs/mpl/streaming_protocols
 https://codelabs.developers.google.com/codelabs/cast-videos-android/#1
+Register your Google Cast device at the Google Cast SDK Developer Console.
+
+You must register the device so that you can use it for testing. See Devices for more information about registering devices.
+
+https://developers.google.com/cast/docs/developers#setup_for_development
