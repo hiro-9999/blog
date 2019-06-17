@@ -26,3 +26,6 @@ https://stackoverflow.com/questions/41498046/mac-android-studio-emulator-sqlite-
 adb root -s emulator-5554 shell
 adb shell
 adb pull /data/data/com.dmm.app.rplayer/databases/prdownloader.db /Users/yamaguchi-hiro/Desktop/AI  
+
+
+https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
