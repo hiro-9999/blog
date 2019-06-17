@@ -23,3 +23,6 @@ Java Jar <Jar name>
 
 adb deice sqllite
 https://stackoverflow.com/questions/41498046/mac-android-studio-emulator-sqlite-database-actually-find-directory
+adb root -s emulator-5554 shell
+adb shell
+adb pull /data/data/com.dmm.app.rplayer/databases/prdownloader.db /Users/yamaguchi-hiro/Desktop/AI  
