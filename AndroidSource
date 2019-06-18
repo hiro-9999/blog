@@ -43,3 +43,8 @@ https://android.jlelse.eu/sending-media-to-chromecast-has-never-been-easier-c331
 
 good ex:
 https://github.com/mkaflowski/HybridMediaPlayer
+
+
+AndroidStudioでコード整形とimport整理を同時に行うのは
+https://qiita.com/sugoi_wada/items/db449d5cbb5c83cb586c
+自動フォーマット	⌘⌥L
