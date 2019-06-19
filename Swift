@@ -15,3 +15,8 @@ http://toutiao.com/group/6704021305978520067/?iid=74462888875&app=news_article&t
 
 https://github.com/VGVentures/flutter_landmarks
 https://juejin.im/post/5b0eb05e6fb9a009d60a4bff
+
+
+【国内外iOS开发大牛，不愿透露的10个Swift 教程实例，竟惨糟泄漏】https://toutiao.com/group/6615166896830415367/?app=news_article_social&timestamp=1560908428&req_id=201906190940270101520192258599B88&group_id=6615166896830415367&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+https://www.cnswift.org/the-basics
