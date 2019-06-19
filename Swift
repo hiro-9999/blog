@@ -6,7 +6,12 @@ https://developer.apple.com/xcode/swiftui/
 https://developer.apple.com/tutorials/swiftui/tutorials
 
 
-去cocoaChina 或者 code4app 下载源码
+cocoaChina 
+http://www.cocoachina.com/
+
+code4app 
+http://www.code4app.com/
+
 Swift 环境搭建 - Swift教程 | 编程字典
 http://codingdict.com/article/6910
 
