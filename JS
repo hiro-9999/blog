@@ -1,3 +1,14 @@
+ JS好书: 《javascript 高级程序设计》，
+ 《你不知道的Javascript 系列》，
+ 《javascript 语言精粹》，
+ 《javascript设计模式》，《javascript 函数式编程》。这些我都看过。多读几遍而不是一遍就完了。
+看源码: 基础打好，可以开始看业余好的源码，从一些好的库开始如lodash, jQuery，zepto 等，后面慢慢读框架源码。
+大家看看 Douglas Crockford （《JavaScript: The Good Parts》作者）的文章（
+http://crockford.com/javascript
+
+JS 的 OOP 设计（JS当然可以做面向对象设计），推荐你阅读 OOP in JS, 
+Part 1 : Public/Private Variables and Methods 和 Part 2 : Inheritance 这两篇文章。
+
 https://shift.infinite.red/avoid-nightmares-nsfw-js-ab7b176978b1
 AI img
 
