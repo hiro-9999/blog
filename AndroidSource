@@ -1,3 +1,5 @@
+自動フォーマット	⌘⌥L
+
 https://www.manning.com/books/kotlin-in-action
 https://try.kotlinlang.org/
 Kot/in 官方论坛一-https://discuss.kotlinlang.org
@@ -51,3 +53,10 @@ https://github.com/mkaflowski/HybridMediaPlayer
 AndroidStudioでコード整形とimport整理を同時に行うのは
 https://qiita.com/sugoi_wada/items/db449d5cbb5c83cb586c
 自動フォーマット	⌘⌥L
+
+
+Android StudioのLogcatで撮影した動画ファイル(mp4)をgifに変換するツール
+
+- WEBアプリ: https://www.onlineconverter.com/mp4-to-gif
+- デスクトップアプリ(mac): http://www.gifrocket.com/
+
