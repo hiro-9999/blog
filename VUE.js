@@ -1,3 +1,5 @@
+Vue.js/Nuxt.js で実現できたPWAのリアルタイム動画
+
 【力荐 35 个最好用的 Vue 开源库！】
 https://toutiao.com/group/6682538598819955208/?app=news_article_social&timestamp=1560861887&req_id=20190618204446010152035046896147E&group_id=6682538598819955208&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
