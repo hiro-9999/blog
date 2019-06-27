@@ -5,3 +5,29 @@ https://www.slideshare.net/otachan/html5-63938625
 
 ex:
 http://ampdemo.azureedge.net/ams_samplestreams.html
+
+
+
+https://github.com/google/ExoPlayer/issues/5120
+bandwidthMeter = new DefaultBandwidthMeter();
+mediaDataSourceFactory = new DefaultHttpDataSourceFactory(Util.getUserAgent(mActivity, "ottExoPlayer"), (TransferListener) bandwidthMeter);
+hlsMediaFactory = new HlsMediaSource.Factory(mediaDataSourceFactory);
+dashMediaFactory = new DashMediaSource.Factory(mediaDataSourceFactory);
+TrackSelection.Factory videoTrackSelectionFactory = new AdaptiveTrackSelection.Factory();
+DefaultTrackSelector trackSelector = new DefaultTrackSelector(videoTrackSelectionFactory);
+DefaultRenderersFactory rf = new DefaultRenderersFactory(mAppContext);
+LoadControl lc = new DefaultLoadControl();
+PlayerView playerView = new PlayerView(this);
+playerView.setShutterBackgroundColor(Color.TRANSPARENT);
+mLayout.addView(playerView);
+SimpleExoPlayer mPlayer = ExoPlayerFactory.newSimpleInstance(this, rf, trackSelector, lc, null);
+playerView.setPlayer(mPlayer);
+mPlayer.addListener(new PlayerEventListener());
+mPlayer.setPlayWhenReady(true);
+MediaSource mediaSource = hlsMediaFactory.createMediaSource(Uri.parse("http://some-url.m3u8"));
+DefaultTrackSelector.ParametersBuilder pb = trackSelector.buildUponParameters();
+pb.clearSelectionOverrides();
+pb.setMaxVideoBitrate(35000000);
+pb.setMaxVideoSize(4000, 2500);
+trackSelector.setParameters(pb);
+mPlayer.prepare(mediaSource, true, true);
