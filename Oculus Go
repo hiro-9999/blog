@@ -1,0 +1,6 @@
+Oculus Go
+adb devices
+adb shell ip addr show wlan0
+https://www.scriptlife.jp/contents/programming/2018/05/10/oculus-go-adb/
+https://www.scriptlife.jp/contents/programming/2018/05/12/oculus-go-wifi/
+https://qiita.com/massie_g/items/ba6fa38c923d3509e469
