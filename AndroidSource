@@ -5,7 +5,14 @@ https://www.codota.com/code/java/methods/android.content.SharedPreferences$Edito
 https://developer.android.com/reference/android/content/SharedPreferences.Editor
 https://akira-watson.com/android/sharedpreferences.html
 https://www.itcowork.co.jp/blog/?p=3736
-
+https://www.codota.com/code/java/methods/android.content.SharedPreferences/getAll
+/**获取列表大小
+ * @return
+ */
+public int getSize() {
+  Map<String, ?> map = sp.getAll();
+  return map == null ? 0 : map.size();
+}
 
 val prefs = PreferenceManager.getDefaultSharedPreferences(this)
 prefs.edit()
