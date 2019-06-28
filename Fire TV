@@ -1,3 +1,12 @@
 https://developer.amazon.com/ja/docs/fire-tv/getting-started-developing-apps-and-games.html
 ウェブアプリのカスタマイズ： HTML5ウェブ開発者は、Amazon WebViewを利用してアプリやゲームを開発できます。開発の成果物として、HTML5ウェブアプリ、
 Fire OSポートを使用するCordovaアプリ、ハイブリッドアプリのいずれかを選択できます
+
+
+H.265 (HEVC)
+(High Efficiency Video Coding)	video/hevc	
+Hardware accelerated up to 3840x2160p (4K) @ 60fps, 35 Mbps, Main 10 Profile Level 5.1, Color space 8-bit and 10-bit input with HDR10, HDR10+, HLG, and Dolby Vision support in rendering pipelines.
+
+
+H.264	video/avc
+Hardware accelerated up to 1080p @ 30fps or 720p @ 60fps, 20 Mbps, High Profile up to Level 4 (?)
