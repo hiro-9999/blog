@@ -1,4 +1,33 @@
 自動フォーマット	⌘⌥L
+
+//SharedPreferences
+https://www.codota.com/code/java/methods/android.content.SharedPreferences$Editor/clear
+https://developer.android.com/reference/android/content/SharedPreferences.Editor
+https://akira-watson.com/android/sharedpreferences.html
+https://www.itcowork.co.jp/blog/?p=3736
+
+
+val prefs = PreferenceManager.getDefaultSharedPreferences(this)
+prefs.edit()
+     .clear()
+     .commit()
+     
+     
+     
+     SharedPreferences settings = ctx.getSharedPreferences(PREFS_NAME,0);
+  SharedPreferences.Editor ed = settings.edit();
+  ed.clear();
+  ed.putString(region,sregion);
+  ed.commit();
+  
+  
+SharedPreferences  prefA = getSharedPreferences("MyAttack", MODE_PRIVATE);
+  Map<String,?> keys = prefs.getAll();
+
+for(Map.Entry<String,?> entry : keys.entrySet()){
+    Log.d("map values",entry.getKey() + ": " + entry.getValue().toString());            
+}
+
 https://www.youtube.com/watch?v=jAZn-J1I8Eg
 https://www.youtube.com/watch?v=svdq1BWl4r8
 https://github.com/google/ExoPlayer
