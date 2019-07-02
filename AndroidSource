@@ -7,6 +7,17 @@ https://developer.android.com/reference/android/content/SharedPreferences.Editor
 https://akira-watson.com/android/sharedpreferences.html
 https://www.itcowork.co.jp/blog/?p=3736
 https://www.codota.com/code/java/methods/android.content.SharedPreferences/getAll
+<activity android:configChanges="orientation|screenSize">を使って縦向き・横向きの変更をコード内で処理することができますが、Activity起動時など、onConfigurationChangedが呼ばれる前にどっち向きかを判定するには下記のコードを使います。
+
+int orientation = getResources().getConfiguration().orientation;
+
+if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
+  // 横向きの場合
+}
+
+if (orientation == Configuration.ORIENTATION_PORTRAIT) {
+  // 縦向きの場合
+}
 /**获取列表大小
  * @return
  */
