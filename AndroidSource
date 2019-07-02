@@ -10,7 +10,18 @@ https://www.codota.com/code/java/methods/android.content.SharedPreferences/getAl
 <activity android:configChanges="orientation|screenSize">を使って縦向き・横向きの変更をコード内で処理することができますが、Activity起動時など、onConfigurationChangedが呼ばれる前にどっち向きかを判定するには下記のコードを使います。
 https://developer.android.com/guide/topics/resources/runtime-changes?hl=ja
 int orientation = getResources().getConfiguration().orientation;
+https://akira-watson.com/android/button-hardcoding.html
 
+        ViewGroup.LayoutParams params = spinnerLayout.getLayoutParams();
+
+
+        if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+            // 横向きの場合
+            Log.v("onConfigurationChanged","LANDSCAPE");
+            int height = (int) TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, 170, getResources().getDisplayMetrics());
+            params.height = height;
+            params.width = ViewGroup.LayoutParams.WRAP_CONTENT;
+            spinnerLayout.setLayoutParams(params);
 if (orientation == Configuration.ORIENTATION_LANDSCAPE) {
   // 横向きの場合
 }
