@@ -1,0 +1,16 @@
+https://qiita.com/supertaihei02/items/53e36252afa3ea157d38
+
+$m = new Memcached();
+$m->addServer('localhost', 11211);
+$m->set('foo','var',60); // 60秒からfooというキーでvarという値をキャッシュします
+var_dump($m->get('foo'));
+$m->add('hoge','fuga',60); // set同様に値をキャッシュします
+$m->add('hoge','piyo',60); // addは同一キーが存在する場合失敗するので次のvar_dumpではfugaのままです
+var_dump($m->get('hoge'));
+$m->flush(); // 全てのキャッシュデータを削除します
+var_dump($m->get('foo')); // 削除されているためFALSEが返ります
+
+https://qiita.com/juve_534/items/54f7732641a406f31b55
+//MySQLでMemcachedプロトコルを使う
+https://www.s-style.co.jp/blog/2018/01/1491/
+https://www.s-style.co.jp/blog/2018/01/1479/
