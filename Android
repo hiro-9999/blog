@@ -82,3 +82,130 @@ Android Framework 开发
 
 我帮他一看，这不是必然的么，你的XX技术应该用在YY场景下，结果你用到XX场景下，肯定是不行的。
 
+Web側から特定アプリがインストールされているか判定・処理する方法 #魔法のランプ編 - Qiita
+https://qiita.com/oigus-k/items/03044da9a9f7f1754346
+
+json->auto java
+http://www.jsonschema2pojo.org/
+https://qiita.com/riversun/items/cdd990e96c2bbf9cb043
+
+
+https://lab.syncer.jp/Tool/JSON-Viewer/
+
+//kotlin
+https://kotlinconf.com/2018/talks/
+
+https://qiita.com/pside/items/9dad3fa438b4e4f82e88
+pathPrefix
+$ adb shell am start -a android.intent.action.VIEW -c android.intent.category.BROWSABLE -d http://example.com/test.mp4
+http://wavetalker.blog134.fc2.com/blog-entry-72.html
+  if (Intent.ACTION_VIEW.equals(action)) {
+
+Android Studio をMacにインストールする
+https://akira-watson.com/android/adt-mac.html
+ cd /Library/Java/JavaVirtualMachines/
+ 
+ //Android Studio で AARファイルを作って読み込む
+ https://developer.android.com/studio/projects/android-library?hl=ja
+ https://qiita.com/izuki_y/items/bd61a2cf8473bf6bd9fb
+ https://techbooster.org/android/18043/
+ 
+ ./gradlew assembleDebug --info
+ 
+ /Applications/Android Studio.app/Contents/jre/jdk/Contents/Home
+ 
+ arrow-kt:
+ https://github.com/arrow-kt/arrow
+ 
+ firebase:
+ https://firebase.google.com/docs/android/setup?hl=ja
+ https://firebase.google.com/docs/database/android/retrieve-data
+ Query recentPostsQuery = databaseReference.child("posts")
+        .limitToFirst(100);
+ 
+ 
+ https://developer.android.com/about/versions/pie/android-9.0-migration?hl=ja
+ 
+ 
+ 1) Removed build folder from app -> build
+2) Reboot the device
+3) build -> Clean build
+4) build / run on device
+https://www.techsfo.com/blog/2014/04/android-app-connecting-to-google-drive-with-google-apis-client-library-for-java-part-3/
+
+ユニットテスト - Spek
+https://dev.classmethod.jp/smartphone/android-spek-kotlin/
+https://github.com/spekframework/spek
+https://qiita.com/shinyay/items/f699c94a20a2071c3694
+
+https://github.com/moriiimo/UnitTestWithSpek
+
+./gradlew cleanBuildCache
+https://developer.android.com/studio/build/build-cache#clear_the_build_cache
+
+Androidアプリの.gitignore
+https://qiita.com/jumperson/items/fa66995fb68de2847ffd
+
+Android Studioでエラー詳細を表示する方法
+https://develop.hateblo.jp/entry/2018/08/31/084811
+
+WIFI環境：
+http://fushiroyama.hatenablog.com/entry/2018/02/21/120937
+
+java http://www.oracle.com/technetwork/java/javase/downloads/index.html
+ /usr/libexec/java_home -V
+ brew install jenv
+ echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.zshrc
+ echo 'eval "$(jenv init -)"' >> ~/.zshrc
+ source ~/.zshrc
+ jenv add $(/usr/libexec/java_home -v 1.8) 
+  jenv versions
+  jenv global 1.8
+  jenv doctor
+  java -version
+  export PATH="$HOME/.jenv/bin:$PATH"
+  eval "$(jenv init -)"
+  jenv enable-plugin export
+  echo $JAVA_HOME
+
+   https://qiita.com/takuya71/items/8d670d8f216af87cfe01
+
+HLS ABR
+example :https://bitmovin.com/mpeg-dash-hls-examples-sample-streams/
+https://github.com/google/ExoPlayer/tree/release-v2/demos
+     ==>example https://devstreaming-cdn.apple.com
+ TrackSelection.Factory trackSelectionFactory;
+      String abrAlgorithm = intent.getStringExtra(ABR_ALGORITHM_EXTRA);
+      if (abrAlgorithm == null || ABR_ALGORITHM_DEFAULT.equals(abrAlgorithm)) {
+        trackSelectionFactory = new AdaptiveTrackSelection.Factory();
+      } else if (ABR_ALGORITHM_RANDOM.equals(abrAlgorithm)) {
+        trackSelectionFactory = new RandomTrackSelection.Factory();
+      } else {
+        showToast(R.string.error_unrecognized_abr_algorithm);
+        finish();
+        return;
+      }
+
+https://zocada.com/adaptive-hls-streaming-android-google-exoplayer/
+https://qiita.com/takusemba/items/f0c505a479bb663af318
+https://medium.com/fungjai/playing-video-by-exoplayer-b97903be0b33
+https://cloudpack.media/39343
+
+
+./gradlew assembleDebug --stacktrace
+
+廃止されたコンフィグレーション
+https://developer.android.com/studio/build/dependencies?utm_source=android-studio#dependency_configurations
+
+Android P 　API 28
+https://developer.android.com/about/versions/pie/android-9.0-migration?hl=ja
+
+
+err 3.3 
+https://qiita.com/kasa_le/items/e2682235db901032f00c
+
+google-services.jsonの設定方法
+https://qiita.com/farman0629/items/11c498af824f02a484b6
+
+https://www.jianshu.com/p/1b646df2235b
+
