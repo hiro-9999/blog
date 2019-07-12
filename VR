@@ -1,0 +1,237 @@
+Skip to content
+Safari Home
+Resource Centers
+Playlists
+History
+Topics
+Learning Paths
+Offers & Deals
+Newsletters
+Highlights
+Settings
+Support
+Sign Out
+Table of Contents for  Unreal for Mobile and Standalone VR: Create Professional VR Apps Without Coding
+Search in book...
+
+Toggle Font Controls
+PREV Previous Chapter
+8. Performance, Profiling, and Optimizations
+NEXT Next Chapter
+Back Matter
+© Cornel Hillmann 2019
+Cornel HillmannUnreal for Mobile and Standalone VR
+https://doi.org/10.1007/978-1-4842-4360-2_9
+9. Conclusion and Resources
+Cornel Hillmann1 
+(1)
+Singapore, Singapore
+ 
+Introduction
+This last chapter of the book summarizes where we stand in the evolution of mobile and standalone VR and assesses what may be next. At this point, we can safely state that what we are witnessing is only the beginning of a new era of immersive media and that the rate of innovation will most likely accelerate rapidly once consumer adoption picks up.
+
+One of the reasons for the expected acceleration is the synergy in related technology areas. We will look at the areas that are most likely to be important in the near-term future. After that, we will look at important resources for VR development, Oculus- and Unreal-specific online destinations, as well as VR news sites, CG resources, and asset libraries. Last but not least, we will look at some of the most important and influential books on these subjects.
+
+Where Is Mobile and Standalone VR Headed?
+Mobile and standalone VR is currently the choice for untethered, frictionless, consumer-friendly VR on the go. While VR development had a focus on high-end PC-based VR for a long time, the shift to mobile Android-based systems is an important step toward a broader audience. The challenge is bringing the core magic of high-end VR to a mobile device with limited capabilities. This transition turns out to be a process of optimization and focus on the essential qualities of a VR experience. Let’s not forget that this separation between tethered and mobile is only temporary. The endgame for all variations of VR is mobile anyway, whether through wireless transmission or enabled through the 5G cloud.
+
+Mobile and Standalone VR Is Only Getting Started
+Mobile and standalone VR development using Unreal is accelerating in efficiency and accessibility of the toolset. It is becoming increasingly feasible for small design studios or individual freelancers to build specialized VR applications to communicate ideas and utilize the potential of immersive storytelling. Interactive VR apps for marketing, education, and enterprise application have become possible to produce with smaller teams, on shorter timelines, without the typical coding bottleneck, thanks to the power and efficiency of the Blueprint system in Unreal. Building game logic with visual scripting is the part of the evolution that allows the next generation of immersive applications to be created by VR media designers.
+
+Unreal and Unreal Studio are being adopted by design studios to extend their services from static visualization to fully interactive, real-time experiences. A technical artist who previously built solutions in Maya using MEL script will have no problem picking up Blueprints, and by doing that, expanding his toolset to bring his 3D creations to the next level.
+
+VR is a great empowerment for 3D artists, as it allows the user to experience the scale of creations. As a 3D designer and world builder, you can live in your ideas, you are able to build your own reality. VR is accelerating the importance of CG art, as the immersive XR future will need a lot of assets to be built. As the interconnected XR world grows, it will need talent to innovate and ideas to reinvent designs and reimagine the visual language of interaction.
+
+Let’s not forget that we are today at the very first generation of standalone VR headsets. If we compare this perspective with the rapid evolution of the smartphone, from its humble first generation of devices, we can expect at least a similar revolution in technical breakthroughs and consumer adaptation.
+
+The first generation of smartphones was clunky, hard to understand, slow, and tedious to operate. Today’s standalone headsets already have a better head start, are much slicker and intuitive, and are being used in a lot of different ways by a growing fan base of enthusiasts. Nevertheless, for the average consumers to buy into it, quality needs to go up and friction has to come down. Consumers haven’t really seen individual pixels on a screen in ages. Most consumers have become used to 4K TVs and high-definition mobile screens, and expect the same from any other devices, no matter what the technicalities are and what marvel it holds in other areas. But, similar to the first generation of smartphones, consumer VR still has to overcome difficult hurdles to get the attention and approval of consumers.
+
+The emerging field of XR devices including VR, AR, and mixed-reality devices is on its way to finding consumer approval through experimentation and iteration, through throwing concepts against the wall until something sticks. As XR is taking shape, we still don’t know its final form, which devices will dominate, or which application will be the most popular.
+
+What Is Next?
+It is sometimes overlooked that development and innovation in the XR ecosystem is not linear, but the result of synergy between complementary technologies that accelerate in dynamically connected developments. Very often, disruptive technologies evolves behind closed doors and, once released to the market, trigger a rapid succession of innovation breakthroughs through its affiliation network effect. Let’s look at some of the emerging trends that are not yet in the spotlight, but will have an enormous impact in the future once the larger XR environment is ready to support them.
+
+The New Frontiers of Mixed-Reality XR
+VR and AR are mostly addressing different areas in current developments, but that could change quickly. It was stated at a recent Magic Leap developer conference, that mixed realities between AR and VR have a lot of potential and benefits for consumers, especially in terms of e-sports applications. We already see the emergence of asynchronous gameplay apps such as Covert, where a VR player cooperates with a player using a tablet. It is safe to assume that we will see more mixed-reality environments, where users have the option to join using a VR headset on an AR device or any mobile device, such as a tablet or smartphone, sharing the same spatial playground (see Figure 9-1).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig1_HTML.jpg
+Figure 9-1Joining a VR headset with a tablet for co-op gameplay with Covert
+Developers using Unreal benefit once again from the high degree of SDK integration for the different platforms. Addressing the basic controller functions for the Magic Leap is not much different than for the Oculus Go. Mixed-reality environments, especially e-sport titles with a strong spatial factor, will open up opportunities for innovation that will draw more users.
+
+The Coming WebVR Boom
+The fact that WebVR apps are lightweight, and that no storefront doorkeepers can restrict access to them, makes the former ideal for experimentation, one-offs, and non-commercial showcases. As WebVR is mostly driven by open source software, its community has a distinct free, open-minded, and friendly spirit that helps motivate contributors.
+
+Flexible, free, and easy-to-learn tools such as A-Frame (see Figure 9-2) allow users to build slick WebVR applications using HTML and JavaScript. A passionate and enthusiastic developer community is constantly pushing the boundaries of what is possible with WebVR. We can expect a diverse, rich, and highly connected WebVR world in the near future, where users can seamlessly travel between WebVR URLs to experience personal expressions, music videos, and original art show pieces.
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig2_HTML.jpg
+Figure 9-2A WebVR experience build with A-Frame
+An additional showcase for a WebVR project using social mixed-reality is Hubs by the open source group Mozilla. It’s a free, easy-to-use, multiplatform, VR chat room that allows users to log in from a VR web browser using a headset and be joined by any mobile device or PC. The open and accessible nature of the project is a prime showcase of what WebVR is capable of (see Figure 9-3).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig3_HTML.jpg
+Figure 9-3Hubs by Mozilla
+Sharing a video with friends in a Hubs VR chat room is as easy as pasting a YouTube URL. The pasted URL gets automatically converted into a shared 3D scene object and can be moved and positioned anywhere in the chat room. It is currently the only app that lets users from any VR platform communicate with each other.
+
+The Social Future of VR Is Centered Around the Avatar
+Almost everyone in the XR industry agrees that the future of XR is social. For example, Facebook has defined the purpose of VR is to bring people together. Multiplayer VR titles are at the forefront of the social-VR vision. And, it has been shown that the social aspect of VR is important to users. Central to the social experience is the avatar and how it conveys emotions. Oculus has made its avatar SDK, available to developers. It is integrated into Unreal with a plugin (see Figure 9-4).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig4_HTML.png
+Figure 9-4The Oculus avatar plugin in Unreal
+The avatar plugin allows developers to integrate the Oculus avatar and its features, such as gestures and lip-synch into a project. The added benefit for users is a consistent experience with their avatar across VR applications. Oculus is constantly improving its avatar feature set and we can expect them to be at the forefront of the next wave of consumer avatars (see Figure 9-5).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig5_HTML.jpg
+Figure 9-5The Oculus avatar customizer
+Avatars are destined to become a consumer phenomenon, most likely only comparable to the smartphone selfie explosion. Avatars are a form of self expression and a way for users to present themselves in an idealized way. Avatar technology will become highly accelerated once eye tracking and user photo-mapping becomes available.
+
+Productivity and the Virtual Workspace
+It may turn out that productivity applications are the killer apps that the industry is waiting for. Virtual reality as a tool to increase productivity is clearly on the rise with virtual desktop apps, virtual meetings, and screen sharing, as shown by the Bigscreen app (see Figure 9-6).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig6_HTML.jpg
+Figure 9-6Meeting in Bigscreen
+VR meetings make a good alternative to group calls by adding presence and gestures to an online discussion. Virtual desktop and office applications allow the user to focus in a busy environment and may be the future of the cubicle. Even a simple reading app—such as virtual book reader (see Figure 9-7)—can add surprising value in the right situation, as it lets the reader navigate in new ways while reading.
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig7_HTML.jpg
+Figure 9-7The virtual book reader
+These solutions are the forerunner of a future workspace that lets the user customize his workplace, media, and socials environment in VR. The design industry is already using VR in the production process for modeling, asset creation, and level creation. Allegorithmic recently showcased a hybrid demo version of Substance Painter that is part VR 3D view and part 2D workspace. We will most likely see more concepts like that, combining the best of both worlds.
+
+VR Enhanced by Artificial Intelligence
+The artificial intelligence revolution has made its way into many unexpected areas of digital content creation, from image processing to the de-noising of high-end renderings. An emerging new area is AI-driven VR host for B2B service applications. The Amazon Web Services (AWS) cloud platform opened its VR creation tool, called Sumerian, in 2017. It allows you to publish platform agnostic WebVR and AR applications using a visual state machine to create dynamic interactions. Sumerian integrates with other AWS tools, including some of AWS’s artificial intelligence tools. Notable examples are the deep-learning tools for speech recognition and facial analysis to build complex interactions with the user (see Figure 9-8).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig8_HTML.jpg
+Figure 9-8Designing VR interaction in Amazon AWS Sumerian’s AI tools
+The system is intended to be used for virtual help desks or point-of-sale assistance in VR and AR applications.
+
+Live Volumetric Video Holograms
+Volumetric video is one the new exciting frontiers of AR and VR. Making it possible to capture a person as a moving volumetric 3D object and transmitting that captured performance is a challenging task on the bleeding edge of what is possible with today’s technology. In a way, volumetric video holograms are moving photogrammetry objects. A point cloud is captured, polygon geometry is created, and captured textures are projected on the geometry, 30 to 60 times a second. Considering the process it takes to create just one quality photogrammetry object makes this sound like a daunting endeavor to enable the process for moving objects on a high frame-rate.
+
+The much discussed New Zealand startup 8i has pioneered this technology, but it will most likely take a few more iterations to become consumer friendly enough to be adopted by the broader market. Nevertheless, the promise is intriguing, as this approach to social VR could bring a new angle to VR meetings and the virtual office concept.
+
+Haptic VR Accessories
+Haptic VR accessories have found their place in high-end VR. They are mostly used in VR arcades. VR treadmills such as the Virtuix Omni give a high-end VR experience the extra edge in immersion by solving the VR locomotion problem in an intuitive way. HTC Vive pioneered the VR accessories field by introducing the Vive tracker in 2017. It allowed developers to build additional accessories tracked by the Vive’s lighthouse system.
+
+At some point, we can expect the broader consumer market to adopt similar add-on systems that allow you to expand the home experience with additional tracked objects. This could open up an accessory market, similar to the success story of the Nintendo Wii with its expandable controller add-on ecosystem. First steps will most likely be variations of the controllers with different form factors, as we have seen with the Sony PSVR and the popular AIM controller (see Figure 9-9).
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig9_HTML.png
+Figure 9-9Sony PSVR’s AIM controller (photo by C. Hillmann)
+As the exact form of the controller is mirrored in the VR world, it adds an extra layer of immersive presence to the experience through the haptic feedback of the device.
+
+5G and the VR Cloud
+5G networks are coming and will enable super-fast streaming with low latency. The initial latency is expected to be 20 milliseconds, which is good enough for casual interaction. Once 5G pixel streaming with low latency reaches mobile and standalone headsets, the heavy lifting of high-end graphics processing can be done in the cloud, while the headset is used as an interactive playback device. This will break mobile headsets free from the limitations of underpowered mobile chipsets. Extreme high-end graphics, with massive scene geometry and shader complexity, will bring mobile headsets to a completely new level and enable large and graphics-heavy multiplayer online worlds, such as Sansar, the Second Life successor.
+
+Unreal version 4.21 introduced pixel streaming, which allows users to run an application in the cloud and stream it to browser clients for high-quality interactivity. While it is not yet available for VR applications, it is for sure the next logical step to integrate this technology with VR apps. Applications (such as Riftcat, VRidge, and Virtual Desktop) that stream from a desktop to a VR headset using Wi-Fi are the forerunners of this development.
+
+Unreal as a Full DCC Production Suite
+Unreal plays a key role in the transition of the DCC industry from render farm–based pipelines to real-time production. The added muscle in post-production and DCC tools is helping VR development in indirect ways. For example, scenes built for a VR project can be used for high-end cinematics and trailer footage. General-purpose, third-party rigging tools such as the Allright Rig (see Figure 9-10) that allow users to do all the rigging and character animation within the Unreal environment are just as useful for a VR production as they are for any other gaming project.
+../images/470051_1_En_9_Chapter/470051_1_En_9_Fig10_HTML.jpg
+Figure 9-10Unreal as a character animation suite with a third-party plugin
+The extended toolset for virtual studio production and postproduction allow VR content creators to leverage their skillsets in a highly integrated production environment that offers more ways to repurpose content and integrate production techniques. For example, the public Tello roadmap for Unreal reveals that subdivision modeling tools are planned for the engine to enable polygon editing without having to leave the Unreal environment.
+
+Resources
+Let’s look at the most useful resources when it comes to VR production and learning, and the broader context of XR ideas and visions.
+
+Unreal Resources
+Unreal Get Started with UE4 ( https://docs.unrealengine.com/en-US/GettingStarted ) is online documentation that covers every aspect of Unreal development, including Android and VR.
+
+Unreal Engine Online Training ( https://academy.unrealengine.com ) is a resource that includes Unreal learning videos and an in-depth tutorial series on the most important areas of game production.
+
+Oculus Resources
+The following are Oculus resources.
+The Oculus Unreal Getting Started Guide ( https://developer.oculus.com/documentation/unreal/latest/concepts/unreal-getting-started-guide/ ). Oculus has recently updated the guide for Unreal with numerous get-started and help files. The covered items are basic, but provide some fundamental setup routines. Hopefully, this resource will be expanded in the future.
+
+The Oculus Developer Blog ( https://developer.oculus.com/blog ). The Oculus blog offers a lot of interesting insights on recent software updates and developer perspectives. Detailed project post-mortems reveal how developers of recent commercial releases tackled some of the challenges in mobile VR.
+
+The Oculus YouTube channel ( www.youtube.com/user/oculusvr ). The Oculus YouTube channel features not only teasers, trailers, and playthroughs, but also developer insights and talks from recent Oculus Connect conferences.
+
+VR News and Reviews
+The following are virtual reality news resources.
+UploadVR ( https://uploadvr.com ). A consumer-oriented VR news site. Covers all platforms, including mobile and standalone VR with reviews and product news.
+
+Road to VR ( www.roadtovr.com ). Similar to UploadVR, covers the latest VR news for trends, products and upcoming titles.
+
+VRScout ( https://vrscout.com ). Covers industry news and reviews.
+
+VRFocus ( www.vrfocus.com ). Covers reviews and product updates.
+
+VR Podcasts
+The following are VR podcasts.
+
+Voices of VR Podcast ( voicesofvr.com ) is a highly recommended quality podcast channel with in-depth talks covering not only developer perspectives, but also cultural, futuristic areas where VR has an impact.
+
+The podcast by the VR/AR Association ( www.thevrara.com/podcast ) has interesting insights from industry guests from all areas of the VR and AR ecosystem.
+
+Third-Party Unreal YouTube channels
+Mathew Wadstein Tutorials ( www.youtube.com/channel/UCOVfF7PfLbRdVEm0hONTrNQ ) is a great resource for people new to Unreal. Mathew Wadstein covers a lot of essential Unreal features in short informative video clips.
+
+Mitch’s VR Lab ( www.youtube.com/channel/UChvlNUgZKmEd-Gul_Tdv8Uw ) is by Mitchell McCaffrey, the author of the Unreal Engine VR Cookbook. On his YouTube channel, he explores a lot of the typical VR setup and interaction topics.
+
+Reddit VR Discussions
+The following leads to relevant discussions on Reddit.
+Reddit.com/r/virtualreality
+
+Reddit.com/r/oculus
+
+Reddit.com/r/GearVR
+
+Reddit.com/r/OculusGo
+
+Reddit.com/r/OculusQuest
+
+The Oculus- and VR-related Reddit channels are very active and provide a lot of user feedback, tips, tricks, and information that can’t be found anywhere else.
+
+VR Developer Forums
+The VR development section in the Unreal online forum ( https://forums.unrealengine.com/development-discussion/vr-ar-development ) is an essential resource to stay on top of recent updates, bug fixes, tips, tricks and workarounds.
+
+The Oculus developer forum ( https://forums.oculusvr.com/developer/ ) is an important resource to track updates and issues with the Oculus SDK and to get developer insights.
+
+CG Production Resources
+CGSociety ( https://cgsociety.org ) is an industry portal to all things CG, including news, tutorials, VFX breakdowns, artist spotlights, and forums.
+
+ArtStation ( www.artstation.com ) is the leading showcase platform for CG artists.
+
+The Polycount Newsfeed ( https://polycount.com ) features 3D game art community with news, interviews, and forums.
+
+The Blender Artists Community ( https://blenderartists.org ) is large Blender artist forum with sections on Python, jobs, add-on support, and tutorials.
+
+Online Resources for 3D Assets
+Previously run by Google, now operated by Trimble Inc., 3D Warehouse ( https://3dwarehouse.sketchup.com ) is a free online model resource. Models can not only be downloaded in the sketchup format but also in the Collada, interchange format that Blender supports. Model quality varies from the very basic to the occasional gem that can be used as a starting point for building a scene.
+
+The following are other 3D assets resources.
+Free3D ( https://free3d.com ). Free downloads in a variety of formats.
+
+Archive3D ( https://archive3d.net ). Free models in 3DS format.
+
+cgtrader ( https://cgtrader.com ). Commercial premium models.
+
+GrabCAD ( https://grabcad.com ). CAD-oriented site with a large download section.
+
+Sketchfab ( https://sketchfab.com/store ). The store section of the 3D online community.
+
+TurboSquid ( www.turbosquid.com ). One of the longest-running commercial 3D model sites.
+
+Essential Books
+Mitch McCaffrey’s Unreal Engine VR Cookbook (Addison-Wesley Professional, 2017) is packed with in-depth technical information on VR development with Unreal. Even though his book is focused on PC-based VR, a lot of information applies to mobile and standalone, as well.
+
+The VR Book: Human-Centered Design for Virtual Reality by Jason Jerald (Morgan & Claypool Publishers-ACM, 2015) gives a great overview over the broad spectrum of VR from history, to experimental areas and UX considerations. It is one of the most complete works on the subject from a nontechnical perspective. It focuses on the rules and principles that are important in the process of understanding and designing VR experiences.
+
+The Fourth Transformation: How Augmented Reality and Artificial Intelligence Change Everything by Robert Scoble and Shel Israel (CreateSpace Independent Publishing Platform, 2016) is a highly speculative book on the near-term implications of emerging technologies in mixed realities and AI. It is primarily aimed at business decision makers who are not familiar with broader technology trends, and it explains how disruptive change will transform the digital landscape.
+
+Experience on Demand: What Virtual Reality Is, How It Works, and What It Can Do by Jeremy Bailenson (W. W. Norton & Co., 2018) gives a good overview over the wider scope of VR, where it is coming from, and where it is headed. It gives a good understanding of the big picture and addresses a lot of fundamental questions concerning the real-life implication of VR.
+
+Future Presence: How Virtual Reality Is Changing Human Connection, Intimacy, and the Limits of Ordinary Life by Wired editor Peter Rubin (HarperOne, 2018) offers a macro view on the implications of VR. It is a good introduction and primer on the subject for people interested in a wider perspective of VR.
+
+Dawn of the New Everything: Encounters with Reality and Virtual Reality by Jaron Lanier (Henry Holt and Co., 2017) is a very personal memoir by one of the most influential thinkers and brightest minds of our era. Lanier writes about his early days as pioneer of VR. As one of the co-founders of the early but short-lived VR company VLP Research, his prototypes were featured in the 1992 VR sci-fi action horror film classic The Lawnmower Man.
+
+Masters of Doom: How Two Guys Created an Empire and Transformed Pop Culture by David Kushner (Random House, 2003) is about the fascinating history of game technology legends John D. Carmack and John Romero. Carmack, CTO of Oculus and a major driving force behind VR and especially mobile and standalone VR, had a dramatic impact on the 3D game engine revolution when Wolfenstein 3D and Doom were released, based on his technological breakthroughs. The book explores the ups and downs of the relationships and obstacles the early partnership was facing and what led to the innovations that finally transformed pop culture.
+
+Game Engine Black Book: Wolfenstein 3D by Fabien Sanglard (CreateSpace Independent Publishing, 2018) is sort of a technological archeology research adventure, unearthing the early days of the breakthroughs of John Carmack’s Wolfenstein game engines.
+
+Ready Player One by Ernest Cline (Crown, 2011) is probably the most influential young adult work of contemporary VR fiction and the base for the successful Steven Spielberg movie of the same name. The Oasis, the VR online world described in the book, is one of the very-often quoted VR references.
+
+Snow Crash by Neal Stephenson (Del Rey, 2000) is a VR sci-fi classic originally published in 1992 and often referenced when talking about VR. The often-used term Metaverse was coined by Stephenson in this novel. Numerous tech startups and VR projects reference terms from the classic novel. For example, the Amazon AWS VR/AR engine is rumored to have taken its name Sumerian from a Snow Crash reference.
+
+Neuromancer by William Gibson (Ace, 1984) is probably the best-known classic sci-fi novel with a VR, matrix, and cyberpunk theme and a huge influence on pop culture and techno-dystopian aesthetics.
+
+Conclusion
+In this final chapter, we discussed where the industry is headed, we gave an outlook on the emerging trends, and which dynamic subsections in immersive XR will most likely affect the development and evolution of mobile and standalone VR.
+
+In the resources section, we listed the most important online channels for accessing learning materials from Unreal, Oculus, and third parties, and looked at related areas, such as CG and online asset libraries. With a list of recommended books, not only technical, but also looking at the broader context, as well as including often-quoted classic VR sci-fi literature, we concluded our resource listings and this book.
+
+Exciting times are ahead of us, and as developers and creators, we are lucky to have powerful and free-to-use tools as the Unreal Engine and the DCC software such as Blender at our disposal. The tools have matured over decades and the content creation ecosystem has become user friendly enough to empower a new generation of creators. As technology innovation is accelerating, human imagination gets inspired and gives rise to endlessly evolving new concepts and ideas. Never before have humans had the ability to completely create their own reality—a reality that can be lived in and experienced. Be prepared to be amazed and to amaze others.
+
+We are in for a wild ride into the unknown. This is a great time to understand and learn the tools used to convert imagination into experiences.
+
+Find answers on the fly, or master something new. Subscribe today. See pricing options.
+
+back to top
+Support Get the App Sign Out
+© 2019 Safari. Terms of Service / Membership Agreement / Privacy Policy
