@@ -8,3 +8,5 @@ https://blog.gopheracademy.com/advent-2018/go-in-the-browser/
 https://github.com/golang
 https://github.com/golang/go
 
+
+【Learning Golang — from zero to hero | Milap Neupan】https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
