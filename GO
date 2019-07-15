@@ -10,3 +10,13 @@ https://github.com/golang/go
 
 
 【Learning Golang — from zero to hero | Milap Neupan】https://milapneupane.com.np/2019/07/06/learning-golang-from-zero-to-hero/?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+
+《Go语言高级编程》
+https://github.com/chai2010/advanced-go-programming-book
+
+https://toutiao.io/subjects/318517
+
+
+
+
