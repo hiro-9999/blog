@@ -1,6 +1,7 @@
 https://github.com/learnroku/crash-course/blob/master/docs/Lesson2.md
 
-
+brew install inetutils
+telnet 192.168.2.12 8060
 
 https://rokulikeahurricane.io/
 //roku developer tutorial
