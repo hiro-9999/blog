@@ -1,9 +1,16 @@
+//OK
+https://medium.com/plexlabs/xml-code-good-times-rsg-application-b963f0cec01b
+
 https://github.com/learnroku/crash-course/blob/master/docs/Lesson2.md
 
 //videoplayer-channel
 https://github.com/rokudev/videoplayer-channel
 
 https://github.com/rokudev/hero-grid-channel
+
+https://blog.roku.com/developer/scenegraph-tutorial
+
+https://github.com/zype/zype-roku-scenegraph
 
 brew install inetutils
 telnet 192.168.2.12 8060
