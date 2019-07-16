@@ -11,6 +11,40 @@ https://blog.roku.com/developer/custom-playback-video-player
 https://developer.roku.com/en-gb/docs/references/scenegraph/widget-nodes/button.md
 https://forums.roku.com/viewtopic.php?t=68705
 https://developer.roku.com/en-gb/docs/references/brightscript/components/robitmap.md
+ <Poster
+        id="noButtonContainer"
+        uri="pkg:/images/no_btn.png"            
+        width="328"
+        height="53"
+        translation="[65,250]" />
+
+    <Poster
+        id="yesButtonContainer"
+        uri="pkg:/images/no_btn.png"            
+        width="328"
+        height="53"
+        translation="[431,250]" />
+
+    <ButtonGroup id="yesNoButton" layoutDirection="horiz" minWidth="328" itemSpacings="[38, 0]" translation="[65,250]" >
+        <Button
+           id="noButton"             
+           focusBitmapUri="pkg:/images/yes_btn.png"                
+           iconUri=""
+           focusedIconUri=""
+           height="55"                               
+           textFont="font:MediumSystemFont"
+           focusedTextFont="font:MediumBoldSystemFont"                 
+           text="         NO"/>                     
+        <Button
+           id="yesButton"
+           focusBitmapUri="pkg:/images/yes_btn.png"                
+           iconUri=""
+           focusedIconUri=""                   
+           height="55"                              
+           textFont="font:MediumSystemFont"
+           focusedTextFont="font:MediumBoldSystemFont"
+           text="        YES"/>                                            
+     </ButtonGroup> 
 
 https://github.com/learnroku/crash-course/blob/master/docs/Lesson2.md
 
