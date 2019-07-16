@@ -45,6 +45,16 @@ https://developer.roku.com/en-gb/docs/references/brightscript/components/robitma
            focusedTextFont="font:MediumBoldSystemFont"
            text="        YES"/>                                            
      </ButtonGroup> 
+     function onKeyEvent(key as String,press as Boolean) as Boolean
+    if key = "left" 
+            m.mybuttongroup.focusButton = 0 'left button
+            return true
+    else if key = "right"   
+            m.mybuttongroup.focusButton = 1 'right button
+            return true    
+    end if
+    return false
+end function
 
 https://github.com/learnroku/crash-course/blob/master/docs/Lesson2.md
 
