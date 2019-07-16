@@ -1,5 +1,10 @@
 https://github.com/learnroku/crash-course/blob/master/docs/Lesson2.md
 
+//videoplayer-channel
+https://github.com/rokudev/videoplayer-channel
+
+https://github.com/rokudev/hero-grid-channel
+
 brew install inetutils
 telnet 192.168.2.12 8060
 
