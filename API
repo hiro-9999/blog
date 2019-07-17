@@ -1,4 +1,6 @@
 http://stateless.co/hal_specification.html
+The over body structure is based off Instagram's API - https://www.instagram.com/developer/endpoints/
+Links to retrieve nested or related information SHOULD be returned by the server (see HAL for examples http://stateless.co/hal_specification.html)
 
 
 https://github.com/public-apis/public-apis
