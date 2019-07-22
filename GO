@@ -1,6 +1,9 @@
 //book
 https://github.com/qyuhen/book
 
+//study
+https://www.zhihu.com/question/30461290
+
 //Standard-Library
 https://books.studygolang.com/The-Golang-Standard-Library-by-Example/
 
