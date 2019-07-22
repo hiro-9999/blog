@@ -3,6 +3,7 @@
 
 //GSP
 https://www.toutiao.com/a6716376146843271692/
+https://segmentfault.com/a/1190000018385779
 
 https://play.golang.org/
 https://www.jetbrains.com/go/nextversion/
