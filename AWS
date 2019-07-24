@@ -11,7 +11,12 @@ https://aws.amazon.com/cli/
 
 Identity and Access Management service (IAM),
 Elastic Compute Cloud (or EC)
-
+ virtual private server (VPS) provider
+ Amazon Machine Images (AMIs) 
+ availability zone (AZ) 
+  
+  //Region Table.
+  https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
 
 
 
