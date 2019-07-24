@@ -14,9 +14,34 @@ Elastic Compute Cloud (or EC)
  virtual private server (VPS) provider
  Amazon Machine Images (AMIs) 
  availability zone (AZ) 
+ hardware virtual machine (HVM).
+ Elastic Block Store (or EBS)
+  solid-state drives (SSDs).
+  DHCP
+  Relational Database Service (RDS)
+  
+  //Cloud-init is the defacto multi-distribution package that handles early initialization of a cloud instance.
+  https://cloudinit.readthedocs.io/en/latest/topics/examples.html
+  
+  //https://www.suse.com/ja-jp/documentation/sles-12/book_sle_deployment/data/cha_studio_pointer.html
+  SUSE Studio (Figure 2-8) provides a web-based interface to building various types of images based on the eponymous Linux distribution
   
   //Region Table.
   https://aws.amazon.com/about-aws/global-infrastructure/regional-product-services/
+  EC2 instances come in a range of sizes, referred to as instance types, to suit various use cases.
+  The instance types differ wildly in the amount of resources allocated to them.
+  The m3.medium instance type has 3.75 GB of memory and 1 virtual CPU core, whereas its significantly bigger brother c3.8xlarge has 60 GB of memory and 32 virtual CPU cores. 
+  Each virtual CPU is a hyperthread of an Intel Xeon core in the m3 and c3 instance classes.
+
+ general purpose (M4, M3), burstable performance (T2), compute optimized (C4, C3), memory intensive (R3), storage optimized (I2 for performance, or D2 for cost), and GPU enabled (G2). These in t
+// EC2 Instance Timeline 
+https://aws.amazon.com/blogs/aws/ec2-instance-history/
+May 2019 – 18 TB and 24 TB High Memory.
+
+
+CPU shares of us (user), sy (system), id (idle), and wa (IO wait), the EC2 hypervisor exposes the additional metric st, meaning stolen:
+
+%Cpu(s):  0.1 us,  0.1 sy,  0.1 ni, 98.2 id,  1.0 wa,  0.0 hi,  0.0 si,  0.5 st
 
 
 
