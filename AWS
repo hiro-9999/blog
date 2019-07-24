@@ -1,7 +1,19 @@
 Lambda、API Gateway、Kinesis、DynamoDB、S3、CloudFrontなどサーバーレス構成を採用する。サーバレスを採
 https://ascii.jp/elem/000/001/893/1893281/
 
-https://learning.oreilly.com/videos/aws-certified-developer/9780134855158/9780134855158-ACDA_01_03_02
+//aws-system-administration
+https://github.com/0xf2/aws-system-administration
+EC2, S3, EBS, AMI, instance, IAM, ELB, RDS, Route 53, CloudWatch, CloudFormation, Glacier, and more.
+https://learning.oreilly.com/videos/aws-certified-developer/
+
+//AWS Command Line Interface
+https://aws.amazon.com/cli/
+
+Identity and Access Management service (IAM),
+Elastic Compute Cloud (or EC)
+
+
+
 
 「AWS Toolkit for Visual Studio Code」正式版がリリース。AWS Lmabdaのステップ実行、ローカルデバッグなど可能に
 https://www.publickey1.jp/blog/19/aws_toolkit_for_visual_studio_codeaws_lmabda.html
