@@ -1,3 +1,6 @@
+ //Hermes
+ https://www.publickey1.jp/blog/19/javascripthermesfacebook.html
+ 
  JS好书: 《javascript 高级程序设计》，
  《你不知道的Javascript 系列》，
  《javascript 语言精粹》，
