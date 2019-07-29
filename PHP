@@ -4,6 +4,13 @@ http://www.xz577.com/e/php/
 php:
 https://oku.edu.mie-u.ac.jp/~okumura/php/
 
+
+//php debug
+url +++ &XDEBUG_SESSION_START
+In your browser, you only have to add the following querystring to the URL you want to start debugging: ?XDEBUG_SESSION_START.
+Example: http://localhost:8000/?XDEBUG_SESSION_START
+https://www.forevolve.com/en/articles/2016/08/04/php-with-visual-studio-code-and-xdebug/
+
 https://www.w3schools.com/php/default.asp
 
 //Codeception
