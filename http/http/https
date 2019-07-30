@@ -1,0 +1,5 @@
+https://www.infoq.cn/article/pC3kjj1lN55x*XciEkmB
+openssl req -x509 -newkey rsa:4096 -keyout key.pem -out certificate.pem -days 365 -nodes
+ HTTP/2 的好处
+ 
+ https://http2.golang.org/gophertiles?latency=200
