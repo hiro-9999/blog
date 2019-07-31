@@ -1,6 +1,9 @@
 //book
 https://github.com/qyuhen/book
 
+//Go 系列教程——34. 反射】
+https://toutiao.com/group/6712583437594657293/?app=news_article_social&timestamp=1562936433&req_id=201907122100320101520211987083CA6&group_id=6712583437594657293&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 https://www.golang-book.com/books/intro
 
 【Go编写的服务器--超过一个百万个websockets连接，内存小于1GB】https://toutiao.com/group/6715582841083658765/?app=news_article_social&timestamp=1563841815&req_id=20190723083014010152036032845D6A4&group_id=6715582841083658765&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
