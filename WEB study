@@ -2,6 +2,20 @@
 https://segmentfault.com/a/1190000018238345
 
 
+//set advanced-rest-client User-Agentでrewrite
+https://install.advancedrestclient.com/install
+https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo/related
+User-Agentを変更する方法
+
+まず、Advanced Rest Client（または、その他のRest Clientツール）を開いて「右クリック」して「要素を検証」をクリックして、「Developer Tools」を開きます。
+
+次に、右下の歯車から「Settings」を開き、「User Agent」にチェックを入れて、プルダウンから「Others...」を選択します。そして、設定したいUser-Agentを入力してください。
+
+user-agent-settings
+
+そして、Advanced Rest Client側ではUser-Agentの設定を削除しておきます。
+
+
 https://www.toutiao.com/a6713867482693632515/
 前端开发是一个非常特殊的行业，它的历史实际上不是很长，但是知识之繁杂，技术迭代速度之快是其他技术所不能比拟的。
 
