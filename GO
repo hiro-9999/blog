@@ -1,6 +1,10 @@
 //book
 https://github.com/qyuhen/book
 
+https://www.golang-book.com/books/intro
+
+【Go编写的服务器--超过一个百万个websockets连接，内存小于1GB】https://toutiao.com/group/6715582841083658765/?app=news_article_social&timestamp=1563841815&req_id=20190723083014010152036032845D6A4&group_id=6715582841083658765&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 //programming-books ok
 https://github.com/royeo/awesome-programming-books/blob/master/golang/go%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E8%AF%AD%E8%A8%80.pdf
 
