@@ -1,3 +1,27 @@
+//pprof  定位goroutine泄露
+https://www.toutiao.com/i6719314182912606734/
+G: goroutine，每个G都代表1个goroutine
+M: 工作线程，是Go语言定义出来在用户层面描述系统线程的对象 ，每个M代表一个系统线程
+P: 处理器，它包含了运行Go代码的资源。
+https://www.toutiao.com/i6717251998481121805/?group_id=6717251998481121805
+线程是运行goroutine的实体，调度器的功能是把可运行的goroutine分配到工作线程上。
+
+//调度器
+全局队列（Global Queue）：存放等待运行的G。
+P的本地队列：同全局队列类似，存放的也是等待运行的G，存的数量有限，不超过256个。新建G’时，G’优先加入到P的本地队列，如果队列满了，则会把本地队列中一半的G移动到全局队列。
+P列表：所有的P都在程序启动时创建，并保存在数组中，最多有GOMAXPROCS个。
+M：线程想运行任务就得获取P，从P的本地队列获取G，P队列为空时，M也会尝试从全局队列拿一批G放到P的本地队列，或从其他P的本地队列偷一半放到自己P的本地队列。M运行G，G执行之后，M会从P获取下一个G，不断重复下去。
+
+
+//Go 中的位运算
+https://www.toutiao.com/i6719301972362527245/
+ & 位与
+ | 位或
+ ^ 异或
+&^ 位与非
+<< 左移
+>> 右移
+
 【GoLang -- Gin框架】https://toutiao.com/group/6700713494880190983/?app=news_article_social&timestamp=1564569801&req_id=20190731184321010018026159348A528&group_id=6700713494880190983&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
 toutiao.comtoutiao.com
