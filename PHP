@@ -5,6 +5,9 @@ php:
 https://oku.edu.mie-u.ac.jp/~okumura/php/
 
 
+//codeception  test tools
+https://qiita.com/Esfahan/items/44c38b15c36e1adb05ff
+
 //php debug
 url +++ &XDEBUG_SESSION_START
 In your browser, you only have to add the following querystring to the URL you want to start debugging: ?XDEBUG_SESSION_START.
