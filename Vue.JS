@@ -1,6 +1,8 @@
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
+《Vue技术内幕》，《Vue.js技术揭秘》这两份电子书哟，对应的学习地址，小编已经在上方给出了
+
 Vue.js/Nuxt.js で実現できたPWAのリアルタイム動画
 
 【力荐 35 个最好用的 Vue 开源库！】
