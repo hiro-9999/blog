@@ -13,6 +13,8 @@ P列表：所有的P都在程序启动时创建，并保存在数组中，最多
 M：线程想运行任务就得获取P，从P的本地队列获取G，P队列为空时，M也会尝试从全局队列拿一批G放到P的本地队列，或从其他P的本地队列偷一半放到自己P的本地队列。M运行G，G执行之后，M会从P获取下一个G，不断重复下去。
 
 
+Gin(二):路由Router ,go语言框架学习】https://toutiao.com/item/6717444132169581068/?app=news_article_social&timestamp=1564582953&req_id=201907312222320101520170675705E61&group_id=6717444132169581068&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 //Go 中的位运算
 https://www.toutiao.com/i6719301972362527245/
  & 位与
