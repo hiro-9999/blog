@@ -1,6 +1,9 @@
 book
 http://www.xz577.com/e/php/
 
+//convert JSON string to array
+$array = json_decode($str, true);
+
 //restful api ----todo
 https://github.com/yamaguchi-hiro-9999/restful-api-raml
 
