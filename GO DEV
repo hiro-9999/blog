@@ -33,3 +33,7 @@ $sudo go get -u github.com/derekparker/delve/cmd/dlv
 
 
 $ echo $GOPATH
+
+
+//Mac环境下GoLand
+https://blog.csdn.net/studyhard232/article/details/81209631
