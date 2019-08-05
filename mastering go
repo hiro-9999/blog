@@ -1,0 +1,28 @@
+https://learning.oreilly.com/library/view/mastering-go/9781788626545/
+
+Additional resources
+Visit the following web links:
+
+Visit the website of Graphviz at http://graphviz.org
+
+Visit the documentation page of the testing package, which can be found at https://golang.org/pkg/testing/
+
+You can learn more about the godoc utility by visiting its documentation page at https://godoc.org/golang.org/x/tools/cmd/godoc
+
+Visit the documentation page of the runtime/pprof standard Go package that can be found at https://golang.org/pkg/runtime/pprof/
+
+You can view the Go code of the net/http/pprof package by visiting https://golang.org/src/net/http/pprof/pprof.go
+
+You can find the documentation page of the net/http/pprof package at https://golang.org/pkg/net/http/pprof/
+
+For the complete list of changes between Go version 1.10 and Go version 1.9, you should visit https://golang.org/doc/go1.10
+
+You can learn more about the pprof tool by visiting its development page at https://github.com/google/pprof
+
+Watch the Advanced Testing with Go video presented in GopherCon 2017 by Mitchell Hashimoto at https://www.youtube.com/watch?v=8hQG7QlcLBk
+
+You can find the source code of the testing package at https://golang.org/src/testing/testing.go
+
+You can learn more about the profile package by visiting its web page at https://github.com/pkg/profile
+
+You can learn more about the go fix tool by visiting its web page at https://golang.org/cmd/fix/
