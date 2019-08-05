@@ -1,8 +1,10 @@
+//golang 開発環境構築 at Mac OS
+
+https://qiita.com/anegawa_j/items/887c47049025029eba5d
+//go run
+//go build
 //launch.jsonというJSONファイル
 {
-    // Use IntelliSense to learn about possible attributes.
-    // Hover to view descriptions of existing attributes.
-    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -12,7 +14,12 @@
             "mode": "debug",
             "program": "${workspaceRoot}",
             "env": {},
-            "args": []
+            "args": [
+                "-debug.v",
+                "-debug.run",
+                "TestSample"
+            ],
+            "showLog": true
         }
     ]
 }
