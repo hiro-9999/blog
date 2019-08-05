@@ -1,0 +1,24 @@
+//launch.jsonというJSONファイル
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceRoot}",
+            "env": {},
+            "args": []
+        }
+    ]
+}
+
+//https://qiita.com/momotaro98/items/7fbcad57a9d8488fe999
+$sudo go get -u github.com/derekparker/delve/cmd/dlv
+
+
+$ echo $GOPATH
