@@ -2,7 +2,7 @@
 //brew install go
 brew install goenv
 goenv install -l
-
+//brew upgrade go
 https://startappdevfrom35.com/godevenvformacos/
 https://qiita.com/anegawa_j/items/887c47049025029eba5d
 //go run
