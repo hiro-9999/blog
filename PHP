@@ -1,6 +1,9 @@
 book
 http://www.xz577.com/e/php/
 
+//php
+https://www.php.net/manual/zh/
+
 //convert JSON string to array
 $array = json_decode($str, true);
 
