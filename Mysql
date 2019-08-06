@@ -10,6 +10,7 @@ https://tech-up.hatenablog.com/entry/2019/04/03/101643
 //betweenする  explain select
 https://www.bunkei-programmer.net/entry/20110330/1301500024
 
+https://www.eversql.com/faster-pagination-in-mysql-why-order-by-with-limit-and-offset-is-slow/
 ORDER BY, LIMIT, OFFSETを組み合わせる際にはORDER BYがユニークカラムに効いているかきちんとチェックするようにしましょう。
 
 //create temporary table fuga
