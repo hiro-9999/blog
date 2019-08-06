@@ -1,6 +1,9 @@
 主从复制:
 https://www.toutiao.com/a6662957350745276939/
 
+//lampager
+https://qiita.com/mpyw/items/b94b7d69146777f7a407
+
 //MySQL Data - Best way to implement paging
 $PageSize - means how many rows you want to dispaly.
 $Pageoffset - means (CurrentPageNo * PageSize)
