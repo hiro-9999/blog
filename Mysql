@@ -4,6 +4,8 @@ https://www.toutiao.com/a6662957350745276939/
 //lampager
 https://qiita.com/mpyw/items/b94b7d69146777f7a407
 
+ORDER BY, LIMIT, OFFSETを組み合わせる際にはORDER BYがユニークカラムに効いているかきちんとチェックするようにしましょう。
+
 //MySQL Data - Best way to implement paging
 $PageSize - means how many rows you want to dispaly.
 $Pageoffset - means (CurrentPageNo * PageSize)
@@ -33,3 +35,14 @@ SELECT *
  WHERE (sale_date, sale_id) < (?, ?)
  ORDER BY sale_date DESC, sale_id DESC
  FETCH FIRST 10 ROWS ONLY
+ 
+ 
+ 書き方そのいち：SELECT * FROM TestTable LIMIT 行数 OFFSET 開始位置;
+　書き方そのに　：SELECT * FROM TestTable LIMIT 開始位置, 行数;
+　書き方そのさん：SELECT * FROM TestTable LIMIT 行数;
+
+　速い順に３>２>=１と思われる。
+ 
+ 
+ 
+ 
