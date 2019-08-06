@@ -15,3 +15,7 @@ SELECT カラム名 FROM テーブル名 LIMIT 取得件数 OFFSET 開始位置;
 //以下の書式も可能
 3
 SELECT カラム名 FROM テーブル名 LIMIT 開始位置,取得件数;
+
+
+
+https://dev.mysql.com/doc/refman/5.6/ja/innodb-restrictions.html
