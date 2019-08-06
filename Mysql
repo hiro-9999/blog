@@ -9,6 +9,9 @@ https://www.bunkei-programmer.net/entry/20110330/1301500024
 
 ORDER BY, LIMIT, OFFSETを組み合わせる際にはORDER BYがユニークカラムに効いているかきちんとチェックするようにしましょう。
 
+//create temporary table fuga
+https://www.bunkei-programmer.net/entry/2019/04/21/010305
+
 //MySQL Data - Best way to implement paging
 $PageSize - means how many rows you want to dispaly.
 $Pageoffset - means (CurrentPageNo * PageSize)
