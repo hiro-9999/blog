@@ -1,6 +1,19 @@
 主从复制:
 https://www.toutiao.com/a6662957350745276939/
 
+SELECT SQL_CALC_FOUND_ROWS *  
+  FROM [TABLE] 
+  WHERE [絞込条件] 
+  LIMIT 100 OFFSET 1000;
+  
+  SELECT FOUND_ROWS();
++--------------+
+| FOUND_ROWS() |
++--------------+
+|      7452906 |
++--------------+
+1 row in set (0.00 sec)
+
 //lampager
 https://qiita.com/mpyw/items/b94b7d69146777f7a407
 
