@@ -4,6 +4,9 @@ https://www.toutiao.com/a6662957350745276939/
 //lampager
 https://qiita.com/mpyw/items/b94b7d69146777f7a407
 
+//betweenする  explain select
+https://www.bunkei-programmer.net/entry/20110330/1301500024
+
 ORDER BY, LIMIT, OFFSETを組み合わせる際にはORDER BYがユニークカラムに効いているかきちんとチェックするようにしましょう。
 
 //MySQL Data - Best way to implement paging
