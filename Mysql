@@ -1,6 +1,8 @@
 主从复制:
 https://www.toutiao.com/a6662957350745276939/
 
+//ok
+https://qiita.com/kumasun/items/3932382c267d04413b4e
 SELECT SQL_CALC_FOUND_ROWS *  
   FROM [TABLE] 
   WHERE [絞込条件] 
