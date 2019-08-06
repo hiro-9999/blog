@@ -14,7 +14,7 @@ $Pageoffset - means (CurrentPageNo * PageSize)
      // limit restricts the no. of rows fetching.
 Like wise you can do in mysql.
 
-
+//MySQLのパフォーマンス改善
 SELECT カラム名 FROM テーブル名 LIMIT 取得件数 OFFSET 開始位置;
 2
 //以下の書式も可能
