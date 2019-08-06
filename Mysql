@@ -4,6 +4,9 @@ https://www.toutiao.com/a6662957350745276939/
 //lampager
 https://qiita.com/mpyw/items/b94b7d69146777f7a407
 
+https://tech-up.hatenablog.com/entry/2019/04/03/101643
+(SELECT * FROM tableA WHERE id <= 10 ORDER BY id DESC LIMIT 1) UNION (SELECT * FROM tableA WHERE id > 10 ORDER BY id DESC LIMIT 11)
+
 //betweenする  explain select
 https://www.bunkei-programmer.net/entry/20110330/1301500024
 
