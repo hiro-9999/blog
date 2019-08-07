@@ -17,6 +17,8 @@ Image Building an event processor.
 
 Image Building a query handler service.
 
+RabbitMQ
+
 //pprof  定位goroutine泄露
 https://www.toutiao.com/i6719314182912606734/
 G: goroutine，每个G都代表1个goroutine
