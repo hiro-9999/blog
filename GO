@@ -6,6 +6,10 @@ https://github.com/qyuhen/book
 //Mastering-Go
 https://github.com/PacktPublishing/Mastering-Go
 
+
+//cloud-native-go
+https://learning.oreilly.com/library/view/cloud-native-go/9780134505787/
+
 【Go语言爱好者周刊：第 2 期】https://toutiao.com/group/6721117553550164484/?app=news_article_social&timestamp=1564964423&req_id=20190805082023010152021198464304F&group_id=6721117553550164484&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
 //ok --todo
