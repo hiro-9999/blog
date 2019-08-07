@@ -5,6 +5,9 @@ touch  ~/.bash_profile
 source ~/.bash_profile
 cd $GOPATH
 
+//MongoDB
+https://godoc.org/labix.org/v2/mgo
+
 go get github.com/cloudnativego/hello
 cd src/github.com/cloudnativego/hello
 go build
