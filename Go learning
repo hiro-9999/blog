@@ -77,3 +77,51 @@ studygolang.comstudygolang.com
 分享自今日头条：【网页分享】https://blog.csdn.net/u012670875/article/details/82218482?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 分享自今日头条：【网页分享】https://bbs.csdn.net/topics/390533775?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 分享自今日头条：【最好的6个Go语言Web框架 - CSDN研发技术 - CSDN博客】https://blog.csdn.net/dev_csdn/article/details/78740990?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+Go Isn’t Just a Niche Language
+There is a vicious stereotype floating around the Internet that, while handy, the only real place for Go code is in building command-line tools and tiny little one-off utilities. We hope that we have disproved this slander and that you now know the real power of Go, which is solving complex problems with simple and elegant code.
+
+How Micro Should a Microservice Be?
+As we have built samples of varying complexity, we have mentioned patterns and techniques for determining where you should split the boundary lines of your microservices.
+
+While there is no silver bullet answer, there are a couple of guiding principles that should remain in the back of your mind during design and architecture:
+
+Image A microservice should do one thing. It is a self-contained, RESTful embodiment of the Single Responsibility Principle (SRP). It should be easy to change and upgrade, and the changing of it should make ripples not waves.
+
+Image The golden rule from Sam Newman’s book: can you make a change to a service and deploy it by itself without changing anything else?
+
+Continuous Delivery and Deployment
+All the tools and technology in the world won’t help you if you don’t have confidence in your application. If you don’t know how its going to behave in production before you deploy it, then the cloud will be your enemy rather than your greatest ally.
+
+You should be running builds as soon after every commit as possible, on all branches. Your build pipelines should execute unit tests immediately, and they should execute integration tests as soon as possible.
+
+Assuming everything tests out clear, your build pipelines should be automatically deploying your applications to various environments. At the very least, you should be automatically deploying to a testing environment and then using one-button deployment for higher environments like staging and production.
+
+Test Everything
+Confidence only comes from testing. Only by strictly adhering to the principles of Test-Driven Development (TDD) can you have any confidence in the reliability of your code or its ability to perform as designed. Integration tests should certify your code at the seams, and acceptance tests should certify all the moving parts of your application within a single environment.
+
+Many people think the choice of programming language is the silver bullet to solve all of their problems. If there is any one thing that solves the majority of all problems, it is testing. It’s hard to do, it requires effort, and it may feel like it takes more time in the beginning, but it is absolutely essential to success and your ability to maintain existing applications and rapidly build and deploy new features.
+
+Release Early, Release Often
+Fear of releasing is a real thing among many enterprises and even many organizations that would label themselves as agile or a lean startup. These organizations often put off releases until the last minute, or they schedule them for every quarter or even every 6 months.
+
+The solution to the fear of releasing is not to release less often, it is to release more often. As features are tested and certified, they should be released and made available. You can use techniques like blue/green deployment to gradually introduce these features to customers consuming your application. This model is how many of the giants perform releases, including Google and Facebook.
+
+Automated releases are essential, and frequent releases are directly correlated to your ability to maintain and enhance applications. As we mentioned early in the book, the phase of your application’s life where it is not “in production” is extremely short. You need to plan for the long game; for how your process is going to deliver what you need rapidly and reliably while your app is being used by millions of people.
+
+Event Sourcing, CQRS, and More Acronyms
+We also learned that language and technology is not a substitute for scalable architecture and design. You can implement terrible patterns in so-called cloud native languages and completely ruin your application’s ability to scale.
+
+In this book we talked about patterns and practices that enable massive-scale operations, including Event Sourcing, the Command Query Responsibility Segregation (CQRS) pattern, and the concept of eventual consistency. Knowing how these work, when to use them, and when their complexity is warranted will serve you well as you build truly cloud-scale applications.
+
+NEXT STEPS
+Now that you’re an expert on building microservices in the cloud with Go, what are you going to do next? Where do you go from here?
+
+Build. It doesn’t matter what, but if you don’t use the skills and techniques outlined in this book, then you’ll quickly forget them and the authors will become sad and depressed. Come up with crazy ideas and implement them. The building of an application should be as enjoyable as the consumption of it.
+
+Contribute. Give back to the community. Write libraries for other Go developers building microservices. Create samples; add to the samples repositories for this book. The more code we contribute to the community, the bigger the community gets and the quicker we can reach a point where folks stop underestimating the power, flexibility, and elegance of the Go language.
+
+Share. Tell your skeptical friends about this book. Buy them a copy, show them the code samples. Spread the word and get more people addicted to writing cloud native code in Go.
+
+
+
