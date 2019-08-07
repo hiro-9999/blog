@@ -5,6 +5,8 @@ https://www.hackingwithswift.com/articles/126/whats-new-in-swift-5-0
 https://developer.apple.com/xcode/swiftui/
 https://developer.apple.com/tutorials/swiftui/tutorials
 
+【Swift 5.1：颠覆！将你的代码减少一半】https://toutiao.com/group/6721457242924663303/?app=news_article_social&timestamp=1565066031&req_id=20190806123351010152036075672C5D3&group_id=6721457242924663303&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 
 cocoaChina 
 http://www.cocoachina.com/
