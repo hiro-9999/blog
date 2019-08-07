@@ -10,6 +10,9 @@ cd src/github.com/cloudnativego/hello
 go build
 curl -D - -X OPTIONS http://localhost:8080
 
+Go Playground can be found at http://play.golang.org.
+
+
 //brew install go
 brew install goenv
 goenv install -l
