@@ -1,5 +1,31 @@
 //cloud-native-go
 
+brew doctor😂
+This command will examine your Homebrew installation. It might point out some directories that you need to take ownership of, and it might also display a message indicating that your copy of Homebrew is outdated. At this point, if Homebrew is outdated, follow the directions indicated to update.
+
+Next, install Homebrew Cask, which labels itself as “the missing Apps manager for the Mac”:
+
+Click here to view code image
+
+ brew install caskroom/cask/brew-cask
+ 😋
+At this point, your Homebrew installation should be working and now you are ready to use Homebrew to install the other pre-requisites for Go.
+
+Installing the Git Client
+
+$ brew install mercurial
+
+$ brew install bazaar
+
+Now, just to double check that you have all of the revision control clients you need installed, issue the following commands to Homebrew to check the status of the installations:
+
+$ brew info git
+
+$ brew info mercurial
+
+$ brew info bazaar
+
+
 https://12factor.net
 1. The Way of the Cloud
 “If you do not change your direction, you may end up where you are heading.”
