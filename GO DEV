@@ -1,4 +1,15 @@
 //golang 開発環境構築 at Mac OS
+vi ~/.bash_profile
+touch  ~/.bash_profile
+~/.bash_profile should contain export GOPATH=$HOME/go and also export PATH=$GOPATH/bin:$PATH. 
+source ~/.bash_profile
+cd $GOPATH
+
+go get github.com/cloudnativego/hello
+cd src/github.com/cloudnativego/hello
+go build
+curl http://localhost:8080
+
 //brew install go
 brew install goenv
 goenv install -l
