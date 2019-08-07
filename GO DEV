@@ -11,7 +11,14 @@ go build
 curl -D - -X OPTIONS http://localhost:8080
 
 Go Playground can be found at http://play.golang.org.
+https://blog.golang.org/strings
 
+https://hub.docker.com
+https://docs.docker.com/docker-for-mac/
+//For details on how to install Docker on your Mac, check out https://docs.docker.com/engine/installation/mac/. At the time of this writing, we had Docker version 1.8.1 installed. Make sure you check the documentation to ensure you’re looking at the newest installation instructions before performing the install.
+
+
+ wercker.com
 
 //brew install go
 brew install goenv
