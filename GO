@@ -1,6 +1,9 @@
 //book
 https://github.com/qyuhen/book
 
+
+https://survivejs.com/blog/
+
 https://auth0.com
 https://github.com/cloudnativego/secureweb
 
