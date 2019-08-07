@@ -1,6 +1,8 @@
 //book
 https://github.com/qyuhen/book
 
+【使用Go Module构建项目】https://toutiao.com/group/6721717391866200589/?app=news_article_social&timestamp=1565098025&req_id=20190806212705010152040020599EF8C&group_id=6721717391866200589&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 //Mastering-Go
 https://github.com/PacktPublishing/Mastering-Go
 
