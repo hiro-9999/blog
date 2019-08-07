@@ -1,5 +1,8 @@
 GitHub source code at https://github.com/cloudnativego/web-application. 
 
+//Go debugger
+(https://golang.org/doc/gdb).
+
 //Test-Driven Development (TDD) 
  Only by strictly adhering to the principles of Test-Driven Development (TDD) can you have any confidence in the reliability of your code or its ability to perform as designed. Integration tests should certify your code at the seams, and acceptance tests should certify all the moving parts of your application within a single environment.
  
@@ -77,6 +80,14 @@ studygolang.comstudygolang.com
 分享自今日头条：【网页分享】https://blog.csdn.net/u012670875/article/details/82218482?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 分享自今日头条：【网页分享】https://bbs.csdn.net/topics/390533775?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 分享自今日头条：【最好的6个Go语言Web框架 - CSDN研发技术 - CSDN博客】https://blog.csdn.net/dev_csdn/article/details/78740990?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+// New Relic (https://newrelic.com). 
+This tool, and others like it, works by having the application emit performance metrics to some form of central aggregator. This aggregator is then responsible for storing and processing the information received from the applications to provide administrators, developers, and operations people with dashboards and drilldowns.
+
+//Many APM solutions like New Relic work through the use of agents.
+These are either libraries loaded with your application or 
+processes that are loaded “sidecar” style that facilitate the emission of APM metrics. 
+While New Relic’s page doesn’t link to a Go agent, you can find an OSS one here: 
+https://github.com/yvasiyarov/gorelic.
 
 Go Isn’t Just a Niche Language
 There is a vicious stereotype floating around the Internet that, while handy, the only real place for Go code is in building command-line tools and tiny little one-off utilities. We hope that we have disproved this slander and that you now know the real power of Go, which is solving complex problems with simple and elegant code.
