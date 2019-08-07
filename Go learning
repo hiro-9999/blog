@@ -1,3 +1,10 @@
+  "github.com/cloudnativego/cfmgo"
+
+        "github.com/cloudnativego/gogo-engine"
+
+        "github.com/cloudnativego/gogo-service/fakes"
+
+
 //pprof  定位goroutine泄露
 https://www.toutiao.com/i6719314182912606734/
 G: goroutine，每个G都代表1个goroutine
