@@ -3,7 +3,19 @@
         "github.com/cloudnativego/gogo-engine"
 
         "github.com/cloudnativego/gogo-service/fakes"
+We’re going to talk about two patterns, Event Sourcing and CQRS, that are all about solving the problem of reacting and responding to enormous volume and throughput. The topics we’re going to cover are:
 
+Image Introduction to Event Sourcing.
+
+Image Introduction to Command Query Responsibility Segregation (CQRS).
+
+Image Building an advanced ES+CQRS code sample.
+
+Image Building a command handler service.
+
+Image Building an event processor.
+
+Image Building a query handler service.
 
 //pprof  定位goroutine泄露
 https://www.toutiao.com/i6719314182912606734/
