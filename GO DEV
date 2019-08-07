@@ -8,7 +8,7 @@ cd $GOPATH
 go get github.com/cloudnativego/hello
 cd src/github.com/cloudnativego/hello
 go build
-curl http://localhost:8080
+curl -D - -X OPTIONS http://localhost:8080
 
 //brew install go
 brew install goenv
