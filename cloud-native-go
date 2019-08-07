@@ -1,0 +1,197 @@
+//cloud-native-go
+
+https://12factor.net
+1. The Way of the Cloud
+“If you do not change your direction, you may end up where you are heading.”
+
+Lao Tzu
+
+As we mentioned in the preface, our goal in this book is to teach you to build cloud native applications. However, the phrase cloud native, as part of the gestalt, carries with it a lot of implied baggage that we would like to leave behind, such as an explicit focus on applications rather than humans and philosophy, and a reliance on the original “12 factors”1 to define and characterize applications.
+
+1 12 Factors, Heroku’s now dated guidelines for building cloud applications: http://12factor.net.
+
+While application-focused guidelines are certainly valuable, we feel that a cloud native culture starts with the people building and designing the applications, and if those people have embraced the right philosophy, then that will be obvious in the beauty of the applications they produce. The passion of any artist is always visible in the works they produce, and web applications and microservices are no different in this regard.
+
+Building applications for the cloud is more than just learning a new set of libraries or a different programming language. It involves mastering new disciplines, building and fostering new habits, and looking at the world differently.
+
+The Chinese character Image (dao) has many interpretations, but when used in terms of philosophy, it means the way or the path. It refers to the path, or the way in which one does a thing, such as leading a life or building software. To describe our own personal philosophy of embracing cloud native development and architecture, we call this path Image (yúndào), which means the way of the cloud.
+
+In this chapter, we will introduce you to the way of the cloud. The way has many virtues that we feel are exemplars, and everything we have built for this book, from the prose to the code and supporting sites, exudes the passion we have for the way. Hopefully, by the time you have finished this book, you will be as passionate about the way as we are.
+
+We will be discussing:
+
+Image The virtues of the way of the cloud
+
+Image Justifications for choosing the Go language for cloud native microservices development
+
+THE VIRTUES OF THE WAY OF THE CLOUD
+Contrary to popular belief, there are days when what we do isn’t all rainbows and unicorns. At some point, something happens and our passion becomes a chore. We trudge to work and we go through the motions of adding code, praying it works, and deploying. We lose sight of the fact that what we build is art, and we fail to give our craft the love and devotion it deserves.
+
+In one degree or another, this has probably happened to us all at some point in our careers. Hopefully an inspiring boss, a new technology or language, or a new job turned things around and rescued us from this pit.
+
+For us, this rescue came in the form of the way of the cloud. It changed our perspective on software development and how we see the world. We can see the art in what we build now, and software has become fun again, and there is no way we can go back to building applications any other way.
+
+Throughout our years of building software for enterprises, startups, hobbies, and everything in between, we have developed a set of virtues that we feel give us the best chance at creating scalable, reliable, and predictable software that embraces the cloud and everything it has to offer.
+
+While there’s nothing that says these virtues can only apply to cloud software, this book is about cloud native software development and so throughout the book, every code sample we produce and every topic we discuss will exude the virtues below. In fact, we followed these virtues in producing this book—everything from the prose to the code to the companion site.
+
+Favor Simplicity
+The Way of the Cloud
+
+Favor simplicity in everything that you do.
+
+Question everything that appears to defy simplicity. What you’re building is already complex enough; there is absolutely no need to inject further complexity or ceremony into your work.
+
+Question every tool. Ask yourself if the tool is making your life easier, or compensating or apologizing for complexity elsewhere in the system. If the answer is the latter, ditch the tool, and the reason for using it.
+
+Question all of your code. If it’s too complex to read, change the language or framework that’s causing that complexity. If there is so much magic happening behind the scenes in the code you can’t see that it’s difficult to figure out what happens when or where, change the code.
+
+Here is the litmus test for simplicity:
+
+Image Is your IDE optional?
+
+Image Can you build and deploy from the command line?
+
+Image Can a new team member quickly figure out what’s going on just by reading the code?
+
+Tools and IDEs must make our lives better by automating routine tasks, and simplifying manual tasks by reducing frustration or time. Tools must never be mandatory. If you have to use a specific IDE because your code will not generate or compile without it, then you are absolutely not following the way of the cloud, and not favoring simplicity.
+
+Anything that you can do from the command line can be automated by a script or a continuous delivery tool. Therefore, if you can build, test, and deploy your application from a command line, then you can automate all of those tasks.
+
+This may seem like a harsh stance, and you have every right to disagree with us. However, at least until you finish reading this book, try and apply this virtue to all of your development efforts. You will not be disappointed.
+
+The only people who claim that you cannot have cloud native and simplicity at the same time are those apologizing for complexity they either created or aren’t willing to give up.
+
+Test First, Test Everything
+The Way of the Cloud
+
+Employ Test-Driven Development. Test everything, everywhere.
+
+Testing is your first and best defense against the evils of hope-based computing.
+
+Pretty much everyone can agree that testing is a good idea, but few teams ever agree on how much testing should be necessary. Before we answer that, consider this: why do we test our software?
+
+Of course we want bug-free software, and we want our customers to be happy, and we’d like to make hojillions of dollars while we’re at it. But, the core of testing is none of those things. At the most basic level, testing gives us confidence.
+
+Have you ever been in a room when someone is about to exercise some feature of your application in front of some very important or influential people? Do you remember the feeling of panic wash over you right before the crucial test?
+
+Fear
+
+Fear is the direct result of lack of testing.
+
+It is that fear of what might happen, that uncertainty of how your application performs that can plague an entire system, causing untold stress, system failures, and the worst: customer-discovered bugs in production.
+
+What we need to do is replace our fear with confidence. Confidence is a cumulative effect in our system that starts with confidence in the smallest testable unit. From there, confidence builds as our codebase expands and we maintain the integrity of our tests.
+
+Figure 1.1 shows this in detail. When we have full confidence in a class because it has been fully tested with unit tests, then we can have confidence in a library because we have confidence in all of the classes in that library. The converse is the important lesson here: if you do not have confidence in the building blocks of your application, then you have far less confidence in your application as a whole. Confidence decreases exponentially as you travel outward from class to library to service without testing.
+
+Image
+Figure 1.1 Areas of Testing Confidence in a Microservice Ecosystem
+
+We can only have confidence in our service if we have confidence in all of the libraries that make up this codebase. Finally, we can only have confidence in our ecosystem of services if every service within the ecosystem has been fully tested, both internally and at the seams via integration testing among multiple services.
+
+You may often run into situations on teams where leadership doesn’t feel that the time spent on extensive testing is worth it. It’s pretty easy to manipulate a spreadsheet to back up the assertion that adequate testing costs too much money. Therefore, to counter that thinking, consider the following analogy:
+
+When you build your applications locally, you’ve got all the tools you could imagine at your disposal. You can connect to a debugger, you can set and hit breakpoints. In some cases you can even pause an app, manipulate data in memory, and then resume it. This gives you a false sense of confidence, and can even make you think integration and unit testing is unnecessary, given how much time you’ve spent in the debugger.
+
+Consider then a situation where what you’re building isn’t just a piece of software being deployed on a computer sitting a few feet from you. Imagine that what you’re building is actually a spacecraft, being launched into deep space. Once launched, you can’t touch it, you can’t grab a screwdriver and make last-minute adjustments, and if something fails catastrophically a few million miles from home, that’s the end of the line.
+
+When you deploy to the cloud, you are relinquishing a lot of hands-on control. It might not be as complicated as launching a satellite, but you give up instantiation control, you can’t set breakpoints, and you generally don’t have runtime introspection.
+
+The next time someone waves a spreadsheet at you claiming that testing costs too much money, simply reply and ask them the cost of complete and total failure of the product at every level, because that is the real cost of skimping on tests.
+
+This brings us back to confidence. If you have confidence in the fact that your application will function as it should, you can use that confidence as a bedrock for other huge benefits, like continuous delivery (discussed next).
+
+The bottom line is you should adopt Test-Driven Development2, and you must build confidence in the services you produce by testing everything inside and out of every service you build.
+
+2 For more information on Test-Driven Development, check out: Beck, Kent. (2003) Test-Driven Development: By Example. Addison-Wesley Professional.
+
+Release Early, Release Often
+The Way of the Cloud
+
+Every checkin is a potential production release, deployed via CD pipeline.
+
+In the previous section, we talked about the fear of people using your application because you lack the confidence that it will behave as it should. There is another kind of fear that we need to confront head-on: the fear of releasing.
+
+There are organizations where it is the norm for a release to be a stop-the-world event. It is planned months in advance, emergency personnel are on standby, ambulances and firefighters are in position, and nearly every person who ever checked in a line of code, or oversaw the checkins, is on the phone at midnight in order to carry out this release. The Guinness Book of World Records is on the phone so they can be there to record the event just in case, for the first time in history, nothing goes wrong.
+
+Companies that operate this way try to mitigate the problem by throwing more resources, more people, and more infrastructure and controls at a release. Sometimes they will even delay releases, and release less often. This is the exact opposite of what you should do.
+
+The only way to get over the fear of releasing is to release more frequently.
+
+The cascade of benefits starts when every developer on your team firmly believes that every single commit to the source control system could end up in production within a matter of days. This leads to a level of rigor and discipline that most people don’t normally apply to their code. Additionally, if you know your code is going to be released rapidly, you are far more likely to test your code, because the last thing you want is a production release with low confidence, right?
+
+Automate Everything
+The Way of the Cloud
+
+Everything that can be automated, should be automated.
+
+Now that we have confidence that our code is being tested, being written in a way that facilitates testing, and that we’re releasing so regularly that we no longer fear the looming specter of release, we can start making our lives better and increasing productivity.
+
+Anything you do more than once per day is a candidate for automation.
+
+The first and probably most important thing to automate is your release process itself. Within minutes of a checkin, some automated system should be running tests on your code, validating that the code meets your standards, and deploying an immutable build artifact to some environment where it can be used for manual and integration testing.
+
+Things that you do manually are error-prone. As the easily distracted humans that we are, we can forget steps, we can do steps in the wrong order, and we can do extra steps we don’t need. Once we’ve certified an automated process, it gives us even more confidence.
+
+We should be able to reach a point where, after a push to source control, if no sirens go off, no Darth Vader heads light up, and no angry e-mails get sent out, then we have confidence that our changes did not cause unit or integration tests to fail. There’s still more testing that needs to be done prior to production, but we have enough confidence that our checkin is a release candidate ready to go through the pre-production certification process.
+
+With that, we leave you with one final guideline on automation:
+
+Any frequently repeated part of your process that cannot be replaced with a button or a script is too complicated, too brittle, or both.
+
+Only when you have embraced automation, and you are able to go from commit to cloud automatically, can you really start to reap the benefits of cloud native development and scale out from building a single microservice to building microservice ecosystems.
+
+Build Service Ecosystems
+The Way of the Cloud
+
+Everything is a service, including your application.
+
+Before discussing ecosystems, we want to air our gripes with the term microservices3. As with any buzzword, it has become overused and watered down. We firmly believe that all services should be microservices, so the prefix micro is completely unnecessary.
+
+3 For more information on microservices, check out: Newman, Sam. (2015) Building Microservices. O’Reilly Media.
+
+For years, we were in love with building monoliths. Even when the whole “n-tier” or “3-tier” application fad was hip and trendy, those n-tier applications were still monoliths. They were just slightly more organized monoliths.
+
+In a monolithic application, every concern and functional requirement of a system is met inside one giant thing. This inhibits the simplicity, ease of automation, and ease of release that are fundamental to the way of the cloud.
+
+In a monolith, any time anything changes, you must perform a release of the entire application. This encourages the five-alarm “all hands” release party that we want to avoid. Applications like this are hard to maintain, slow to start, slow to stop, and often have dependencies so tightly coupled that they are difficult to deploy in the cloud.
+
+A microservice is really just a service that adheres to a slightly looser definition of the Single Responsibility Principle (SRP) that arose from patterns for object-oriented design. It is a service that does one thing.
+
+An application is just a microservice that exposes one or more endpoints that render a GUI (e.g. HTML).
+
+Entire books have been written (with more likely to come!) on the concepts of microservices and how to decide what should be a service, what shouldn’t be, and where to cut at the seams of your existing monoliths in order to refactor them into smaller services.
+
+The purpose of this virtue of the way of the cloud is to imagine that you aren’t building giant monoliths; you are instead building services that co-exist within an ecosystem. This reinforces habits like building strongly versioned contracts into your RESTful endpoints, testing service interaction as part of your release process, and planning for flexibility to allow for unforeseen, future consumers of your services.
+
+WHY USE GO?
+Now that you’ve suffered through us having wind-bagged our way through the way of the cloud, you might be wondering: why Go? What makes Go the ideal language to use for building cloud native services and applications?
+
+There are three main reasons why we’ve chosen Go as our preferred language for building cloud native applications: simplicity, open source, and ease of automation.
+
+Simplicity
+There is a compelling beauty in the simplicity of Go. On the surface, it could even pass for a simplified variant of ANSI C, but it is powerful enough to handle today’s most demanding software requirements.
+
+This simplicity isn’t just on the surface—everything about Go eschews unnecessary complexity, ceremony, and cruft. It doesn’t compile to intermediary bytecode like Java or .NET, it produces native binaries. As such, this simplicity doesn’t come at a price, it actually improves performance.
+
+Once you get over the initial fear of not being able to be productive in a language that doesn’t have classes, pure functional programming4, or a billion other bells and whistles, you may end up like us and love the purity of a language that shuns magic and artifice, and gives you raw, pure power to be productive and finally enjoy programming again.
+
+4 Go does allow higher-order functions and functions-as-data, but lacks some features FP purists would consider mandatory. This debate is far too heated for discussion in this book.
+
+Open Source
+Go isn’t just an open source language, it is a language embraced and supported by a community of people who thrive on open source and all that it provides. As you’ll see throughout the book, sharing open source modules via GitHub and other repositories is a first-class concept within the language and its core tooling.
+
+Easy Automation and IDE Freedom
+As we mentioned earlier in this chapter, if you can control an aspect of your build cycle with a script, then you can automate it. Everything that you do with Go, from compilation to executing tests or performing static analysis, can be done from a simple command line.
+
+Another extended benefit to using Go is that it enables your freedom to choose whatever text editor you like. For more details on getting set up with an IDE and customizing your Go development environment, make sure to check out our recommendations at cloudnativego.com.
+
+Go to the book’s companion website, github.com/cloudnativego/, for access to code files used in this book and additional material.
+
+SUMMARY
+In this chapter we touched on some philosophy, some theory, and laid down some definitions and guidelines. We firmly believe that the mindset of the development is the critical factor that will lead to the success or downfall of any cloud native project.
+
+This is why we introduced the way of the cloud early in the book, and as you will see as you make your way through the remainder of it, this philosophy colors every decision we make, every line of code we write, and every test we automate.
+
+We also talked about the serendipitous nature of how well Go lends itself to building simple, elegant, highly efficient, super-fast microservices. Go isn’t our favorite language because it has the fanciest libraries or the most ways to write obfuscated code. Rather, Go is our favorite language because of the absence of those things and the incredibly low impedance mismatch between our intent and our code.
