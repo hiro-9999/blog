@@ -32,6 +32,16 @@ $ brew info mercurial
 
 $ brew info bazaar
 
+1 Links to references on Markdown syntax can be found here: https://en.wikipedia.org/wiki/Markdown.
+
+As a matter of habit, we typically create Markdown documents that we bundle along with our services. This allows other developers to quickly get a list of all of our service’s REST resources, the URI patterns, and request/response payloads. As simple as our Go code is, we still wanted a way to document the service contract without making someone go sifting through our router code.
+
+As it turns out, there is a dialect of Markdown used specifically for documenting RESTful APIs: API Blueprint. You can get started reading up on this format at the API Blueprint website https://apiblueprint.org/.
+
+If you check out the GitHub repository for this chapter (https://github.com/cloudnativego/gogo-service), you’ll see a file called apiary.apib. This file consists of Markdown that represents the documentation and specification of the RESTful contract supported by the GoGo service.
+
+Listing 5.1 below shows a sample of the Markdown content. You can see how it describes REST resources, HTTP methods, and JSON payloads.
+
 
 https://12factor.net
 1. The Way of the Cloud
