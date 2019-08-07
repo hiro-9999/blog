@@ -18,6 +18,7 @@ https://docs.docker.com/docker-for-mac/
 //For details on how to install Docker on your Mac, check out https://docs.docker.com/engine/installation/mac/. At the time of this writing, we had Docker version 1.8.1 installed. Make sure you check the documentation to ensure you’re looking at the newest installation instructions before performing the install.
 
 //For information on Negroni, 
+https://github.com/urfave/negroni/blob/master/translations/README_zh_CN.md
 check out the GitHub repo https://github.com/codegangsta/negroni. 
 And for information on Gorilla Mux, check out that repo at https://github.com/gorilla/mux. Note that these are the same URLs that we import directly in our code, which makes it extremely easy to track down documentation and source code for third-party packages.
 
