@@ -7,6 +7,11 @@ https://golang.org/doc/install
 https://github.com/dnem
 🥰
 
+//TDD ideology
+go test -v $(glide novendor)
+
+
+
 brew doctor😂
 This command will examine your Homebrew installation. It might point out some directories that you need to take ownership of, and it might also display a message indicating that your copy of Homebrew is outdated. At this point, if Homebrew is outdated, follow the directions indicated to update.
 
