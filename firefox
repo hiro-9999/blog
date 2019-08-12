@@ -15,5 +15,6 @@ http://unrealengine.hatenablog.com/entry/2018/05/04/232708
 chrome://inspect/#devices
 を打ち込むと、次のような画面になります。OculusGo側には、開発用に接続していいかどうかの確認ダイアログがでるので、許可してください。
 
-
+//Oculus Goの開発者モードがオンに
+http://unrealengine.hatenablog.com/entry/2018/05/04/232708
 
