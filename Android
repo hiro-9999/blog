@@ -3,6 +3,12 @@ https://techblog.scouter.co.jp/entry/2019/01/30/135004
 
 https://flutter.dev/
 
+//Homeキーのタップを検知する方法には
+
+1). onUserLeaveHint
+2). BroadcastReceiver
+http://a01.hatenablog.com/entry/2017/04/05/215248
+
 //cookie
 https://www.jianshu.com/p/ed26790aa2c5
 https://www.jianshu.com/p/3c3da18e369e
