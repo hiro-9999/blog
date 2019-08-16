@@ -1,6 +1,9 @@
 https://techblog.scouter.co.jp/entry/2019/01/30/135004
 //Flutter
 
+//Manifest merger failedとかいうエラーの解消法
+https://kurutabrog.hatenablog.com/entry/2019/05/04/133140
+
 //List all dependencies by running below
 ./gradlew :app:dependencies
 
