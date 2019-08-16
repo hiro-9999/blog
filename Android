@@ -3,6 +3,24 @@ https://techblog.scouter.co.jp/entry/2019/01/30/135004
 
 //Manifest merger failedとかいうエラーの解消法
 https://kurutabrog.hatenablog.com/entry/2019/05/04/133140
+①【gradle.properties】に
+
+android.useAndroidX=true
+android.enableJetifier=true
+を記載。
+f:id:kurutabrog:20190504132938p:plain
+②MainActivity等の、AppCompatActivityを継承しているファイルを開き、
+
+import androidx.appcompat.app.AppCompatActivity
+をインポートする。
+f:id:kurutabrog:20190504133024p:plain
+③layoutファイルでConstraintLayout棟のサポートライブラリを使用している場合は、
+
+<androidx.constraintlayout.widget.ConstraintLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" >
+//省略
+</androidx.constraintlayout.widget.ConstraintLayout>
+と書き換える。
 
 //List all dependencies by running below
 ./gradlew :app:dependencies
