@@ -9,6 +9,7 @@ https://kurutabrog.hatenablog.com/entry/2019/05/04/133140
 
 android.useAndroidX=true
 android.enableJetifier=true
+https://stackoverflow.com/questions/51793345/android-material-and-appcompat-manifest-merger-failed/53202089
 を記載。
 f:id:kurutabrog:20190504132938p:plain
 ②MainActivity等の、AppCompatActivityを継承しているファイルを開き、
