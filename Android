@@ -1,6 +1,10 @@
 https://techblog.scouter.co.jp/entry/2019/01/30/135004
 //Flutter
 
+
+//Migrate to AndroidX
+https://qiita.com/ikemura23/items/70aeb3f83d17b5d8f729
+
 //Manifest merger failedとかいうエラーの解消法
         videoSource = new HlsMediaSource.Factory(okHttpDataSourceFactory).createMediaSource(contentUri);
 
