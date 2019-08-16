@@ -30,6 +30,8 @@ xmlns:android="http://schemas.android.com/apk/res/android" >
 https://flutter.dev/
 
 //exoplayer https://qiita.com/niusounds/items/cce4ff69f5911908259b
+videoSource = new ProgressiveMediaSource.Factory(dataSourceFactory)
+                    .createMediaSource(contentUri);
 2.6.1以降
 ExtractorMediaSourceのコンストラクタは非推奨になり、代わりにExtractorMediaSource.Factoryを使う方法が推奨されています。こちらの方がコードが少なくて良いです。
 
