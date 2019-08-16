@@ -8,6 +8,8 @@ view.setSecure(true);
 //multi-DRM 
 https://medium.com/swlh/can-chromium-based-edge-solve-browsers-drm-issues-83479089d67d
 
+To protect the decrypted content in this final stage, you can apply various technologies such as ‘Hardware-level DRM’, 
+‘Trusted Execution Environment (TEE)’, and ‘High-bandwidth Digital Content Protection (HDCP)’.
 
 
 
