@@ -7,6 +7,10 @@ https://flutter.dev/
 2.6.1以降
 ExtractorMediaSourceのコンストラクタは非推奨になり、代わりにExtractorMediaSource.Factoryを使う方法が推奨されています。こちらの方がコードが少なくて良いです。
 
+//exoplayer ok
+https://exoplayer.dev/listening-to-player-events.html
+
+
 //Homeキーのタップを検知する方法には
 
 1). onUserLeaveHint
