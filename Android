@@ -2,6 +2,8 @@ https://techblog.scouter.co.jp/entry/2019/01/30/135004
 //Flutter
 
 //Manifest merger failedとかいうエラーの解消法
+        videoSource = new HlsMediaSource.Factory(okHttpDataSourceFactory).createMediaSource(contentUri);
+
 https://kurutabrog.hatenablog.com/entry/2019/05/04/133140
 ①【gradle.properties】に
 
