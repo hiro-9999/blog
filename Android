@@ -3,6 +3,10 @@ https://techblog.scouter.co.jp/entry/2019/01/30/135004
 
 https://flutter.dev/
 
+//exoplayer https://qiita.com/niusounds/items/cce4ff69f5911908259b
+2.6.1以降
+ExtractorMediaSourceのコンストラクタは非推奨になり、代わりにExtractorMediaSource.Factoryを使う方法が推奨されています。こちらの方がコードが少なくて良いです。
+
 //Homeキーのタップを検知する方法には
 
 1). onUserLeaveHint
