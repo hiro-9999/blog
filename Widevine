@@ -1,1 +1,10 @@
 https://pallycon.com/docs/en/multidrm/clients/widevine-android/
+Preventing screen recording
+To prevent content leaks with screen recording apps, you should block the capture function by adding the following code to your application:
+
+SurfaceView view = (SurfaceView)simpleExoPlayerView.getVideoSurfaceView();
+view.setSecure(true);
+
+
+
+
