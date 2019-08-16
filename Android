@@ -4,6 +4,7 @@ https://techblog.scouter.co.jp/entry/2019/01/30/135004
 
 //Migrate to AndroidX https://developer.android.com/jetpack/androidx/migrate
 https://qiita.com/ikemura23/items/70aeb3f83d17b5d8f729
+https://github.com/BaseflowIT/flutter-permission-handler/issues/79
 
 //Manifest merger failedとかいうエラーの解消法
         videoSource = new HlsMediaSource.Factory(okHttpDataSourceFactory).createMediaSource(contentUri);
