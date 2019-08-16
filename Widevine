@@ -15,3 +15,6 @@ To protect the decrypted content in this final stage, you can apply various tech
 
 we expect to release IP watermarking within ten days. Widevine support is coming as well.
 
+Using VdoCipher’s  Widevine DRM architecture, you can create highly specific DRM licenses at the time of video upload. 
+For instance you can limit HD Streaming only to devices that support L1 video decryption (wherein decryption and decoding are both hardware based). You can limit devices having L3 security (Widevine CDM is limited to browser) to only SD playback. Hollywood studios and DECE often require streaming services to follow this policy, giving higher priority of security for HD video content.
+
