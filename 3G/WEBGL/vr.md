@@ -1,7 +1,7 @@
 //webvr
 https://webvr.info/
 
-//ex
+//ex Delight XR
 https://delight-vr.com/documentation/getting-started/#embed
 
 //react-vr-player
