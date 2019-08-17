@@ -1,3 +1,6 @@
+//vr 
+https://delight-vr.com/blog/complete-list-of-vr-headsets-2019/
+
 //webvr
 https://webvr.info/
 
