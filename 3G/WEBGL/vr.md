@@ -4,3 +4,13 @@
 The Oculus (and other PC-based VR headsets) are only supported on "beta" 
 versions of Chrome and Firefox (respectively Chromium and Firefox Nightly). 
 I personally recommend Firefox Nightly for now, especially if you are using Oculus Direct Mode which is not working on Chromium.
+
+//videojs-vr
+Oculus Rift and HTC Vive Support
+This project leverages the webvr-polyfill and three.js libraries to create a 'responsive VR' experience across multiple devices.
+
+Oculus Rift and HTC Vive playback requires Firefox >= 55, experimental WebVR-enabled builds of Chromium, or via Chrome by enabling webvr in chrome://flags. Go to WebVR.info for more info.
+
+GearVR playback requires the latest Samsung Internet for Gear VR with WebVR support enabled. Go here for more info.
+
+https://github.com/videojs/videojs-vr
