@@ -16,6 +16,11 @@ https://webvr.info/
 //ex Delight XR https://delight-vr.com/video-player-pricing/
 https://delight-vr.com/documentation/getting-started/#embed
 
+
+
+//eleVR Web Player
+https://github.com/hawksley/eleVR-Web-Player
+
 //react-vr-player
 (https://www.npmjs.com/package/react-vr-player)
 
