@@ -1,2 +1,42 @@
 资料
 Destination Navigation - DC Boston 2019
+
+//Kotlin 可在浏览器地址栏中输入 https://try.kotlinlang.org
+ 1.2 在线运行 Katlin代码 . 从前面的内容可以知道， Katlin可以用来开发 AndroidApp， 那么除了 AndroidApp. Kotlin
+1.1.4 Katlin 能做什么 还可以做什么呢?在本节我们就来一窥究竟。
+1. 服务端开发
+既然 Kotlin 是基于 NM 的编程语言 ，那么自然而然就可以使用所有基于 川悦 的服务端框 架。下面是几个 Katlin 官方文档推荐的框架。
+;i... Spring: 一种开源框架，是为了解决企业应用程序开发复杂性问题而创建的。从 Spring 5 开始， Spring 就已经支持 Katlin 的新特性了，并可以使用 Spring 在线生成器
+(https://start.spring.io)生成基于 Kotlin的工程。
+> Vert.x: 用于建立基于 JVM 的响应式 Web 应用的框架。
+;i... Ktor: 由 JetBrains 发布的 一款基于 Kotiin 的本地 Web 框架
+> kotlinx.html: 是一种 DSL (领域专用语言〉， 用于在 Web应用中生成 HTt-.伍。 Kotiin
+
+服务端框架和 kotlinx.html 的关系就像 JSP和 FreeMarker的关系一样， FreeMarker是 基于 Java 的模板引擎 。使用 FreeMarker， 可以不依赖于 HT.I\在L 或其他技术，可以根 据需要生成 HT岛1L 或其他东西， 也就是一种与具体渲染技术无关的技术 。
+2. 以 JavaScript方式运行
+Kotlin 提供了生成 JavaScript 源代码的能力，也就是将 Kotlin 代码直接转换为 JavaScript 代码 。目前 ，支持 ECMAScript 5.1 标准 ， 未来会支持 ECMAScript 6。
+注意，如果将 Katlin代码转换为 JavaScript代码， 在 Kotiin代码中只能包含 Kotiin标准库， 不能包含任何 JDK API 以及任何第三方的 Java Libra可 API，任何不属于 Kotiin本身(Kotlin 语句和标准库〉的部分在转换的过程中将被忽略。
+
+Kotlin 本身提供了 一个 阻 REPL 环境。那么什么是 阻 PL 呢 ? 阻 PL 是 Read-Eval-PrintLoop 的缩写， 中文意思就是“交互式解释环境”。 其实就是一个控制台环境，我们输入一行命令， REPL 会解释执行一行命令 。 阻 PL 的用处 比较多， 如测试代码、用命令行方式调试代码等。
+执行kotlinc命令，会直接进入如图 1-12所示的阻PL环境。
+然后在命令行中执行下面的命令，就会输出“hello Bill”。要记住，执行脚本文件(.kts
+文件)时， 一定要使用 国script命令行参数。 kotlinc -script test.kts
+
+
+ kotlinc-js -output kotlin一javascript. kotlin一javascript.kt
+查看当前目录，会发现多了一个 kotlinjavascript.js文件，打开该文件，代码如下:
+var kotlin = require (”kotlin”);
+现在将这行代码放到 kotlinjavascript.js 文件的最前面 。 现在运行 kotlinjavascript.js 文件， 仍然会抛出前面的异常，这是由于 Kotiin模块还没有安装 。现在使用如下的 npm命令安装 Katlin 模块。 npm 命令是 Node.js 中的一个命令行工具，用于管理 Node. 中的模块，类似于 Linux 的川m 和 apt-get命令。
+npm install kotlin
+
+《微信小程序开发入门精要》 一书。
+ 用于压缩 JavaScript文件的工具有很多，如 YUI compressor就是一款很不错的 JavaScript压 缩工具，这款工具用 Java编写。
+ 但作者发现使用这款工具压缩 kotlin.js文件时会产生一些错误， 无法成功压缩 kotlin.js文件，因此，本节采用了另外一款在线压缩工具。现在进入如下页面。
+https://jscompress.com
+
+读者可以使用 javap 命令查看 HelloKt.class 的接口。
+javap HelloKt.class
+
+javap -c HelloKt.class
+
+
