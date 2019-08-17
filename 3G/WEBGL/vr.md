@@ -1,3 +1,9 @@
+//webvr
+https://webvr.info/
+
+//ex
+https://delight-vr.com/documentation/getting-started/#embed
+
 //react-vr-player
 (https://www.npmjs.com/package/react-vr-player)
 
