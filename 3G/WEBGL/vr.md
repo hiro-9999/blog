@@ -1,3 +1,12 @@
+//Vysorの使い方！Androidの画面をPCに共有(ミラーリング)して操作する方法！
+https://applica.info/vysor
+
+//Oculus GoをPC画面に表示したい！パソコンに接続する方法とは
+https://vr-miratomo.jp/793/
+
+//video for firefox vr
+https://www.youtube.com/watch?v=93bxZlU-kbA
+
 //vr 
 https://delight-vr.com/blog/complete-list-of-vr-headsets-2019/
 
