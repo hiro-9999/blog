@@ -6,9 +6,14 @@ PWAの特徴である高速読み込みやオフライン閲覧に必要なServi
 iOSではバージョン11.3以降でサポート開始されました。しかし、プッシュ通知やPWAインストール用バナーの設置など、
 一部機能が制限されています。それに対し、Androidでは制限はなく、スムーズにPWAを利用できます。
 iOS12から横にスワイプで戻る機能がPWAに追加されました。
-
+https://www.suzukikenichi.com/blog/three-problems-pwa-has-to-overcome/
 //
 https://developers.google.com/web/fundamentals/codelabs/your-first-pwapp/?hl=ja
 
 //
 https://github.com/vuejs-templates/pwa
+
+
+//SEO
+https://webtan.impress.co.jp/e/2019/08/19/33635
+https://www.suzukikenichi.com/blog/google-published-document-for-javascript-seo-basics/
