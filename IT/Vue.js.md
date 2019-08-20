@@ -3,3 +3,7 @@ Vue.js
 
 
 [GitHub Actions now supports CI/CD, free for public repositories](https://www.infoq.cn/article/D0mTaPbgpBHF3r-Cuvf3)
+
+
+
+https://edgeconsult.me/lib/Software%20Development/Web/Vue/Vue.js-2-Cookbook.pdf
