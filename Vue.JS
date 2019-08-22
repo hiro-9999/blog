@@ -1,3 +1,8 @@
+//ok 基于Vue+Element实现
+https://github.com/macrozheng/mall-admin-web
+
+
+
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
 
