@@ -1,7 +1,7 @@
 //ok 基于Vue+Element实现
 https://github.com/macrozheng/mall-admin-web
 
-
+【Vue组件间通信的6种方式，前端工程师人人都会，网友：太简单了】https://toutiao.com/group/6727134744984683021/?app=news_article_social&timestamp=1566300000&req_id=201908201919590101520311048910FDB&group_id=6727134744984683021&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
 https://daneden.github.io/animate.css/
 http://cdn.bootcss.com/animate.css/3.5.2/ animate.min.css
