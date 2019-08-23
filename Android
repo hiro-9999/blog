@@ -1,6 +1,10 @@
 //
 command + option + L
 
+//AndroidX:
+android.useAndroidX: true に設定すると、Android プラグインは Support Library ではなく、該当する AndroidX ライブラリを使用します。設定しない場合、このフラグはデフォルトで false です。
+android.enableJetifier: true に設定すると、Android プラグインは既存のサードパーティ ライブラリのバイナリを書き換えて、AndroidX を使用するように自動的に移行します。設定しない場合、このフラグはデフォルトで false です。
+
 https://techblog.scouter.co.jp/entry/2019/01/30/135004
 //Flutter
 
