@@ -3,6 +3,7 @@ command + option + L
 
 ./gradlew :app:dependencies
 ./gradlew :module_name:dependencies
+https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 //AndroidX:
 android.useAndroidX: true に設定すると、Android プラグインは Support Library ではなく、該当する AndroidX ライブラリを使用します。設定しない場合、このフラグはデフォルトで false です。
