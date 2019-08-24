@@ -10,6 +10,21 @@
 >Markdown: Syntax
 https://daringfireball.net/projects/markdown/syntax
 
+```rb
+\   backslash
+`   backtick
+*   asterisk
+_   underscore
+{}  curly braces
+[]  square brackets
+()  parentheses
+#   hash mark
++   plus sign
+-   minus sign (hyphen)
+.   dot
+!   exclamation mark
+```
+
 ><color>
   
 [^1]インラインコードの中身が CSS の <color> rgb(255,0,0)型の RGB 16進数表記, rgb(), rgba(), hsl(), hsla() 場合横にその色が表示されます。
@@ -115,6 +130,16 @@ HTMLの<dl>タグをそのまま使うことで実現できます。
 
 [^1](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 [*](https://qiita.com/Qiita/items/c686397e4a0f4f11683d#2-9)
+
+
+> ## This is a header.
+> 
+> 1.   This is the first list item.
+> 2.   This is the second list item.
+> 
+> Here's some example code:
+> 
+>     return shell_exec("echo $input | $markdown_script");
 
 
 
