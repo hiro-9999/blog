@@ -7,6 +7,14 @@
 :cyclone:
 
 
+<details><summary>サンプルコード</summary><div>
+  
+```rb
+puts 'Hello, World'
+```
+
+</div></details>
+
 >Strikethrough - 打ち消し線
 打ち消し線を使うには ~~ で囲みます。 ~~打ち消し~~
 
@@ -21,7 +29,7 @@ puts 'Hello, World'
 _ か * で囲むとHTMLのemタグになります_Qiita_では*イタリック体*になります。
 __ か ** で囲むとHTMLのstrongタグになります。Qiitaでは**太字**になります。
 
-_haha_
+*haha*
 
 `code`
 
