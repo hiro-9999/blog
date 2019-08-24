@@ -1,3 +1,53 @@
+>25句话玩转电商，7点玩转运营  
+https://www.toutiao.com/a6721949377536983560/
+
+
+
+https://www.toutiao.com/a6727062519438901764/
+```
+分词算法
+类目预测算法（解决准不准的基础）
+商品排序算法（电商核心机密）
+个性化千人千面（电商数据提升机密）
+```
+
+>平台SEO2019最新技巧工具和资源介绍
+https://www.toutiao.com/a6721978623684772364/
+```
+● 内部SEO优化包括：
+
+1、搜索引擎优化技术
+
+2、内容优化
+
+● 外部SEO优化包括：
+
+1、网站链接建设
+
+2、公共关系优化
+
+3、网络品牌建设
+
+4、访客发帖
+
+10个搜索引擎优化工具推荐
+
+1、Plugin SEO
+2、SEMrush
+3、Keyword Planner
+4、Pingdom
+5、Image Optimizer
+6、Product review
+7、SEO Manager
+8、Moz
+9、Screaming Frog
+10、Ahrefs
+```
+
+>一、4个常用的seo面试技巧
+https://www.xminseo.com/14464.html
+
+
 >具体来讲，seo文章关键词如何布局才更有效果？
 https://www.xminseo.com/14599.html
 （Search Engine Optimization），从字面概念理解来看可以汉译为搜索引擎优化。
