@@ -22,7 +22,7 @@
 + this text is highlighted in green
 - this text is highlighted in red
 ```
-
+<a><img src="./color.svg"/></a>
 <a><img src="./color.svg"/></a>
 
 >color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
