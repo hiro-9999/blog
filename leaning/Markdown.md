@@ -5,7 +5,7 @@
 puts 'Hello, World'
 ```
 
-*「\」
+*「\」** 取り消し **
 
 >修飾	Markdown	HTML
 
