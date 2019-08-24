@@ -12,7 +12,7 @@
 
 >color
 
-浅红色文字：<font color="#dd0000">浅红色文字：</font><br /> 
+浅红色文字：<span style="color:red;">浅红色文字：</span><br /> 
 深红色文字：<font color="#660000">深红色文字</font><br /> 
 浅绿色文字：<font color="#00dd00">浅绿色文字</font><br /> 
 深绿色文字：<font color="#006600">深绿色文字</font><br /> 
