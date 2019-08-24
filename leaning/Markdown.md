@@ -5,14 +5,17 @@
 puts 'Hello, World'
 ```
 
-*「\」** 取り消し **
+*「\」
+** 取り消し **
 
 >修飾	Markdown	HTML
 
-ボールド	** **	<strong></strong>
-イタリック	_ _	<em></em>
-コード	``	<code></code>
-リンク	[text](url)	<a href="url">text</a>
+| ボールド | ** ** | <strong></strong> |
+|:-----------|------------:|:------------:|
+| イタリック       | _ _	        | <em></em>         |
+| コード     | ``	      | <code></code>       |
+| リンク       | [text](url)	        | <a href="url">text</a>         |
+
 
 
 >Checkbox型
