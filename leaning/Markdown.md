@@ -7,6 +7,10 @@
 :cyclone:
 [絵文字チートシート](http://www.emoji-cheat-sheet.com/)
 
+
+>github Markdown
+https://help.github.com/en/categories/writing-on-github
+
 >Markdown: Syntax
 https://daringfireball.net/projects/markdown/syntax
 
