@@ -20,12 +20,13 @@
 :whale:
 :whale2:
 :dolphin:
+[color](https://www.colorhexa.com/f01589)
 ***
  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `ha`
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
 
--![#660066](https://via.placeholder.it/15/#660066/000000?Text=+) `#660066`
+-![#f01589](https://via.placeholder.it/15/#f01589/000000?Text=+) `#f01589`
 ♨︎
 ***
 :dragon:
