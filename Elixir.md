@@ -4,8 +4,8 @@ Elixir は Erlang(あーらん) という言語で実装されているので、
 https://qiita.com/kuwa0224/items/875a8f7438a9229b086f
 業務と関係なく何か勉強しようと思った
 
- brew install elixir
-&> iex
+>brew install elixir
+>iex
 
 
 //Basic
