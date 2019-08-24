@@ -12,11 +12,11 @@
 :o:
 
 https://www.markdownguide.org/extended-syntax/
-
+ここは`color: #FF00FF`にしてください。
 <!-- blank line -->
 ----
 <!-- blank line -->
-
+<link rel=”stylesheet” href=”http://blog.championswimmer.in/assets/css/pygments/solarized-light.css">
 <!-- blank line -->
 <figure class="video_container">
   <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
