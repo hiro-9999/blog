@@ -6,7 +6,7 @@
 :zap:
 :cyclone:
 
-
+＊折りたたまれる部分全体を
 <details><summary>サンプルコード</summary><div>
   
 ```rb
