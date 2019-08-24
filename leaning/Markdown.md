@@ -24,8 +24,8 @@ https://www.markdownguide.org/extended-syntax/
 <!-- blank line -->
 
 ```diff
- haha in green
- this text  in red
+-  haha in green
+-  this text  in red
 ```
 >:o: SVG
 <a><img src="./color.svg"/></a>
