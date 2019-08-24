@@ -10,8 +10,17 @@
 :+1
 :o
 
->color
+>color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
 
+<font face="黑体">我是黑体字</font>
+<font face="微软雅黑">我是微软雅黑</font>
+<font face="STCAIYUN">我是华文彩云</font>
+<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
+<font color=#00ffff size=72>color=#00ffff</font>
+<font color=gray size=72>color=gray</font>
+ ———————————————— 
+版权声明：本文为CSDN博主「微wx笑」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/testcs_dn/article/details/45719357
 浅红色文字：<span style="color:red;">浅红色文字：</span><br /> 
 深红色文字：<font color="#660000">深红色文字</font><br /> 
 浅绿色文字：<font color="#00dd00">浅绿色文字</font><br /> 
