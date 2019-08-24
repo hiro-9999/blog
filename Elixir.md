@@ -5,6 +5,7 @@ https://qiita.com/kuwa0224/items/875a8f7438a9229b086f
 業務と関係なく何か勉強しようと思った
 
 >brew install elixir
+
 >iex
 
 
@@ -13,4 +14,5 @@ https://github.com/Ljzn/ElixrGettingStartedChinese/blob/master/2_Basic_types.mar
 
 
 >tree
+
 >pwd
