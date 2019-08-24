@@ -6,7 +6,17 @@
 :zap:
 :cyclone:
 
-＊折りたたまれる部分全体を
+><color>
+  
+インラインコードの中身が CSS の <color> rgb(255,0,0)型の RGB 16進数表記, rgb(), rgba(), hsl(), hsla() 場合横にその色が表示されます。
+
+`#ffce44`
+`rgb(255,0,0)`
+`rgba(0,255,0,0.4)`
+
+***
+> ＊折りたたまれる部分全体を<div>
+
 <details><summary>サンプルコード</summary><div>
   
 ```rb
@@ -21,6 +31,11 @@ puts 'Hello, World'
 ```rb
 puts 'Hello, World'
 ```
+
+>注釈
+
+本文中に[^1]や[^example]のように文字列を記述することで、脚注へのリンクを表現できます。注釈内容は、同じく本文中に [^1]: ... というように記述します2。
+
 
 # 1
 
@@ -94,6 +109,7 @@ HTMLの<dl>タグをそのまま使うことで実現できます。
 \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
 
+[**](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 [*](https://qiita.com/Qiita/items/c686397e4a0f4f11683d#2-9)
 
 
