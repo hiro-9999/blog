@@ -8,5 +8,13 @@ http://deerchao.net/tutorials/regex/regex.htm
 ^	匹配字符串的开始
 $	匹配字符串的结束
 
+
+*	重复零次或更多次
++	重复一次或更多次
+?	重复零次或一次
+{n}	重复n次
+{n,}	重复n次或更多次
+{n,m}	重复n到m次
+
 //Javascript正则表达式在线测试工具
 http://deerchao.net/tools/wegester/index.html
