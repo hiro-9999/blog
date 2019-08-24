@@ -10,19 +10,23 @@
 :+1:
 
 :o:
+<!-- blank line -->
+----
+<!-- blank line -->
 
-```
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-</video>
-```
+<!-- blank line -->
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/embed/enMumwvLAug" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+<!-- blank line -->
+
 ```diff
 + this text is highlighted in green
 - this text is highlighted in red
 ```
 >:o: SVG
 <a><img src="./color.svg"/></a>
-
+<br>
 >color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
 
 ```json
@@ -228,4 +232,8 @@ HTMLの<dl>タグをそのまま使うことで実現できます。
 >     return shell_exec("echo $input | $markdown_script");
 
 
-
+```
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+</video>
+```
