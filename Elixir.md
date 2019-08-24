@@ -10,3 +10,7 @@ https://qiita.com/kuwa0224/items/875a8f7438a9229b086f
 
 //Basic
 https://github.com/Ljzn/ElixrGettingStartedChinese/blob/master/2_Basic_types.markdown
+
+
+>tree
+>pwd
