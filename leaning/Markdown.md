@@ -10,6 +10,7 @@
 :+1:
 
 :o:
+<div><font color="red">**strong**</font></div>
 <!-- blank line -->
 ----
 <!-- blank line -->
