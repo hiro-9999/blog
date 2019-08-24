@@ -11,8 +11,6 @@
 
 :o:
 
-<a><img src="http://dump.thecybershadow.net/6c736bfd11ded8cdc5e2bda009a6694a/colortext.svg"/></a>
-
 ```
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
@@ -22,7 +20,7 @@
 + this text is highlighted in green
 - this text is highlighted in red
 ```
-<a><img src="./color.svg"/></a>
+>:o: SVG
 <a><img src="./color.svg"/></a>
 
 >color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
