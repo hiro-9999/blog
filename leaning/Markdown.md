@@ -6,8 +6,9 @@ puts 'Hello, World'
 ```
 
 *「\」
-
-  **取り消し**
++ haha
+- haha
+**取り消し**
 
 >修飾	Markdown	HTML
 
@@ -60,6 +61,10 @@ HTMLの<dl>タグをそのまま使うことで実現できます。
   <dd>橙色のフルーツ</dd>
 </dl>
 
+```math
+\left( \sum_{k=1}^n a_k b_k \right)^{!!2} \leq
+\left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
+```
 
 [*](https://qiita.com/Qiita/items/c686397e4a0f4f11683d#2-9)
 
