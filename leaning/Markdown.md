@@ -109,7 +109,7 @@ HTMLの<dl>タグをそのまま使うことで実現できます。
 \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 ```
 
-[**](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
+[^1](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 [*](https://qiita.com/Qiita/items/c686397e4a0f4f11683d#2-9)
 
 
