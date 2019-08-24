@@ -11,25 +11,18 @@
 
 :o:
 
-```html
-<html>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
-<style
-  type="text/css">
-h1 {color:red;}
-p {color:blue;}
-</style>
-<article class="markdown-body">
-  <h1>rendered markdown content</h1>
-  <p>wow</p>
-</article>
-</html>
-```
+Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs and code.
 
 
-<p>okay</p>
+    Indent paragraphs to include them in the footnote.
 
-<div><font color="red">**strong**</font></div>
+    `{ my code }`
+
+    Add as many paragraphs as you like.
 
 <!-- blank line -->
 ----
