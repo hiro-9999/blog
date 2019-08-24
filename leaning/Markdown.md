@@ -7,7 +7,7 @@
 :cyclone:
 [絵文字チートシート](http://www.emoji-cheat-sheet.com/)
 
-:+1:
+:+1: option + shift +¥
 
 :o:
 ☕︎
