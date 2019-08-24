@@ -12,15 +12,15 @@
 
 >color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
 
-<font face="黑体">我是黑体字</font>
-<font face="微软雅黑">我是微软雅黑</font>
-<font face="STCAIYUN">我是华文彩云</font>
-<font color=#0099ff size=7 face="黑体">color=#0099ff size=72 face="黑体"</font>
-<font color=#00ffff size=72>color=#00ffff</font>
-<font color=gray size=72>color=gray</font>
- ———————————————— 
-版权声明：本文为CSDN博主「微wx笑」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/testcs_dn/article/details/45719357
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+      <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
+      <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
+      <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
+      <p>Your user agent does not support the HTML5 Video element.</p>
+    </video>
+    
+<table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine，  十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table>
+
 浅红色文字：<span style="color:red;">浅红色文字：</span><br /> 
 深红色文字：<font color="#660000">深红色文字</font><br /> 
 浅绿色文字：<font color="#00dd00">浅绿色文字</font><br /> 
