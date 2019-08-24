@@ -10,14 +10,16 @@
 :+1
 :o
 
->color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
 
+```
+```
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
-      <source id="webm" src="http://media.w3.org/2010/05/sintel/trailer.webm" type="video/webm">
-      <source id="ogv" src="http://media.w3.org/2010/05/sintel/trailer.ogv" type="video/ogg">
-      <p>Your user agent does not support the HTML5 Video element.</p>
-    </video>
+</video>
+
+
+>color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
+
     
 <table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine，  十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table>
 
