@@ -10,3 +10,5 @@ https://tech.libinc.co.jp/entry/2019/07/26/120601
 
 >Vue.js + Algolia   https://tech.libinc.co.jp/entry/2019/08/09/182701
 Algoliaを導入することでバックエンドでの複雑な検索クエリを実装する必要がなくなり、かつパフォーマンスネックになりやすい検索機能に最適化された外部サービスを使うことでレスポンススピードも改善しUXの向上も見込めるのではないでしょうか。
+
+https://www.algolia.com/doc/guides/sending-and-managing-data/prepare-your-data/in-depth/prepare-data-in-depth/#where-is-the-data-located
