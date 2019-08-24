@@ -26,7 +26,7 @@
 - ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
 - ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
 
--![#f01589](https://via.placeholder.it/15/#f01589/000000?Text=+) `#f01589`
+-![#f01589](https://placehold.it/15/#f01589/000000?Text=+) `#f01589`
 ♨︎
 ***
 :dragon:
