@@ -6,6 +6,10 @@
 :zap:
 :cyclone:
 [絵文字チートシート](http://www.emoji-cheat-sheet.com/)
+
+>Markdown: Syntax
+https://daringfireball.net/projects/markdown/syntax
+
 ><color>
   
 [^1]インラインコードの中身が CSS の <color> rgb(255,0,0)型の RGB 16進数表記, rgb(), rgba(), hsl(), hsla() 場合横にその色が表示されます。
