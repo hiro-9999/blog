@@ -11,12 +11,15 @@
 
 :o:
 
+```css
 <style
   type="text/css">
 h1 {color:red;}
-
 p {color:blue;}
 </style>
+```
+
+
 <p>okay</p>
 
 <div><font color="red">**strong**</font></div>
