@@ -36,7 +36,15 @@
 ```css
    // code for coloring
 ```
-    
+>it adds it as a new line starting with either - + ! #  
+
+```diff
+- text in red
++ text in green
+! text in orange
+# text in gray
+```
+```html
 <table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine，  十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table>
 
 浅红色文字：<span style="color:red;">浅红色文字：</span><br /> 
@@ -79,6 +87,7 @@ size为10：<font size="10">size为10</font><br />
 <table><tr><td bgcolor=#C0FF3E>背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></table>
 <table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
 
+```
 
 >github Markdown
 https://help.github.com/en/categories/writing-on-github
