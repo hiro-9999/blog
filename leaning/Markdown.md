@@ -38,10 +38,10 @@ https://www.markdownguide.org/extended-syntax/
 >it adds it as a new line starting with either - + ! #  
 
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
+- text1 in red
++ text2 in green
+! text3 in orange
+# text4 in gray
 ```
 
 >github Markdown
