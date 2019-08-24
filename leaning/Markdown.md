@@ -7,19 +7,35 @@
 :cyclone:
 [絵文字チートシート](http://www.emoji-cheat-sheet.com/)
 
-:+1
-:o
+:+1:
+
+:o:
 
 
-```
 ```
 <video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
       <source id="mp4" src="http://media.w3.org/2010/05/sintel/trailer.mp4" type="video/mp4">
 </video>
-
+```
+```diff
++ this text is highlighted in green
+- this text is highlighted in red
+```
 
 >color  https://github.com/fan2/Markdown/blob/master/Markdown%20Tutorials.md
 
+```json
+   // code for coloring
+```
+```html
+   // code for coloring
+```
+```js
+   // code for coloring
+```
+```css
+   // code for coloring
+```
     
 <table><tr><td bgcolor=#7FFFD4>这里的背景色是：Aquamarine，  十六进制颜色值：#7FFFD4， rgb(127, 255, 212)</td></tr></table>
 
