@@ -11,12 +11,19 @@
 
 :o:
 
-```css
+```html
+<html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/3.0.1/github-markdown.css">
 <style
   type="text/css">
 h1 {color:red;}
 p {color:blue;}
 </style>
+<article class="markdown-body">
+  <h1>rendered markdown content</h1>
+  <p>wow</p>
+</article>
+</html>
 ```
 
 
