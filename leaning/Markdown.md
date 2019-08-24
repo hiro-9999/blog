@@ -28,6 +28,27 @@
 +可以选择你想要的颜色对应的RGB值。
 http://www.114la.com/other/rgb.htm
 
+>size
+size为1：<font size="1">size为1</font><br /> 
+size为2：<font size="2">size为2</font><br /> 
+size为3：<font size="3">size为3</font><br /> 
+size为4：<font size="4">size为4</font><br /> 
+size为10：<font size="10">size为10</font><br /> 
+
+>font
+<font face="黑体">我是黑体字</font>
+<font face="宋体">我是宋体字</font>
+<font face="微软雅黑">我是微软雅黑字</font>
+<font face="fantasy">我是fantasy字</font>
+<font face="Helvetica">我是Helvetica字</font>
+
+>background
+<table><tr><td bgcolor=#FF00FF>背景色的设置是按照十六进制颜色值：#7FFFD4</td></tr></table>
+<table><tr><td bgcolor=#FF83FA>背景色的设置是按照十六进制颜色值：#FF83FA</td></tr></table>
+<table><tr><td bgcolor=#D1EEEE>背景色的设置是按照十六进制颜色值：#D1EEEE</td></tr></table>
+<table><tr><td bgcolor=#C0FF3E>背景色的设置是按照十六进制颜色值：#C0FF3E</td></tr></table>
+<table><tr><td bgcolor=#54FF9F>背景色的设置是按照十六进制颜色值：#54FF9F</td></tr></table>
+
 
 >github Markdown
 https://help.github.com/en/categories/writing-on-github
