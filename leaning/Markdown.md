@@ -1,12 +1,14 @@
 >Strikethrough - 打ち消し線
 打ち消し線を使うには ~~ で囲みます。 ~~打ち消し~~
 
-\```rb
+```rb
 puts 'Hello, World'
-\```
+```
 
+*「\」
 
 >修飾	Markdown	HTML
+
 ボールド	** **	<strong></strong>
 イタリック	_ _	<em></em>
 コード	``	<code></code>
@@ -14,6 +16,7 @@ puts 'Hello, World'
 
 
 >Checkbox型
+
 前後にスペースが必要です。
 
 - [ ] タスク1
@@ -26,6 +29,7 @@ puts 'Hello, World'
 - - -
 
 >テーブル記法
+
 | Left align | Right align | Center align |
 |:-----------|------------:|:------------:|
 | This       | This        | This         |
@@ -33,13 +37,16 @@ puts 'Hello, World'
 | will       | will        | will         |
 
 >絵文字チートシート
+
 http://www.emoji-cheat-sheet.com/
 
 >Disc型
+
 文頭に「*」「+」「-」のいずれかを入れるとDisc型リストになります
 
 
 >Definition型
+
 HTMLの<dl>タグをそのまま使うことで実現できます。
 
 <dl>
