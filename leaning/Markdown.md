@@ -24,7 +24,7 @@ https://www.markdownguide.org/extended-syntax/
 <!-- blank line -->
 
 ```diff
-#  haha in green
+#  haha in blue
 -  this text  in red
 + text in green
 ! text in orange
