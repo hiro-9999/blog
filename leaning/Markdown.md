@@ -9,7 +9,7 @@ puts 'Hello, World'
 
 ## 2
 
-_ か * で囲むとHTMLのemタグになります。_Qiita_では*イタリック体*になります。
+_ か * で囲むとHTMLのemタグになります_Qiita_では*イタリック体*になります。
 __ か ** で囲むとHTMLのstrongタグになります。Qiitaでは**太字**になります。
 
 _haha_
