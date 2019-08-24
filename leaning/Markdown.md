@@ -1,3 +1,12 @@
+:sunny:
+:umbrella:
+:cloud:
+:snowflake:
+:snowman:
+:zap:
+:cyclone:
+
+
 >Strikethrough - 打ち消し線
 打ち消し線を使うには ~~ で囲みます。 ~~打ち消し~~
 
