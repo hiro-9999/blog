@@ -5,7 +5,7 @@ https://www.ximalaya.com/waiyu/13501234/73886450
 >《小王子》
 
 >床头灯英语--名著缩写 MP3 全集
-
+http://bbs.koolearn.com/t-3885396-1-1.html
 https://www.ximalaya.com/waiyu/8137072/
 目录：
 床头灯.I.简爱.Jene.Eyer.rar 详情  197MB
