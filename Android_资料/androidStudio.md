@@ -1,7 +1,11 @@
+https://www.genymotion.com/
+
+
 adb shell 
 然后输入：getprop 查看系统当前的各项属性，得到模拟器的 DNS 地址，如下： 
 下面就是使用 setprop 命令把模拟器的 DNS 改为自己 PC 的 DNS，例如：192.168.1.1 
 setprop net.dns1 192.168.1.1
+
 >利用Android Studio自带的模拟器联网。
 
 重点来了，进入到cmd后，需要输入adb root 将模拟器root一下，才能更改DNS。然后再输入adb shell。
