@@ -14,3 +14,7 @@ setprop net.dns1 192.168.1.1
 
 >Android Profiler でアプリのパフォーマンスを測定する
 https://developer.android.com/studio/profile/android-profiler?hl=ja
+
+>Android Profiler的是使用流程
+
+https://blog.csdn.net/u014651216/article/details/80205113
