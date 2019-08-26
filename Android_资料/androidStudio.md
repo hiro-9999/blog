@@ -12,3 +12,5 @@ setprop net.dns1 192.168.1.1
 接下来输入getprop获取模拟器系统属性。找到[net.eth0.dns1]这一项，发现后面为10.0.2.3，
 接下来我们输入setprop net.eth0.dns1 192.168.1.1.后面的ip也可为其他，不过我没尝试。（没有[net.eth0.dns1]的话因为系统是Android9.0及以上，建议换到8.0及以下）
 
+>Android Profiler でアプリのパフォーマンスを測定する
+https://developer.android.com/studio/profile/android-profiler?hl=ja
