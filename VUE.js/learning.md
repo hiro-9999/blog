@@ -7,6 +7,10 @@ https://www.jb51.net/Special/874.htm
 >cli
 https://cli.vuejs.org/zh/dev-guide/ui-api.html#ui-%E6%96%87%E4%BB%B6
 
+
+*Vue组件选项props实例详解
+https://www.jb51.net/article/121563.htm
+
 >macOS
 打开控制台执行：
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
