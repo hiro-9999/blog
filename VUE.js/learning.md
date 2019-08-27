@@ -6,12 +6,11 @@ https://wings.msn.to/index.php/-/A-07/978-4-8156-0182-9/
 打开控制台执行：
 /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222
 
->Visual Stuido Code 安装插件
-
+>Visual Stuido Code 安装插件 https://www.jb51.net/article/135593.htm
 点击 Visual Studio Code 左侧边栏的扩展按钮， 然后在搜索框输入Debugger for Chrome并安装插件，再输入，安装完成后点击 reload 重启 VS Code
 添加 Visual Studio Code 配置
 点击 Visual Studio Code 左侧边栏的 调试 按钮， 在弹出的调试配置窗口中点击 设置 小齿轮， 然后选择 chrome, VS Code 将会在工作区根目录生成.vscode 目录，里面会有一个 lanch.json 文件并会自动打开
-用下面的配置文件覆盖自动生成的 lanch.json 文件内容。https://www.jb51.net/article/135593.htm
+用下面的配置文件覆盖自动生成的 lanch.json 文件内容。
 {
  // Use IntelliSense to learn about possible attributes.
  // Hover to view descriptions of existing attributes.
