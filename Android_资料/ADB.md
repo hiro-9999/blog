@@ -1,4 +1,7 @@
 https://qiita.com/t2low/items/cb37cec5f864c4748e14
+
+ pm list packages
+ 
  adb shell
  su
  
