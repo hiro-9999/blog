@@ -1,3 +1,6 @@
+>root
+https://syumi3.com/sonota/html_pasokon/root-kanren.html
+
 adb shell
 adb shell recovery --wipe_data
 >アンドロイド – データの消去/ ADBによる出荷時のリセット
