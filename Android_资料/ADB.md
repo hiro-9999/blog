@@ -1,6 +1,14 @@
-adb shell pm clear com.dmm.app.***
+adb shell
+adb shell recovery --wipe_data
+>アンドロイド – データの消去/ ADBによる出荷時のリセット
+https://qiita.com/ZON009/items/0c3c3b73a63bd86eea17
 
-adb reboot recovery
+https://nekonotesou.net/how-to-delete-kingroot-and-move-supersu/
+删除图案密码，输入：adb shell rm  /data/system/gesture.key
+
+删除PIN和密码方法 adb shell rm  /data/system/password.key
+
+
 
 https://qiita.com/t2low/items/cb37cec5f864c4748e14
 
