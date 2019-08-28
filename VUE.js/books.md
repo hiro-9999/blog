@@ -16,6 +16,7 @@
 
 [免费的计算机编程类中文书籍](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/13-free-programming-books-zh_CN-master)
 
+>vue.js 资料集
 https://www.jb51.net/list/list_269_1.htm
 
 >编程基础技术教程的知识平台提供了 HTML、CSS、Javascript、Python、Ruby、C、Go 等各种编程语言的基础知识。
