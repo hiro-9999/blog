@@ -7,8 +7,10 @@ https://nekonotesou.net/how-to-delete-kingroot-and-move-supersu/
 删除图案密码，输入：adb shell rm  /data/system/gesture.key
 
 删除PIN和密码方法 adb shell rm  /data/system/password.key
-
-
+https://forum.xda-developers.com/showpost.php?p=60669196&postcount=1
+adb push su /data/local/tmp
+adb push busybox /data/local/tmp
+adb shell
 
 https://qiita.com/t2low/items/cb37cec5f864c4748e14
 
