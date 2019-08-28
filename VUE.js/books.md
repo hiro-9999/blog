@@ -1,3 +1,22 @@
+
+
+
+```html
+[最全的资源教程——前端涉及的所有知识体系](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/04-Front-end-tutorial-master)
+
+[大前端工具集——程序猿的百宝箱](https://link.jianshu.com/?t=https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/28-fetool-master)
+
+[100+ 超全的web开发工具和资源](https://helloqingfeng.github.io/front-end-index/index.html)
+
+[前端技能汇总](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/05-fks-master)
+
+[GitHub上值得关注的前端项目](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/08-github-FE-project-master)
+
+[关于程序员读书-大牛们的书单汇总](https://link.jianshu.com/?t=https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/11-about-reading)
+
+[免费的计算机编程类中文书籍](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/13-free-programming-books-zh_CN-master)
+```
+
 https://www.jb51.net/list/list_269_1.htm
 
 >编程基础技术教程的知识平台提供了 HTML、CSS、Javascript、Python、Ruby、C、Go 等各种编程语言的基础知识。
