@@ -1,5 +1,5 @@
 >root
-https://syumi3.com/sonota/html_pasokon/root-kanren.html
+https://nekonotesou.net/how-to-delete-kingroot-and-move-supersu/
 
 adb shell
 adb shell recovery --wipe_data
