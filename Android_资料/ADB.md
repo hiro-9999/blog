@@ -1,6 +1,6 @@
 adb shell pm clear com.dmm.app.***
 
-
+adb reboot recovery
 
 https://qiita.com/t2low/items/cb37cec5f864c4748e14
 
