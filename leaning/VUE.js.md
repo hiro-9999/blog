@@ -3,6 +3,8 @@
 github.com/icarusion/vue-book
 
 
+:o:> typescript-vue-starter ok
+https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
 https://cn.vuejs.org/v2/guide/
 
