@@ -1,7 +1,7 @@
 
 
 
-```html
+```rb
 [最全的资源教程——前端涉及的所有知识体系](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/04-Front-end-tutorial-master)
 
 [大前端工具集——程序猿的百宝箱](https://link.jianshu.com/?t=https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/28-fetool-master)
