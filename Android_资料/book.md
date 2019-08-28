@@ -1,6 +1,7 @@
 https://segmentfault.com/a/1190000014383545
 
 ```html
+https://cloud.tencent.com/developer/article/1004693?fromSource=waitui
 JavaScript
 入门
 《JavaScript权威指南（第六版）》 ★★★★★
