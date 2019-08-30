@@ -1,0 +1,15 @@
+# v9.11.0をインストール
+$ nodebrew install-binary v9.11.0
+Fetching: https://nodejs.org/dist/v9.11.0/node-v9.11.0-darwin-x64.tar.gz
+######################################################################## 100.0%
+Installed successfully
+
+# 現在v10.0.0のため、v9.11.0を使うよう設定する。
+$ node -v
+v10.0.0
+$ nodebrew use v9.11.0
+use v9.11.0
+
+# 確認
+$ node -v
+v9.11.0
