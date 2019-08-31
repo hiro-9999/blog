@@ -7,6 +7,7 @@ https://www.virment.com/vue-electron/
 https://soramugi.wordpress.com/2019/01/13/electron-builderを使ってvueアプリケーションのパッケージを作/
 https://www.t4traw.net/blog/2019/03/electronでアプリケーションを一つ作った時のメモ/
 https://blog.tes.co.jp/entry/2019/03/01/155502
+http://otiai10.hatenablog.com/entry/2017/10/26/174912
 
 // windowsで  Electron のビルド周り
 https://qiita.com/zaburo/items/828051fc7dabb258f0de
