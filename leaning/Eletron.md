@@ -1,3 +1,19 @@
+# インストールされたjsモジュールを全部消す
+rm -rf node_modules
+
+# インストールされたjsモジュールのバージョン情報を消す
+rm package-lock.json yarn.lock
+
+# npmのキャッシュをクリアする
+npm cache clear --force
+
+# 再度jsモジュールを全部入れ直して、実行する
+npm install
+npm run dev
+
+
+
+
 //node change version
 https://qiita.com/kuriya/items/36ae29366df0b7c95dec
 
