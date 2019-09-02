@@ -1,6 +1,11 @@
 //node change version
 https://qiita.com/kuriya/items/36ae29366df0b7c95dec
 
+$ npm init
+$ npm install --save-dev typescript webpack webpack-cli ts-loader
+$ npm install --save electron
+https://qiita.com/necomeshi/items/1861ff80e689a377899a
+
 //npm ERR! missing script: electron:serve
 yarn cache clean @vue/cli-service and yarn cache clean vue-cli-plugin-electron-builder
 
