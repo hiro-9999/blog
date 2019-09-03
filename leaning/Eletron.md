@@ -11,6 +11,11 @@ npm cache clear --force
 npm install
 npm run dev
 
+>windows
+rmdir /s node_modules
+del package-lock.json yarn.lock
+npm cache clear --force
+
 
 
 
