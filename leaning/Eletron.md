@@ -1,3 +1,6 @@
+#debug
+https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/recipes.html#debugging-with-vscode
+
 # インストールされたjsモジュールを全部消す
 rm -rf node_modules
 
