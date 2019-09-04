@@ -1,5 +1,7 @@
 nodebrew ls
-nodebrew use
+>nodebrew use v12.0.0
+
+>npm i randombytes
 
 #debug
 https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/recipes.html#debugging-with-vscode
