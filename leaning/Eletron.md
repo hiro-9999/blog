@@ -1,3 +1,6 @@
+nodebrew ls
+nodebrew use
+
 #debug
 https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/recipes.html#debugging-with-vscode
 npm uninstall -g @vue/cli
