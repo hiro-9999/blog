@@ -1,3 +1,6 @@
+>Learn ES2015
+https://babeljs.io/docs/en/learn
+
 :o:> typescript-vue-starter ok
 https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
