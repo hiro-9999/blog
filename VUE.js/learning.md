@@ -2,7 +2,7 @@
 https://babeljs.io/docs/en/learn
 
 :o:> typescript-vue-starter ok
-https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
+https://mae.chab.in/archives/60167
 
 >
 :o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
