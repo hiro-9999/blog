@@ -1,3 +1,8 @@
+>Vue + TypeScript + Babel + Bulma + webpack
+https://qiita.com/va034600/items/919ce3fa330f87f2a277
+
+
+
 >Learn ES2015
 https://babeljs.io/docs/en/learn
 
