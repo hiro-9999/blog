@@ -6,9 +6,12 @@ https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
 >
 :o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
+rm -r node_modules
+sudo npm cache clean --force
 npm list --depth=0
+"babel-core": "7.0.0-bridge.0"
 npm outdated
-$ npm i -g npm-check-updates
+$ sudo npm i -g npm-check-updates
 $ npm-check-updates
 $ npm update
 
