@@ -6,6 +6,8 @@
 
 [大前端工具集——程序猿的百宝箱](https://link.jianshu.com/?t=https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/28-fetool-master)
 
+https://legacy.gitbook.com/@wizardforcel
+
 [100+ 超全的web开发工具和资源](https://helloqingfeng.github.io/front-end-index/index.html)
 
 [前端技能汇总](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/05-fks-master)
