@@ -1,6 +1,9 @@
 >Vue + TypeScript + Babel + Bulma + webpack
 https://qiita.com/va034600/items/919ce3fa330f87f2a277
 
+//ok?
+https://github.com/TypeStrong/ts-loader
+
 
 
 >Learn ES2015
