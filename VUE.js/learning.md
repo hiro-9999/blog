@@ -4,6 +4,9 @@ https://babeljs.io/docs/en/learn
 :o:> typescript-vue-starter ok
 https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
+npm install -g npm-install-peers
+npm install webpack
+
 【GitHub项目推荐｜vue+typescript+element-ui支持markdown博客前台】https://toutiao.com/group/6730964222919852558/?app=news_article_social&timestamp=1567174974&req_id=201908302222540101520360321852CE7&group_id=6730964222919852558&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
 【GitHub Vue项目推荐｜网易云信Web Demo Html5 移动端适配】https://toutiao.com/group/6730538165746008589/?app=news_article_social&timestamp=1567126058&req_id=20190830084738010017031149455A573&group_id=6730538165746008589&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
