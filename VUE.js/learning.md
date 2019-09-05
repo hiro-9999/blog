@@ -1,3 +1,8 @@
+>>Vue + TypeScript ok
+https://ics.media/entry/16329/
+https://github.com/ics-creative/170330_webpack/tree/master/tutorial-typescript-vue
+
+
 >Vue + TypeScript + Babel + Bulma + webpack
 https://qiita.com/va034600/items/919ce3fa330f87f2a277
 
