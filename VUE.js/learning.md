@@ -3,6 +3,10 @@ https://babeljs.io/docs/en/learn
 
 https://qiita.com/va034600/items/c968b9f524f5d3127b93
 
+//npm package.json
+https://docs.npmjs.com/files/package.json#dependencies
+
+
 > typescript-vue-starter 
 ~~https://mae.chab.in/archives/60167~~
 
