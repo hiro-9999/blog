@@ -4,8 +4,10 @@ https://babeljs.io/docs/en/learn
 :o:> typescript-vue-starter ok
 https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
-
-:o://npm-check-updates 全部更新
+>
+:o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
+npm list --depth=0
+npm outdated
 $ npm i -g npm-check-updates
 $ npm-check-updates
 $ npm update
