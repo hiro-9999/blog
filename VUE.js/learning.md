@@ -1,3 +1,8 @@
+>>o-start
+https://github.com/nrslib/GettingStartedVueJsWithTypescript
+https://qiita.com/nrslib/items/be90cc19fa3122266fd7
+
+
 >>Vue + TypeScript ok
 https://ics.media/entry/16329/
 https://github.com/ics-creative/170330_webpack/tree/master/tutorial-typescript-vue
