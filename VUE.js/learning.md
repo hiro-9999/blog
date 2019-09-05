@@ -6,6 +6,15 @@ https://qiita.com/va034600/items/c968b9f524f5d3127b93
 > typescript-vue-starter 
 ~~https://mae.chab.in/archives/60167~~
 
+>package.jsonのdependenciesとdevDependencies
+https://qiita.com/cognitom/items/acc3ffcbca4c56cf2b95
+コマンド	省略版
+npm install	npm i
+npm install --save	npm i -S
+npm install --save-dev	npm i -D
+npm install --global	npm i -g
+//devDependencies for test etc.
+
 >
 //npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
 npm install -g npm-check
