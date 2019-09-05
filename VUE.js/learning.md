@@ -7,7 +7,8 @@ https://mae.chab.in/archives/60167
 >
 :o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
 npm install -g npm-check
-rm -r node_modules
+rm package-lock.json yarn.lock
+rm -rf node_modules
 sudo npm cache clean --force
 npm list --depth=0
 "babel-core": "7.0.0-bridge.0"
