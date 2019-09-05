@@ -1,6 +1,9 @@
 >Vue + TypeScript + Babel + Bulma + webpack
 https://qiita.com/va034600/items/919ce3fa330f87f2a277
 
+>Vue 2 application with webpack 4 boilerplate
+https://github.com/samteb/vue-2-webpack-4-boilerplate?source=post_page-----209e943c4772----------------------
+
 //ok?
 https://github.com/TypeStrong/ts-loader
 
