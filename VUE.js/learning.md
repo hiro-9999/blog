@@ -6,6 +6,7 @@ https://github.com/Microsoft/TypeScript-Vue-Starter#typescript-vue-starter
 
 >
 :o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
+npm install -g npm-check
 rm -r node_modules
 sudo npm cache clean --force
 npm list --depth=0
