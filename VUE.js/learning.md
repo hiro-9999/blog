@@ -1,11 +1,13 @@
 >Learn ES2015
 https://babeljs.io/docs/en/learn
 
-:o:> typescript-vue-starter ok
-https://mae.chab.in/archives/60167
+https://qiita.com/va034600/items/c968b9f524f5d3127b93
+
+> typescript-vue-starter 
+~~https://mae.chab.in/archives/60167~~
 
 >
-:o://npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
+//npm-check-updates 全部更新 https://github.com/tjunnone/npm-check-updates
 npm install -g npm-check
 rm package-lock.json yarn.lock
 rm -rf node_modules
