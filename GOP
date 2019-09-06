@@ -3,3 +3,5 @@ https://www.dpsj.co.jp/tech-articles/low-latency
 
 チャンク（セグメント）の縮小： 単純に遅延の原因であるチャンク（セグメント）サイズを縮小して低遅延の実現を目指します。HLS は 2 秒のチャンク（同様に GOP 調整も）を使って、遅延を 8 秒以下に。DASH は 1 秒のセグメントを使って、遅延を 4 秒に削減します。また、DASH MPD 属性（availabilityStartTime と minBufferTime）の最適化も有効です。ただし、チャンク（セグメント）が小さいと、視聴のバッファリングが多発する可能性が高まるので注意が必要です。
 
+CMAF （Common Media Application Format）
+CMAF はセグメント内に、さらにセグメントを用意することによって、超低遅延の実現を目指しています。
