@@ -7,6 +7,7 @@ $ yarn global add @vue/cli-service-global
 https://noumenon-th.net/programming/2019/02/15/vue-cli-3/
 
 //debug :o: ok
+chrome://net-internals/#hsts
 chrome://flags/#allow-insecure-localhost
 
 https://qiita.com/sugasaki/items/71d16a9dbf331e77a902
