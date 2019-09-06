@@ -1,3 +1,13 @@
-sudo npm install -g concurrently
-sudo npm install -g lite-server
-sudo npm install -g typescript
+npm update npm -g
+
+
+rm -rf /usr/local/lib/node_modules
+brew uninstall node
+brew install node --without-npm
+echo prefix=~/.npm-packages >> ~/.npmrc
+curl -L https://www.npmjs.com/install.sh | sh
+
+export PATH="$HOME/.npm-packages/bin:$PATH"
+https://gist.github.com/DanHerbert/9520689
+$ open ~/.bash_profile;
+$ source ~/.bash_profile;
