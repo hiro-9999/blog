@@ -11,3 +11,10 @@ export PATH="$HOME/.npm-packages/bin:$PATH"
 https://gist.github.com/DanHerbert/9520689
 $ open ~/.bash_profile;
 $ source ~/.bash_profile;
+
+
+npm install -g typescript@next
+https://typescript-jp.gitbook.io/deep-dive/getting-started
+
+
+https://github.com/basarat/typescript-book
