@@ -2,6 +2,8 @@
 https://www.programwitherik.com
 https://twitter.com/ErikCH
 
+https://www.youtube.com/channel/UCshZ3rdoCLjDYuTR_RBubzw
+
 
 [最全的资源教程——前端涉及的所有知识体系](https://github.com/helloqingfeng/Awsome-Front-End-learning-resource/tree/master/04-Front-end-tutorial-master)
 
