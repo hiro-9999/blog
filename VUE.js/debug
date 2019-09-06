@@ -2,3 +2,4 @@
 webpack-internal://node_modules/ts-loader/index.js!./node_modules/vue-loader/lib/src
  "tsconfig.json":
 "sourceMap": true
+https://jp.vuejs.org/v2/cookbook/debugging-in-vscode.html
