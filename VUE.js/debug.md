@@ -12,6 +12,10 @@ chrome://flags/#allow-insecure-localhost
 
 https://qiita.com/sugasaki/items/71d16a9dbf331e77a902
 
+
+debugger;
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/debugger
+
 //sample
 https://qiita.com/kamitomo/items/34451b11caaf51bd2498
 
