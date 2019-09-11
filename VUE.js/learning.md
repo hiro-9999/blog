@@ -2,6 +2,17 @@
 [VueCLI](https://cli.vuejs.org/)と[electron-builder](https://www.electron.build/)を利用して環境構築、ビルドを行っている   
 Widevineを利用するためにカスタムされた[castLabs Electron](https://github.com/castlabs/electron-releases/)を利用している
 
+インストールされたjsモジュールを全部消す
+rm -rf node_modules
+
+インストールされたjsモジュールのバージョン情報を消す
+rm package-lock.json yarn.lock
+
+npmのキャッシュをクリアする
+npm cache clear --force
+
+rmdir /s /q node_modules (edited) 
+del package-lock.json yarn.lock
 
 :+1:
 https://github.com/icarusion/vue-book
