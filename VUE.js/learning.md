@@ -1,3 +1,8 @@
+[Electron](https://electronjs.org/) + [Vue.js](https://jp.vuejs.org/) + [Vuetify.js](https://v15.vuetifyjs.com/ja/) + Typescriptで構成されている  
+[VueCLI](https://cli.vuejs.org/)と[electron-builder](https://www.electron.build/)を利用して環境構築、ビルドを行っている   
+Widevineを利用するためにカスタムされた[castLabs Electron](https://github.com/castlabs/electron-releases/)を利用している
+
+
 :+1:
 https://github.com/icarusion/vue-book
 
