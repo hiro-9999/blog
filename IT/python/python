@@ -1,2 +1,3 @@
 https://qiita.com/TheHiro/items/88d885ef6a4d25ec3020
 pip install --upgrade pip
+pip list -o
