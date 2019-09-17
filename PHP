@@ -7,6 +7,9 @@ https://wepicks.net/phpsample-date-format/
 //php
 https://www.php.net/manual/zh/
 
+//cookie
+https://wepicks.net/phpref-cookie/
+
 //convert JSON string to array
 $array = json_decode($str, true);
 
