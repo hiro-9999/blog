@@ -4,6 +4,10 @@ http://www.xz577.com/e/php/
 //DateTime
 https://wepicks.net/phpsample-date-format/
 
+
+//createCipher
+https://qiita.com/_daisuke/items/990513e89ca169e9c4ad
+
 //php
 https://www.php.net/manual/zh/
 
