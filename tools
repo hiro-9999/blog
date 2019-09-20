@@ -12,6 +12,7 @@ Editor:Format On Type
 結果：コード書くと整形される 	Ctrl + Shift + I
 
 //Visual Studio Codeでファイル保存時に自動TSLint fix
+TSLint
 https://qiita.com/hakshu/items/bcbe8d7beecbbcf19526
 
 //vscode https://juejin.im/entry/5c88dbf9f265da2db1565960
