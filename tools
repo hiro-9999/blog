@@ -3,6 +3,14 @@ NeatDownloadManager Extension
 https://chrome.google.com/webstore/search/neatdownloadmanager%20extension?hl=ja
 https://download.cnet.com/Neat-Download-Manager/3001-2071_4-78166743.html
 
+//VisualStudioCodeに自動整形機能
+「ファイル」→「基本設定」→「設定」と開く
+検索窓からformatonで検索
+以下のような表示がある
+Editor:Format On Type
+これにチェックを入れてください。すぐに変更が反映されるはずです。
+結果：コード書くと整形される
+
 //vscode https://juejin.im/entry/5c88dbf9f265da2db1565960
 如果读者想要试试这种免费的代码补全工具，可以直接下载插件：https://kite.com/download/。
 GitLens
@@ -10,6 +18,14 @@ vscode-faker
 Dashboard
 //short key
 https://juejin.im/post/5d34fdfff265da1b897b0c8d
+6.vetur
+因为我是 vue 重度使用者，没这个插件连个高亮都没有，没有真的不行
+VueHelper
+SpellChecker
+SVG Viewer
+Path Autocomplete
+JavaScript Standard Style
+Guides
 
 //jp
 rikaikun
