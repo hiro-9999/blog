@@ -14,6 +14,13 @@ Editor:Format On Type
 //Visual Studio Codeでファイル保存時に自動TSLint fix
 TSLint
 https://qiita.com/hakshu/items/bcbe8d7beecbbcf19526
+設定
+
+ファイル保存時に自動修正するには以下のようにsettings.jsonに設定を追加します。
+ファイル保存時の挙動として、tslintのfixコマンドを設定します。
+"editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+}
 
 //vscode https://juejin.im/entry/5c88dbf9f265da2db1565960
 如果读者想要试试这种免费的代码补全工具，可以直接下载插件：https://kite.com/download/。
