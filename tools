@@ -11,6 +11,9 @@ Editor:Format On Type
 これにチェックを入れてください。すぐに変更が反映されるはずです。
 結果：コード書くと整形される 	Ctrl + Shift + I
 
+//Visual Studio Codeでファイル保存時に自動TSLint fix
+https://qiita.com/hakshu/items/bcbe8d7beecbbcf19526
+
 //vscode https://juejin.im/entry/5c88dbf9f265da2db1565960
 如果读者想要试试这种免费的代码补全工具，可以直接下载插件：https://kite.com/download/。
 Highlight Matching Tag
