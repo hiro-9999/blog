@@ -7,6 +7,8 @@ https://www.toutiao.com/a6739881881698828812/?tt_from=copy_link&utm_campaign=cli
 //TencentOS tiny 
 
 
+//【9个顶级开发IoT项目的开源物联网平台 - shnbiot... - CSDN博客】https://blog.csdn.net/shnbiot/article/details/80432017?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
 //book DL
 https://www.jb51.net/books/664373.html
 
