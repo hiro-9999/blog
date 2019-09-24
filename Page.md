@@ -4,6 +4,9 @@ https://www.toutiao.com/a6739881881698828812/?tt_from=copy_link&utm_campaign=cli
 
 //必须在2019年尝试的30个物联网平台】https://toutiao.com/group/6699981379687416323/?app=news_article_social&timestamp=1569122254&req_id=2019092211173401001404114620013AF4&group_id=6699981379687416323&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
+//TencentOS tiny 
+
+
 //book DL
 https://www.jb51.net/books/664373.html
 
