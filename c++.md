@@ -1,3 +1,8 @@
+C++ 资源大全中文版https://github.com/jobbole/awesome-cpp-cn
+
+https://github.com/fireae/modern-cpp-tutorial
+
+
 位运算符及其应用
 https://blog.csdn.net/hguisu/article/details/7892596
 & 按位与
