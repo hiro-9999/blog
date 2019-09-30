@@ -1,6 +1,12 @@
 //vr player
 https://www.5kplayer.com/video-music-player/best-vr-player-for-macos-high-sierra.htm
 
+MoguraVR
+Gear VRが終了へ、OculusのCTOが"追悼"スピーチ
+https://www.moguravr.com/gear-vr-termination/
+
+
+
 
 //Vysorの使い方！Androidの画面をPCに共有(ミラーリング)して操作する方法！
 https://applica.info/vysor
