@@ -3,8 +3,14 @@ https://learning.oreilly.com/videos/amazon-web-services/9780135581247
 //node: good
 https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09
 
-//Amplify のインストール
+//Amplify のインストール npm cache clean --force
+https://qiita.com/kurone-kito/items/65fcd42e8f89c673fc98
+npm ls -g fs-ext
+
+https://github.com/aws-amplify/docs/issues/410
 https://dev.classmethod.jp/devenv/aws-amplify-tutorial/
+ npm -g root
+  npm list -g --depth=0
 
 
 brew install zmq
