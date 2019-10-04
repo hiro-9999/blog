@@ -1,5 +1,7 @@
 https://learning.oreilly.com/videos/amazon-web-services/9780135581247
 
+
+npm install -g @aws-amplify/cli@ddb-local-install-script
 //
 npm list -g --depth=0
 
