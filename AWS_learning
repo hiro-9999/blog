@@ -4,6 +4,7 @@ https://learning.oreilly.com/videos/amazon-web-services/9780135581247
 npm install -g @aws-amplify/cli@ddb-local-install-script
 //
 npm list -g --depth=0
+sudo npm install -g --unsafe-perm --verbose @aws-amplify/cli
 
 https://github.com/aws-amplify/amplify-cli/issues/1996
 sudo npm install -g --unsafe-perm --verbose @aws-amplify/cli
