@@ -1,1 +1,5 @@
 https://learning.oreilly.com/videos/amazon-web-services/9780135581247
+
+
+https://github.com/aws-amplify/amplify-cli/issues/1996
+npm install -g @aws-amplify/cli --unsafe-perm=true
