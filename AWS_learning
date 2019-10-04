@@ -1,5 +1,9 @@
 https://learning.oreilly.com/videos/amazon-web-services/9780135581247
 
+//node: good
+https://qiita.com/kyosuke5_20/items/c5f68fc9d89b84c0df09
+
+
 brew install zmq
 npm install -g @aws-amplify/cli@ddb-local-install-script
 //
