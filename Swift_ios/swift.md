@@ -1,5 +1,4 @@
->book:
-https://pymlovelyq.github.io/posts/66dfe877/
+
 
 >Xcode9時代のゆるふわGitHub生活
 https://qiita.com/touyoubuntu/items/e87a47e880c0fa80cbdc
