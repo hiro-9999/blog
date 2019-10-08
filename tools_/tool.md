@@ -1,7 +1,7 @@
 >使用fcrackzip来破解zip类型压缩文件
 https://www.jianshu.com/p/8f2af229290a
 
-rar破解:https://www.jb51.net/softs/582702.html
+rar破解:https://www.wlrjy.com/Soft/173615.html
 https://www.catpasswd.com/blog/rar-password-cracker/
 
 //dl
