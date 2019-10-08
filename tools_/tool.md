@@ -1,6 +1,9 @@
 >使用fcrackzip来破解zip类型压缩文件
 https://www.jianshu.com/p/8f2af229290a
 
+rar:
+https://www.catpasswd.com/blog/rar-password-cracker/
+
 //dl
 NeatDownloadManager Extension
 https://chrome.google.com/webstore/search/neatdownloadmanager%20extension?hl=ja
