@@ -9,7 +9,7 @@ http://www.fast8.com/view/8558.html
 http://neikuw.com/?p=5392
 
 https://www.wenzhangba.com/duhougan/201805/278359.html
-Scott Young写的另外两本小册子《如何改变习惯》、《超效率手册》
+Scott Young写的另外两本小册子《如何改变习惯》、《超效率手册》https://epubw.com/65791.html
 
 《你要么出众，要么出局》李尚龙著作
 《你所谓的稳定，不过是在浪费生命》
