@@ -2,6 +2,7 @@
 https://www.jianshu.com/p/8f2af229290a
 
 rar破解: brew install rarcrack
+http://www.ddooo.com/softdown/133705.htm
 https://github.com/jaredsburrows/Rarcrack
 https://www.ty2y.com/ty2yrarcrack.html
 
