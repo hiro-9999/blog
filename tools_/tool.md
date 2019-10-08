@@ -3,8 +3,7 @@ https://www.jianshu.com/p/8f2af229290a
 
 rar破解: brew install rarcrack
 https://github.com/jaredsburrows/Rarcrack
-https://www.wlrjy.com/Soft/173615.html
-https://www.catpasswd.com/blog/rar-password-cracker/
+https://www.ty2y.com/ty2yrarcrack.html
 
 //dl
 NeatDownloadManager Extension
