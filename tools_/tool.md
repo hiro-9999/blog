@@ -1,6 +1,9 @@
 >使用fcrackzip来破解zip类型压缩文件
 https://www.jianshu.com/p/8f2af229290a
 
+postman:
+https://hackernoon.com/intercepting-http-requests-from-electron-apps-with-postman-6edc011b0c12
+
 rar破解: brew install rarcrack
 http://www.ddooo.com/softdown/133705.htm
 https://github.com/jaredsburrows/Rarcrack
