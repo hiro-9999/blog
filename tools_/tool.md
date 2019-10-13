@@ -9,6 +9,9 @@ http://www.ddooo.com/softdown/133705.htm
 https://github.com/jaredsburrows/Rarcrack
 https://www.ty2y.com/ty2yrarcrack.html
 
+>Prometheus
+https://www.infoq.cn/article/275NDkYNZRpcTIL2R8Ms
+
 //dl
 NeatDownloadManager Extension
 https://chrome.google.com/webstore/search/neatdownloadmanager%20extension?hl=ja
