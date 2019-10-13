@@ -17,6 +17,10 @@ NeatDownloadManager Extension
 https://chrome.google.com/webstore/search/neatdownloadmanager%20extension?hl=ja
 https://download.cnet.com/Neat-Download-Manager/3001-2071_4-78166743.html
 
+
+//抠图 gaoding.com/koutu
+https://www.toutiao.com/a6746953400266523139/
+
 //html -preview
 https://rui-log.com/vscode-html-cording/
 Mac：Shift + Option + F
