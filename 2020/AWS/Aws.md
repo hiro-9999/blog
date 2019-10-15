@@ -1,6 +1,9 @@
 ＞VR動画の再生におすすすめのプレイヤーアプリ
 https://applica.info/vr-player
 
+＞Simple VR Video Player
+https://mashironote.com/2017/10/11/simple-vr-video-player/
+
 
 >terraform:
 https://qiita.com/Chanmoro/items/55bf0da3aaf37dc26f73
