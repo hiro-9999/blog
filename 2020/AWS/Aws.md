@@ -1,6 +1,9 @@
 ＞VR動画の再生におすすすめのプレイヤーアプリ
 https://applica.info/vr-player
 
+//vr Watch Your Frames Per Second (FPS)
+http://simplevr.pro/videoplayer/docs
+
 ＞Simple VR Video Player
 https://mashironote.com/2017/10/11/simple-vr-video-player/
 
