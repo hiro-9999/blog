@@ -11,7 +11,8 @@ MoguraVR
 Gear VRが終了へ、OculusのCTOが"追悼"スピーチ
 https://www.moguravr.com/gear-vr-termination/
 
-
+//HTML5＋WebGLでつくる3Dウェブサイト 
+https://books.google.co.jp/books?id=gnVACQAAQBAJ&pg=PT57&lpg=PT57&dq=experimental-webgl&source=bl&ots=Ead-IquAaa&sig=ACfU3U36HPhW2CJINuOwOEl_BSxjVUTAKw&hl=ja&sa=X&ved=2ahUKEwjH5fuH3Z3lAhV4zIsBHeYNAkAQ6AEwCXoECAkQAQ#v=onepage&q=experimental-webgl&f=false
 
 
 //Vysorの使い方！Androidの画面をPCに共有(ミラーリング)して操作する方法！
