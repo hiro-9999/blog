@@ -1,6 +1,10 @@
 //vr player
 https://www.5kplayer.com/video-music-player/best-vr-player-for-macos-high-sierra.htm
 
+
+Detector.js
+https://qiita.com/tonkotsuboy_com/items/cdffcdd7bdccac371292
+
 MoguraVR
 Gear VRが終了へ、OculusのCTOが"追悼"スピーチ
 https://www.moguravr.com/gear-vr-termination/
