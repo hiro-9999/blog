@@ -3,6 +3,9 @@ https://www.jianshu.com/p/8f2af229290a
 
 >Regex tool https://regex101.com
 
+>datadog
+https://docs.datadoghq.com/ja/integrations/cloudflare/
+
 
 //remove.bg
 https://www.remove.bg
