@@ -1,3 +1,6 @@
+>像外行一样思考，像专家一样实践
+https://www.xinchengonline.com/search/像外行一样思考，像专家一样实践：科研成功之道（修订版）
+
 books:
 https://github.com/justjavac/free-programming-books-zh_CN
 
