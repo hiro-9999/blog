@@ -1,7 +1,7 @@
 //vr player
 https://www.5kplayer.com/video-music-player/best-vr-player-for-macos-high-sierra.htm
 
-//webgl
+//webgl https://codeday.me/jp/qa/20190319/438539.html ok
 https://www.awwwards.com/30-experimental-webgl-websites.html
 
 Detector.js https://codeday.me/jp/qa/20190826/1544638.html
