@@ -4,7 +4,7 @@ https://www.5kplayer.com/video-music-player/best-vr-player-for-macos-high-sierra
 //webgl
 https://www.awwwards.com/30-experimental-webgl-websites.html
 
-Detector.js
+Detector.js https://codeday.me/jp/qa/20190826/1544638.html
 https://qiita.com/tonkotsuboy_com/items/cdffcdd7bdccac371292
 
 MoguraVR
