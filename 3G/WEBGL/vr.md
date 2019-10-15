@@ -1,6 +1,9 @@
 
  GLSL (OpenGL Shading Language) 
  https://www.ibm.com/developerworks/jp/web/library/wa-webgl1/index.html
+ 
+ Programming 3D Applications with HTML5 and WebGL
+ https://books.google.co.jp/books?id=UvrYAgAAQBAJ&pg=PA22&lpg=PA22&dq=experimental-webgl&source=bl&ots=22oveoTl_S&sig=ACfU3U2JFQo7axrMwnp3cUWgcWpiwZhn1g&hl=ja&sa=X&ved=2ahUKEwizh9Hu4J3lAhUxCqYKHZxrDJc4ChDoATAJegQICRAB#v=onepage&q=experimental-webgl&f=false
 
 //vr player
 https://www.5kplayer.com/video-music-player/best-vr-player-for-macos-high-sierra.htm
