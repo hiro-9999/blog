@@ -2,6 +2,8 @@
  https://codepen.io/Viblast/pen/dXbBJW
  http://viblast.com/blog/2016/7/28/360-degree-video-it-makes-all-the-difference/
  
+ https://yanwsh.github.io/videojs-panorama/index_v4.html
+ 
  GLSL (OpenGL Shading Language) 
  https://www.ibm.com/developerworks/jp/web/library/wa-webgl1/index.html
  
