@@ -1,6 +1,6 @@
 //vr
  https://codepen.io/Viblast/pen/dXbBJW
- 
+ http://viblast.com/blog/2016/7/28/360-degree-video-it-makes-all-the-difference/
  
  GLSL (OpenGL Shading Language) 
  https://www.ibm.com/developerworks/jp/web/library/wa-webgl1/index.html
