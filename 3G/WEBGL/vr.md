@@ -2,6 +2,9 @@ https://webvr.info/samples/
 
 http://www.utovr.cn/products/livesolution/
 
+//纯HTML开发VR应用：A-Frame JS
+https://www.toutiao.com/a6613132909257687559/
+
 //
 https://www.vrsmash.com
 
