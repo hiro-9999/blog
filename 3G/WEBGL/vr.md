@@ -2,6 +2,9 @@
 //short url
 http://bit.do/
 
+//WebVR: headsets and browsers support
+https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
+
 //deovr
 https://forum.deovr.com
 
