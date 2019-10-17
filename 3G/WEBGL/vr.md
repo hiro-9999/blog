@@ -4,6 +4,9 @@
  
  https://yanwsh.github.io/videojs-panorama/index_v4.html
  
+ hls.js video.js
+ https://blog.toshimaru.net/play-m3u8-video-in-browser/
+ 
  GLSL (OpenGL Shading Language) 
  https://www.ibm.com/developerworks/jp/web/library/wa-webgl1/index.html
  
