@@ -9,6 +9,10 @@ https://twitter.com/rodinvr
 https://www.toutiao.com/a6613132909257687559/
 https://blog.csdn.net/maguanghui_2012/article/details/62888385
 
+
+//all picture
+https://blog.csdn.net/zjbcool/article/details/83009479
+
 //
 https://www.vrsmash.com
 
