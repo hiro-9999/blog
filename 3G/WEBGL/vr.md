@@ -7,6 +7,21 @@ https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
 
 //deovr
 https://forum.deovr.com
+Post your favorite VR Player you like here:
+
+Oculus Video
+Skybox VR video player https://skybox.xyz/en/
+Deo VR video player https://deovr.com/
+Gizmo VR VR player https://gizmovr.com/
+Open VR video player https://chimera.digital/ Very poor rating/review
+Samsung VR videos https://samsungvr.com/
+MermaidVR video player https://www.mermvr.com/
+All above should be free.
+Whirligig media player http://www.whirligig.xyz/ cost 4USD in early acess but look very promising.
+
+Steam VR Players
+https://steamdb.info/search/?a=app&q=vr+player&type=2&category=0
+
 
 //vr
  https://codepen.io/Viblast/pen/dXbBJW
