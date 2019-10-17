@@ -1,6 +1,7 @@
 //UtoVR
 https://blog.csdn.net/zjbcool/article/details/81773841
 https://blog.csdn.net/weixin_33701564/article/details/89542610
+https://blog.csdn.net/weixin_34054931/article/details/89086267
 
 
 https://webvr.info/samples/
