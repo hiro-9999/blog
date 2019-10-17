@@ -1,6 +1,6 @@
 //JW Player
 https://github.com/jwplayer/jwplayer
-
+https://www.jwplayer.com/pricing/
 
 
 //UtoVR
