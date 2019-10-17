@@ -5,6 +5,9 @@ http://bit.do/
 //WebVR: headsets and browsers support
 https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
 
+//Video Player with JavaScript using Clappr
+https://www.youtube.com/watch?v=Kyvn35B2ZME
+
 //deovr
 https://forum.deovr.com
 Post your favorite VR Player you like here:
