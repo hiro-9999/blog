@@ -7,6 +7,7 @@ https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
 
 //Video Player with JavaScript using Clappr
 https://www.youtube.com/watch?v=Kyvn35B2ZME
+https://qiita.com/mehdi/items/501c4bd3374ebc298029
 
 //deovr
 https://forum.deovr.com
