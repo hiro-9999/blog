@@ -2,6 +2,9 @@
 //short url
 http://bit.do/
 
+//vr html5
+https://www.toutiao.com/a6470272586533044749/
+
 //WebVR: headsets and browsers support
 https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
 
