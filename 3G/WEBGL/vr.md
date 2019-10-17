@@ -2,6 +2,9 @@
 //short url
 http://bit.do/
 
+//deovr
+https://forum.deovr.com
+
 //vr
  https://codepen.io/Viblast/pen/dXbBJW
  http://viblast.com/blog/2016/7/28/360-degree-video-it-makes-all-the-difference/
