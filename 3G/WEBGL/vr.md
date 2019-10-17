@@ -32,6 +32,9 @@ https://deovr.com/blog/post/id/3-webvr%3A-headsets-and-browsers-support
 https://www.youtube.com/watch?v=Kyvn35B2ZME
 https://qiita.com/mehdi/items/501c4bd3374ebc298029
 
+//html5
+https://blog.csdn.net/qq_37540004/article/details/90750529
+
 //deovr
 https://forum.deovr.com
 Post your favorite VR Player you like here:
