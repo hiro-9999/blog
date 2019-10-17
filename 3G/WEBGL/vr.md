@@ -5,6 +5,9 @@ http://www.utovr.cn/products/livesolution/
 //Rodin
 https://twitter.com/rodinvr
 
+//mxreality.js
+https://github.com/guoguicheng/mxreality.js
+
 //纯HTML开发VR应用：A-Frame JS
 https://www.toutiao.com/a6613132909257687559/
 https://blog.csdn.net/maguanghui_2012/article/details/62888385
