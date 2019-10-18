@@ -4,6 +4,9 @@ https://github.com/Eyevinn
 https://github.com/Eyevinn/html-player
 https://medium.com/all-technology-feeds/html5-video-player-for-live-360-video-streaming-6eecd55f8b6d
 
+//videojs-contrib-hls.js
+https://github.com/Peer5/videojs-contrib-hls.js
+
 
 
 // ok
