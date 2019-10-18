@@ -2,9 +2,16 @@
 https://github.com/jwplayer/jwplayer
 https://www.jwplayer.com/pricing/
 
-
-//a-frame
+https://webvr.rocks/
+//a-frame https://aframe.io/docs/0.9.0/introduction/
+https://qiita.com/massie_g/items/dc8d0473e70e72324882
+https://glitch.com/~aframe-360-video-example
+https://www.mitsue.co.jp/knowledge/blog/frontend/201708/07_1737.html
+https://magnets.jp/web_design/8859/
 https://aframe.io/docs/0.9.0/introduction/vr-headsets-and-webvr-browsers.html
+https://cloudpack.media/31240
+https://github.com/etiennepinchon/aframe-videoplayer
+http://vr-lab.voyagegroup.com/entry/2016/12/26/231043
 
 https://www.howtogeek.com/351245/how-to-use-private-browsing-on-your-oculus-go/
 
