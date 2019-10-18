@@ -3,6 +3,8 @@ https://github.com/jwplayer/jwplayer
 https://www.jwplayer.com/pricing/
 
 
+https://www.howtogeek.com/351245/how-to-use-private-browsing-on-your-oculus-go/
+
 //UtoVR
 https://blog.csdn.net/zjbcool/article/details/81773841
 https://blog.csdn.net/weixin_33701564/article/details/89542610
