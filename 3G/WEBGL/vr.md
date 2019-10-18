@@ -4,6 +4,7 @@ https://www.jwplayer.com/pricing/
 
 https://webvr.rocks/
 //a-frame https://aframe.io/docs/0.9.0/introduction/
+https://qiita.com/RiField/items/3f207705d9f7a64a127c
 https://qiita.com/massie_g/items/dc8d0473e70e72324882
 https://glitch.com/~aframe-360-video-example
 https://www.mitsue.co.jp/knowledge/blog/frontend/201708/07_1737.html
