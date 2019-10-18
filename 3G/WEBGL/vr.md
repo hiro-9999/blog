@@ -2,6 +2,8 @@
 https://github.com/jwplayer/jwplayer
 https://www.jwplayer.com/pricing/
 
+https://github.com/video-dev/hls.js/
+https://www.techlive.tokyo/archives/4295
 
 //AR
 https://codelabs.developers.google.com/codelabs/ar-with-webxr-ja/index.html#3
