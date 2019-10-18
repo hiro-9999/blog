@@ -3,6 +3,9 @@ https://github.com/jwplayer/jwplayer
 https://www.jwplayer.com/pricing/
 
 
+//a-frame
+https://aframe.io/docs/0.9.0/introduction/vr-headsets-and-webvr-browsers.html
+
 https://www.howtogeek.com/351245/how-to-use-private-browsing-on-your-oculus-go/
 
 //UtoVR
