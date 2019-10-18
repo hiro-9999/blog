@@ -2,6 +2,10 @@
 https://github.com/jwplayer/jwplayer
 https://www.jwplayer.com/pricing/
 
+
+//AR
+https://codelabs.developers.google.com/codelabs/ar-with-webxr-ja/index.html#3
+
 https://webvr.rocks/
 //a-frame https://aframe.io/docs/0.9.0/introduction/
 https://qiita.com/RiField/items/3f207705d9f7a64a127c
