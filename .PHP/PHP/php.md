@@ -1,3 +1,6 @@
+//javascript
+https://pisuke-code.com/php-ways-to-embed-javascript/
+
 book
 http://www.xz577.com/e/php/
 
