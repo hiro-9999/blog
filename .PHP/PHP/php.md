@@ -6,6 +6,12 @@ https://www.webdlab.com/labs/js-php/
 //JavascriptとPHPでデータのやり取りをする方法
 http://wordpress.ideacompo.com/?p=10575
 
+
+
+//JavaScriptからPHPに非同期で値を渡して返り値を受け取る
+https://techa1008.com/rocket-note/2018/07/04/post-value-asynchronously-from-javascript-to-php-and-receive-return-value/
+
+
 //php & js
 https://phpjavascriptroom.com/?t=js&p=event#a_onload
 
