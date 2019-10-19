@@ -1,7 +1,8 @@
 >像外行一样思考，像专家一样实践
 https://github.com/hiro-9999/book-1/blob/master/b84_psychology/%E5%83%8F%E5%A4%96%E8%A1%8C%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83%EF%BC%8C%E5%83%8F%E4%B8%93%E5%AE%B6%E4%B8%80%E6%A0%B7%E5%AE%9E%E8%B7%B5%20%20%E7%A7%91%E7%A0%94%E6%88%90%E5%8A%9F%E4%B9%8B%E9%81%93.pdf
 
-
+//包括领域驱动设计，微服务，整洁架构
+https://www.toutiao.com/a6748603952670966286/?tt_from=copy_link&utm_campaign=client_share&timestamp=1571457694&app=news_article_social&utm_source=copy_link&utm_medium=toutiao_ios&req_id=201910191201330100140470160AF4D2ED&group_id=6748603952670966286
 
 books:
 https://github.com/justjavac/free-programming-books-zh_CN
