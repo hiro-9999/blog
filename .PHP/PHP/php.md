@@ -3,6 +3,8 @@ https://www.dsm-update.info/javascript/228/
 https://codeday.me/jp/qa/20190504/769053.html
 https://www.webdlab.com/labs/js-php/
 
+//JavascriptとPHPでデータのやり取りをする方法
+http://wordpress.ideacompo.com/?p=10575
 
 //php & js
 https://phpjavascriptroom.com/?t=js&p=event#a_onload
