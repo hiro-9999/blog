@@ -1,3 +1,14 @@
+//JavaScriptの変数をPHPに渡す方法
+https://www.dsm-update.info/javascript/228/
+
+
+//php & js
+https://phpjavascriptroom.com/?t=js&p=event#a_onload
+
+
+//json_encodeを使ってPHPとJavaScriptの変数の受け渡しをします。
+https://qiita.com/cr_tk/items/900914e8a6e19ee3c5b7
+
 //javascript
 https://pisuke-code.com/php-ways-to-embed-javascript/
 
@@ -18,6 +29,9 @@ https://qiita.com/kenhonda/items/eb98d15fd465d90e94d6
 
 var php_val = document.getElementById('php-val');
 alert('color: ' + php_val.data('val'));
+
+//JSONをデコード
+https://syncer.jp/how-to-use-json
 
 book
 http://www.xz577.com/e/php/
