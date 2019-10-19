@@ -1,3 +1,6 @@
+//
+command + option + L
+
 //flutter
 https://blog.csdn.net/hk2291976/article/details/51137938
 
@@ -7,8 +10,9 @@ https://blog.csdn.net/gfg156196/article/details/81118368
 //【Flutter 内幕：Flutter 在内部是如何工作的？】
 https://toutiao.com/group/6749486298098041351/?app=news_article_social&timestamp=1571495138&req_id=201910192225380100140470680B24B98E&group_id=6749486298098041351&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
-//
-command + option + L
+【《Flutter in action》开放下载！闲鱼Flutter企业级实践精选】https://toutiao.com/group/6748966484199866887/?app=news_article_social&timestamp=1571473230&req_id=201910191620300100140470212068F0EF&group_id=6748966484199866887&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+
 
 ./gradlew :app:dependencies
 ./gradlew :module_name:dependencies
