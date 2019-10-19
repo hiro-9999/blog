@@ -1,6 +1,7 @@
 //JavaScriptの変数をPHPに渡す方法
 https://www.dsm-update.info/javascript/228/
 https://codeday.me/jp/qa/20190504/769053.html
+https://www.webdlab.com/labs/js-php/
 
 
 //php & js
