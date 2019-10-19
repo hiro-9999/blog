@@ -1,6 +1,24 @@
 //javascript
 https://pisuke-code.com/php-ways-to-embed-javascript/
 
+//phpから外部のjsに値渡し http://www.searchlight8.com/php-javascript-params/
+https://qiita.com/kenhonda/items/eb98d15fd465d90e94d6
+//ここでid属性を記述して、スクリプトタグに変数を埋め込みます
+<script id="script" type="text/javascript" src="./js/script.js"
+ data-param='<?php echo json_safe_encode($param);?>'>
+ 
+ 
+ <div type="hidden"
+     id="php-val"
+     style="display:none;"
+     data-val="<?=htmlspecialchars($foo, ENT_QUOTES, 'UTF-8')?>"></div>
+
+<script type="text/javascript" src="script.js"></script>
+
+
+var php_val = document.getElementById('php-val');
+alert('color: ' + php_val.data('val'));
+
 book
 http://www.xz577.com/e/php/
 
