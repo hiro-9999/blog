@@ -1,0 +1,14 @@
+李宏毅《机器学习》
+https://www.toutiao.com/a6723094295617733134/?tt_from=copy_link&utm_campaign=client_share&timestamp=1571551367&app=news_article_social&utm_source=copy_link&utm_medium=toutiao_ios&req_id=201910201402460100140411530E71A07C&group_id=6723094295617733134
+
+Github链接：
+
+https://github.com/datawhalechina/leeml-notes
+
+在线笔记链接：
+
+https://datawhalechina.github.io/leeml-notes/
+
+视频课程链接：
+
+https://www.bilibili.com/video/av59538266
