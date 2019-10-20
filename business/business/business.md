@@ -25,3 +25,6 @@ UUとページビューとセッションとの違い
 https://seolaboratory.jp/37217/
 https://ferret-plus.com/592
 
+
+ARPUとは？ARPA、ARPPUなど
+https://www.emotion-tech.co.jp/resource/2018/what_is_arpu
