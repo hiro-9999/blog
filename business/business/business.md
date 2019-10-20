@@ -28,3 +28,4 @@ https://ferret-plus.com/592
 
 ARPUとは？ARPA、ARPPUなど
 https://www.emotion-tech.co.jp/resource/2018/what_is_arpu
+ARPUとは、1ユーザーあたりの平均的売り上げを示す指標で「Average Revenue Per User」
