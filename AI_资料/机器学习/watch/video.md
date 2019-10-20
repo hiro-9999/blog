@@ -4,6 +4,10 @@ https://www.toutiao.com/a6723094295617733134/?tt_from=copy_link&utm_campaign=cli
 【斯坦福大学】吴恩达机器学习零基础快速入门学习视频教程
 https://www.bilibili.com/video/av71680565?from=search&seid=15671541500291234090
 
+
+高等数学篇-2统计机器学习概率与算法
+https://www.bilibili.com/video/av48944960?from=search&seid=17677166871812111727
+
 others
 https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0
 
