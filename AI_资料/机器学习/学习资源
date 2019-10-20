@@ -1,0 +1,57 @@
+
+【送给机器学习和数据科学入门者的5个学习建议（附链接）】https://toutiao.com/group/6739119563427807748/?app=news_article_social&timestamp=1571552209&req_id=201910201416480100140190771953987F&group_id=6739119563427807748&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+学习资源
+人工智能要素 (https://www.elementsofai.com/)—人工智能和机器学习主要概念概述。
+Coursera 上的 Python 教程—(https://bit.ly/pythoneverybodycoursera) 从头学习 Python。
+通过 freeCodeCamp 学习 Python (https://youtu.be/rfscVS0vtbw)—一个视频涵盖了 Python 所有主要概念。
+Corey Schafer 的 Anaconda 教程 (https://youtu.be/YJC6ldI3hWk)—一个视频学会 Anaconda（数据科学和机器学习需要的配置环境）。
+Dataquest 的新手 Jupyter Notebook 教程(https://www.dataquest.io/blog/jupyter-notebook-tutorial/)—一篇文章学会启动和运行 Jupyter Notebook。
+Corey Schafer 的 Jupyter Note 教程 (https://www.youtube.com/watch?v=HW29067qVWk)—一个视频学会使用 Jupyter Notebook。
+学习通过 Pandas、Numpy 和 Matplotlib 进行数据分析、操作和可视化
+
+一旦你已经掌握了一些 Python 技巧，就会开始想要学习如何处理和操作数据，为了实现这一目的，你需要熟悉 Pandas、Numpy 和 Matplotlib。
+
+Pandas 可以帮助你处理二维数据。类似 Excel 文件里的信息表，包含行和列，这类数据被称为结构化数据。
+
+Numpy 可以帮助你进行数值计算。机器学习把你能想到的所有东西都转化成数字，进而在这些数字中寻找模式。
+
+Matplotlib 可以帮助你绘制图形和可视化数据。理解表格中的一堆数字对人类来说可能很困难。我们更喜欢看到有一条线穿过的图。可视化可以更好地传达你的发现。
+
+学习资源
+Cousera 上的 Python 应用数据科学 (http://bit.ly/courseraDS)—开始打磨数据科学方向的 Python 技能。
+10 分钟入门 pandas (https://pandas.pydata.org/pandas-docs/stable/gettingstarted/10min.html)—快速概览 pandas 库及其部分最有用的函数。
+Codebasics 的 Python pandas 教程 (https://youtu.be/CmorAWRsCAw)—该 YouTube 系列介绍了 pandas 的所有主要功能。
+freeCodeCamp 的 NumPy 教程 (https://youtu.be/QUT1VHiLmmI)—一个 YouTube 视频学会 NumPy。
+Sentdex 的 Matplotlib 教程 (https://www.youtube.com/watch?v=q7Bo_J8x_dw&list=PLQVvvaa0QuDfefDfXb9Yf0la1fPDKluPF)—YouTube 系列助你学会 Matplotlib 所有最有用的功能。
+借助 scikit-learn 学习机器学习
+
+现在你已经掌握了操作和可视化数据的技能，是时候学习在数据中寻找模式了。scikit-learn 是一个 Python 库，它内置了许多有用的机器学习算法供你使用，它还提供了许多其他有用的函数来探究学习算法的学习效果。
+
+重点在于学习都有什么样的机器学习问题，比如分类和回归，什么样的算法最适合解决这些问题。现在还不需要从头开始理解每个算法，先学习如何应用它们。
+
+学习资源
+Data School 的基于 scikit-learn 的 Python 机器学习(https://www.youtube.com/watch?v=elojMnjn4kk&list=PL5-da3qGB5ICeMbQuqbbCOQWcS6OYBr5A)—一个 YouTube 播放列表教你 scikit-learn 的所有主要函数。
+Daniel Bourke 对探索性数据分析的简要介绍(https://towardsdatascience.com/a-gentle-introduction-to-exploratory-data-analysis-f11d843b8184)—把你在上述两个步骤中学到的知识融合在一个项目中。提供代码和视频，助你开始第一个 Kaggle 竞赛。
+Daniel Formosso 的基于 scikit-learn 的探索性数据分析笔记(https://github.com/dformoso/sklearn-classification)—以上资源的更深入版本，附带了一个实践上述内容的端到端项目。
+学习深度学习神经网络
+
+深度学习和神经网络在没有太多结构的数据上最有效。二维数据虽然有结构，图像、视频、音频文件和自然语言文本也有，但不会太多。
+
+小贴士：在大多数情况下，你会想对结构化数据使用一组决策树（随机森林或 XGBoost 之类的算法），而对于非结构化数据，你会想使用深度学习或迁移学习（使用预先训练的神经网络并将其用于你的问题）。
+
+你可以开始把这样的小贴士用一张便条记录，然后边学习边收集这些信息。
+
+学习资源
+Cousera 上 Andrew Ng 的 deeplearning.ai (https://bit.ly/courseradl) (https://bit.ly/courseradl)—商业上最成功的从业者之一讲授的深度学习课程。
+Jeremy Howard 的 fast.ai 深度学习课程 (https://course.fast.ai/) (https://bit.ly/courseradl)—工业界最好的实践者之一讲授的深度学习实际操作方法。
+其他课程和书籍
+在学习过程中，最理想的情况是你可以用自己的小项目来练习所学的东西。这不必是复杂的，需要改变世界的事情，但你可以说「我用 X 做了这个」。然后通过 github 或博客分享你的工作。github 用于展示你的代码，博客文章用于展示你如何表达自己所做的工作。你应该为每个项目都发布一下这些内容。申请一份工作的最好方法是你已经做完了工作要求做的事情。分享你的工作是向未来的潜在雇主展示你能力的好方法。
+
+在你熟悉了如何使用不同的机器学习和深度学习框架之后，你可以尝试通过从头开始构建它们来巩固你的知识。你不必总是在生产或从事机器学习时这样做，但是从内部了解事情是如何工作的将有助于你建立自己的工作。
+
+学习资源
+Daniel Bourke 的如何开始你自己的机器学习工程(https://towardsdatascience.com/how-to-start-your-own-machine-learning-projects-4872a41e4e9c)—开始你自己的工程可能会很难，这篇文章可以给你一些指引。
+Jeremy Howard 的 fast.ai 深度学习基础 (https://course.fast.ai/part2)—自上而下学习后，本课程将帮助你从下往上填补空白。
+Andrew Trask 的 Grokking Deep Learning (https://amzn.to/2H497My)—这本书将教你如何从头开始构建神经网络，以及为什么你应该知道如何构建。
+Daniel Bourke 推荐的机器学习书籍 (https://www.youtube.com/watch?v=7R08MPXxiFQ)—该 YouTube 视频整理了一些机器学习最佳书籍。
