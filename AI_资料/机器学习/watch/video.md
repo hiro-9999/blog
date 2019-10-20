@@ -7,6 +7,9 @@ https://www.bilibili.com/video/av71680565?from=search&seid=15671541500291234090
 others
 https://search.bilibili.com/all?keyword=%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0
 
+上海交通大学张志华)【机器学习导论】全套教程
+https://www.bilibili.com/video/av41541089/?spm_id_from=333.788.videocard.1
+
 Github链接：
 
 https://github.com/datawhalechina/leeml-notes
@@ -18,3 +21,7 @@ https://datawhalechina.github.io/leeml-notes/
 视频课程链接：
 
 https://www.bilibili.com/video/av59538266
+
+
+统计机器学习
+https://search.bilibili.com/all?keyword=%E7%BB%9F%E8%AE%A1%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0&from_source=nav_suggest
