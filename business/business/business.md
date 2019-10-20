@@ -1,3 +1,7 @@
+https://webtan.impress.co.jp/e/2019/01/23/31438
+https://speakerdeck.com/hik0107/simple-data-analytics-leads-impact?slide=122
+
+
 プランナー(planner) https://employment.en-japan.com/tenshoku-daijiten/12901/
 
 
