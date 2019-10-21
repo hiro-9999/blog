@@ -66,6 +66,7 @@ https://dev.classmethod.jp/client-side/javascript/videojs-http-streaming-vhs-hls
   </body>
 </html>
 
+https://github.com/emliri/hlsjs-videojs-plugin
 
 three.js
 https://cdnjs.com/libraries/three.js/
