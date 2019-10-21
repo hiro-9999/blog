@@ -1,7 +1,8 @@
 FirebaseとNuxt(Vue)
 https://qiita.com/y_kawase/items/fb9f747d88af151f981a
 
-//FirebaseでWebチャットアプリをデプロイ
+//FirebaseでWebチャットアプリをデプロイ ok
+https://public-constructor.com/firebase-hosting-vuejs-for-beginners/
 https://qiita.com/codomo_pro/items/9e651e8cffaa90681426
 
 
