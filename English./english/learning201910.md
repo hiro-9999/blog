@@ -8,3 +8,6 @@ http://www.en8848.com.cn/words/basic/lyjc3000/252452.html
 
 //听故事学4000英语基本词汇
 http://www.en8848.com.cn/words/basic/4000essential/?auto=1
+
+//实用英语口语1000句
+http://www.en8848.com.cn/words/basic/4000essential/?auto=1
