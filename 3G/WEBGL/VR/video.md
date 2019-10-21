@@ -23,6 +23,11 @@ https://github.com/streamroot/videojs-hlsjs-plugin
   </body>
 </html>
 
+videojs-vr.min.js
+https://github.com/videojs/videojs-vr
+https://support.brightcove.com/360degvr-video-plugin
+ var player = videojs('example-video');
+ player.vr({projection: '360'});
 
 https://github.com/facebook/react-360/issues/124
 
