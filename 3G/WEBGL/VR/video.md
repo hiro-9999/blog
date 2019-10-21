@@ -1,3 +1,13 @@
+https://github.com/facebook/react-360/issues/124
+
+Here is an example of a HLS video being rendered in a ThreeJS scene using
+VideoJS - https://jsfiddle.net/vm4detdy/
+
+I assume inorder to use this in ReactVR, I'll need to follow this - 
+https://facebook.github.io/react-vr/docs/native-modules.html
+
+
+
 http-streaming
 https://unpkg.com/browse/@videojs/http-streaming@1.10.6/dist/
 https://github.com/videojs/http-streaming
