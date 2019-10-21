@@ -1,7 +1,27 @@
 //its ok for hls aes
+https://dev.classmethod.jp/client-side/javascript/videojs-contrib-hls-livestreaming-minimum-setting/
 https://github.com/streamroot/videojs-hlsjs-plugin
 
-
+<html>
+  <head>
+    <title>HLS livestreaming</title>
+    <link href="https://vjs.zencdn.net/7.4.1/video-js.css" rel="stylesheet">
+  </head>
+  <body>
+    <video id=example-video width=1280 height=720
+       class="video-js vjs-default-skin" controls>
+      <source
+         src="m3u8"
+         type="application/x-mpegURL">
+    </video>
+    <script src="https://vjs.zencdn.net/7.4.1/video.js"></script>
+    <script src="./videojs-contrib-hls.js"></script>
+    <script>
+      var player = videojs('example-video');
+      player.play();
+    </script>
+  </body>
+</html>
 
 
 https://github.com/facebook/react-360/issues/124
