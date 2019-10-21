@@ -1,3 +1,9 @@
+//its ok for hls aes
+https://github.com/streamroot/videojs-hlsjs-plugin
+
+
+
+
 https://github.com/facebook/react-360/issues/124
 
 Here is an example of a HLS video being rendered in a ThreeJS scene using
