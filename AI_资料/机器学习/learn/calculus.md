@@ -1,7 +1,7 @@
 calculus
 微积分
 
-Essence of calculus（https://goo.gl/sfHext）
+Essence of calculus（https://www.youtube.com/playlist?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr)
 
 微积分（求导，极限，极值） Derivation, limit, extreme value
 例如传统的BP神经网络的训练算法实际上是基于复合函数求导的链式法则，
