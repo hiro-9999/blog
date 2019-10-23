@@ -16,13 +16,19 @@ http://www.en8848.com.cn/kouyu/basic/15000kych/323825.html?auto=1
 
 
 
+
 learning
 http://www.bbc.co.uk/learningenglish/english/
 https://www.youtube.com/channel/UCHaHD477h-FeBbVh9Sh7syA
 http://www.bbc.co.uk/learningenglish/english/features/6-minute-english/ep-190509
 
+
+
 https://www.youtube.com/channel/UC_0NfufarVw04vDfWFm8z_Q
 https://www.engvid.com/
+
+
+
 
 voa
 https://docs.voanews.eu/en-US-LEARN/2014/02/15/7f8de955-596b-437c-ba40-a68ed754c348.pdf
@@ -47,6 +53,13 @@ http://novel.tingroom.com/html/book/show/96/4986.html
 
 读书单：
 https://www.douban.com/group/topic/103021110/
+
+
+实施策略: 只追求量，不追求精。通过背中文释义的方式，用最快的速度将词汇量提升到7000门槛。 那么，这7000个高频词汇从哪里来呢？
+
+（首选，强烈推荐）麦克米伦高阶英汉双解词典，英文版是Macmillan English Dictionary for Advanced Learners。Macmillan词典标记了7500核心词汇，但是很遗憾它并没有给出词汇表。这本词典收录了大约10万左右的单词量，并对这些词汇做了分级处理。属于7500核心词汇的统一以红色字体呈现，并继续分为三个等级，每个级别2500个词：一级是最最常用的词，标注三个非常醒目的星号★★★；二级常用词标注两个红星★★；三级标注一个红星★。剩下的词汇为非常用词汇，以黑色字体呈现。基于其庞大的语料库，Macmillan的词频统计是非常权威的。如果你决定用这个词典，请自行购买纸质版。 -
+美国当代英语语料库（Corpus of Contemporary American English, COCA)。COCA在拥有4亿词汇的文献资料上，统计出了使用频率最高的前5000，10000，20000和100000词汇。
+
 
 
 1《rich dad ,poor dad》（穷爸爸，富爸爸）
