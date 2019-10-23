@@ -1,3 +1,6 @@
+https://www.techbrood.com/aframe/core?p=scene
+
+
 https://github.com/aframevr/aframe/issues/3614
 <!DOCTYPE html>
 <html>
