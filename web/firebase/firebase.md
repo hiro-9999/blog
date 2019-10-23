@@ -1,3 +1,8 @@
+https://qiita.com/klab2/items/8b7389293f7896f8d4b1
+$npm get prefix
+$vim ~/.bash_profile
+exec $SHELL -l
+
 FirebaseとNuxt(Vue)
 https://qiita.com/y_kawase/items/fb9f747d88af151f981a
 
