@@ -7,7 +7,13 @@ FirebaseとNuxt(Vue)
 https://qiita.com/y_kawase/items/fb9f747d88af151f981a
 
 //FirebaseでWebチャットアプリをデプロイ ok
+host->creat new host 1234
+firebase init
+“site”: “1234",
+firebase deploy --only hosting:1234
+
 https://public-constructor.com/firebase-hosting-vuejs-for-beginners/
+
 https://laboradian.com/firebase-on-my-site/
 https://qiita.com/codomo_pro/items/9e651e8cffaa90681426
 
