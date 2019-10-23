@@ -7,7 +7,14 @@ FirebaseとNuxt(Vue)
 https://qiita.com/y_kawase/items/fb9f747d88af151f981a
 
 //FirebaseでWebチャットアプリをデプロイ ok
-firebase projects:list
+firebase projects:list https://blog.katsubemakito.net/firebase/firebase-hosting ok
+
+プロジェクトを切り替える:
+firebase use sss
+
+stop:
+firebase hosting:disable
+
 host->creat new host 1234
 firebase init
 “site”: “1234",
