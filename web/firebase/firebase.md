@@ -17,6 +17,9 @@ https://public-constructor.com/firebase-hosting-vuejs-for-beginners/
 https://laboradian.com/firebase-on-my-site/
 https://qiita.com/codomo_pro/items/9e651e8cffaa90681426
 
+CI
+https://firebase.google.com/docs/cli/
+
 //デプロイ
 https://firebase.google.com/docs/hosting/deploying?hl=ja
 https://blog.asial.co.jp/2019/07/01/Firebase_＋_Vue_js_で作るサンプル_Webアプリ_%5B英語コンテンツ%5D
