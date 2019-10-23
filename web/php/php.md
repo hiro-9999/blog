@@ -4,3 +4,7 @@ https://monoxa.net/2018/03/【初心者向】visual-studio-codeでphp-cs-fixer�
 
 ボタンクリックでPHPのデータをJavaScriptに渡すこと
 https://teratail.com/questions/116791
+
+
+イベントが発生した時のマウス情報を取得する
+https://www.buildinsider.net/web/jqueryref/021
