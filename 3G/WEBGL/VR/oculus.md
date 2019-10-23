@@ -9,3 +9,9 @@ SamsungBrowser/4.0
 Chrome/74.0.3729.182
 Mobile VR
 Safari/537.36
+
+The UA string has a different token on different devices:
+
+Oculus Quest: Quest
+Oculus Go: Pacific
+Gear VR: SAMSUNG SM-G920F for a Samsung Galaxy S6, for example.
