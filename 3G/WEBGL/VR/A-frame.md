@@ -20,3 +20,6 @@ https://github.com/aframevr/aframe/issues/3614
 
 
 https://developer.mozilla.org/ja/docs/Games/Techniques/3D_on_the_web/Building_up_a_basic_demo_with_A-Frame
+
+https://kkblab.com/make/javascript/vr.html ok
+VR で頭を動かしたら見える方向が変わるのは、CG 世界の中にある仮想的な「カメラ」が動いているからです。その仮想的なカメラを置いているのが <a-camera> ～ </a-camera> です。通常はこれは書かなくても自動で置かれているのですが、ここでは <a-cursor></a-cursor> というタグを書くために、あえて <a-camera> ～ </a-camera> を置きました。スマホにはマウスカーソルが無いので、カメラの向いている方向（の真ん中）をカーソルに見立てます。<a-camera> ～ </a-camera> の中に <a-cursor></a-cursor> と書くことでこのカーソルを表示させています。
