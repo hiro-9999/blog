@@ -1,0 +1,13 @@
+HTML5でのSVGファイル操作
+
+https://qiita.com/ka215/items/f9834dca40bb3d7e9c8b
+<img src="logomark.svg" width="32" height="32">
+
+//<button> tag in your HTML like so (the SVG code will be pretty lengthy).
+<button id="coffeeButton" onclick="alert('☕☕☕☕Coffee 4Dayz')">
+<svg width="38px" height="59px" viewBox="0 0 38 59" aria-hidden="true" tabindex="0" fill="none">
+https://www.freecodecamp.org/news/how-to-make-your-fancy-svg-button-accessible-83c9172c3c15/
+
+//色を変更するコード
+https://reffect.co.jp/html/want_to_use_svg_in_html
+https://qiita.com/yamamiweb/items/011d6b264a5af568783b
