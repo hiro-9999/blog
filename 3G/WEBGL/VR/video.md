@@ -1,3 +1,24 @@
+//ok
+https://qiita.com/t114/items/c7fdffaa2e7fdf406a7b
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>Video.js Sample</title>
+  <link href="static/css/video-js.min.css" rel="stylesheet">
+  <script src="static/js/video.min.js"></script>
+  <script src="static/js/videojs-contrib-media-sources.min.js"></script>
+  <script src="static/js/videojs-contrib-hls.min.js"></script>
+</head>
+<body>
+<video id="test" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="auto"
+ width="640" height="360" data-setup="{}">
+  <source src="output.m3u8" type="application/x-mpegURL">
+</video>
+</body>
+</html>
+
+
 //its ok for hls aes
 https://dev.classmethod.jp/client-side/javascript/videojs-contrib-hls-livestreaming-minimum-setting/
 https://github.com/streamroot/videojs-hlsjs-plugin
