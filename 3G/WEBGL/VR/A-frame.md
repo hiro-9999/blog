@@ -1,5 +1,6 @@
+//chinese infro
 https://www.techbrood.com/aframe/core?p=scene
-
+https://www.techbrood.com/aframe/introduction?p=javascript-events-dom-apis
 
 https://github.com/aframevr/aframe/issues/3614
 <!DOCTYPE html>
