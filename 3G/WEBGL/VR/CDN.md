@@ -1,4 +1,4 @@
-https://cdnjs.com/libraries/videojs-contrib-hls
+https://github.com/videojs/videojs-contrib-hls#cdn
 
 https://videojs.com/getting-started/
 
