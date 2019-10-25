@@ -1,3 +1,6 @@
+https://github.com/aframevr/aframe/tree/v0.3.2/examples
+
+
 //video info
 https://docs.videojs.com/docs/api/player.html
 
