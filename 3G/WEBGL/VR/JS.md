@@ -1,3 +1,6 @@
+//video info
+https://docs.videojs.com/docs/api/player.html
+
 https://github.com/videojs/videojs-contrib-media-sources/releases
 https://github.com/videojs/videojs-contrib-hls/releases
 
