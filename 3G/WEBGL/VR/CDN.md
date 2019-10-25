@@ -1,3 +1,6 @@
+https://www.npmjs.com/package/http-server
+
+
 https://github.com/videojs/videojs-contrib-hls#cdn
 
 https://videojs.com/getting-started/
