@@ -19,3 +19,6 @@ https://github.com/videojs/video.js/issues/2698
 
 //nmp
 https://www.npmjs.com/package/video.js/v/7.0.3
+
+//vrview
+https://github.com/wuyingfengsui/vrview
