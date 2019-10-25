@@ -1,4 +1,5 @@
-
+EX:
+https://glitch.com/edit/#!/a-frame-video-click-play?path=index.html:15:0
 
 //easy learn
 https://github.com/katsube/neec2017A/wiki/A-FRAME%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
