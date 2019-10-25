@@ -1,3 +1,12 @@
+
+
+//easy learn
+https://github.com/katsube/neec2017A/wiki/A-FRAME%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+<a-scene inspector="url: https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
+  <!-- ここに内容 -->
+</a-scene>
+
+
 //chinese infro
 https://www.techbrood.com/aframe/core?p=scene
 https://www.techbrood.com/aframe/introduction?p=javascript-events-dom-apis
