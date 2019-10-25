@@ -1,5 +1,7 @@
 https://github.com/aframevr/aframe/tree/v0.3.2/examples
 
+//hls iphone
+https://github.com/fregante/iphone-inline-video
 
 //video info
 https://docs.videojs.com/docs/api/player.html
