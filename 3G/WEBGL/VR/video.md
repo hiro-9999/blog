@@ -1,3 +1,29 @@
+https://github.com/videojs/video.js/blob/master/docs/guides/player-workflows.md
+buffered will give you a timeRange object representing the current ranges of time that are ready to be played at a future time.
+
+var myPlayer = videojs('some-player-id');
+
+myPlayer.src({type: 'video/mp4', src: 'http://www.example.com/path/to/video.mp4'});
+myPlayer.ready(function() {
+  var bufferedTimeRange = myPlayer.buffered();
+
+  // number of different ranges of time have been buffered.
+  // Usually 1
+  var numberOfRanges = bufferedTimeRange.length,
+
+  // Time in seconds when the first range starts.
+  // Usually 0
+  var firstRangeStart = bufferedTimeRange.start(0),
+
+  // Time in seconds when the first range ends
+  var firstRangeEnd = bufferedTimeRange.end(0),
+
+  // Length in seconds of the first time range
+  var firstRangeLength = firstRangeEnd - firstRangeStart;
+});
+bufferedPercent will give you the the current percentage of the video that is buffered.
+
+
 //ok
 https://qiita.com/t114/items/c7fdffaa2e7fdf406a7b
 <!DOCTYPE html>
