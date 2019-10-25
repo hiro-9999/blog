@@ -1,5 +1,8 @@
 https://medevel.com/16-virtual-reality-vr-frameworks/
 
+Material from a Component
+https://aframe.io/docs/0.9.0/components/material.html#creating-a-material-from-a-component
+
 view-source:https://curious-electric.com/w/experiments/aframe/link-traversal/a.html
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
