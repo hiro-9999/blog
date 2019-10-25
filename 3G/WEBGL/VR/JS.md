@@ -1,5 +1,8 @@
 https://github.com/aframevr/aframe/tree/v0.3.2/examples
 
+//three ex
+https://threejs.org/examples/webgl_materials_video.html
+
 //hls iphone
 https://github.com/fregante/iphone-inline-video
 
