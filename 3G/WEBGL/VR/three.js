@@ -1,6 +1,52 @@
 https://github.com/mrdoob/three.js/issues/8216
 three.js streaming video materials with videojs for 360 video 
 
+//https://github.com/mrdoob/three.js/issues/9754
+video.addEventListener("loadeddata", function() {
+		         	  video.width = THREE.Math.ceilPowerOfTwo(video.videoWidth);
+		              video.height = THREE.Math.ceilPowerOfTwo(video.videoHeight);
+
+		              image.width = video.width;
+		              image.height = video.height;
+		              //image.width = video.videoWidth;
+		              //image.height = video.videoHeight;
+		              //imageContext.fillRect( 0, 0, video.videoWidth, video.videoHeight);
+		              imageContext.fillRect( 0, 0, image.width, image.height);
+
+
+		              //console.log(video.videoWidth);
+		        });
+
+    // image 
+    this.image360 = document.createElement('canvas');
+    this.image360.width = this.width;
+    this.image360.height = this.height;
+    this.imageContext360 = this.image360.getContext('2d');
+    this.imageContext360.fillStyle = '#000000';
+    this.imageContext360.fillRect(0, 0, this.width, this.height);
+    // texture 
+    this.texture360 = new THREE.Texture(this.image360);
+    this.texture360.format = THREE.RGBFormat;
+    this.texture360.minFilter = THREE.LinearFilter;
+    this.texture360.magFilter = THREE.LinearFilter;
+    this.texture360.generateMipmaps = false;
+    this.texture360.wrapS = THREE.ClampToEdgeWrapping;
+    this.texture360.wrapT = THREE.ClampToEdgeWrapping;
+    this.texture360.flipY = true;
+    this.texture360.needsUpdate = true;
+    // mesh
+    let geometry = new THREE.SphereGeometry(500, 80, 50);
+    geometry.scale(-1, 1, 1);
+    let material = new THREE.MeshBasicMaterial({ map: this.texture360 });
+    this.mesh360 = new THREE.Mesh(geometry, material);
+    this.scene360.add(this.mesh360);
+    // renderer
+    this.renderer360 = new THREE.WebGLRenderer({ antialias: false });
+    this.renderer360.setClearColor(0x101010);
+    this.renderer360.setPixelRatio(window.devicePixelRatio);
+    this.renderer360.setSize(this.width, this.height, true);
+
+
 https://www.youtube.com/watch?v=mFC8W6ELVJY
 https://slides.com/elecash/360-and-vr-video/#/
 
