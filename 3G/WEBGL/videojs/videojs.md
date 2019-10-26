@@ -1,3 +1,9 @@
+videojs-panorama
+https://github.com/yanwsh/videojs-panorama
+
+
+
+
 https://blog.csdn.net/a0405221/article/details/80923090
 videojs中文文档详解
 
