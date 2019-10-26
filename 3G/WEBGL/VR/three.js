@@ -1,3 +1,21 @@
+https://github.com/mrdoob/three.js/issues/8216
+three.js streaming video materials with videojs for 360 video 
+
+https://www.youtube.com/watch?v=mFC8W6ELVJY
+https://slides.com/elecash/360-and-vr-video/#/
+
+https://stackoverflow.com/questions/tagged/aframe
+
+aframe-passthrough-component
+https://github.com/willwnekowicz/aframe-passthrough
+
+Building an Immersive VR Streaming Solution on AWS
+https://aws.amazon.com/jp/blogs/compute/building-an-immersive-vr-streaming-solution-on-aws/
+
+//ng
+https://headjack.io/pricing/
+
+
 ThreeJS 入門
 https://qiita.com/tushuhei/items/2509e7e23172ec402110
 
