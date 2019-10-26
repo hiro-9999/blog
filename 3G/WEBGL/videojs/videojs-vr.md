@@ -1,6 +1,9 @@
 //history
 https://blog.videojs.com/videojs-vr-now-under-the-video-js-org/
 
+//API
+https://docs.videojs.com/tutorial-plugins.html#writing-an-advanced-plugin
+
 //
 https://github.com/metacdn/videojs-vr
 
