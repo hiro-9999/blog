@@ -1,6 +1,9 @@
 https://github.com/mrdoob/three.js/issues/8216
 three.js streaming video materials with videojs for 360 video 
 
+//videojs-vr
+https://github.com/videojs/videojs-vr
+
 //https://github.com/mrdoob/three.js/issues/9754
 video.addEventListener("loadeddata", function() {
 		         	  video.width = THREE.Math.ceilPowerOfTwo(video.videoWidth);
