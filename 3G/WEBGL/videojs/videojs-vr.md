@@ -1,4 +1,8 @@
+//history
 https://blog.videojs.com/videojs-vr-now-under-the-video-js-org/
+
+//
+https://github.com/metacdn/videojs-vr
 
 https://github.com/videojs/videojs-vr
 
