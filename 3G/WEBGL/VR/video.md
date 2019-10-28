@@ -1,6 +1,8 @@
 //afrmae ex:
 https://glitch.com/~aframe-360-video-example
 
+//VideoJS HTTP Streaming:
+https://videojs.github.io/http-streaming/
 
 https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#Multiple_sources_example
 
