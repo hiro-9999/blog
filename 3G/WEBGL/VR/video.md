@@ -1,6 +1,8 @@
 //PhantomJS
 https://awesomeopensource.com/project/cjroth/aframe-phantomjs-continuous-streaming
 
+https://github.com/cjroth/aframe-phantomjs-continuous-streaming
+
 
 
 http://tks-yoshinaga.hatenablog.com/entry/oculus_quest_aframe
