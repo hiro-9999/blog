@@ -1,6 +1,9 @@
 >使用fcrackzip来破解zip类型压缩文件
 https://www.jianshu.com/p/8f2af229290a
 
+//有趣的js反编译工具-JSNice
+http://www.jsnice.org/
+
 
 //3D
 https://gitee.com/feng3d/feng3d
