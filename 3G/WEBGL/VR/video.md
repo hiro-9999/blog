@@ -2,6 +2,9 @@
 https://glitch.com/~aframe-360-video-example
 
 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video#Multiple_sources_example
+
+
 //
 https://github.com/mganeko/aframe
 https://github.com/mganeko/aframe/blob/master/go.html
