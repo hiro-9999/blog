@@ -1,9 +1,14 @@
-//PhantomJS
+//
+https://github.com/mganeko/aframe
+https://github.com/mganeko/aframe/blob/master/go.html
+
+
+//PhantomJS Aframe VR scene by rendering it onto a canvas
 https://awesomeopensource.com/project/cjroth/aframe-phantomjs-continuous-streaming
 
 https://github.com/cjroth/aframe-phantomjs-continuous-streaming
 
-
+https://slimerjs.org
 
 http://tks-yoshinaga.hatenablog.com/entry/oculus_quest_aframe
     <a-entity id="ctlL" laser-controls="hand: left"></a-entity>
