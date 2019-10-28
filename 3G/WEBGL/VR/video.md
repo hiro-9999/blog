@@ -1,4 +1,10 @@
 //ok
+https://blog.videojs.com/videojs-vr-now-under-the-video-js-org/
+
+//Canvasをテクスチャにするとパフォーマンスが落ちる
+https://qiita.com/binzume/items/80793e18578306d019db
+
+//ok
 https://codepen.io/TKinmin/pen/RdZLrp
 
 
