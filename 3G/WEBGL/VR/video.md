@@ -1,3 +1,7 @@
+//ok
+https://codepen.io/TKinmin/pen/RdZLrp
+
+
 https://github.com/videojs/video.js/blob/master/docs/guides/player-workflows.md
 buffered will give you a timeRange object representing the current ranges of time that are ready to be played at a future time.
 
