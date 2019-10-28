@@ -1,5 +1,25 @@
-//ok
+//PhantomJS
+https://awesomeopensource.com/project/cjroth/aframe-phantomjs-continuous-streaming
+
+
+
+http://tks-yoshinaga.hatenablog.com/entry/oculus_quest_aframe
+    <a-entity id="ctlL" laser-controls="hand: left"></a-entity>
+     <a-entity id="ctlR" laser-controls="hand: right"></a-entity>
+
+//ok https://github.com/oscarmarinmiro/aframe-video-controls
 https://blog.videojs.com/videojs-vr-now-under-the-video-js-org/
+https://fukuno.jig.jp/2509
+
+
+
+
+The Top 93 Vr Open Source Projects
+https://awesomeopensource.com/projects/vr
+
+https://www.mitsue.co.jp/knowledge/blog/frontend/201805/22_1316.html
+https://stackoverflow.com/questions/tagged/oculusgo
+chrome://inspect/#devices
 
 //Canvasをテクスチャにするとパフォーマンスが落ちる
 https://qiita.com/binzume/items/80793e18578306d019db
