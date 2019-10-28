@@ -1,3 +1,7 @@
+//afrmae ex:
+https://glitch.com/~aframe-360-video-example
+
+
 //
 https://github.com/mganeko/aframe
 https://github.com/mganeko/aframe/blob/master/go.html
