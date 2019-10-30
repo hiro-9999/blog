@@ -6,3 +6,7 @@ https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccc
 
 インストールURL
 https://chrome.google.com/webstore/detail/dhc-resthttp-api-client/aejoelaoggembcahagimdiliamlcdmfm
+
+console.log
+https://ics.media/entry/190517/
+logpoint
