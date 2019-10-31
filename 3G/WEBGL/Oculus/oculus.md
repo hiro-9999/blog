@@ -11,3 +11,6 @@ https://github.com/itvlab/tvapprepo/releases
 
 
 https://www.oculus.com/setup/
+
+開発者モード
+https://vr-maniacs.com/entry/sidequest/
