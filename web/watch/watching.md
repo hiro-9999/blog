@@ -6,3 +6,6 @@ https://dev.to/simonholdorf/9-projects-you-can-do-to-become-a-frontend-master-in
 Svelte是一款新兴的框架，但仍是2020年的热门话题之一
 Nuxt.js与Vue的关系就好象Next.js与React。
 https://www.toutiao.com/a6750923129725387272/?tt_from=copy_link&utm_campaign=client_share&timestamp=1571901518&app=news_article_social&utm_source=copy_link&utm_medium=toutiao_ios&req_id=201910241518380100120651441A21B8DB&group_id=6750923129725387272
+
+//10 Free resources to kickoff your career as a Vue Developer
+https://dev.to/simonholdorf/10-free-resources-to-kickoff-your-career-as-a-vue-developer-4mg2
