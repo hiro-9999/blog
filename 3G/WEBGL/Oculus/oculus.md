@@ -6,10 +6,8 @@ https://oculusgo.hatenablog.jp/entry/2018/07/11/123645
 https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm?hl=ja
 
 https://www.jianshu.com/p/ea19e3299703
-进入到扩展目录
-cd ~/Library/Application Support/Google/Chrome/Default/Extensions/gidgenkbbabolejbgbpnhbimgjbffefm/1.9.0_0
-打开uglify-list.js，搜索“Vysor Pro users”，找到之后，在前面找到"_im.il"，将_im._il，都替换成!_im._il
-打开uglify-screen.js，搜索“Vysor Pro users”,然后将其前面的_im._il，去掉前面的!
+进入到扩展目录 本文尝试的是上述链接中的第二种破解方法，但是Vysor v2.1.7_0需要改动的地方是：在uglify.js中，搜索Account Management 然后将
+https://www.harddone.com/post/vysor_break/
 
 cd ~/Library/Application\ Support/Google/Chrome/Default/Extensions/
  cd gidgenkbbabolejbgbpnhbimgjbffefm
