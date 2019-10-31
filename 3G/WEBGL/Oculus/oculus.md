@@ -14,3 +14,7 @@ https://www.oculus.com/setup/
 
 開発者モード
 https://vr-maniacs.com/entry/sidequest/
+
+
+How To Stream/Cast Video From Your Oculus Quest To Your Apple TV Or Mac Computer
+https://tay.kinja.com/how-to-stream-cast-video-from-your-oculus-quest-to-your-1835284918
