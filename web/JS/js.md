@@ -31,3 +31,5 @@ https://so-zou.jp/web-app/tech/programming/javascript/event/handler/mouse/
 
 
 【分享10个“牛哄哄”又“不正经”的 GitHub 项目，哪个你没用过？】https://toutiao.com/group/6751166407460782604/?app=news_article_social&timestamp=1572096568&req_id=2019102621292801001404701921FFF051&group_id=6751166407460782604&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
+
+【Player.js: Control embedded video and audio across】http://playerjs.io/?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
