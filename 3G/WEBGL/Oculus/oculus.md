@@ -1,5 +1,11 @@
-Oculus Go とmacで画面共有をやってみた
+Oculus Go とmacで画面共有をやってみた ok
 https://oculusgo.hatenablog.jp/entry/2018/07/11/123645
+
+
+//「Vysor」をインストール。
+https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm?hl=ja
+
+
 https://qiita.com/Tomoyuki_Mikami/items/183be9b0698ee00f7fac
 https://chkw-playland.hatenablog.com/entry/2018/09/02/213024
 
