@@ -103,11 +103,6 @@ https://techblog.forgevision.com/entry/2018/09/14/191139
 //Mac keyboard
 Step 1. 重置电源连接状态先关机，再接上电源，（把连接的外设都拔掉），同时按住“shift+control+option+开/关机键”这四个键，大概10秒左右，观察电源指示等。若电源指示灯不变色，表示硬件正常。Step 2. 清理缓存同时按住“option+command+字母R+字母P”这四个键，按住不放，等待开机的声音响四次之后，即可放开。
 
-作者：Schin 胖得慢
-链接：https://www.zhihu.com/question/32053008/answer/56018361
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
 //IP Address detection
 DNSleaktest.com
 IPleak.net
