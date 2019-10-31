@@ -8,3 +8,6 @@ https://www.android.com/filetransfer/
 
 
 https://github.com/itvlab/tvapprepo/releases
+
+
+https://www.oculus.com/setup/
