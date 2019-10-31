@@ -9,3 +9,6 @@ https://www.toutiao.com/a6750923129725387272/?tt_from=copy_link&utm_campaign=cli
 
 //10 Free resources to kickoff your career as a Vue Developer
 https://dev.to/simonholdorf/10-free-resources-to-kickoff-your-career-as-a-vue-developer-4mg2
+
+//blog
+https://dev.to/simonholdorf
