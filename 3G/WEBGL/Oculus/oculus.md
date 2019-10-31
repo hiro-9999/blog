@@ -12,6 +12,7 @@ cd ~/Library/Application Support/Google/Chrome/Default/Extensions/gidgenkbbabole
 打开uglify-screen.js，搜索“Vysor Pro users”,然后将其前面的_im._il，去掉前面的!
 
 cd ~/Library/Application\ Support/Google/Chrome/Default/Extensions/
+ cd gidgenkbbabolejbgbpnhbimgjbffefm
 
 https://qiita.com/Tomoyuki_Mikami/items/183be9b0698ee00f7fac
 https://chkw-playland.hatenablog.com/entry/2018/09/02/213024
