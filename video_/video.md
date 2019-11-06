@@ -6,3 +6,6 @@ chat
 
 
 webrtc
+
+//videojs
+http://videojs.github.io/video.js/
