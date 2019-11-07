@@ -1,3 +1,6 @@
+https://blog.golang.org
+
+
 GitHub source code at https://github.com/cloudnativego/web-application. 
 
 //Go debugger
