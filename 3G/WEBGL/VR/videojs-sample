@@ -1,2 +1,22 @@
+//Hiding and Showing Video Player Controls
+https://blog.videojs.com/hiding-and-showing-video-player-controls/
+
+
+//VideoJS-VR
+https://codepen.io/arilaen/pen/wGyOaW
+
+
 https://github.com/akiyoko/videojs-sample/tree/master/videojs-sample
 Video.jsのvideojs-contrib-hlsを使ってHLS形式のライブ配信を再生する
+
+
+//
+https://stackoverflow.com/questions/28909327/javascript-jquery-toggle-vjs-fade-out-when-useractive-value-changes-video-js
+
+myPlayer.on("useractive", function() {
+  $(".menu-btn").removeClass("vjs-fade-out");
+});
+
+myPlayer.on("userinactive", function() {
+  $(".menu-btn").addClass("vjs-fade-out");
+});
