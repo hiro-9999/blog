@@ -8,6 +8,8 @@ https://codepen.io/arilaen/pen/wGyOaW
 //threejs
 https://threejs.org/examples/?q=webvr#webvr_video
 
+//ok::::
+https://github.com/mrdoob/three.js/blob/master/examples/webvr_video.html
 
 https://github.com/akiyoko/videojs-sample/tree/master/videojs-sample
 Video.jsのvideojs-contrib-hlsを使ってHLS形式のライブ配信を再生する
