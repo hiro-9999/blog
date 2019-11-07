@@ -1,1 +1,2 @@
 https://github.com/akiyoko/videojs-sample/tree/master/videojs-sample
+Video.jsのvideojs-contrib-hlsを使ってHLS形式のライブ配信を再生する
