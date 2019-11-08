@@ -1,3 +1,7 @@
+//自学C/C++的看书路线 《Essential C++》
+https://www.toutiao.com/a6756180962008105480/
+
+
 C++ 资源大全中文版https://github.com/jobbole/awesome-cpp-cn
 
 https://github.com/fireae/modern-cpp-tutorial
