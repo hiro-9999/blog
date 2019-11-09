@@ -1,3 +1,16 @@
+window.navigator.userAgent
+
+window.navigator.getVRDisplays()
+window.navigator.mediaDevices
+
+Gear VR開発者モード
+https://qiita.com/niusounds/items/7391074fe7c754cf5fb4
+navigator.getVRDisplays
+
+VRデバイスにcameraが連動する 
+https://www.sambaiz.net/article/36/
+
+
 https://developer.mozilla.org/ja/docs/Web/HTTP/Browser_detection_using_the_user_agent
 タッチ対応端末を検出するには "Mobi" や "Tablet" を検索するのではなく、タッチ機能を検出してください。
 https://developer.mozilla.org/ja/docs/Web/HTTP/Headers/User-Agent/Firefox
