@@ -1,6 +1,9 @@
 //good
 https://www.bilibili.com/video/av51636878/?p=63
 
+
+https://search.bilibili.com/all?keyword=Go%20%E5%A4%9C%E8%AF%BB&from_source=video_tag
+
 https://blog.golang.org
 
 
