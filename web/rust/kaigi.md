@@ -1,1 +1,2 @@
 RustLatam 
+https://rustlatam.org/
