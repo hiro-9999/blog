@@ -1,3 +1,7 @@
+https://lorefree.com/
+find book:
+
+
 >使用fcrackzip来破解zip类型压缩文件
 https://www.jianshu.com/p/8f2af229290a
 
