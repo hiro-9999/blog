@@ -1,0 +1,14 @@
+https://itsakura.com/js-selectbox
+
+<select id="color4">
+    <option value="red">赤</option>
+    <option value="yellow">黄</option>
+    <option value="blue">青</option>
+</select>
+<input type="button" value="ボタン4" onclick="clickBtn4()"/>
+
+<script>
+function clickBtn4(){
+	document.getElementById("color4").selectedIndex = 2;
+}
+</script>
