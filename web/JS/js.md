@@ -3,6 +3,10 @@ https://www.toutiao.com/a6753114490134331916/
 把JS代码生成字节码，用字节码技术保护NodeJS源码
 
 
+//JavaScriptでDOM操作
+https://qiita.com/kouh/items/dfc14d25ccb4e50afe89
+
+
 JS代码混淆，国际上有JScrambler，国内有JShaman，
 https://www.toutiao.com/a6752656236488950286/
 
