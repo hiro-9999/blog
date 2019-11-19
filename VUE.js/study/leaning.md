@@ -22,6 +22,7 @@ https://qiita.com/yoshi0518/items/6244820a30de3111ab58
 
 
 Nuxt.js https://github.com/nuxt/nuxt.js/
+https://qiita.com/so_heee_/items/1e4a8627439e989733c9
 https://qiita.com/_takeshi_24/items/224d00e5a026dbb76716
 
 Vue.js＋ElementUIプロジェクト https://madewithvuejs.com/element-ui
@@ -55,5 +56,9 @@ Templates
 (ex. 3つの名前付き<slot>を使った聖杯レイアウト)
 Pages
 ドメインの各ページに対応する。TemplatesにOrganisms/Molecules/Atomsを流し込んで実際のページを構築したり、Vuexへの初期データ読み込み(API通信など)、Vue Routerのデータ利用はここで行う。
+  
+  laravel + vue.js環境構築
+  https://qiita.com/yoy119/items/64ba3b04e6d0f534d8ca
+  
   
   
