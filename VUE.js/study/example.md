@@ -5,6 +5,10 @@ Nuxt.js实现word、excel、ppt 和 pdf 文件在线预览https://github.com/XHa
 https://juejin.im/post/5cdbc50be51d45475716253c
 
 
+Nuxt常用配置项
+https://juejin.im/post/5cc81e1a6fb9a032414f695b
+
+
 これからはじめるVue.js実践入門
 
 
