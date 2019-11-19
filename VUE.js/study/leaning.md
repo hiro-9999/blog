@@ -1,7 +1,15 @@
 Vue.jsを習得する
 https://qiita.com/i-ryo/items/baa50cf0a6647fe8bd2e
 
+Vue.jsでAPI通信 axios
+https://qiita.com/MariMurotani/items/a8576974deeabf9daf6e
 
+mocky
+https://www.mocky.io/
+
+
+Vue.js unit test cases with vue-test-utils and Jest
+https://blog.octo.com/en/vue-js-unit-test-cases-with-vue-test-utils-and-jest/
 
 Vuex 状態管理ライブラリ
 https://vuex.vuejs.org/ja/
