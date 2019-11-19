@@ -5,6 +5,7 @@ https://qiita.com/i-ryo/items/baa50cf0a6647fe8bd2e
 
 Vuex 状態管理ライブラリ
 https://vuex.vuejs.org/ja/
+https://qiita.com/kouki-iwahara/items/ff5748db977768fd7669
 
 Vue.js＋Vuetifyプロジェクト
 https://qiita.com/yoshi0518/items/4bb6802460101e107df4
