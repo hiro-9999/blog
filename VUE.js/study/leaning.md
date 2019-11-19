@@ -58,6 +58,9 @@ Templates
 Pages
 ドメインの各ページに対応する。TemplatesにOrganisms/Molecules/Atomsを流し込んで実際のページを構築したり、Vuexへの初期データ読み込み(API通信など)、Vue Routerのデータ利用はここで行う。
   
+  Rails+Vue.js
+  https://qiita.com/Moo_Moo_Farm/items/afacfe4349af6a106253
+  
   laravel + vue.js環境構築
   https://qiita.com/yoy119/items/64ba3b04e6d0f534d8ca
   
