@@ -37,3 +37,23 @@ https://qiita.com/dich1/items/b3eb75a53661b88465be
 
 Vue.jsでESLint
 https://qiita.com/saba_uni_toro_/items/d03f82cb4f4d19550e4e
+
+
+AtomicDesign https://qiita.com/suzu-4/items/bc86be23aa4eedd4cfaa
+https://qiita.com/c6h4clch3_gh/items/9c0c028c9faf58caef2a
+Atoms
+UIの最小単位。通常のHTML要素やそれらのシンプルな拡張。
+(ex. 型バリデーションをする<input>要素)
+Molecules
+複数のAtomsから構成される、ドメイン色の薄いデータを受け取って単一の機能を実現するコンポーネント。
+props down, events upで実現されるのが望ましい。
+Organisms
+Atoms/Molecules/Organismsから成る、ドメインに強く左右されるデータを取り扱うためのまとまった機能を提供するためのコンポーネント。
+Vuexやその他ストアオブジェクトとの繋ぎこみはここで行う。
+Templates
+<slot></slot>や<router-view></router-view>を使ってページ全体のレイアウトを提供する。
+(ex. 3つの名前付き<slot>を使った聖杯レイアウト)
+Pages
+ドメインの各ページに対応する。TemplatesにOrganisms/Molecules/Atomsを流し込んで実際のページを構築したり、Vuexへの初期データ読み込み(API通信など)、Vue Routerのデータ利用はここで行う。
+  
+  
