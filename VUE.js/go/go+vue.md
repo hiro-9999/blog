@@ -1,4 +1,4 @@
-「Vue.js + Go言語 + Docker」で作る！画像アップロード機能実装ハンズオン  ok!
+「Vue.js + Go言語 + Docker」で作る！画像アップロード機能実装ハンズオン  ok! +CI/CD
 https://qiita.com/po3rin/items/c70105f684e6816621d2
 
 
