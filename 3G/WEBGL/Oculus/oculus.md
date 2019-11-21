@@ -1,6 +1,9 @@
 Oculus Go とmacで画面共有をやってみた ok
 https://oculusgo.hatenablog.jp/entry/2018/07/11/123645
 
+視野角 / FOV
+https://www.moguravr.com/terms/index-s/terms-47300/
+
 
 //「Vysor」をインストール。
 https://chrome.google.com/webstore/detail/vysor/gidgenkbbabolejbgbpnhbimgjbffefm?hl=ja
