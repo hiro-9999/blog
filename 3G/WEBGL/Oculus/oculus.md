@@ -1,6 +1,8 @@
 Oculus Go とmacで画面共有をやってみた ok
 https://oculusgo.hatenablog.jp/entry/2018/07/11/123645
 
+https://developer.oculus.com/documentation/oculus-browser/latest/concepts/browser-remote-debugging/
+
 
 IPDは52〜78mm程度で個人差がありますが、平均IPD (約4,000人の米軍兵士を対象とした統計データに基 づく)は、約63.5mmです。これはRiftの軸間距離(IAD)、つまりRiftのレンズ中央間の距離と同じです(本ガイドの 改訂時点での定義)。
 https://scontent.oculuscdn.com/v/t64.5771-25/38984450_238578433518207_7882729005072252928_n.pdf?_nc_cat=111&_nc_oc=AQmQoWS5ayykzIpllGU661pKuoEON6ugxO76IA2gLp6CpH5GfQeFhyo8VLG-Ri4cLsI&_nc_ht=scontent.oculuscdn.com&oh=0d2e623af9c358040127670194a80d53&oe=5E057852
