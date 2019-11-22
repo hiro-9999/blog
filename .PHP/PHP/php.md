@@ -1,4 +1,7 @@
 //JavaScriptの変数をPHPに渡す方法
+phpから外部のjsに値渡し ok
+https://qiita.com/kenhonda/items/eb98d15fd465d90e94d6
+
 https://www.dsm-update.info/javascript/228/
 https://codeday.me/jp/qa/20190504/769053.html
 https://www.webdlab.com/labs/js-php/
