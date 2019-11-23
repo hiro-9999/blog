@@ -16,7 +16,7 @@ http://www.52im.net/forum.php?mod=collection&action=view&ctid=5
 
 >即時通訊（Instant Messaging，簡稱IM）
 
-TCP/IP详解
+TCP/IP详解 http://www.52im.net/topic-tcpipvol1.html?mobile=no
 http://www.52im.net/forum.php?mod=collection&action=view&ctid=3
 
 
