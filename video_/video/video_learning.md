@@ -14,6 +14,7 @@ P帧：“帧间预测编码帧”，需要参考前面的I帧和/或P帧的不�
 webrtc
 http://www.52im.net/forum.php?mod=collection&action=view&ctid=5
 
+>即時通訊（Instant Messaging，簡稱IM）
 
 TCP/IP详解
 http://www.52im.net/forum.php?mod=collection&action=view&ctid=3
@@ -21,3 +22,10 @@ http://www.52im.net/forum.php?mod=collection&action=view&ctid=3
 
 live：
 https://portal.viblast.com/#!/login
+
+
+即时通讯（IM、消息推送等应用场景） https://github.com/wildfirechat/server
+http://www.52im.net/thread-464-1-1.html
+
+im 开源 即时通讯 
+https://www.google.com/search?q=im+%E5%BC%80%E6%BA%90+%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF&rlz=1C5CHFA_enJP818JP818&oq=%E5%8D%B3%E6%97%B6%E9%80%9A%E8%AE%AF%EF%BC%88IM&aqs=chrome.3.69i57j0l5.5171j0j7&sourceid=chrome&ie=UTF-8
