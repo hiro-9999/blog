@@ -28,3 +28,6 @@ http://nn-hokuson.hatenablog.com/entry/2018/02/15/140037
 
 ARKit超入門記事まとめ
 http://nn-hokuson.hatenablog.com/entry/2018/11/27/200858
+
+
+所谓VR电影，就是Virtual Reality 电影，观众只要带上特殊的眼镜就能够真真实实的进入画面，感觉自己就是其中的人物之一。VR电影，也被称作是虚拟电影，是最近几年来电影行业的最新产品，虽然开发时期很短，但却已经成为电影行业的新热点，
