@@ -1,5 +1,9 @@
 https://epubw.com
 
+https://yabook.org
+
+http://www.80pdf.com/index.php?c=tag&a=list&kw=jisuanji&page=2
+
 >像外行一样思考，像专家一样实践
 https://github.com/hiro-9999/book-1/blob/master/b84_psychology/%E5%83%8F%E5%A4%96%E8%A1%8C%E4%B8%80%E6%A0%B7%E6%80%9D%E8%80%83%EF%BC%8C%E5%83%8F%E4%B8%93%E5%AE%B6%E4%B8%80%E6%A0%B7%E5%AE%9E%E8%B7%B5%20%20%E7%A7%91%E7%A0%94%E6%88%90%E5%8A%9F%E4%B9%8B%E9%81%93.pdf
 
