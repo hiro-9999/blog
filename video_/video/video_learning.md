@@ -14,7 +14,7 @@ P帧：“帧间预测编码帧”，需要参考前面的I帧和/或P帧的不�
 webrtc http://www.52im.net/thread-228-1-1.html
 http://www.52im.net/forum.php?mod=collection&action=view&ctid=5
 
->即時通訊（Instant Messaging，簡稱IM）
+>即時通訊（Instant Messaging，簡稱IM）https://github.com/JackJiang2011/MobileIMSDK
 
 TCP/IP详解 http://www.52im.net/topic-tcpipvol1.html?mobile=no
 http://www.52im.net/forum.php?mod=collection&action=view&ctid=3
