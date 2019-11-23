@@ -1,3 +1,6 @@
+>good 音视频技术
+https://zhuanlan.zhihu.com/p/37383494
+
 即时通讯音视频开发（十九）：零基础，史上最通俗视频编码技术入门-实时音视频/专项技术区 - 手机版】
 http://www.52im.net/thread-2840-1-1.html?tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
