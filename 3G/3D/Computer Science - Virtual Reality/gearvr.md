@@ -15,3 +15,7 @@ https://docs.unrealengine.com/en-US/Platforms/VR/GearVR/Prerequisites/index.htm
 
 //虚幻4
 http://www.52vr.com/extDoc/ue4/CHN/Platforms/GearVR/QuickStart/1/index.html
+
+
+remote
+https://qiita.com/hamup/items/d0757af393a5462b686a
