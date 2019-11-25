@@ -19,3 +19,10 @@ http://www.52vr.com/extDoc/ue4/CHN/Platforms/GearVR/QuickStart/1/index.html
 
 remote
 https://qiita.com/hamup/items/d0757af393a5462b686a
+
+is good
+https://developer.android.com/studio/command-line/adb?hl=JA
+
+  adb tcpip 3333
+  
+  adb connect 
