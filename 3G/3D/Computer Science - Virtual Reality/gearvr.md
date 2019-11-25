@@ -26,3 +26,10 @@ https://developer.android.com/studio/command-line/adb?hl=JA
   adb tcpip 3333
   
   adb connect 
+
+
+c:\>adb kill-server
+
+c:\>adb start-server
+
+adb devices
