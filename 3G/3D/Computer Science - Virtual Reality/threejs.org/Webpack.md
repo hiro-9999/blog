@@ -3,7 +3,7 @@ https://reffect.co.jp/html/webpack-basic-bundle-for-beginner
 
 
 npm init
-npm root -g
+npm install --save-dev
 
 export NODE_PATH=*****/lib/node_modules
 
