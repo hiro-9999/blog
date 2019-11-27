@@ -4,6 +4,7 @@ https://namel.github.io/veri/
 https://ics.media/entry/14771/
 
 ミニファイされ、gzip圧縮された、JavaScriptコードのサイズを更に小さくする
+https://dwango-js.github.io/performance-handbook/startup/reduce-size/
 
 blog:
 https://ics.media/tutorial-three/
