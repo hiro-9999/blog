@@ -3,6 +3,9 @@ https://namel.github.io/veri/
 私の周りでThree.jsを触ってみたものの、「次に何を勉強したらいいのかわからない」という声をよく聞きます。
 https://ics.media/entry/14771/
 
+blog:
+https://ics.media/tutorial-three/
+
 Hands-on Three.js 3D Web Visualisations 
 https://www.packtpub.com/data/hands-on-three-js-3d-web-visualisations-video
 
