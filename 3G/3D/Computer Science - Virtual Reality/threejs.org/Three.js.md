@@ -1,6 +1,7 @@
 https://namel.github.io/veri/
 
 私の周りでThree.jsを触ってみたものの、「次に何を勉強したらいいのかわからない」という声をよく聞きます。
+パフォーマンス ok
 https://ics.media/entry/14771/
 
 ミニファイされ、gzip圧縮された、JavaScriptコードのサイズを更に小さくする
