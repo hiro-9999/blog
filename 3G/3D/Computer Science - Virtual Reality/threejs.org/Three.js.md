@@ -1,5 +1,10 @@
 https://namel.github.io/veri/
 
+
+
+Webフロントエンド パフォーマンス改善ハンドブック
+https://dwango-js.github.io/performance-handbook/
+
 私の周りでThree.jsを触ってみたものの、「次に何を勉強したらいいのかわからない」という声をよく聞きます。
 パフォーマンス ok
 https://ics.media/entry/14771/
