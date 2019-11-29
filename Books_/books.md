@@ -1,6 +1,11 @@
 https://epubw.com
 
 https://yabook.org
+http://www.80pdf.com
+
+http://neikuw.com/?cat=72&paged=2
+
+https://ebook.lorefree.com/book?account=&bookid=24686
 
 http://www.80pdf.com/index.php?c=tag&a=list&kw=jisuanji&page=2
 
