@@ -10,6 +10,11 @@ https://deovr.com/blog/post/id/6-vr-videos-by-the-end-of-2019
 Disclaimer: The WebVR API is being replaced by the WebXR Device API, but may still be available in some browsers while the API is finalized. In this post “WebVR” can be replaced with “WebXR”.
 https://deovr.com/blog/post/id/2-webvr-and-webxr-explained
 
+
+ブラウザの最新バージョンと次期リリース予定
+https://www.chromestatus.com/features/schedule
+https://qiita.com/p1nk5p1der/items/e2225d9097a996c62bf8
+
 【「前端可视化」 OpenGL / WebGL 入门和实践】https://toutiao.com/group/6751181026996781579/?app=news_article_social&timestamp=1571982279&req_id=201910251344390100140470200D2D1CE5&group_id=6751181026996781579&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_ios&utm_campaign=client_share
 
 
