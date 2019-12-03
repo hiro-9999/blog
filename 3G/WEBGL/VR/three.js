@@ -1,3 +1,7 @@
+THREE.Vector3
+https://threejs.org/docs/#api/en/math/Vector3
+
+
 https://github.com/mrdoob/three.js/issues/8216
 three.js streaming video materials with videojs for 360 video 
 
