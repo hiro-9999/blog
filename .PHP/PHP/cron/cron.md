@@ -1,6 +1,15 @@
 https://qiita.com/hikouki/items/e744b3a4d356d2af12cf
 
 cron
+ 分　時　日　月　曜日　コマンド
+表１	
+分	0～59
+時	0～23
+日	1～31
+月	1～12　or jan～dec
+曜日	0～7 [0,7は日曜日] or sun～sat
+コマンド	有効なコマンドを記述します。空白を含むことも可能ですが、標準のBourne Shellの書式に従って記述します。
+
 
 
 cron の設定ガイド
