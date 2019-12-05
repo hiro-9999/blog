@@ -12,3 +12,9 @@ http://videojs.github.io/video.js/
 
 //AWS Media Services
 https://www.htb.co.jp/sodane/technology/20191005190212066274.html?fbclid=IwAR2QBlbF19ejl2Rivy9AmlFc2TkdSdBmkNNP7hj6doYyf02GfpqQJVVUrjg
+
+S3とCloudFrontを使って構築しています。
+Nuxt.jsを用いてのSPAとして構築しました。
+決済系は「Stripe」を採用しました。
+--->GOOD
+https://stripe.com/jp
