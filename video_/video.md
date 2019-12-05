@@ -9,3 +9,6 @@ webrtc
 
 //videojs
 http://videojs.github.io/video.js/
+
+//AWS Media Services
+https://www.htb.co.jp/sodane/technology/20191005190212066274.html?fbclid=IwAR2QBlbF19ejl2Rivy9AmlFc2TkdSdBmkNNP7hj6doYyf02GfpqQJVVUrjg
