@@ -1,6 +1,13 @@
 //good
 https://www.bilibili.com/video/av51636878/?p=63
 
+《程序员的自我修养》和《深入理解计算机系统》
+https://www.toutiao.com/a6709265576511930894/
+探索 golang 程序启动过程
+《golang runtime 阅读》
+go build -v -x -work -o bin/hello src/main.go
+-v 会打印所编译过的包名字，-x 打印编译期间所执行的命令，-work 打印编译期间生成的临时文件路径，并且编译完成之后不会被删除。
+
 
 https://search.bilibili.com/all?keyword=Go%20%E5%A4%9C%E8%AF%BB&from_source=video_tag
 
