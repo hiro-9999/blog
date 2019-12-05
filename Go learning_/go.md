@@ -1,6 +1,10 @@
 //good
 https://www.bilibili.com/video/av51636878/?p=63
 
+
+//good
+go run -x -work src/main.go
+-x 可以打印整个过程涉及到的命令，-work 可以看到临时的工作目录：
 《程序员的自我修养》和《深入理解计算机系统》
 https://www.toutiao.com/a6709265576511930894/
 探索 golang 程序启动过程
