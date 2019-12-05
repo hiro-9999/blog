@@ -1,6 +1,56 @@
 //good
 https://www.bilibili.com/video/av51636878/?p=63
 
+good
+【面向信仰编程 编译过程概述】https://draveness.me/golang-compile-intro
+
+【golang runtime 阅读】https://github.com/zboya/golang_runtime_reading
+
+【Go-Questions hello-world项目】https://github.com/qcrao/Go-Questions/tree/master/examples/hello-world
+
+【雨痕大佬的 Go 语言学习笔记】https://github.com/qyuhen/book
+
+【vim 以 16 进制文本】https://www.cnblogs.com/meibenjin/archive/2012/12/06/2806396.html
+
+【Go 编译命令执行过程】https://halfrost.com/go_command/
+
+【Go 命令执行过程】https://github.com/hyper0x/go_command_tutorial
+
+【Go 词法分析】https://ggaaooppeenngg.github.io/zh-CN/2016/04/01/go-lexer-%E8%AF%8D%E6%B3%95%E5%88%86%E6%9E%90/
+
+【曹大博客 golang 与 ast】http://xargin.com/ast/
+
+【Golang 词法解析器，scanner 源码分析】https://blog.csdn.net/zhaoruixiang1111/article/details/89892435
+
+【Gopath Explained】https://flaviocopes.com/go-gopath/
+
+【Understanding the GOPATH】https://www.digitalocean.com/community/tutorials/understanding-the-gopath
+
+【讨论】https://stackoverflow.com/questions/7970390/what-should-be-the-values-of-gopath-and-goroot
+
+【Go 官方 Gopath】https://golang.org/cmd/go/#hdr-GOPATH_environment_variable
+
+【Go package 的探索】https://mp.weixin.qq.com/s/OizVLXfZ6EC1jI-NL7HqeA
+
+【Go 官方 关于 Go 项目的组织结构】https://golang.org/doc/code.html
+
+【Go modules】https://www.melvinvivas.com/go-version-1-11-modules/
+
+【Golang Installation, Setup, GOPATH, and Go Workspace】https://www.callicoder.com/golang-installation-setup-gopath-workspace/
+
+【编译、链接过程链接】https://mikespook.com/2013/11/%E7%BF%BB%E8%AF%91-go-build-%E5%91%BD%E4%BB%A4%E6%98%AF%E5%A6%82%E4%BD%95%E5%B7%A5%E4%BD%9C%E7%9A%84%EF%BC%9F/
+
+【1.5 编译器由 go 语言完成】https://www.infoq.cn/article/2015/08/go-1-5
+
+【Go 编译过程系列文章】https://www.ct8olib.com/topics-3724.html
+
+【曹大 go bootstrap】https://github.com/cch123/golang-notes/blob/master/bootstrap.md
+
+【golang 启动流程】https://blog.iceinto.com/posts/go/start/
+
+【探索 golang 程序启动过程】http://cbsheng.github.io/posts/%E6%8E%A2%E7%B4%A2golang%E7%A8%8B%E5%BA%8F%E5%90%AF%E5%8A%A8%E8%BF%87%E7%A8%8B/
+
+【探索 goroutine 的创建】http://cbsheng.github.io/posts/%E6%8E%A2%E7%B4%A2goroutine%E7%9A%84%E5%88%9B%E5%BB%BA/
 
 //good
 go run -x -work src/main.go
