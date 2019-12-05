@@ -25,6 +25,9 @@ HTML5 Browser with CSS3D or WebGL support
 >datadog
 https://docs.datadoghq.com/ja/integrations/cloudflare/
 
+js 整形
+https://lab.syncer.jp/Tool/JavaScript-PrettyPrint/
+
 
 //remove.bg
 https://www.remove.bg
