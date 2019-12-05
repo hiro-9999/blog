@@ -19,3 +19,8 @@ Nuxt.jsを用いてのSPAとして構築しました。
 --->GOOD
 https://stripe.com/jp
 https://stripe.dev/elements-examples/
+
+
+Auth0
+https://auth0.com/jp/
+https://github.com/auth0/lock
