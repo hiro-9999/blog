@@ -18,3 +18,4 @@ Nuxt.jsを用いてのSPAとして構築しました。
 決済系は「Stripe」を採用しました。
 --->GOOD
 https://stripe.com/jp
+https://stripe.dev/elements-examples/
