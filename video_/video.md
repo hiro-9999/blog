@@ -24,3 +24,4 @@ https://stripe.dev/elements-examples/
 Auth0
 https://auth0.com/jp/
 https://github.com/auth0/lock
+https://auth0.com/resources/whitepapers/build-vs-buy-evaluating-identity-management/email
