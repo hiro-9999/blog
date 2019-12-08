@@ -1,3 +1,6 @@
+//rust is good
+https://doc.rust-jp.rs/the-rust-programming-language-ja/1.6/book/getting-started.html
+
 https://github.com/RustStudy/RustBooksChina
 
 http://ebookimg.lorefree.com/assets/file/2019/07/12/151412/Programming%20Rust%202017.pdf
