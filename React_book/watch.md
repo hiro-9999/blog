@@ -8,6 +8,23 @@ https://www.runoob.com
 https://www.runoob.com/react/react-install.html
 内容就是要在渲染目标中显示的东西，可以是一个 React 部件，也可以是一段HTML或TEXT文本。渲染目标JS对象，就是一个DIV或TABEL,或TD 等HTML的节点对象。
 
+在 JSX 中不能使用 if else 语句，但可以使用 conditional (三元运算) 表达式来替代。
+
+而自定义的 React 类名以大写字母开头
+
+在添加属性时， class 属性需要写成 className ，for 属性需要写成 htmlFor 
+
+React State(状态)
+React 把组件看成是一个状态机（State Machines）。
+https://www.runoob.com/try/try.php?filename=try_react_state
+
+state 和 props 主要的区别在于 props 是不可变的，而 state 可以根据与用户交互来改变。这就是为什么有些容器组件需要定义 state 来更新和修改数据。 而子组件只能通过 props 来传递数据。
+
+如果采用 JSX 的语法你需要传入一个函数作为事件处理函数，而不是一个字符串(DOM 元素的写法)
+this.handleClick = this.handleClick.bind(this);
+
+因此，如果条件是 true，&& 右侧的元素就会被渲染，如果是 false，React 会忽略并跳过它。
+
 ReactDOM.render(<App />, div);
 unmountComponentAtNode() 这个方法是解除渲染挂载，作用和 render 刚好相反，也就清空一个渲染目标中的 React 部件或 html 内容。
 
