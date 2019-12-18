@@ -6,6 +6,12 @@ https://www.runoob.com
 
 // this is good to read
 https://www.runoob.com/react/react-install.html
+内容就是要在渲染目标中显示的东西，可以是一个 React 部件，也可以是一段HTML或TEXT文本。渲染目标JS对象，就是一个DIV或TABEL,或TD 等HTML的节点对象。
+
+ReactDOM.render(<App />, div);
+unmountComponentAtNode() 这个方法是解除渲染挂载，作用和 render 刚好相反，也就清空一个渲染目标中的 React 部件或 html 内容。
+
+ReactDOM.unmountComponentAtNode(div);
 
 // this is good to watch
 https://www.bilibili.com/video/av51174155?p=12
