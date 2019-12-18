@@ -1,4 +1,7 @@
 brew upgrade
+brew list | grep php
+
+brew uninstall 
 
 
 https://rskull.hateblo.jp/entry/2018/04/06/164236
