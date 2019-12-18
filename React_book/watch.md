@@ -4,7 +4,10 @@ JSX − JSX 是 JavaScript 语法的扩展。
 .单向响应的数据流 − React 实现了单向响应的数据流
 https://www.runoob.com
 
-// this is good
+// this is good to read
+https://www.runoob.com/react/react-install.html
+
+// this is good to watch
 https://www.bilibili.com/video/av51174155?p=12
 
 
