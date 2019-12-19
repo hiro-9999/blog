@@ -51,3 +51,13 @@ shouldComponentUpdate 返回一个布尔值。在组件接收到新的props或�
 componentWillUpdate在组件接收到新的props或者state但还没有render时被调用。在初始化时不会被调用。
 componentDidUpdate 在组件完成更新后立即调用。在初始化时不会被调用。
 componentWillUnmount在组件从 DOM 中移除之前立刻被调用。
+
+React 组件 API。我们将讲解以下7个方法:
+
+设置状态：setState
+替换状态：replaceState
+设置属性：setProps
+替换属性：replaceProps
+强制更新：forceUpdate
+获取DOM节点：findDOMNode
+判断组件挂载状态：isMounted
