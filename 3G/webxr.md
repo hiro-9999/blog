@@ -7,3 +7,4 @@ https://s3.deovr.com/version/1/js/bundle.js
 
 https://chromereleases.googleblog.com
 
+https://www.chromium.org/getting-involved/dev-channel
