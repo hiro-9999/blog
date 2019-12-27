@@ -1,6 +1,14 @@
 brew upgrade
 brew list | grep php
 
+
+
+Please add to php.ini
+$ sudo vim /etc/php.ini
+this line:
+include_path = ".:/usr/local/pear/share/pear"
+
+
 brew uninstall 
 
 
