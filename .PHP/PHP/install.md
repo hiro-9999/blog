@@ -1,3 +1,6 @@
+https://github.com/phpbrew/phpbrew/blob/master/README.ja.md
+
+
 brew upgrade
 brew list | grep php
 
