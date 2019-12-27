@@ -4,6 +4,11 @@ brew list | grep php
 brew uninstall 
 
 
+phpbrew install php-5.4.38 \
+    +bz2="$(brew --prefix bzip2)" \
+    +zlib="$(brew --prefix zlib)"
+
+
 https://rskull.hateblo.jp/entry/2018/04/06/164236
 brew uninstall php71-igbinary php71-mcrypt php71-opcache php71-redis php71
 
