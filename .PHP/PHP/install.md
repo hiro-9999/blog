@@ -35,3 +35,5 @@ php -r "unlink('composer-setup.php');"
 
 ln -s ~/.composer/vendor/squizlabs/php_codesniffer/bin/phpcs /usr/local/bin/phpcs
 ln -s ~/.composer/vendor/squizlabs/php_codesniffer/bin/phpcbf /usr/local/bin/phpcbf
+
+ln -s share/pear/PHP/ PHP
