@@ -18,3 +18,17 @@ dstat -tclmdrn --output
 width=560
 height=316
 duration=7157.024024
+
+
+/usr/local/ffmpeg/latest/bin/ffmpeg \
+-threads 4 \
+-ss <画像を切り出す秒数> \
+-i <mp4のパス> \
+-an \
+-filter:v \
+<画像サイズ> \
+-qscale:v 1 \
+-vframes 1 \
+-f image2 \
+<画像ファイルパス> \
+-y
