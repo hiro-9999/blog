@@ -1,4 +1,5 @@
 Wowza 字幕情報
+https://www.wowza.com/docs/how-to-to-serve-caption-files-for-video-on-demand-streaming
 https://engineer-world.duckdns.org/page-1245/
 
 Wowza on EC2の前段にCloudFrontを導入した構成でのライブストリーミング配信
