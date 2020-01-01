@@ -6,3 +6,10 @@
 知道如何使用 R 语言或 Python（NumPy/SciPy）或 SPSS/SAS 或 Matlab 工具包进行数据分析和建模；
 数据可视化，例如，使用 Matplotlib。
 https://towardsdatascience.com/ai-engineers-what-they-do-and-how-much-they-cost-c8360e84f376
+
+he should be well versed in programming and know several programming languages
+he should perfectly know all the Machine Learning algorithms
+he must be able to work with data warehouses, speak the SQL language for compiling queries
+analyze and model data using the programming languages R or Python (NumPy / SciPy), or use the SPSS / SAS or Matlab application tool packages
+visualize data using, for example, Matplotlib tools
+In addition, AI experts often work on projects related to fields like medicine, agriculture and other diametrically different areas from technology. For successfully coping with projects like this, AI engineers should also spend some time studying these areas in order to do their work more efficiently.
