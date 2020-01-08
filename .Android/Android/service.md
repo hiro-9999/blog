@@ -1,6 +1,17 @@
 ## service
+
 >ok
 https://baiqiantao.github.io/%E5%85%B6%E4%BB%96/%E9%80%82%E9%85%8D/6ZJvIb/
+
+
+if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) { //26，8.0  
+    NotificationChannel channel = new NotificationChannel(CHANNEL_ID, "【内幕】", NotificationManager.IMPORTANCE_DEFAULT);//渠道id、渠道名称、渠道重要性级别  
+    channel.setDescription("【渠道描述】"); //设置渠道描述，这个描述在系统设置中可以看到  
+    channel.enableLights(true);//是否显示通知指示灯  
+    channel.enableVibration(true);//是否振动  
+    channel.setShowBadge(true); //是否允许这个渠道下的通知显示角标，默认会显示角标  
+    manager.createNotificationChannel(channel);//创建通知渠道  
+}  
 
 https://www.itranslater.com/qa/details/2325650112728531968
 
