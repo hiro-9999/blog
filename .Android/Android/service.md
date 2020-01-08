@@ -12,6 +12,9 @@ if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) { //26，8.0
     channel.setShowBadge(true); //是否允许这个渠道下的通知显示角标，默认会显示角标  
     manager.createNotificationChannel(channel);//创建通知渠道  
 }  
+http://www.bloguan.com/?id=535
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 https://www.itranslater.com/qa/details/2325650112728531968
 
