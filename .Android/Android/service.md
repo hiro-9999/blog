@@ -1,4 +1,8 @@
 ## service
+>ok
+https://blog.csdn.net/wxx614817/article/details/50669420
+
+
 https://qiita.com/ssoejima/items/43b1f78e323d5454f54f
 
 >Service startForeground不显示Notification的办法
