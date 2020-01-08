@@ -1,4 +1,8 @@
 ## service
+
+https://github.com/bannedbook/SpeedUp.VPN/commit/284ba693eafe93568bd27e67477b5d8aa0372d12
+
+
 > return START_NOT_STICKY;
 https://developer.android.com/reference/android/app/Service
 
