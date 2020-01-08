@@ -1,0 +1,1 @@
+Artifactory、最新的Jetpack和Mvvm结合
