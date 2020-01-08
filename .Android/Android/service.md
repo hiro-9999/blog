@@ -1,4 +1,7 @@
 ## service
+>Service startForeground不显示Notification的办法
+https://blog.csdn.net/warren288/article/details/51104214
+
 https://hant-kb.kutu66.com/c/13808912
 https://github.com/bannedbook/SpeedUp.VPN/commit/284ba693eafe93568bd27e67477b5d8aa0372d12
 
