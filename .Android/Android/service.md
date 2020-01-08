@@ -1,5 +1,33 @@
 ## service
+https://qiita.com/ssoejima/items/43b1f78e323d5454f54f
+
 >Service startForeground不显示Notification的办法
+https://rakuishi.com/archives/android-oreo-notification-foreground/
+
+private void startMyOwnForeground(){
+
+    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O){
+
+        String NOTIFICATION_CHANNEL_ID = "com.example.simpleapp";
+        String channelName = "My Background Service";
+        NotificationChannel chan = new NotificationChannel(NOTIFICATION_CHANNEL_ID, channelName, NotificationManager.IMPORTANCE_NONE);
+        chan.setLightColor(Color.BLUE);
+        chan.setLockscreenVisibility(Notification.VISIBILITY_PRIVATE);
+        NotificationManager manager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+        assert manager != null;
+        manager.createNotificationChannel(chan);
+
+        NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this, NOTIFICATION_CHANNEL_ID);
+        Notification notification = notificationBuilder.setOngoing(true)
+                .setSmallIcon(AppSpecific.SMALL_ICON)
+                .setContentTitle("App is running in background")
+                .setPriority(NotificationManager.IMPORTANCE_MIN)
+                .setCategory(Notification.CATEGORY_SERVICE)
+                .build();
+        startForeground(2, notification);
+    }
+}
+
 
 >低级别（没有通知声音也不会出现在状态栏上）	IMPORTANCE_MIN
 https://blog.csdn.net/OxuanO/article/details/86165497
