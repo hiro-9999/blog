@@ -1,4 +1,7 @@
 ## service
+> return START_NOT_STICKY;
+https://developer.android.com/reference/android/app/Service
+
 https://androidwave.com/foreground-service-android-example/
 
 To hide me, click and uncheck \"Hidden Notification Service\
