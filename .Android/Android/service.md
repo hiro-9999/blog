@@ -3,6 +3,12 @@ https://blog.csdn.net/am256341/article/details/89874415
 >ok
 https://blog.csdn.net/wxx614817/article/details/50669420
 
+builder.setContentTitle() // required
+.setSmallIcon() // required
+.setContentText() // required
+.setChannelId(id) // required for deprecated in API level >= 26 constructor .Builder(this)
+
+
 
 https://qiita.com/ssoejima/items/43b1f78e323d5454f54f
 
