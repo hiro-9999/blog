@@ -5,3 +5,21 @@ CSS のプロパティで、与えられた要素を回転、拡大縮小、傾�
 
 ## link
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/link
+
+## Sass(SCSS)、LESS
+https://qiita.com/ritukiii/items/67b3c50002b48c6186d6
+
+--styleオプションで変換方法を変える
+
+変換方法は主に4つ。
+nested, expanded, compact, compressed
+
+sass style.scss:style.css --style nested
+
+## --watchオプションで自動コンパイルする
+
+毎回ファイルを更新する度にコンパイルするのも面倒なので自動化しましょう。
+sass --watch style:scss:style:css
+
+## @if, @for, @each, @while
+https://qiita.com/TD3P/items/24a4773edf0c2fa48aea
