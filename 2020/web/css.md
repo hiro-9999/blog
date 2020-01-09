@@ -7,6 +7,10 @@ CSS のプロパティで、与えられた要素を回転、拡大縮小、傾�
 https://developer.mozilla.org/ja/docs/Web/HTML/Element/link
 
 ## Sass(SCSS)、LESS
+https://www.pc-koubou.jp/magazine/22447
+Visual Studio Codeを起動します。
+>Easy Sassをインストール
+
 https://qiita.com/ritukiii/items/67b3c50002b48c6186d6
 
 --styleオプションで変換方法を変える
