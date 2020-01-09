@@ -27,3 +27,5 @@ sass --watch style:scss:style:css
 
 ## @if, @for, @each, @while
 https://qiita.com/TD3P/items/24a4773edf0c2fa48aea
+
+http://book.scss.jp/code/c2/04.html
