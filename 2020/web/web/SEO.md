@@ -1,6 +1,7 @@
 https://manablog.org/
 
-SEOアフィリエイト
+>SEOアフィリエイト
+https://seopack.jp/affiliate/
 
 >PPCアフィリエイト
 https://dejimachain.jp/ppc-affiliate/
