@@ -3,6 +3,9 @@ https://epubw.com
 https://yabook.org
 http://www.80pdf.com
 
+## 从数据科学开始的书
+https://www.toutiao.com/a6781640657204150788/
+
 
 （1）《黑客攻防实战入门》：踏入网络安全之门，初窥黑客攻防实战技巧。
 
