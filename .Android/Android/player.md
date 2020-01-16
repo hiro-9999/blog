@@ -7,7 +7,9 @@ http://smashare.jp/blog/2016/02/23/mediacontrollerのレイアウトを変更可
 https://qiita.com/ogapants/items/83d6758bc26d7797b895
 
 
->ExoPlayer
+## ExoPlayer
 https://qiita.com/niusounds/items/cce4ff69f5911908259b
 https://qiita.com/tomo1139/items/fea907958160f77760ef
 https://developers.google.com/cast/docs/android_sender/integrate?hl=ja_JP
+
+https://exoplayer.dev/hls.html
