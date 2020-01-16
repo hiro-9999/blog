@@ -13,3 +13,6 @@ https://qiita.com/tomo1139/items/fea907958160f77760ef
 https://developers.google.com/cast/docs/android_sender/integrate?hl=ja_JP
 
 https://exoplayer.dev/hls.html
+https://www.wowza.com/docs/how-to-stream-from-an-android-device-to-the-google-chromecast-device
+
+https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
