@@ -20,3 +20,10 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-oper
 
 
 CAST(DATE_ADD('day', -1, CURRENT_DATE) AS TIMESTAMP)
+
+
+PARTITION BY
+
+## over
+集計関数COUNTの後にOVERを指定して、分析関数として集計します。
+OVERの中のPARTITION BYとORDER BYで分析方法を指定することができます。
