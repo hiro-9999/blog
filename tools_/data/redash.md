@@ -18,7 +18,7 @@ https://www.postgresql.jp/document/9.1/html/functions-datetime.html
 ## BigQuery 標準 SQL 関数と演算子
 https://cloud.google.com/bigquery/docs/reference/standard-sql/functions-and-operators?hl=ja
 
-##mysql
+## Mysql
 https://dev.mysql.com/doc/refman/5.6/ja/date-and-time-functions.html#function_date-format
 
 CAST(DATE_ADD('day', -1, CURRENT_DATE) AS TIMESTAMP)
