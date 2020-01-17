@@ -10,3 +10,4 @@ https://cloud.google.com/bigquery/docs/reference/standard-sql/datetime_functions
 
 ## sql case
 https://sql-oracle.com/sqlserver/?p=1037
+https://www.wakuwakubank.com/posts/335-mysql-sql-function-date/
