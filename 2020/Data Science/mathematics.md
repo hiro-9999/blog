@@ -2,3 +2,7 @@
 https://mlog.club/article/2029724
 
 https://courses.csail.mit.edu/6.042/spring17/mcs.pdf
+
+## mathematics for computer science
+https://www.youtube.com/results?search_query=mathematics+for+computer+science
+
