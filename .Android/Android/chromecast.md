@@ -8,3 +8,6 @@ You have to let your key deliver server allow your receiver domain.
 
 
 https://qiita.com/tomo1139/items/fea907958160f77760ef
+
+## Chromecast向けアプリ開発の準備
+https://isana.blog/2014/06/chromecast_10-html/
