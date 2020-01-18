@@ -6,6 +6,10 @@ https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.m
 ## AI
 https://github.com/hiro-9999/AiLearning
 
+## 机器学习成才之路：这是一条 GitHub 高赞的学习路径
+http://bbs.cvmart.net/topics/1059
+https://github.com/virgili0/Virgilio
+
 ## 清华大学计算机系课程
 https://github.com/PKUanonym/REKCARC-TSC-UHT/blob/master/README.md
 https://github.com/hiro-9999/Undergraduate
