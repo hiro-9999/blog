@@ -6,6 +6,11 @@ https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.m
 ## AI
 https://github.com/hiro-9999/AiLearning
 
+## 清华大学计算机系课程
+https://github.com/PKUanonym/REKCARC-TSC-UHT/blob/master/README.md
+https://github.com/hiro-9999/Undergraduate
+https://wemp.app/posts/0302f48e-b495-4a7c-afc1-5d59f0ea44a1?utm_source=bottom-latest-posts
+
 >good
 https://teachyourselfcs.com/
 https://github.com/keithnull/TeachYourselfCS-CN
