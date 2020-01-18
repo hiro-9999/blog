@@ -1,6 +1,12 @@
 ## list
 https://github.com/hiro-9999/Computer-Science-and-Technology/blob/master/README.md
 
+https://github.com/keithnull/TeachYourselfCS-CN/blob/master/TeachYourselfCS-CN.md
+
+
+https://www.csail.mit.edu/people?person%5B0%5D=role%3A299
+
+
 https://epubw.com
 
 https://yabook.org
