@@ -1,3 +1,6 @@
+## list
+https://github.com/hiro-9999/Computer-Science-and-Technology/blob/master/README.md
+
 https://epubw.com
 
 https://yabook.org
