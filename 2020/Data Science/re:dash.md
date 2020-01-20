@@ -2,7 +2,8 @@
 
 https://qiita.com/toyama0919/items/f3482ab9e96c82df5952
 
-
+https://qiita.com/kouya0219/items/89bdd7f5c72610777bca
+```
 SELECT q.id as query_ID
        ,CASE
            WHEN q.schedule LIKE '%:%' THEN q.schedule
@@ -27,3 +28,4 @@ AND qr.retrieved_at =
    WHERE q.query_hash = query_results.query_hash)
 WHERE schedule != ''
 ORDER BY q.id ASC
+```
