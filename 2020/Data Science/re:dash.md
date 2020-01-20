@@ -1,4 +1,9 @@
 ## re:dashの各種統計値
+https://techblog.timers-inc.com/entry/2018/01/29/122206
+＞前提事項： StandardSQLを使おう
+
+https://qiita.com/anntoque/items/4657df31f4acb5015f97
+>re:dash うるう年 判定
 
 https://qiita.com/toyama0919/items/f3482ab9e96c82df5952
 
