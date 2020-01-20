@@ -2,9 +2,12 @@
 https://techblog.timers-inc.com/entry/2018/01/29/122206
 ＞前提事項： StandardSQLを使おう
 
+## re:dash
+https://seleck.cc/614
+
 https://qiita.com/anntoque/items/4657df31f4acb5015f97
 >re:dash うるう年 判定
-
+https://blog.yuyat.jp/post/filtering-tables-in-bigquery-standard-sql/
 https://qiita.com/toyama0919/items/f3482ab9e96c82df5952
 
 https://qiita.com/kouya0219/items/89bdd7f5c72610777bca
