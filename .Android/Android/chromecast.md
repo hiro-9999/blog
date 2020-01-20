@@ -14,8 +14,8 @@ https://isana.blog/2014/06/chromecast_10-html/
 
 
 ## init
-'''
+```
 mCastContext = CastContext.getSharedInstance(this);
         mCastSession = CastContext.getSharedInstance(this).getSessionManager()
                 .getCurrentCastSession();
-                '''
+               ```
