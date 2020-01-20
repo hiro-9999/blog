@@ -2,6 +2,9 @@
 https://techblog.timers-inc.com/entry/2018/01/29/122206
 ＞前提事項： StandardSQLを使おう
 
+## cast type
+https://doc.splicemachine.com/sqlref_builtinfcns_cast.html
+
 ## re:dash
 https://seleck.cc/614
 
