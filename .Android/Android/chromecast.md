@@ -1,6 +1,8 @@
 ## context.getPlayerManager().setMediaPlaybackInfoHandler
 https://developers.google.com/cast/docs/mpl/streaming_protocols
 
+https://developers.google.com/cast/docs/caf_receiver/core_features#tip-loading-media-using-contentid-contenturl-and-entity
+
 
 
 https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
