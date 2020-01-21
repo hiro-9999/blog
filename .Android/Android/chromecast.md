@@ -1,3 +1,8 @@
+## context.getPlayerManager().setMediaPlaybackInfoHandler
+https://developers.google.com/cast/docs/mpl/streaming_protocols
+
+
+
 https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
 ## Cross-Origin Resource Sharing
 Google Cast fully supports Cross-Origin Resource Sharing (CORS). 
