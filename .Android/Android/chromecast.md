@@ -5,7 +5,8 @@ https://developers.google.com/cast/docs/reference/player/cast.player.api.Request
 
 https://developers.google.com/cast/docs/caf_receiver/core_features#tip-loading-media-using-contentid-contenturl-and-entity
 
-
+>
+https://github.com/flowplayer
 
 https://medium.com/@stlin813/how-to-let-chromecast-support-hls-aes-128-encryption-for-android-platform-b2aad9b41647
 ## Cross-Origin Resource Sharing
