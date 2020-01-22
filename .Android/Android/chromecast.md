@@ -30,7 +30,10 @@ mCastContext = CastContext.getSharedInstance(this);
                 .getCurrentCastSession();
                ```
 
-
+```
 ## cast samsung tv
 https://developer.samsung.com/tv/develop/extension-libraries/smart-view-sdk/introduction/
 https://developer.android.com/reference/android/support/v7/app/MediaRouteActionProvider
+
+Castメニュー
+https://www.atmarkit.co.jp/ait/articles/1505/13/news008_3.html
