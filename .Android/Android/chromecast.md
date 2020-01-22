@@ -41,3 +41,4 @@ https://www.atmarkit.co.jp/ait/articles/1505/13/news008_3.html
 https://stackoverflow.com/questions/37752643/attempt-to-invoke-virtual-method-void-android-support-v7-app-mediarouteactionpr
 
 smart-view
+https://www.samsung.com/uk/support/tv-audio-video/what-is-screen-mirroring-and-how-do-i-use-it-with-my-samsung-tv-and-samsung-mobile-device/
