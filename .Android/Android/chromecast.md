@@ -35,7 +35,7 @@ mCastContext = CastContext.getSharedInstance(this);
 https://developer.samsung.com/tv/develop/extension-libraries/smart-view-sdk/introduction/
 https://developer.android.com/reference/android/support/v7/app/MediaRouteActionProvider
 
-Castメニュー
+Castメニュー  mediaRouteActionProvider.setRouteSelector(mMediaRouteSelector);
 https://www.atmarkit.co.jp/ait/articles/1505/13/news008_3.html
 
 https://stackoverflow.com/questions/37752643/attempt-to-invoke-virtual-method-void-android-support-v7-app-mediarouteactionpr
