@@ -29,3 +29,8 @@ mCastContext = CastContext.getSharedInstance(this);
         mCastSession = CastContext.getSharedInstance(this).getSessionManager()
                 .getCurrentCastSession();
                ```
+
+
+## cast samsung tv
+https://developer.samsung.com/tv/develop/extension-libraries/smart-view-sdk/introduction/
+https://developer.android.com/reference/android/support/v7/app/MediaRouteActionProvider
