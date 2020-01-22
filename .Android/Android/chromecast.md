@@ -1,3 +1,6 @@
+## MediaRouteDescriptor.Builder	setDeviceType(int deviceType)
+Sets the route's receiver device type.
+https://developer.android.com/reference/android/support/v7/media/MediaRouteDescriptor.Builder
 
 ## can configure notification and media control from lock screen
 https://developers.google.com/cast/docs/android_sender/integrate
