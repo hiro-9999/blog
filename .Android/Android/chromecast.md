@@ -22,6 +22,8 @@ https://qiita.com/tomo1139/items/fea907958160f77760ef
 ## Chromecast向けアプリ開発の準備
 https://isana.blog/2014/06/chromecast_10-html/
 
+## Chromecast built-in 搭載のテレビやディスプレイ
+https://developer.android.com/distribute/best-practices/engage/user-cast
 
 ## init
 ```
@@ -42,3 +44,11 @@ https://stackoverflow.com/questions/37752643/attempt-to-invoke-virtual-method-vo
 
 smart-view
 https://www.samsung.com/uk/support/tv-audio-video/what-is-screen-mirroring-and-how-do-i-use-it-with-my-samsung-tv-and-samsung-mobile-device/
+
+
+>Sender lock screen
+https://stackoverflow.com/questions/38752191/chromecast-sender-v2-7-0-lockscreen-image
+
+
+
+https://developer.android.com/distribute/best-practices/engage/user-cast
