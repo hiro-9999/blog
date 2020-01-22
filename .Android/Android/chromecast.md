@@ -13,6 +13,20 @@ buttonActions.add(MediaIntentReceiver.ACTION_STOP_CASTING);
 // Showing "play/pause" and "stop casting" in the compat view of the notification.
 int[] compatButtonActionsIndices = new int[]{ 1, 3 };
 '''
+## MiniControllerFragment
+https://developers.google.com/cast/docs/android_sender/customize_ui
+<array name="cast_mini_controller_control_buttons">
+    <item>@id/cast_button_type_rewind_30_seconds</item>
+    <item>@id/cast_button_type_play_pause_toggle</item>
+    <item>@id/cast_button_type_forward_30_seconds</item>
+</array>
+...
+<fragment
+    android:id="@+id/cast_mini_controller"
+    ...
+    app:castControlButtons="@array/cast_mini_controller_control_buttons"
+    class="com.google.android.gms.cast.framework.media.widget.MiniControllerFragment">        
+        
 ## context.getPlayerManager().setMediaPlaybackInfoHandler
 https://developers.google.com/cast/docs/mpl/streaming_protocols
 
