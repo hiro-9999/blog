@@ -1,3 +1,18 @@
+
+## can configure notification and media control from lock screen
+https://developers.google.com/cast/docs/android_sender/integrate
+
+'''
+// Example showing 4 buttons: "rewind", "play/pause", "forward" and "stop
+// casting".
+List<String> buttonActions = new ArrayList<>();
+buttonActions.add(MediaIntentReceiver.ACTION_REWIND);
+buttonActions.add(MediaIntentReceiver.ACTION_TOGGLE_PLAYBACK);
+buttonActions.add(MediaIntentReceiver.ACTION_FORWARD);
+buttonActions.add(MediaIntentReceiver.ACTION_STOP_CASTING);
+// Showing "play/pause" and "stop casting" in the compat view of the notification.
+int[] compatButtonActionsIndices = new int[]{ 1, 3 };
+'''
 ## context.getPlayerManager().setMediaPlaybackInfoHandler
 https://developers.google.com/cast/docs/mpl/streaming_protocols
 
