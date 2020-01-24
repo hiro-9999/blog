@@ -1,6 +1,17 @@
 ## ExpandedControllerActivity
 https://code.tutsplus.com/tutorials/google-play-services-google-cast-v3-and-media--cms-26893
 
+ <style name="CustomCastMiniController" parent="CastMiniController">
+        <item name="castShowImageThumbnail">true</item>
+        <item name="castTitleTextAppearance">@style/TextAppearance.AppCompat.Subhead</item>
+        <item name="castSubtitleTextAppearance">@style/TextAppearance.AppCompat.Caption</item>
+    </style>
+    
+    movieMetadata.putString(MediaMetadata.KEY_SUBTITLE, studio);
+        movieMetadata.putString(MediaMetadata.KEY_TITLE, title);
+        
+https://github.com/googlecast/CastVideos-android/blob/master/res/values/styles_castvideo.xml
+
 ## MediaRouteDescriptor.Builder	setDeviceType(int deviceType)
 Sets the route's receiver device type.
 https://developer.android.com/reference/android/support/v7/media/MediaRouteDescriptor.Builder
