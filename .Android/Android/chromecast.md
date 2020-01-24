@@ -1,3 +1,6 @@
+## ExpandedControllerActivity
+https://code.tutsplus.com/tutorials/google-play-services-google-cast-v3-and-media--cms-26893
+
 ## MediaRouteDescriptor.Builder	setDeviceType(int deviceType)
 Sets the route's receiver device type.
 https://developer.android.com/reference/android/support/v7/media/MediaRouteDescriptor.Builder
