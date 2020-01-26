@@ -19,4 +19,5 @@ https://axutongxue.github.io/2019/01/27/看完这篇教程，再没有下载不�
 http://urlgot.com
 
 ## 优秀的视频编辑工具
+https://software.airmore.cn/video-editor-pc?e_keywordid=91551049562&e_keywordid2=91551049562&bd_vid=10568783262120114802
 https://www.toutiao.com/a6652182588498641411/
