@@ -12,5 +12,9 @@ http://fixthephoto.com/best-video-editing-software-for-mac.html
 
 ## 
 https://axutongxue.github.io/2019/01/27/看完这篇教程，再没有下载不了的网页视频/
+>视频鱼
+地址：http://m.shipinyu.cn/
 
-http://weibodang.cn
+目前持30个视频/音乐网站的解析下载
+http://urlgot.com
+
