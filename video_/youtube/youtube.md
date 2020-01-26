@@ -26,3 +26,7 @@ https://www.toutiao.com/a6652182588498641411/
 
 > Adobe Premiere
 https://huke88.com/route/pr2019.html?sem=baidu&kw=114160&bd_vid=9593965311030454177
+
+
+>Leawo Prof. Media 8.1.1 Mac 破解版 下载
+https://www.waitsun.com/leawo-prof-media.html
