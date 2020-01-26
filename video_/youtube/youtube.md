@@ -24,5 +24,5 @@ http://urlgot.com
 https://software.airmore.cn/video-editor-pc?e_keywordid=91551049562&e_keywordid2=91551049562&bd_vid=10568783262120114802
 https://www.toutiao.com/a6652182588498641411/
 
-> ??
-https://lightmake.cn/beecut-2020?bd&bd_vid=6369138391487509132
+> Adobe Premiere
+https://huke88.com/route/pr2019.html?sem=baidu&kw=114160&bd_vid=9593965311030454177
