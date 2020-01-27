@@ -8,7 +8,9 @@ https://qiita.com/tags/php7.4
 >PHP7.4最大の特徴 2019/11/28にPHP7.4.0がリリースされました。
 openssl_x509_verify関数が追加されました。
 
->FFI
+>FFI  ->PHPからFFIでGoを利用する
+https://qiita.com/i4M1k0SU/items/7c0db12e047e0fbf7550
+
 PHP内に他言語を書けるようになりました。
 https://qiita.com/rana_kualu/items/50f9f5735321fe995ff5
 NULL合体代入演算子??=が導入されました。
