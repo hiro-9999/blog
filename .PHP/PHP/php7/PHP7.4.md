@@ -12,8 +12,10 @@ openssl_x509_verify関数が追加されました。
 https://qiita.com/i4M1k0SU/items/7c0db12e047e0fbf7550
 
 PHP内に他言語を書けるようになりました。
+https://qiita.com/nishimura/items/70a8ee420cb4cbb1e251
 https://qiita.com/rana_kualu/items/50f9f5735321fe995ff5
 NULL合体代入演算子??=が導入されました。
+
 
 mb_str_split関数が追加されました。
 $x = mb_str_split('aAａＡ1１!！あ𩸽', 1);
