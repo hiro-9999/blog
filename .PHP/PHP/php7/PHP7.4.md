@@ -1,3 +1,8 @@
+## PHP7.4
+
+https://qiita.com/tags/php7.4
+
+
 采用的方法是利用 PHPCS和PHPCompatibility 对项目进行PHP7的编码规范检测。
 
 >PHP7.4最大の特徴 2019/11/28にPHP7.4.0がリリースされました。
