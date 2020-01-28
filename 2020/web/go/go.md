@@ -1,3 +1,6 @@
+## go page
+https://golang.org/doc/install
+
 ## go collection
 https://github.com/jiujuan/go-collection
 
