@@ -1,4 +1,4 @@
-## basic
+## basic https://github.com/golang/go/releases
 https://www.bilibili.com/video/av51636878?p=1
 
 ## slice --复合数据
