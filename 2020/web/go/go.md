@@ -1,1 +1,17 @@
+## go collection
+https://github.com/jiujuan/go-collection
+
+## study golang page
+https://studygolang.com
+
+## exmple
+https://github.com/hiro-9999/golang-examples
+
+http://www.86clouds.com/tag/go?p=1
+
 https://www.golangtc.com
+
+https://github.com/hiro-9999/book-1/tree/master/tp3_computer/go
+
+
+//
