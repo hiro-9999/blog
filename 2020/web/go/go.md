@@ -1,5 +1,6 @@
 ## go page
 https://golang.org/
+
 https://golang.org/doc/install
 
 ## go collection
