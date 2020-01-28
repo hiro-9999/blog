@@ -1,3 +1,6 @@
+## basic
+https://www.bilibili.com/video/av51636878?p=1
+
 ## slice --复合数据
 ## map --复合数据
 ## struct 结构体
