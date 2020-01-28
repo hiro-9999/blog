@@ -6,3 +6,9 @@ itemprop
 
 ## schema.orgで構造化マークアップせよ！
 https://qiita.com/ryotanatsume/items/91d16968a4677443a6e7
+
+
+https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/itemtype
+
+## itemscope属性
+https://www.osaka-kyoiku.ac.jp/~joho/html5_ref/itemscope_attr.php?menutype=2dtaldl01l02l03A0
