@@ -14,3 +14,6 @@ https://developer.android.com/studio/build
 
 新しいアプリは、Android 9.0（API レベル 28）以上を対象とする必要があります
 https://developer.android.com/distribute/best-practices/develop/target-sdk.html
+
+
+https://www.hirohomme.com/2019/10/22/warning-api-variant-getprebuild-is-obsolete-and-has-been-replaced-with-variant-getprebuildprovider/
