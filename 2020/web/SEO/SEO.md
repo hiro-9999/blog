@@ -12,3 +12,6 @@ https://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/itemtype
 
 ## itemscope属性
 https://www.osaka-kyoiku.ac.jp/~joho/html5_ref/itemscope_attr.php?menutype=2dtaldl01l02l03A0
+
+## google test tools
+https://search.google.com/structured-data/testing-tool/u/0/#url=https%3A%2F%2FNetflix.com
