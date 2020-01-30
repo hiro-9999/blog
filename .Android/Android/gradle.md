@@ -10,3 +10,7 @@ https://qiita.com/kasa_le/items/e2682235db901032f00c
 
 
 https://developer.android.com/studio/build
+
+
+新しいアプリは、Android 9.0（API レベル 28）以上を対象とする必要があります
+https://developer.android.com/distribute/best-practices/develop/target-sdk.html
