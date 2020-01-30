@@ -7,3 +7,6 @@ https://qiita.com/kasa_le/items/e2682235db901032f00c
 
 
 ./gradlew assembleDebug
+
+
+https://developer.android.com/studio/build
