@@ -5,7 +5,7 @@ Fatal Exception: java.lang.IllegalArgumentException: width and height must be > 
 https://github.com/googlecast/CastVideos-android/issues/23
 
 To fix, before building and showing the IntroductoryOverlay, added a conditional that confirms mediaRouteMenuItem.actionView.width and mediaRouteMenuItem.actionView.height are greater than zero, and if not, intro build/show doesn't happen. This fixed our crashes.
-
+https://issuetracker.google.com/issues/36191274%EF%BC%93
 
 
 ## ExpandedControllerActivity
