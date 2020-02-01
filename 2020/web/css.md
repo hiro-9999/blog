@@ -3,6 +3,9 @@ https://github.com/jgthms/bulma
 
 https://developer.mozilla.org/ja/docs/Web/CSS/transform
 
+
+https://github.com/pure-css/pure
+
 ## transform 
 CSS のプロパティで、与えられた要素を回転、拡大縮小、傾斜、移動することできます。
 
