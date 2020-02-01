@@ -1,3 +1,10 @@
+＃＃　error
+at com.google.android.gms.cast.framework.internal.featurehighlight.zzb.onDraw(com.google.android.gms:play-services-cast-framework@@18.0.0:59)
+Fatal Exception: java.lang.IllegalArgumentException: width and height must be > 0
+
+https://github.com/googlecast/CastVideos-android/issues/23
+
+
 ## ExpandedControllerActivity
 https://code.tutsplus.com/tutorials/google-play-services-google-cast-v3-and-media--cms-26893
 
@@ -37,6 +44,7 @@ https://developers.google.com/cast/docs/android_sender/customize_ui
     <item>@id/cast_button_type_play_pause_toggle</item>
     <item>@id/cast_button_type_forward_30_seconds</item>
 </array>
+
 ...
 <fragment
     android:id="@+id/cast_mini_controller"
