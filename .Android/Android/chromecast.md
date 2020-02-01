@@ -9,6 +9,7 @@ https://issuetracker.google.com/issues/36191274%EF%BC%93
 
 
 https://www.programcreek.com/java-api-examples/index.php?api=android.support.v7.app.MediaRouteActionProvider
+https://qiita.com/Galaxy/items/fb1f98532312a5b3b2fa
 
 
 ## ExpandedControllerActivity
