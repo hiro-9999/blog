@@ -1,3 +1,5 @@
+https://github.com/immersive-web/webxr/blob/master/webvr-migration.md
+
 https://immersive-web.github.io/webxr/
 
 https://deovr.com/blog/post/id/2-webvr-and-webxr-explained
