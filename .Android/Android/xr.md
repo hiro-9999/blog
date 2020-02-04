@@ -12,3 +12,6 @@ XR device sandboxing: Disabled
 
 ## WebVR to WebXR Migration Guide
 https://github.com/immersive-web/webxr/blob/master/webvr-migration.md
+
+## emulator
+https://blog.mozvr.com/webxr-emulator-extension/
