@@ -17,3 +17,5 @@ git reset --hard ORIG_HEAD
  ## git pull
  ## git merge
  https://backlog.com/ja/git-tutorial/stepup/09/
+
+pullというのは内部でfetch + mergeをしているからです。
