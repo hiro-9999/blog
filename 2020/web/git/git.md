@@ -13,6 +13,11 @@ git reset --hard HEAD
 git reset --hard ORIG_HEAD
  
  ## git checkout
+ $ git checkout release                  # releaseブランチに切り替え
+$ git pull                              # releaseブランチの最新化
+$ git merge --no-ff --no-commit develop # developブランチをreleaseブランチにマージ
+https://qiita.com/is_mgmt_dept/items/4c16b31e0b81e9d1a8fb
+
  ## git fetch origin
  
  ## git pull
@@ -27,3 +32,9 @@ pullというのは内部でfetch + mergeをしているからです。
 $ git describe
 　　 v1.6.23
    https://qiita.com/sai2017/items/f884f7e35de9579977db
+
+
+## ローカルの変更を全て破棄してリモートに合わせたい
+
+$ git fetch origin
+$ git reset --hard origin/{branch name}
