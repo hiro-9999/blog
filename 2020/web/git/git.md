@@ -38,3 +38,5 @@ $ git describe
 
 $ git fetch origin
 $ git reset --hard origin/{branch name}
+
+https://www.lanches.co.jp/blog/10801
