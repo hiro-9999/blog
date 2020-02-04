@@ -14,8 +14,16 @@ git reset --hard ORIG_HEAD
  
  ## git checkout
  ## git fetch origin
+ 
  ## git pull
+ ブランチを最新にする
+ 
  ## git merge
  https://backlog.com/ja/git-tutorial/stepup/09/
 
 pullというのは内部でfetch + mergeをしているからです。
+
+## masterブランチの最新のタグ名を確認
+$ git describe
+　　 v1.6.23
+   https://qiita.com/sai2017/items/f884f7e35de9579977db
