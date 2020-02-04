@@ -8,3 +8,7 @@ WebXR Device API: Enabled
 Oculus VR support: Enabled (Oculus Rift, RiftS用)
 OpenVR support: Enabled (HTC VIVE用)
 XR device sandboxing: Disabled
+
+
+## WebVR to WebXR Migration Guide
+https://github.com/immersive-web/webxr/blob/master/webvr-migration.md
