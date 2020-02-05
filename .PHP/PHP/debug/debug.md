@@ -1,0 +1,1 @@
+			$x = $current->content->getArrayCopy();
