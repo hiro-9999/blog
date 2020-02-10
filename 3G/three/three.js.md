@@ -1,5 +1,13 @@
 https://stackoverflow.com/questions/53473529/three-js-project-keeping-camera-centered-on-object-in-top-down-view
+3D format https://forum.skybox.xyz/d/157-filename-rules-for-vr-format
+3dv, TB, Top + Bottom, OU, Over + Under, HOU, Half + OU, Half + Over + Under
+3dh, LR, Left + Right, SBS, Side + By + Side, HSBS, Half + SBS, Half + Side + By + Side
 
+Angles
+360, 360°, 180x180, 180°
+
+Fisheye aka Youtube 180
+F180, VR180
 ## top-down
 
 var horizontal_degrees = 0;
