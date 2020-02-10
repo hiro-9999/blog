@@ -8,6 +8,11 @@ Angles
 
 Fisheye aka Youtube 180
 F180, VR180
+
+## TopBottom 左のカメラからは右のカメラ
+https://www.kadinche.com/stereoscopic-vr%E5%8B%95%E7%94%BB%E3%81%AE%E4%BD%9C%E6%88%90%E4%BE%8B/
+
+
 ## top-down
 
 var horizontal_degrees = 0;
