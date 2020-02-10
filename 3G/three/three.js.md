@@ -13,5 +13,11 @@ camera.position.y = originY + radius * Math.cos( phi );
 camera.position.z = originZ + radius * Math.sin( phi ) * Math.sin( theta );
 
 
-## StereoEffect.js → ２画面
+## StereoEffect.js → ２画面 ok
 https://ara-web.net/blog/three-js/post-3533/
+
+
+https://embed.plnkr.co/mKyWyMIwgjj89GuSdPgF/
+
+## 3D Top (left) / Bottom (right)
+https://inter-stream.jp/interstream_support/docs/05_04.html
