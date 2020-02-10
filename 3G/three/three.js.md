@@ -1,3 +1,6 @@
+## トップボトム	ボトムトップ
+https://support.oculus.com/1707817122769530/
+
 https://stackoverflow.com/questions/53473529/three-js-project-keeping-camera-centered-on-object-in-top-down-view
 3D format https://forum.skybox.xyz/d/157-filename-rules-for-vr-format
 3dv, TB, Top + Bottom, OU, Over + Under, HOU, Half + OU, Half + Over + Under
