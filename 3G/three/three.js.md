@@ -11,7 +11,11 @@ F180, VR180
 
 ## TopBottom 左のカメラからは右のカメラ
 https://www.kadinche.com/stereoscopic-vr%E5%8B%95%E7%94%BB%E3%81%AE%E4%BD%9C%E6%88%90%E4%BE%8B/
+人間の目の間の距離を瞳孔間距離(IPD: Interpupillary distance)
+http://greety.sakura.ne.jp/doubt/2017/01/25/ucvr-eye-front-side-vr-video/
 
+
+https://immersionvr.co.uk/blog/monoscopic-vs-stereoscopic-360-vr/
 
 ## top-down
 
@@ -34,3 +38,7 @@ https://embed.plnkr.co/mKyWyMIwgjj89GuSdPgF/
 
 ## 3D Top (left) / Bottom (right)
 https://inter-stream.jp/interstream_support/docs/05_04.html
+
+
+## Shade3DでのVRコンテンツの作成
+https://blog.shade3d.jp/vr/archives/449
