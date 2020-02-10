@@ -1,4 +1,5 @@
-## トップボトム	ボトムトップ
+## トップボトム	ボトムトップ 
+https://developer.oculus.com/documentation/native/android/mobile-media-overview/
 https://support.oculus.com/1707817122769530/
 
 https://stackoverflow.com/questions/53473529/three-js-project-keeping-camera-centered-on-object-in-top-down-view
