@@ -3,6 +3,7 @@ https://rustcc.gitbooks.io/rustprimer/content/install/rustup.html
 https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html
 
 >Rust 版本管理工具: rustup
+https://marketplace.visualstudio.com/items?itemName=rust-lang.rust
 
 >book
 https://haobook.org/search/?q=rust
