@@ -14,6 +14,7 @@ https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
 
 
 ## Rust语言中文社区
+https://rust.cc/
 https://rust-china.org/?from=singlemessage&isappinstalled=0
 
 ## Rust + rusoto でAWS
