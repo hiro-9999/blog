@@ -11,6 +11,9 @@ https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
 ## Rust语言中文社区
 https://rust-china.org/?from=singlemessage&isappinstalled=0
 
+## Rust + rusoto でAWS
+https://dev.classmethod.jp/server-side/language/rust-access-aws-using-rusoto/
+
 ## 使用Rust + Electron开发跨平台桌面应用 ( 一 ) - 编程语言杂记
 https://segmentfault.com/a/1190000018065373?from=singlemessage&isappinstalled=0
 
