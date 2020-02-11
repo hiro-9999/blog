@@ -4,7 +4,10 @@ https://learning.oreilly.com/library/view/mastering-rust-/9781789346572/
 https://www.packtpub.com/support/code-downloads
 
 ## Rust learn
+$ curl https://sh.rustup.rs -sSf | sh
 https://doc.rust-lang.org/book/ch01-01-installation.html
+rustc 1.41.0 (5e1a79984 2020-01-27)
+
 https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
 
 
