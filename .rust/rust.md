@@ -2,6 +2,8 @@
 https://rustcc.gitbooks.io/rustprimer/content/install/rustup.html
 https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html
 
+>Rust 版本管理工具: rustup
+
 ## Rust example
 https://doc.rust-lang.org/rust-by-example/index.html
 
