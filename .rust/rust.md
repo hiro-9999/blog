@@ -28,6 +28,10 @@ rustup component add rust-src
 
 rustup component add rls
 
+>Lintツール(Clippy)は
+
+rustup component add clippy
+
 ## Rust 基本要素汇集
 https://rustforce.net
 
