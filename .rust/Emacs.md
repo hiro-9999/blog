@@ -1,4 +1,8 @@
 ## Emacs
+C-x C-s --save
+C-x C-w --save new file
+C-x C-c --quit
+https://qiita.com/bussorenre/items/bbe757ef87e16c3d31ff
 http://nigohiroki.hatenablog.com/entry/2012/09/16/005841
 
 https://rustcc.gitbooks.io/rustprimer/content/editors/emacs.html
