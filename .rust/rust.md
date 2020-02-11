@@ -8,9 +8,15 @@ https://doc.rust-lang.org/rust-by-example/index.html
 ·online·
 https://play.rust-lang.org/
 >cargo fix
+
 >常用组件：
-Rust 源代码 rustup component add rust-src
-Rust Langular Server (RLS) rustup component add rls
+>Rust 源代码 
+
+rustup component add rust-src
+
+>Rust Langular Server (RLS) 
+
+rustup component add rls
 
 ## Rust 基本要素汇集
 https://rustforce.net
