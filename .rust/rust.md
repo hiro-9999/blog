@@ -4,6 +4,9 @@ https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html
 
 >Rust 版本管理工具: rustup
 
+>book
+https://haobook.org/search/?q=rust
+
 ## install racer
 rustup install nightly
 cargo +nightly install racer
