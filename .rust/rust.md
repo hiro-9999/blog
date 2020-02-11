@@ -1,6 +1,10 @@
 ## frist
+https://rustcc.gitbooks.io/rustprimer/content/quickstart/quickstart.html
+
 https://rustcc.gitbooks.io/rustprimer/content/install/rustup.html
+
 https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html
+https://github.com/photino/rust-notes
 
 >Rust 版本管理工具: rustup
 https://marketplace.visualstudio.com/items?itemName=rust-lang.rust
