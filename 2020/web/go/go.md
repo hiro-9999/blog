@@ -6,6 +6,9 @@ https://golang.org/doc/install
 ## go collection
 https://github.com/jiujuan/go-collection
 
+## frist
+https://engineer-fumi.hatenablog.com/entry/2019/03/16/115514
+
 ## study golang page
 https://studygolang.com
 
