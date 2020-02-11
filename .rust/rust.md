@@ -7,6 +7,7 @@ https://www.packtpub.com/support/code-downloads
 $ curl https://sh.rustup.rs -sSf | sh
 https://doc.rust-lang.org/book/ch01-01-installation.html
 rustc 1.41.0 (5e1a79984 2020-01-27)
+https://doc.rust-lang.org/book/ch09-03-to-panic-or-not-to-panic.html
 
 https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
 
