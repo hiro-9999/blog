@@ -4,6 +4,7 @@ https://learning.oreilly.com/library/view/mastering-rust-/9781789346572/
 https://www.packtpub.com/support/code-downloads
 
 ## Rust learn
+https://doc.rust-lang.org/book/ch01-01-installation.html
 https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
 
 
