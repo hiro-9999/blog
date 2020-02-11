@@ -1,3 +1,6 @@
+## frist
+https://kaisery.github.io/trpl-zh-cn/ch10-02-traits.html
+
 ## Rust 基本要素汇集
 https://rustforce.net
 
