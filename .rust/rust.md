@@ -3,6 +3,9 @@ https://learning.oreilly.com/library/view/mastering-rust-/9781789346572/
 
 https://www.packtpub.com/support/code-downloads
 
+## Rust learn
+https://mp.weixin.qq.com/s/aRGY6oLXVQzxbb1wb3RGcA
+
 
 
 ## Rust语言中文社区
