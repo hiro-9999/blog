@@ -12,6 +12,9 @@ https://marketplace.visualstudio.com/items?itemName=rust-lang.rust
 >book
 https://haobook.org/search/?q=rust
 
+## basic
+https://doc.rust-lang.org/book/ch01-01-installation.html
+
 ## install racer
 rustup install nightly
 cargo +nightly install racer
