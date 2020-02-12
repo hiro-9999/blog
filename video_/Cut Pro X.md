@@ -10,3 +10,7 @@ https://www.bilibili.com/video/av15099374?from=search&seid=5971664107910047712
 
 >Arctime pro
 https://mac.orsoon.com/Mac/166116.html
+
+
+## macOS CatalinaにApple Java 6を無理矢理インストールする方法
+https://www.softantenna.com/wp/tips/macos-catalina-apple-java-6/
