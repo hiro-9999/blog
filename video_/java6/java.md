@@ -11,5 +11,9 @@ do shell script "rm -rf ~/tmp"
 display dialog "Modified Java.pkg saved on desktop" buttons {"Ok"}
 
 ## mac
+files broken，「壊れているため開けません。 ゴミ箱に入れる必要があります。」
+https://qiita.com/daddygongon/items/3321b4f6e1aa213c75e8
+
 xattr -c **.app
+
 sudo spctl --master-disable
