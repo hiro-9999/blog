@@ -9,3 +9,6 @@ do shell script "sed -i '' 's/return false/return true/g' ~/tmp/Distribution"
 do shell script "pkgutil --flatten ~/tmp ~/Desktop/Java.pkg"
 do shell script "rm -rf ~/tmp"
 display dialog "Modified Java.pkg saved on desktop" buttons {"Ok"}
+
+## mac
+sudo spctl --master-disable
