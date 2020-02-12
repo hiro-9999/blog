@@ -11,4 +11,5 @@ do shell script "rm -rf ~/tmp"
 display dialog "Modified Java.pkg saved on desktop" buttons {"Ok"}
 
 ## mac
+xattr -c **.app
 sudo spctl --master-disable
