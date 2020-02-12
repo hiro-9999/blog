@@ -1,4 +1,5 @@
 ## .scpt ->save
+https://www.softantenna.com/wp/tips/macos-catalina-apple-java-6/
 
 set theDMG to choose file with prompt "Please select javaforosx.dmg:" of type {"dmg"}
 do shell script "hdiutil mount " & quoted form of POSIX path of theDMG
