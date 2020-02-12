@@ -1,4 +1,8 @@
 ## frist
+>rustup update
+>rustup run nightly cargo run
+https://qiita.com/chikoski/items/b6461367e8c3875bb235
+
 https://rustcc.gitbooks.io/rustprimer/content/quickstart/quickstart.html
 
 https://rustcc.gitbooks.io/rustprimer/content/install/rustup.html
