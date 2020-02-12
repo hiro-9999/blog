@@ -16,7 +16,7 @@ https://haobook.org/search/?q=rust
 https://doc.rust-lang.org/book/ch01-01-installation.html
 
 ## install racer
-rustup install nightly
+cargo install +nightly
 cargo +nightly install racer
 
 ## Rust Language Server (RLS)
