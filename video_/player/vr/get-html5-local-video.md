@@ -1,3 +1,6 @@
+## is good!
+https://github.com/hiro-9999/blog/blob/master/video_/player/vr/getvideofromlocal.html
+
 https://stackoverflow.com/questions/8885701/play-local-hard-drive-video-file-with-html5-video-tag
 
 ```
