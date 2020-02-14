@@ -18,3 +18,6 @@ https://github.com/BIVROST/360PlayerWindows
 
 ## PSVR for the PC:
 https://github.com/thestr4ng3r/psvr
+
+## vive
+https://developer.vive.com/resources/knowledgebase/vive-plugins/
