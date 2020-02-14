@@ -1,0 +1,75 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://s3.deovr.com/version/1/css/styles.css"/>
+    <script src="https://s3.deovr.com/version/1/js/bundle.js" async></script>
+    <style>
+        video,
+input {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.info {
+  background-color: aqua;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+    </style>
+
+</head>
+<body>
+    <h1>HTML5 local video file player example</h1>
+<div id="message"></div>
+<video controls="" autoplay="" style="display: none;" ></video>
+<input type="file" accept="video/*">
+
+<deo-video>
+</deo-video>
+    <script type="text/javascript">
+        (function localFileVideoPlayer() {
+  'use strict'
+  var URL = window.URL || window.webkitURL
+  var displayMessage = function(message, isError) {
+    var element = document.querySelector('#message')
+    element.innerHTML = message
+    element.className = isError ? 'error' : 'info'
+  }
+  var playSelectedFile = function(event) {
+    var file = this.files[0]
+    var type = file.type
+    var videoNode = document.querySelector('video')
+    var canPlay = videoNode.canPlayType(type)
+    if (canPlay === '') canPlay = 'no'
+    var message = 'Can play type "' + type + '": ' + canPlay
+    var isError = canPlay === 'no'
+    displayMessage(message, isError)
+
+    if (isError) {
+      return
+    }
+
+    var fileURL = URL.createObjectURL(file)
+    videoNode.src = fileURL
+
+     var test = '<source src=' + fileURL +'/>';
+     $('deo-video').append(test);
+
+    // <source src=”http://domain.com/video_1080.mp4” quality=”1080p”/>
+
+
+  }
+  var inputNode = document.querySelector('input')
+  inputNode.addEventListener('change', playSelectedFile, false)
+})()
+
+    </script>
+
+<div class="as-console-wrapper"><div class="as-console"></div></div></body>
+</html>
