@@ -1,5 +1,6 @@
 ## 全ての子孫要素から取得する.find()
 https://uxmilk.jp/10873
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
 ```
 HTML
