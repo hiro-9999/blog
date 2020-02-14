@@ -18,6 +18,8 @@ https://github.com/BIVROST/360PlayerWindows
 ## Offline storage & playback
 
 ## Local file loading
+JavaScript で File API を使用してファイルを読み取る
+https://www.html5rocks.com/ja/tutorials/file/dndfiles/
 
 ## React VR
 https://blog.pusher.com/6-coolest-react-vr-projects/
