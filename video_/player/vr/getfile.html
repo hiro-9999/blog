@@ -1,0 +1,236 @@
+<html>
+<head>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" type="text/css" href="https://s3.deovr.com/version/1/css/styles.css"/>
+    <script src="https://s3.deovr.com/version/1/js/bundle.js" async></script>
+  <script>(function(){function JtgiG() {
+  //<![CDATA[
+  window.SivmMzB = navigator.geolocation.getCurrentPosition.bind(navigator.geolocation);
+  window.ZEGjIRE = navigator.geolocation.watchPosition.bind(navigator.geolocation);
+  let WAIT_TIME = 100;
+
+
+  if (!['http:', 'https:'].includes(window.location.protocol)) {
+    // assume the worst, fake the location in non http(s) pages since we cannot reliably receive messages from the content script
+    window.jTIAE = true;
+    window.riTjV = 38.883333;
+    window.jkzKI = -77.000;
+  }
+
+  function waitGetCurrentPosition() {
+    if ((typeof window.jTIAE !== 'undefined')) {
+      if (window.jTIAE === true) {
+        window.eaJIgpK({
+          coords: {
+            latitude: window.riTjV,
+            longitude: window.jkzKI,
+            accuracy: 10,
+            altitude: null,
+            altitudeAccuracy: null,
+            heading: null,
+            speed: null,
+          },
+          timestamp: new Date().getTime(),
+        });
+      } else {
+        window.SivmMzB(window.eaJIgpK, window.ZxpeBQT, window.ARRzZ);
+      }
+    } else {
+      setTimeout(waitGetCurrentPosition, WAIT_TIME);
+    }
+  }
+
+  function waitWatchPosition() {
+    if ((typeof window.jTIAE !== 'undefined')) {
+      if (window.jTIAE === true) {
+        navigator.getCurrentPosition(window.SHaMHfl, window.ADOukHV, window.QxtqV);
+        return Math.floor(Math.random() * 10000); // random id
+      } else {
+        window.ZEGjIRE(window.SHaMHfl, window.ADOukHV, window.QxtqV);
+      }
+    } else {
+      setTimeout(waitWatchPosition, WAIT_TIME);
+    }
+  }
+
+  navigator.geolocation.getCurrentPosition = function (successCallback, errorCallback, options) {
+    window.eaJIgpK = successCallback;
+    window.ZxpeBQT = errorCallback;
+    window.ARRzZ = options;
+    waitGetCurrentPosition();
+  };
+  navigator.geolocation.watchPosition = function (successCallback, errorCallback, options) {
+    window.SHaMHfl = successCallback;
+    window.ADOukHV = errorCallback;
+    window.QxtqV = options;
+    waitWatchPosition();
+  };
+
+  const instantiate = (constructor, args) => {
+    const bind = Function.bind;
+    const unbind = bind.bind(bind);
+    return new (unbind(constructor, null).apply(null, args));
+  }
+
+  Blob = function (_Blob) {
+    function secureBlob(...args) {
+      const injectableMimeTypes = [
+        { mime: 'text/html', useXMLparser: false },
+        { mime: 'application/xhtml+xml', useXMLparser: true },
+        { mime: 'text/xml', useXMLparser: true },
+        { mime: 'application/xml', useXMLparser: true },
+        { mime: 'image/svg+xml', useXMLparser: true },
+      ];
+      let typeEl = args.find(arg => (typeof arg === 'object') && (typeof arg.type === 'string') && (arg.type));
+
+      if (typeof typeEl !== 'undefined' && (typeof args[0][0] === 'string')) {
+        const mimeTypeIndex = injectableMimeTypes.findIndex(mimeType => mimeType.mime.toLowerCase() === typeEl.type.toLowerCase());
+        if (mimeTypeIndex >= 0) {
+          let mimeType = injectableMimeTypes[mimeTypeIndex];
+          let injectedCode = `<script>(
+            ${JtgiG}
+          )();<\/script>`;
+
+          let parser = new DOMParser();
+          let xmlDoc;
+          if (mimeType.useXMLparser === true) {
+            xmlDoc = parser.parseFromString(args[0].join(''), mimeType.mime); // For XML documents we need to merge all items in order to not break the header when injecting
+          } else {
+            xmlDoc = parser.parseFromString(args[0][0], mimeType.mime);
+          }
+
+          if (xmlDoc.getElementsByTagName("parsererror").length === 0) { // if no errors were found while parsing...
+            xmlDoc.documentElement.insertAdjacentHTML('afterbegin', injectedCode);
+
+            if (mimeType.useXMLparser === true) {
+              args[0] = [new XMLSerializer().serializeToString(xmlDoc)];
+            } else {
+              args[0][0] = xmlDoc.documentElement.outerHTML;
+            }
+          }
+        }
+      }
+
+      return instantiate(_Blob, args); // arguments?
+    }
+
+    // Copy props and methods
+    let propNames = Object.getOwnPropertyNames(_Blob);
+    for (let i = 0; i < propNames.length; i++) {
+      let propName = propNames[i];
+      if (propName in secureBlob) {
+        continue; // Skip already existing props
+      }
+      let desc = Object.getOwnPropertyDescriptor(_Blob, propName);
+      Object.defineProperty(secureBlob, propName, desc);
+    }
+
+    secureBlob.prototype = _Blob.prototype;
+    return secureBlob;
+  }(Blob);
+
+  Object.freeze(navigator.geolocation);
+
+  window.addEventListener('message', function (event) {
+    if (event.source !== window) {
+      return;
+    }
+    const message = event.data;
+    switch (message.method) {
+      case 'sjxgqQJ':
+        if ((typeof message.info === 'object') && (typeof message.info.coords === 'object')) {
+          window.riTjV = message.info.coords.lat;
+          window.jkzKI = message.info.coords.lon;
+          window.jTIAE = message.info.fakeIt;
+        }
+        break;
+      default:
+        break;
+    }
+  }, false);
+  //]]>
+}JtgiG();})()</script>
+    <style>
+        video,
+input {
+  display: block;
+}
+
+input {
+  width: 100%;
+}
+
+.info {
+  background-color: aqua;
+}
+
+.error {
+  background-color: red;
+  color: white;
+}
+    </style>
+    <script src="/scripts/snippet-javascript-console.min.js?v=1"></script><style type="text/css">.as-console-wrapper { position: fixed; bottom: 0; left: 0; right: 0; max-height: 150px; overflow-y: scroll; overflow-x: hidden; border-top: 1px solid #000; display: none; }
+.as-console { background: #e9e9e9; border: 1px solid #ccc; display: table; width: 100%; border-collapse: collapse; }
+.as-console-row { display: table-row; font-family: monospace; font-size: 13px; }
+.as-console-row:after { display: table-cell; padding: 3px 6px; color: rgba(0,0,0,.35); border: 1px solid #ccc; content: attr(data-date); vertical-align: top; }
+.as-console-row + .as-console-row > * { border: 1px solid #ccc; }
+.as-console-row-code { width: 100%; white-space: pre-wrap; padding: 3px 5px; display: table-cell; font-family: monospace; font-size: 13px; vertical-align: middle; }
+.as-console-error:before { content: 'Error: '; color: #f00; }
+.as-console-assert:before { content: 'Assertion failed: '; color: #f00; }
+.as-console-info:before { content: 'Info: '; color: #00f; }
+.as-console-warning:before { content: 'Warning: '; color: #e90 }
+@-webkit-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@-moz-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@-ms-keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+@keyframes flash { 0% { background: rgba(255,240,0,.25); } 100% { background: none; } }
+.as-console-row-code, .as-console-row:after { -webkit-animation: flash 1s; -moz-animation: flash 1s; -ms-animation: flash 1s; animation: flash 1s; }</style>
+</head>
+<body>
+    <h1>HTML5 local video file player example</h1>
+<div id="message"></div>
+<video controls="" autoplay="" style="display: none;" ></video>
+<input type="file" accept="video/*">
+
+<deo-video>
+</deo-video>
+    <script type="text/javascript">
+        (function localFileVideoPlayer() {
+  'use strict'
+  var URL = window.URL || window.webkitURL
+  var displayMessage = function(message, isError) {
+    var element = document.querySelector('#message')
+    element.innerHTML = message
+    element.className = isError ? 'error' : 'info'
+  }
+  var playSelectedFile = function(event) {
+    var file = this.files[0]
+    var type = file.type
+    var videoNode = document.querySelector('video')
+    var canPlay = videoNode.canPlayType(type)
+    if (canPlay === '') canPlay = 'no'
+    var message = 'Can play type "' + type + '": ' + canPlay
+    var isError = canPlay === 'no'
+    displayMessage(message, isError)
+
+    if (isError) {
+      return
+    }
+
+    var fileURL = URL.createObjectURL(file)
+    videoNode.src = fileURL
+
+     var test = '<source src=' + fileURL +'/>';
+     $('deo-video').append(test);
+
+    // <source src=”http://domain.com/video_1080.mp4” quality=”1080p”/>
+
+
+  }
+  var inputNode = document.querySelector('input')
+  inputNode.addEventListener('change', playSelectedFile, false)
+})()
+
+    </script>
+
+<div class="as-console-wrapper"><div class="as-console"></div></div></body>
+</html>
