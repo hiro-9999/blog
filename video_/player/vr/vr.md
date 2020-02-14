@@ -15,7 +15,9 @@ Compatible with Windows 8.1 and 10
 
 https://github.com/BIVROST/360PlayerWindows
 
-## Offline storage & playback
+## HTML5 local video file player  ---->ok
+>play a local video file. Offline storage & playback
+https://stackoverflow.com/questions/8885701/play-local-hard-drive-video-file-with-html5-video-tag
 
 ## Local file loading
 JavaScript で File API を使用してファイルを読み取る
