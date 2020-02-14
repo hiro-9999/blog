@@ -17,6 +17,8 @@ https://github.com/BIVROST/360PlayerWindows
 
 ## Offline storage & playback
 
+## Local file loading
+
 ## React VR
 https://blog.pusher.com/6-coolest-react-vr-projects/
 
