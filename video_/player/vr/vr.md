@@ -15,6 +15,9 @@ Compatible with Windows 8.1 and 10
 
 https://github.com/BIVROST/360PlayerWindows
 
+## Electron
+https://qiita.com/Quramy/items/a4be32769366cfe55778
+
 
 ## PSVR for the PC:
 https://github.com/thestr4ng3r/psvr
