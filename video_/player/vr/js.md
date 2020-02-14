@@ -1,6 +1,16 @@
 ## jQueryでの要素追加メソッド
 .append('<li>追加されました</li>');
 
+>変数を使用する
+https://engineer-club.jp/jquery-append
+$("#appendTest").click(function(){
+ //HTMLコンテンツの作成
+ var add_contents = '<li>PHP</li>'
+       add_contents += '<li><strong>Ruby</strong></li>'
+ //追加
+ $('ul').append(add_contents);
+});
+
 ## jQueryで子要素を取得する
 https://www.flatflag.nir87.com/children-996
 https://uxmilk.jp/10873
