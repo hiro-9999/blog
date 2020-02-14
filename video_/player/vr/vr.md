@@ -25,6 +25,9 @@ https://qiita.com/Quramy/items/a4be32769366cfe55778
 ## Firefox Reality
 https://github.com/MozillaReality/FirefoxReality
 
+## Web App のオフライン ストレージ
+https://developers.google.com/web/fundamentals/instant-and-offline/web-storage/offline-for-pwa?hl=ja
+
 ## Orion360
 https://github.com/FinweLtd/orion360-sdk-pro-examples-android
 
