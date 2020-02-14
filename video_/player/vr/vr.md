@@ -16,6 +16,8 @@ Compatible with Windows 8.1 and 10
 https://github.com/BIVROST/360PlayerWindows
 
 ## Electron
+https://www.electronjs.org/apps/vrap
+
 https://qiita.com/Quramy/items/a4be32769366cfe55778
 
 
