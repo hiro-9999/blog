@@ -1,3 +1,6 @@
+## jQueryでの要素追加メソッド
+.append('<li>追加されました</li>');
+
 ## jQueryで子要素を取得する
 https://www.flatflag.nir87.com/children-996
 https://uxmilk.jp/10873
