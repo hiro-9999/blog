@@ -27,5 +27,19 @@ docker run -p 8080:8080 -p 50000:50000 -v jenkins_home:/var/jenkins_home jenkins
 这里 -v 代表“Volume”。如果没有 Volume，它将自动创建一个 Volume。你可以查看 Docker 相关文档以了解更多信息。
 
 
+## pipeline
 
+```
+docker pull alpine
+```
+
+我们必须在容器和 Docker 之间建立一座桥梁，用“Volume”定义来解决这个问题。
+
+```
+-v /var/run/docker.sock:/var/run/docker.sock  -v $(which docker):$(which docker) 
+```
+分析一下上面的命令。其中，docke.sock 文件用于侦听套接字（socket）。在将这些 Volume 添加到命令行之后，docker.sock 会挂载到本地计算机（localmachine）里的 docker.sock 文件中。
+```
+docker run -p 8080:8080 -p 50000:50000 --name jenkins  -v jenkins_home:/var/jenkins_home -v /var/run/docker.sock:/var/run/docker.sock  -v $(which docker):$(which docker)  jenkins/jenkins:lts
+```
 
