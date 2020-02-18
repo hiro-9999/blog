@@ -3,6 +3,7 @@ sudo !!
 //install  wget// 
 sudo yum install wget
 install php
+yum -y install nmap-ncat
 
 https://www.task-notes.com/entry/20150714/1436842800
  vagrant vbguest --do install
