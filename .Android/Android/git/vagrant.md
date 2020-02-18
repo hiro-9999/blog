@@ -12,6 +12,8 @@ https://www.task-notes.com/entry/20150714/1436842800
  https://qiita.com/tomk79/items/afa1392679e328c30a78
 sudo yum -y install git
 https://qiita.com/AkihikoIkeda/items/6e886f74a934e0ddfcab
+
+sudo yum -y install git apt
 vagrant up
 
 ## VagrantでCentOS7をインストール
