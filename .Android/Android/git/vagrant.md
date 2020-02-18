@@ -1,3 +1,6 @@
+## vagrant plugin install vagrant-vbguest
+vagrant up
+
 ## VagrantでCentOS7をインストール
 https://qiita.com/RyochanUedasan/items/b1ff13bc39913cb5b561
 
