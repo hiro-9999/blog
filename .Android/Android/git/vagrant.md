@@ -1,5 +1,7 @@
 ## vagrant plugin install vagrant-vbguest
 https://www.task-notes.com/entry/20150714/1436842800
+ vagrant vbguest --do install
+ vagrant vbguest --do start   # 起動
 
 vagrant up
 
