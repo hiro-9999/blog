@@ -1,4 +1,9 @@
 ## vagrant plugin install vagrant-vbguest
+sudo !!
+//install  wget// 
+sudo yum install wget
+install php
+
 https://www.task-notes.com/entry/20150714/1436842800
  vagrant vbguest --do install
  vagrant vbguest --do start   # 起動
