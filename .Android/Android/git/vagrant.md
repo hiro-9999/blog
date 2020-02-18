@@ -22,6 +22,11 @@ $ VBoxManage -v
 $ vagrant -v
 Vagrant 1.7.4
 
+sudo rpm -Uvh --nosignature http://rpms.famillecollet.com/enterprise/remi-release-6.rpm
+
+config.vm.provision :shell, run: “always”  do |s|
+    s.path = “./scripts/install.sh”
+  end
 
 $ mkdir vagrant_centos7
 $ cd vagrant_centos7
