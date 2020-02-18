@@ -7,6 +7,7 @@ install php
 https://www.task-notes.com/entry/20150714/1436842800
  vagrant vbguest --do install
  vagrant vbguest --do start   # 起動
+ sudo yum install --enablerepo=remi,remi-php65 php
  
  https://qiita.com/tomk79/items/afa1392679e328c30a78
 sudo yum -y install git
