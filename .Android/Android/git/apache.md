@@ -1,6 +1,6 @@
 https://qiita.com/ysk24ok/items/ffe8d5d1479aaf5afeaa
 
-sudo lsof -i | grep http
+sudo netstat -lnp | grep :80  
  sudo kill -9 27512
 ## sudo /etc/init.d/httpd restart
 https://qiita.com/rimoenic/items/81385e08cf772ae5cfe4
