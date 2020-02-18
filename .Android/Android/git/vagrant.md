@@ -4,7 +4,8 @@ https://www.task-notes.com/entry/20150714/1436842800
  vagrant vbguest --do start   # 起動
  
  https://qiita.com/tomk79/items/afa1392679e328c30a78
-
+sudo yum -y install git
+https://qiita.com/AkihikoIkeda/items/6e886f74a934e0ddfcab
 vagrant up
 
 ## VagrantでCentOS7をインストール
