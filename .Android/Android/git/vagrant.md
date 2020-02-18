@@ -1,4 +1,6 @@
 ## vagrant plugin install vagrant-vbguest
+https://www.task-notes.com/entry/20150714/1436842800
+
 vagrant up
 
 ## VagrantでCentOS7をインストール
