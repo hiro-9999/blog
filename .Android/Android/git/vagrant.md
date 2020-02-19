@@ -1,3 +1,6 @@
+
+## vagrant box add bento/centos-6.7 https://atlas.hashicorp.com/bento/boxes/centos-6.7
+https://qiita.com/tsnb/items/47bca690e4a722653bc1
 ## vagrant plugin install vagrant-vbguest
 sudo !!
 //install  wget// 
