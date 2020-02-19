@@ -1,3 +1,6 @@
+nodebrew install-binary v12.13.1
+nodebrew use v12.13.1
+
 
 cd front/react
 
