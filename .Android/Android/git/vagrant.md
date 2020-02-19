@@ -1,3 +1,5 @@
+cat /etc/centos-release
+yum search netcat
 
 ## vagrant box add bento/centos-6.7 https://atlas.hashicorp.com/bento/boxes/centos-6.7
 https://qiita.com/tsnb/items/47bca690e4a722653bc1
@@ -15,7 +17,7 @@ sudo !!
 //install  wget// 
 sudo yum install wget
 install php
-yum -y install nmap-ncat
+//yum -y install nmap-ncat
 
 https://www.task-notes.com/entry/20150714/1436842800
  vagrant vbguest --do install
