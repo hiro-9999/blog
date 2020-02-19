@@ -4,7 +4,9 @@ https://qiita.com/tsnb/items/47bca690e4a722653bc1
 
 https://go-journey.club/archives/3766
 
+yum update net-tools
 vagrant box remove centos65
+
 ## vagrant plugin install vagrant-vbguest
 sudo !!
 //install  wget// 
