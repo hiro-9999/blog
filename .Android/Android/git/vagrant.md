@@ -6,6 +6,8 @@ https://qiita.com/NAZA/items/adb849e795861d81a520
 
 ## VagrantでCentOS6.7環境構築
 https://qiita.com/NAZA/items/9fdc1774e4dda0acb617
+yum update
+rpm -ivh http://ftp-srv2.kddilabs.jp/Linux/distributions/fedora/epel/6/x86_64/epel-release-6-8.noarch.rpm
 インストールするもの
 Apache
 php 5.6
