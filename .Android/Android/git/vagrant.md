@@ -1,4 +1,6 @@
-cat /etc/centos-release
+cat /etc/centos-relea
+
+https://qiita.com/Esfahan/items/46da3ce1893a67789b58se
 yum search netcat
 
 ## vagrant box add bento/centos-6.7 https://atlas.hashicorp.com/bento/boxes/centos-6.7
