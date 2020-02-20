@@ -1,6 +1,18 @@
-cat /etc/centos-relea
+## centos67
+vagrant box add centos67 https://github.com/CommanderK5/packer-centos-template/releases/download/0.6.7/vagrant-centos-6.7.box
 
-https://qiita.com/Esfahan/items/46da3ce1893a67789b58se
+https://qiita.com/NAZA/items/adb849e795861d81a520
+
+
+## VagrantでCentOS6.7環境構築
+https://qiita.com/NAZA/items/9fdc1774e4dda0acb617
+インストールするもの
+Apache
+php 5.6
+mysql5.6
+
+
+  cat /etc/centos-relea
 yum search netcat
 
 ## vagrant box add bento/centos-6.7 https://atlas.hashicorp.com/bento/boxes/centos-6.7
