@@ -1,3 +1,6 @@
+www.php.net
+
+
 >time php index.php
 
 3.新增操作符“<=>”
