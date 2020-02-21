@@ -6,6 +6,10 @@ is a PHP framework for testing.
 去php.ini搜索disable_functions去掉proc_get_status即可.
 https://www.jianshu.com/p/2d65cfd09e91
 
+## slim
+https://github.com/herloct/codeception-slim-module
+http://www.slimframework.com/
+
 ## codeception/phpunit-wrapper
 http://packagist.p2hp.com/packages/codeception/phpunit-wrapper
 
