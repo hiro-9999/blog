@@ -6,6 +6,8 @@ is a PHP framework for testing.
 去php.ini搜索disable_functions去掉proc_get_status即可.
 https://www.jianshu.com/p/2d65cfd09e91
 
+## codeception/phpunit-wrapper
+http://packagist.p2hp.com/packages/codeception/phpunit-wrapper
 
 ## Codeceptionはテストの実行環境としてPHPUnitを使用しています
 https://simple-it-life.com/2017/07/02/codeception-slim/
