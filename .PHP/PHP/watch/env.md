@@ -16,3 +16,7 @@ $ docker exec -it php /bin/bash
 // mysqlに接続
 mysql -u root -p -h mysql
 https://qiita.com/infr_0329/items/d0883093e348ac190592
+
+
+## Docker × Visual Studio CodeでPHP開発【デバッグ実行】
+https://qiita.com/MasanoriIwakura/items/a310c75e6c5b347adf37
