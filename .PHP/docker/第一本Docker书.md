@@ -15,8 +15,14 @@ Docker官网（http://www.docker.com/）。
 ## Docker info
 ```
 docker exect -i -d name /bin/bash
-
+# docker run -d -it --name cont1 -v /disk1 centos:7 
+-v (--volume) オプションは、docker run によるコンテナ作成時に -v で作成したボリュームも同時に削除します。ただし、名前付きのボリュームやパス名を指定したディレクトリは削除しません。
+docker volume ls
 docker-machine ip
+
+docker run -it -d -p <ホスト側ポート>:<コンテナ側ポート> -v <ホスト側ディレクトリ>:<コンテナ側ディレクトリ> --name <コンテナ名> <Dockerイメージ名>
+# docker ps -a
+https://knowledge.sakura.ad.jp/14427/
 
 whereis curl
 ps -aux
