@@ -19,6 +19,17 @@ docker stop 0b5aad08487b
 
 docker image ls
 docker system df
+
+docker run -it --rm ubuntu:18.04  cat etc/resolv.conf
+sudo iptables -nL
+sudo brctl show
+ip addr show eth0
+
+“sudo systemctl stop docker
+$ sudo ip link set dev docker0 down
+$ sudo brctl delbr docker0”
+
+docker-compose --version
 ```
 https://qiita.com/kooohei/items/0e788a2ce8c30f9dba53
 
