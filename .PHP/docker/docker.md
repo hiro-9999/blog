@@ -1,7 +1,7 @@
 “Docker 包括三个基本概念
 # hub
 https://hub.docker.com/search?q=&type=image
-'''
+```
 docker pull ubuntu:18.04”
 
 docker run -it --rm \
@@ -19,7 +19,7 @@ docker stop 0b5aad08487b
 
 docker image ls
 docker system df
-'''
+```
 https://qiita.com/kooohei/items/0e788a2ce8c30f9dba53
 
 ## delete img
