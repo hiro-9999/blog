@@ -17,6 +17,9 @@ docker stop 0b5aad08487b
 
 docker image ls
 docker system df
+
+https://qiita.com/kooohei/items/0e788a2ce8c30f9dba53
+
 ## delete img
 docker image prune
 docker image rm 
