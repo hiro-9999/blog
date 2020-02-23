@@ -31,6 +31,9 @@ $ sudo brctl delbr docker0”
 
 docker-compose --version
 ```
+“使用 RUN apt-get update && apt-get install -y 可以确保你的 Dockerfiles 每次安装的都是包的最新的版本，而且这个过程不需要进一步的编码或额外干预。”
+
+抜粋:: yeasy  “Docker —— 从入门到实践”。 Apple Books  
 https://qiita.com/kooohei/items/0e788a2ce8c30f9dba53
 
 ## delete img
