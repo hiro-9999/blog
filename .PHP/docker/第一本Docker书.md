@@ -1,3 +1,6 @@
+# コンテナ間通信
+https://knowledge.sakura.ad.jp/16082/
+
 Docker官方主页（http://www.docker.com/）。
 DockerHub（http://hub.docker.com）。
 Docker官方博客（http://blog.docker.com/）。
