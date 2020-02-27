@@ -8,7 +8,8 @@ rmate
 https://medium.com/@prtdomingo/editing-files-in-your-linux-virtual-machine-made-a-lot-easier-with-remote-vscode-6bb98d0639a4
 local machine
 Install "Remote VSCode" in VS Code
-Download https://raw.githubusercontent.com/aurora/rmate/master/rmate to ~/temp/rmate
+Download 
+curl -o https://raw.githubusercontent.com/aurora/rmate/master/rmate to ~/temp/rmate
 scp ~/temp/rmate net@192.168.25.6@:~/rmate
 on dev
 sudo cp /home/net/rmate /usr/local/bin/rmate
