@@ -14,6 +14,21 @@ webview_post_data
 https://www.lagou.com/lgeduarticle/7395.html
 
 ```
+  @Override
+  public WebResourceResponse shouldInterceptRequest(WebView view, final WebResourceRequest request) {
+        final String url = request.getUrl().toString();
+    // 这个方式就是在这拦截请求的url，然后通过再次请求该地址来获取数据，相比IOS，android只能在这获取请求的链接
+        final WebResourceResponse response = super.shouldInterceptRequest(view, request);
+        // 这样获取的response == null，所以要想从这通过response.getData()获取响应结果是不可行的，详情可以看WebViewClient类中这个方法是怎么实现的
+        
+        return response;
+    }
+});
+https://www.jianshu.com/p/87096afbb829
+https://www.wanandroid.com/blog/show/2334
+```
+
+```
  @Override
         public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
             try {
