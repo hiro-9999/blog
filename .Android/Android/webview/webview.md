@@ -3,6 +3,54 @@ https://developer.android.com/guide/webapps/webview?hl=ja
 https://helperbyte.com/questions/273313/how-to-load-page-in-webview-cookies
 
 ```
+https://stackoverflow.com/questions/3134389/access-the-http-response-headers-in-a-webview
+  @TargetApi(Build.VERSION_CODES.LOLLIPOP)
+        @Override
+        public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
+            Log.i(TAG,"shouldInterceptRequest path:"+request.getUrl().getPath());
+            WebResourceResponse returnResponse = null;
+            if (request.getUrl().getPath().startsWith("/cart")) { // only interested in /cart requests
+                returnResponse = super.shouldInterceptRequest(view, request);
+                Log.i(TAG,"cart AJAX call - doing okRequest");
+                Request okRequest = new Request.Builder()
+                        .url(request.getUrl().toString())
+                        .post(null)
+                        .build();
+                try {
+                    Response okResponse = app.getOkHttpClient().newCall(okRequest).execute();
+                    if (okResponse!=null) {
+                        int statusCode = okResponse.code();
+                        String encoding = "UTF-8";
+                        String mimeType = "application/json";
+                        String reasonPhrase = "OK";
+                        Map<String,String> responseHeaders = new HashMap<String,String>();
+                        if (okResponse.headers()!=null) {
+                            if (okResponse.headers().size()>0) {
+                                for (int i = 0; i < okResponse.headers().size(); i++) {
+                                    String key = okResponse.headers().name(i);
+                                    String value = okResponse.headers().value(i);
+                                    responseHeaders.put(key, value);
+                                    if (key.toLowerCase().contains("x-cart-itemcount")) {
+                                        Log.i(TAG,"setting cart item count");
+                                        app.setCartItemsCount(Integer.parseInt(value));
+                                    }
+                                }
+                            }
+                        }
+                        InputStream data = new ByteArrayInputStream(okResponse.body().string().getBytes(StandardCharsets.UTF_8));
+                        Log.i(TAG, "okResponse code:" + okResponse.code());
+                        returnResponse = new WebResourceResponse(mimeType,encoding,statusCode,reasonPhrase,responseHeaders,data);
+                    } else {
+                        Log.w(TAG,"okResponse fail");
+                    }
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+            return returnResponse;
+```
+
+```
 OkHttpClient client = new OkHttpClient();
 
 Request req = new Request.Builder()
