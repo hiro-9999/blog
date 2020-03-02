@@ -1,9 +1,14 @@
+## How to get post response form a webview in Android
+
+https://github.com/henrychuangtw/WebView-Javascript-Inject
+
+
 https://developer.android.com/guide/webapps/webview?hl=ja
 
 https://helperbyte.com/questions/273313/how-to-load-page-in-webview-cookies
 
 ```
-https://stackoverflow.com/questions/3134389/access-the-http-response-headers-in-a-webview
+https://stackoverflow.com/questions/33370123/how-to-get-webviewclient-shouldinterceptrequest-invoked-asynchronously
   @TargetApi(Build.VERSION_CODES.LOLLIPOP)
         @Override
         public WebResourceResponse shouldInterceptRequest(WebView view, WebResourceRequest request) {
