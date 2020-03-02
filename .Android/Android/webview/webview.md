@@ -1,5 +1,29 @@
 https://developer.android.com/guide/webapps/webview?hl=ja
 
+https://helperbyte.com/questions/273313/how-to-load-page-in-webview-cookies
+
+```
+OkHttpClient client = new OkHttpClient();
+
+Request req = new Request.Builder()
+.url(url)
+.addHeader(HttpHeaders.USER_AGENT, Constants.USER_AGENT_VALUE)
+.addHeader(HttpHeaders.COOKIE, cookies)
+.build();
+
+Response response = client.newCall(req).execute();
+
+ResponseInputStream InputStream = response.body().byteStream();
+
+return new WebResourceResponse(null, null, responseInputStream);
+```
+
+https://www.jianshu.com/p/1e7980c50f13
+https://www.jianshu.com/p/ddfecd08a2d0
+
+CookieManager.getInstance().removeAllCookies(null);
+CookieManager.getInstance().flush();
+
 
 https://re-engines.com/2019/03/27/android-webview-tips-2/
 
