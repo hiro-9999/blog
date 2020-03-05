@@ -1,5 +1,10 @@
 特定のコミットを取り消す
+
+https://backlog.com/git-tutorial/tw/stepup/stepup7_2.html
+
 git show
+
+## git revert HEAD
 
 $ git revert <commit>
   
