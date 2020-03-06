@@ -20,3 +20,19 @@ val webView = WebView(context)
 webView.settings.cacheMode = WebSettings.LOAD_CACHE_ELSE_NETWORK
 webView.loadUrl( url)
 ```
+
+```
+<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+```
+
+```
+ネットワーク状態のオンオフ判定
+
+fun isNetworkAvailable(context: Context): Boolean {
+    val connectivityManager = context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager?
+    if(connectivityManager == null ){ return false }
+    if(connectivityManager.activeNetworkInfo == null ){ return false }
+    return connectivityManager.activeNetworkInfo.isConnected
+}
+```
