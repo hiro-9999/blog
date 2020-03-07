@@ -10,6 +10,16 @@ https://developer.android.com/studio/command-line/adb?hl=ja
 
 # emulator
 ```
+vim ~/.bash_profile
+
+export ANDROID_HOME=/Users/$USER/Library/Android/sdk
+export ANDROID_SDK_HOME=/Users/$USER/Library/Android/sdk
+export ANDROID_AVD_HOME=/Users/$USER/.android/avd
+export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_AVD_HOME
+
+source ~/.bash_profile
+
+
 .bash_profile
 PATHの設定
 
