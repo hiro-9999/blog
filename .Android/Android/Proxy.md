@@ -5,7 +5,10 @@ https://developer.android.com/studio/command-line/adb?hl=ja
 
 # emulator
 ```
-export PATH=$PATH:/Users/username/Library/Android/sdk/emulator/emulator
+~/.bashrcにラップするfunctionを追加で無事エミュレーター起動しました。
+# $HOME/.bashrc
+function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
+
 export PATH=$PATH:/Users/username/Library/Android/sdk/platform-tools
 
 Library/Android/sdk/emulator/emulator
