@@ -12,6 +12,13 @@ $ echo 'export ANDROID_HOME=<path>' >> ~/.bash_profile
 $ echo 'export PATH=$ANDROID_HOME/bin:$PATH' >> ~/.bash_profile
 ```
 ```
+AVD システム ディレクトリ
+
+システム ディレクトリには、エミュレータがオペレーティング システムをシミュレートするために使用する Android システム イメージが含まれています。API レベル、CPU アーキテクチャ、Android バリアントなど、同じタイプのすべての AVD で共有されるプラットフォーム固有の読み取り専用ファイルがあります。デフォルトの場所は次のとおりです。
+
+Mac OS X および Linux - ~/Library/Android/sdk/system-images/android-apiLevel/variant/arch/
+```
+```
 ~/.bashrcにラップするfunctionを追加で無事エミュレーター起動しました。
 # $HOME/.bashrc
 function emulator { cd "$(dirname "$(which emulator)")" && ./emulator "$@"; }
