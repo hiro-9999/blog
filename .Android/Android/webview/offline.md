@@ -1,3 +1,7 @@
+webView.loadData("");
+webView.loadUrl("about:blank")
+https://stackoverflow.com/questions/14300664/android-webview-displaying-blank-page
+
 Android オフライン時にWebViewキャッシュを参照する
 ```
 val webView = findViewById<WebView>(R.id.webView)
