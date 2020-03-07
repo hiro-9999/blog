@@ -11,11 +11,11 @@ https://developer.android.com/studio/command-line/adb?hl=ja
 # emulator
 ```
 vim ~/.bash_profile
-
-export ANDROID_HOME=/Users/$USER/Library/Android/sdk
-export ANDROID_SDK_HOME=/Users/$USER/Library/Android/sdk
-export ANDROID_AVD_HOME=/Users/$USER/.android/avd
-export PATH=${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$ANDROID_AVD_HOME
+export ANDROID_HOME=/Users/your_user_name/Library/Android/sdk
+export ANDROID_SDK_ROOT=$ANDROID_HOME
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 
 source ~/.bash_profile
 
