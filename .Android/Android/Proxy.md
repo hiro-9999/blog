@@ -10,6 +10,7 @@ PATHの設定
 
 $ echo 'export ANDROID_HOME=<path>' >> ~/.bash_profile
 $ echo 'export PATH=$ANDROID_HOME/bin:$PATH' >> ~/.bash_profile
+echo 'export PATH=$ANDROID_HOME/emulator:$PATH' >> ~/.bash_profile
 ```
 ```
 AVD システム ディレクトリ
