@@ -1,4 +1,6 @@
- # emulator -list-avds
+#  File -> Invalidate Caches / Restart 
+
+# emulator -list-avds
  emulator -avd Galaxy_Nexus_API_22 -netdelay none -netspeed full
  
  export ANDROID_SDK_ROOT=~/Library/Android/sdk
