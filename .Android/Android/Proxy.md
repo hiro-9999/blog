@@ -1,4 +1,5 @@
 #  File -> Invalidate Caches / Restart 
+Try changing your emulator settings to hardware. AVD manager. Select your emulated device settings using the pencil button. Then go to advanced settings and change the hardware setting from auto to hardware
 
 # emulator -list-avds
  emulator -avd Galaxy_Nexus_API_22 -netdelay none -netspeed full
