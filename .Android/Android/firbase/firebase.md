@@ -24,3 +24,10 @@ https://www.apps-gcp.com/introduction-of-firebase-analytics/
 
 ## android
 https://firebase.google.com/docs/analytics/android/start?hl=ja
+
+## ユーザー プロパティ
+https://support.google.com/analytics/answer/7061705?hl=ja
+
+## データの更新頻度
+https://support.google.com/analytics/answer/7084038?hl=ja
+
