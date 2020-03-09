@@ -16,3 +16,7 @@ adb shell setprop log.tag.FA-SVC VERBOSE
 
 adb logcat -v time -s FA FA-SVC
 ```
+analyticsの反映はGA同様、半日〜翌日ぐらいかかる
+私の環境では24時間近くかかっている気がします。
+## ios 
+https://www.apps-gcp.com/introduction-of-firebase-analytics/
