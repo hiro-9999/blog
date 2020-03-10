@@ -5,4 +5,6 @@ _variable.scss可以专门管理后面可能使用到的变量值、_mixin.scss�
 
 括AMD（AsynchronousModuleDefinition，异步模块定义）、CMD（CommonModuleDefinition，通用模块定义）、CommonJS、import/export等，
 
-张成文. 现代前端技术解析 (Kindle の位置No.3908-3909). Kindle 版. 
+如YSlow（YSlow是Yahoo发布的一款Firefox插件，可以对网站的页面性能进行分析，
+
+张成文. 现代前端技术解析 (Kindle の位置No.4244-4245). Kindle 版. 
