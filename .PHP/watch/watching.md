@@ -9,4 +9,6 @@ _variable.scss可以专门管理后面可能使用到的变量值、_mixin.scss�
 
 PV（PageView）、UV（UniqueVisitor）、VV（VisitView）
 
-张成文. 现代前端技术解析 (Kindle の位置No.4451). Kindle 版. 
+PV、UV、VV、IP这些基本的统计数据就可以了
+
+张成文. 现代前端技术解析 (Kindle の位置No.4477). Kindle 版. 
