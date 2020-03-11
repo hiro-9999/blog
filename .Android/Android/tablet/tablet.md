@@ -17,3 +17,13 @@ If you want ActionBar back button behave same way as hardware back button:
             }
             return false;
     }
+https://stackoverflow.com/questions/14437745/how-to-override-action-bar-back-button-in-android
+```
+ @Override
+    public boolean onOptionsItemSelected(final MenuItem item) {
+        try {
+            //Here is how back button changes its behavior
+            Intent[] listIntents = stackBuilder.getIntents();
+            if (item.getItemId() == android.R.id.home) {
+            
+            ```
