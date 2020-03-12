@@ -8,3 +8,6 @@ if (toolbar != null) {
 }
 
 https://stackoverflow.com/questions/26530224/android-toolbar-not-calling-onoptionsitemselected-from-fragments-on-backstack
+
+
+Dont forget to call setHasOptionsMenu(true) in the OnCreate of your fragment
