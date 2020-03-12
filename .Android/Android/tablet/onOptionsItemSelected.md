@@ -1,3 +1,7 @@
+onSupportNavigateUp()
+
+https://qiita.com/orimomo/items/c710ce4c5c3d2553ef07
+
 Android Toolbar Not Calling onOptionsItemSelected From Fragments On Backstack
 
 Toolbar toolbar = (Toolbar)findViewById( R.id.toolbar );
