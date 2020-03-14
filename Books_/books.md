@@ -1,5 +1,4 @@
 # 搬书匠
-http://www.lingocn.com/ebook/15105.html
 http://www.banshujiang.cn/
 
 # ePUBw
