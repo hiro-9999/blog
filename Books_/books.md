@@ -3,6 +3,7 @@ http://www.banshujiang.cn/
 
 # 苦瓜书盘
 https://www.kgbook.com/
+http://www.minxue.net/74/n-121074.html
 
 # 鸠摩搜书
 https://www.jiumodiary.com/
