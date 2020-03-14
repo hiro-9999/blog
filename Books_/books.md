@@ -1,6 +1,9 @@
 # 搬书匠
 http://www.banshujiang.cn/
 
+# 苦瓜书盘
+https://www.kgbook.com/
+
 # 鸠摩搜书
 https://www.jiumodiary.com/
 
@@ -50,8 +53,6 @@ http://bestcbooks.com/
 # 西林街搜索
 https://xilinjie.cc/
 
-# 苦瓜书盘
-https://www.kgbook.com/
 
 ## 奇书网
 http://m.qishus.com/
