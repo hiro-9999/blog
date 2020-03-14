@@ -1,11 +1,51 @@
-# 小书屋
-https://shuayouxi.cn/
+# 搬书匠
+http://www.banshujiang.cn/
+
+# 鸠摩搜书
+https://www.jiumodiary.com/
 
 # owllook
 https://www.owllook.net/
 
-# 鸠摩搜书
-https://www.jiumodiary.com/
+# 书伴
+https://bookfere.com/
+
+# 我的小书屋
+https://shuayouxi.cn/
+
+
+# 书格
+https://new.shuge.org/
+
+# 智奇搜书
+https://www.zqbook.top/
+
+# ePUBw
+https://epubw.com/
+
+# PDF之家
+https://www.pdfzj.com/
+
+# 书语者
+https://book.shuyuzhe.com/
+
+# 蚂蚁搜书
+http://book.mybanshu.win/
+
+# 知轩藏书
+http://www.zxcs.me/
+
+ # ePUBee
+ http://cn.epubee.com/books/
+ 
+ # 周读
+ http://book.gonginxweb.com/
+ 
+ # 子午书简
+ https://5kindle.com/
+ 
+# 计算机书籍控
+http://bestcbooks.com/
 
 # 西林街搜索
 https://xilinjie.cc/
@@ -13,7 +53,35 @@ https://xilinjie.cc/
 # 苦瓜书盘
 https://www.kgbook.com/
 
+## 奇书网
+http://m.qishus.com/
 
+# 云海电子图书馆
+http://www.pdfbook.cn/
+
+书语者
+https://book.shuyuzhe.com/
+
+科塔学术
+https://site.sciping.com/
+
+万千合集站
+http://www.hejizhan.com/bbs/
+
+# The OnlineBooks Page
+http://onlinebooks.library.upenn.edu/
+
+# Free-Ebooks
+https://www.free-ebooks.net/
+
+# gutenberg
+https://www.gutenberg.org/
+
+## 好读
+http://www.haodoo.net/
+
+### OpenStax CNX
+https://cnx.org/
 
 ## list
 https://github.com/hiro-9999/Computer-Science-and-Technology/blob/master/README.md
