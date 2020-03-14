@@ -1,3 +1,20 @@
+# 小书屋
+https://shuayouxi.cn/
+
+# owllook
+https://www.owllook.net/
+
+# 鸠摩搜书
+https://www.jiumodiary.com/
+
+# 西林街搜索
+https://xilinjie.cc/
+
+# 苦瓜书盘
+https://www.kgbook.com/
+
+
+
 ## list
 https://github.com/hiro-9999/Computer-Science-and-Technology/blob/master/README.md
 
