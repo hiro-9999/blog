@@ -1,4 +1,9 @@
+https://www.bilibili.com/video/av57143902/?p=6
 # 搬书匠
+http://www.80pdf.com
+
+https://haobook.org/post/10002149.html
+
 http://www.banshujiang.cn/
 
 # ePUBw
