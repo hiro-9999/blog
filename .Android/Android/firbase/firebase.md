@@ -6,6 +6,8 @@ https://qiita.com/yamacraft/items/fd736203c29dfd3c7050
         params.putString("text_data", "Hello Firebase Analytics");
         mFirebaseAnalytics.logEvent("send_text", params);
 ```
+https://firebase.google.com/docs/crashlytics/fabric-migration-table?authuser=0
+
 
 https://firebase.google.com/docs/analytics/android/events?hl=ja
 
