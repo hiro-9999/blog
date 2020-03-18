@@ -1,3 +1,8 @@
+https://bulma.io
+
+## box-sizing
+https://developer.mozilla.org/ja/docs/Web/CSS/box-sizing
+
 animate.css
 https://www.toutiao.com/a6752166984349123085/
 
