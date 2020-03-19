@@ -1,5 +1,5 @@
 # GoLand
-https://www.macapp.so/goland-mac/
+https://macstore.info/a/GoLand.html
 
 >JetBrains GoLand License Server 
 
