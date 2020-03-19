@@ -1,6 +1,8 @@
 # go.dev 
 https://go.dev
 
+# Go42
+https://github.com/ffhelicopter/Go42/blob/master/SUMMARY.md
 
 # The Way to Go
 https://github.com/Unknwon/the-way-to-go_ZH_CN/blob/master/eBook/directory.md
