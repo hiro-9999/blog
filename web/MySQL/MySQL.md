@@ -6,6 +6,8 @@ $ mysql -u [ユーザー名] -p
 
 # 外部MySQLサーバに接続する場合
 $ mysql -u [ユーザー名] -p -h [host名] -P [ポート番号]
+
+mysql -uadmin -p -h127.0.0.1
 ```
 ```
 show databases;
