@@ -1,8 +1,5 @@
 https://www.bilibili.com/video/av57143902/?p=6
 
-# 小书迷
-http://www.yiquhai.com/user/login.html
-
 # 搬书匠
 http://www.80pdf.com
 
