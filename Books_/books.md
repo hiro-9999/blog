@@ -9,6 +9,9 @@ https://ziwu365.com/
 # 书单网
 https://www.shudan.vip/167740.html
 
+# 雅书
+https://yabook.org/post/5470.html
+
 # 搬书匠
 http://www.80pdf.com
 
