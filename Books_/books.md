@@ -6,6 +6,9 @@ http://edu.15kankan.com/info/j9u818720
 # 子午
 https://ziwu365.com/
 
+# 书单网
+https://www.shudan.vip/167740.html
+
 # 搬书匠
 http://www.80pdf.com
 
