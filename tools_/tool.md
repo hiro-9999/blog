@@ -1,5 +1,8 @@
 ## bit.do/
 
+# 生成条码
+https://barcode.tec-it.com/zh/Code128?data=ABC-abc-1234
+
 # tools
 IntelliJ IDEA：https://www.jetbrains.com/idea/download
 X-shell：http://www.netsarang.com/download/software.html
