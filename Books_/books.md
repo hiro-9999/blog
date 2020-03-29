@@ -3,6 +3,8 @@ https://www.bilibili.com/video/av57143902/?p=6
 # english
 https://epdf.pub/
 
+https://djvu2pdf.com/ja/
+
 # look
 http://edu.15kankan.com/info/j9u818720
 
