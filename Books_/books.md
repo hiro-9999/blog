@@ -3,6 +3,9 @@ https://www.bilibili.com/video/av57143902/?p=6
 # english
 https://epdf.pub/
 
+>tools
+https://pdfcandy.com/jp/djvu-to-pdf.html
+
 https://djvu2pdf.com/ja/
 
 # look
