@@ -2,4 +2,4 @@
 
 >现代美国人物传记
 
-http://www.fast8.com/list/41_6.html
+https://www.519.best/?s=%E4%BA%BA%E7%89%A9%E4%BC%A0%E8%AE%B0
