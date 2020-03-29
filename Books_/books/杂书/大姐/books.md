@@ -1,6 +1,6 @@
->人类简史
+>人类简史 Sapiens: A Brief History of Humankind
 
->现代美国人物传记
+>现代美国人物传记 Biography of Modern American Characters
 
 # 英语原版
 https://www.519.best/e-book/yingwenyuanban
