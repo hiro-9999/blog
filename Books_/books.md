@@ -11,7 +11,8 @@ https://djvu2pdf.com/ja/
 # look
 http://edu.15kankan.com/info/j9u818720
 
-http://www.ebook.cool/BookDetail/5343.html
+# 3minute
+https://www.sanfenzhong.net/426.html
 
 # 519
 https://www.519.best/e-book/jingjiguanli/youqudejinr.html
