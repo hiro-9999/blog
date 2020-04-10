@@ -24,3 +24,11 @@ fuel/app/views/ -ビューファイルが含まれています。 ビューに�
 ```
 # configファイルにprofiling -> trueを設定すれば出てきます
  https://fuelphp.com/docs/general/profiling.html
+ 
+ Fuel releases v1.8.2. Bugfixes, a partial DBAL rewrite, and of course PHP 7.3
+https://fuelphp.com/blogs/2019/06/fuel-releases-1-8-2
+https://fuelphp.com
+https://github.com/fuel/core/releases
+
+# 1.8.2 docs
+https://fuelphp.com/docs/
