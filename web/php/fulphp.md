@@ -22,3 +22,5 @@ fuel/app/classes/model/ -モデルはここに配置されます。
 
 fuel/app/views/ -ビューファイルが含まれています。 ビューには特定の命名規則はありません。
 ```
+# configファイルにprofiling -> trueを設定すれば出てきます
+ https://fuelphp.com/docs/general/profiling.html
