@@ -25,6 +25,9 @@ fuel/app/views/ -ビューファイルが含まれています。 ビューに�
 # configファイルにprofiling -> trueを設定すれば出てきます
  https://fuelphp.com/docs/general/profiling.html
  
+ # upgarde
+ https://bmf-tech.com/posts/FuelPHP1.8.0→1.8.2、PHP5.6→PHP7.3へのバージョンアップした
+ 
  Fuel releases v1.8.2. Bugfixes, a partial DBAL rewrite, and of course PHP 7.3
 https://fuelphp.com/blogs/2019/06/fuel-releases-1-8-2
 https://fuelphp.com
