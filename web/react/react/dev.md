@@ -32,6 +32,8 @@ https://www.jb51.net/article/184181.htm
 
 # JavaScript DOC
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
+## Promise.all() - 複数のPromise関数を実行
+https://lab.syncer.jp/Web/JavaScript/Reference/Global_Object/Promise/all/
 
 # react router的导航
 ```
