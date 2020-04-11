@@ -9,6 +9,8 @@ https://www.jb51.net/article/180658.htm
 React 技术栈系列教程(阮一峰)
 https://www.jianshu.com/p/2017bca80149
 
+https://www.ruanyifeng.com/blog/2016/09/redux_tutorial_part_one_basic_usages.html
+
 https://github.com/the-road-to-learn-react/react-with-redux-philosophy
 
 # React中使用外部样式的3种方式
