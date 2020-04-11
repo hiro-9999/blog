@@ -23,3 +23,6 @@ https://www.jb51.net/article/183795.htm
 
 3.对打包后的文件进行gzip压缩；
 ```
+
+# 实现react异步加载高阶组件
+https://www.jb51.net/article/184181.htm
