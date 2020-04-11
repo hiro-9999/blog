@@ -8,6 +8,9 @@ https://pdfcandy.com/jp/djvu-to-pdf.html
 
 https://djvu2pdf.com/ja/
 
+# 哦书
+https://obook.cc/?thread-8426.htm
+
 # look
 http://edu.15kankan.com/info/j9u818720
 
