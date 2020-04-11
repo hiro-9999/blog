@@ -14,3 +14,12 @@ https://www.jb51.net/article/162063.htm
 ```
 npm install styled-components
 ```
+# react前端项目打包优化
+https://www.jb51.net/article/183795.htm
+```
+1.优化echarts;
+
+2.优化src下的业务代码;
+
+3.对打包后的文件进行gzip压缩；
+```
