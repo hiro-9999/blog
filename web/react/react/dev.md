@@ -2,7 +2,12 @@ https://leanpub.com/u/rwieruch
 ### 《React 学习之道》The Road to learn React (简体中文版)
 
 # React项目调试技巧
-
+https://www.jianshu.com/p/40a549e74d96
+···
+Redux DevTools
+React Developer Tools
+React Perf
+···
 
 # Hooks 获取数据 suspense 获取数据
 https://www.jb51.net/article/180658.htm
