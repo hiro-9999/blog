@@ -26,3 +26,6 @@ https://www.jb51.net/article/183795.htm
 
 # 实现react异步加载高阶组件
 https://www.jb51.net/article/184181.htm
+
+# JavaScript DOC
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
