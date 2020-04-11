@@ -4,3 +4,6 @@ https://leanpub.com/u/rwieruch
 
 # Hooks 获取数据 suspense 获取数据
 https://www.jb51.net/article/180658.htm
+
+# redux
+https://github.com/the-road-to-learn-react/react-with-redux-philosophy
