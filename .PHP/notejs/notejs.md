@@ -3,7 +3,7 @@
 nvm install 12.13.1
 nvm use 12.13.1
 nvm alias default 12.13.1
-nodebrew install v8.9.4
+npm install -g npm@6.12.1
 
 # use a specific version number
 nodebrew use v12.13.1
