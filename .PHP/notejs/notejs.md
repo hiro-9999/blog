@@ -1,3 +1,8 @@
+# install node
+nvm install 12.13.1
+https://yoember.com/nodejs/the-best-way-to-install-node-js-with-yarn/
+
+
 ## ExpressJS
 https://expressjs.com/ja/
 Node.js Web アプリケーション・フレームワー
