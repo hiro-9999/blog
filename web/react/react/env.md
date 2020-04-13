@@ -1,3 +1,7 @@
+Simple React Snippets
+
+
+
 # VSCode配置react开发环境的步骤
 vscode 默认配置对于 react 的 JSX 语法不友好，体现在使用自动格式化或者粘贴后默认缩进错误，尽管可以通过改变 language mode 缓解错误，但更改 language mode 后的格式化依然不够理想。
 https://www.jb51.net/article/131590.htm
