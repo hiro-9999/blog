@@ -1,5 +1,14 @@
 # install node
+```
 nvm install 12.13.1
+nvm use 12.13.1
+nvm alias default 12.13.1
+nodebrew install v8.9.4
+
+# use a specific version number
+nodebrew use v12.13.1
+```
+
 https://yoember.com/nodejs/the-best-way-to-install-node-js-with-yarn/
 
 
