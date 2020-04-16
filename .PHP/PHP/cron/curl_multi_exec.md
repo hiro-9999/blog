@@ -35,3 +35,5 @@ curl_multi_close($mh);
 print_r($res);
 ?>
 ```
+# curl
+https://www.toutiao.com/a6726808916807647752/
