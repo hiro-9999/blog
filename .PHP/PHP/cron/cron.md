@@ -29,6 +29,9 @@ cron
 曜日	0～7 [0,7は日曜日] or sun～sat
 コマンド	有効なコマンドを記述します。空白を含むことも可能ですが、標準のBourne Shellの書式に従って記述します。
 
+# DB insert
+http://okadao.blogspot.com/2009/11/phpcron.html
+
 //go
 https://gowalker.org/gopkg.in/robfig/cron.v2
 
