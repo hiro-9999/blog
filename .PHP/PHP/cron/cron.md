@@ -1,3 +1,20 @@
+# 【PHP】バッチ処理をcronで自動実行する
+https://qiita.com/wakahara3/items/54880dd3c60b3cb34af9
+
+https://qiita.com/yukibe/items/cd5b59122804223698d0
+crontab -lコマンドでcronの設定を確認できます。
+現在は何も設定されていません。
+
+$ crontab -l
+crontab: no crontab for name
+
+# 実行時間は分・時・日・月・曜日を指定しそれぞれにも半角スペースを空けます。
+## crontab -e
+Linuxだったらサーバ内で、MacOSでしたらターミナルコマンドで crontab -e を入力します。viが立ち上がりcronの設定を入力する画面へと移ります。
+https://www.genius-web.co.jp/blog/web-programming/you-can-use-cron-to-run-your-program-automatically-and-you-can-set-it-up-with-a-sample-program.html
+
+
+
 https://qiita.com/ntkgcj/items/71778e1ec8b27ea03ce5  https://qiita.com/katsukii/items/d5f90a6e4592d1414f99
 
 https://qiita.com/hikouki/items/e744b3a4d356d2af12cf
