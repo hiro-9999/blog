@@ -37,3 +37,5 @@ https://ednsquare.com/story/scheduling-tasks-with-cron-for-golang------XkFNCE
 
 //gcp Cloud SDK
 https://cloud.google.com/appengine/docs/standard/go/config/cron?hl=ja
+
+https://www.toutiao.com/a6470629913467552269/
