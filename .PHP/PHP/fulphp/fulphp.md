@@ -1,4 +1,48 @@
+# FuelPHPでcronから定期実行をする方法
+https://qiita.com/narikei/items/80f53ee1b4f5bda82fd0
+```
+FuelPHPでcronから定期実行をするにはTaskをつかうと良いみたい
+こんな感じで/fuel/app/tasksの中にTaskファイルを作成
+useで使うクラスを読み込めばControllerと同じようにDBへの接続ができます。
+/fuel/app/tasks/test.php
+<?php
+namespace Fuel\Tasks;
+use Fuel\Core\Cli;
+use Fuel\Core\DB;
+use Fuel\Core\DBUtil;
+use Curl\CurlUtil;
+
+class Test
+{
+    public function run()
+    {
+        echo "実行する処理";
+    }
+
+    public function get_user($name = "nanashi_san")
+    {
+        echo DB::select('*')->from('users')->where('name', $name)
+    }
+}
+?>
+これでTestという名前のタスクができあがります。
+タスクはコマンドラインで実行可能！
+メソッドを追加して個別に呼び出したり、引数を加えることもできます。
+$ php oil refine test
+$ php oil refine test:get_user "narita_keisuke"
+あとはcrontabにコマンドを追加してあげるだけ
+$ crontab -e
+0 * * * * php /var/www/oil refine test
+これで１時間毎に定期実行されます。
+```
+
 # fuelphpでバッチ処理(oil refineを利用する)
+バッチは fuel/app/tasks/ 配下に書く決まりらしい。
+run()メソッドはバッチクラスのメインメソッドで実行時にメソッド名無しに呼び出してくれる。
+ほとんどはこのrun()メソッドに実装すれば良さそう。ちなみにクラスメソッドでもインスタンスメソッドでも動いた。
+
+https://ameblo.jp/hirown/entry-12194332009.html
+
 https://blog.goo.ne.jp/_memento/e/2042d4d7dba71db1555ba4b4baefd783
 ```
 バッチ処理を動かすときは、oil refineを利用するんだが、
