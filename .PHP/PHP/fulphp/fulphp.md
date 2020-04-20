@@ -47,6 +47,11 @@ $sql = "INSERT INTO tablename (
 // (2)SQL実行（データ登録）
 $res = $dbh->query($sql);
 // $dbhにはデータベースのハンドラ(PDOインスタンス)が入っている
+
+//$res = $mysqli->query($sql);
+
+var_dump($res);
+$dbh->close();
 ```
 https://gray-code.com/php/insert-data-by-using-pdo/
 
