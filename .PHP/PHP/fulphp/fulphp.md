@@ -77,3 +77,35 @@ https://blog.goo.ne.jp/_memento/e/2042d4d7dba71db1555ba4b4baefd783
 これを実行するには、oil refine hoge
 runメソッドが実行される
 ```
+```
+<?php
+
+// 変数の初期化 & 日時の取得
+date_default_timezone_set('Asia/Tokyo');
+$sql = null;
+$res = null;
+$dbh = null;
+$date = date('Y-m-d H:i:s');
+
+try {
+	// DBへ接続
+	$dbh = new PDO('mysql:host=127.0.0.1; dbname=test; charset=utf8', 'username', 'password');
+
+	// SQL作成
+	$sql = "INSERT INTO user_list (
+		name, age, registry_datetime
+	) VALUES (
+		'テスト太郎', 18, '$date'
+	)";
+
+	// SQL実行
+	$res = $dbh->query($sql);
+
+} catch(PDOException $e) {
+	echo $e->getMessage();
+	die();
+}
+
+// 接続を閉じる
+$dbh = null;
+```
