@@ -35,7 +35,19 @@ $ crontab -e
 0 * * * * php /var/www/oil refine test
 これで１時間毎に定期実行されます。
 ```
+https://gray-code.com/php/insert-data-by-using-pdo/
+```
+// (1)SQLを作成
+$sql = "INSERT INTO tablename (
+	column1, column2, column3, column4
+) VALUES (
+	10, 'Value2', 'Value3', '2017-11-10 10:00:00'
+)";
 
+// (2)SQL実行（データ登録）
+$res = $dbh->query($sql);
+// $dbhにはデータベースのハンドラ(PDOインスタンス)が入っている
+```
 # fuelphpでバッチ処理(oil refineを利用する)
 バッチは fuel/app/tasks/ 配下に書く決まりらしい。
 run()メソッドはバッチクラスのメインメソッドで実行時にメソッド名無しに呼び出してくれる。
