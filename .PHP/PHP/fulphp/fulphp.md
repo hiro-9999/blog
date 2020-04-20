@@ -48,9 +48,11 @@ $sql = "INSERT INTO tablename (
 $res = $dbh->query($sql);
 // $dbhにはデータベースのハンドラ(PDOインスタンス)が入っている
 ```
+https://gray-code.com/php/insert-data-by-using-pdo/
+
 https://www.javadrive.jp/php/pdo/index8.html
 # prepareメソッドはqueryメソッドと似たような機能を提供しますが、SQL文の基本部分が同じで値だけ異なるような場合(例えば同じテーブルに値だけ変えて何回もデータを挿入するような場合です)に効率よく行える機能を提供してくれます。
-
+https://itsakura.com/php-mysql-insert
 
 # fuelphpでバッチ処理(oil refineを利用する)
 バッチは fuel/app/tasks/ 配下に書く決まりらしい。
