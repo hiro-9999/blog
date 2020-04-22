@@ -1,3 +1,11 @@
+https://www.genius-web.co.jp/blog/web-programming/you-can-use-cron-to-run-your-program-automatically-and-you-can-set-it-up-with-a-sample-program.html
+毎日12時と12時30分の2回実行させたい場合
+スラッシュを使うと間隔の指定を行うことができます。以下の例だと分が*/30となっているため、30分に1回を意味します。
+
+1
+*/30 12 * * * php /home/sv01/tenki.php
+
+
 # 【PHP】バッチ処理をcronで自動実行する
 https://qiita.com/wakahara3/items/54880dd3c60b3cb34af9
 
