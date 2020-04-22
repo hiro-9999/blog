@@ -1,3 +1,26 @@
+https://qiita.com/ntkgcj/items/71778e1ec8b27ea03ce5
+
+```
+# 毎日15時に実行
+0 15 * * * echo "hoge"
+
+
+# 実行間隔（ / ）　→ 5分ごとに実行（0:00〜23:55）
+*/5 * * * * echo "hoge"
+
+## 0時〜22時（23時）までの間、毎時0分に2時間おきで実行（0:00, 2:00, 4:00, ・・・22:00）
+0 */2 * * * echo "hoge"
+
+
+# 複数指定（ , で区切る）　→ 5時5分、10分、30分 に実行
+5,10,30 5 * * * echo "hoge"
+
+# 範囲指定（ - ）　→ 3時10分、4時10分、5時10分、6時10分　に実行
+10 3-6 * * * /home/piyo/hoge.sh
+```
+
+
+
 https://www.genius-web.co.jp/blog/web-programming/you-can-use-cron-to-run-your-program-automatically-and-you-can-set-it-up-with-a-sample-program.html
 毎日12時と12時30分の2回実行させたい場合
 スラッシュを使うと間隔の指定を行うことができます。以下の例だと分が*/30となっているため、30分に1回を意味します。
