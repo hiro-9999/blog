@@ -7,10 +7,13 @@ https://www.toutiao.com/a6818415226698859015/?tt_from=copy_link&utm_campaign=cli
 慢思考：大脑超载时代的思考学
 https://epubw.com/download/?o=vfSzBg==
 
-认知迭代
+认知迭代 ok
 
 麻省理工深度思考法
 
 高维度思考法
 
-复盘+:把经验转化为能力
+复盘+:把经验转化为能力 ok
+
+知识炼金术：知识萃取和运营的艺术与实务
+https://epubw.com/download/?o=ufe4B1o=
