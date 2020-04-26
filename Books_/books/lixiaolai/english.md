@@ -7,12 +7,25 @@ https://github.com/xiaolai
 2,listen and word
 
 >TODO 
-# 更重要的是思考能力 
+# 更重要的是思考能力 至少要坚持六个月，我个人建议每天的输入时间不要低于四个小时 
+#  Special English
+https://learningenglish.voanews.com/
+
 # cnn
 https://edition.cnn.com/
 
 # the best radio station in America
 https://www.wwoz.org/blog/640086
+
+# Merriam-Webster 
+https://www.merriam-webster.com/
+
+# 柯林斯(Collins)词典
+https://collins.co.uk/pages/elt-cobuild-reference-the-collins-corpus
+
+Collins Cobuild English Grammar 的全文电子版
+
+学习英式发音及其音标，可以用牛津大学出版社香港中文站的 Flash 教程《Guide to English Phonetc Symbols》 学习美式发音及其音标，可以使用爱荷华大学的美国音标在线学习程序《 Phonetics: The Sound of American English》
 
 https://github.com/xiaolai/everyone-can-use-english/blob/master/chapter2.md
 # 秘密武器 —— 复述
