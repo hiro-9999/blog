@@ -9,6 +9,7 @@ https://github.com/xiaolai
 >TODO 
 # 更重要的是思考能力 至少要坚持六个月，我个人建议每天的输入时间不要低于四个小时 
 #  Special English
+https://learningenglish.voanews.com/p/6765.html
 https://learningenglish.voanews.com/
 
 # cnn
@@ -25,9 +26,24 @@ https://collins.co.uk/pages/elt-cobuild-reference-the-collins-corpus
 
 Collins Cobuild English Grammar 的全文电子版
 
+# Oxford Advanced Learner's Dictionary
+https://www.oxfordlearnersdictionaries.com/
+
 学习英式发音及其音标，可以用牛津大学出版社香港中文站的 Flash 教程《Guide to English Phonetc Symbols》 学习美式发音及其音标，可以使用爱荷华大学的美国音标在线学习程序《 Phonetics: The Sound of American English》
 
+# 新编英语阅读手册
+https://github.com/xiaolai/a-new-english-reading-handbook/tree/master/book
+
+# WordNet 数据库
+https://www.visualthesaurus.com/
+
+# wikipedia
+https://en.wikipedia.org/wiki/Main_Page
+
 https://github.com/xiaolai/everyone-can-use-english/blob/master/chapter2.md
+
+
+
 # 秘密武器 —— 复述
 Thought and Knowledge: An Introduction to Critical Thinking 4th edition, by Diane F. Halpern
 Thinking and Deciding, 4th edition, by Jonathan Baron
