@@ -20,7 +20,7 @@ https://www.wwoz.org/blog/640086
 # Merriam-Webster 
 https://www.merriam-webster.com/
 
-# 柯林斯(Collins)词典
+# 柯林斯(Collins)词典 https://epdf.pub/collins-spurrell-welsh-dictionary.html
 https://collins.co.uk/pages/elt-cobuild-reference-the-collins-corpus
 
 Collins Cobuild English Grammar 的全文电子版
