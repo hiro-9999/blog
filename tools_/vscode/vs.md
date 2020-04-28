@@ -2,6 +2,9 @@
 # Visual Studioにコ―ドの整形
 Shift + Option + F
 
+VSCode でコードの整形を楽にする拡張機能 Prettier
+https://loumo.jp/wp/archive/20190520120015/
+
 # left move
 shift + tab
 
