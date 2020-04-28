@@ -1,3 +1,11 @@
+
+# Visual Studioにコ―ドの整形
+Shift + Option + F
+
+# left move
+shift + tab
+
+
 # 15 款好用的 VS Code 插件
 https://www.infoq.cn/article/02mq2EZIhAaRuPk2Z8id
 
