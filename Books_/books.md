@@ -14,6 +14,8 @@ https://freembook.com/
 # 哦书
 https://obook.cc/?thread-8426.htm
 
+http://www.j9p.com/down/525069.html
+
 # jb51
 https://www.jb51.net/books/656801.html
 
