@@ -11,8 +11,7 @@ https://djvu2pdf.com/ja/
 # search english
 https://freembook.com/
 
-# 哦书
-https://obook.cc/?thread-8426.htm
+# j9p
 
 http://www.j9p.com/down/525069.html
 
