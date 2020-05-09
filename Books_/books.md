@@ -14,6 +14,9 @@ https://freembook.com/
 # 佐佐
 https://www.zzyyu.com/index.php/2020/04/19/13333/
 
+# free
+https://freembook.com/
+
 # 519
 https://www.519.best/e-book/jingjiguanli/youqudejinr.html
 
