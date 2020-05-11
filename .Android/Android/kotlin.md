@@ -1,5 +1,8 @@
 https://www.sejuku.net/blog/92718
 
+//kotlin
+https://qiita.com/CUTBOSS/items/c40ab956abf059e946bc
+
 ## Effective Java in Kotlin
 https://blog.kotlin-academy.com/effective-java-in-kotlin-obsolete-items-thanks-to-kotlin-items-3-4-16-40-61-from-3rd-edition-31952da308f4
 
