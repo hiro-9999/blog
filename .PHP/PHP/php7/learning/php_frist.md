@@ -20,3 +20,6 @@ var_dump($hoge);
 
 # forEach
 https://www.sejuku.net/blog/20257
+
+# arry()
+https://www.php.net/manual/ja/language.types.array.php
