@@ -17,3 +17,6 @@ var_dump($hoge);
 /*
  array(3) { [0]=> int(15) [1]=> int(12) [2]=> int(21) }
 */
+
+# forEach
+https://www.sejuku.net/blog/20257
