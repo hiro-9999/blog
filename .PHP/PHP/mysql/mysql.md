@@ -18,3 +18,7 @@ wait_timeout は 28800 になる。
 接続が対話型（CLIENT_INTERACTIVE オプション有り）の場合は interactive_timeout のグローバル変数値
 
 接続が非対話型（CLIENT_INTERACTIVE オプション無し）の場合は wait_timeout のグローバル変数値
+
+https://style.potepan.com/articles/19640.html
+
+show global variables like '%wait%';
