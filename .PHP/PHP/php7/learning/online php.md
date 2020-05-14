@@ -16,3 +16,5 @@ http://sandbox.onlinephpfunctions.com/
 
 # regex
 https://regex101.com/
+
+https://ja.functions-online.com/crypt.html
