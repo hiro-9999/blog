@@ -11,6 +11,9 @@ https://djvu2pdf.com/ja/
 # search english
 https://freembook.com/
 
+# haobook
+https://haobook.org/post/10002277.html
+
 # 佐佐
 https://www.zzyyu.com/index.php/2020/04/19/13333/
 
