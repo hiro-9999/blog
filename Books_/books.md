@@ -3,6 +3,9 @@ https://www.bilibili.com/video/av57143902/?p=6
 # english
 https://epdf.pub/
 
+# z library 10/day
+https://b-ok.cc/
+
 >tools
 https://pdfcandy.com/jp/djvu-to-pdf.html
 
