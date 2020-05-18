@@ -1,5 +1,10 @@
 https://www.bilibili.com/video/av57143902/?p=6
 
+>tools
+https://pdfcandy.com/jp/djvu-to-pdf.html
+
+https://djvu2pdf.com/ja/
+
 # english
 https://epdf.pub/
 
@@ -8,16 +13,11 @@ https://b-ok.cc/
 
 https://b-ok.cc/book/3645027/49bdd7?dsource=recommend
 
->tools
-https://pdfcandy.com/jp/djvu-to-pdf.html
-
-https://djvu2pdf.com/ja/
-
 # search english
 https://freembook.com/
 
-# haobook
-https://haobook.org/post/10002277.html
+# 知识库
+https://book.zhishikoo.com/
 
 # 佐佐
 https://www.zzyyu.com/index.php/2020/04/19/13333/
