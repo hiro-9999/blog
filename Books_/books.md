@@ -6,6 +6,8 @@ https://epdf.pub/
 # z library 10/day
 https://b-ok.cc/
 
+https://b-ok.cc/book/3645027/49bdd7?dsource=recommend
+
 >tools
 https://pdfcandy.com/jp/djvu-to-pdf.html
 
