@@ -19,6 +19,9 @@ https://freembook.com/
 # 知识库
 https://book.zhishikoo.com/
 
+# 书单网
+https://www.shudan.vip/
+
 # 佐佐
 https://www.zzyyu.com/index.php/2020/04/19/13333/
 
