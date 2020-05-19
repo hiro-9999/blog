@@ -1,5 +1,7 @@
 https://developer.oculus.com/documentation/oculus-browser/browser-get-started/
 
+https://support.oculus.com/release-notes/
+
 UA文字列では、次のようにデバイスごとに異なるトークンが割り当てられています。
 
 Oculus Quest:Quest
