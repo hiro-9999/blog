@@ -21,3 +21,5 @@ https://www.vrfocus.com/2019/07/vr-browser-firefox-reality-now-supports-oculus-q
 
 # 2020 年 4 月 1 日以降、Oculus Browser は更新を受け取りません。引き続きブラウザを使用することはできますが、特定のソーシャル機能やおすすめ機能が利用できなくなり、ウェブサイトの互換性の問題が発生する可能性があるため、Oculus Co. は他のサードパーティアプリの使用を推奨しています。
 https://www.galaxymobile.jp/support/mobile-devices/about-certain-apps-owned-by-oculus/
+
+https://www.oculus.com/experiences/gear-vr/1257988667656584/
