@@ -1,0 +1,3 @@
+https://medium.com/@eyevinntechnology/this-is-how-chrome-58-could-interrupt-your-streaming-service-95530dfce25a
+# Streaming over HTTPS in chrome
+Last year Google announced that they intend to remove the support EME APIs over non-secure contexts by end of Q1 2017. The EME API (Encrypted Media Extensions) is an HTML5 API that enables playback of DRM protected content. Chrome includes a Content Decryption Module (CDM) with the support to handle Widevine DRM protected content and the video player access the CDM through the EME API. Removing the support to use EME over non-secure contexts basically means that the entire website needs to provide a secure context with HTTPS.
