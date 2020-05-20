@@ -1,10 +1,17 @@
+# PHP5からPHP7への移行注意点
+https://centosinstall.com/programming/php/php5-php7
+
+https://www.es-i.jp/news/20160729-0051/121
+
+find ./ -type f -print | xargs grep 'mysql_'
+find . -type f | xargs grep -l '置換する文字列' | xargs sed -i -e 's/置換する文字列/置換したい文字列/g'
 
 # PHP 7 Compatibility Checker(php7cc)
 こちらコマンドひとつでPHP7の変更箇所がすぐにわかる便利極まりないツールです。
 ※公式のGitHubはこちらになります。
 
 まずグローバル環境にインストールします。
-
+http://shimooka.hateblo.jp/entry/20150729/1438141721
 1
 composer global require sstalle/php7cc
 そしてpathを通します。
