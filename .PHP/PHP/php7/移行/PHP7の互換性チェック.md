@@ -2,6 +2,19 @@ https://qiita.com/su_mi/items/b9f06a81bdae40b84c61
 
 # PHP7の互換性チェック
 php7ccを使うと既存のソースコードがPHP7に対応しているかどうか、チェックできます。
+# phan
+https://github.com/phan/phan
+composer require phan/phan
+https://phan.github.io/demo/
+
+# PHPStan
+https://phpstan.org/user-guide/getting-started
+composer require --dev phpstan/phpstan
+
+# PHPStanについてはオフィシャルのものがあります。これに必要な拡張を入れたりして利用していくことになります。
+https://tech.connehito.com/entry/phan-or-phpstan
+
+https://pleiades.io/help/phpstorm/supported-php-versions.html
 
 
 # 互換性チェックツール
@@ -21,3 +34,7 @@ Docker版のPHPStanでほとんどの場合はチェックできますが、中�
 
 php7との互換性チェック
 https://tsuyoshi-nakamura.hatenablog.com/entry/2017/10/05/120541
+
+php7ccによる互換性の自動検知
+グーペではphp7ccという互換性検知ツールの導入をし
+https://tech.pepabo.com/2017/06/21/goope-php71-upgrade/
