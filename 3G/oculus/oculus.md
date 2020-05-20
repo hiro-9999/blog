@@ -23,3 +23,6 @@ https://www.vrfocus.com/2019/07/vr-browser-firefox-reality-now-supports-oculus-q
 https://www.galaxymobile.jp/support/mobile-devices/about-certain-apps-owned-by-oculus/
 
 https://www.oculus.com/experiences/gear-vr/1257988667656584/
+
+# gear vr
+https://www.oculus.com/experiences/gear-vr/1257988667656584/
