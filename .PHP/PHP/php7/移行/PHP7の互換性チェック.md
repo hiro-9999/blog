@@ -1,3 +1,6 @@
+# PHP: PHPの静的解析
+http://algo13.net/php/tips/static-analysis.html
+
 # PHP5からPHP7への移行注意点
 https://centosinstall.com/programming/php/php5-php7
 
