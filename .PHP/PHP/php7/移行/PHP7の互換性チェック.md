@@ -6,3 +6,7 @@ php7ccを使うと既存のソースコードがPHP7に対応しているかど�
 
 # 互換性チェックツール
 https://qiita.com/suin/items/db7a9bc3b11039346977
+
+PhpStormでのInspection
+Preference → Language & Frameworks → PHPの「PHP Language Level」を「7.2」にする。
+その上で、「Code」→「Inspect Code」を走らせる。
