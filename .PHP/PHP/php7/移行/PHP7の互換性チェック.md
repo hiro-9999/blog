@@ -10,3 +10,6 @@ https://qiita.com/suin/items/db7a9bc3b11039346977
 PhpStormでのInspection
 Preference → Language & Frameworks → PHPの「PHP Language Level」を「7.2」にする。
 その上で、「Code」→「Inspect Code」を走らせる。
+
+# PHP7の互換性チェック
+PhpStormでPHP5.6→PHP7系の互換性をチェックする
