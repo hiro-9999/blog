@@ -1,4 +1,6 @@
 https://developer.oculus.com/documentation/oculus-browser/browser-get-started/
+https://qiita.com/nightyknite/items/b2590a69f2e0135756dc
+
 
 https://support.oculus.com/release-notes/
 
