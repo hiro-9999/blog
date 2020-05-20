@@ -22,8 +22,8 @@ php7cc 調べたいPHPファイルかディレクトリ
 
 https://arakaze.ready.jp/archives/5158
 
-
-
+# PHP 5からPHP 7へ移行
+https://codezine.jp/article/detail/8952?p=4
 
 
 
