@@ -2,6 +2,11 @@ https://qiita.com/su_mi/items/b9f06a81bdae40b84c61
 
 # PHP7の互換性チェック
 php7ccを使うと既存のソースコードがPHP7に対応しているかどうか、チェックできます。
+
+# mcrypt対応
+https://engineer.blog.lancers.jp/2019/05/finish_php73/
+https://github.com/LancersDevTeam/PHP_versionup/blob/master/PHP5.6toPHP7.3/1.1_mcrypt%E5%AF%BE%E5%BF%9C.md
+
 # phan
 https://github.com/phan/phan
 composer require phan/phan
