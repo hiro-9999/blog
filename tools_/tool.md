@@ -3,6 +3,9 @@
 # 生成条码
 https://barcode.tec-it.com/zh/Code128?data=ABC-abc-1234
 
+# mac soft
+https://xclient.info/s/bbedit.html?t=f25803378bc6aa0c0495c32f5db65c6edfb2dae5
+
 # tools
 IntelliJ IDEA：https://www.jetbrains.com/idea/download
 X-shell：http://www.netsarang.com/download/software.html
