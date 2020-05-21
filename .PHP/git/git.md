@@ -13,3 +13,7 @@ git push origin :master_bk
 git commit -a -m "commit"
 
 https://qiita.com/konweb/items/621722f67fdd8f86a017
+
+
+⭕️このコマンドを打った後、認証をすると、次回から認証が省略される。
+git config --global credential.helper store
