@@ -39,6 +39,29 @@ session_start([
    'read_and_close' => true,
 ]);
 
+# PHP匿名类
+```php
+interface Logger{public function log(string $msg);}
+class Application
+{
+    private $logger;
+    public function getLogger(): Logger{return $this->logger;}
+    public function setLogger(Logger $logger){$this->logger = $logger;}
+}
+$app = new Application;
+// new class 来实例化一个匿名类，用来替代一些"用后即焚"的完整类定义。
+$app->setLogger(new class implements Logger{public function log(string $msg){print_r($msg);}});
+$app->getLogger()->log('我是第一条日志');
+echo PHP_EOL;
+$app->setLogger(new class implements Logger{public function log(string $msg){print_r($msg);}});
+$app->getLogger()->log('我是第二条日志');
+echo PHP_EOL;
+```
+# list用法
+$arr = [4, 5, 6];
+[$a, $b, $c] = $arr;
+var_dump($a, $b, $c);
+
 # 异常
 PHP 7 异常用于向下兼容及增强旧的assert()函数。它能在生产环境中实现零成本的断言，并且提供抛出自定义异常及错误的能力。
 https://www.php.net/manual/ja/function.array-map.php
