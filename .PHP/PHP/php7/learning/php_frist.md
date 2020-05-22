@@ -40,7 +40,7 @@ session_start([
 ]);
 
 # PHP匿名类
-```php
+```
 interface Logger{public function log(string $msg);}
 class Application
 {
