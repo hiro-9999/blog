@@ -3,12 +3,78 @@ https://www.sejuku.net/blog/category/programing/php/php-%e5%85%a5%e9%96%80
 
 https://www.toutiao.com/a6791008618574512647/
 
+# php7进阶到架构师
+https://www.kancloud.cn/gofor/gofor/1636401
+https://www.toutiao.com/a6814672429084836363/
+字符的筛选方式：
+| 匹配两个或者多个分支选择，即或匹配
+[]匹配方括号中的任意字符
+[^] 匹配除方括号中的字符之外的任意字符；
+区间匹配：[a-z]匹配a到z的字符, [0-9]匹配0到9的字符。也可以[a-z0-9] ，表示匹配数字或者小写字母
+. 匹配除换行符之外的任意字符
+\d 匹配任意一个十进制数字，即[0-9]
+\D 匹配任意一个非十进制数字[^0-9] 相当于[^\d] ，与\d相反
+\s 匹配一个不可见的字符，即[\f\n\r\t\v]
+\S 匹配一个可见的字符，与\s相反
+\w 匹配任意一个数字、字母或下划线，即[0-9a-zA-Z_]
+\W 匹配任意一个非数字、字母或下划线，与\w相反
+
+
+# Imuutable array
+对于这种数组，不会发生COW，不需要计数，这个也会极大的提高这种数据的操作性能，
+https://www.toutiao.com/a6800170858447897101/
+
+# 启用Zend Opcache
+启用Opcache非常简单，在php.ini配置文件中加入：
+https://www.toutiao.com/a6584763922211930638/
+
+# Hugepage
+让你的PHP7更快之Hugepage，首先在系统中开启HugePages，然后开启Opcache的huge_code_pages。
+以我的CentOS 6.5为例，通过执行如下命令，分配512个预留的大页内存：
+
+$sudo sysctl vm.nr_hugepages=512
+「PHP编程」鸟哥：为让PHP7达到最高性能，我提几点
+然后在php.ini中加入：
+opcache.huge_code_pages=1
+这样一来，PHP会把自身的text段，以及内存分配中的huge都采用大内存页来保存，减少TLB miss，从而提高性能。
+
+# Opcache file cache
+开启Opcache File Cache(实验性)，通过开启这个，我们可以让Opcache把opcode缓存缓存到外部文件中，对于一些脚本，会有很明显的性能提升。
+在php.ini中加入：
+opcache.file_cache=/tmp
+这样PHP就会在/tmp目录下Cache一些Opcode的二进制导出文件，可以跨PHP生命周期存在。
 
 # Error错误处理  你可以用 catch (Error $e) { ... } 
 PHP 7 改变了大多数错误的报告方式。不同于 PHP 5 的传统错误报告机制，现在大多数错误被作为 Error 异常抛出。
 这种 Error 异常可以像普通异常一样被 try / catch 块所捕获。如果没有匹配的 try / catch 块， 则调用异常处理函数（由 set_exception_handler() 注册）进行处理。 如果尚未注册异常处理函数，则按照传统方式处理：被报告为一个致命错误（Fatal Error）。
 
 Error 类并不是从 Exception 类 扩展出来的，所以用 catch (Exception $e) { ... } 这样的代码是捕获不 到 Error 的。你可以用 catch (Error $e) { ... } 这样的代码，或者通过注册异常处理函数（ set_exception_handler()）来捕获 Error。
+
+```php
+try {
+undefindfunc();
+} catch (Error $e) {
+var_dump($e);
+}
+// or
+set_exception_handler(function($e){
+var_dump($e);
+});
+undefindfunc();
+```
+# PGO
+我之前的文章：让你的PHP7更快(GCC PGO) 也介绍过，如果你的PHP是专门为一个项目服务，比如，只是为你的Wordpress，或者drupal，或者其他什么，那么你就可以尝试通过PGO，来提升PHP，专门为你的这个项目提高性能。
+具体的，以wordpress 4.1为优化场景。 在编译PHP的时候首先执行如下命令：
+make prof-gen
+然后用你的项目训练PHP，比如对于Wordpress：
+sapi/cgi/php-cgi -T 100 /home/huixinchen/local/www/htdocs/wordpress/index.php >/dev/null
+也就是让php-cgi跑100遍wordpress的首页，从而生成一些在这个过程中的profile信息。
+最后执行如下命令：
+
+make prof-clean
+make prof-use && make install
+
+这个时候你编译得到的PHP7就是为你的项目量身打造的最高性能的编译版本。
 
 # declare(strict_types=1); //严格模式
 
@@ -75,7 +141,16 @@ ini_set('zend.assertion',1);
 ini_set('assert.exception',1);
 
 # call函数实现闭包
+```php
 ->call(new a());
+class Test {
+private $num = 1;
+}
+$f = function() {
+return $this->num + 1;
+};
+echo $f->call(new Test);
+```
 
 # 匿名类
 
@@ -83,7 +158,11 @@ php7允许你使用new class来实例化一个匿名类
 
 # スコープ外の変数を参照するには、use()を使用する。
 
-配列の要素をn倍する
+## 新增整除函数intdiv()
+  例如：intdiv(10,3)
+  结果：3
+## 新增两个更安全的伪随机生成器函数random_bytes()和random_int()
+## 配列の要素をn倍する
 $n = 3;
 $hoge = array(5,4,7);
 
