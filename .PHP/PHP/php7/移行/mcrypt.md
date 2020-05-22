@@ -5,7 +5,7 @@ https://blog.ohgaki.net/encrypt-decrypt-using-openssl
 # tools:
 https://whattheserver.com/how-to-install-mcrypt-for-php-7-2-and-php-7-3-on-centos-7cpanel/
 
-
+```
 private function encrypt($text)
 	{
 		$key = random_bytes(32);
@@ -21,3 +21,4 @@ private function encrypt($text)
 
         return $encrypted;
 	}
+```
