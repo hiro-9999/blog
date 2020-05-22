@@ -1,3 +1,6 @@
+# PHP7.2でFuelPHPがエラーになるのを何とかする
+https://qiita.com/ichi_404/items/d5b656d4142b1e19d97e
+
 # PHP: PHPの静的解析
 http://algo13.net/php/tips/static-analysis.html
 
