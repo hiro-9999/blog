@@ -43,7 +43,7 @@ session_start([
 
 # PHP匿名类
 
-\```rb
+```rb
 interface Logger{public function log(string $msg);}
 class Application
 {
@@ -59,7 +59,7 @@ echo PHP_EOL;
 $app->setLogger(new class implements Logger{public function log(string $msg){print_r($msg);}});
 $app->getLogger()->log('我是第二条日志');
 echo PHP_EOL;
-\```
+```
 
 # list用法
 $arr = [4, 5, 6];
