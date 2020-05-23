@@ -1,14 +1,6 @@
 ![宁静致远](https://github.com/hiro-9999/blog/blob/master/Books_/nrngjingzhiyusn2020-05-23%2012.11.43.png)
 
 
-
-https://www.bilibili.com/video/av57143902/?p=6
-
->tools
-https://pdfcandy.com/jp/djvu-to-pdf.html
-
-https://djvu2pdf.com/ja/
-
 # english
 https://epdf.pub/
 
