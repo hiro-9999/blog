@@ -23,6 +23,9 @@ https://freembook.com/
 # 知识库
 https://book.zhishikoo.com/
 
+# booksxy
+https://www.booksxy.com/
+
 # 书单网
 https://www.shudan.vip/
 
