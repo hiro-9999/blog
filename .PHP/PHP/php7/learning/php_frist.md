@@ -1,7 +1,59 @@
+# 人生三千事，泯然一笑间。 “人生在世，还不是有时笑笑人家，有时给人家笑笑。”
+
+# 生命太短，没时间伤春悲秋。
+
+# 百事从心起，一笑解千愁。
+
 https://www.sejuku.net/blog/category/programing/php/php-%e5%85%a5%e9%96%80
 
 
 https://www.toutiao.com/a6791008618574512647/
+
+```php
+var_dump("abcdef"[-2]); // 从末尾取倒数第2个字符：e
+
+var_dump("abcdef"[2]); // 从前面取第2个，从0开始：c
+
+$string = 'bar';
+
+echo $string[1], $string[-1]; // a r
+```
+
+# [] style
+https://www.toutiao.com/a6754054227900760579/
+```php
+foreach ($data as ["id" => $id, "name" => $name]) {
+
+// logic here with $id and $name
+
+}
+
+在这个功能没有之前，我们一般会用while + each 的方式来用list 遍历索引数组:
+
+$data = [
+
+["id" => 1, "name" => 'Tom'],
+
+["id" => 2, "name" => 'Fred'],
+
+];
+
+while (list($id, name) = each($data)) {
+
+echo "$key => $val\n";
+
+}
+
+// list() style
+
+list("id" => $id1, "name" => $name1) = $data[0];
+
+// [] style
+
+["id" => $id1, "name" => $name1] = $data[0];
+
+注意：PHP 7.2 中已经将 each 函数移除了！所以，就不要用这种方式来遍历索引数组了
+```
 
 # php7进阶到架构师
 https://www.kancloud.cn/gofor/gofor/1636401
