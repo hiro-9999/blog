@@ -15,6 +15,9 @@ https://freembook.com/
 # 知识库
 https://book.zhishikoo.com/
 
+# hdpdf
+https://hdpdf.blog/
+
 # booksxy
 https://www.booksxy.com/
 
