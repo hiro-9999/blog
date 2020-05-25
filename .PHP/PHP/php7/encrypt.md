@@ -1,4 +1,4 @@
-'''php
+```php
 
 private function encrypt($text)
 {
@@ -15,5 +15,4 @@ private function encrypt($text)
 
       return $encrypted;
 }
-
-'''
+```
