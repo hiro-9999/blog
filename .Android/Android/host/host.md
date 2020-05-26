@@ -14,3 +14,8 @@ adb -s emulator-5554 pull /system/etc/hosts ~/Desktop/
 remount succeeded
 
 % adb -s emulator-5554 push ~/Desktop/hosts /system/etc/hosts
+
+
+
+# Androidのエミュレーターから自身のPC(localhost)へ接続
+https://araramistudio.jimdo.com/2018/01/11/androidのエミュレーターから自身のpc-localhost-へ接続/
