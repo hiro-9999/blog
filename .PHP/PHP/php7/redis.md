@@ -16,3 +16,5 @@ kill -9 进程号
 在重新配置一下
 
 /usr/local/redis/bin/redis-server /usr/local/redis/etc/redis.conf
+
+ps aux | grep redis-server
