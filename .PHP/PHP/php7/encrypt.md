@@ -16,3 +16,5 @@ private function encrypt($text)
       return $encrypted;
 }
 ```
+rijndael-128	aes-256
+https://qiita.com/sapi_kawahara/items/bbfbc57fd12ff348f216
