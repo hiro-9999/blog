@@ -16,5 +16,8 @@ private function encrypt($text)
       return $encrypted;
 }
 ```
-rijndael-128	aes-256
+# rijndael-128	aes-256
 https://qiita.com/sapi_kawahara/items/bbfbc57fd12ff348f216
+
+# [PHP]OpenSSLを使った文字列の暗号化と復号
+https://php-archive.net/php/openssl-encrypt/
