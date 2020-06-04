@@ -16,6 +16,9 @@ private function encrypt($text)
       return $encrypted;
 }
 ```
+# decrypt
+https://php.plus-server.net/function.openssl-decrypt.html
+
 # rijndael-128	aes-256
 https://qiita.com/sapi_kawahara/items/bbfbc57fd12ff348f216
 
@@ -23,3 +26,10 @@ https://qiita.com/sapi_kawahara/items/bbfbc57fd12ff348f216
 https://php-archive.net/php/openssl-encrypt/
 
 https://tech.mktime.com/entry/451
+
+# 対処法1:Mcryptを使い続ける
+https://agency-star.co.jp/column/php--with-mcrypt/
+
+https://pc.shigizemi.com/?p=5760
+
+php ーm | grep mcrypt
