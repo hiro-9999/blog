@@ -34,4 +34,4 @@ https://pc.shigizemi.com/?p=5760
 
 php ーm | grep mcrypt
 
-cat /etc/hosts/ | grep memcached
+cat /etc/hosts | grep memcached
