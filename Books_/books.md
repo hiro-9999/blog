@@ -18,9 +18,6 @@ https://book.zhishikoo.com/
 # aibook
 https://www.aibooks.cc/books/9129.html
 
-# sobooks
-https://sobooks.cc/books/9129.html
-
 # 我的打包分享
 http://mydbfx.com/
 
