@@ -9,7 +9,7 @@ https://b-ok.cc/
 
 https://b-ok.cc/book/3645027/49bdd7?dsource=recommend
 
-# search english
+# search 
 https://freembook.com/
 
 # 知识库
@@ -18,6 +18,8 @@ https://book.zhishikoo.com/
 # aibook
 https://www.aibooks.cc/books/9129.html
 
+# sobooks
+https://sobooks.cc/books/9129.html
 
 # 我的打包分享
 http://mydbfx.com/
