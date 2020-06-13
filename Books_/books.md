@@ -15,6 +15,10 @@ https://freembook.com/
 # 知识库
 https://book.zhishikoo.com/
 
+# aibook
+https://www.aibooks.cc/books/9129.html
+
+
 # 我的打包分享
 http://mydbfx.com/
 
@@ -26,9 +30,6 @@ https://www.booksxy.com/
 
 # 书单网
 https://www.shudan.vip/
-
-# aibook
-https://www.aibooks.cc/books/9129.html
 
 # 佐佐
 https://www.zzyyu.com/index.php/2020/04/19/13333/
