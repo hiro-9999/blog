@@ -69,9 +69,7 @@ redis-cli --raw -h your.host -a your.password -p 6379 --scan --pattern “lasted
 –scan安全浏览输出
 –pattern你要查询的key值，可以正则
 temp.log 你要输出到的文件名，默认路径为当前路径
-————————————————
-版权声明：本文为CSDN博主「hacker_LeeFei」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
-原文链接：https://blog.csdn.net/hacker_Lees/java/article/details/88559444
+
 ```
 
 表达式
