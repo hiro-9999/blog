@@ -38,6 +38,19 @@ OK
 127.0.0.1:6379> keys *
 1) "towers"
 127.0.0.1:6379>
+## "quit" to exit
+To get help about Redis commands type:
+
+      "help @<group>" to get a list of commands in <group>
+
+      "help <command>" for help on <command>
+
+      "help <tab>" to get a list of possible help topics
+
+      "quit" to exit
+————————————————
+版权声明：本文为CSDN博主「AndyZhang86」的原创文章，遵循CC 4.0 BY-SA版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/BanketBoy/java/article/details/86590575
 
 https://blog.csdn.net/BanketBoy/article/details/86590575?utm_medium=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
 
