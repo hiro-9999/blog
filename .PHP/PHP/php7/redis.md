@@ -22,13 +22,14 @@ ps aux | grep redis-server
 
 # redis操作五种数据的命令说明
 https://redis.io/commands/type
+```rub
 if value is of type string -> GET <key>
 if value is of type hash -> HGETALL <key>
 if value is of type lists -> lrange <key> <start> <end>
 if value is of type sets -> smembers <key>
 if value is of type sorted sets -> ZRANGEBYSCORE <key> <min> <max>
 Use the TYPE command to check the type of value a key is mapping to:
-
+```
 ## type <key>
 
 ## redis-cli
