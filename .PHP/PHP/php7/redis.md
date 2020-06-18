@@ -21,14 +21,50 @@ ps aux | grep redis-server
 
 
 # redis操作五种数据的命令说明
+## key hoge*
+https://blog.eiel.info/blog/2014/08/26/remember-redis/
+```
+zset だった場合
+キーhoge の値の種類が zset だった場合は zrange を使う。 zset 順序のある集合
+
+> zrange hoge 0 -1
+
+hash だった場合
+キーhoge の値の種類が hash だった場合は hgetall を使う。 ただし、field と value が交互に表示されてよみやすくはない。
+
+> hgetall hoge
+string だった場合
+キーとキーの種類が別れば値を見ることができる。
+
+キーhoge の値の種類が string だったら get を使う
+
+> get hoge
+ちなみに設定する場合は set。hubot は json が string で保存してあった。
+
+list だった場合
+キーhoge の値の種類が list だった lrange を使う。
+
+> lrange hoge 0 -1
+先頭 から 最後から1番目までの値を返せという感じになる。 必要な範囲を指定したい場合は微調整するとよい。
+
+set だった場合
+キーhoge の値の種類が set だった場合は smembers を使う。
+
+> smembers hoge
+```
 https://redis.io/commands/type
 ```rub
-if value is of type string -> GET <key>
-if value is of type hash -> HGETALL <key>
-if value is of type lists -> lrange <key> <start> <end>
-if value is of type sets -> smembers <key>
-if value is of type sorted sets -> ZRANGEBYSCORE <key> <min> <max>
-Use the TYPE command to check the type of value a key is mapping to:
+コマンド	説明
+keys *	redisに登録されているキーの一覧を取得する key のパターンを指定する
+type [key]	value の種類を返す。
+get [key]	type が string だった場合の値をみる方法
+lrange [key] 0 -1	type が list だった場合の値をみる方法
+smembers [key]	type が set だった場合の値をみる方法
+zrange [key] 0 -1	type が zsetだった場合の値をみる方法
+hgetall [key]	type が hash だった場合の値をみる方法
+hkeys [key]	type が hash だった場合に field の一覧をみる方法
+hvals [key]	type が hash だった場合に value の一覧をみる方法
+monitor	redisサーバが受けとったコマンドを表示する
 ```
 ## type <key>
 
