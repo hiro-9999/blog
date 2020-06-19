@@ -27,7 +27,7 @@ https://www.enjing.com/
 # SOBooks
 https://sobooks.cc/
 
-# IT熊猫
+# ~~IT熊猫~~
 https://www.itpanda.net/book/
 
 # SaltTiger
