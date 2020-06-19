@@ -27,8 +27,8 @@ https://www.enjing.com/
 # SOBooks
 https://sobooks.cc/
 
-# ~~IT熊猫~~
-https://www.itpanda.net/book/
+# it online
+https://github.com/justjavac/free-programming-books-zh_CN
 
 # SaltTiger
 https://salttiger.com/
