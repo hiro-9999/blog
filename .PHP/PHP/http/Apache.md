@@ -2,7 +2,31 @@
 
 http://www.apache.org
 
+# restart the apache/httpd service.
+```rub
+Install Apache/httpd using the yum command below.
+yum -y install httpd
+
+netstat -plntu
+curl -I localhost
+
+systemctl start httpd
+systemctl enable httpd
+
+cd /etc/httpd/
+vim conf/httpd.conf
+
+netstat -plntu
+
+ restart the apache/httpd service.
+ 
+apachectl configtest
+systemctl restart httpd
+
+```
+
 # Apache - The Definitive Guide
+[commad](https://www.howtoforge.com/tutorial/how-to-install-varnish-with-nginx-on-centos-7/)
 ```rub
 the Uniform Resource Identifier (URI) /;
 
