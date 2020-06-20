@@ -111,6 +111,11 @@ apachectl configtest
 systemctl restart httpd
 
 ```
+# install varnish
+[install varnish](https://www.toutiao.com/a6748265610674700804/)
+
+
+
 抜粋:: [美]David Gourley　Brian Totty　Marjorie Sayer　Sailu Reddy　Aushu Aggarwal  “HTTP权威指南 (图灵程序设计丛书)”。 Apple Books  
 
 
