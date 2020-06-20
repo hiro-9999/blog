@@ -79,7 +79,38 @@ Ben Laurie 和 Peter Laurie 编写，O'Reilly & Associates 公司出版。
 # Professional Apache
 Peter Wainwright 编写，Wrox 公司出版。”
 
-抜粋:: [美]David Gourley　Brian Totty　Marjorie Sayer　Sailu Reddy　Aushu Aggarwal  “HTTP权威指南 (图灵程序设计丛书)”。 Apple Books  
+# “Web Proxy Servers
+Ari Luotonen 著，Prentice Hall 出版的计算机图书。
 
+# Web Caching（《Web 缓存》1）
+1 影印版由清华大学出版社出版。（编者注）”
+
+# Varnish HTTP Cache
+https://varnish-cache.org
+
+[install apatch and varnish](https://www.howtoforge.com/tutorial/how-to-install-varnish-with-nginx-on-centos-7/)
+# restart the apache/httpd service.
+```rub
+Install Apache/httpd using the yum command below.
+yum -y install httpd
+
+netstat -plntu
+curl -I localhost
+
+systemctl start httpd
+systemctl enable httpd
+
+cd /etc/httpd/
+vim conf/httpd.conf
+
+netstat -plntu
+
+ restart the apache/httpd service.
+ 
+apachectl configtest
+systemctl restart httpd
+
+```
+抜粋:: [美]David Gourley　Brian Totty　Marjorie Sayer　Sailu Reddy　Aushu Aggarwal  “HTTP权威指南 (图灵程序设计丛书)”。 Apple Books  
 
 
