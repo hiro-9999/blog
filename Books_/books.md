@@ -28,6 +28,8 @@ https://www.enjing.com/
 https://sobooks.cc/
 
 # it online
+https://gist.github.com/pavel-popov/d5d0166bddba31cdcf7d94e1fd121c95
+
 https://github.com/justjavac/free-programming-books-zh_CN
 
 # SaltTiger
