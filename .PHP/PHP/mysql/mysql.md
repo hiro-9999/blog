@@ -1,3 +1,9 @@
+# SQL online
+SELECT DISTINCT subject FROM grades;
+last_insert_rowid();
+
+https://www.learnsqlonline.org/en/Distinct_queries
+
 # サーバータイムアウト
 set global wait_timeout = 28800;
 
