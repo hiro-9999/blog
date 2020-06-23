@@ -24,9 +24,6 @@ http://mydbfx.com/
 # 恩京书房
 https://www.enjing.com/
 
-# SOBooks
-https://sobooks.cc/
-
 # it online
 https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-interactive-tutorials-en.md
 
