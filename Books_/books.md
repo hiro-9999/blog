@@ -15,6 +15,10 @@ https://freembook.com/
 # 知识库
 https://book.zhishikoo.com/
 
+
+ # ePUBee
+ http://cn.epubee.com/books/
+
 # aibook
 https://www.aibooks.cc/books/9129.html
 
@@ -54,13 +58,6 @@ http://www.j9p.com/down/525069.html
 # jb51
 https://www.jb51.net/books/656801.html
 
-# look
-http://edu.15kankan.com/info/j9u818720
-
-# 3minute
-https://www.sanfenzhong.net/426.html
-
-https://shudan.vip/?btwaf=71896499
 
 
 # 搬书匠
@@ -78,15 +75,6 @@ http://www.minxue.net/74/n-121074.html
 # 鸠摩搜书
 https://www.jiumodiary.com/
 
-# owllook
-https://www.owllook.net/
-
-# 书伴
-https://bookfere.com/
-
-# 我的小书屋
-https://shuayouxi.cn/
-
 
 # 书格
 https://new.shuge.org/
@@ -94,21 +82,6 @@ https://new.shuge.org/
 # 智奇搜书
 https://www.zqbook.top/
 
-
-# PDF之家
-https://www.pdfzj.com/
-
-# 书语者
-https://book.shuyuzhe.com/
-
-# 蚂蚁搜书
-http://book.mybanshu.win/
-
-# 知轩藏书
-http://www.zxcs.me/
-
- # ePUBee
- http://cn.epubee.com/books/
  
  # 周读
  http://book.gonginxweb.com/
