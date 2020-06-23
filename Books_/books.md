@@ -77,8 +77,6 @@ https://haobook.org/post/10002149.html
 
 http://www.banshujiang.cn/
 
-# ePUBw
-https://epubw.com/
 
 # 苦瓜书盘
 https://www.kgbook.com/
