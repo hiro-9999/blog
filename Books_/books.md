@@ -71,8 +71,6 @@ https://shudan.vip/?btwaf=71896499
 # 子午
 https://ziwu365.com/
 
-# 书单网
-https://www.shudan.vip/167740.html
 
 # 雅书
 https://yabook.org/post/5470.html
