@@ -63,13 +63,6 @@ https://www.sanfenzhong.net/426.html
 https://shudan.vip/?btwaf=71896499
 
 
-# 子午
-https://ziwu365.com/
-
-
-# 雅书
-https://yabook.org/post/5470.html
-
 # 搬书匠
 http://www.80pdf.com
 
