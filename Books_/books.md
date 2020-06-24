@@ -9,7 +9,10 @@ https://b-ok.cc/
 
 https://b-ok.cc/book/3645027/49bdd7?dsource=recommend
 
-# search 
+# freemdict
+https://freemdict.com/
+
+# freembook 
 https://freembook.com/
 
 # 知识库
