@@ -18,3 +18,6 @@ https://lang-8.com/
 
 # ted
 https://www.ted.com/
+
+#  不背单词
+https://www.bbdc.cn/
