@@ -15,6 +15,8 @@ https://freemdict.com/
 # freembook 
 https://freembook.com/
 
+https://down.freembook.com/mixc/
+
 # 知识库
 https://book.zhishikoo.com/
 
