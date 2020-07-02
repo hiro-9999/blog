@@ -23,6 +23,9 @@ https://book.zhishikoo.com/
 
  # ePUBee
  http://cn.epubee.com/books/
+ 
+ # jb51
+ https://www.jb51.net/books/398856.html
 
 # aibook
 https://www.aibooks.cc/books/9129.html
