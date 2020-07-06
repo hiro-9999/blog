@@ -11,6 +11,7 @@ https://www.youtube.com/watch?v=QvKCE195CBQ&list=PL-qZic2iNlQJLLNanYcTAXfFrbL04F
 https://www.youtube.com/watch?v=oBJ06OCYVzs&list=PL_tWzdr9jrm9OLZ_DAmkCWliGf5nLJ3Bm
 
 ## 《飘》
+[mp3]（https://pan.baidu.com/disk/home#/all?vmode=list&path=%2F329.Gone%20With%20The%20Wind%E3%80%90ienglish521.com%E3%80%91%2F%E3%80%902%E3%80%91%E9%9F%B3%E9%A2%91%2FGone%20With%20The%20Wind%E3%80%90ienglish521.com%E3%80%91）
 
 # 人类简史 从动物到上帝  Sapiens:A Brief History of Huma
 https://www.youtube.com/watch?v=ZUKchDDUt_A
