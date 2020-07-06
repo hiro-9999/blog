@@ -4,6 +4,9 @@
 # english
 https://epdf.pub/
 
+# 力哥 english
+https://ienglish521.com/3545.html
+
 # z library 10/day
 https://b-ok.cc/
 
