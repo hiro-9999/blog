@@ -21,3 +21,7 @@ happy is happiness.
 
 ## ity
 possible is a possibility.
+
+# the present perfect refers to an action begun in the past but connected to the present;
+# it may have been completed or it may still be going on.
+It is formed by using have together with the past participle, in this case, eaten.
