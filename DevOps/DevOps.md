@@ -1,6 +1,59 @@
 # EXIN DevOps Master和EXIN DevOps Professional
 https://www.toutiao.com/a6758240560907059715/
 
+- EXIN DevOps プロフェッショナル認定
+または
+- 書籍『The Phoenix Project』を読む（文献リスト参照）。
+```
+授業時間
+最小限の教育・訓練コースの最小受講時間は、24 時間です。これには、実践課題、試験の準備、
+小休憩が含まれます。宿題、試験準備、昼休みはこの時間に含まれません。
+
+実践課題のためのガイドラインは、Partnernet で見つけることができます。実践課題に推奨され
+る時間は最大 8 時間です。実践課題は、トレーニング環境の外部で完了できます。実践課題につい
+ては、トレーナーは次の中から選択できます。
+• GamingWorks シミュレーション（トレーナーに GamingWorks 認定が必要です）
+• 書籍『 Introduction to DevOps with Chocolate, LEGO and Scrum Game』1のゲーム
+• 独自の実践課題を開発する
+試験の参考文献
+EXIN DevOps Master™試験に必要な知識は、次の文献に記載されています。
+A Effective DevOps: Building a Culture of Collaboration, Affinity, and Tooling at
+Scale
+Jennifer Davis, Katherine Daniels
+ISBN-13: 978-1491926307
+ISBN-10: 1491926309
+O'Reilly Media; 初版（2016 年 6 月 25 日）
+B Continuous Delivery: Reliable Software Releases through Build, Test, and
+Deployment Automation
+Jez Humble, David Farley
+ISBN-13: 978-0321601919
+ISBN-10: 0321601912
+Addison-Wesley Professional; 初版 （2010 年 8 月 6 日）
+
+C エンタープライズ DevOps、DevOps によるビジネスを支援する IT サービス
+Koichiro (Luke) Toda, President Strategic Staff Services Corporation and
+Director of TPS Certificate Institution
+Nobuyuki Mitsui, CTO of Strategic Staff Services Corporation
+White Paper; 2016 年 6 月 (EXIN のサイトからダウンロードできます。)
+追加文献
+D 「The DevOps 逆転だ！究極の継続的デリバリー」
+Gene Kim, Kevin Behr, George Spafford
+ISBN-13: 978-4822285357
+日経 BP 社
+E The DevOps Handbook: How to Create World-Class Agility, Reliability, and
+Security in Technology Organizations
+Gene Kim, Jez Humble, Patrick Debois, John Willis
+ISBN-10: 1942788002
+ISBN-13: 978-1942788003
+IT Revolution Press; 初版 (2016)
+
+F その他の文献（下記 URL 参照）:
+http://newrelic.com/devops
+http://devops.com/
+コメント
+追加の参考文献は、参考として知識
+```
+
 # 最全的 DevOps 工具集合
 https://www.toutiao.com/a6818062028054200835/
 
