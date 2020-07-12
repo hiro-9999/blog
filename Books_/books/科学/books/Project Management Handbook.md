@@ -17,4 +17,9 @@ For example, “As a user, I want to log into my account using a username and pa
 ●        Does anyone have any questions?
 ●        Does anyone have any confusion?”
 
+# DevOps
+
+“An essential element of DevOps is that there’s a change in culture. It's not necessarily about the tools.
+DevOps emphasizes people and culture . It seeks to improve collaboration between operations and development teams. DevOps implementations utilize technology, especially automation tools.”
+
 抜粋:: Academy, Tech  “Project Management Handbook: An Introduction to Scrum, Agile and DevOps for Absolute Beginners”。 Apple Books  
