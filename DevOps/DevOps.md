@@ -1,3 +1,9 @@
+# EXIN DevOps Master和EXIN DevOps Professional
+https://www.toutiao.com/a6758240560907059715/
+
+# 最全的 DevOps 工具集合
+https://www.toutiao.com/a6818062028054200835/
+
 ```rub
 2016
 
