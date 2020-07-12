@@ -26,4 +26,4 @@ Web服务器：Apache、Nginx、IIS
 # 51 Best DevOps Tools for #DevOps Engineers
 https://www.guru99.com/devops-tools.html
 
-
+https://www.simplilearn.com/tutorials/devops-tutorial/devops-tools
