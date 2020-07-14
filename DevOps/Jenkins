@@ -14,3 +14,6 @@ which php
 sudo ln -s /usr/bin/php /usr/local/bin/php
 
 https://webkaru.net/linux/sudo-user-add/
+
+# Jenkins移行方法
+https://www.kwbtblog.com/entry/2019/03/13/160120
