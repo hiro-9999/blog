@@ -62,5 +62,24 @@ https://www.kwbtblog.com/entry/2019/03/13/160120
 # プラグインのインストール
 https://qiita.com/tnishi91/items/c35a536cb5e35c09af7d
 
+Jenkinsで他のJenkinsにジョブをインポートする方法
+■実施方法
+Jenkinsのデータがある「jobs」ディレクトリ配下のジョブ名のディレクトリをコピー（またはリモードサーバに転送）
+例えば「/root/.jenkins/jobs/job_name」など
+コピー（または転送）を実施したあとにインポートする側のJenkinsの再起動を実施
+コピーしたディレクトリ名のジョブをUI上で確認
+
+以上です、簡単
+
+上記の動作からJenkinsが同名のジョブを持つことができないのも納得かと思います
+※同一ディレクトリ配下に同名のディレクトリを作成することはできないので
+
+あとポイントとしてはディレクトリの権限で
+
+Jenkins自体の動作はjenkinsユーザで行っているのにコピー作業をrootユーザで実施してしまったためにインポートしたジョブの権限がrootになってしまった
+
+なんてことが発生しJenkinsがうまく起動できないことがあると思います
+そんな場合は「chown -R jenkins:jenkins copy_job_name」などと実行してコピーしたジョブのディレクトリとその配下全体をjenkinsユーザの権限にしてから再起動すればOKです
+
 # Jenkinsのジョブを別のJenkinsサーバにコピーする方法
 https://www.it-swarm-ja.tech/ja/jenkins/jenkins%e3%81%ae%e3%82%a8%e3%82%af%e3%82%b9%e3%83%9d%e3%83%bc%e3%83%88%e3%82%a4%e3%83%b3%e3%83%9d%e3%83%bc%e3%83%88%e3%82%b8%e3%83%a7%e3%83%96/941097416/
