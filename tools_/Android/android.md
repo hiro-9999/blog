@@ -1,4 +1,5 @@
 # vmos
+root device
 https://www.vmos.com/?utm_source=vmos.cn
 
 # 32 / 64bitの機器
