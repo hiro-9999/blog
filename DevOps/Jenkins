@@ -18,6 +18,19 @@ https://webkaru.net/linux/sudo-user-add/
 # Jenkins移行方法 ok
 https://symfoware.blog.fc2.com/blog-entry-2430.html
 
+```
+Jenkinsのジョブをエクスポートして別のJenkinsサーバにインポートする方法
+サーバAのProject hogeをサーバBのProject fugaへ。
+
+Bで空のproject fugaを作ります。
+
+AのC:\Program Files (x86)\Jenkins\jobs\hoge\config.xmlを、
+
+BのC:\Program Files (x86)\Jenkins\jobs\fugaにコピーします。
+
+https://B:8080/safeRestartで再起動します。
+```
+
 https://www.kwbtblog.com/entry/2019/03/13/160120
 
 # https://plugins.jenkins.io/job-import-plugin/
