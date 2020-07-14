@@ -21,6 +21,8 @@ https://www.kwbtblog.com/entry/2019/03/13/160120
 # https://plugins.jenkins.io/job-import-plugin/
 プラグイン
 
+サイドメニューより、「Jenkinsの管理」- 「プラグインの管理」を選択し、プラグインマネージャー画面を表示。
+
 # プラグインのインストール
 https://qiita.com/tnishi91/items/c35a536cb5e35c09af7d
 
