@@ -7,3 +7,10 @@ https://www.karakaram.com/jenkins2-permission-for-each-job/
 
 # cannot-run-ant
 http://1000k.github.io/2013/07/02/jenkins-user-cannot-run-ant/
+
+# php
+which php
+
+sudo ln -s /usr/bin/php /usr/local/bin/php
+
+https://webkaru.net/linux/sudo-user-add/
