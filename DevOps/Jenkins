@@ -1,6 +1,11 @@
 # Jenkins
 https://qiita.com/nh321/items/d202ae635b520c78f035
 
+# Jenkins を再起動したときに出たエラー
+https://kenzo0107.hatenablog.com/entry/2016/12/09/135546
+
+$ sudo chown -R jenkins:jenkins /var/lib/jenkins/plugins
+
 
 # Jenkins2でジョブごとに権限を設定する
 https://www.karakaram.com/jenkins2-permission-for-each-job/
