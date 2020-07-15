@@ -414,3 +414,12 @@ git archive -o [ZIP] HEAD
 
 HEADのコミット内容を指定したZIPファイルにアーカイブする。
 '''
+
+解決策
+## fatal: No url found for submodule path 
+以下のようにするととりあえず解決
+(outputが出ないときもあるが。。)
+$ git rm -r --cached --ignore-unmatch path-to-target/
+あとは、普通にcommit すれば直るよう。
+$ git commit
+
