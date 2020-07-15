@@ -1,6 +1,14 @@
 # Jenkins
 https://qiita.com/nh321/items/d202ae635b520c78f035
 
+Jenkins Plugin Managerで利用可能なRestart Safelyプラグインをインストールしました
+
+Jenkins-> Jenkinsの管理->プラグインの管理->安全な再起動の検索->インストール。
+
+次に、Jenkinsの管理-> "Windowsサービスとしてインストール"->インストールに移動します
+
+その後、ダッシュボードに「安全に再起動」が表示されます。シュエタンクシンに感謝します。
+
 # Jenkins を再起動したときに出たエラー
 https://kenzo0107.hatenablog.com/entry/2016/12/09/135546
 
