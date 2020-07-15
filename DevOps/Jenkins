@@ -21,6 +21,29 @@ https://www.karakaram.com/jenkins2-permission-for-each-job/
 # cannot-run-ant
 http://1000k.github.io/2013/07/02/jenkins-user-cannot-run-ant/
 
+# start
+https://sre.leprofront.tech/index.php/sre/ci-cd/jenkins/jenkins-stop-start-restart/
+Jenkinsに管理者でログインしURLを叩くことで停止や再起動を行うことができます。
+
+exit
+
+http://<jenkins.server>/exit
+safe exit
+
+http://<jenkins.server>/safeExit
+quiet down
+
+http://<jenkins.server>/quietDown
+cancel quiet down
+
+http://<jenkins.server>/cancelQuietDown
+restart
+
+http://<jenkins.server>/restart
+safe restart
+
+http://<jenkins.server>/safeRestart
+
 
 ```
 https://qiita.com/notona/items/ff96837182408b10a271
