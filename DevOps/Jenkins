@@ -8,6 +8,18 @@ https://www.karakaram.com/jenkins2-permission-for-each-job/
 # cannot-run-ant
 http://1000k.github.io/2013/07/02/jenkins-user-cannot-run-ant/
 
+
+```
+Jenkins サーバーを移転したいとき
+
+以下の手順だけでできます。シンプル。
+「Jenkins の管理」->「シャットダウンの準備」を押す。すべてのジョブが終了するのを待つ。
+Jenkins を終了する /etc/init.d/jenkins stop
+JENKINS_HOME（デフォルトは /var/lib/jenkins） を移転先のサーバーに rsync する。
+移転先の Jenkins を起動 /etc/init.d/jenkins start
+このやり方の問題点は設定されているジョブ数が多いサーバーだとすべてのジョブが同時に移動することになってしまうので、そこはちょっと怖いというところですね。。
+```
+
 # php
 which php
 
