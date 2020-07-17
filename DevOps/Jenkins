@@ -5,6 +5,8 @@ Jenkins Plugin Managerで利用可能なRestart Safelyプラグインをイン�
 
 Jenkins-> Jenkinsの管理->プラグインの管理->安全な再起動の検索->インストール。
 
+# jenkins .netrc file
+
 次に、Jenkinsの管理-> "Windowsサービスとしてインストール"->インストールに移動します
 
 その後、ダッシュボードに「安全に再起動」が表示されます。シュエタンクシンに感謝します。
