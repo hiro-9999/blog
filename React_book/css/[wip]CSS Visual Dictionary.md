@@ -1,5 +1,5 @@
 “CSS has 415 unique properties.
- ```
+ ```rub
 You can verify this with a simple JavaScript code snipplet as follows:
  
 Source Code 0
