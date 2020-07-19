@@ -1,5 +1,16 @@
 https://github.com/greglim81
 
+
+# 状態管理
+Reactの状態管理として本記事でには紹介している手法は下記の3通りになります。
+
+## ローカルステート（useState、useReducer）での管理
+## Hooks APIのuseReducer、useContextを使った管理
+## Reduxによる管理
+https://ics.media/entry/200409/
+小規模なアプリケーションであれば状態管理のライブラリを入れずにuseReducer、およびuseContextだけで管理すると品質が向上するでしょう。コンポーネント内部だけでステートが完結するため、単一責任の原則を守りやすくなります。Reduxを導入すると管理が楽になるのは、規模が大きくなり、複数のコンポーネントで共通の値を横断して使いたくなった場合です。
+
+
 “Single Page Applications (SPA)”
 
 # “npm install -g create-react-app”
