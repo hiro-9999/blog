@@ -9,3 +9,5 @@ If you’re building a server-rendered website with Node.js, try Next.js.
 If you’re building a static content-oriented website, try Gatsby.
 If you’re building a component library or integrating with an existing codebase, try More Flexible Toolchains.
 ```
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
