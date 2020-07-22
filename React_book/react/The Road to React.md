@@ -8,5 +8,8 @@ https://codesandbox.io/s/github/the-road-to-learn-react/hacker-stories/tree/hs/R
 # react doc
 https://reactjs.org/docs/fragments.html
 
+# javascript
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Default_parameters
+
 
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
