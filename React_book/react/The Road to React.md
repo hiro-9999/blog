@@ -35,5 +35,8 @@ useDebugValue
 ### useRef
 https://codesandbox.io/s/github/the-road-to-learn-react/hacker-stories/tree/hs/Imperative-React?file=/src/App.js:1419-1425
 
+# jest
+https://jestjs.io
+
 
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
