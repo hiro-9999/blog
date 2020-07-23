@@ -6,6 +6,9 @@ https://github.com/facebook/create-react-app#converting-to-a-custom-setup
 # axios
 https://github.com/axios/axios
 
+# Async await (同期处理)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function
+
 “Confirm your source code for the last section.”
 # ESLint rule 
 https://github.com/facebook/react/issues/14920
