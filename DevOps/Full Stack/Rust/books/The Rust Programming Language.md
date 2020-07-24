@@ -38,4 +38,6 @@ alias l='ls -CF'
 保存后，执行
 
 $ source .bash_profile
+
+brew install tree
 ```
