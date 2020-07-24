@@ -16,6 +16,9 @@ cargo 1.45.0 (744bd1fbb 2020-06-15)
 
 # Rust is an ahead-of-time compiled language, meaning you can compile a program and give the executable to someone else, and they can run it even without having Rust installed.
 
+# cargo
+https://doc.rust-lang.org/cargo/
+
 ```
 cargo new hello_cargo
 cargo check 
