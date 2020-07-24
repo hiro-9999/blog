@@ -24,7 +24,7 @@ cargo new hello_cargo
 cargo check 
 cargo build
 cargo run
-
+cargo tree
 cargo build --release
 ```
 ```
@@ -44,3 +44,15 @@ brew install tree
 # crates.io
 https://crates.io
 https://doc.rust-lang.org/cargo/guide/dependencies.html
+
+
+https://doc.rust-lang.org/cargo/reference/profiles.html
+# The valid options are:
+```
+0: no optimizations, also turns on cfg(debug_assertions).
+1: basic optimizations
+2: some optimizations
+3: all optimizations
+"s": optimize for binary size
+"z": optimize for binary size, but also turn off loop vectorization.
+```
