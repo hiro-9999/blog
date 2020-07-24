@@ -42,4 +42,37 @@ crate(木箱)/mod(use)/prelude前奏
 
 # use std::prelude::*;”
 
-抜粋:: 范长春  “深入浅出Rust”。 Apple Books  
+# ！ “它代表这是一个宏”
+
+“fn main() {
+    println!("{}", 1);            // 默认用法,打印Display
+    println!("{:o}", 9);          // 八进制
+    println!("{:x}", 255);        // 十六进制 小写
+    println!("{:X}", 255);        // 十六进制 大写
+    println!("{:p}", &0);         // 指针
+    println!("{:b}", 15);         // 二进制
+    println!("{:e}", 10000f32);   // 科学计数(小写)
+    println!("{:E}", 10000f32);   // 科学计数(大写)
+
+    println!("{:?}", "test");     // 打印Debug
+    println!("{:#?}", ("test1", "test2"));        // 带换行和缩进的Debug打印
+
+    println!("{a} {b} {b}", a = "x", b = "y");   // 命名参数
+}
+”
+
+# “用static声明的变量的生命周期是整个程序，从启动到退出。static变量的生命周期永远是'static，它占用的内存空间也不会在执行过程中回收。这也是Rust中唯一的声明全局变量的方法。”
+
+# “编译器就默认把x当成i32类型处理。”
+// “更精细地自主控制整数溢出的行为，可以调用标准库中的checked_*、saturating_*和wrapping_*系列函数。
+```
+fn main() {
+    let i = 127_i8;
+    println!("checked {:?}", i.checked_add(i));
+    println!("saturating {:?}", i.saturating_add(i));
+    println!("wrapping {:?}", i.wrapping_add(i));
+}
+```
+
+
+抜粋:: 范长春  “深入浅出Rust”。 Apple Books   
