@@ -60,3 +60,5 @@ https://doc.rust-lang.org/cargo/reference/profiles.html
 "s": optimize for binary size
 "z": optimize for binary size, but also turn off loop vectorization.
 ```
+
+# mutable 可变的 &mut
