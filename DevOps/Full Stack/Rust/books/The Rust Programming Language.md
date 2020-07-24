@@ -24,3 +24,15 @@ cargo run
 
 cargo build --release
 ```
+```
+$ cd ~
+$ vim .bash_profile
+随便找个位置加入:
+
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+保存后，执行
+
+$ source .bash_profile
+```
