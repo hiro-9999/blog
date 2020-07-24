@@ -41,3 +41,6 @@ $ source .bash_profile
 
 brew install tree
 ```
+# crates.io
+https://crates.io
+https://doc.rust-lang.org/cargo/guide/dependencies.html
