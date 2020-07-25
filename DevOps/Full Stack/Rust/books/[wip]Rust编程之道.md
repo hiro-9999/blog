@@ -34,4 +34,22 @@ debug Adds a code lens to quickly run or debug a single test for your Rust code.
 “我们有必要了解一下Rust代码是如何执行的。Rust是跨平台语言，一次编译，到处运行，这得益于LLVM。Rust编译器是一个LLVM编译前端，它将代码编译为LLVM IR，然后经过LLVM编译为相应的平台目标。”
 https://ja.wikipedia.org/wiki/LLVM
 
+# “Rust语言主要由以下几个核心部件组成：
+· 语言规范
+· 编译器
+· 核心库
+· 标准库
+· 包管理器”
+
+“Rust是一门静态编译型语言”
+
+“译后就得到一个包（crate）。包是Rust代码的基本编译单元，也是程序员之间共享代码的基本单元。”
+
+# “Rust社区的公开第三方包都集中在crates.io网站上面，它们的文档被自动发布到docs.rs网站上。
+Rust提供了非常方便的包管理器Cargo。Rust中的Cargo类似于Ruby中的bundler、Python中的pip、Node.js中的npm。”
+
+# “除非使用＃[no_std]属性明确指定了不需要标准库。”
+
+“包括引用（Reference）、原生指针（Raw Pointer）、函数指针（fn Pointer）和智能指针（Smart Pointer）。”
+
 抜粋:: 张汉东  “Rust编程之道”。 Apple Books  
