@@ -33,4 +33,10 @@ print("In getRecurse and num is $num"); return num * getRecurse(num - 1);
 compile-time constant, use const; use final for an instance variable that you will never change.
 
 
+# Dart is an object-oriented language, which means it has classes and objects.
 
+# mixins
+mixins by reusing the Dog class’s code. Look at this line:
+class Cat extends Animal with Dog {...}
+
+## support for mixins was introduced in dart 2.1
