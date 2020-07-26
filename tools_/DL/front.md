@@ -1,4 +1,7 @@
-フォント
+# フォント
+https://arrown-blog.com/transfonter/
+
+https://goworkship.com/magazine/custom-font-creator/
 
 # TTEdit 
 https://opentype.jp/ttedit.htm
