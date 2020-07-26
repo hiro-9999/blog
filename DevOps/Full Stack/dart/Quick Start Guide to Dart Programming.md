@@ -40,3 +40,8 @@ mixins by reusing the Dog class’s code. Look at this line:
 class Cat extends Animal with Dog {...}
 
 ## support for mixins was introduced in dart 2.1
+
+In a nutshell, data structures help you to organize information for storage and later retrieval
+# 简而言之，数据结构可帮助您组织信息以进行存储和以后的检索
+
+asynchronous programming by using a feature called Future. In Dart SDK version 1.9
