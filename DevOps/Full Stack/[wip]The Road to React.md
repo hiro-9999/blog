@@ -51,5 +51,10 @@ https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-
 
 https://www.webcreatorbox.com/tech/svg-icon-link
 
+# React.memo
+If your function component renders the same result given the same props, you can wrap it in a call to React.memo
+https://reactjs.org/docs/react-api.html#reactmemo
 
+# useCallback
+https://reactjs.org/docs/hooks-reference.html#usecallback
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
