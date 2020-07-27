@@ -30,4 +30,24 @@ https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelin
 
 ### “CSS-in-JS with styled components shifts the focus of defining styles to actual React components. Styled Components are style defined as React components without the intermediate CSS file. ”
 
+# Styled Components
+https://www.robinwieruch.de/react-styled-components
+
+https://styled-components.com
+
+# svg
+https://www.flaticon.com/authors/freepik
+
+https://www.flaticon.com/free-icon/check_109748
+
+### set svg
+https://create-react-app.dev/docs/adding-images-fonts-and-files/
+
+https://www.robinwieruch.de/react-svg-patterns
+
+
+
+
+
+
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
