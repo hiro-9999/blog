@@ -46,8 +46,10 @@ https://create-react-app.dev/docs/adding-images-fonts-and-files/
 https://www.robinwieruch.de/react-svg-patterns
 
 
+# button:hover > svg > g
+https://css-tricks.com/the-many-ways-to-change-an-svg-fill-on-hover-and-when-to-use-them/
 
-
+https://www.webcreatorbox.com/tech/svg-icon-link
 
 
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
