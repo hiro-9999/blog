@@ -28,4 +28,6 @@ https://create-react-app.dev/docs/adding-a-sass-stylesheet/
 # css guidelines
 https://developer.mozilla.org/en-US/docs/MDN/Contribute/Guidelines/Code_guidelines/CSS
 
+### “CSS-in-JS with styled components shifts the focus of defining styles to actual React components. Styled Components are style defined as React components without the intermediate CSS file. ”
+
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
