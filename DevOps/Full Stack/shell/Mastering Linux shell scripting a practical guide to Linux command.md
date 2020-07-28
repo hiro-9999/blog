@@ -77,3 +77,18 @@ if [12 -gt 10] #great than
 then
 else
 fi
+
+# sed
+ stream editor (sed)
+
+# grep 
+Global regular expression print
+
+$ ifconnfig eth0 | grep -i "rx "
+
+
+# awk
+command suite
+
+
+
