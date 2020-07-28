@@ -90,5 +90,6 @@ $ ifconnfig eth0 | grep -i "rx "
 # awk
 command suite
 
-
+# tail 
+tail /log # end of file
 
