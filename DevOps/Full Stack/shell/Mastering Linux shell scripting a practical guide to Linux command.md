@@ -44,8 +44,9 @@ nano is /usr/bin/nano
 # creat shell script
 ```
 #!/bin/bash
-echo "hello $1" //frist arguments
-echo "hello $*" //all arguments
+echo "hello $1" #frist arguments
+echo "hello $*" #all arguments
+echo "$(basename $0)" #filename
 exit 0
 ```
 
