@@ -37,3 +37,18 @@ SHELL=/bin/bash
 # 修改默认shell：
 $ chsh -s /bin/bash
 
+
+$ type nano
+nano is /usr/bin/nano
+
+# creat shell script
+```
+#!/bin/bash
+echo "hello $1" //frist arguments
+echo "hello $*" //all arguments
+exit 0
+```
+
+# chmod +x sample.sh
+nano test.sh
+$ ./test.sh haha
