@@ -47,9 +47,33 @@ nano is /usr/bin/nano
 echo "hello $1" #frist arguments
 echo "hello $*" #all arguments
 echo "$(basename $0)" #filename
+name="haha"
+export name
 exit 0
+./sample.sh
+dir='pwd'
+echo $dir
+dir=$(pwd)
+echo $dir
+read -p "your name:" name
+echo $readword
 ```
 
 # chmod +x sample.sh
 nano test.sh
 $ ./test.sh haha
+
+$ printenv HOME
+
+# debug 
+bash -x
+bash -v
+
+$ which echo
+/bin/echo
+
+
+if [12 -gt 10] #great than
+then
+else
+fi
