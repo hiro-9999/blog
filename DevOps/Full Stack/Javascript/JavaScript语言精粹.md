@@ -58,3 +58,8 @@ splice最主要的用处是从一个数组中删除元素。”
 
 http://www.JSLint.com/
 
+http://www.JSON.org/
+
+“对象（object）、结构（struct）、字典（dictionary）、哈希表（hash table）、属性列表（property list）或关联数组（associative array）。”
+
+抜粋:: 道格拉斯•克罗克福德 (Douglas Crockford)  “JavaScript语言精粹(修订版)”。 Apple Books  
