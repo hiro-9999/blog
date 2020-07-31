@@ -4,6 +4,9 @@ https://2019.stateofjs.com/mobile-desktop/
 # online js
 https://jsbin.com/dibafey/edit?js,console
 
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
+
+
 # MSN doc js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
