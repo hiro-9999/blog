@@ -4,6 +4,8 @@ https://2019.stateofjs.com/mobile-desktop/
 # online js
 https://jsbin.com/dibafey/edit?js,console
 
+# MSN doc js
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # es6
 https://kangax.github.io/compat-table/es6/
