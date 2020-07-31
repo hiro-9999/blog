@@ -26,6 +26,10 @@ while(!index.done) {
   console.log(index.value);
   index = iterator.next();
 }”
+
+const arr = new Array(6);
+arr.fill(1);
+arr.fill(2,3,6);
 ```
 
 抜粋:: Aurelio De Rosa  “The Modern JavaScript Collection”。 Apple Books  
