@@ -7,7 +7,7 @@ https://jsbin.com/dibafey/edit?js,console
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/from
 
 
-# MSN doc js
+# MDN doc js
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 
 # es6
