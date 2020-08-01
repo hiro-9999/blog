@@ -57,4 +57,10 @@ https://reactjs.org/docs/react-api.html#reactmemo
 
 # useCallback
 https://reactjs.org/docs/hooks-reference.html#usecallback
+
+
+# Typescript
+https://www.typescriptlang.org/index.html
+
+
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
