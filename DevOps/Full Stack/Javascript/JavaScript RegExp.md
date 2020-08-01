@@ -1,7 +1,8 @@
 JavaScript RegExp an example based guide by Sundeep Agarwal (z-lib.org).pdf
 
-# online regxp
+# online regexp
 https://regex101.com/r/HSeO0z/1
+
 
 https://github.com/learnbyexample/learn_js_regexp
 
