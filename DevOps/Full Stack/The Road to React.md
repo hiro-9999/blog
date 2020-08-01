@@ -60,7 +60,8 @@ https://reactjs.org/docs/hooks-reference.html#usecallback
 
 
 # Typescript
-https://www.typescriptlang.org/index.html
+https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
+npx webpack
 
 
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
