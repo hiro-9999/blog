@@ -63,5 +63,12 @@ https://reactjs.org/docs/hooks-reference.html#usecallback
 https://www.typescriptlang.org/docs/handbook/react-&-webpack.html
 npx webpack
 
+# react-typescript-cheatsheet
+https://github.com/typescript-cheatsheets/react-typescript-cheatsheet#reacttypescript-cheatsheets
 
+# test
+https://martinfowler.com/articles/practical-test-pyramid.html
+Unit Tests
+Service Tests
+User Interface Tests
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
