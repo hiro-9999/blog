@@ -80,5 +80,6 @@ To maintain code, you first need to understand the code. To understand it, you h
 Removing duplication ensures that every concept in the system has a single authoritative representation in the code. A change to a single business concept results in a single change to the code. DRY increases maintainability by isolating change (risk) to only those parts of the system that must change.
 
 https://www.robinwieruch.de/react-testing-tutorial
+# npm test
 
 抜粋:: Robin Wieruch  “The Road to React”。 Apple Books  
