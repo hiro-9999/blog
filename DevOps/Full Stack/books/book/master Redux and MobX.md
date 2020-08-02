@@ -23,3 +23,140 @@ the session storage expires once the browser closes. Both storages work the same
 https://developer.mozilla.org/en-US/docs/Web/API/Window/sessionStorage
 
 # View -> Action -> Reducer(s) -> Store -> View
+## to dispatch in Redux. 
+You can dispatch an action to alter the state in the Redux store. You only dispatch when you want to change the state. 
+
+• Who delegates the actions to the reducer?
+• Who triggers actions?
+• And finally: Where do I get the updated state to glue it to my View?
+# It is the Redux store. The store holds one global state object. 
+import { createStore } from 'redux';
+
+const store = createStore(reducer);
+
+store.getState();
+# How to subscribe (and unsubscribe) to the store in order to listen for updates?
+```
+const unsubscribe = store.subscribe(() => { console.log(store.getState());
+});
+// don't forget to unsubscribe eventually
+unsubscribe();
+
+function reducer(state, action) {
+  switch(action.type) {
+    case 'TODO_ADD' : {
+      console.log('initial TODO_ADD:');
+      return applyAddTodo(state, action);
+    }
+    case 'TODO_TOGGLE' : {
+      console.log('initial applyToggleTodo:');
+      return applyToggleTodo(state, action);
+    }
+    default : return state;
+  }
+}
+function applyAddTodo(state, action) {
+  return state.concat(action.todo);
+}
+function applyToggleTodo(state, action) {
+  return state.map(todo =>
+    todo.id === action.todo.id
+      ? Object.assign({}, todo, { completed: !todo.completed })
+      : todo
+  );
+}
+const store = Redux.createStore(reducer, []);
+console.log('initial state:');
+console.log(store.getState());
+const unsubscribe = store.subscribe(() => {
+  console.log('store update, current state:');
+  console.log(store.getState());
+});
+store.dispatch({
+  type: 'TODO_ADD',
+  todo: { id: '0', name: 'learn redux', completed: false },
+});
+
+store.dispatch({
+  type: 'TODO_ADD',
+  todo: { id: '1', name: 'learn mobx', completed: false },
+});
+
+store.dispatch({
+  type: 'TODO_TOGGLE',
+  todo: { id: '0' },
+});
+
+const TODO_ADD = 'TODO_ADD';
+const TODO_TOGGLE = 'TODO_TOGGLE';
+
+function reducer(state, action) {
+  switch(action.type) {
+    case TODO_ADD : {
+      return applyAddTodo(state, action);
+    }
+    case TODO_TOGGLE : {
+      return applyToggleTodo(state, action);
+    }
+    default : return state;
+  }
+}
+
+function applyAddTodo(state, action) {
+  const todo = Object.assign({}, action.todo, { completed: false });
+  return state.concat(todo);
+}
+
+function applyToggleTodo(state, action) {
+  return state.map(todo =>
+    todo.id === action.todo.id
+      ? Object.assign({}, todo, { completed: !todo.completed })
+      : todo
+  );
+}
+
+function doAddTodo(id, name) {
+  return {
+    type: TODO_ADD,
+    todo: { id, name },
+  };
+}
+
+function doToggleTodo(id) {
+  return {
+    type: TODO_TOGGLE,
+    todo: { id },
+  };
+}
+
+const store = Redux.createStore(reducer, []);
+
+console.log('initial state:');
+console.log(store.getState());
+
+const unsubscribe = store.subscribe(() => {
+  console.log('store update, current state:');
+  console.log(store.getState());
+});
+
+store.dispatch(doAddTodo('0', 'learn redux'));
+store.dispatch(doAddTodo('1', 'learn mobx'));
+store.dispatch(doToggleTodo('0'));
+
+unsubscribe();
+
+dispatch(), subscribe() and getState() be accessed in a React view layer
+
+function render() { ReactDOM.render(
+<TodoApp
+todos={store.getState().todoState}
+onToggleTodo={id => store.dispatch(doToggleTodo(id))}
+/>,
+document.getElementById('root') );
+}
+store.subscribe(render); render();
+
+
+```
+
+unsubscribe();
