@@ -14,3 +14,5 @@ Reducers are functions that take the current state in the store and an action, t
 Webpack, Babel, ESLint
 
 > command line interface (CLI) tool
+
+# debugger
