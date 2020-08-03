@@ -34,6 +34,9 @@ import { createStore } from 'redux';
 
 const store = createStore(reducer);
 
+# concat
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat
+
 store.getState();
 # How to subscribe (and unsubscribe) to the store in order to listen for updates?
 ```
@@ -160,3 +163,14 @@ store.subscribe(render); render();
 ```
 
 unsubscribe();
+
+# Object.assign()
+The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
+
+
+
+
+
+
+
