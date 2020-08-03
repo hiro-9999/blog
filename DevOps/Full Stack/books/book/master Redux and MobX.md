@@ -183,5 +183,27 @@ Redux Saga as asynchronous action library to deal with side-effects such as fetc
 Command Line: /
 npm install --save redux-saga
 
+# yield
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/yield
+function* foo(index) {
+  while (index < 2) {
+     console.log("frist"+index);
+    yield index;
+    console.log("frist2"+index);
+    index++;
+    console.log("frist3"+index);
+  }
+  console.log("frist4"+index);
+}
 
+const iterator = foo(0);
+
+console.log(iterator.next().value);
+// expected output: 0
+
+console.log(iterator.next().value);
+// expected output: 1
+
+console.log(iterator.next().value);
+// expected output: 1
 
