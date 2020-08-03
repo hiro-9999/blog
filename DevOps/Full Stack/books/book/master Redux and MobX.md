@@ -168,7 +168,8 @@ unsubscribe();
 The Object.assign() method copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/assign
 
-
+# reselect
+https://github.com/reduxjs/reselect
 
 
 
