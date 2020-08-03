@@ -173,5 +173,15 @@ https://github.com/reduxjs/reselect
 
 
 
+• action creators: doSomething
+• reducers: applySomething
+• selectors: getSomething
+• sagas: watchSomething, handleSomething
+# View -> (mapDispatchToProps) -> Action -> Reducer(s) -> Store -> (mapStateToProp\ s) -> View
+
+Redux Saga as asynchronous action library to deal with side-effects such as fetching data from a third-party platform.
+Command Line: /
+npm install --save redux-saga
+
 
 
