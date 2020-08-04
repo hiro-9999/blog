@@ -38,3 +38,11 @@ yield 'Yup, definitely.'; }
 # mdn
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Statements/throw
 
+# async
+export function fetchTasks() {
+return async dispatch => { 1
+try { 2 const { data } = await api.fetchTasks(); 3 dispatch(fetchTasksSucceeded(data));
+} catch (e) { dispatch(fetchTasksFailed(e));
+} }
+}
+
