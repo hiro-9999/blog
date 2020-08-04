@@ -29,7 +29,7 @@ function comma(num) {
 
 comma(12345.6789);  // "12,345.6789"
 ```
-
+# generator   * + yield
 function* optimisticMagicEightBall() {
 while (true) { 1
 yield 'Yup, definitely.'; }
