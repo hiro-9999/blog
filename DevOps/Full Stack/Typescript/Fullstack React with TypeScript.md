@@ -22,4 +22,7 @@ https://www.typescriptlang.org/docs/handbook/jsx.html#the-as-operator
 # react source code
 https://github.com/facebook/react/blob/master/packages/react/index.js
 
+# typescript DOC
+https://www.typescriptlang.org/docs/handbook/triple-slash-directives.html#-reference-types-
+
 抜粋:: Nate Murray  “Fullstack React with TypeScript”。 Apple Books  
