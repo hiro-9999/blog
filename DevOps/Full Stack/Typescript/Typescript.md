@@ -1,5 +1,9 @@
- <Count>{`${children} of hahahha `}</Count>
+
  # String change
+  <Count>{`${children} of hahahha `}</Count>
+  
+ # typecript Basic
+ https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
  
  # funtion
  const a = (b)=> a*b
