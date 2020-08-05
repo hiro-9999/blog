@@ -20,3 +20,7 @@ const ItemCount: React.FC<IItemCountProps> = ({ currentPageNumber = 1, totalItem
   </>
 )
 ```
+# npm run storybook
+https://www.npmjs.com/package/@storybook/addon-info
+
+# npm i
