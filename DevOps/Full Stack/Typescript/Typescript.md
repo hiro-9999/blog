@@ -23,6 +23,8 @@ const ItemCount: React.FC<IItemCountProps> = ({ currentPageNumber = 1, totalItem
 # npm run storybook
 https://www.npmjs.com/package/@storybook/addon-info
 
+https://github.com/storybookjs/storybook/tree/release/3.4/addons/viewport
+
 # addonの基本的な導入方法
 npm i -D @storybook/addon-viewport
 https://blog.spacemarket.com/code/storybook-addon/
