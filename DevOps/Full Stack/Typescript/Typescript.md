@@ -5,7 +5,8 @@
  # typecript Basic
  https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
  
- JavaScript for impatient programmers 
+ ## JavaScript for impatient programmers 
+ https://exploringjs.com/impatient-js/
  
  # funtion
  const a = (b)=> a*b
