@@ -5,6 +5,11 @@
 地址：https://github.com/kamranahmedse/developer-roadmap
 
 
+# 1. 全历史
+https://www.allhistory.com/
+
+https://www.toutiao.com/a6831891258797982211/
+
 
 # 2. Build Your Own X
 
