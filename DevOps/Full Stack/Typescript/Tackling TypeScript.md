@@ -1,7 +1,11 @@
 “chapter “Type Checking JavaScript Files” in the TypeScript handbook.”
  
 # blog // good
+Declaring Global Variables in TypeScript
 https://mariusschulz.com
+
+# typescript-react-component
+https://fettblog.eu/typescript-react-component-patterns/
 
 # babel
 https://babeljs.io
