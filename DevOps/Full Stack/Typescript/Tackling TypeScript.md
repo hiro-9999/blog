@@ -1,4 +1,7 @@
 “chapter “Type Checking JavaScript Files” in the TypeScript handbook.”
+ 
+# blog // good
+https://mariusschulz.com
 
 # babel
 https://babeljs.io
