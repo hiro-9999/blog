@@ -20,3 +20,6 @@ https://reactjs.org/docs/context.html
 
 # <Mouse render={this.renderTheCat} />
 https://reactjs.org/docs/render-props.html
+
+# jest
+https://jestjs.io/docs/en/mock-functions.html
