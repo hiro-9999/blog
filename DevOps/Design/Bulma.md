@@ -10,7 +10,7 @@ https://bulma.io/documentation/overview/modular/
 
 https://bulma.io/expo/
 
-# formium
+# formik
 https://github.com/formium/formik
 
 # CSS in 44 minutes by Jeremy Thomas (z-lib.org).pdf
