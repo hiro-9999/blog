@@ -52,3 +52,6 @@ Based on the knowledge gathered through 10 years of experience, I've created an 
 
 # redux
 https://react-redux.js.org
+
+# redux-thunk
+https://github.com/reduxjs/redux-thunk
