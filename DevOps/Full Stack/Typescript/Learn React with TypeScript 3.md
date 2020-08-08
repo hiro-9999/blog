@@ -13,3 +13,10 @@ https://www.typescriptlang.org/play
 
 # context
 https://reactjs.org/docs/context.html
+
+
+ # Higher-Order Components
+ https://reactjs.org/docs/higher-order-components.html
+
+# <Mouse render={this.renderTheCat} />
+https://reactjs.org/docs/render-props.html
