@@ -6,3 +6,10 @@ https://github.com/PacktPublishing/Learn-React-with-TypeScript-3
 https://www.typescriptlang.org/play
 
 # tsc orderDetail --target es6
+
+# tslint rules are like member-access 
+ 
+# Prettier - Code formatter 
+
+# context
+https://reactjs.org/docs/context.html
