@@ -23,3 +23,7 @@ https://reactjs.org/docs/render-props.html
 
 # jest
 https://jestjs.io/docs/en/mock-functions.html
+
+# Enzyme Tests
+https://enzymejs.github.io/enzyme/docs/api/shallow.html
+
