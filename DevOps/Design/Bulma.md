@@ -49,3 +49,6 @@ https://www.codecademy.com
 We've only covered client-side development (or "frontend"). But for more complex websites, you will need to learn server-side development (or "backend"). This requires learning a programming language (like JavaScript, Python, Ruby, PHP...). Again, Codecademy is a great free resource.
 Try out Bulma
 Based on the knowledge gathered through 10 years of experience, I've created an open source CSS framework called Bulma.
+
+# redux
+https://react-redux.js.org
