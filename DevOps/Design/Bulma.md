@@ -13,6 +13,9 @@ https://bulma.io/expo/
 # formik
 https://github.com/formium/formik
 
+# Apollo
+https://www.apollographql.com/docs/
+
 # CSS in 44 minutes by Jeremy Thomas (z-lib.org).pdf
 https://jgthms.com/minireset.css/
 
