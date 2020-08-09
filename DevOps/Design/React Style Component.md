@@ -16,3 +16,10 @@ https://github.com/MiLeung/top-bar-nav
 
 # memo
 https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-components/
+
+
+# react Style Component li active
+https://reactrouter.com/web/api/NavLink
+
+#  memo ok
+https://stackoverflow.com/questions/34418254/how-do-i-add-an-active-class-to-a-link-from-react-router
