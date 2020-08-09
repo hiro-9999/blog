@@ -8,7 +8,7 @@ https://jeffgukang.github.io/react-native-tutorial/docs/sample-apps/coininfo-lis
 # styled-components
 https://www.robinwieruch.de/react-styled-components
 
-# topdown
+# dropdowns
 https://ej2.syncfusion.com/react/documentation/multi-select/getting-started/
 
 
