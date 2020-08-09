@@ -1,4 +1,17 @@
 “chapter “Type Checking JavaScript Files” in the TypeScript handbook.”
+
+# playground
+https://www.typescriptlang.org/play?#
+
+# node DOC
+https://nodejs.org/api/assert.html
+
+# endsWith //说明
+“ function endsWith() of the library Lodash. That’s why Lodash is a normal dependency – it is needed at runtime.”
+ https://lodash.com/docs/4.17.15#endsWith
+ 
+ # test
+ https://mochajs.org
  
 # blog // good
 Declaring Global Variables in TypeScript
