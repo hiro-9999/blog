@@ -23,3 +23,5 @@ https://reactrouter.com/web/api/NavLink
 
 #  memo ok
 https://stackoverflow.com/questions/34418254/how-do-i-add-an-active-class-to-a-link-from-react-router
+
+https://github.com/insin/react-router-active-component
