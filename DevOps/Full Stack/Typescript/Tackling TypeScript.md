@@ -3,6 +3,9 @@
 # playground
 https://www.typescriptlang.org/play?#
 
+# type
+https://github.com/microsoft/TypeScript/blob/master/doc/spec.md#3114-assignment-compatibility
+
 # node DOC
 https://nodejs.org/api/assert.html
 
