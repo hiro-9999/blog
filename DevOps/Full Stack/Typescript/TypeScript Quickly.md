@@ -15,3 +15,5 @@ innerFunc is a closure that knows that someValue = 10.
 console.log(result);
 Invokes the returned function This will print 50.
 ```
+# hook
+https://reactjs.org/docs/hooks-reference.html#usecallback
