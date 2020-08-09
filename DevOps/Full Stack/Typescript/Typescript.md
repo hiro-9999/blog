@@ -1,4 +1,6 @@
-
+https://www.manning.com/books/typescript-quickly
+ 
+ 
  # String change
   <Count>{`${children} of hahahha `}</Count>
   
