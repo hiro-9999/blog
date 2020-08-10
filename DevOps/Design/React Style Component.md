@@ -22,6 +22,10 @@ https://css-tricks.com/hamburger-menu-with-a-side-of-react-hooks-and-styled-comp
 https://reactrouter.com/web/api/NavLink
 
 #  memo ok
+## How to Create an Active className Navbar using React and React Router.
+https://medium.com/@rdomanoel/how-to-create-an-active-classname-navbar-using-react-and-react-router-70d890c9b58e
+
+
 https://stackoverflow.com/questions/34418254/how-do-i-add-an-active-class-to-a-link-from-react-router
 
 https://github.com/insin/react-router-active-component
