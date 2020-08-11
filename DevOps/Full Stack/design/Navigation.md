@@ -45,6 +45,34 @@ class UserContainer extends React.Component {
       </div>  
     )
   }
+  Here's a variation of @pshrmn's refocus component, using hooks and TypeScript:
+
+let prevPathName: string | null = null
+
+const FocusOnRouteChange: React.FC = ({ children }) => {
+    const history = useHistory()
+
+    const ref = useRef<HTMLDivElement>(null)
+
+    history.listen(({ pathname }) => {
+        // don't refocus if only the query params/hash have changed
+        if (pathname !== prevPathName) {
+            ref.current?.focus()
+
+            // prevent jank if focusing causes page to scroll
+            window.scrollTo(0, 0)
+
+            prevPathName = pathname
+        }
+    })
+
+    return (
+        <div ref={ref} tabIndex={-1} style={{ outline: 'none' }}>
+            {children}
+        </div>
+    )
+}
+https://github.com/ReactTraining/react-router/issues/5210
 }
 https://stackoverflow.com/questions/22573494/react-js-input-losing-focus-when-rerendering
 ```
