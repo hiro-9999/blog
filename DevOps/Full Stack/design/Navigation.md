@@ -22,6 +22,7 @@ const Styles = styled.div`
 # nav good
 import Nav from 'react-bootstrap/Nav'
 https://react-bootstrap.github.io/components/navs/
+npm install react-bootstrap --save
 
 ```
 class UserContainer extends React.Component {
