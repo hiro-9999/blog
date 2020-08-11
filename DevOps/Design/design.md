@@ -24,3 +24,6 @@ https://stackoverflow.com/questions/39174887/focusing-div-elements-with-react
 
 # material-ui
 https://material-ui.com/ja/
+
+# .focus()
+https://medium.com/swlh/react-focus-c6ffd4aa42e5
