@@ -19,3 +19,32 @@ const Styles = styled.div`
   }
 `;
 ```
+```
+class UserContainer extends React.Component {
+  render() {
+    return (
+      <div>
+        <Route
+          exact
+          path={this.props.match.url}
+          render={() => (
+            <div>
+              <UserListSearch
+                handleSearchChange={this.handleSearchChange}
+                searchTerm={this.state.searchTerm}
+              />
+              <UserList
+                isLoading={this.state.isLoading}
+                users={this.props.users}
+                user={this.state.user}
+                handleNewUserClick={this.handleNewUserClick}
+              />
+            </div>
+          )}
+        />
+      </div>  
+    )
+  }
+}
+https://stackoverflow.com/questions/22573494/react-js-input-losing-focus-when-rerendering
+```
