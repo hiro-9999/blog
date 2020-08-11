@@ -27,3 +27,20 @@ https://material-ui.com/ja/
 
 # .focus()
 https://medium.com/swlh/react-focus-c6ffd4aa42e5
+
+```
+const Router = () => (
+  <BrowserRouter>
+    <div>
+      <Nav>
+        <NavLink exact={true} activeClassName='is-active' to='/'>Home</NavLink>
+        <NavLink activeClassName='is-active' to='/about'>About</NavLink>
+      </Nav>
+
+      <Match pattern='/' exactly component={Home} />
+      <Match pattern='/about' exactly component={About} />
+      <Miss component={NoMatch} />
+    </div>
+  </BrowserRouter>
+)
+```
