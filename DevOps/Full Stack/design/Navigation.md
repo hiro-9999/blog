@@ -19,7 +19,8 @@ const Styles = styled.div`
   }
 `;
 ```
-# nav
+# nav good
+import Nav from 'react-bootstrap/Nav'
 https://react-bootstrap.github.io/components/navs/
 
 ```
