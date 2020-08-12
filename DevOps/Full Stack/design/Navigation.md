@@ -1,5 +1,37 @@
 # How to set active tab in Tab from Material UI programatically
 https://stackoverflow.com/questions/45978712/how-to-set-active-tab-in-tab-from-material-ui-programatically
+# map ok
+```
+// Mapオブジェクトを生成する(キーと値の型はstring)
+let map = new Map<string, string>();
+
+// 値を追加する
+map.set("key1", "value1");
+map.set("key2", "value2");
+
+// 要素の数
+console.log(map.size); //=> 2
+
+// キーから値を取得する
+console.log(map.get("key1")); //=> value1
+// キーが存在しないとき
+console.log(map.get("hoge")); //=> undefined
+
+// キーの一覧を取得する
+console.log(map.keys()); //=> MapIterator { 'key1', 'key2' }
+
+// 値の一覧を取得する
+console.log(map.values()); //=> MapIterator { 'value1', 'value2' }
+
+// キーと値の一覧を取得する
+console.log(map.entries()); //=> MapIterator { [ 'key1', 'value1' ], [ 'key2', 'value2' ] }
+
+// 反復処理
+map.forEach(
+    (value: string, key: string) => console.log(key + "=" + value)
+);
+```
+
 
 
 # How to Create a Navigation Bar and Sidebar Using React
