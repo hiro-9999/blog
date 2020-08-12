@@ -24,6 +24,10 @@ import Nav from 'react-bootstrap/Nav'
 https://react-bootstrap.github.io/components/navs/
 npm install react-bootstrap --save
 
+
+# focus
+https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315
+
 ```
 class UserContainer extends React.Component {
   render() {
