@@ -24,6 +24,8 @@ import Nav from 'react-bootstrap/Nav'
 https://react-bootstrap.github.io/components/navs/
 npm install react-bootstrap --save
 
+# hook
+https://fettblog.eu/typescript-react/hooks/
 
 # focus
 https://medium.com/@martin_hotell/react-refs-with-typescript-a32d56c4d315
