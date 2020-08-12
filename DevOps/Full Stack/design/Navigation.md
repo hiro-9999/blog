@@ -87,3 +87,5 @@ https://github.com/ReactTraining/react-router/issues/5210
 }
 https://stackoverflow.com/questions/22573494/react-js-input-losing-focus-when-rerendering
 ```
+# currentPath
+https://css-tricks.com/the-hooks-of-react-router/
