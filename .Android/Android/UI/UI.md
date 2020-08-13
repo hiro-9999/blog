@@ -4,7 +4,10 @@ https://github.com/Trinea/android-open-project
 # 囊括了非常多的、各种类型的UI开源库。
 https://github.com/wasabeef/awesome-android-ui 
 
-···
+# web 前景
+https://2019.stateofjs.com/resources/
+
+···rub
 按钮
 https://github.com/hoang8f/android-flat-button 很适合做扁平化、纯色的按钮，支持阴影。
 https://github.com/Bearded-Hen/Android-Bootstrap BootStrap风格的按钮，做过前端的同学应该都知道。
