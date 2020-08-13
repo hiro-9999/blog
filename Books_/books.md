@@ -12,6 +12,9 @@ https://b-ok.cc/
 
 https://b-ok.cc/book/3645027/49bdd7?dsource=recommend
 
+# 码农店书
+https://book.mzh.ren/
+
 # freemdict
 https://freemdict.com/
 
