@@ -23,6 +23,8 @@ https://down.freembook.com/mixc/
 # 知识库
 https://book.zhishikoo.com/
 
+# ebooklist
+https://ebooklist.mobi/2019/09/08/28907.html
 
  # ePUBee
  http://cn.epubee.com/books/
