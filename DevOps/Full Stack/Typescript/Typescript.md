@@ -1,4 +1,7 @@
 https://www.manning.com/books/typescript-quickly
+
+# git
+https://git-scm.com/book/zh/v2
  
  
  # String change
