@@ -7,6 +7,9 @@ https://github.com/wasabeef/awesome-android-ui
 # web 前景
 https://2019.stateofjs.com/resources/
 
+# 小数点 1，000
+String(numString).replace( /(\d)(?=(\d\d\d)+(?!\d))/g, '$1,');
+
 ···rub
 按钮
 https://github.com/hoang8f/android-flat-button 很适合做扁平化、纯色的按钮，支持阴影。
