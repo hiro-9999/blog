@@ -41,13 +41,38 @@ var nums = [1,2,3,100,200,300,400,4,5]; nums.splice(3,4);
 print(nums); // 1,2,3,4,5
 
 ```
+### reverse()，该方法将数组中元素的顺序进行翻转。
+如果元素是字符串类型，那么数组的可变方法 sort() 就非常好使:
+var names = ["David","Mike","Cynthia","Clayton","Bryan","Raymond"]; names.sort();
+print(names); // Bryan,Clayton,Cynthia,David,Mike,Raymond
 
-
-
+```
+传入一个大小比较函数，再来看看前面的例子:
+function compare(num1, num2) { return num1 - num2;
+}
+var nums = [3,1,2,100,4,200]; nums.sort(compare); print(nums); // 1,2,3,4,100,200
+sort() 函数使用了 compare() 函数对数组按照数字大小进行排序，而不是按照字典顺序。
+```
 ### replace
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
 ## unshift() 方法可以将元素添加在数组的开头，下述代码展示了该方法的用法:
 ## shift() 方法可以删除数组的第一个元素，下述代码展示了该方法的用法:
+
+
+# 迭代器方法
+```
+第一个方法是 forEach()，该方法接受一个函数作为参数，对数组中的每个元素 使用该函数。下面这个例子展示了如何使用该方法:
+     function square(num) {
+        print(num, num * num);
+}
+var nums = [1,2,3,4,5,6,7,8,9,10]; nums.forEach(square);
+
+     function add(runningTotal, currentValue) {
+        return runningTotal + currentValue;
+}
+var nums = [1,2,3,4,5,6,7,8,9,10]; var sum = nums.reduce(add); print(sum); // 显示 55
+
+```
 
 # 列表
 append:给列表添加元素 ........................................................................................... 35 3.2.2 
