@@ -125,6 +125,7 @@ npx ts-node 実行ファイル
 tsc --init
 https://qiita.com/yuzukaki/items/68ca1aed777b296145d5
 
+npm install tslint
 ```
 
 
