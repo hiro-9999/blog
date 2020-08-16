@@ -10,6 +10,12 @@ $ http-server
 
 http://127.0.0.1:8080
 
+# vscode 
+## Debugger for Chrome
+
+## live server
+ext install ritwickdey.liveserver.
+
 ```
 JavaScript 还支持 delete 运算符，可以删除对象里的属性。看看下面的代码。
 var myObj = {name: 'John', age: 21};
