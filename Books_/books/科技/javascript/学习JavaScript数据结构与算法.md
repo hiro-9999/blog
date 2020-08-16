@@ -127,6 +127,13 @@ https://qiita.com/yuzukaki/items/68ca1aed777b296145d5
 
 npm install tslint
 https://qiita.com/jlkiri/items/0e76f31a8af5c12019be
+
+たとえば、package.jsonの中のscriptsは以下だとします。
+
+"scripts": {
+    "build": "tsc file.ts --sourceMap --outDir dist"
+}
+この場合は、launch.jsonにpreLaunchTaskとして、npm: buildを指定するだけでOKです。
 ```
 
 
