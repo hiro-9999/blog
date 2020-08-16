@@ -99,8 +99,12 @@ https://github.com/umdjs/umd
 
 # VSCode + Typescript でデバッグ
 ```
-npm install -g n
-sudo  n latest
+nodebrew install latest
+
+nodebrew ls
+
+nodebrew use v14.8.0
+
 
 npm update -g npm
 ```
