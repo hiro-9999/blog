@@ -98,4 +98,11 @@ https://github.com/umdjs/umd
 
 
 # VSCode + Typescript でデバッグ
+```
+npm install -g n
+sudo  n latest
+
+npm update -g npm
+```
+
 https://qiita.com/TsuyoshiUshio@github/items/9879ea04cdd606982a65
