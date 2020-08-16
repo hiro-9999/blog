@@ -15,6 +15,21 @@ http://127.0.0.1:8080
 
 ## live server
 ext install ritwickdey.liveserver.
+https://codeaid.jp/vscode-js-debug/
+```
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Chrome against localhost",
+      "url": "http://localhost:5500",
+      "webRoot": "${workspaceFolder}"
+    }
+  ]
+}
+```
 
 ```
 JavaScript 还支持 delete 运算符，可以删除对象里的属性。看看下面的代码。
