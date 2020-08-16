@@ -31,9 +31,48 @@ https://codeaid.jp/vscode-js-debug/
 }
 ```
 
+# typescript
+Prettier Formatter for Visual Studio Code
+## 开启 Experimental JavaScript 标志
+chrome://flags/#enable-javascript-harmony
+
+使用 Babel.js 的方式多种多样。一种是根据设置文档(https://babeljs.io/docs/setup/)进行安装。
+另一种方式是直接在浏览器中试用(https://babeljs.io/repl/)，
 ```
 JavaScript 还支持 delete 运算符，可以删除对象里的属性。看看下面的代码。
 var myObj = {name: 'John', age: 21};
 delete myObj.age;
 console.log(myObj); // 输出对象{name: "John"}
+
+JavaScript函数中有一个内置的对象，叫作arguments对象。它是一个数组，包 含函数被调用时传入的参数。即使不知道参数的名称，我们也可以动态获取并使 用这些参数。
+
+还有一个称为属性简写的功能，它是对象解构的另一种方式。考虑如下例子。
+let [x, y] = ['a', 'b'];
+let obj = { x, y };
+console.log(obj); // { x: "a", y: "b" }
+
+const hello = () => console.log("hello!");
+hello();
+function sum(x, y, z) {
+  console.log(arguments[0]);
+  if (x === undefined) x = 1;
+  if (y === undefined) y = 2;
+  if (z === undefined) z = 3;
+  return x + y + z;
+}
+function sum() {
+  var x = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
+  var y = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : 2;
+  var z = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : 3;
+  return x + y + z;
+}
+let params = [3, 4, 5];
+console.log(sum(...params));
+console.log(sum());
+console.log("5 & 1:", 5 & 1);
+console.log("5 | 1:", 5 | 1);
+console.log("~ 5:", ~5);
+console.log("5 ^ 1:", 5 ^ 1);
+console.log("5 << 1:", 5 << 1);
+console.log("5 >> 1:", 5 >> 1);
 ```
