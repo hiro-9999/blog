@@ -115,6 +115,9 @@ npm info typescript version
 
 tsc -v
 Version 3.9.7
+
+tsc --init
+https://qiita.com/yuzukaki/items/68ca1aed777b296145d5
 ```
 
-https://qiita.com/TsuyoshiUshio@github/items/9879ea04cdd606982a65
+
