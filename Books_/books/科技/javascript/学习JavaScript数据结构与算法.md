@@ -96,3 +96,6 @@ https://caniuse.com/#feat=es6-module
 ### umd http://wiki.commonjs.org/wiki/CommonJS
 https://github.com/umdjs/umd
 
+
+# VSCode + Typescript でデバッグ
+https://qiita.com/TsuyoshiUshio@github/items/9879ea04cdd606982a65
