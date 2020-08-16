@@ -109,15 +109,22 @@ nodebrew use v14.8.0
 npm update -g npm
 npm -v
 
-npm install -g -y typescript
-
-npm info typescript version
+npm install -g yarn
+https://qiita.com/macotok/items/3fb60315da9206f9805c
+yarn add -D typescript
 
 tsc -v
 Version 3.9.7
 
+npm info typescript version
+
+tsc --init
+npx ts-node 実行ファイル
+
+
 tsc --init
 https://qiita.com/yuzukaki/items/68ca1aed777b296145d5
+
 ```
 
 
