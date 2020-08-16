@@ -107,6 +107,14 @@ nodebrew use v14.8.0
 
 
 npm update -g npm
+npm -v
+
+npm install -g -y typescript
+
+npm info typescript version
+
+tsc -v
+Version 3.9.7
 ```
 
 https://qiita.com/TsuyoshiUshio@github/items/9879ea04cdd606982a65
