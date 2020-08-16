@@ -33,6 +33,10 @@ https://codeaid.jp/vscode-js-debug/
 
 # typescript
 Prettier Formatter for Visual Studio Code
+
+npm install -g typescript
+
+
 ## 开启 Experimental JavaScript 标志
 chrome://flags/#enable-javascript-harmony
 
@@ -76,3 +80,19 @@ console.log("5 ^ 1:", 5 ^ 1);
 console.log("5 << 1:", 5 << 1);
 console.log("5 >> 1:", 5 >> 1);
 ```
+
+import Book from './17-Book';
+const myBook = new Book('some title'); myBook.printTitle();
+# 注意，在这种情况下，我们不需要将类名包含在花括号({})中。只在模块有多个成员被导 出时使用花括号。
+## 用 npm 安 装在全局使用的 Babel 命令行工具
+sudo npm install -g babel-cli
+
+# node test.js
+只需要在 script 标签中增加 type="module"就可以导入我们创建的模块了。 <script type="module" src="17-ES2015-ES6-Modules.js"></script>
+
+# 浏览器的支持。目前对该功能的支持情况
+https://caniuse.com/#feat=es6-module
+
+### umd http://wiki.commonjs.org/wiki/CommonJS
+https://github.com/umdjs/umd
+
