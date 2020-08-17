@@ -111,3 +111,56 @@ console.log( i ); }, i*1000 );
 }
 很酷是吧?块作用域和闭包联手便可天下无敌。
 ```
+# call(..) 和 apply(..) 硬绑定
+function foo() { console.log(
+}
+var obj = { a:2
+如果你传入了一个原始值(字符串类型、布尔类型或者数字类型)来当作 this 的绑定对 象，这个原始值会被转换成它的对象形式(也就是new String(..)、new Boolean(..)或者 new Number(..))。这通常被称为“装箱”。
+从 this 绑定的角度来说，call(..) 和 apply(..) 是一样的，它们的区别体现 在其他的参数上，但是现在我们不用考虑这些。
+可惜，显式绑定仍然无法解决我们之前提出的丢失绑定问题。 1. 硬绑定
+但是显式绑定的一个变种可以解决这个问题。 思考下面的代码:
+function foo() { console.log( this.a );
+}
+var obj = { a:2
+};
+var bar = function() { foo.call( obj );
+};
+     bar(); // 2
+     setTimeout( bar, 100 ); // 2
+// 硬绑定的 bar 不可能再修改它的 this bar.call( window ); // 2
+};
+foo.call( obj );
+this.a );
+  // 2
+通过 foo.call(..)，我们可以在调用 foo 时强制把它的 this 绑定到 obj 上。
+
+# new 绑定
+function foo(a) { this.a = a;
+}
+var bar = new foo(2); console.log( bar.a ); // 2
+使用 new 来调用 foo(..) 时，我们会构造一个新对象并把它绑定到 foo(..) 调用中的 this 上。new 是最后一种可以影响函数调用时 this 绑定行为的方法，我们称之为 new 绑定。
+
+## 代码会判断硬绑定函数是否是被 new 调用，如果是的话就会使用新创建 的 this 替换硬绑定的 this。
+
+### bind(..) 的功能之一就是可以把除了第一个 参数(第一个参数用于绑定 this)之外的其他参数都传给下层的函数(这种技术称为“部 分应用”，是“柯里化”的一种)。
+举例来说:
+```
+function foo(p1,p2) { 
+this.val = p1 + p2;
+}
+// 之所以使用 null 是因为在本例中我们并不关心硬绑定的 this 是什么 // 反正使用 new 时 this 会被修改
+var bar = foo.bind( null, "p1" );
+var baz = new bar( "p2" ); baz.val; // p1p2
+
+function foo(a,b) {
+console.log( "a:" + a + ", b:" + b );
+}
+// 把数组“展开”成参数
+foo.apply( null, [2, 3] ); // a:2, b:3
+// 使用 bind(..) 进行柯里化
+var bar = foo.bind( null, 2 ); bar( 3 ); // a:2, b:3
+这两种方法都需要传入一个参数当作 this 的绑定对象。如果函数并不关心 this 的话，你 仍然需要传入一个占位值，这时 null 可能是一个不错的选择，就像代码所示的那样
+```
+
+# DMZ (demilitarized zone，非军事区)
+对象，比如 ø = Object.create(null)，以保护全局对象。
