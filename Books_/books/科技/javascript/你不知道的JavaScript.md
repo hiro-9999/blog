@@ -59,6 +59,34 @@ foo( "var b = 3;", 1 ); // 1, 3
 
 (function foo(){ .. })作为函数表达式意味着foo只能在..所代表的位置中 被访问，外部作用域则不行。
 
+# 回调参数了，
+比如:
+setTimeout( function() { console.log("I waited 1 second!");
+}, 1000 );
+这叫作匿名函数表达式，因为 function().. 没有名称标识符。
+
+函 数表达式指定一个函数名可以有效解决以上问题。始终给函数表达式命名是一个最佳实践:
+setTimeout( function timeoutHandler() { // <-- 快看，我有名字了! console.log( "I waited 1 second!" );
+}, 1000 );
+
+# IIFE，代表立即执行函数表达式 (Immediately Invoked Function Expression)
+var a = 2;
+(function foo() { var a = 3;
+console.log( a ); // 3 })();
+console.log( a ); // 2
+由于函数被包含在一对 ( ) 括号内部，因此成为了一个表达式，通过在末尾加上另外一个 ( ) 可以立即执行这个函数，比如 (function foo(){ .. })()。第一个 ( ) 将函数变成表 达式，第二个 ( ) 执行了这个函数。
+这种模式很常见，几年前社区给它规定了一个术语:IIFE，代表立即执行函数表达式 (Immediately Invoked Function Expression);
+
+(function(){ .. }())
+
+var a = 2;
+(function IIFE( global ) {
+var a = 3;
+console.log( a ); // 3 console.log( global.a ); // 2
+})( window ); console.log( a ); // 2
+我们将 window 对象的引用传递进去，但将参数命名为 global
+
+
 
 
 
