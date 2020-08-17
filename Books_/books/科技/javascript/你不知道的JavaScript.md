@@ -164,3 +164,17 @@ var bar = foo.bind( null, 2 ); bar( 3 ); // a:2, b:3
 
 # DMZ (demilitarized zone，非军事区)
 对象，比如 ø = Object.create(null)，以保护全局对象。
+
+# 你可以使用 ES6 的 for..of 语法来遍历数据结构(数组、对象，等等)中的值，for..of 会寻找内置或者自定义的 @@iterator 对象并调用它的 next() 方法来遍历数据值。
+```
+// 手动遍历 myObject
+var it = myObject[Symbol.iterator](); it.next(); // { value:2, done:false } it.next(); // { value:3, done:false } it.next(); // { value:undefined, done:true }
+// 用 for..of 遍历 myObject for (var v of myObject) { console.log( v );
+}
+// 2 // 3
+```
+
+# JavaScript 开发者所使用的解决方法(比如混入，mixin)。
+
+## 构造函数 类实例是由一个特殊的类方法构造的，这个方法名通常和类名相同，被称为构造函数。这
+个方法的任务就是初始化实例需要的所有信息(状态)。
