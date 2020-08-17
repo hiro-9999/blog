@@ -87,6 +87,27 @@ console.log( a ); // 3 console.log( global.a ); // 2
 我们将 window 对象的引用传递进去，但将参数命名为 global
 
 
+# 闭包
+```
+function foo() { var a = 2;
+function bar() { console.log( a );
+}
+return bar; }
+var baz = foo();
+baz(); // 2 —— 朋友，这就是闭包的效果。
+```
+bar() 依然持有对该作用域的引用，而这个引用就叫作闭包。
 
+```
+for (var i=1; i<=5; i++) {
+ (function(j) {
+  setTimeout( function timer() { console.log( j );
+             }, j*1000 );
+         })( i );
+}
 
-
+for (let i=1; i<=5; i++) { setTimeout( function timer() {
+console.log( i ); }, i*1000 );
+}
+很酷是吧?块作用域和闭包联手便可天下无敌。
+```
