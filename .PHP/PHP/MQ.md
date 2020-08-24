@@ -7,3 +7,4 @@ rabbitMQ
 
 Amazon SQS
 
+https://uyamazak.hatenablog.com/entry/2017/01/20/112541
