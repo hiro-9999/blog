@@ -3,7 +3,8 @@ https://www.slideshare.net/hiratak1/mq-151749220
 
 ACTIVEMQ
 
-rabbitMQ
+# rabbitMQ
+https://sys-guard.com/post-14412/
 
 Amazon SQS
 
