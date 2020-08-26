@@ -1,3 +1,4 @@
+https://workbench.cadenhead.org/book/cpp-24-hours/
 ```
 int theVariable = 5;
 int *pPointer = &theVariable;
