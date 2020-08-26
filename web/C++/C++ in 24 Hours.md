@@ -37,4 +37,6 @@ If new cannot create memory on the heap—because memory is a limited resource�
 
 ## “For every time in your program that you call new, there should be a call to delete. It is important to keep track of which pointer owns an area of memory and to ensure that the memory is returned to the heap when you are done with it.”
 
+# “Both 0 and nullptr initialize a pointer to no address, making it a null pointer. Using nullptr is more clear because it’s obviously a pointer, while the value 0 serves many other purposes in C++. When supported, the new constant nullptr should be used instead of either 0 or NULL.”
+
 抜粋:: Rogers Cadenhead  “C++ in 24 Hours, Sams Teach Yourself”。 Apple Books  
