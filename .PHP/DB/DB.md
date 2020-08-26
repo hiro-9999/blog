@@ -14,3 +14,5 @@ $pt-slave-delay --delay 30s --interval 10s -u root 127.0.0.1 --port 13316
 2016-09-21T16:49:22 STOP SLAVE until 2016-09-21T16:49:52 at master position mysql-bin.000005/126000
 2016-09-21T16:49:32 slave stopped at master position mysql-bin.000005/126000
 2016-09-21T16:49:42 slave stopped at master position mysql-bin.000005/126000
+
+http://cflat-inc.hatenablog.com/entry/20130818/1376828101
