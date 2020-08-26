@@ -31,4 +31,10 @@ If new cannot create memory on the heap—because memory is a limited resource�
 ”
 
 ```
+# “When you have finished with your area of memory, you must call delete on the pointer,”
+
+“When you call delete on a pointer, the memory it points to is freed. Calling delete on that pointer again will crash your program! ”
+
+## “For every time in your program that you call new, there should be a call to delete. It is important to keep track of which pointer owns an area of memory and to ensure that the memory is returned to the heap when you are done with it.”
+
 抜粋:: Rogers Cadenhead  “C++ in 24 Hours, Sams Teach Yourself”。 Apple Books  
