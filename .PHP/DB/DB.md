@@ -25,3 +25,37 @@ mysql> START SLAVE;
 
 
 https://gihyo.jp/dev/serial/01/mysql-road-construction-news/0022?page=2
+＃ スレーブ側です。MySQLにログインし「show slave status \G」コマンドで確認します。
+Seconds_Behind_Masterが0でなければその分の秒数だけ遅延しています。
+「Seconds_Behind_Master」の値が、「現在 SQL_THREAD が実行しているクエリの実行時刻」と「Slave サーバが保持しているリレーログの時刻」の差となり、遅延を表しています。
+https://blog.ybbo.net/2015/05/23/things-to-confirm-in-case-of-mysql-replication-delaying/
+
+
+https://410gone.click/blog/mysql/
+# 遅延レプリケーションの設定
+遅延させたいスレーブサーバで、CHANGE MASTERコマンドを実行して遅延レプリケーションを設定します。
+‘master_delay‘で、遅延させたい秒数を指定します。
+ 
+例）20秒の遅延を発生させる場合
+
+stop slave;
+change master to master_delay=20;
+start slave;
+
+# 遅延状態を確認する
+SQL_Delayに設定した時間が表示されるか確認します。
+スレーブステータスの’SQL_Delay‘を確認します。
+この値が、遅延設定した値になっていれば、正常に遅延設定が反映されています。
+
+show slave status\G
+:
+SQL_Delay: 20
+:
+ 
+
+# 遅延レプリケーションを解除する
+遅延レプリケーションを解除するときは、遅延時間に0を設定します。
+
+stop slave;
+change master to master_delay=0;
+start slave;
