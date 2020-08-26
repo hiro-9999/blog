@@ -15,4 +15,12 @@ pPointer = 0x00007ffeefbffda8  // a Pointer 是个地址
 ```
 
 
+“The Stack and the Heap
+Programmers generally deal with five areas of memory:
+ Global name space
+ The heap
+ Registers
+ Code space
+ The stack”
+
 抜粋:: Rogers Cadenhead  “C++ in 24 Hours, Sams Teach Yourself”。 Apple Books  
