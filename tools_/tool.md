@@ -6,6 +6,9 @@ https://barcode.tec-it.com/zh/Code128?data=ABC-abc-1234
 # rikaikun 日语读音
 https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=ja
 
+# sequel pro / sequel ace
+https://apps.apple.com/us/app/sequel-ace/id1518036000?mt=12
+
 # net seepd
 https://fast.com/ja/#
 
