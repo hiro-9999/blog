@@ -3,6 +3,9 @@
 # 生成条码
 https://barcode.tec-it.com/zh/Code128?data=ABC-abc-1234
 
+# rikaikun 日语读音
+https://chrome.google.com/webstore/detail/rikaikun/jipdnfibhldikgcjhfnomkfpcebammhp?hl=ja
+
 # net seepd
 https://fast.com/ja/#
 
