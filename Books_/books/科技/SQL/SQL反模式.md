@@ -48,6 +48,20 @@ Query OK, 0 rows affected (0.01 sec)
 mysql> delimiter ;
  
 mysql> call testproc( 10008 ) ;   
+
+
+数値を3桁毎にカンマ区切り整形するにはformat関数
+
+桁の大きな数値を読みやすく3桁毎にカンマを入れて整形するには、format関数が便利です。
+
+第一引数に整形対象の数値、第二引数に小数点位置を指定します。以下は、MySQLで実行した例です。
+
+mysql> select format(111111111,0);
++---------------------+
+| format(111111111,0) |
++---------------------+
+| 111,111,111         |
++---------------------+
 ```
 https://style.potepan.com/articles/21815.html
 
