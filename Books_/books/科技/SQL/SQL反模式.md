@@ -8,6 +8,7 @@ in One Day and Learn It Well.
 
 Learn SQL in One Day and Learn It Well. SQL for Beginners with Hands-on Project by Chan Jamie (z-lib.org).pdf
 # MySQL Workbench, go to 
+https://www.mysql.com/jp/products/workbench/
 https://dev.mysql.com/downloads/workbench/.
 
 # For Mac users, to install MySQL Server, go to 
