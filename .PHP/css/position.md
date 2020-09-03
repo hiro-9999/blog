@@ -8,3 +8,12 @@ https://saruwakakun.com/html-css/basic/before-after
 
 # nth-child
 https://techacademy.jp/magazine/8651
+```
+p:nth-child(5)　･･･　5番目の要素に適用
+p:nth-child(odd)　･･･　奇数番目の要素に適用
+p:nth-child(2n+1)　･･･　奇数番目の要素に適用
+p:nth-child(even)　･･･　偶数番目の要素に適用
+p:nth-child(2n)　･･･　偶数番目の要素に適用
+p:nth-child(3n)　･･･　3,6,9,12…番目の要素に適用
+p:nth-child(3n+1)　･･･　1,4,7,10…番目の要素に適用
+```
