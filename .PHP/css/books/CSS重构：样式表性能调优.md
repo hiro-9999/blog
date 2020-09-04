@@ -10,8 +10,15 @@
 
 レスポン シブデザイン モード
 
+# gemini
+https://github.com/gemini-testing/gemini
 
+“Google CSS 编码规范（http://bit.ly/2e68N3y ）
+WordPress CSS 编码规范（http://bit.ly/2fgLrp2 ）
+18F 前端指南（https://pages.18f.gov/frontend/#css ）
+”
 
+抜粋:: [美] Steve Lindstrom  “CSS重构：样式表性能调优”。 Apple Books  
 精通CSS
 
 精通CSS：高级Web标准解决方案(第3版).pdf
