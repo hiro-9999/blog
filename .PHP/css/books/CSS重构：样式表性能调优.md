@@ -8,6 +8,7 @@
 
 # “Safari 浏览器也有响应式设计模式，可以模拟不同设备尺寸（图 5-14）。从 Develop → Enter Responsive Design Mode 菜单项可以进入该模式。”
 
+レスポン シブデザイン モード
 
 
 
