@@ -4,6 +4,9 @@
 每个函数都有一个单元测试；
 多个函数组合起来可以实现更复杂的计算。”
 
+# iframe
+https://developer.mozilla.org/ja/docs/Web/HTML/Element/iframe
+
 
 抜粋:: [美] Steve Lindstrom  “CSS重构：样式表性能调优”。 Apple Books  
 
