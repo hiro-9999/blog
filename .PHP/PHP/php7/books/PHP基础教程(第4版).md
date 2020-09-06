@@ -12,3 +12,22 @@ print_r($_SERVER);
 ## “驼峰（camel-hump） 方式（使用大写字母对单词进行分隔，例如$FirstName ）和下划线 方式（例如$first_name ）。”
 
 抜粋:: [美]Larry Ullman 著  “PHP基础教程(第4版) (图灵程序设计丛书·Web开发系列)”。 Apple Books  
+# 【PHP】チェックボックスの値を受け取る
+https://qiita.com/4cres/items/26154314959dcccbfd34
+```
+パターン2HTML
+<form method="post" action="kekka.php">
+      <label><input type="checkbox" name="color[]" value="red">赤</label>
+      <label><input type="checkbox" name="color[]" value="blue">青</label>
+      <label><input type="checkbox" name="color[]" value="yellow">黄</label>
+      <input type="submit" value="送信">
+</form>
+パターン2PHP
+$color=$_POST['color'];
+ 
+foreach ($color as $value){
+ 
+    $c .=$value.",";
+}
+echo $c;
+```
