@@ -14,3 +14,7 @@ https://css-tricks.com/snippets/css/complete-guide-grid/
 https://gridbyexample.com
 
 http://cssgridgarden.com/#ja
+
+
+# css Syntax
+https://developer.mozilla.org/en-US/docs/Web/CSS/align-items#Syntax
