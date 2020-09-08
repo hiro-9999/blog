@@ -6,7 +6,9 @@ http://fuelphp.jp/docs/1.6/general/mvc.html
 
 ### extends \Model 
 
-### extends ViewModel 
+### extends ViewModel  View_
+ビューモデルとそのビューは同じ名前を共有します。 ビューモデル View_Index のビューは app/views/index.php になります。 アンダースコアはクラスと同じように、つまり、ビュー View_Some_Thing は、 app/views/some/thing.php になります。
+このデフォルトの動作は、そのビューを使うビューモデルの中で、静的でない $_view プロパティを設定することで、 オーバーライトできます。
 
 $view->set(
 # 遅延レンダリング
