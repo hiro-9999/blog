@@ -1,6 +1,57 @@
 # frist コントローラ モデル ビュー
 http://fuelphp.jp/docs/1.6/general/mvc.html
 
+### 1.7.xではViewModel、1.8.xではPresenterを利用するほうがいいかもしれません。
+
+```
+https://helog.jp/framework/fuelphp-viewmodel/
+例えばホームページのビューファイル
+「/app/views/welcome/index.php」にViewModelクラスを適用する場合、
+「/app/classes/view/welcome/index.php」を用意します。
+
+class View_Welcome_Index extends ViewModel{
+	public function view(){
+		$this->title = "サンプルタイトル";
+	}
+}
+
+コントロール「/app/classes/controller/welcome.php」内でビューに値を渡す場合は以下のように記述します。
+
+class Controller_Welcome{
+	public function action_index(){
+		return View::forge('welcome/index');
+	}
+}
+
+// ViewModel
+class Controller_Welcome extends Controller_Template{
+	public function action_index(){
+		$this->template->content = ViewModel::forge('welcome/index');
+	}
+
+}
+
+■コントローラの規約で押さえておきたいポイント
+・APPPATH/classes/controller フォルダ配下に配置する。
+・ファイル名＝コントローラ名、ファイル名はすべて小文字にする。
+・クラス名には接頭辞「Controller_」を付ける。
+・クラス名の単語は最初の文字が大文字、そのほかは小文字にする。
+・クラス名のなかではフォルダ区切りを「_」とする。
+例）ファイルが「APPPATH/classes/controller/admin/profile.php」の場合、クラス名は「Controller_Admin_Profile」となります。
+・Controllerクラスを継承する。
+・ブラウザから実行されるメソッド名には接頭辞「action_」を付ける。
+■ビューの規約で押さえておきたいポイント
+・APPPATH/views フォルダ配下に配置する。
+・ファイル名はすべて小文字にする。
+■モデルの規約で押さえておきたいポイント
+・APPPATH/classes/model フォルダ配下に配置する。
+・ファイル名＝モデル名、ファイル名はすべて小文字にする。
+・クラス名には接頭辞「Model_」を付ける。
+・クラス名の単語は最初の文字が大文字、そのほかは小文字にする。
+・クラス名のなかではフォルダ区切りを「_」とする。
+・Modelクラスを継承する。
+```
+
 ## extends Controller
 ### View::forge
 
