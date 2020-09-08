@@ -1,3 +1,6 @@
+# frist コントローラ モデル ビュー
+http://fuelphp.jp/docs/1.6/general/mvc.html
+
 # FuelPHP
 https://www.finddevguides.com/s/fuelphp/fuelphp_quick_guide
 
