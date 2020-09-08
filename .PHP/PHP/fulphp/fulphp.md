@@ -9,6 +9,15 @@ https://helog.jp/framework/fuelphp-viewmodel/
 「/app/views/welcome/index.php」にViewModelクラスを適用する場合、
 「/app/classes/view/welcome/index.php」を用意します。
 
+# $this->view
+$view = $this->view($result, $model_params);
+$view->params = $this->params;
+$view->execute_params = $execute_params;
+$result = $view->render();
+
+$this->response->set_header('X-UA-Compatible', 'requiresActiveX=true');
+return $result;
+
 class View_Welcome_Index extends ViewModel{
 	public function view(){
 		$this->title = "サンプルタイトル";
