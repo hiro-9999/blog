@@ -6,12 +6,13 @@ http://fuelphp.jp/docs/1.6/general/mvc.html
 
 ### extends \Model 
 
-### extends ViewModel  View_
+### extends ViewModel  
+### View_
 ビューモデルとそのビューは同じ名前を共有します。 ビューモデル View_Index のビューは app/views/index.php になります。 アンダースコアはクラスと同じように、つまり、ビュー View_Some_Thing は、 app/views/some/thing.php になります。
 このデフォルトの動作は、そのビューを使うビューモデルの中で、静的でない $_view プロパティを設定することで、 オーバーライトできます。
 
-$view->set(
-# 遅延レンダリング
+### $view->set(
+# 遅延レンダリング render() 
 ビューオブジェクトを初期化するとき、出力を生成するのに必要な環境のみがセットアップされます。ビューファイルは読み込まれず、 変数は解釈されず、出力はレンダリングされません。
 
 これは render() メソッドを明示的に呼び出す場合、あるいは ビューオブジェクトを文字列にキャストする(echo すると自動的にそうなります)ときのみ起きます。つまり、ビューは完全に必要になるまで処理されません。 FuelPHP はブラウザに出力する時が来るまで、
