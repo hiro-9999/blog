@@ -1,6 +1,21 @@
 # frist コントローラ モデル ビュー
 http://fuelphp.jp/docs/1.6/general/mvc.html
 
+## extends Controller
+### View::forge
+
+### extends \Model 
+
+### extends ViewModel 
+
+$view->set(
+# 遅延レンダリング
+ビューオブジェクトを初期化するとき、出力を生成するのに必要な環境のみがセットアップされます。ビューファイルは読み込まれず、 変数は解釈されず、出力はレンダリングされません。
+
+これは render() メソッドを明示的に呼び出す場合、あるいは ビューオブジェクトを文字列にキャストする(echo すると自動的にそうなります)ときのみ起きます。つまり、ビューは完全に必要になるまで処理されません。 FuelPHP はブラウザに出力する時が来るまで、
+### レンダリングしたビューをメモリに保存しない、 ということでもあります。
+
+
 # FuelPHP
 https://www.finddevguides.com/s/fuelphp/fuelphp_quick_guide
 
