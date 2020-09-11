@@ -1,5 +1,8 @@
 http://oeasy.org
 
+# rust
+https://www.bilibili.com/video/av12818669
+
 
 ```
 //推荐使用Promise来处理letpromise=newPrimise(function(resolve,reject){});promise.then(function(){//成功处理},function(){//失败处理});
