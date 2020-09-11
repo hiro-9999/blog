@@ -1,4 +1,4 @@
-http://oeasy.org
+
 
 # rust
 https://www.bilibili.com/video/av12818669
