@@ -1,5 +1,14 @@
 https://www.manning.com/books/typescript-quickly
 
+# indexOf
+```
+const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
+
+const searchTerm = 'dog';
+const indexOfFirst = paragraph.indexOf(searchTerm);
+```
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
+
 # git
 https://git-scm.com/book/zh/v2
  
