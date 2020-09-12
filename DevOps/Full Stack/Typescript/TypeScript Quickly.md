@@ -5,7 +5,7 @@ GitHub at https:// github.com/yfain/getts
 # vscode
 https://code.visualstudio.com/docs/languages/typescript
 
-```
+```rub
 const outerFunc = (someValue: number) =>
     (multiplier: number) => someValue * multiplier;
 Declares the higher- order function
