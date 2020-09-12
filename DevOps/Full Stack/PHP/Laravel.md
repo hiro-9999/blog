@@ -8,7 +8,10 @@ https://vessel.shippingdocker.com
 
 https://serversforhackers.com
 
-# help
+# help other framework
 https://laravel.com/docs/8.x/valet
+
+# slim
+https://github.com/slimphp/Slim/wiki/Slim-4-Roadmap
 
 抜粋:: Matt Stauffer  “Laravel”。 Apple Books  
