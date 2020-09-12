@@ -3,6 +3,29 @@ TypeScript Quickly by YAKOV FAIN, ANTON MOISEEV (z-lib.org).pdf
 # react
 https://zh-hans.reactjs.org
 
+```
+enum Direction {
+    Up = "UP",
+    Down = "DOWN",
+    Left = "LEFT",
+    Right = "RIGHT",
+}
+
+@media (max-width: 640px) media query instructs the browser to change the lay- out on small devices (less than 640 pixels in width). 
+
+Here’s how you can calculate the SHA-256 hash for the text “hello world” on macOS:
+echo -n 'hello world' | shasum -a 256
+
+```
+# crypto object to support cryptography
+https://developer.mozilla.org/en-US/docs/Web/API/SubtleCrypto/digest
+
+# tsc greeter.ts --sourceMap true --inlineSources true
+It still produces the greeter.js and greeter.js.map files, but the latter now also includes the code from greeter.ts. This option eliminates the need to deploy separate .ts files under your web server, but you can still debug the TypeScript code.
+
+# typescript Playground
+http://mng.bz/MOpB
+
 ### useCallback
 https://reactjs.org/docs/hooks-reference.html#usecallback
 ```
