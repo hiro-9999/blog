@@ -5,6 +5,54 @@ https://zh-hans.reactjs.org
 
 ### useCallback
 https://reactjs.org/docs/hooks-reference.html#usecallback
+```
+これをuseMemoを利用して書き直してみましょう。
+
+const Foo = ({timestamp}) => {
+
+  const dateString = useMemo(()=>{
+    const dateObj = new Date(timestamp)
+    return `${dateObj.getFullYear()}年${dateObj.getMonth() + 1}月${dateObj.getDate()}日`
+  },[timestamp])
+
+  return (
+    <p>日付：{dateString}</p>
+  )
+}
+useMemo内で日付文字列を生成するように変更しましたので、日付文字列を生成する処理は初回もしくはtimestampが変更された際にしか実行されなくなります。
+
+const MyComponent = () => {
+  // コールバック関数
+  const handleInput= useCallback((e) => {
+    // イベント発生時に実行したい処理
+    console.log(e.target.value)
+  },[])
+ 
+  return (
+    <div>
+      <input type="button" defaultValue=""　onClick={handleInput}/>
+    </div>
+  )
+}
+コールバック関数を作成する場合には極力useCallbackを利用するのがよいでしょう。
+
+function App() {
+  
+  const inputEl = useRef(null)
+  const [text,changeText] = useState("")
+  const handleClick = useCallback(()=>{
+    changeText(inputEl.current.value)
+  },[])
+
+  return (
+    <>
+      <p>text : {text}</p>
+      <input ref={inputEl} type="text" />
+      <button onClick={handleClick}>set text</button>
+    </>
+  )
+}
+```
 
 GitHub at https:// github.com/yfain/getts
 
