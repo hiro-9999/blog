@@ -31,3 +31,6 @@ foreach ($color as $value){
 }
 echo $c;
 ```
+# “cookie将数据保存在客户端（在Web浏览器中），而session则将数据保存在服务器端。因为有这个区别，session拥有比cookie更多的优势。”
+
+抜粋:: [美]Larry Ullman 著  “PHP基础教程(第4版) (图灵程序设计丛书·Web开发系列)”。 Apple Books  
