@@ -1,4 +1,6 @@
 https://www.manning.com/books/typescript-quickly
+# ユーザーエージェント検索
+https://www.plus-a.net/tools/user_agent_list/?q=PlayStation
 
 # indexOf 
 ```
