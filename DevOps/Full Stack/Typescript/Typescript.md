@@ -2,6 +2,10 @@ https://www.manning.com/books/typescript-quickly
 # ユーザーエージェント検索
 https://www.plus-a.net/tools/user_agent_list/?q=PlayStation
 
+# この正規表現パターン
+var regexp = /^(.+)\([0-9]+\)$/;
+https://www.wareko.jp/blog/typescript-which-is-better-regexp-or-regular-expression-literal
+
 # indexOf 
 ```
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
