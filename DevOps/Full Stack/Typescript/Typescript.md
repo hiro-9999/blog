@@ -29,6 +29,9 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 ```
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
 
+# 正規表現
+https://qiita.com/iLLviA/items/b6bf680cd2408edd050f
+
 # git
 https://git-scm.com/book/zh/v2
  
