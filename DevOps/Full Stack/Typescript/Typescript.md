@@ -29,6 +29,9 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 ```
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
 
+# playground
+https://www.typescriptlang.org/docs/handbook/basic-types.html
+
 # 正規表現
 http://okumocchi.jp/php/re.php
 
