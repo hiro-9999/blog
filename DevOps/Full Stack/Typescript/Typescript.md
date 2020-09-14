@@ -32,6 +32,8 @@ https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/St
 # 正規表現
 http://okumocchi.jp/php/re.php
 
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_Expressions
+
 https://qiita.com/iLLviA/items/b6bf680cd2408edd050f
 
 # git
