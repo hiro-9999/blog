@@ -7,7 +7,17 @@ var regexp = /^(.+)\([0-9]+\)$/;
 https://www.wareko.jp/blog/typescript-which-is-better-regexp-or-regular-expression-literal
 
 # indexOf 
+https://www.typescriptlang.org/
 ```
+const paragraph = 'up.browser  (SCE, VTE)  (The  iOS fox /n PlayStation 4.211SCEE/12.11'+
+ '/n jumps Secureplayer.22phone iOS RVideoApp-Smartphone the lazy dog. It barked.';
+const regex =/RVideoApp-smartphone/i;
+var regexp_o = new RegExp('PlayStation 4.+SCEE\\/[0-9.]+');
+const found = paragraph.match(new RegExp('secureplayer(.*)?phone iOS','m'));
+
+console.log(found);
+
+
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 
 const searchTerm = 'dog';
