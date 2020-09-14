@@ -1,11 +1,31 @@
 https://www.manning.com/books/typescript-quickly
 
-# indexOf
+# indexOf 
 ```
 const paragraph = 'The quick brown fox jumps over the lazy dog. If the dog barked, was it really lazy?';
 
 const searchTerm = 'dog';
 const indexOfFirst = paragraph.indexOf(searchTerm);
+
+https://typescript-jp.gitbook.io/deep-dive/type-system/enums
+export enum EvidenceTypeEnum {
+  UNKNOWN = '',
+  PASSPORT_VISA = 'passport_visa',
+  PASSPORT = 'passport',
+  SIGHTED_STUDENT_CARD = 'sighted_tertiary_edu_id',
+  SIGHTED_KEYPASS_CARD = 'sighted_keypass_card',
+  SIGHTED_PROOF_OF_AGE_CARD = 'sighted_proof_of_age_card',
+}
+
+
+let paragraph = 'The quick brown fox jumps over the lazy dog. It barked.';
+
+let capturingRegex = /(?<animal>fox|cat) jumps over/;
+found = paragraph.match(capturingRegex);
+console.log(found.groups); // {animal: "fox"}
+
+
+https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/match
 ```
 https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf
 
