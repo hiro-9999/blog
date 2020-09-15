@@ -1,3 +1,7 @@
+# Cache log
+https://www.cnblogs.com/aspirant/category/671164.html
+
+
 # memcached
 https://aws.amazon.com/jp/memcached/
 ### 平均ミリ秒未満の読み取りと書き込み時間という非常に高速なパフォーマンスと、1 秒に幾百万ものオペレーションのサポートが可能になります。
