@@ -5,7 +5,51 @@ https://aws.amazon.com/jp/memcached/
 
 # libmemcachedのバージョンを確認
 php -i | grep memcache
+
 https://qiita.com/horikeso/items/aa32f25a9a09cdaead40
+
+```php
+[1]	PHP の Memcached クライアントモジュールをインストールしておきます。
+# PowerTools からインストール (デフォルト無効)
+[root@dlp ~]# dnf --enablerepo=PowerTools -y install php-pear php-devel zlib-devel libmemcached-devel make
+[root@dlp ~]# pecl install memcached
+[root@dlp ~]# echo 'extension=memcached.so' >> /etc/php.ini
+[2]	基本的な利用方法サンプルです。
+[cent@dlp ~]$ vi use_memcache.php
+<?php
+$memcache = new Memcached();
+$memcache->addServer('localhost', 11211);
+$memcache->setOption(Memcached::OPT_COMPRESSION, false);
+
+// キーに値をセットして表示
+$memcache->set('key01', 'value01');
+print 'key01.value : ' . $memcache->get('key01') . "\n";
+
+// キーに値をアペンドして表示
+$memcache->append('key01', ',value02');
+print 'key01.value : ' . $memcache->get('key01') . "\n";
+
+$memcache->set('key02', 1);
+print 'key02.value : ' . $memcache->get('key02') . "\n";
+
+// 加算
+$memcache->increment('key02', 100);
+print 'key02.value : ' . $memcache->get('key02') . "\n";
+
+// 減算
+$memcache->decrement('key02', 51);
+print 'key02.value : ' . $memcache->get('key02') . "\n";
+
+?>
+
+# 実行
+[cent@dlp ~]$ php use_memcache.php
+key01.value : value01
+key01.value : value01,value02
+key02.value : 1
+key02.value : 101
+key02.value : 50
+```
 
 
 ## キャッシュ
