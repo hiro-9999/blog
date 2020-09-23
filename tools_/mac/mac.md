@@ -9,3 +9,6 @@ https://xclient.info/s/xmind-zen.html?a=dl&v=9.1.3&k=0&t=b51471dfdb2330f7754d7e4
 
 
 sudo xattr -d com.apple.quarantine /Applications/xxxx.app
+
+//cbr reader
+https://www.yacreader.com/downloads
