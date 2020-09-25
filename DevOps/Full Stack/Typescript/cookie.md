@@ -51,7 +51,14 @@ https://mizchi.dev/202006232052-rewrite-to-ts-with-expect-error
 
 https://devblogs.microsoft.com/typescript/announcing-typescript-3-9-beta/
 
+# Client-side Authentication the Right Way (Cookies vs. Local Storage)
+https://www.taniarascia.com/full-stack-cookies-localstorage-react-express/
 ```
+Method	Vulnerability
+Local storage	XSS - cross-site scripting
+Cookies	CSRF - cross-site request forgery
+An XSS vulnerability enables an attacker to inject JavaScript into a site.
+A CSRF vulnerability enables an attacker to perform actions on a website via an authenticated user.
 
 ```
 
