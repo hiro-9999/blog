@@ -40,3 +40,9 @@ getCookie(`lg`);
 https://gist.github.com/joduplessis/7b3b4340353760e945f972a69e855d11
 
 https://stackoverflow.com/questions/10730362/get-cookie-by-name
+
+# typescriptで特定ファイルのコンパイルエラーだけdisableする
+https://dream-yt.github.io/post/typescript-ts-ignore/
+
+
+
