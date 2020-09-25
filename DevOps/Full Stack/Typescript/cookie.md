@@ -46,5 +46,7 @@ https://dream-yt.github.io/post/typescript-ts-ignore/
 
 https://mizchi.dev/202006232052-rewrite-to-ts-with-expect-error
 
+https://devblogs.microsoft.com/typescript/announcing-typescript-3-9-beta/
+
 
 
