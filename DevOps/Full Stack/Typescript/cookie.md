@@ -1,5 +1,8 @@
 getcookie('lg')
 
+https://www.typescriptlang.org/
+
+
 https://gist.github.com/joduplessis/7b3b4340353760e945f972a69e855d11
 ```
 function getcookie(name = '') {
