@@ -20,3 +20,19 @@ https://www.npmjs.com/package/npm-update-all
 lsof -i :3000
 kill -9 72038
 ```
+
+
+<style type="text/css">
+    .hidden { display:none; }
+</style>
+render: function() {
+    return (
+      <div className={this.props.shouldHide ? 'hidden' : ''}>
+        This will be hidden if you set <tt>props.shouldHide</tt> 
+        to something truthy.
+      </div>
+    );
+}
+
+// or in more modern JS and stateless react
+const Example = props => <div className={props.shouldHide}/>Hello</div>
