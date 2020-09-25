@@ -60,6 +60,15 @@ Cookies	CSRF - cross-site request forgery
 An XSS vulnerability enables an attacker to inject JavaScript into a site.
 A CSRF vulnerability enables an attacker to perform actions on a website via an authenticated user.
 
+Using HTTP cookies in Express
+
+In order to use cookies in Express, you use the cookie-parser module.
+
+Parse cookies
+
+const cookieParser = require('cookie-parser')
+
+app.use(cookieParser())
 ```
 
 
