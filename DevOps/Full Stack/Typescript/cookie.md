@@ -44,5 +44,7 @@ https://stackoverflow.com/questions/10730362/get-cookie-by-name
 # typescriptで特定ファイルのコンパイルエラーだけdisableする
 https://dream-yt.github.io/post/typescript-ts-ignore/
 
+https://mizchi.dev/202006232052-rewrite-to-ts-with-expect-error
+
 
 
