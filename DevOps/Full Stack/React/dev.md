@@ -33,7 +33,8 @@ render: function() {
       </div>
     );
 }
-```
+
 
 // or in more modern JS and stateless react
 const Example = props => <div className={props.shouldHide}/>Hello</div>
+```
