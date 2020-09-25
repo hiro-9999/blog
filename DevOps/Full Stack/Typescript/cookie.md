@@ -1,5 +1,6 @@
 getcookie('lg')
-https://gist.github.com/hunan-rostomyan/28e8702c1cecff41f7fe64345b76f2ca
+
+https://gist.github.com/joduplessis/7b3b4340353760e945f972a69e855d11
 ```
 function getcookie(name = '') {
     let cookies = document.cookie;
@@ -22,19 +23,20 @@ function getcookie(name = '') {
     return (name !== '' ? cookiestore[name] : cookiestore);
 }
 
-// Given a cookie key `name`, returns the value of
-// the cookie or `null`, if the key is not found.
-function getCookie(name: string): string {
-	const nameLenPlus = (name.length + 1);
-	return document.cookie
-		.split(';')
-		.map(c => c.trim())
-		.filter(cookie => {
-			return cookie.substring(0, nameLenPlus) === `${name}=`;
-		})
-		.map(cookie => {
-			return decodeURIComponent(cookie.substring(nameLenPlus));
-		})[0] || null;
+//cookie-typescript-utils.ts
+function getCookie(name: string) {
+    const value = "; " + document.cookie;
+    const parts = value.split("; " + name + "=");
+
+    if (parts.length == 2) {
+        // @ts-ignore
+        return parts.pop().split(";").shift();
+    }
+    return ``
 }
+
+getCookie(`lg`);
 ```
+https://gist.github.com/joduplessis/7b3b4340353760e945f972a69e855d11
+
 https://stackoverflow.com/questions/10730362/get-cookie-by-name
