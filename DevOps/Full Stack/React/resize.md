@@ -24,3 +24,4 @@ let App = () => {
   );
 };
 ```
+https://stackoverflow.com/questions/19014250/rerender-view-on-browser-resize-with-react?rq=1
