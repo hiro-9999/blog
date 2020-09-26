@@ -123,3 +123,6 @@ Caching is turned off by default. You might want to turn it on for production.
 Warning: if the resouces in a given language had been stored to localStorage they won't be fetched / reloaded from online until set localStorageExpirationTime expired. So if they had been cached once and you add new resources, they won't be reloaded until expired.
 
 But you can easily remove the values from localstorage by calling, eg.: localStorage.removeItem("res_en" )
+
+# react-cookie
+https://www.npmjs.com/package/react-cookie#simple-example-with-react-hooks
