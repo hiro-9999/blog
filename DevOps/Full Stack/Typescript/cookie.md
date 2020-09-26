@@ -72,4 +72,6 @@ app.use(cookieParser())
 ```
 
 
+# LanguageDetector
+https://github.com/i18next/i18next/issues/918
 
