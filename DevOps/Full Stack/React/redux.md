@@ -1,6 +1,14 @@
 # redux typescript
 https://spin.atomicobject.com/2020/09/09/type-safe-redux-typescript/
 
+npm install --save-dev redux-devtools
+
+以下は、アプリケーションのデータフローの図です。
+ViewはDispatcherにActionを送る
+DispatcherはすべてのStoreにアクションを送る
+## StoreはViewにデータを送り、表示データの更新をする
+https://qiita.com/makishy/items/857bb838a2910eb34da3
+
 # redux
 https://webbibouroku.com/Blog/Article/redux-ducks
 
