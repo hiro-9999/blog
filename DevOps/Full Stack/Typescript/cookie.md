@@ -104,3 +104,7 @@ https://qiita.com/terufumi1122/items/76bafb9eed7cfc77b798
 
 
 https://stackoverflow.com/questions/54514834/i18next-browser-languagedetector-path-not-working
+
+
+# i18next-redux-languagedetector
+https://libraries.io/npm/i18next-redux-languagedetector
