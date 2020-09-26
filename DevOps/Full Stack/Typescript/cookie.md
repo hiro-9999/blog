@@ -87,3 +87,17 @@ https://github.com/i18next/i18next-browser-languageDetector
   caches: ['localStorage', 'cookie'],
   excludeCacheFor: ['cimode'], // languages to not persist (cookie, localStorage)
   ```
+ # 6.0.1
+https://github.com/i18next/i18next-browser-languageDetector/blob/master/CHANGELOG.md
+
+# Cookie	localStorage	sessionStorage
+```
+Cookie	localStorage	sessionStorage
+保存容量	4KB	10MB	5MB
+対応ブラウザ	HTML4/HTML5	HTML5	HTML5
+ブラウザのどこで有効か	どこでも	どこでも	同じタブ内
+有効期限	任意設定	基本は消えない	タブを閉じたとき
+保存される場所	ブラウザとサーバー	ブラウザのみ	ブラウザのみ
+HTTPリクエストで送信	される	されない	されない
+```
+https://qiita.com/terufumi1122/items/76bafb9eed7cfc77b798
