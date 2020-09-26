@@ -18,3 +18,6 @@ https://airbnb.io/enzyme/docs/api/
 https://jasmine.github.io/index. html
 ## The Mocha homepage can be found at 
 https://mochajs.org/
+
+# cookie
+"js-cookie": "^2.2.1",
