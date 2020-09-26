@@ -1,7 +1,9 @@
 # redux typescript
 https://spin.atomicobject.com/2020/09/09/type-safe-redux-typescript/
 
-npm install --save-dev redux-devtools
+https://redux.js.org/recipes/usage-with-typescript
+
+# npm install --save-dev redux-devtools
 
 以下は、アプリケーションのデータフローの図です。
 ViewはDispatcherにActionを送る
