@@ -110,3 +110,16 @@ https://stackoverflow.com/questions/54514834/i18next-browser-languagedetector-pa
 
 # i18next-redux-languagedetector
 https://libraries.io/npm/i18next-redux-languagedetector
+
+## localStorage
+https://i18next.github.io/i18next/pages/doc_init.html
+Caching with localStorage:
+i18n.init({ 
+  useLocalStorage: true | false,
+  localStorageExpirationTime: 86400000 // in ms, default 1 week
+});
+Caching is turned off by default. You might want to turn it on for production.
+
+Warning: if the resouces in a given language had been stored to localStorage they won't be fetched / reloaded from online until set localStorageExpirationTime expired. So if they had been cached once and you add new resources, they won't be reloaded until expired.
+
+But you can easily remove the values from localstorage by calling, eg.: localStorage.removeItem("res_en" )
