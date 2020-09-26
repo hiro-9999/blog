@@ -1,4 +1,7 @@
 getcookie('lg')
+# i18next
+https://github.com/i18next/i18next/blob/master/CHANGELOG.md
+
 
 https://www.typescriptlang.org/
 
