@@ -57,6 +57,8 @@ https://mizchi.dev/202006232052-rewrite-to-ts-with-expect-error
 https://devblogs.microsoft.com/typescript/announcing-typescript-3-9-beta/
 
 # Client-side Authentication the Right Way (Cookies vs. Local Storage)
+https://codetain.com/blog/how-to-translate-react-application-with-react-i18next-part-2
+
 https://www.taniarascia.com/full-stack-cookies-localstorage-react-express/
 ```
 Method	Vulnerability
