@@ -81,3 +81,9 @@ app.use(cookieParser())
 https://github.com/i18next/i18next/issues/918
 
 https://github.com/i18next/i18next-browser-languageDetector
+
+```
+// cache user language on
+  caches: ['localStorage', 'cookie'],
+  excludeCacheFor: ['cimode'], // languages to not persist (cookie, localStorage)
+  ```
