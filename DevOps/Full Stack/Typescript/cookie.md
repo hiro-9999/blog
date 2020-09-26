@@ -1,5 +1,7 @@
 getcookie('lg')
 # i18next
+https://react.i18next.com/legacy-v9/step-by-step-guide
+
 https://github.com/i18next/i18next/blob/master/CHANGELOG.md
 
 
