@@ -14,7 +14,9 @@ get ip
 Hence the complete filter expression becomes 
 ## http.request.uri==google.com.”
 
-抜粋:: “Instant Wireshark Starter”。 Apple Books 
+“The same conversation is captured by choosing the destination MAC address using the display filter eth.addr == 06:73:7a:4c:2f:85.”
+
+抜粋:: Anish Nath  “Packet Analysis with Wireshark”。 Apple Books  
 
 
 # tcpdump -i eth0 -X
