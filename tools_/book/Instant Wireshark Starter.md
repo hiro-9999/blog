@@ -6,7 +6,7 @@ get ip
 
 ## tcp.port==80
 
-## ip.addr==192.168.56.101 
+## ip.src == 202.6.246.238
 
 ## 「ip.src==IPアドレス」と「http」というフィルタを組み合わせて「ip.src==IPアドレス and http」
 
