@@ -2,6 +2,31 @@ https://www.i18next.com/overview/configuration-options#misc
 
 https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next
 
+
+### cookie
+```
+import i18n from "i18next";
+import { initReactI18next } from "react-i18next";
+import i18nextHttpBackend from "i18next-http-backend";
+
+import Cookies from "js-cookie";
+
+i18n
+  .use(i18nextHttpBackend)
+  .use(initReactI18next)
+  .init({
+    lng: Cookies.get("locale") || "en",
+    fallbackLng: "en",
+
+    interpolation: {
+      escapeValue: false
+    }
+  });
+
+export default i18n;
+```
+https://gist.github.com/rezamauliadi/e82d46bc0b2c7bc2437e0ead42f057bf
+
 ### i18n
 https://www.digitalocean.com/community/tutorials/react-i18n-with-react-and-i18next
 ```
