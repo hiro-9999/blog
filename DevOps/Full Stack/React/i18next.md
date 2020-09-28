@@ -1,6 +1,19 @@
 https://www.i18next.com/overview/configuration-options#misc
 
 https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next
+```
+import { withTranslation } from 'react-i18next';
+
+class RootContainer extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  render() {
+   <span>{this.props.t('Home')}</span>
+  }
+}
+```
 
 # i18nextの翻訳システム
 ## react-i18next
