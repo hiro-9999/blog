@@ -1,6 +1,9 @@
 https://www.i18next.com/overview/configuration-options#misc
 
 https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next
+
+### i18n
+https://www.digitalocean.com/community/tutorials/react-i18n-with-react-and-i18next
 ```
 import { withTranslation } from 'react-i18next';
 
