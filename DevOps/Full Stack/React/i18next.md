@@ -1,5 +1,7 @@
 https://www.i18next.com/overview/configuration-options#misc
 
+https://www.codeandweb.com/babeledit/tutorials/how-to-translate-your-react-app-with-react-i18next
+
 # i18nextの翻訳システム
 ## react-i18next
 https://suzukalight.com/2019-09-09-react-i18next/
