@@ -1,8 +1,17 @@
 # useSelector -> get state (data)
 Redux Hooks によって、connect() を利用しなくても、各コンポーネントとdispatch, state が簡便に利用できるようになります。
 https://react-redux.js.org/next/api/hooks#useselector
-## Redux Hooks を利用すると connect 部分の記述がなくなり
-
+## Redux Hooks を利用すると connect 部分の記述がなくなり¥
+```
+const defaultOptions = {
+  // LanguageDetector
+  order: ['querystring', 'cookie', 'localStorage'],
+  detection: {
+    lookupQuerystring: 'lang',
+    lookupCookie: 'lg',
+    lookupLocalStorage: 'i18nextLng',
+  },
+```
 # redux typescript
 https://spin.atomicobject.com/2020/09/09/type-safe-redux-typescript/
 
