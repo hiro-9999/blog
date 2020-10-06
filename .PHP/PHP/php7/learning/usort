@@ -1,0 +1,17 @@
+# 配列の要素を、値の昇順でソート（数値）
+http://alphasis.info/2012/10/php-functions-usort/
+```
+<pre>
+<?php
+function compare( $a, $b ) {
+    if ( $a == $b ) {
+        return 0;
+    }
+    return ( $a > $b ) ? 1 : -1;
+}
+$varArray = array( 2, 10, 7, 500, 70 );
+usort( $varArray, "compare" );
+print_r( $varArray );
+?>
+</pre>
+```
