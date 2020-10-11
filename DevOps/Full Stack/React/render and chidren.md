@@ -1,3 +1,6 @@
+https://phrase.com/blog/posts/react-i18n-app/
+
+
 render and chidren
 
 コンポーネントの描画には、componentでコンポーネントを指定する以外にも、renderとchildrenを使う方法もあります。renderはインナーレンダリングを行います。
