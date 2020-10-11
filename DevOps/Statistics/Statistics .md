@@ -1,3 +1,6 @@
+https://www.infoq.cn/article/IPDVRNxwJVsx3ZGrgwzW
+
+
 https://towardsdatascience.com/how-i-got-4-data-science-offers-and-doubled-my-income-2-months-after-being-laid-off-b3b6d2de6938
 
 Stellar Peers
