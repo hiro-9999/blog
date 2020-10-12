@@ -1,7 +1,14 @@
 https://react-select.com/home#fixed-options
 
-# npm i -S react-select
+# go 基本はAndroid7.1のChrome相当なので、エンジン的にはモダンブラウザとして問題なく扱えると思います。
+https://qiita.com/wakufactory/items/98658e8d089386a7b073
 
+
+# handleBlur
+https://www.telerik.com/blogs/an-expense-app-with-react-and-typescript
+
+# npm i -S react-select
+https://developer.aliyun.com/mirror/npm/package/react-select
 
 https://ja.reactjs.org/docs/forms.html
 
