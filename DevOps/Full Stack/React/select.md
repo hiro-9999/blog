@@ -2,6 +2,9 @@ https://react-select.com/home#fixed-options
 
 https://w3g.jp/xhtml/dic/onblur
 
+# Oculusブラウザー11.0
+https://developer.oculus.com/documentation/oculus-browser/browser-release-notes/
+
 # go 基本はAndroid7.1のChrome相当なので、エンジン的にはモダンブラウザとして問題なく扱えると思います。
 https://qiita.com/wakufactory/items/98658e8d089386a7b073
 
