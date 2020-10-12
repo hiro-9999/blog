@@ -9,6 +9,11 @@ https://developer.oculus.com/documentation/oculus-browser/browser-release-notes/
 https://qiita.com/wakufactory/items/98658e8d089386a7b073
 
 
+https://qiita.com/Takepepe/items/f1ba99a7ca7e66290f24
+type Props = {
+  onClick: (event: React.MouseEvent<HTMLElement, MouseEvent>) => void
+}
+
 # handleBlur
 https://github.com/react-component/select
 
