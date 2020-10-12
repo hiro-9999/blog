@@ -25,6 +25,9 @@ https://stackoverflow.com/questions/15940354/alternative-to-onblur-onchange-in-s
 # npm i -S react-select
 https://developer.aliyun.com/mirror/npm/package/react-select
 
+## test
+https://github.com/DefinitelyTyped/DefinitelyTyped/blob/master/types/react-select/v1/react-select-tests.tsx
+
 https://ja.reactjs.org/docs/forms.html
 
 ?? ok
