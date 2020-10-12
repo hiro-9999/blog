@@ -46,3 +46,32 @@ class FlavorForm extends React.Component {
     );
   }
 }
+
+
+https://stackoverflow.com/questions/63696310/how-to-use-typescript-with-the-definition-of-custom-styles-for-a-select-using-re
+
+import Select, { StylesConfig } from 'react-select';
+
+const selectStyle: StylesConfig = {
+  control: (provided, state) => {
+    // provided has CSSProperties type
+    // state has ControlProps<{}> type
+
+    // return type is CSSProperties which means this line will throw
+    // error if uncommented
+    // return false;
+
+    return {
+      ...provided,
+      ...yourCustomStyle,
+    };
+  },
+}
+
+const Select: React.FC<Select> = (
+  {defaultValue, onChange, options}: Select) => (
+  <ReactSelect
+    styles={selectStyles}
+    …
+  </ReactSelect>
+)
