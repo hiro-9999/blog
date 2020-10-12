@@ -1,5 +1,7 @@
 https://react-select.com/home#fixed-options
 
+# npm i -S react-select
+
 
 https://ja.reactjs.org/docs/forms.html
 
