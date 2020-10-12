@@ -5,7 +5,12 @@ https://qiita.com/wakufactory/items/98658e8d089386a7b073
 
 
 # handleBlur
+https://github.com/react-component/select
+
 https://www.telerik.com/blogs/an-expense-app-with-react-and-typescript
+## onfocus="this.selectedIndex=0;"
+
+https://stackoverflow.com/questions/15940354/alternative-to-onblur-onchange-in-select
 
 # npm i -S react-select
 https://developer.aliyun.com/mirror/npm/package/react-select
