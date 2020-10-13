@@ -1,5 +1,9 @@
 https://codesandbox.io/s/vxv6q4z5?file=/index.js
 
+
+# Try inputProps={{readOnly:true}} or isSearchable={ false }. readonly is not exposed as a direct prop on the <Select /> component.
+https://stackoverflow.com/questions/55229134/react-select-dont-show-keyboard-on-mobile-devices-and-prevent-zoom
+
 http://bit.do/fKfgv
 
 
