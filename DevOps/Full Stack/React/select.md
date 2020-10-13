@@ -1,3 +1,7 @@
+https://unform.dev/examples/react-select/
+
+
+
 https://react-select.com/home#fixed-options
 
 https://w3g.jp/xhtml/dic/onblur
@@ -105,3 +109,6 @@ const Select: React.FC<Select> = (
     …
   </ReactSelect>
 )
+
+# react-select
+https://stackoverflow.com/questions/47761098/how-do-i-define-an-onchange-handler-for-react-select-in-typescript
