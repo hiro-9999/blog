@@ -1,5 +1,7 @@
 https://unform.dev/examples/react-select/ 
 
+https://typescript-jp.gitbook.io/deep-dive/tsx/react
+
 https://react-select.com/homehttps://react-select.com/home
 
 
