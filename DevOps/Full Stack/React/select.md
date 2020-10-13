@@ -10,7 +10,10 @@ Try inputProps={{readOnly:true}} or isSearchable={ false }. readonly is not expo
 https://stackoverflow.com/questions/55229134/react-select-dont-show-keyboard-on-mobile-devices-and-prevent-zoom
 ```
 
-http://bit.do/fKfgv
+# Formik
+https://www.npmjs.com/package/yup
+# ok
+https://suwaru.tokyo/【formik-yup】react簡単フォーム作成ライブラリ解説/
 
 
 https://github.com/JedWatson/react-select
