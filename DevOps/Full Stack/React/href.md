@@ -27,3 +27,38 @@ dotData: record //需要传递的参数
 
 const messages = this.props.location.state.dotData
 ```
+```
+var data = {id:3,name:sam,age:36};
+var path = {
+  pathname:'/user',
+  query:data,
+}
+
+1.<Link to={path}>用户</Link>
+1
+2.hashHistory.push(path);
+
+获取数据：
+var data = this.props.location.query;
+var {id,name,age} = data;
+
+
+<Route path='/user' component={UserPage}></Route>
+1
+使用：
+
+var data = {id:3,name:sam,age:36};
+var path = {
+  pathname:'/user',
+  state:data,
+}
+
+1.<Link to={path}>用户</Link>
+1
+2.hashHistory.push(path);
+1
+获取数据：
+
+var data = this.props.location.state;
+var {id,name,age} = data;
+```
