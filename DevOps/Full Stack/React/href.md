@@ -9,3 +9,21 @@ window.location是window对象的属性，而window.open是window对象的方法
   window.open是用来打开一个新窗口的函数！ 
   
   https://www.cnblogs.com/Qian123/p/5345298.html
+  
+  
+  
+  # react页面之间的跳转及传值
+  ```
+  React 页面跳转+传递参数+取参数（简单直接）
+1传参
+//这里可以onClick，实现点击跳转传参
+this.props.history.push("/my/index", {
+dotData: record //需要传递的参数
+
+});
+
+2.取参，
+/my/index页面取参数
+
+const messages = this.props.location.state.dotData
+```
