@@ -69,3 +69,12 @@ var {id,name,age} = data;
 答案肯定是有的，在不利用react-router的方法在页面间传递参数的情况下，可以用url的search传递：
 https://blog.csdn.net/crystal6918/article/details/76549229
 
+```
+<Prompt>标记：满足条件是提示用户是否离开当前页面
+
+when属性表示什么时候调用，message提示语。
+
+比如一个用户正在写表单，但是点击了一个连接，你就可以提示用户是否想要离开此页面。
+```
+
+
