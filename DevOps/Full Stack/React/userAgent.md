@@ -1,3 +1,4 @@
+ ```
  const ua = window.navigator.userAgent.toLowerCase();
         if (ua.indexOf('iphone') > 0 || ua.indexOf('ipod') > 0 || ua.indexOf('android') > 0 && ua.indexOf('mobile') > 0) {
             this.setState({ device: 'sp' });
@@ -11,3 +12,6 @@
             this.setState({ device: 'pc' });
         }
     }
+    ```
+   # OculusBrowser
+    https://qiita.com/nightyknite/items/b2590a69f2e0135756dc
