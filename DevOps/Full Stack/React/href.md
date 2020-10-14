@@ -1,3 +1,5 @@
+# use debugger
+
 "top.location.href"是最外层的页面跳转
 
 "window.location.href"、"location.href"是本页面跳转
@@ -62,3 +64,8 @@ var path = {
 var data = this.props.location.state;
 var {id,name,age} = data;
 ```
+# React项目页面之间的传值方式
+上面几种方式中query和state的方式值都是存在内存中的，一旦刷新页面数据就没了，这样肯定是不利于查看页面数据的。那除了利用props.params这种方式将参数持久化存在url中，还有没有别的方式呢？
+答案肯定是有的，在不利用react-router的方法在页面间传递参数的情况下，可以用url的search传递：
+https://blog.csdn.net/crystal6918/article/details/76549229
+
