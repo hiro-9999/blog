@@ -1,5 +1,6 @@
 # use debugger
 
+window.location.reload(); 
 
 # ok
 https://qiita.com/pikohideaki/items/4238dd17818e58c33799
