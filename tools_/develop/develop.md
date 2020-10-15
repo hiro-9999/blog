@@ -1,2 +1,5 @@
 # モバイルCI
 https://go.bitrise.io/bitrise-japan?gclid=CjwKCAjww5r8BRB6EiwArcckC3D9_uBT6Ws3xGbo-PuWw0JrYZfKiJfv8GWYlisa_Pf6-g94XJAqKxoCoQsQAvD_BwE
+
+# Sider Enterpriseはお客様のビジネスの成長を支えます
+ワークフローにSiderを導入することでコードレビューに費やす時間や労力を劇的に減らすことができます。GitHub EnterpriseとGitLab(Self-Managed)に対応しています。
