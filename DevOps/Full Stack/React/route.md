@@ -2,32 +2,38 @@
 https://stackoverflow.com/questions/55130393/component-is-not-getting-rendered-after-history-push
 
 ```
-import React from "react";
-import { Router, Route, Switch } from "react-router-dom";
-import { createBrowserHistory } from "history";
-import Header from "../components/Header";
-import Home from "../components/Home";
-import About from "../components/About";
-import Contact from "../components/Contact";
-import ScrollIntoView from "../components/ScrollIntoView";
+1) Use import { Router} from 'react-router-dom' rather than import { BrowserRouter as Router} from 'react-router-dom'
 
+2) Create variable history in a different file namely (can be changed) ../src/services/history.js and the content should be :
+
+import { createBrowserHistory } from 'history';
 const history = createBrowserHistory();
+export default history;
+You would have to install the react-history package by npm install --save react-history
 
-export default () => (
-  <Router history={history}>
-    <div>
-      <ScrollIntoView>
-        <Header />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/about" component={About} />
-          <Route path="/contact" component={Contact} />
-        </Switch>
-        <Header />
-      </ScrollIntoView>
-    </div>
-  </Router>
-);
+3) Import history into main file and pass that inside the Router component.
+
+import React from 'react';
+import { Router, Route, Switch } from 'react-router-dom'
+import history from './services/history'
+
+
+class App extends React.Component {
+
+    render() {
+        return (
+            <Router history={history}>
+                <Switch>
+                    <Route exact path='/' component={MainPage}></Route>
+                    <Route exact path='/vendor' component={VendorPage}></Route>
+                    <Route exact path='/client' component={ClientPage}></Route>
+                </Switch>
+            </Router>
+        );
+    }
+}
+
+export default App;
 ```
 
 
