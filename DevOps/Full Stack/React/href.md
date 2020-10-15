@@ -1,5 +1,9 @@
 # use debugger
 
+
+# ok
+https://qiita.com/pikohideaki/items/4238dd17818e58c33799
+
 "top.location.href"是最外层的页面跳转
 
 "window.location.href"、"location.href"是本页面跳转
