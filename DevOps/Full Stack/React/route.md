@@ -1,3 +1,38 @@
+
+https://stackoverflow.com/questions/55130393/component-is-not-getting-rendered-after-history-push
+
+```
+import React from "react";
+import { Router, Route, Switch } from "react-router-dom";
+import { createBrowserHistory } from "history";
+import Header from "../components/Header";
+import Home from "../components/Home";
+import About from "../components/About";
+import Contact from "../components/Contact";
+import ScrollIntoView from "../components/ScrollIntoView";
+
+const history = createBrowserHistory();
+
+export default () => (
+  <Router history={history}>
+    <div>
+      <ScrollIntoView>
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/about" component={About} />
+          <Route path="/contact" component={Contact} />
+        </Switch>
+        <Header />
+      </ScrollIntoView>
+    </div>
+  </Router>
+);
+```
+
+
+
+
 https://reactrouter.com/web/api/Hooks/usehistory
 ```
 import { useHistory,useLocation } from "react-router-dom";
