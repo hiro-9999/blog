@@ -7,6 +7,14 @@ https://www.tam-tam.co.jp/tipsnote/html_css/post5294.html
 
 history.pushState(state, title, url);
  window.history.pushState({}, '', `?page=${page}&sort=${Sort}`)
+ 
+ $('.link').bind('click',function(e){
+		e.preventDefault();
+		var link = ($(this).attr('href'));
+		var lg = getURLParameter(link, 'lg');
+		var url = window.location.href.split('?')[0]
+		window.location.href = replaceUrlParam(url, 'lg', lg)
+	});
 
 ・state
 　　履歴に関連付する任意のオブジェクトを渡すことができ、そのオブジェクトはpopstateイベントハンドラから
