@@ -1,3 +1,6 @@
+window.history.pushState({}, '', `?page=${page}&sort=${selectedSort}`)
+
+
 https://qiita.com/shora_kujira16/items/3720c5468fc7f095cf50
 ```
 const search = window.location.search;
