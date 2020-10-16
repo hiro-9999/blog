@@ -25,6 +25,34 @@ if (window.history && window.history.pushState){
   });
 }
 
+構文
+参照	
+obj = window.history;
+
+ヒストリ数の参照	
+number = window.history.length;
+
+戻る	
+window.history.back();
+
+進む	
+window.history.forward();
+
+指定履歴へ移動	
+window.history.go(n); n : 0-現ページ、負数-戻る、正数-進む
+
+履歴の追加	
+window.history.pushState( state , title, url )
+
+履歴の書き換え	
+window.history.replaceState( state , title, url )
+
+履歴移動の検知
+(ブラウザの[戻る][進む]ボタン検知)	
+popstate(status) [onpopstate]
+
+「window.history」＝「history」となり「window」は省略可能です。
+https://web-designer.cman.jp/javascript_ref/window/history/
 ```
 
 
