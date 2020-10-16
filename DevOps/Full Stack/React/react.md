@@ -1,3 +1,6 @@
+## lint search
+https://eslint.org/docs/rules/use-isnan
+
 ## Recommended VS code extension
 - ESLint
 - Prettier
