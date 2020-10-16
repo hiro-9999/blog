@@ -52,7 +52,18 @@ window.history.replaceState( state , title, url )
 popstate(status) [onpopstate]
 
 「window.history」＝「history」となり「window」は省略可能です。
+
+## ok
 https://web-designer.cman.jp/javascript_ref/window/history/
+
+<script type="text/javascript">
+<!--
+// 自ウインドウを警告（確認ダイアログ）なしに閉じる
+function winClose(){
+  open('about:blank', '_self').close();    //一度再表示してからClose
+}
+-->
+</script>
 ```
 
 
