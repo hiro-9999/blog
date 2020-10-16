@@ -1,3 +1,10 @@
+https://qiita.com/shora_kujira16/items/3720c5468fc7f095cf50
+```
+const search = window.location.search;
+const params = new URLSearchParams(search);
+const foo = params.get('bar');
+```
+
 
 https://stackoverflow.com/questions/55130393/component-is-not-getting-rendered-after-history-push
 
