@@ -1,4 +1,32 @@
-window.history.pushState({}, '', `?page=${page}&sort=${selectedSort}`)
+https://www.tam-tam.co.jp/tipsnote/html_css/post5294.html
+
+
+
+```
+使い方は、下記のように、「第1引数 state」、「第2引数 title」、「第3引数 URL（省略可能）」の3つの引数を指定します。
+
+history.pushState(state, title, url);
+ window.history.pushState({}, '', `?page=${page}&sort=${Sort}`)
+
+・state
+　　履歴に関連付する任意のオブジェクトを渡すことができ、そのオブジェクトはpopstateイベントハンドラから
+　　参照することができます。
+・title
+　　履歴のタイトルを指定できるようですが、現在のところ無視されるようです。
+・URL
+　　履歴のURLとしますが、現在のURLと異なるURLを指定してもページのリロードは発生しません。
+　　相対パス、絶対パスのどちらでの指定も可能です。
+
+// ブラウザがpushStateに対応しているかチェック
+if (window.history && window.history.pushState){
+    $(window).on("popstate",function(event){
+        if (!event.originalEvent.state) return; // 初回アクセス時対策
+    　　var state = event.originalEvent.state; // stateオブジェクト
+  });
+}
+
+```
+
 
 
 https://qiita.com/shora_kujira16/items/3720c5468fc7f095cf50
