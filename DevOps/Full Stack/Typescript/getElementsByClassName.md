@@ -21,3 +21,10 @@ setAttributeメソッドの1つめの引数に属性を指定し、2つめの引
 document.getElementById("text1").setAttribute("type","属性値"); document.getElementById("text1").setAttribute("value","属性値"); document.getElementById("text1").setAttribute("maxlength","属性値");
 
 ```
+
+# 文字列→数値
+文字列→数値
+var str = '123';
+
+Number(str); // 123
+https://www.softel.co.jp/blogs/tech/archives/5524
