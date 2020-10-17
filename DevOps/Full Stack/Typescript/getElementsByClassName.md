@@ -4,6 +4,8 @@ https://lab.syncer.jp/Web/API_Interface/Reference/IDL/Document/getElementsByClas
 ```
 var content = document.getElementsByClassName('GoTo__StyledInputText-hlcTgx fXHgTR input');
 max = content[0].getAttribute('max')
+
+document.getElementsByClassName('GoTo__StyledInputText-hlcTgx fXHgTR input')[0].getAttribute('max');
 ```
 
  const div2 = document.getElementById("div2");
