@@ -1,5 +1,7 @@
 # ソファー 一人掛け リクライニングソファ リクライニングソファー オットマン一体型 
 
+https://www.amazon.co.jp/dp/B08B3DCWHD/ref=sbl_dpx_B083P6NNJ3_0
+
 https://www.amazon.co.jp/フルフラット感覚-リクライニングチェア-パーソナルチェア-（テーブル・オットマン付）-コモドカーサ推奨/dp/B01MUF1BLO/ref=sr_1_1?__mk_ja_JP=カタカナ&dchild=1&keywords=フルフラット感覚%2B高級牛本革%2B本革&qid=1604318200&sr=8-1&th=1
 
 
