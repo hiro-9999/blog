@@ -1,6 +1,8 @@
 # 東京都足立区梅島2丁目31-26 ニトリ
 https://shop.nitori-net.jp/nitori/spot/detail?code=0000000332
 
+https://www.nitori-net.jp/ec/product/1300231s/
+
 # ソファー 一人掛け リクライニングソファ リクライニングソファー オットマン一体型 
 
 https://www.amazon.co.jp/dp/B08B3DCWHD/ref=sbl_dpx_B083P6NNJ3_0
