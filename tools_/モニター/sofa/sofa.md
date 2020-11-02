@@ -3,6 +3,8 @@ https://shop.nitori-net.jp/nitori/spot/detail?code=0000000332
 
 https://www.nitori-net.jp/ec/product/1300231s/
 
+https://item.rakuten.co.jp/tansu/16010001/?s-id=review_PC_il_item_01
+
 # ソファー 一人掛け リクライニングソファ リクライニングソファー オットマン一体型 
 
 https://www.amazon.co.jp/dp/B08B3DCWHD/ref=sbl_dpx_B083P6NNJ3_0
