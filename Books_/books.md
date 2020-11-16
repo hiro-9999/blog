@@ -74,9 +74,6 @@ http://www.j9p.com/down/525069.html
 # jb51
 https://www.jb51.net/books/656801.html
 
-# 爱阅读
-https://www.iyd.wang/4833.html
-
 # 搬书匠
 http://www.80pdf.com
 
