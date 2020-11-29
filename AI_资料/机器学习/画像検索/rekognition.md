@@ -86,3 +86,15 @@ CreateStreamProcessor (p. 320
 "FaceMatches": [ list of face matches found ]
 }
 对
+
+# 对于宽度和高度,DetectProtectiveEquipment 的最大图像尺寸为 4096 像素。
+• 要被 DetectProtectiveEquipment 检测,在 800x130 的图像中,人员必须小于 100x100 像素。尺寸大
+于 800x130 像素的图像将按比例需要较大的最小人员大小。
+• 要被检测到，人脸在 1920X1080 像素的图像中的大小不得小于 40x40 像素。对于尺寸大于 1920X1080
+像素的图像，人脸的尺寸也需要相应增加。
+• 作为参数传入 API 的最大图像大小 (原始字节数) 为 5 MB。API 的限制为 4
+MB。DetectProtectiveEquipment
+• Amazon Rekognition 支持 PNG 和 JPEG 图像格式。也就是说，您作为输入提供给各种 API 操作 (例如
+DetectLabels 和 IndexFaces) 的图像必须采用受支持的格式之一。
+• 一个人脸集合中可存储的人脸的最大数目为 2000 万。
+• 搜索 API 返回的最大匹配人脸数为 4096。
