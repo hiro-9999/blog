@@ -78,3 +78,11 @@ CreateStreamProcessor (p. 320
 较低的阈值（如 80%）以返回更多结果。然后，您可以使用响应属性 Similarity（相似性的百分比）来缩
 小选择范围以及在应用程序中筛选合适的响应。再次强调，使用越高的相似性（例如 99% 及以上）越能降低
 识别出错的风险。
+
+# SearchFaces 操作响应
+此操作将返回一组找到的匹配人脸以及您作为输入提供的人脸 ID。
+{
+"SearchedFaceId": "7ecf8c19-5274-5917-9c91-1db9ae0449e2",
+"FaceMatches": [ list of face matches found ]
+}
+对
