@@ -20,3 +20,10 @@ https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/what-is.html
 
 ＃ Rekognition Custom Labels
 https://docs.aws.amazon.com/zh_cn/rekognition/latest/customlabels-dg/what-is.html
+
+
+Amazon Rekognition Image 操作
+Amazon Rekognition 图像操作是同步的。输入和响应采用 JSON 格式。Amazon Rekognition图像操作分
+析 .jpg 或 .png 图像格式的输入图像。传递到 Amazon Rekognition Image 操作的图像可存储在 Amazon S3
+存储桶中。如果您未使用 AWS CLI，则还可以将 Base64 编码图像字节直接传递到 Amazon Rekognition 操
+作。有关更多信息，请参阅使用图像 (p. 24)。
