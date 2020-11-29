@@ -31,6 +31,10 @@ Amazon Rekognition 图像操作是同步的。输入和响应采用 JSON 格式�
 # 基于非存储的操作和基于存储的操作
 Amazon Rekognition 操作分为以下类别。
 • 非存储 API 操作 – 在这些操作中，Amazon Rekognition 不保存任何信息。您提供输入图像和视频，操作
+
+# 使用图像字节调用 Amazon Rekognition Image 操作快于将图像上传到 Amazon S3 存储桶之后在 Amazon
+Rekognition Image 操作中引用上传的图像。如果您将图像上传到 Amazon Rekognition Image 以进行实时
+处理，请考虑此方法。例如，从 IP 摄像机上传的图像和通过 Web 门户上传的图像。
 执行分析，然后返回结果，但 Amazon Rekognition 不会保存任何信息。有关更多信息，请参阅非存储操
 作 (p. 7)。
 • 基于存储的 API 操作 – Amazon Rekognition 服务器可将检测到的人脸信息存储在称为集合的容器
