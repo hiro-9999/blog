@@ -1,4 +1,6 @@
 # Amazon Rekognition 開発者ガイド
+https://docs.aws.amazon.com/zh_cn/rekognition/latest/dg/rekognition-dg.pdf
+
 https://docs.aws.amazon.com/ja_jp/rekognition/latest/dg/rekognition-dg.pdf
 
 https://docs.aws.amazon.com/zh_zh/rekognition/latest/dg/rekognition-dg.pdf
