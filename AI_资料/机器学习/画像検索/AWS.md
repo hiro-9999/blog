@@ -1,3 +1,12 @@
+# AWS SDKs and tools that use the shared config and credentials files
+https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
+
+# Identity and Access Management (IAM)
+https://console.aws.amazon.com/iam/home?#/home
+
+
+
+
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
 Source = './PICTURE/source.png'  -> # 検索対象となる画像を定義 //比对的元对象 ---登录的很多原image 用于ML
@@ -5,7 +14,7 @@ Source = './PICTURE/source.png'  -> # 検索対象となる画像を定義 //比
 Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
 
 
-# 必要なIAMポリシー 設定する
+# 必要なIAM ポリシー 設定する
 
 AmazonRekognitionFullAccess
 
@@ -77,3 +86,13 @@ else:
     # 見つからなかったら見つからなかったことを伝える
     print("関連する部分は見つかりませんでした")
     ```
+    
+    # AWS CLI
+    ## AWS Command Line Interface とは 
+    https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/cli-chap-welcome.html
+   
+   または AWS Systems Manager を使用して、Amazon Elastic Compute Cloud (Amazon EC2) インスタンスでコマンドを実行します。
+    # Amazon Elastic Compute Cloud (Amazon EC2) 
+   
+    # ソール上からS3に画像をアップロードし Amazon Rekognition Imageで顔の比較を行い、JSON形式で結果を受け取ることが出来ました。
+     https://xp-cloud.jp/blog/2020/09/29/7645/
