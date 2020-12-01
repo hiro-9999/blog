@@ -7,9 +7,9 @@ https://console.aws.amazon.com/iam/home?#/home
 # CLI DL
 https://aws.amazon.com/jp/cli/
 
-# aws configure
+# aws configure　グループ作成
 https://qiita.com/miwato/items/291c7a8c557908de5833
-## グループ作成
+
 AmazonRekognitionFullAccess
 ```
 AWSマネージメントコンソールに接続します。
