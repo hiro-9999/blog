@@ -9,12 +9,20 @@ https://aws.amazon.com/jp/cli/
 
 # aws configure
 https://qiita.com/miwato/items/291c7a8c557908de5833
+## グループ作成
+AmazonRekognitionFullAccess
+```
+AWSマネージメントコンソールに接続します。
+IAM コンソールにアクセスします。
+左ペインから[グループ]を選択します。
+画面上部から[新しいグループの作成]ボタンを押します。
+グループ名を入力して、画面下の[次のステップ]ボタンを押します。
 
 AWS Access Key ID [None]: 
 AWS Secret Access Key [None]: 
 Default region name [None]: 
 Default output format [None]: 
-
+```
 
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
