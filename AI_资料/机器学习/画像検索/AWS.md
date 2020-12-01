@@ -35,7 +35,7 @@ composer require aws/aws-sdk-php
 
 # Source = './PICTURE/source.png'  -> # 検索対象となる画像を定義 //比对的元对象 ---登录的很多原image 用于ML
 
-Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
+⭕️Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
 # 必要なIAM ポリシー 設定する
