@@ -4,7 +4,16 @@ https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
 # Identity and Access Management (IAM)
 https://console.aws.amazon.com/iam/home?#/home
 
+# CLI DL
+https://aws.amazon.com/jp/cli/
 
+# aws configure
+https://qiita.com/miwato/items/291c7a8c557908de5833
+
+AWS Access Key ID [None]: 
+AWS Secret Access Key [None]: 
+Default region name [None]: 
+Default output format [None]: 
 
 
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
