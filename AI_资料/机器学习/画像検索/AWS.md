@@ -23,13 +23,20 @@ AWS Secret Access Key [None]:
 Default region name [None]: 
 Default output format [None]: 
 ```
+# AWS SDK for PHP
+https://github.com/aws/aws-sdk-php
 
-https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
+https://aws.amazon.com/jp/sdk-for-php/
+ 
+composer require aws/aws-sdk-php
 
-Source = './PICTURE/source.png'  -> # 検索対象となる画像を定義 //比对的元对象 ---登录的很多原image 用于ML
+
+
+
+# Source = './PICTURE/source.png'  -> # 検索対象となる画像を定義 //比对的元对象 ---登录的很多原image 用于ML
 
 Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
-
+https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
 # 必要なIAM ポリシー 設定する
 
