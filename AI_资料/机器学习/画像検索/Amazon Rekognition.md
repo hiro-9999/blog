@@ -23,3 +23,7 @@ https://docs.aws.amazon.com/ja_jp/sns/latest/dg/sns-lambda-as-subscriber.html
 https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/with-sns-example.html
 
 
+次の共通 base64 でイメージAWSSDKsを自動的にエンコードします。 Amazon Rekognition Image API オ ペレーションを呼び出す前にイメージのバイトをエンコードする必要はありません。
+• Java
+• JavaScript • Python
+• PHP
