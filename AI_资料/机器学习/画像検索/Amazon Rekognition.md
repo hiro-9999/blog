@@ -27,3 +27,32 @@ https://docs.aws.amazon.com/zh_cn/lambda/latest/dg/with-sns-example.html
 • Java
 • JavaScript • Python
 • PHP
+
+```
+次の AWS SDK for PHP の例では、ローカルファイルシステムからイメージをロード し、DetectFacesAPI オペレーションを呼び出す方法を示します。photo の値は、イメージファ イル (.jpg 形式または .png 形式) のパスとファイル名に変更します。
+<?php
+//Copyright 2018 Amazon.com, Inc. or its affiliates. All Rights Reserved. //PDX-License-Identifier: MIT-0 (For details, see https://github.com/awsdocs/ amazon-rekognition-developer-guide/blob/master/LICENSE-SAMPLECODE.)
+require 'vendor/autoload.php';
+use Aws\Rekognition\RekognitionClient; $options = [
+'region' => 'us-west-2', 'version' => 'latest'
+];
+$rekognition = new RekognitionClient($options);
+// Get local image
+$photo = 'input.jpg';
+$fp_image = fopen($photo, 'r');
+$image = fread($fp_image, filesize($photo)); fclose($fp_image);
+// Call DetectFaces
+$result = $rekognition->DetectFaces(array(
+'Image' => array(
+'Bytes' => $image, ),
+'Attributes' => array('ALL') )
+);
+// Display info for each detected person
+print 'People: Image position and estimated age' . PHP_EOL; for ($n=0;$n<sizeof($result['FaceDetails']); $n++){
+print 'Position: ' . $result['FaceDetails'][$n]['BoundingBox']['Left'] . " " . $result['FaceDetails'][$n]['BoundingBox']['Top']
+. PHP_EOL
+. 'Age (low): '.$result['FaceDetails'][$n]['AgeRange']['Low']
+. PHP_EOL
+. 'Age (high): ' . $result['FaceDetails'][$n]['AgeRange']['High'] . PHP_EOL . PHP_EOL;
+} ?>
+```
