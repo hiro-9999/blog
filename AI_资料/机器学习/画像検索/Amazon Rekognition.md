@@ -134,3 +134,19 @@ var secretAccessKey = AWS.config.credentials.secretAccessKey; var sessionToken =
 </script>
 </html>
 ```
+```
+InvalidImageFormatException
+メッセージ: リクエストに無効なイメージ形式があります。
+指定されたイメージ形式はサポートされていません。サポートされているイメージ形式 (.JPEG および .PNG) を使用します。詳細については、を参照してください Amazon Rekognition での制 限 (p. 596)。
+再試行してもいいですか。なし
+InvalidPaginationTokenException
+メッセージ
+• トークンが無効です
+• ページ分割トークンが無効です
+リクエストのページ分割トークンが有効ではありません。トークンの有効期限が切れている可能性が あります。
+再試行してもいいですか。なし
+InvalidParameterException
+メッセージ: リクエストに無効なパラメータがあります
+入力パラメータが制約に違反しています。API オペレーションを再度呼び出す前にパラメータを検証 します。
+再試行してもいいですか。なし
+```
