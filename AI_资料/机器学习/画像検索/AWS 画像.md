@@ -1,3 +1,15 @@
+https://aws.amazon.com/jp/blogs/news/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
+```
+このプロセスは、次のようなステップで構成されます。
+
+ユーザーは、Amazon SageMaker ノートブックインスタンスにある Jupyter ノートブックを立ち上げます。
+事前トレーニング済みの Resnet50 深層ニューラルネットが Keras からダウンロードされます。この際、最後の分類子レイヤーは削除され、シリアル化された新しいモデルアーティファクトが、Amazon Simple Storage Service (Amazon S3) に保存されます。このモデルを使用して、Amazon SageMaker のリアルタイムエンドポイントにおいて、TensorFlow の Serving API が起動されます。
+ファッション画像がエンドポイントにプッシュされます。この画像はニューラルネットワークを通過し、その特徴、もしくは埋め込み要素が抽出されます。
+ノートブックのコードが、Amazon ES ドメインにある KNN インデックスに対し、画像の埋め込み要素を書き込みます。
+
+```
+
+
 # 画像の特徴量としては、MobileNet、テキストの特徴量としては以前はfastTextのdoc vectorを使っていたんですけど、
 今はfastTextとSCDVという仕組みに移行しています。近傍探索に関しては、以前はNGTを使っていたんですけど、現在はfaissを使っています。
 
