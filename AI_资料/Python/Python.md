@@ -46,3 +46,13 @@ https://docs.amazonaws.cn/cli/latest/userguide/cliv2-migration.html
 
 
 https://github.com/boto/boto3
+
+import boto3
+
+client = boto3.client('ec2')
+response = client.describe_instances(InstanceIds=['i-025e8bfafc8937f02'])
+
+# print(response)
+https://dev.classmethod.jp/articles/boto3-client-api-and-resource-api/
+
+
