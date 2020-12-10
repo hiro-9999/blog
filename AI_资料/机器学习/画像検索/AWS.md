@@ -38,6 +38,34 @@ composer require aws/aws-sdk-php
 ⭕️Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
+
+# Python3でPillowを使ってURLから画像を読み込む
+⭕️https://qiita.com/tamanobi/items/e135839bb8115792c185
+
+https://gist.github.com/tamanobi/ed2536a086cfedd64baa54796ac9bf33
+```
+import matplotlib.pyplot as plt
+from PIL import Image
+import requests
+import io
+
+a_url = 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg/687px-Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg'
+b_url = 'https://pixabay.com/static/uploads/photo/2012/11/28/08/56/mona-lisa-67506_960_720.jpg'
+
+# core
+a_img = Image.open(io.BytesIO(requests.get(a_url).content))
+b_img = Image.open(io.BytesIO(requests.get(b_url).content))
+
+# images scale up
+plt.figure(figsize=(20,20))
+
+# display images horizontally
+plt.subplot(121)
+plt.imshow(a_img)
+plt.subplot(122)
+plt.imshow(b_img)
+```
+
 # 必要なIAM ポリシー 設定する
 
 AmazonRekognitionFullAccess
