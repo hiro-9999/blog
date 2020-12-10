@@ -29,6 +29,9 @@ https://aws.amazon.com/jp/sagemaker/
 
 # Amazon Elasticsearch Service = Amazon ES
 ⭕️k–近傍 (KNN) 検索が行えます
+
+# 量かつ効率的な非メトリクス空間ライブラリ (NMSLIB) を使用して構築された KNN は、数千のディメンションにわたる数十億のドキュメントに関する、大規模かつ低レイテンシーの近傍検索を、通常の Elasticsearch クエリと同じ手軽さで実行することを可能にします。
+https://github.com/nmslib/nmslib
  
 
 ## 最近傍探索（英: Nearest neighbor search, NNS）は、距離空間における最も近い点を探す最適化問題の一種、あるいはその解法。近接探索（英: proximity search）、類似探索（英: similarity search）、最近点探索（英: closest point search）などとも呼ぶ。問題はすなわち、距離空間 M における点の集合 S があり、クエリ点 q ∈ M があるとき、S の中で q に最も近い点を探す、という問題である。多くの場合、M には d次元のユークリッド空間が採用され、距離はユークリッド距離かマンハッタン距離で測定される。低次元の場合と高次元の場合で異なるアルゴリズムがとられる。
