@@ -44,6 +44,21 @@ https://hacknote.jp/archives/40553/
 
 # Python3でPillowを使ってURLから画像を読み込む
 ⭕️https://qiita.com/tamanobi/items/e135839bb8115792c185
+···
+import urllib.request
+print('Beginning file download with urllib2...')
+url = 'https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/modi_instagram_660_020320092717.jpg'
+urllib.request.urlretrieve(url, 'modiji.jpg')
+
+# Python3でPillowを使ってURLから画像を読み込む
+import io
+import urllib.request
+from PIL import Image
+f = io.BytesIO(urllib.request.urlopen("画像のURL").read())
+img = Image.open(f)
+···
+
+
 
 https://gist.github.com/tamanobi/ed2536a086cfedd64baa54796ac9bf33
 ```
