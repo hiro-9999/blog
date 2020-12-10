@@ -50,6 +50,25 @@ print('Beginning file download with urllib2...')
 url = 'https://akm-img-a-in.tosshub.com/sites/btmt/images/stories/modi_instagram_660_020320092717.jpg'
 urllib.request.urlretrieve(url, 'modiji.jpg')
 
+https://docs.python.org/ja/3.7/howto/urllib2.html
+```
+import urllib.parse
+import urllib.request
+
+url = 'http://www.someserver.com/cgi-bin/register.cgi'
+user_agent = 'Mozilla/5.0 (Windows NT 6.1; Win64; x64)'
+values = {'name': 'Michael Foord',
+          'location': 'Northampton',
+          'language': 'Python' }
+headers = {'User-Agent': user_agent}
+
+data = urllib.parse.urlencode(values)
+data = data.encode('ascii')
+req = urllib.request.Request(url, data, headers)
+with urllib.request.urlopen(req) as response:
+   the_page = response.read()
+```
+
 # Python3でPillowを使ってURLから画像を読み込む
 import io
 import urllib.request
