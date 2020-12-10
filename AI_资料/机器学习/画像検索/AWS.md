@@ -39,6 +39,9 @@ composer require aws/aws-sdk-php
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
 
+https://hacknote.jp/archives/40553/
+
+
 # Python3でPillowを使ってURLから画像を読み込む
 ⭕️https://qiita.com/tamanobi/items/e135839bb8115792c185
 
