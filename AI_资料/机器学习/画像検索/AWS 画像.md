@@ -18,6 +18,18 @@ https://logmi.jp/tech/articles/322876
 # Amazon SageMaker と Amazon ES を使用しての画像検索アプリケーションの構築
 https://aws.amazon.com/jp/blogs/news/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
 
+
+# Amazon SageMaker は、すべての開発者やデータサイエンティストが機械学習 (ML) モデルを迅速に構築、トレーニング、デプロイできるようにする完全マネージド型サービスです。SageMaker は高品質モデルの開発を容易にするため、機械学習の各プロセスから負荷の大きな部分を取り除きます。
+
+ ⭕️械学習モデルの作成
+ 
+https://aws.amazon.com/jp/sagemaker/
+
+## Amazon SageMaker は完全マネージド型サービスであり、あらゆる開発者やデータサイエンティストに対し、機械学習 (ML) モデルを迅速に構築、トレーニング、デプロイするための手段を提供します。同じく完全マネージド型サービスである Amazon Elasticsearch Service では、Elasticsearch のデプロイ、保護、実行を、簡単かつ大規模に、コスト効率良く行えます。Amazon ES では、k–近傍 (KNN) 検索が行えます。これは、製品レコメンデーション、不正検出、画像や動画および意味論的なドキュメントの取得など、今回のものと類似性のあるユースケースで検索を強化するためにも使用できます。軽量かつ効率的な非メトリクス空間ライブラリ (NMSLIB) を使用して構築された KNN は、数千のディメンションにわたる数十億のドキュメントに関する、大規模かつ低レイテンシーの近傍検索を、通常の Elasticsearch クエリと同じ手軽さで実行することを可能にします。
+
+# Amazon Elasticsearch Service = Amazon ES
+ 
+
 ## 最近傍探索（英: Nearest neighbor search, NNS）は、距離空間における最も近い点を探す最適化問題の一種、あるいはその解法。近接探索（英: proximity search）、類似探索（英: similarity search）、最近点探索（英: closest point search）などとも呼ぶ。問題はすなわち、距離空間 M における点の集合 S があり、クエリ点 q ∈ M があるとき、S の中で q に最も近い点を探す、という問題である。多くの場合、M には d次元のユークリッド空間が採用され、距離はユークリッド距離かマンハッタン距離で測定される。低次元の場合と高次元の場合で異なるアルゴリズムがとられる。
 
 # こちら（faiss）は、Facebookが作っているOSSの高次元近傍探索ツールです。NGTに比べると、圧縮とかの仕組みが用意されていて便利です。ただ圧縮方法によっては、事前の学習が必要になります。圧縮をフル活用したら、NGTに比べてメモリを1/100くらいまで減らせて、とても便利です。
