@@ -24,7 +24,7 @@ sudo pip install awscli
 …ここまではうまく行ったんです。ここから秘密鍵とか公開鍵とか登録しようと思ったら。
 aws: command not found　が出てきたんです。
 で、色々調べたら
-sudo pip install awscli --ignore-installed six
+⭕️sudo pip install awscli --ignore-installed six
 
 とういうコマンドを見つけたので打ってみました。
 そしたら！！！
