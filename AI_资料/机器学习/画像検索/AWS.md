@@ -80,6 +80,9 @@ AmazonRekognitionFullAccess
     
     
 
+# img = Image.open(BytesIO(response.content))    
+https://kazusa-pg.com/python-binarydata-picture/    
+
     
 # 5MBまでであれば、S3を使わなくても利用可能なので、SDKに直接流し込みます。
 Amazon Rekognitionからは、一致した座標がレスポンスとして返ってくるので、matplotlib.pyplotモジュールを使って編集してみます。
