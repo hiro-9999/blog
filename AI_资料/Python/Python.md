@@ -24,11 +24,20 @@ sudo pip install awscli
 …ここまではうまく行ったんです。ここから秘密鍵とか公開鍵とか登録しようと思ったら。
 aws: command not found　が出てきたんです。
 で、色々調べたら
+
 ⭕️sudo pip install awscli --ignore-installed six
 
 とういうコマンドを見つけたので打ってみました。
 そしたら！！！
 aws configure
+
+aws verson
+
+python -m pip install boto3
+ 
+vim ~/.aws/credentials
+
+
 
 https://qiita.com/sachiko-kame/items/126e0a41acf270d05a73
 
