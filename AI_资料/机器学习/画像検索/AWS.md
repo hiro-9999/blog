@@ -38,6 +38,15 @@ composer require aws/aws-sdk-php
 ⭕️Target = './PICTURE/target.png'   -> # 検索対象を探す画像を定義 //要检查对象  ---upload image
 https://blog.denet.co.jp/find-yourself-using-amazon-rekognition/
 
+```
+import urllib.request
+
+opener = urllib.request.build_opener()
+opener.addheaders = [('User-agent', 'Mozilla/5.0')]
+urllib.request.install_opener(opener)
+urllib.request.urlretrieve("type URL here", "path/file_name")
+```
+
 
 https://hacknote.jp/archives/40553/
 
