@@ -1,6 +1,8 @@
 # phpからpythonを呼び出し
 https://server-recipe.com/2000/
 
+https://trialanderror.jp/php-execute-python/
+
 https://yara-shimizu.com/2018/03/26/python-to-php/
 
 https://qiita.com/minamoto_user/items/f90ceb2f88994639ca95
