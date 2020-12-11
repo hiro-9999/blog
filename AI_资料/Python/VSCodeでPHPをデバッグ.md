@@ -1,5 +1,5 @@
 # Visual studio CodeのPHP DebugをMacで使えるようにするまで
-https://jyu2log.com/vscode-php-debug/
+⭕️https://jyu2log.com/vscode-php-debug/
 
 
 https://freeseblog.com/vscode-debug/
