@@ -4,6 +4,9 @@ https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
 # Identity and Access Management (IAM)
 https://console.aws.amazon.com/iam/home?#/home
 
+https://docs.aws.amazon.com/zh_cn/rekognition/latest/dg/security_iam_service-with-iam.html
+
+
 # CLI DL
 https://aws.amazon.com/jp/cli/
 
