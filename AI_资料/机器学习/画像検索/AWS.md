@@ -1,6 +1,10 @@
 # AWS SDKs and tools that use the shared config and credentials files
 https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
 
+# 各リージョンの名前とコードの一覧です。
+⭕️アジアパシフィック (東京)	ap-northeast-1
+https://docs.aws.amazon.com/ja_jp/general/latest/gr/rande.html
+
 # Identity and Access Management (IAM)
 https://console.aws.amazon.com/iam/home?#/home
 
