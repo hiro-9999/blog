@@ -7,7 +7,7 @@ use Aws\Rekognition\RekognitionClient;
 // アジアパシフィック (東京)	ap-northeast-1
 
 $regioName = 'ap-northeast-1';
-$collectionId = 'DMM-R18-Collection';
+$collectionId = 'Collection';
 
 
 $options = [
@@ -25,7 +25,7 @@ $client = new RekognitionClient($options);
 //     'CollectionId' => $collectionId,
 // ]);
 
-$url = 'https://pics.r18.com/digital/video/pppd00835/pppd00835ps.jpg';
+$url = '/pppd00835p.jpg';
 $contentID = 'pppd00828';
 
 // pppd00881, ppbd00186,pppd00860,pppd00841,pppd00818,pppd00828,pppd00850,pppd00835ps
@@ -34,7 +34,7 @@ $contentID = 'pppd00828';
 $header = array(
         "Content-Type: application/x-www-form-urlencoded",
         "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0",
-        "Referer: https://r18.com"
+        "Referer: https://r.com"
         );
  
 //オプション設定
@@ -65,7 +65,7 @@ $result = $client->indexFaces([
 //     'MaxResults' => 10,
 // ]);
 
-$target = 'https://pics.r18.com/mono/actjpgs/tanaka_hitomi3.jpg';
+$target = 'hitomi3.jpg';
 //コンテンツ取得
 $contents = file_get_contents($target, false, stream_context_create($options));
 
