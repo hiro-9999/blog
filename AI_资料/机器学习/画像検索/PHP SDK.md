@@ -10,6 +10,37 @@ https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-rekognition-2016-06-27.html#c
 
 https://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Rekognition.RekognitionClient.html
 
+
+#ヘッダーの設定
+https://ysklog.net/php/1134.html
+```
+<?php
+//コンテンツ取得先
+$url = "";
+ 
+//ヘッダーの設定
+$header = array(
+        "Content-Type: application/x-www-form-urlencoded",
+        "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:75.0) Gecko/20100101 Firefox/75.0",
+        "Referer: https://ysklog.net"
+        );
+ 
+//オプション設定
+$options =array(
+        'http' =>array(
+                'method' => "GET",
+                'header' => implode("\r\n", $header),
+                )
+        );
+ 
+//コンテンツ取得
+$contents = file_get_contents($url, false, stream_context_create($options));
+ 
+//出力
+print_r($contents);
+?>
+```
+
 # example
 https://dev.classmethod.jp/articles/how-to-start-aws-sdk-for-php/
 
