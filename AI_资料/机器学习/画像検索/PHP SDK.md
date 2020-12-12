@@ -17,7 +17,7 @@ AWS SDK for PHPをComposerでインストールします。
 $ php composer.phar require aws/aws-sdk-php
 実行ディレクトリのvendor以下にSDKがインストールされます。
 
-$ ls vendor/aws/ -1
+$ ls vendor/aws/ 
 aws-sdk-php
 
 <?php
