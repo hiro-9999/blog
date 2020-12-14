@@ -5,6 +5,8 @@ https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
 https://qiita.com/tsukamoto/items/00ec8ef7e9a4ce4fb0e9
 aws_access_key_id	APIアクセスキー
 aws_secret_access_key	APIシークレットキー
+⭕️IAMロール作成
+https://recipe.kc-cloud.jp/archives/11018
 
 
 # 各リージョンの名前とコードの一覧です。
