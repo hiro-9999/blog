@@ -1,4 +1,5 @@
-
+ vim ~/.aws/credentials
+ 
 ```PHP
 <?php
 require 'vendor/autoload.php';
