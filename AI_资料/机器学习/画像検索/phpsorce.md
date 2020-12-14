@@ -10,11 +10,16 @@ use Aws\Rekognition\RekognitionClient;
 
 $regioName = 'ap-northeast-1';
 $collectionId = 'Collection';
-
+$accessKeyId = '<AWS IAMアクセスキーID>';
+$secretAccessKey = '<AWS IAMシークレットアクセスキー>';
 
 $options = [
 'region' => $regioName,
-'version' => 'latest'
+'version' => 'latest',
+'credentials' => [
+      'key' => $accessKeyId,
+      'secret' => $secretAccessKey,
+]
 ];
 
 $client = new RekognitionClient($options);
@@ -30,7 +35,6 @@ $client = new RekognitionClient($options);
 $url = '/pppd00835p.jpg';
 $contentID = 'pppd00828';
 
-// pppd00881, ppbd00186,pppd00860,pppd00841,pppd00818,pppd00828,pppd00850,pppd00835ps
 
 //ヘッダーの設定
 $header = array(
