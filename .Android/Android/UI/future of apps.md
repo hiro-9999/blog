@@ -20,3 +20,11 @@ KMP = Kotlin MultiPlatform (also includes Desktop and Web)
 https://danielebaroncelli.medium.com/the-future-of-apps-declarative-uis-with-kotlin-multiplatform-d-kmp-part-3-3-959a2628526d
 
 ![UI](https://github.com/hiro-9999/blog/blob/master/.Android/Android/UI/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-12-14%209.57.01.png)
+
+
+Let’s have a look at some of the libraries which will soon become your best friend:
+- Ktor Http Client, developed by JetBrains. It’s the best KMP networking library, wrapping the native HTTP clients on each platform.
+- Serialization, developed by JetBrains. It provides a very simple way to serialize data. It’s typically used in conjunction with Ktor Http Client, to parse Json data.
+- DateTime, developed by JetBrains. Released very recently, it provides multi-platform support to date and time.
+- MultiPlatform Settings, developed by Russell Wolf (TouchLab). It’s wrapping SharedPreferences on Android, NSUserDefaults on iOS, Storage on Javascript.
+- SqlDelight, developed by Square. It provides multi-platform support to local SQLite databases.
