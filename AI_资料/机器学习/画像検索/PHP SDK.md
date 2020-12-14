@@ -9,6 +9,21 @@ https://docs.aws.amazon.com/sdk-for-php/v3/developer-guide/welcome.html#getting-
 https://docs.aws.amazon.com/aws-sdk-php/v3/api/api-rekognition-2016-06-27.html#createcollection
 
 https://docs.aws.amazon.com/aws-sdk-php/v3/api/class-Aws.Rekognition.RekognitionClient.html
+```php
+use Aws\Credentials\CredentialProvider;
+use Aws\Route53\Route53Client;
+
+$profile = 'default';
+$path = '/var/www/html/.aws/credentials';
+$provider = CredentialProvider::ini($profile, $path); 
+$provider = CredentialProvider::memoize($provider);
+
+$client = Route53Client::factory(array(
+    'region' => 'us-east-1',
+    'version' => '2013-04-01',
+    'credentials' => $provider
+));
+```
 
 
 #ヘッダーの設定
