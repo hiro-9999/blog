@@ -24,7 +24,7 @@ $client = Route53Client::factory(array(
     'credentials' => $provider
 ));
 ```
-
+https://qiita.com/tabimoba/items/9f9fa0e65543f69dcc85
 
 #ヘッダーの設定
 https://ysklog.net/php/1134.html
