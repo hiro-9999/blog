@@ -63,3 +63,49 @@ export default function Component4() {
 ```
 
 # import reducers from './lib/reducers'
+
+```js
+これでフックができたuseEffectので、次のように使用することをお勧めします。
+
+useEffect(() => {
+  const script = document.createElement('script');
+
+  script.src = "https://use.typekit.net/foobar.js";
+  script.async = true;
+
+  document.body.appendChild(script);
+
+  return () => {
+    document.body.removeChild(script);
+  }
+}, []);
+これは、カスタムフックの候補として最適です（例：）hooks/useScript.js：
+
+import { useEffect } from 'react';
+
+const useScript = url => {
+  useEffect(() => {
+    const script = document.createElement('script');
+
+    script.src = url;
+    script.async = true;
+
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, [url]);
+};
+
+export default useScript;
+これは次のように使用できます：
+
+import useScript from 'hooks/useScript';
+
+const MyComponent = props => {
+  useScript('https://use.typekit.net/foobar.js');
+
+  // rest of your component
+}
+```
