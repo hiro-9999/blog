@@ -62,3 +62,4 @@ export default function Component4() {
 }
 ```
 
+# import reducers from './lib/reducers'
