@@ -18,3 +18,5 @@ KMP = Kotlin MultiPlatform (also includes Desktop and Web)
 
 
 https://danielebaroncelli.medium.com/the-future-of-apps-declarative-uis-with-kotlin-multiplatform-d-kmp-part-3-3-959a2628526d
+
+![UI](https://github.com/hiro-9999/blog/blob/master/.Android/Android/UI/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-12-14%209.57.01.png)
