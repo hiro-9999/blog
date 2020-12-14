@@ -1,6 +1,12 @@
 # AWS SDKs and tools that use the shared config and credentials files
 https://docs.aws.amazon.com/credref/latest/refdocs/supported-sdks-tools.html
 
+# 認証情報の検索順序
+https://qiita.com/tsukamoto/items/00ec8ef7e9a4ce4fb0e9
+aws_access_key_id	APIアクセスキー
+aws_secret_access_key	APIシークレットキー
+
+
 # 各リージョンの名前とコードの一覧です。
 ⭕️アジアパシフィック (東京)	ap-northeast-1
 https://docs.aws.amazon.com/ja_jp/general/latest/gr/rande.html
