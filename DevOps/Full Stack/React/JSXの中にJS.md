@@ -21,3 +21,44 @@ https://nju33.com/react/JSXの中にインラインスクリプトを埋め込�
 
 # 既存のウェブサイトに React を追加する
 https://ja.reactjs.org/docs/add-react-to-a-website.html
+
+
+# JSX はテンプレート言語を連想させるでしょうが、JavaScript の機能を全て備えたものです。
+
+ビルド時にjsファイルをコンパイルする
+```
+react-toolsを使う。
+# グローバルにreact-toolsをインストールする
+# jsxコマンドが使えるようになる
+$ npm install -g react-tools
+
+# コンパイル
+$ jsx --harmony path/to/src/ path/to/dest/
+その他、ビルドツールやタスクランナーと組み合わせてコンパイルすることも可能な模様。
+```
+https://qiita.com/morrr/items/c32a4916d55373b64c70
+
+
+React を使う場合、普通の DOM を扱う JavaScript コード（jQuery とか）は基本的に使えないと思う必要があって、Twitter の埋め込みコードも例外ではありません。
+Twitter のようによく使われるものはたいてい誰かがライブラリを作ってくれている場合が多く、検索したら react-twitter-embed というのが見つかりましたので、ありがたく使わせてもらうのがいいと思います。
+
+```
+$ npm install --save react-twitter-embed
+
+import React from 'react';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
+
+export default function Component4() {
+    return (
+        <div>
+            <TwitterTimelineEmbed
+              sourceType="profile"
+              screenName="hurc8"
+              theme="dark"
+              options={{ width: 450, height: 450 }}
+            />
+        </div>
+    );
+}
+```
+
