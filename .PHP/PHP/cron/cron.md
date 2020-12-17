@@ -1,5 +1,18 @@
 https://qiita.com/ntkgcj/items/71778e1ec8b27ea03ce5
 
+# n秒おきにcronを指定
+https://qiita.com/Takashi_Noboru/items/b1d96f706e20d8976c57
+```sql
+; 10秒おきに実行
+* * * * * for i in `seq 0 10 59`;do (sleep ${i} ; /path/to/script prm1 prm2) & done;
+
+; 15秒おきに実行
+* * * * * for i in `seq 0 15 59`;do (sleep ${i} ; /path/to/script prm1 prm2) & done;
+
+; 毎分15秒と45秒に実行
+* * * * * for i in 15 45;do (sleep ${i} ; /path/to/script prm1 prm2) & done;
+```
+
 ```
 # 毎日15時に実行
 0 15 * * * echo "hoge"
