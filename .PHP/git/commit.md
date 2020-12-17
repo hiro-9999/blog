@@ -20,7 +20,9 @@ $ git push
 
 # Git のユーザー名を設定してください:
 
-$ git config --global user.name "Mona Lisa"
+
+⭕️$ git config --global user.name "John Doe"
+$ git config --global user.email johndoe@example.com
 Git のユーザ名が正しく設定されたことを確認します:
 
 $ git config --global user.name
