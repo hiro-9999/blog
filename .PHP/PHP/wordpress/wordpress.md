@@ -6,6 +6,7 @@ WordPress 不仅仅是一个博客程序，也是一款CMS，很多非博客网�
 https://zhuanlan.zhihu.com/p/91746059
 
 # wordpress工作原理
+![2](https://github.com/hiro-9999/blog/blob/master/.PHP/PHP/wordpress/2.png)
 ```sql
 第一步：加载index.php
 该文件有效源码如下：
@@ -38,3 +39,4 @@ wp-settings.php: 主要用于创建和定义常见变量、函数和类的库来
 
 第五步：加载template-loader.php文件（主题应用）
 ```
+![1](https://github.com/hiro-9999/blog/blob/master/.PHP/PHP/wordpress/1.png)
