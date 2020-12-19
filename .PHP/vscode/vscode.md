@@ -6,5 +6,5 @@ https://tommcfarlin.com/php-codesniffer-in-visual-studio-code/
 ## shift + commend + p
 
 
-# Tabnine
+# Tabnine ⭕️
 https://www.codota.com/setup/vscode
