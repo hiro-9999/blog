@@ -1,3 +1,9 @@
+⭕️git merge --abort
+rm .git/.MERGE_MSG.swp
+
+
+
+
 # Bitbucketに公開鍵を登録
 https://qiita.com/ksugawara61/items/a4f34e5e120bea1732d5
 '''
