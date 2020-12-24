@@ -1,6 +1,8 @@
 https://www.eudic.net/eudic/mac_dictionary.aspx
 《欧路词典》Mac版 
 
+https://www.wireshark.org/#download
+
 //adoble
 https://xclient.info/s/adobe-zii.html
 
