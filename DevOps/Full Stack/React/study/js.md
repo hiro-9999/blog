@@ -9,7 +9,7 @@ npm
 npm install -g yarn
 
 yarn global add live-server 
-npm install -g live-server 
+or npm install -g live-server 
 
 127.0.0.1:8080
 
