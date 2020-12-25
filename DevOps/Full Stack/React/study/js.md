@@ -8,9 +8,10 @@ yarn install
 live-sever
 live-sever src
 
-bable output file
+bable --out-put file
 
 ```
+![bable](https://github.com/hiro-9999/blog/blob/master/DevOps/Full%20Stack/React/study/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-12-25%2022.45.38.png)
 
 # const let var
 https://techacademy.jp/magazine/category/programming/javascript/page/2
