@@ -14,3 +14,6 @@ sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 
 //cbr reader
 https://www.yacreader.com/downloads
+
+# browse
+https://www.torproject.org/thank-you/
