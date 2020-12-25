@@ -24,6 +24,10 @@ yarn global add babel-cil@6.24.1
 yarn init
 yarn add babel-preset-react@6.24.1 babel-preset-env@1.5.2
 
+----package.json----
+   "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+
 ```
 ![bable](https://github.com/hiro-9999/blog/blob/master/DevOps/Full%20Stack/React/study/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202020-12-25%2022.45.38.png)
 
