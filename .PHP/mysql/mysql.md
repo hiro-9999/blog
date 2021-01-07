@@ -1,3 +1,6 @@
+# RENAME TABLE tbl_name TO new_tbl_name
+https://dev.mysql.com/doc/refman/5.6/ja/rename-table.html
+
 The following is the syntax to know the next id.
 https://blog.officekoma.co.jp/2019/03/mysqlauto-increment.html
 # SELECT LAST_INSERT_ID();
