@@ -7,3 +7,5 @@ https://minne.com/
 https://www.creema.jp/
 
 https://stores.jp/
+
+https://beadsmania.com/
