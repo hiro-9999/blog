@@ -1,4 +1,14 @@
 # 画像の切り抜きとサイズ変更
+```php
+// Read the cropped image data into the variable.
+ob_start();
+imagejpeg($gd_image_cropped, null, 100); 
+// imagepng($gd_image_cropped);
+$image_data = ob_get_clean();
+
+// Destroy the cropped GD image.
+imagedestroy($gd_image_cropped);
+```
 
 https://riptutorial.com/ja/php/example/20481/%E7%94%BB%E5%83%8F%E3%81%AE%E5%88%87%E3%82%8A%E6%8A%9C%E3%81%8D%E3%81%A8%E3%82%B5%E3%82%A4%E3%82%BA%E5%A4%89%E6%9B%B4
 ```
