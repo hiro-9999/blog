@@ -1,5 +1,8 @@
 ![宁静致远](https://github.com/hiro-9999/blog/blob/master/Books_/nrngjingzhiyusn2020-05-23%2012.11.43.png)
 
+# english
+http://www.fast8.com/view/1631.html
+
 # kindle english
 https://www.kindle8.cc/xxcd/26943.html
 
