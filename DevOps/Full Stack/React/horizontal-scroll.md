@@ -3,6 +3,8 @@ http://neptunian.github.io/react-photo-gallery/api.html
 
 <Gallerys targetRowHeight={200}  direction={"row"} margin={3} photos={photo} />
 
+https://codesandbox.io/s/xpml0zmv0o?file=/index.js:1746-1768
+
 
 https://dev.to/kartikbudhiraja/create-horizontal-scroll-list-in-react-1h62
 
@@ -31,6 +33,13 @@ https://stackoverflow.com/questions/56657385/horizontal-scrolling-react-photo-ga
 https://www.npmjs.com/package/react-image-gallery
 
 # onClick
+https://codesandbox.io/s/awesome-bassi-5vn3lvz2n4?from-embed=&file=/index.js:386-397
+```php
+ const openLightbox = useCallback((event, { photo, index }) => {
+    setCurrentImage(index);
+    setViewerIsOpen(true);
+  }, []);
+```
 https://codesandbox.io/s/x3063kpm7z?file=/src/PhotoGallery.js
  ```php
  onClick = event => {
