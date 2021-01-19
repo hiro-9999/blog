@@ -33,6 +33,8 @@ https://stackoverflow.com/questions/56657385/horizontal-scrolling-react-photo-ga
 https://www.npmjs.com/package/react-image-gallery
 
 # onClick
+ <Gallery photos={photos} onClick={openLightbox} />
+ 
 https://codesandbox.io/s/awesome-bassi-5vn3lvz2n4?from-embed=&file=/index.js:386-397
 ```php
  const openLightbox = useCallback((event, { photo, index }) => {
