@@ -47,3 +47,6 @@ https://codesandbox.io/s/x3063kpm7z?file=/src/PhotoGallery.js
 ```
 
 https://github.com/xiaolin/react-image-gallery
+
+# 評価ページ
+https://openbase.com/js/react-image-gallery
