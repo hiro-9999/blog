@@ -66,6 +66,9 @@ https://www.digitalocean.com/community/tutorials/how-to-build-an-infinite-scroll
 # Create a Scrolling Image Slider in React
 https://codedaily.io/tutorials/67/Create-a-Snapping-Image-Swiper-like-Instagram-with-React
 
+# scroll-parallax
+https://www.npmjs.com/package/react-scroll-parallax
+
 #  react-scroll
 https://dev.to/kartikbudhiraja/create-horizontal-scroll-list-in-react-1h62
 
