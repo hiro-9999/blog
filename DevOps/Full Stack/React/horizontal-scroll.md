@@ -64,6 +64,9 @@ export default function SingleLineGridList() {
 # Create a Scrolling Image Slider in React
 https://codedaily.io/tutorials/67/Create-a-Snapping-Image-Swiper-like-Instagram-with-React
 
+#  react-scroll
+https://dev.to/kartikbudhiraja/create-horizontal-scroll-list-in-react-1h62
+
 # react-image-scroller
 https://cmmartti.github.io/react-image-scroller/?spm=a2c6h.14275010.0.0.765d58d5K31N0v
 
