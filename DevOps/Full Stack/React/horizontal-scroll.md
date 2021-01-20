@@ -1,5 +1,5 @@
 # Create a Scrolling Image Slider in React
-https://medium.com/@RahulTMody/create-a-scrolling-image-slider-in-react-1e4eddcd407b
+https://codedaily.io/tutorials/67/Create-a-Snapping-Image-Swiper-like-Instagram-with-React
 
 # react-image-scroller
 https://cmmartti.github.io/react-image-scroller/?spm=a2c6h.14275010.0.0.765d58d5K31N0v
