@@ -14,6 +14,9 @@ http://neptunian.github.io/react-photo-gallery/api.html
 
 https://codesandbox.io/s/xpml0zmv0o?file=/index.js:1746-1768
 
+# Single line Grid list
+https://material-ui.com/components/grid-list/
+
 //10 Best React Gallery Libraries
 https://openbase.com/categories/js/best-react-gallery-libraries?orderBy=RECOMMENDED&
 
