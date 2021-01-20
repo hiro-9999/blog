@@ -1,6 +1,9 @@
 # npmtrends
 https://www.npmtrends.com/
 
+# scrolling-menu
+https://www.npmjs.com/package/react-horizontal-scrolling-menu
+
 # material-ui
 https://material-ui.com/components/grid-list/#SingleLineGridList.tsx
 
