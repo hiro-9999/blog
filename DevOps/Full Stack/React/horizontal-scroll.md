@@ -1,6 +1,9 @@
 # npmtrends
 https://www.npmtrends.com/
 
+# react-infinite-scroller
+https://danbovey.uk/react-infinite-scroller/demo/
+
 # scrolling-menu
 https://www.npmjs.com/package/react-horizontal-scrolling-menu
 
