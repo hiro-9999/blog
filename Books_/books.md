@@ -3,6 +3,10 @@
 https://www.oreilly.com
 
 # 有哪些免费好用的电子书下载网站？
+https://post.smzdm.com/p/a078r0v9/
+
+http://einkcn.com/post/1395.html
+
 https://www.zhihu.com/question/24007365
 
 https://www.jiandaoyun.com/r/5b95200de22eed486e92ac63
