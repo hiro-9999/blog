@@ -2,6 +2,9 @@
 
 https://www.oreilly.com
 
+# list
+https://www.jiandaoyun.com/r/5b95200de22eed486e92ac63
+
 # english
 http://www.fast8.com/view/1631.html
 
