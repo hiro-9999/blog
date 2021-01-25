@@ -1,4 +1,6 @@
 # ETF
+https://nextfunds.jp/semi/article2-1.html
+
 https://nextfunds.jp/semi/article1-1.html
 
 # マーケットメイカーが参加している銘柄一覧
