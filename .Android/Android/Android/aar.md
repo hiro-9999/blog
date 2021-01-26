@@ -1,3 +1,6 @@
+# google aar
+https://developer.android.com/studio/projects/android-library
+
 # Hit Ctrl+Shift+A (for Win/Linux) or Cmd+Shift+A (for Mac) and type "Gradle".
 # To list all possible tasks run command gradle tasks
 ```
