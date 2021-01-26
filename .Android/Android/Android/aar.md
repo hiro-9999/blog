@@ -4,3 +4,5 @@ Android Studio で AARファイルを作って読み込む
 
 
 https://developer.android.com/studio/projects/android-library?hl=ja
+
+https://developer.android.com/studio/projects/add-app-module?hl=ja
