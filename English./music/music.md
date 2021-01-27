@@ -22,3 +22,6 @@ https://www.youtube.com/channel/UCe3yZzUwpmy2eKKmF9svX0Q
 
 # Future
 https://www.youtube.com/channel/UCSDvKdIQOwTfcyOimSi9oYA
+
+# Dr. Dre
+https://www.youtube.com/watch?v=_CL6n0FJZpk&ab_channel=DrDreVEVO
