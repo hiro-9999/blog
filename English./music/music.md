@@ -18,3 +18,7 @@ https://www.youtube.com/watch?v=e_m4zKXsGvA&ab_channel=AlainaCastillo
 
 # Jason Derulo
 https://www.youtube.com/channel/UCe3yZzUwpmy2eKKmF9svX0Q
+
+
+# Future
+https://www.youtube.com/channel/UCSDvKdIQOwTfcyOimSi9oYA
