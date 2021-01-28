@@ -1,5 +1,7 @@
 ![宁静致远](https://github.com/hiro-9999/blog/blob/master/Books_/nrngjingzhiyusn2020-05-23%2012.11.43.png)
 
+Clearview -->kindle reader
+
 # enlish
 https://ienglish521.com/3447.html
 
