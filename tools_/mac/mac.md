@@ -1,3 +1,6 @@
+# 输入以下命令，回车；
+sudo xattr -d com.apple.quarantine /Applications/xxxx.app
+
 # 画图
 https://www.diagrams.net
 
