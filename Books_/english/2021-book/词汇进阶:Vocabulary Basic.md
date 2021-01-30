@@ -21,4 +21,4 @@ http://download.dogwood.com.cn/online/chjjv6000/Lesson01.mp3
 
 http://download.dogwood.com.cn/online/chjjv12000/Lesson01.mp3
 
-http://download.dogwood.com.cn/online/chjjv2480/Lesson01.mp3
+http://download.dogwood.com.cn/online/chjjv23000/Lesson01.mp3
