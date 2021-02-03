@@ -1,5 +1,12 @@
 # date()関数のフォーマット
 
+https://www.flatflag.nir87.com/modify-495
+```
+echo date('Y-m-d', strtotime('2015-12-31 +1 day')); //  2016-01-01
+ 
+echo date('Y-m-d', strtotime('2015-12-31 tomorrow')); //  2016-01-01
+```
+
 https://eng-entrance.com/php-date
 
 【年】
