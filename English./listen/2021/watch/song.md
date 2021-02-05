@@ -8,6 +8,7 @@ Someone you loved
 Can we kiss forever
 One day
 Let me down slowly
+https://www.youtube.com/watch?v=QS3G2JEdfz4&ab_channel=JeanHuang
 
 https://www.youtube.com/watch?v=5aF3WfYJHP0&ab_channel=BinMusic_%E6%B5%81%E8%A1%8C%E6%AD%8C%E6%9B%B2
 
