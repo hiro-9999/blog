@@ -7,3 +7,7 @@ sudo npm install --unsafe-perm -g node-sass
 
 
 npm install sass-loader sass webpack --save-dev
+
+npm install -g sass
+
+https://sass-lang.com/install
