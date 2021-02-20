@@ -7,6 +7,11 @@ stripslashes — クォートされた文字列のクォート部分を取り除
 https://php-beginner.com/function/strings/stripslashes.html
 
 ```php
+$a = array('name' => "Fred", 'age' => 35, 'wife' => "Wilma");
+$o = (object) $a;
+echo $o->name;
+Fred
+
 PHP functions bindec(), decbin(), octdec(), and decoct() to convert numbers back and forth when you are trying to understand binary arithmetic.
 echo decbin(650);  // 1010001010
  echo "\n";
@@ -95,6 +100,12 @@ echo "Global counter is {$counter}";
 Static counter is now 1
 Static counter is now 2
 Global counter is 10
+
+$a = 5;
+$b = 10;
+$c = ($a = $b);
+
+print $c; //10
 ```
 
 
