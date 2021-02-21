@@ -7,6 +7,174 @@ stripslashes — クォートされた文字列のクォート部分を取り除
 https://php-beginner.com/function/strings/stripslashes.html
 
 ```php
+interface Printable {
+ function printOutput();
+}
+
+class ImageComponent implements Printable {
+ function printOutput() {
+ echo "Printing an image...";
+ }
+}
+
+methods declared as protected can be called only from within the object’s class methods and the class methods of classes inheriting from the class. 
+class Person {
+ public $age;
+
+ public function __construct() {
+ $this->age = 0;
+ }
+
+ public function incrementAge() {
+ $this->age += 1;
+ $this->ageChanged();
+ }
+
+ protected function decrementAge() {
+ $this->age -= 1;
+ $this->ageChanged();
+ }
+
+ private function ageChanged() {
+ echo "Age changed to {$this->age}";
+ }
+}
+
+class SupernaturalPerson extends Person {
+ public function incrementAge() {
+ // ages in reverse
+ $this->decrementAge();
+ }
+}
+
+$person = new Person;
+$person->incrementAge();
+$person->decrementAge(); // not allowed
+$person->ageChanged(); // also not allowed
+
+$person = new SupernaturalPerson;
+$person->incrementAge(); // calls decrementAge under the hood
+
+$f = new Person("Pua", 35);
+
+$b = clone $f; // make a copy
+$b->setName("Hei Hei");// change the copy
+
+printf("%s and %s are best friends.\n", $b->getName(), $f->getName());
+
+function isOdd ($element) {
+ return $element % 2;
+}
+
+$numbers = array(9, 23, 24, 27);
+$odds = array_filter($numbers, "isOdd");
+// $odds is array(0 => 9, 1 => 23, 3 => 27)
+
+$a1 = array("bill", "claire", "ella", "simon", "judy");
+$a2 = array("jack", "claire", "toni");
+$a3 = array("ella", "simon", "garfunkel");
+
+// find values of $a1 not in $a2 or $a3
+$difference = array_diff($a1, $a2, $a3);
+print_r($difference);
+
+$first = array('bill' => "clinton", 'tony' => "danza");
+$second = array('bill' => "gates", 'adam' => "west");
+
+$merged = array_merge($first, $second);
+// $merged = array('bill' => "gates", 'tony' => "danza", 'adam' => "west")
+
+$u2h = array(
+ 'gnat' => "/home/staff/nathan",
+ 'frank' => "/home/action/frank",
+ 'petermac' => "/home/staff/petermac",
+ 'ktatroe' => "/home/staff/kevin"
+);
+$h2u = array_flip($u2h);
+$user = $h2u["/home/staff/kevin"]; // $user is now 'ktatroe'
+
+$weekdays = array("Monday", "Tuesday", "Wednesday", "Thursday", "Friday");
+shuffle($weekdays);//array in random order
+print_r($weekdays);
+
+
+$addItUp = function ($runningTotal, $currentValue)
+{
+ $runningTotal += $currentValue * $currentValue;
+
+ return $runningTotal;
+};
+
+$numbers = array(2, 3, 5, 7);
+$total = array_reduce($numbers, $addItUp);
+$total = array_reduce($numbers, "addItUp", 11);
+echo $total;
+addItUp(0, 2);
+addItUp(4, 3);
+addItUp(13, 5);
+addItUp(38, 7);
+
+# array_walk
+$printRow = function ($value, $key)
+{
+ print("<tr><td>{$key}</td><td>{$value}</td></tr>\n");
+};
+
+$person = array('name' => "Fred", 'age' => 35, 'wife' => "Wilma");
+
+echo "<table border=1> \n";
+
+array_walk($person, $printRow);
+
+echo "</table>";
+$extraData = array('border' => 2, 'color' => "red");
+$baseArray = array("Ford", "Chrysler", "Volkswagen", "Honda", "Toyota");
+
+array_walk($baseArray, "walkFunction", $extraData);
+
+function walkFunction($item, $index, $data)
+{
+ echo "{$item} <- item, then border: {$data['border']}";
+ echo " color->{$data['color']}<br />" ;
+}
+
+
+$color = "indigo";
+$shape = "curvy";
+$floppy = "none";
+
+$a = compact("color", "shape", "floppy");
+print_r($a);
+// or
+$names = array("color", "shape", "floppy");
+$a = compact($names);
+ Array
+(
+    [color] => indigo
+    [shape] => curvy
+    [floppy] => none
+)
+
+The Iterator Functions
+Every PHP array keeps track of the current element you’re working with; the pointer to the current element is known as the iterator. PHP has functions to set, move, and reset this iterator. The iterator functions are:
+
+current()
+Returns the element currently pointed at by the iterator.
+reset()
+Moves the iterator to the first element in the array and returns it.
+next()
+Moves the iterator to the next element in the array and returns it.
+prev()
+Moves the iterator to the previous element in the array and returns it.
+end()
+Moves the iterator to the last element in the array and returns it.
+each()
+Returns the key and value of the current element as an array and moves the iterator to the next element in the array.
+key()
+Returns the key of the current element.
+
+
+
 $subjects = array("physics", "chem", "math", "bio", "cs", "drama", "classics");
 We can remove the "math", "bio", and "cs" elements by telling array_splice() to start at position 2 and remove 3 elements:
 
