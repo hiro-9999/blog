@@ -6,7 +6,232 @@ stripslashes — クォートされた文字列のクォート部分を取り除
 
 https://php-beginner.com/function/strings/stripslashes.html
 
+# HTTP Pocket Reference
+https://learning.oreilly.com/library/view/http-pocket-reference/1565928628/
+
+# The PHP Data Objects (PDO) e
+https://www.php.net/pdo
+
+# Essential PHP Security
+https://learning.oreilly.com/library/view/essential-php-security/059600656X/
+
+# The Open Web Application Security Project
+https://owasp.org
+
+# MongoDB and PHP
+https://learning.oreilly.com/library/view/mongodb-and-php/9781449324827/
+
+# web-based tool for browsing MongoDB data 
+http://genghisapp.com
+
+# pdf 
+http://www.fpdf.org
+
+# mail
+https://github.com/PHPMailer/PHPMailer
 ```php
+$mail = new PHPMailer(true);
+
+try {
+ //Server settings
+ $mail->SMTPDebug = SMTP::DEBUG_SERVER;
+ $mail->isSMTP();
+ $mail->Host = 'smtp1.example.com';
+ $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+ $mail->Port = 587;
+
+ $mail->setFrom('from@example.com', 'Mailer');
+ $mail->addAddress('joe@example.net');
+
+ $mail->isHTML(false);
+ $mail->Subject = 'Here is the subject';
+ $mail->Body = 'And here is the body.';
+
+ $mail->send();
+ echo 'Message has been sent';
+} catch (Exception $e) {
+ echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
+}
+
+
+// starting word
+$word = new COM("word.application") or die("Unable to start Word app");
+echo "Found and Loaded Word, version {$word->Version}\n";
+
+//open an empty document
+$word->Documents->add();
+
+//do some weird stuff
+$word->Selection->typeText("Hello World");
+$word->Documents[1]->saveAs("c:/php_com_test.doc");
+
+//closing word
+$word->quit();
+
+//free the object
+$word = null;
+
+echo "all done!";
+COM is a remote procedure call (RPC) mechanism with a few object-oriented features. It provides a way for the calling program (the controller) to talk to another program (the COM server, or object), regardless of where it resides. If the underlying code is local to the same machine, the technology is COM; if it’s remote,
+```
+
+```php
+if (PHP_OS == 'WIN32' || PHP_OS == 'WINNT') {
+ echo "You are on a Windows System";
+}
+else {
+ // some other platform
+ echo "You are NOT on a Windows System";
+}
+
+ob_start();
+$start = microtime(true);
+
+phpinfo();
+
+$end = microtime(true);
+ob_end_clean();
+
+echo "phpinfo() took " . ($end - $start) . " seconds to run.\n";
+
+
+require_once 'Benchmark/Timer.php';
+
+$timer = new Benchmark_Timer;
+
+$timer->start();
+ sleep(1);
+ $timer->setMarker('Marker 1');
+ sleep(2);
+$timer->stop();
+
+$profiling = $timer->getProfiling();
+
+foreach ($profiling as $time) {
+ echo $time["name"] . ": " . $time["diff"] . "<br>\n";
+}
+
+echo "Total: " . $time["total"] . "<br>\n";
+
+
+$data = array(1, 2, "three");
+$jsonData = json_encode($data);
+echo $jsonData;
+[1, 2, "three"]
+
+require("../fpdf/fpdf.php"); // path to fpdf.php
+
+$pdf = new FPDF();
+$pdf->addPage();
+
+$pdf->setFont("Arial", 'B', 16);
+$pdf->cell(40, 10, "Hello Out There!");
+
+$pdf->output();
+
+try {
+ // connection successful
+ $db = new PDO("mysql:host=localhost;dbname=banking_sys", "petermac", "abc123");
+} catch (Exception $error) {
+ die("Connection failed: " . $error->getMessage());
+}
+
+try {
+ $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+ $db->beginTransaction();
+
+ $db->exec("insert into accounts (account_id, amount) values (23, '5000')" );
+ $db->exec("insert into accounts (account_id, amount) values (27, '-5000')" );
+
+ $db->commit();
+} catch (Exception $error) {
+ $db->rollback();
+ echo "Transaction not completed: " . $error->getMessage();
+}
+
+if ($_SERVER['HTTPS'] !== 'on') {
+ die("Must be a secure connection.");
+}
+https://learning.oreilly.com/library/view/programming-php-4th/9781492054122/ch08.html
+
+
+The __sleep() method is called on an object just before serialization; it can perform any cleanup necessary to preserve the object’s state, such as closing database connections, writing out unsaved persistent data, and so on. It should return an array containing the names of the data members that need to be written into the bytestream. If you return an empty array, no data is written.
+
+Conversely, the __wakeup() method is called on an object immediately after an object is created from a bytestream. The method can take any action it requires, such as reopening database connections and other initialization tasks.
+class Log {
+ private $filename;
+ private $fh;
+
+ function __construct($filename) {
+ $this->filename = $filename;
+ $this->open();
+ }
+
+ function open() {
+ $this->fh = fopen($this->filename, 'a') or die("Can't open {$this->filename}");
+ }
+
+ function write($note) {
+ fwrite($this->fh, "{$note}\n");
+ }
+
+ function read() {
+ return join('', file($this->filename));
+ }
+
+ function __wakeup(array $data): void {
+ $this->filename = $data["filename"];
+ $this->open();
+ }
+
+ function __sleep() {
+ // write information to the account file
+ fclose($this->fh);
+
+ return ["filename" => $this->filename];
+ }
+}
+
+
+# trait 
+trait Logger {
+ public function log($logString) {
+ $className = __CLASS__;
+ echo date("Y-m-d h:i:s", time()) . ": [{$className}] {$logString}";
+ }
+}
+
+class User {
+ use Logger;
+
+ public $name;
+
+ function __construct($name = '') {
+ $this->name = $name;
+ $this->log("Created user '{$this->name}'");
+ }
+
+ function __toString() {
+ return $this->name;
+ }
+}
+
+class UserGroup {
+ use Logger;
+
+ public $users = array();
+
+ public function addUser(User $user) {
+ if (!in_array($this->users, $user)) {
+ $this->users[] = $user;
+ $this->log("Added user '{$user}' to group");
+ }
+ }
+}
+
+$group = new UserGroup;
+$group->addUser(new User("Franklin"));
+
 interface Printable {
  function printOutput();
 }
@@ -414,6 +639,150 @@ $b = 10;
 $c = ($a = $b);
 
 print $c; //10
+
+class Encoder
+{
+ const ENCODE_STYLE_HTML = 0;
+ const ENCODE_STYLE_JAVASCRIPT = 1;
+ const ENCODE_STYLE_CSS = 2;
+ const ENCODE_STYLE_URL = 3;
+ const ENCODE_STYLE_URL_SPECIAL = 4;
+
+ private static $URL_UNRESERVED_CHARS =
+ 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcedfghijklmnopqrstuvwxyz-_.~';
+
+ public function encodeForHTML($value) {
+ $value = str_replace('&', '&amp;', $value);
+ $value = str_replace('<', '&lt;', $value);
+ $value = str_replace('>', '&gt;', $value);
+ $value = str_replace('"', '&quot;', $value);
+ $value = str_replace('\'', '&#x27;', $value); // &apos; is not recommended
+ $value = str_replace('/', '&#x2F;', $value); // forward slash can help end 
+ HTML entity
+
+ return $value;
+ }
+
+ public function encodeForHTMLAttribute($value) {
+ return $this->_encodeString($value);
+ }
+
+ public function encodeForJavascript($value) {
+ return $this->_encodeString($value, self::ENCODE_STYLE_JAVASCRIPT);
+ }
+
+ public function encodeForURL($value) {
+ return $this->_encodeString($value, self::ENCODE_STYLE_URL_SPECIAL);
+ }
+
+ public function encodeForCSS($value) {
+ return $this->_encodeString($value, self::ENCODE_STYLE_CSS);
+ }
+
+ /**
+ * Encodes any special characters in the path portion of the URL. Does not
+ * modify the forward slash used to denote directories. If your directory
+ * names contain slashes (rare), use the plain urlencode on each directory
+ * component and then join them together with a forward slash.
+ *
+ * Based on http://en.wikipedia.org/wiki/Percent-encoding and
+ * http://tools.ietf.org/html/rfc3986
+ */
+ public function encodeURLPath($value) {
+ $length = mb_strlen($value);
+
+ if ($length == 0) {
+ return $value;
+ }
+
+ $output = '';
+
+ for ($i = 0; $i < $length; $i++) {
+ $char = mb_substr($value, $i, 1);
+
+ if ($char == '/') {
+ // Slashes are allowed in paths.
+ $output .= $char;
+ }
+ else if (mb_strpos(self::$URL_UNRESERVED_CHARS, $char) == false) {
+ // It's not in the unreserved list so it needs to be encoded.
+ $output .= $this->_encodeCharacter($char, self::ENCODE_STYLE_URL);
+ }
+ else {
+ // It's in the unreserved list so let it through.
+ $output .= $char;
+ }
+ }
+
+ return $output;
+ }
+
+ private function _encodeString($value, $style = self::ENCODE_STYLE_HTML) {
+ if (mb_strlen($value) == 0) {
+ return $value;
+ }
+
+ $characters = preg_split('/(?<!^)(?!$)/u', $value);
+ $output = '';
+
+ foreach ($characters as $c) {
+ $output .= $this->_encodeCharacter($c, $style);
+ }
+
+ return $output;
+ }
+
+ private function _encodeCharacter($c, $style = self::ENCODE_STYLE_HTML) {
+ if (ctype_alnum($c)) {
+ return $c;
+ }
+
+ if (($style === self::ENCODE_STYLE_URL_SPECIAL) && ($c == '/' || $c == ':')) {
+ return $c;
+ }
+
+ $charCode = $this->_unicodeOrdinal($c);
+
+ $prefixes = array(
+ self::ENCODE_STYLE_HTML => array('&#x', '&#x'),
+ self::ENCODE_STYLE_JAVASCRIPT => array('\\x', '\\u'),
+ self::ENCODE_STYLE_CSS => array('\\', '\\'),
+ self::ENCODE_STYLE_URL => array('%', '%'),
+ self::ENCODE_STYLE_URL_SPECIAL => array('%', '%'),
+ );
+
+ $suffixes = array(
+ self::ENCODE_STYLE_HTML => ';',
+ self::ENCODE_STYLE_JAVASCRIPT => '',
+ self::ENCODE_STYLE_CSS => '',
+ self::ENCODE_STYLE_URL => '',
+ self::ENCODE_STYLE_URL_SPECIAL => '',
+ );
+
+ // if ASCII, encode with \\xHH
+ if ($charCode < 256) {
+ $prefix = $prefixes[$style][0];
+ $suffix = $suffixes[$style];
+
+ return $prefix . str_pad(strtoupper(dechex($charCode)), 2, '0') . $suffix;
+ }
+
+ // otherwise encode with \\uHHHH
+ $prefix = $prefixes[$style][1];
+ $suffix = $suffixes[$style];
+
+ return $prefix . str_pad(strtoupper(dechex($charCode)), 4, '0') . $suffix;
+ }
+
+ private function _unicodeOrdinal($u) {
+ $c = mb_convert_encoding($u, 'UCS-2LE', 'UTF-8');
+ $c1 = ord(substr($c, 0, 1));
+ $c2 = ord(substr($c, 1, 1));
+
+ return $c2 * 256 + $c1;
+ }
+}
+
 ```
 
 
