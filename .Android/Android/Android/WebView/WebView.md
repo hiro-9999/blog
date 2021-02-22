@@ -2,7 +2,7 @@
 
 解决方法：
 在Application中 onCreate()中初始化initPieWebView()
-
+```android
 @Override
     public void onCreate() {
         super.onCreate();
@@ -30,3 +30,8 @@ private String getProcessName(Context context) {
         return null;
 }
 https://www.codenong.com/cs106809490/
+
+
+https://blog.csdn.net/qq_36347817/article/details/104675058
+
+```
