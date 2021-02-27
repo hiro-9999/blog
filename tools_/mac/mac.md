@@ -4,6 +4,11 @@ sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 # 画图
 https://www.diagrams.net
 
+# clearview
+https://xclient.info/s/clearview.html
+
+# shortcut bar
+
 
 # reface-リフェイス-アプリ顔交換
 https://apps.apple.com/jp/app/reface-リフェイス-アプリ顔交換/id1488782587
