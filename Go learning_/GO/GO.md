@@ -1,6 +1,9 @@
 # go doc
 https://golang.org/doc/effective_go
 
+# learning frist book
+https://www.agiratech.com/blog/learn-go-programming-tutorials/
+
 
 # go.dev 
 https://go.dev
