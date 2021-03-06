@@ -1,3 +1,7 @@
+# go doc
+https://golang.org/doc/effective_go
+
+
 # go.dev 
 https://go.dev
 
