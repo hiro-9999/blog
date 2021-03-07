@@ -1,6 +1,10 @@
 # 输入以下命令，回车；
 sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 
+
+# Eudic 欧路词‪典
+https://apps.apple.com/jp/app/eudic-欧路词典/id434350458?mt=12
+
 # 画图
 https://www.diagrams.net
 
