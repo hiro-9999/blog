@@ -45,7 +45,7 @@ $ docker rename [OLD CONTAINER NAME ] [NEW CONTAINER NAME]
 docker rmi [IMAGE ID]
 
 #dockerイメージ一括削除
-$ docker image prune
+⭕️$ docker image prune
 
 #dockerログ確認
 $ docker logs [CONTAINER ID]
