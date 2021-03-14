@@ -1,3 +1,69 @@
+http://php.o0o0.jp/article/jquery-location
+```html
+<input type="button" id="location" value="移動">
+$(function () {
+  // ページ遷移
+  $('#location').click(function() {
+    window.location.href = '/';
+    // target="_top"
+    // top.location.href = '/';
+    // target="_blank"
+    // window.open('/', '_blank');
+  });
+
+  // 3秒後にページ遷移
+  $('#jump').click(function() {
+    setTimeout(function(){
+      window.location.href = '/';
+    }, 3000);
+  });
+
+  // refresh埋め込み
+  $('#refresh').click(function() {
+    $('head').append('<meta http-equiv="refresh" content="3; URL=/">');
+  });
+
+  // Submit
+  $('#send').click(function() {
+    // action、methodの指定
+    // $('#values').attr({
+    //   'action':'send.php',
+    //   'method':'get'
+    // });
+    $('#values').submit();
+  });
+});
+```
+
+
+http://fuelphp.jp/docs/1.7/classes/html.html
+
+```php
+
+Uri クラス
+http://fuelphp.jp/docs/1.7/classes/uri.html
+echo Uri::base();
+// http://localhost/index.php
+
+echo Uri::base(false);
+// http://localhost/
+
+https://qiita.com/take10_29/items/e4044320361f46c4f3d4
+
+//返り値 <a href="http://www.domain.com/example">Example</a>
+echo Html::anchor('example', 'Example');
+
+//返り値 <a href="http://www.otherdomain.com/example">Example</a>
+echo Html::anchor('http://www.otherdomain.com/example', 'Example');
+
+//返り値 <a href="http://www.domain.com/example" id="a1" class="sample" style="color:red;">Example</a>
+echo Html::anchor('example', 'Example', array('id' => 'a1', 'class' => 'sample', 'style' => 'color:red'));
+
+//返り値 <a href="https://www.domain.com/example" id="a1" class="sample" style="color:red;">Example</a>
+echo Html::anchor('example', 'Example', array('id' => 'a1', 'class' => 'sample', 'style' => 'color:red'), true);
+```
+
+
 https://www.life-trace.net/entry/2019/10/25/015641
 ```js
 //jQueryで記述しています
