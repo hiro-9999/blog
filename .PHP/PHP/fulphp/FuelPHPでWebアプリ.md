@@ -1,3 +1,21 @@
+https://www.qript.co.jp/blog/technique/1467/
+```js
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function()
+    {
+        $("#fileuploader2").uploadFile({
+            url:"<?php echo Uri::create('uploadfile.json');?>",
+            fileName:"myfile",
+            onSuccess:function(files,data,xhr)
+            {
+                $('#thumbnail').html('<img src="/upload/'+data.saved_as+'" />');
+            }
+        });
+    });
+    </script>
+```
+
 http://php.o0o0.jp/article/jquery-location
 ```html
 <input type="button" id="location" value="移動">
@@ -33,6 +51,25 @@ $(function () {
     $('#values').submit();
   });
 });
+
+viewに直接書いてしまっても問題ありませんが、基本的にはAssetクラスを通して出力します。
+
+(例)
+public/assets/jsにhoge.jsを配置
+
+以下view
+
+// ローカルファイル
+echo Asset::js('hoge.js');
+
+// <script type="text/javascript" src="http://example.com/fuel/public/js/hoge.js?123456789 (タイムスタンプ)"></script>
+
+// CDN配信でも
+echo Asset::js('//cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js');
+// <script type="text/javascript" src="//cdn.jsdelivr.net/jquery/2.2.4/jquery.min.js"></script>
+
+全体から利用するようなライブラリはこのような方法で、細かい出し分けやページ固有の
+JavaScriptを読み込ませる必要がある場合はAsset::renderを使います（リンク参照） 
 ```
 
 
