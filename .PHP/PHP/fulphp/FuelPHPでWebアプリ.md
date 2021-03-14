@@ -1,5 +1,26 @@
+https://noumenon-th.net/programming/2016/03/29/php_ajax/
+
+
+# composer.jsonにrequireとして追加してcomposer updateを実行。
+FuelPHPにてcomposerで追加したaws-sdk-php
+
+{
+  "require": {
+    "aws/aws-sdk-php": "2.*"
+  }
+}
+
+
+http://fuelphp.jp/docs/1.9/classes/asset/usage.html
+
 https://www.qript.co.jp/blog/technique/1467/
 ```js
+・jQueryの導入
+　デフォルトで入ってないため、～.min.jsファイルを拾ってきて
+　public/assets/js に置く
+
+<?php echo Asset::js('jquery-3.2.1.min.js'); /*jQuery*/ ?>
+
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 <script>
     $(document).ready(function()
