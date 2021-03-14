@@ -26,4 +26,18 @@ class Controller_Delete extends Controller
 〜省略〜
   }
 }
+
+<button>タグ
+
+<button type="button" onclick="location.href='[遷移先]">
+Copy
+
+<input>タグ
+
+<intput type="button" onclick="location.href='[遷移先]">
+Copy
+
+ハマったのは<button>にtypeを設定していない時にsubmitボタンとして機能してしまい、<form>に設定しているactionが実行される、フォームがサブミットされ、期待した遷移が起こらないことがありました。
+
+type="button"とlocation.hrefが今回のハートでした
 ```
