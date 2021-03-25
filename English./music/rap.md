@@ -18,6 +18,7 @@ DMX-习惯粗口歌词，喜欢惹是生非．
 ```
 # 2pec
 https://www.youtube.com/watch?v=eXvBjCO19QY&ab_channel=2PacVEVO
+https://www.youtube.com/watch?v=hi451EY397s&ab_channel=GMIX
 
 # 90's Hip Hop Mix
 https://www.youtube.com/watch?v=zZtrMW2mi_8&ab_channel=INTERNATIONALHIPHOP
