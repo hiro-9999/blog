@@ -16,7 +16,7 @@ Nas-”街头诗人”，歌词可以用”完美”形容．
 2pac-西海岸帮匪说唱灵魂人物
 DMX-习惯粗口歌词，喜欢惹是生非．
 ```
-# 2pec
+# 2pac
 https://www.youtube.com/watch?v=eXvBjCO19QY&ab_channel=2PacVEVO
 https://www.youtube.com/watch?v=hi451EY397s&ab_channel=GMIX
 
