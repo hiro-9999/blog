@@ -6,3 +6,6 @@ https://qiita.com/ogapants/items/75cc105ee0054b2e6912
 
 # SDK Build Tools リリースノート
 https://developer.android.com/studio/releases/build-tools?hl=ja
+
+# pixel
+https://store.google.com/jp/product/pixel_4a_5g
