@@ -1,5 +1,6 @@
 
 # frist
+https://webukatu.com/wordpress/blog/42/
 
 ## ORM（Object Relational Mapper）自体は一般的な機能で、オブジェクトとリレーショナルデータベースの紐付けを行います。
 https://agency-star.co.jp/column/file-transfer-protocol-software-2/
