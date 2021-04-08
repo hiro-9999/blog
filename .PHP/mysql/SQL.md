@@ -5,4 +5,6 @@ SELECT
   date,
   EXTRACT(WEEK(SUNDAY) FROM date) AS week_sunday,
   EXTRACT(WEEK(MONDAY) FROM date) AS week_monday FROM table;
+  
+ SELECT DATE_ADD(DATE "2008-12-25", INTERVAL 5 DAY) as five_days_later;
   ```
