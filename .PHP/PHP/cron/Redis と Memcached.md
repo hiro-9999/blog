@@ -1,8 +1,7 @@
 # Redis と Memcached はどちらもミリ秒未満の応答時間をサポートしています。メモリ内にデータを格納することで、ディスクベースのデータベースよりも迅速にデータを読み取ることができます。
 
-https://aws.amazon.com/jp/elasticache/redis-vs-memcached/
+http://php.plus-server.net/memcached.set.html
 
-https://liginc.co.jp/web/programming/php/178772
 ```php
 <?php
 /* Memcachedのオブジェクトを作成 */
@@ -89,6 +88,13 @@ foreach ($cachekeys as $key) {
 
 $m->set
 ```
+
+http://php.plus-server.net/class.memcached.html
+
+https://aws.amazon.com/jp/elasticache/redis-vs-memcached/
+
+https://liginc.co.jp/web/programming/php/178772
+
 https://www.php.net/manual/ja/memcache.examples-overview.php
 
 
