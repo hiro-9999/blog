@@ -93,3 +93,5 @@ https://www.php.net/manual/ja/memcache.examples-overview.php
 
 
 https://qiita.com/supertaihei02/items/53e36252afa3ea157d38
+
+https://www.php.net/manual/ja/memcached.getmulti.php
