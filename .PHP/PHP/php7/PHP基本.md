@@ -24,5 +24,13 @@ if (isset($_POST['action'])) {
     $action = 'default';
 }
 
+<?php
+$name = "田中はなコ";
+
+if(preg_match("/^[ぁ-んァ-ヶ一-龠々]+$/u",$name)) {
+  echo "日本語で入力されています";
+} else {
+  echo "日本語で入力してください";
+}
 ?>
 ```
