@@ -10,6 +10,7 @@ https://github.com/halfrost/LeetCode-Go
 // google man
 https://github.com/jwasham/
 
-
+// video
+https://www.ixigua.com/6881883015832666635
 
 Kevin Naughton Jr. 或者Clement Mihailescu的YouTube channel。俩人都是有工作经验的，一个NUY一个U of Pennsylvania，比较务实。
