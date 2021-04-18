@@ -4,7 +4,16 @@ https://developer.android.com/studio/known-issues?hl=ja
 /Users/username/.gradle/wrapper/dists/
 
  # gradle clean 
+ 
+ brew uninstall --force gradle
+ 
+ https://qiita.com/Y_Fujikawa/items/da3379aed609404bc01e
+ 
+ brew install gradle24
+# 以下のように表示されていれば、OK
+gradle -v
 
+https://qiita.com/Y_Fujikawa/items/da3379aed609404bc01e
 
 
 # build tools>gradle>gradle user home
