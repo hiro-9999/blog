@@ -1,5 +1,6 @@
 https://developer.android.com/studio/known-issues?hl=ja
 
+https://docs.gradle.org/5.6.4/userguide/command_line_interface.html#sec:command_line_warnings
 
 /Users/username/.gradle/wrapper/dists/
 
@@ -9,7 +10,7 @@ https://developer.android.com/studio/known-issues?hl=ja
  
  https://qiita.com/Y_Fujikawa/items/da3379aed609404bc01e
  
- brew install gradle24
+
 # 以下のように表示されていれば、OK
 gradle -v
 
@@ -32,8 +33,7 @@ $ source "$HOME/.sdkman/bin/sdkman-init.sh"
 Lastly, run the following code snippet to ensure that installation succeeded:
 
 $ sdk version
-
-$ sdk install gradle 5.6.4
+⭕️$ sdk install gradle 5.6.4
 $ sdk install gradle 3.3
 $ sdk use gradle 5.6.4
 
