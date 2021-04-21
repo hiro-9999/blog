@@ -10,6 +10,9 @@ https://www.oreilly.com
 # book
 https://www.sxpdf.com/3599.html
 
+# book ok
+https://www.chenjin5.com/books/
+
 # 有哪些免费好用的电子书下载网站？
 https://post.smzdm.com/p/a078r0v9/
 
