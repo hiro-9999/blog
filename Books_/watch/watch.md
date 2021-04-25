@@ -1,3 +1,16 @@
+# web ⭕️
+https://www.runoob.com/
+
+# WEB ajax
+https://www.runoob.com/ajax/ajax-xmlhttprequest-send.html
+open(method,url,async)	
+规定请求的类型、URL 以及是否异步处理请求。
+
+method：请求的类型；GET 或 POST
+url：文件在服务器上的位置
+async：true（异步）或 false（同步）
+
+
 # 皮尔盖茨的免费 book网站
 https://openstax.org/
 
