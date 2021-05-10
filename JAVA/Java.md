@@ -5,3 +5,11 @@ https://www.toutiao.com/a6772057002764927492/?tt_from=copy_link&utm_campaign=cli
 
 # Java 新機能まとめ
 https://qiita.com/nowokay
+
+
+# Maven超入門
+「Maven」とは、要するにJavaプログラムをビルドするためのツールです。
+C言語を触ったことがある人は、makeのようなものと言えばイメージがしやすいかと思います。
+
+似たようなツールに、AntやGradleなどありますが、使い方とかが違うだけで、本質的には同じです。
+https://qiita.com/tarosa0001/items/e5667cfa857529900216
