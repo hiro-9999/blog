@@ -1,6 +1,7 @@
 https://edu.aliyun.com/roadmap/java?spm=a2c6h.12999620.1371257.1.d84b5738pi93eC#part1
 # Java学习路线
 https://zhuanlan.zhihu.com/p/115890802
+https://zhuanlan.zhihu.com/p/341728054
 
 # Java 新機能まとめ
 https://qiita.com/nowokay
