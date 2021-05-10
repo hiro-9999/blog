@@ -17,6 +17,9 @@ https://www.scala-lang.org
 
 https://dotty.epfl.ch/docs/
 
+# online scala
+https://scastie.scala-lang.org/g990YzF4TCy8mrJGJsIjNg
+
 
 # Apache Spark
 Apache Spark是一个开源的、强大的分布式查询和处理引擎
