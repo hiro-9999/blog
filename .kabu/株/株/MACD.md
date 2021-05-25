@@ -13,3 +13,12 @@
 # 如果成功的概率是70资金会越来越多你很快就会成为富翁。
 
 # 技术分析中有一种比较著名的指数平滑异同移动平均线 (MACD)，它使用三个指数移动平均线产生交易信号。
+
+# 也许获利最少的低频投资者会采取流动性检测的策略，如试盘 (pinging)[1][也称为嗅探(sniffing)和狙击(sniping)]、塞单 (quote stuffing)和幌骗(spoofing)
+
+·买价(bid price)
+·卖价(ask price)
+·申买量(avaiabe bid size)
+·申卖量(avaiabe ask size)
+·最新交易价(ast trade price)
+·最新交易量(ast trade size)
