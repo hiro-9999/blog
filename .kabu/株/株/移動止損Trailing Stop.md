@@ -1,5 +1,7 @@
 # 趨勢交易的必備工具：移動止損Trailing Stop
 
+＃　TradingView #トレーディングビュー #チャートソフト
+
 移動止損Trailing Stop
 https://www.dailyfxasia.com/cn/feaarticle/20140512-5363.html
 
@@ -27,3 +29,13 @@ https://marketspeed.jp/ms2/function/algo/trailing.html
 
 ＃　video
 https://www.youtube.com/watch?v=tfLlhh4LkBY&ab_channel=%E5%B0%8F%E6%AC%A1%E9%83%8E%E8%AC%9B%E5%B8%AB%E3%83%81%E3%83%A3%E3%83%B3%E3%83%8D%E3%83%AB
+
+https://kojirokousi.com/
+
+//⭕️
+https://media-kojirokousi.com/
+
+https://www.tradingview.com
+
+//⭕️ pinecoders
+https://www.pinecoders.com
