@@ -1,9 +1,10 @@
 https://www.infoq.com/jp/news/2021/04/jfrog-jcenter-bintray-closure/
 
 # JFrogはJCenterとBintrayを閉鎖へ
+```android
 //  jcenter()       // <- removed
     mavenCentral()  // <- added
-    
+```
     https://stackoverflow.com/questions/66400264/jcenter-is-at-end-of-life-android-lint-warning-what-is-the-replacement
 
 
