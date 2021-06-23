@@ -10,6 +10,9 @@ https://qiita.com/noqua/items/adc24c28c13e9b74d3ad
 
 # SCSSの基本的な書き方
 https://qiita.com/nchhujimiyama/items/8a6aad5abead39d1352a
+
+https://qiita.com/cotolier_risa/items/33ca1dcd700927dd7ba0
+
 ```
 /* 関数宣言の仕方 */
 @mixin 関数名(引数１, 引数２, ...) {
