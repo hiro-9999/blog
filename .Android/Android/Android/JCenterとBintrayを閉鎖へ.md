@@ -1,3 +1,9 @@
+https://qiita.com/takke/items/67a7f21cdcec0f13d7c8
+
+⭕️ExoPlayer
+(2021/4/15追記) Exoplayer 2.13.3 から Google's Maven Repository でホストされるようになった。ので、下記の記述は不要。
+
+
 https://www.infoq.com/jp/news/2021/04/jfrog-jcenter-bintray-closure/
 
 
