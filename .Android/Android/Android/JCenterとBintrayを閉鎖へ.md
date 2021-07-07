@@ -1,6 +1,8 @@
 https://www.infoq.com/jp/news/2021/04/jfrog-jcenter-bintray-closure/
 
 # JFrogはJCenterとBintrayを閉鎖へ
+https://qiita.com/takke/items/67a7f21cdcec0f13d7c8
+
 ```android
 //  jcenter()       // <- removed
     mavenCentral()  // <- added
