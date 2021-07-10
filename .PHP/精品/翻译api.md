@@ -11,3 +11,8 @@ https://omohikane.com/wp-content/uploads/2016/06/%E8%87%AA%E5%8B%95%E7%BF%BB%E8%
 
 
 https://qiita.com/satto_sann/items/be4177360a0bc3691fdf
+
+# Amazon Translate
+https://aws.amazon.com/jp/translate/
+
+Intento は最近、14 の言語ペア、16 の業界セクター、8 つのコンテンツタイプにわたる機械翻訳プロバイダーとして、2020 年 Amazon Translate の 1 位に輝きました。
