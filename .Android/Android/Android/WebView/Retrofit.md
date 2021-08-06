@@ -10,3 +10,32 @@ https://stackoverflow.com/questions/5574530/how-to-parse-a-cookie-string
 
 
 https://stackoverflow.com/questions/34663640/okhttpclient-pass-cookies-to-webview
+
+https://stackoverflow.com/questions/35743291/add-cookie-to-client-request-okhttp
+```
+OkHttpClient client = new OkHttpClient().newBuilder()
+    .cookieJar(new CookieJar() {
+        @Override
+        public void saveFromResponse(HttpUrl url, List<Cookie> cookies) {
+        }
+
+        @Override
+        public List<Cookie> loadForRequest(HttpUrl url) {
+            Arrays.asList(createNonPersistentCookie());
+        }
+    })
+    .build();
+
+// ...
+    
+public static Cookie createNonPersistentCookie() {
+    return new Cookie.Builder()
+        .domain("publicobject.com")
+        .path("/")
+        .name("cookie-name")
+        .value("cookie-value")
+        .httpOnly()
+        .secure()
+        .build();
+}
+ ```
