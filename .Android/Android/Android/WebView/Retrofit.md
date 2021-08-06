@@ -7,3 +7,6 @@ https://www.it-swarm-ja.com/ja/android/okhttp%E3%82%92%E4%BD%BF%E7%94%A8%E3%81%9
 
 
 https://stackoverflow.com/questions/5574530/how-to-parse-a-cookie-string
+
+
+https://stackoverflow.com/questions/34663640/okhttpclient-pass-cookies-to-webview
