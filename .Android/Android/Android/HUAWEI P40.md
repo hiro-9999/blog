@@ -1,0 +1,2 @@
+HUAWEI P40 Pro ブラック
+https://www.amazon.co.jp/HUAWEI-P40-Pro-AppGallery%E3%83%A2%E3%83%87%E3%83%AB%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E4%BB%A3%E7%90%86%E5%BA%97%E5%93%81%E3%80%91-Black/dp/B088P3YQ1N/ref=pd_day0_2/355-7482697-5473715?pd_rd_w=pPOYi&pf_rd_p=fab5dbe4-f0e5-4fa4-b9db-f6338912edc6&pf_rd_r=E53PJFSNG9VCDNCREDRP&pd_rd_r=c651f80b-3617-4cdb-a94b-b9f8086bab19&pd_rd_wg=guN4i&pd_rd_i=B088P3YQ1N&psc=1
