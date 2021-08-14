@@ -3,3 +3,8 @@ Box<out T>のとき、プロパティTは変更不可であり、その代わり
 Box<in T>のとき、プロパティTは参照不可であり、その代わりにより小さな型に入れ替えることができる(反変)
 
 https://pouhon.net/kotlin-constraints/3649/
+
+  
+https://maku77.github.io/kotlin/
+  
+  
