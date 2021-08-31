@@ -1,4 +1,6 @@
-shouldInterceptRequest
+# shouldInterceptRequest
+https://codehero.jp/java/7610790/add-custom-headers-to-webview-resource-requests-android
+
 https://qiita.com/masaki_shoji/items/c3d57f210d58d4ae6ca2
 
 https://blog.csdn.net/spinchao/article/details/104769061
