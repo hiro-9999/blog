@@ -5,3 +5,24 @@ https://blog.csdn.net/spinchao/article/details/104769061
 
 https://www.it-mure.jp.net/ja/android/インターセプトpost-webviewでのリクエスト/1070112301/
 
+
+http://www.androidchina.net/9116.html
+```
+ @Override
+        public WebResourceResponse shouldInterceptRequest(WebView view,
+                                                          WebResourceRequest request) {
+            String url = request.getUrl().toString();
+            Log.d("cookie====url", "  " + url);
+
+            if (url.contains("https://www.)) {
+                
+//                WebResourceResponse response =
+//                        mDataHelper.getReplacedWebResourceResponse(getApplicationContext(),
+//                                url);
+//                if (response != null) {
+//                    return response;
+//                }
+            }
+            return super.shouldInterceptRequest(view, request);
+        }
+```
