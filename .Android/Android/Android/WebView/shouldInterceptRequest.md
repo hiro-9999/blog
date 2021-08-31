@@ -3,6 +3,9 @@ https://www.tabnine.com/code/java/methods/android.webkit.WebResourceRequest/getR
 
 https://codehero.jp/java/7610790/add-custom-headers-to-webview-resource-requests-android
 
+// javascript get pass
+https://stackoverflow.com/questions/13954049/intercept-post-requests-in-a-webview
+
 https://qiita.com/masaki_shoji/items/c3d57f210d58d4ae6ca2
 
 https://blog.csdn.net/spinchao/article/details/104769061
