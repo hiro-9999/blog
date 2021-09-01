@@ -28,7 +28,7 @@ Log.v("CHECK", userAgentString);
             String url = request.getUrl().toString();
             Log.d("cookie====url", "  " + url);
 
-            if (url.contains("/api/v3/user/auth/session/")) {
+            if (url.contains("/auth/session/")) {
                 Log.d("cookie====urlgetMethod", "  " + request.getMethod());
                 Log.d("cookie====urlCSRF", "  " +  request.getRequestHeaders().get("Token"));
                 Log.d("cookie====urluseragent", "  " +  request.getRequestHeaders().get("User-Agent"));
