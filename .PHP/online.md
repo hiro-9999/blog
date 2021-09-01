@@ -7,6 +7,13 @@ https://3v4l.org/ktiJt#output
 
 https://paiza.io/projects/uv_q5a2i9TXA77YGFk9esA
 
+```
+<?php  
+$date = date('d-m-Y H:i:s', 1565600000);
+echo "The date is $date.";  
+?>
+```
+
 
 http://www.writephponline.com/
 
