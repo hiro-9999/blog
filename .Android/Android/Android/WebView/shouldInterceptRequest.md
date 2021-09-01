@@ -3,6 +3,9 @@ https://www.tabnine.com/code/java/methods/android.webkit.WebResourceRequest/getR
 
 https://codehero.jp/java/7610790/add-custom-headers-to-webview-resource-requests-android
 
+# Android中Cookie获取、保存以及同步 ok
+https://www.jianshu.com/p/582e22671e4e
+
 // javascript get pass
 https://stackoverflow.com/questions/13954049/intercept-post-requests-in-a-webview
 
