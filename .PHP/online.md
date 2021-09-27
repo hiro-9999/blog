@@ -23,7 +23,9 @@ http://sandbox.onlinephpfunctions.com/
 
 # php regex online
 http://okumocchi.jp/php/re.php
-
+```
+!^Roku/DVP-([^\s]+)!
+```
 https://ja.functions-online.com/preg_match.html
 
 https://www.phpliveregex.com/
