@@ -22,6 +22,8 @@ https://3v4l.org/BES3Z
 http://sandbox.onlinephpfunctions.com/
 
 # php regex online
+https://ja.functions-online.com/preg_match.html
+
 https://www.phpliveregex.com/
 
 https://regex101.com/
