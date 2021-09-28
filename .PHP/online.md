@@ -1,4 +1,6 @@
-# online
+# online 🔴
+https://syncer.jp/Web/PHP/Reference/Function/array_intersect/
+
 
 # select php version
 https://wtools.io/php-sandbox
