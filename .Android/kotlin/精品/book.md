@@ -12,4 +12,6 @@ https://hyperskill.org/tracks/18
 # google guilde
 https://developer.android.com/guide/
 
+https://proandroiddev.com/synchronize-recyclerview-with-tablayout-3c5da4f3b18b
+
 
