@@ -1,0 +1,12 @@
+https://cupsofcode.com/post/the_five_step_guide_to_become_android_developer/
+
+# doc
+https://kotlinlang.org/docs/basic-syntax.html#variables
+
+# book
+https://github.com/AidaIssayeva/KotlinBooks
+
+# course
+https://hyperskill.org/tracks/18
+
+
