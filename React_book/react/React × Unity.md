@@ -16,3 +16,6 @@ https://pan.baidu.com/s/1Iv-MpypdzEbnRq-lBpkhHQ
 
 # DRM
 https://ja.player.support.brightcove.com/plugins/configuring-brightcove-player-drm.html
+
+# vr相机
+https://hk.canon/zh_HK/consumer/f5-2mm-f-2-8l-dual-fisheye/news
