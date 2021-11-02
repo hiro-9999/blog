@@ -3,6 +3,14 @@ https://logmi.jp/tech/articles/323164
 # A video.js plugin that turns a video element into a HTML5 Panoramic 360 video player. Project video onto different shapes. Optionally supports Oculus Rift, HTC Vive and the GearVR.
 https://github.com/videojs/videojs-vr
 
+···
+Supported VR Video Format:
+Mono
+180
+360
+Stereo (Left/Right and Top/Bottom)
+···
+
 # Play HLS, DASH, and future HTTP streaming protocols with video.js
 https://github.com/videojs/http-streaming
 
