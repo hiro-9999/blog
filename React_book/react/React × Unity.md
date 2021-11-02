@@ -19,3 +19,8 @@ https://ja.player.support.brightcove.com/plugins/configuring-brightcove-player-d
 
 # vr相机
 https://hk.canon/zh_HK/consumer/f5-2mm-f-2-8l-dual-fisheye/news
+
+
+https://chinese.engadget.com/canon-introduces-its-new-vr-system-with-a-dual-fisheye-lens-112838032.html
+
+
