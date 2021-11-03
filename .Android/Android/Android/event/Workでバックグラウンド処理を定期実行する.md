@@ -22,7 +22,7 @@ final Runnable r = new Runnable() {
             return;
         }
         doSomething(); // 何かやる
-        handler.postDelayed(this, 1000);
+        handler.postDelayed(this, 5000); //5秒間隔で定期的に何かの処理を行う
     }
 };
 handler.post(r);
