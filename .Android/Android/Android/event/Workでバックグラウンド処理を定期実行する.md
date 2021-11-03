@@ -34,3 +34,9 @@ handler.removeCallbacks(r);
 
 https://qiita.com/aftercider/items/81edf35993c2df3de353
 
+# Androidで5秒ごとに機能をループ
+https://www.fixes.pub/program/637903.html
+
+# TimerTask
+https://nompor.com/2018/02/07/post-3043/
+
