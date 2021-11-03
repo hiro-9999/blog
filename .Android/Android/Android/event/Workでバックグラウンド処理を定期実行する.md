@@ -10,4 +10,22 @@ Serviceを起動してそこからTimerクラスで定期実行
 AlermManegerを使う（android4.0以降）
 JobSchedulerを使う（Android5.0以降）
 Workで定期実行（Android4.0以降）
+
+final Handler handler = new Handler();
+final Runnable r = new Runnable() {
+    int count = 0;
+    @Override
+    public void run() {
+        // UIスレッド
+        count++;
+        if (count > 5) { // 5回実行したら終了
+            return;
+        }
+        doSomething(); // 何かやる
+        handler.postDelayed(this, 1000);
+    }
+};
+handler.post(r);
 ```
+https://qiita.com/aftercider/items/81edf35993c2df3de353
+
