@@ -27,5 +27,10 @@ final Runnable r = new Runnable() {
 };
 handler.post(r);
 ```
+
+キャンセルしたいときは
+handler.removeCallbacks(r);
+で、runnableとの関係を切ってあげればOKです。
+
 https://qiita.com/aftercider/items/81edf35993c2df3de353
 
