@@ -26,6 +26,37 @@ final Runnable r = new Runnable() {
     }
 };
 handler.post(r);
+
+
+        new AlertDialog.Builder(this, R.style.DialogTheme)
+                .setTitle("タイトル")
+                .setMessage("メッセージ")
+                .setPositiveButton("OK", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        // OKが押下された際の処理
+                        Log.i("blockid", "setPositiveButtonが呼ばれました。");
+                        onBackPressed();
+                    }
+                })
+                .setOnDismissListener(new DialogInterface.OnDismissListener() {
+                    @Override
+                    public void onDismiss(DialogInterface dialog) {
+                        // ダイアログが閉じられた際の処理
+                        Log.i("blockid", "setOnDismissListenerが呼ばれました。");
+                        onBackPressed();
+                    }
+                })
+                .setOnCancelListener(new DialogInterface.OnCancelListener() {
+                    @Override
+                    public void onCancel(DialogInterface dialog) {
+                        // ダイアログがキャンセルされた際の処理
+                        Log.i("blockid", "setOnCancelListenerが呼ばれました。");
+                        onBackPressed();
+                    }
+                })
+                .show();
+                https://stackoverflow.com/questions/37809423/android-setondismisslistener-on-a-dialogfragment
 ```
 
 キャンセルしたいときは
