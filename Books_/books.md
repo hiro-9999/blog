@@ -5,6 +5,9 @@ Clearview -->kindle reader
 # study
 https://www.curriki.org/
 
+# book dev
+https://www.oreilly.com/?utm_medium=email&utm_source=platform+b2c&utm_campaign=engagement&utm_content=b2c+trialer+onboarding
+
 # enlish
 https://ienglish521.com/3447.html
 
