@@ -9,6 +9,8 @@ https://developer.android.com/studio/releases/build-tools?hl=ja
 #  circleci/android:api-30
 https://circleci.com/docs/ja/2.0/circleci-images/#android
 
+https://developer.android.com/studio/releases/gradle-plugin?hl=ja
+
 
 # SDK Build Tools リリースノート
 https://developer.android.com/studio/releases/build-tools?hl=ja
