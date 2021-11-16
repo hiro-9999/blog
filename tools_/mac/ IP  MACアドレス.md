@@ -11,3 +11,5 @@ https://yu8mada.com/2018/07/14/how-to-find-my-private-ip-address-in-macos/
 ifconfig en0 ether
 
 メニューバーの Wi-Fi アイコンを option をホールドしながらクリックすると, Interface Name の下に Address というそのインターフェースの MAC アドレスが表示されます:
+
+https://yu8mada.com/2018/06/22/how-to-check-my-mac-address-on-macos/
