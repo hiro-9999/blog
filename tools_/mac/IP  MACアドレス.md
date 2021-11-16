@@ -17,3 +17,5 @@ https://yu8mada.com/2018/06/22/how-to-check-my-mac-address-on-macos/
 
 
 tracert www.grapecity.com
+
+traceroute <--mac
