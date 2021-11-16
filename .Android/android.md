@@ -10,6 +10,8 @@ https://developer.android.com/studio/releases/build-tools?hl=ja
 https://circleci.com/docs/ja/2.0/circleci-images/#android
 
  gradle --warning-mode all
+ 
+ https://web-y.dev/2021/10/29/android-warning-mode-all/
 
 
 https://developer.android.com/studio/releases/gradle-plugin?hl=ja
