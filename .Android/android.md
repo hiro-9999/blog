@@ -1,5 +1,10 @@
 # 整形
-cmd + alt + L
+インデントの整形（修正）
+
+## Option (⌥ オプション) + Command (⌘ コマンド) + l(エルキー)
+■インポート整理（不要なインポートの削除）
+
+## Ctrl　+ Alt + o(オーキー)
 
 https://qiita.com/ogapants/items/75cc105ee0054b2e6912
 
