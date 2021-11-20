@@ -1,3 +1,6 @@
+# Kotlin Playground
+https://play.kotlinlang.org/
+
 Kotlin 是静 态类型的语言，所以每个表达式的类型在编译时均为己知。编译器可以验证试图访
 问的任何属性或方法，或者某个真实存在的特定类实例 。 作为一种静态类型语言， Java 也具有该特征;但与 Java 不同， Kotlin 类型系统更加严格(安全) 。
 
