@@ -23,6 +23,12 @@ Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–
         if (b == 0) a
         else gcd(b, a % b)
     println(gcd(9,2)) 
+    
+fun test(i:Int) = i * 2
+fun main() {
+    val t = ::test 
+    println(t(2)) 
+}
 ```
 
 # kotlin sorce
