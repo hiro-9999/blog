@@ -29,6 +29,10 @@ Short 16 −32,768 32,767
 Int 32 −2,147,483,648 (−2 31) 2,147,483,647 (2 31–1)
 Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–1)”
 
+
+>>> Math.pow(2.0,3.0)
+res10: kotlin.Double = 8.0
+
 抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
  
