@@ -5,6 +5,8 @@ https://play.kotlinlang.org/
 
 # DSL ??
 
+## 42.toString(radix =2)
+
 ```kotlin
 brew install kotlin
  % kotlinc-jvm
