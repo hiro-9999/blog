@@ -33,6 +33,9 @@ Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–
 >>> Math.pow(2.0,3.0)
 res10: kotlin.Double = 8.0
 
+>>> Math.sqrt(8.0)
+res16: kotlin.Double = 2.8284271247461903
+
 抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
  
