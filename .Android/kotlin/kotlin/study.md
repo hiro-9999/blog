@@ -31,6 +31,10 @@ fun main() {
 }
 ```
 
+# companion object
+https://qiita.com/tkhs0604/items/261e94a42b7097dfd204
+## Kotlinにはstatic修飾子がないので、companion objectはstaticなフィールドやメソッドが必要なときの代替手段として利用されることがほとんどだ
+
 # kotlin sorce
 https://github.com/JetBrains/kotlin/releases
 
