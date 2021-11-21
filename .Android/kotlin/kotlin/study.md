@@ -27,6 +27,10 @@ IntelliJで行う場合はメニューの「ツール」→「Kotlin」→「Kot
 # inline ??
 https://kotlinlang.org/docs/inline-functions.html#restrictions-for-public-api-inline-functions
 
+
+# lateinit と by lazy
+https://qiita.com/u-dai/items/a31c5c2a7d5c7ed2cc47
+
 ```kotlin
   val capitols = listOf ("England" to "London", "Poland" to "Warsaw")
     val text = capitols.map { (country,_) -> country.toUpperCase() } 
