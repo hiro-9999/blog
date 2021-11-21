@@ -21,6 +21,12 @@ https://youtrack.jetbrains.com/issues/KT
 读者可访问 https://youtrack.jetbrains.com/issues/KT下载Kotlin错误跟踪器。 读者可访问 http://slack.kotlinlang.org/以了解KotlinSlackChannel。
 
 
+# バイトコードの逆コンパイル:
+IntelliJで行う場合はメニューの「ツール」→「Kotlin」→「Kotlinバイトコードの表示」と選択して、出てきたコードの左上「逆コンパイル」をクリックします。
+
+# inline ??
+https://kotlinlang.org/docs/inline-functions.html#restrictions-for-public-api-inline-functions
+
 ```kotlin
   val capitols = listOf ("England" to "London", "Poland" to "Warsaw")
     val text = capitols.map { (country,_) -> country.toUpperCase() } 
