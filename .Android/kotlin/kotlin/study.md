@@ -1,6 +1,8 @@
 # Kotlin Playground
 https://play.kotlinlang.org/
 
+brew install kotlin
+
 # kotlin sorce
 https://github.com/JetBrains/kotlin/releases
 
