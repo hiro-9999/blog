@@ -4,6 +4,9 @@ https://play.kotlinlang.org/
 ```kotlin
 brew install kotlin
  % kotlinc-jvm
+ “To leave the interactive shell (the REPL) and go back to the console (the system shell), type in: quit.”
+
+抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
 
 # kotlin sorce
