@@ -33,6 +33,10 @@ Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–
 >>> Math.pow(2.0,3.0)
 res10: kotlin.Double = 8.0
 
+double z = Math.pow(x,1.0/y); //x为被开方的数，1.0/y为要开方的次数
+>>> Math.pow(8.0,1.0/3.0)
+res20: kotlin.Double = 2.0
+
 >>> Math.sqrt(8.0)
 res16: kotlin.Double = 2.8284271247461903
 
