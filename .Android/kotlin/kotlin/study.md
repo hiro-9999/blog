@@ -6,6 +6,12 @@ brew install kotlin
  % kotlinc-jvm
  “To leave the interactive shell (the REPL) and go back to the console (the system shell), type in: quit.”
 
+“Type Size (bits) Min value Max value
+Byte 8 −128 127
+Short 16 −32,768 32,767
+Int 32 −2,147,483,648 (−2 31) 2,147,483,647 (2 31–1)
+Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–1)”
+
 抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
 
