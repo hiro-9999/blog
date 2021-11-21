@@ -6,6 +6,17 @@ https://play.kotlinlang.org/
 # DSL ??
 
 ## 42.toString(radix =2)
+```kotlin
+% kotlinc-jvm
+Welcome to Kotlin version 1.6.0 (JRE 17.0.1+0)
+Type :help for help, :quit for quit
+>>> 42.toString(radix =2)
+res0: kotlin.String = 101010
+>>> 42.toString(radix =10)
+res1: kotlin.String = 42
+>>> 42.toString(radix =16)
+res2: kotlin.String = 2a
+```
 
 ```kotlin
 brew install kotlin
