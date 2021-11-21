@@ -14,6 +14,16 @@ Long 64 −9,223,372,036,854,775,808 (−263) 9,223,372,036,854,775,807 (2 63–
 
 抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
+ 
+ # tailrec
+ ・その関数自体の呼び出しが、関数の最後である
+・try catchブロックの中ではない
+```kotlin
+ tailrec fun gcd(a: Int, b: Int): Int =
+        if (b == 0) a
+        else gcd(b, a % b)
+    println(gcd(9,2)) 
+```
 
 # kotlin sorce
 https://github.com/JetBrains/kotlin/releases
