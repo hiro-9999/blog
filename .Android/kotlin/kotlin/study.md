@@ -38,6 +38,9 @@ https://qiita.com/tkhs0604/items/261e94a42b7097dfd204
 # run with apply  use-> this
 # let also use-> it
 
+# delegation -->use by class
+enum class
+
 # kotlin sorce
 https://github.com/JetBrains/kotlin/releases
 
