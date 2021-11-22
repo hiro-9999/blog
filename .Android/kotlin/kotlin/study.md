@@ -2,6 +2,7 @@
 https://play.kotlinlang.org/
 
 # Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf
+## Android Studio 4.2 Essentials Kotlin Edition
 ???
 
 # regex. toregex. ??
