@@ -2,6 +2,8 @@
 https://play.kotlinlang.org/
 
 # regex. toregex. ??
+https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
+## matches("""\d+""".toRegex())
 
 # DSL ??
 
