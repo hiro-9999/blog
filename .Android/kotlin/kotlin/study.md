@@ -22,6 +22,15 @@ res0: kotlin.String = 101010
 res1: kotlin.String = 42
 >>> 42.toString(radix =16)
 res2: kotlin.String = 2a
+
+import java.util.*
+// Main function entry point of program fun main(args: Array<String>) {
+val sc = Scanner(System.`in`) println("Enter Number: ")
+val num: Int = sc.nextInt()
+// for loop to print multiplication table of given number for (i in 1..10) {
+val result = num * i
+println("$num*$i = $result") }
+}
 ```
 
 ```kotlin
