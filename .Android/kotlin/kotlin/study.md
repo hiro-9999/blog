@@ -1,6 +1,14 @@
 # Kotlin Playground
 https://play.kotlinlang.org/
 
+## 2021/11/20 
+```android
+android studio arctrc fox  2021/10/1 build
+ compileSdkVersion 31
+ buildToolsVersion '30.0.2'
+ sdk android 12
+ ```
+
 # Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf
 ## Android Studio 4.2 Essentials Kotlin Edition
 ???
