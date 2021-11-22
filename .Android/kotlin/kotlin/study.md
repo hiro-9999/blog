@@ -1,6 +1,9 @@
 # Kotlin Playground
 https://play.kotlinlang.org/
 
+# Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf
+???
+
 # regex. toregex. ??
 https://docs.oracle.com/javase/8/docs/api/java/util/regex/Pattern.html
 ## matches("""\d+""".toRegex())
