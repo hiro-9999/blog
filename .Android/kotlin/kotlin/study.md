@@ -13,6 +13,9 @@ https://www.raywenderlich.com/paths#android
 
 https://b-ok.asia/book/16845732/046c4b?dsource=recommend
 
+# video retrofit
+https://learning.oreilly.com/videos/the-complete-kotlin/9781839214578/9781839214578-video9_4/
+
 
 ## 2021/11/20 
 https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels
