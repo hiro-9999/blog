@@ -2,6 +2,9 @@
 https://play.kotlinlang.org/
 
 ## “Kotlin编程权威指南” 抜粋:: [美] 克莉丝汀•马西卡诺布赖恩•加德纳比尔•菲利普斯克里斯•斯图尔特  “Android编程权威指南第4版”。 Apple Books  
+### @JvmField 注解还能用来以静态方式提供伴生对象里定义的值。 ->can be use in java 
+@JvmOverloads
+ @file:JvmName("Hero")
 
 # kotlin sample
 https://developer.android.com/samples?language=kotlin
@@ -55,6 +58,8 @@ https://home.unicode.org
 # DSL ??
 
 ## 42.toString(radix =2)
+Integer.toBinaryString(42)
+101010
 ```kotlin
 % kotlinc-jvm
 Welcome to Kotlin version 1.6.0 (JRE 17.0.1+0)
