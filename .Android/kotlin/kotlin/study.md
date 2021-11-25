@@ -97,6 +97,7 @@ res20: kotlin.Double = 2.0
 
 >>> Math.sqrt(8.0)
 res16: kotlin.Double = 2.8284271247461903
+https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.math/
 
 抜粋:: John Hunt  “Beginner’s Guide to Kotlin Programming”。 Apple Books  
  ```
