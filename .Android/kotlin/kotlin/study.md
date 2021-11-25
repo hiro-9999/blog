@@ -6,6 +6,8 @@ https://play.kotlinlang.org/
 # kotlin sample
 https://developer.android.com/samples?language=kotlin
 
+### REPL 是英文单词 read(读取)、evaluate(求值)、print(输出)和 loop(循环)的首字母缩 写。
+
 
 # JetBrains 的编码约定:
 https://kotlinlang.org/docs/coding-conventions.html#wrap-chained-calls
