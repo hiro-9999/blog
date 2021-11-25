@@ -6,6 +6,12 @@ https://play.kotlinlang.org/
 # kotlin sample
 https://developer.android.com/samples?language=kotlin
 
+
+# JetBrains 的编码约定:
+https://kotlinlang.org/docs/reference/coding-conventions.html。
+# Google 的代码指南，包括 Android 代码和互操作的编码约定:
+https://android.github.io/kotlin-guides/style.html。
+
 # test ??
 Android Test-Driven Development by Tutorials
 
