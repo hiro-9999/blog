@@ -5,6 +5,7 @@ https://play.kotlinlang.org/
 ### @JvmField 注解还能用来以静态方式提供伴生对象里定义的值。 ->can be use in java 
 @JvmOverloads
  @file:JvmName("Hero")
+ @Throws(IOException::class)
 
 # kotlin sample
 https://developer.android.com/samples?language=kotlin
