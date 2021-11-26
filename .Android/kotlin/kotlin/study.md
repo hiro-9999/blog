@@ -7,6 +7,9 @@ https://play.kotlinlang.org/
  @file:JvmName("Hero")
  @Throws(IOException::class)
  
+ ### “使用ViewModel来处理设备旋转的UI状态持久化问题，使用Room和LiveData来实现数据库及其数据查询，使用WorkManager来调度后台工作，”
+
+ 
  ### 挂起函数 ??? launch 与 async/await
  看代码可知，挂起函数都带 suspend 关键字。以下是 await 函数的函数签名: public suspend fun await(): T
  
@@ -32,6 +35,7 @@ https://developer.android.com/samples?language=kotlin
 ### REPL 是英文单词 read(读取)、evaluate(求值)、print(输出)和 loop(循环)的首字母缩写。
 Kotlin 并未局限于 JVM。本书撰写之际，Kotlin 已能编译成 JavaScript，甚至能脱离 虚拟机层，直接编译成可以在 Windows、Linux 和 macOS 平台上运行的原生二进制代码。
 
+## “使用Jetpack库（又称AndroidX）代替了原来的支持库”
 
 # JetBrains 的编码约定:
 https://kotlinlang.org/docs/coding-conventions.html#wrap-chained-calls
