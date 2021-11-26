@@ -4,7 +4,7 @@ https://play.kotlinlang.org/
 ## “To build a debug release of the project suitable for device or emulator testing, use the assembleDebug option:
 ./gradlew assembleDebug
 
-# Android Studio 4.2 Development Essentials  🔴
+# Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf  🔴
 抜粋:: Smyth, Neil;  “Android Studio 4. 2 Development Essentials - Kotlin Edition”。 Apple Books  
 
 # ./gradlew tasks
