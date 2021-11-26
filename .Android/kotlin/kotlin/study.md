@@ -6,6 +6,12 @@ https://play.kotlinlang.org/
 @JvmOverloads
  @file:JvmName("Hero")
  @Throws(IOException::class)
+ 
+ ### 挂起函数 ??? launch 与 async/await
+ 看代码可知，挂起函数都带 suspend 关键字。以下是 await 函数的函数签名: public suspend fun await(): T
+ 
+ ### study page ??
+ https://exercism.org/docs/using/getting-started
 
 # kotlin sample
 https://developer.android.com/samples?language=kotlin
