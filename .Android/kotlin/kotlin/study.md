@@ -10,6 +10,19 @@ https://play.kotlinlang.org/
  ### 挂起函数 ??? launch 与 async/await
  看代码可知，挂起函数都带 suspend 关键字。以下是 await 函数的函数签名: public suspend fun await(): T
  
+ 
+ ## 闭包(closure)
+Kotlin 匿名函数的又一种叫法。这种匿名函数能引用匿名函 数体外的局部变量。(另参见匿名函数。)
+
+代理(delegate) 为属性初始化定义模板的一种办法.
+
+遍历(iteration)
+对 range 或集合里的每一个元素进行重复性操作。
+
+表达式(expression) 值、运算符以及函数的组合，能够产生新的结果值。
+
+### 泛型 out in 生产者(producer) 可读而不可写的泛型参数。
+ 
  ### study page ??
  https://exercism.org/docs/using/getting-started
 
