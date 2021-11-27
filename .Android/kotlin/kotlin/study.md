@@ -6,6 +6,14 @@ https://play.kotlinlang.org/
 
 # Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf  🔴
 ### .import <reverse domain>.<project name>.databinding.<binding name>
+ ```kotlin
+ onSaveInstanceState && onRestoreInstanceState
+ outState.putCharSequence("savedText", userText)
+ 
+ val userText = savedInstanceState.getCharSequence("savedText")
+ binding.editText.setText(userText)
+ ```
+ 
 抜粋:: Smyth, Neil;  “Android Studio 4. 2 Development Essentials - Kotlin Edition”。 Apple Books  
 
 # ./gradlew tasks
