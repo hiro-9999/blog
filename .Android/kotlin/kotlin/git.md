@@ -37,3 +37,10 @@ rm temp/.keep
 
    
     git stash clear
+    
+    add 那些你不想备份的文件（例如： git add file1.js, file2.js）
+调用 git stash –keep-index。只会备份那些没有被add的文件。
+调用 git reset 取消已经add的文件的备份，继续自己的工作。
+
+# 如果要应用这些stash，直接使用git stash apply或者git stash pop就可以再次导出来了。
+https://www.cnblogs.com/zndxall/archive/2018/09/04/9586088.html
