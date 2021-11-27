@@ -17,3 +17,6 @@ show file
 ## git cat-file -p d27f2
 
  # git reset --hard HEAD
+ 
+ • git config merge.conflictstyle diff3 provides a three-way view of the conflict, with the common ancestor, “their” change, and “our” change.
+• git status -sb gives a concise view of the state of your working tree.
