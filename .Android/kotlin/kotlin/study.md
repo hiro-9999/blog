@@ -12,6 +12,9 @@ https://play.kotlinlang.org/
  
  val userText = savedInstanceState.getCharSequence("savedText")
  binding.editText.setText(userText)
+ 
+ Snackbar.make(view, "Apply Changes is Amazing!", Snackbar.LENGTH_LONG)
+        .setAction("Action", null).show()
  ```
  
 抜粋:: Smyth, Neil;  “Android Studio 4. 2 Development Essentials - Kotlin Edition”。 Apple Books  
