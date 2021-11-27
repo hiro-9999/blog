@@ -1,7 +1,7 @@
 https://git-scm.com/downloads
 
 % git --version
-git version 2.33.1
+git version 2.34.1
 
 brew install git
 
