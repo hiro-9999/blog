@@ -12,3 +12,6 @@ git log -5 --oneline
 # Converting short hash into long
 Execute the command below to convert a short hash into its long equivalent, substituting your own short hash:
 ## git rev-parse d83ab2b
+
+show file
+## git cat-file -p d27f2
