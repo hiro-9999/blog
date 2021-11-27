@@ -15,3 +15,5 @@ Execute the command below to convert a short hash into its long equivalent, subs
 
 show file
 ## git cat-file -p d27f2
+
+ # git reset --hard HEAD
