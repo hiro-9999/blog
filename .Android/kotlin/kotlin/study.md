@@ -4,6 +4,9 @@ https://play.kotlinlang.org/
 ## “To build a debug release of the project suitable for device or emulator testing, use the assembleDebug option:
 ./gradlew assembleDebug
 
+# room Elements of Android Room, Version 0.9 by Mark L. Murphy (z-lib.org).pdf
+https://developer.android.com/topic/libraries/architecture/paging.html
+
 # Android Studio Arctic Fox Essentials - Kotlin Edition by Smyth, Neil (z-lib.org).pdf  🔴
 ### .import <reverse domain>.<project name>.databinding.<binding name>
  ```kotlin
