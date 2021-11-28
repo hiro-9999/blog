@@ -4,6 +4,9 @@ https://play.kotlinlang.org/
 # Reactive Programming with Kotlin 🔴
 https://github.com/raywenderlich/rxa-materials/tree/editions/2.0
 
+# RxKotlin 🔴
+https://github.com/ReactiveX/RxKotlin
+
 ## “To build a debug release of the project suitable for device or emulator testing, use the assembleDebug option:
 ./gradlew assembleDebug
 
