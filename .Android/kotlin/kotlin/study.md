@@ -4,6 +4,22 @@ https://play.kotlinlang.org/
 # android studio preview
 https://developer.android.com/studio/preview
 
+```kotlin
+https://developer.android.com/studio/preview/features?hl=ja
+android {
+    compileSdkVersion(30)
+
+    compileOptions {
+      sourceCompatibility(JavaVersion.VERSION_11)
+      targetCompatibility(JavaVersion.VERSION_11)
+    }
+
+    kotlinOptions {
+      jvmTarget = "11"
+    }
+}
+```
+
 
 
 # google example 🔴
