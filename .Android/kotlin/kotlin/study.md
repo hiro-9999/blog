@@ -1,6 +1,11 @@
 # Kotlin Playground
 https://play.kotlinlang.org/
 
+# android studio preview
+https://developer.android.com/studio/preview
+
+
+
 # google example 🔴
 https://github.com/android/compose-samples
 
