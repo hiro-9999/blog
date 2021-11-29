@@ -22,6 +22,13 @@ android {
 
 
 
+# rxjava 🔴 抜粋:: By Alex Sullivan & Marin Todorov  “Reactive Programming with Kotlin”。 Apple Books  
+```kotlin
+rxjava
+“viewModel.listItemsLiveData
+  .observe(this, Observer(adapter::submitList))”
+  ```
+
 # google example 🔴
 https://github.com/android/compose-samples
 
