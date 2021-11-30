@@ -14,3 +14,8 @@ To cut a long story short: learn React, take 80% of your time back, and focus on
 
 # React Up  Running by Stoyan Stefanov (z-lib.org).pdf
 https://github.com/stoyan/reactbook2
+
+## 开发者菜单
+command + D // ios
+
+command + M //android
