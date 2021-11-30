@@ -6,6 +6,9 @@ https://leanpub.com/bookstore?category=web_development&type=all#BookstoreTop
 # reactjs twitter 🔴
 https://twitter.com/search?q=%23ReactJs
 
+# firebase + react
+https://note.com/takafujifuji/n/nae780f6ba245
+
 # https://codesandbox.io/s/　　　🔴
 
 # 【M1 Mac】React開発環境の構築
