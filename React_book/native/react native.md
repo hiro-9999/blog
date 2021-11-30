@@ -15,6 +15,8 @@ To cut a long story short: learn React, take 80% of your time back, and focus on
 # React Up  Running by Stoyan Stefanov (z-lib.org).pdf
 https://github.com/stoyan/reactbook2
 
+https://github.com/react-native-elements/react-native-elements
+
 ## 开发者菜单
 command + D // ios
 
