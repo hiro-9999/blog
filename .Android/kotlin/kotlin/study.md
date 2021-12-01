@@ -4,6 +4,11 @@ https://play.kotlinlang.org/
 # java to kotlin 💮
 https://java-to-kotlin.dev
 
+### test book
+“Test-Driven Development By Example by Kent Beck (Addison-Wesley) and Growing Object-Oriented Software Guided By Tests by Steve Freeman and Nat Pryce (Addison-Wesley). ”
+
+抜粋:: Duncan  McGregor  “Java to Kotlin”。 Apple Books  
+
 # android studio preview
 https://developer.android.com/studio/preview
 
