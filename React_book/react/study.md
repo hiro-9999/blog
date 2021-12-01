@@ -3,6 +3,9 @@ https://leanpub.com/bookstore?category=web_development&type=all#BookstoreTop
 
 ### Practical Enterprise React Become an Effective React Developer in Your Team by Devlin Basilan Duldulao, Ruby Jane Leyva Cabagnot (z-lib.org).pdf
 
+## React folder structure
+https://medium.com/@kolbysisk/react-folder-structure-for-enterprise-level-applications-f8384eff162b
+
 # reactjs twitter 🔴
 https://twitter.com/search?q=%23ReactJs
 
