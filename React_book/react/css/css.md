@@ -1,5 +1,8 @@
 https://developer.mozilla.org/ja/docs/Web/CSS/text-decoration 🔴
 
+🔴　studyページ
+https://www.w3schools.com/css/css_dropdowns.asp
+
 ```css
 “p.kaz {
   border-top-style: solid; border-color: skyblue;
