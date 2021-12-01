@@ -13,6 +13,14 @@ https://www.w3schools.com/css/css_dropdowns.asp
 text-decoration: underline;
 text-decoration: overline red;
 text-decoration: none;
+
+li {
+  float: left;
+}
+
+li {
+  display: inline;
+}
 ```
 
 抜粋:: Vickler, Andy  “Web development: Web design with CSS”。 Apple Books  
