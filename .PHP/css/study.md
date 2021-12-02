@@ -51,5 +51,15 @@ min-width と max-width を併用すると可読性が低下します。どち�
   color: var(--color-light);
   background-color: var(--color-dark);
 }
+
+.center {
+  box-sizing: content-box;
+  max-width: 60ch;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 ```
 https://www.wakuwakubank.com/posts/443-html-css-media-query/
