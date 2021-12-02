@@ -26,5 +26,30 @@ min-width と max-width を併用すると可読性が低下します。どち�
 :root {
   font-size: calc(1rem + 0.5vw); //1vw is equal to 1% of the screen’s width, and 1vh is equal to 1% of the screen’s height.
 }
+
+.box {
+  /* ↓ Padding set to the first point on the modular scale */
+  padding: var(--s1);
+  /* ↓ Assumes you have a --border-thin var */
+  border: var(--border-thin) solid;
+  /* ↓ Always apply the transparent outline, for high contrast mode */
+  outline: var(--border-thin) transparent;
+  outline-offset: calc(var(--border-thin) * -1);
+  /* ↓ The light and dark color vars */
+  --color-light: #fff;
+  --color-dark: #000;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+}
+.box * {
+  /* ↓ Force colors to inherit from the parent
+  and honor inversion (below) */
+  color: inherit;
+}
+.box.invert { //invert 
+  /* ↓ The color vars inverted */
+  color: var(--color-light);
+  background-color: var(--color-dark);
+}
 ```
 https://www.wakuwakubank.com/posts/443-html-css-media-query/
