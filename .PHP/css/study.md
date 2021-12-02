@@ -20,5 +20,9 @@ box-sizing: border-box;
  
 @media screen and (min-width: 768px) {/* スクリーンサイズが768px以上の場合に適用 */} 
 min-width と max-width を併用すると可読性が低下します。どちらか一方を利用することをおすすめします。
+
+:root {
+  font-size: calc(1rem + 0.5vw);
+}
 ```
 https://www.wakuwakubank.com/posts/443-html-css-media-query/
