@@ -24,7 +24,7 @@ box-sizing: border-box;
 min-width と max-width を併用すると可読性が低下します。どちらか一方を利用することをおすすめします。
 
 :root {
-  font-size: calc(1rem + 0.5vw);
+  font-size: calc(1rem + 0.5vw); //1vw is equal to 1% of the screen’s width, and 1vh is equal to 1% of the screen’s height.
 }
 ```
 https://www.wakuwakubank.com/posts/443-html-css-media-query/
