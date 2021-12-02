@@ -1,3 +1,6 @@
+# flex ok 💮
+https://medium.com/swlh/css-flexbox-fundamentals-visual-guide-1c467f480dac
+
 Every layout relearn CSS layout by example by Heydon Pickering Andy Bell (z-lib.org).pdf 💮 css + js
 ## content, padding, border, and margin.
 
