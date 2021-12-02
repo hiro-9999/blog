@@ -1,4 +1,4 @@
-Every layout relearn CSS layout by example by Heydon Pickering Andy Bell (z-lib.org).pdf
+Every layout relearn CSS layout by example by Heydon Pickering Andy Bell (z-lib.org).pdf 💮 css + js
 ## content, padding, border, and margin.
 
 inline elements grow horizontally, and block elements grow vertically.
@@ -59,6 +59,19 @@ min-width と max-width を併用すると可読性が低下します。どち�
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.cluster {
+  /* ↓ Set the Flexbox context */
+  display: flex;
+  /* ↓ Enable wrapping */
+  flex-wrap: wrap;
+  /* ↓ Set the space/gap */
+  gap: var(--space, 1rem);
+  /* ↓ Choose your justification (flex-start is default) */
+  justify-content: center;
+  /* ↓ Choose your alignment (flex-start is default) */
   align-items: center;
 }
 ```
