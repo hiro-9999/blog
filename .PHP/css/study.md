@@ -9,6 +9,8 @@ box-sizing: border-box;
 
 1rem = 16px
 
+# 1vw is equal to 1% of the screen’s width, and 1vh is equal to 1% of the screen’s height.
+
 ```css
 @media screen and (max-width: 1000px) {/* スクリーンサイズが1000px以下の場合に適用 */} 
  
