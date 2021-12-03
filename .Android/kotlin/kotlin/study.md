@@ -1,6 +1,9 @@
 # Kotlin Playground
 https://play.kotlinlang.org/
 
+# Head First Android Development, 3rd Edition by Dawn Griffiths  David Griffiths (z-lib.org).pdf  learning -->ok
+https://github.com/dogriffiths/HeadFirstAndroid3rdEd
+
 # java to kotlin 💮
 https://java-to-kotlin.dev
 
