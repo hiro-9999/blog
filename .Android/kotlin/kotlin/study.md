@@ -4,6 +4,9 @@ https://play.kotlinlang.org/
 # java to kotlin 💮
 https://java-to-kotlin.dev
 
+# plus apply also -->ok
+https://www.cnblogs.com/qianduanpiaoge/p/15348263.html
+
 ### test book
 “Test-Driven Development By Example by Kent Beck (Addison-Wesley) and Growing Object-Oriented Software Guided By Tests by Steve Freeman and Nat Pryce (Addison-Wesley). ”
 
