@@ -1,4 +1,4 @@
-SceneKit
+# SceneKit
 （全景视频播放器需使用SpriteKit，这里主要先介绍图片播放器，之后再讲视频播放器）
 SceneKit是什么？
 
@@ -7,5 +7,12 @@ SceneKit是一个高级的3D图形框架，它帮助您在应用程序中创建3
 
 作者：_小沫
 链接：https://www.jianshu.com/p/043e0e2abdb7
+
+
+# 、WebGL与threeJS
+WebGL是一种3D绘图协议，其允许JavaScript和OpenGL ES2.0结合在一起，为H5 Canvas提供硬件3D加速渲染，可以借助系统显卡在浏览器里更流畅地显示3D场景和模型。Threejs是一款webGL框架，由于其易用性被广泛应用。Threejs在WebGL的api接口基础上，又进行了一层封装。
+
+作者：患者_
+链接：https://www.jianshu.com/p/212e6e315b58
 来源：简书
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
