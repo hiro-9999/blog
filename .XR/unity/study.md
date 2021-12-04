@@ -1,3 +1,7 @@
+# 高橋　忍　shinoku good
+https://www.moguravr.com/xr-kaigi-2020-making-xr-app-unity-explains/
+
+
 # Godot 
 https://causlayer.orgs.hk/GodotVR/godot_openhmd
 
