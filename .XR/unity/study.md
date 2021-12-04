@@ -16,3 +16,10 @@ WebGL是一种3D绘图协议，其允许JavaScript和OpenGL ES2.0结合在一起
 链接：https://www.jianshu.com/p/212e6e315b58
 来源：简书
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
+# SceneKIt+ AVFoundation 打造VR播放器(1)
+支持VR，全景，视频缩放，本地，网络视频播放，实时获取视频帧，获取播放时间，获取缓存时间，播放，暂停
+https://www.jianshu.com/p/dab4950e813e
+
+https://github.com/hhjdk/SCN3DPlayer
