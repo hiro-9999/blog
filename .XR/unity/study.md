@@ -1,4 +1,4 @@
-# 高橋　忍　shinoku good
+# 高橋　忍　shinoku good https://learning.unity3d.jp/speaker/shinobu-takahashi/
 https://www.moguravr.com/xr-kaigi-2020-making-xr-app-unity-explains/
 
 https://m.youtube.com/watch?v=eIfe_XL1D4Q
