@@ -1,0 +1,11 @@
+SceneKit
+（全景视频播放器需使用SpriteKit，这里主要先介绍图片播放器，之后再讲视频播放器）
+SceneKit是什么？
+
+SceneKit is a high-level 3D graphics framework that helps you create 3D animated scenes and effects in your apps. It incorporates a physics engine, a particle generator, and easy ways to script the actions of 3D objects so you can describe your scene in terms of its content — geometry, materials, lights, and cameras — then animate it by describing changes to those objects.
+SceneKit是一个高级的3D图形框架，它帮助您在应用程序中创建3D动画场景和效果。它包含了一个物理引擎，一个粒子发生器，以及简单的方法来编写3D对象的动作脚本，这样你就可以用它的内容来描述你的场景——几何，材料，灯光和摄像机——然后通过描述这些对象的变化来动画它。
+
+作者：_小沫
+链接：https://www.jianshu.com/p/043e0e2abdb7
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
