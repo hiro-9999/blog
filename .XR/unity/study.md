@@ -1,3 +1,6 @@
+https://causlayer.orgs.hk/OpenHMD/OpenHMD
+
+
 # SceneKit
 （全景视频播放器需使用SpriteKit，这里主要先介绍图片播放器，之后再讲视频播放器）
 SceneKit是什么？
