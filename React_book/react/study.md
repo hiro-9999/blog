@@ -3,6 +3,15 @@
 reading
 https://github.com/jrlarsen/react-hooks-in-action
 
+```react
+ Stateful function components (useState, useReducer)
+ Context API (useContext)
+ Cleaner side-effect management (useEffect)
+ Simple but powerful code reuse patterns (custom hooks)  Code splitting (lazy)
+ Faster initial loading and intelligent rendering (Concurrent Mode—experimental)  Better feedback for loading states (Suspense, useTransition)
+ Powerful debugging, inspection, and profiling (Development Tools and Profiler)  Targeted error handling (error boundaries)
+```
+
 # web前端自学路线 需要整理 ？？？？
 https://www.toutiao.com/a7035797750381838881/?channel=&source=search_tab
 
