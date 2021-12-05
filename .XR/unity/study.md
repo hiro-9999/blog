@@ -3,6 +3,9 @@ https://www.moguravr.com/xr-kaigi-2020-making-xr-app-unity-explains/
 
 https://m.youtube.com/watch?v=eIfe_XL1D4Q
 
+# unity as library
+https://learning.unity3d.jp/4578/
+
 
 # Godot 
 https://causlayer.orgs.hk/GodotVR/godot_openhmd
