@@ -6,6 +6,8 @@ https://m.youtube.com/watch?v=eIfe_XL1D4Q
 # player 360
 https://www.youtube.com/watch?v=RxlQnPcOoYc
 
+https://forpro.unity3d.jp/unity_pro_tips/2019/08/19/187/
+
 # unity as library
 https://learning.unity3d.jp/4578/
 
