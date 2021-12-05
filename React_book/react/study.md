@@ -5,6 +5,8 @@ https://github.com/jrlarsen/react-hooks-in-action
 
 https://usehooks.com
 
+npx create-react-app react-hooks-in-action
+
 ```react
  Stateful function components (useState, useReducer)
  Context API (useContext)
