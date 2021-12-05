@@ -1,3 +1,8 @@
+
+# React Hooks in Action With Suspense and Concurrent Mode by John Larsen (z-lib.org).pdf
+reading
+https://github.com/jrlarsen/react-hooks-in-action
+
 # web前端自学路线 需要整理 ？？？？
 https://www.toutiao.com/a7035797750381838881/?channel=&source=search_tab
 
