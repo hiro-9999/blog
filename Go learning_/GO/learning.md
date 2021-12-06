@@ -1,3 +1,9 @@
+### Go Building Web Applications by Nathan Kozyra, Mat Ryer (z-lib.org).pdf is old
+
+https://github.com/PacktPublishing/Go-Building-Web-Applications
+
+
+
 # go.dev 
 https://go.dev
 
