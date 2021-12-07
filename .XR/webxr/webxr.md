@@ -1,7 +1,9 @@
-//aframe:
+AR and VR Using the WebXR API Learn to Create Immersive Content with WebGL, Three.js, and A-Frame by Rakesh Baruah (z-lib.org).pdf
+
+### aframe:
 https://aframe.io/docs/1.2.0/introduction/vr-headsets-and-webvr-browsers.html
 
-// get device
+### get device
 There are several utility functions in A-Frame we can use to detect compatibility: https://aframe.io/docs/master/core/utils.html
 
 The mobile-related utils look at navigator.userAgent. The VR-related utils check to see if the pose data returned from the headset/polyfill is not 0,0,0.
