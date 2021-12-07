@@ -1,6 +1,12 @@
+https://github.com/immersive-web/webxr/issues/550
+
 
 #news
 https://vrscout.com
+
+# デバイスの取得
+https://developer.mozilla.org/ja/docs/Games/Techniques/3D_on_the_web/WebVR
+
 
 # WebXRでのコントローラ入力
 https://www.crossroad-tech.com/entry/babylonjs-webxr-vr2
