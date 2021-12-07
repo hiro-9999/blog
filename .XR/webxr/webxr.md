@@ -18,3 +18,6 @@ GearVR: AFRAME.utils.isGearVR()
 Oculus Rift: !AFRAME.utils.isMobile() && AFRAME.utils.checkHeadsetConnected()
 HTC Vive: !AFRAME.utils.isMobile() && AFRAME.utils.checkHeadsetConnected()
 To differentiate Rift vs. Vive, try using WebVR API Stage Parameters https://w3c.github.io/webvr/#interface-vrstageparameters
+
+
+https://stackoverflow.com/questions/38984951/how-to-detect-desktop-vs-mobile-vs-gearvr-vs-oculus-rift-vs-vive-in-a-frame
