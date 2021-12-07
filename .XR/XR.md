@@ -1,3 +1,6 @@
+# unity doc
+https://docs.unity3d.com/ja/2020.1/Manual/LightingOverview.html
+
 https://github.com/immersive-web/webxr/issues/550
 
 
