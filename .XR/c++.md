@@ -1,3 +1,7 @@
+## 頂点プログラム
+https://docs.unity3d.com/jp/540/Manual/SL-VertexProgramInputs.html
+
+
 ## Oculus Rift に図形を表示するプログラムを C++ で作る good
 https://marina.sys.wakayama-u.ac.jp/~tokoi/
 
