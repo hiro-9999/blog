@@ -1,7 +1,28 @@
 
 
 https://mp.weixin.qq.com/s/-rd_cYyUfDczTbFJfaOHtQ
+
 ```
+深度探索 C++ 对象模型
+
+提高C++性能的编程技术
+
+C++ API 设计》 和 《大规模 C++ 程序设计》
+
+《汇编（第三版）》 和韩宏老师的《老码识途 从机器码到框架的系统观逆向修炼之路》 
+
+《程序员的自我修养》和 《Windows 核心编程》
+
+《TCP/IP 网络编程》和《Linux 高性能服务器编程》
+
+《深入理解 C++11：C++11 新特性解析与应用》
+《深入应用 C++11：代码优化与工程级应用》
+《C++17 完全指南》
+《Cpp 17 in Detail》
+
+---------------------------------------------------------------
+
+
 手册类：
 《C++程序设计语言(The C++ Programming Language)》
 《C++标准程序库(C++ Standard Library Tutorial and Reference) 》
