@@ -1,4 +1,8 @@
-# Oculus Rift に図形を表示するプログラムを C++ で作る good
+## Oculus Rift に図形を表示するプログラムを C++ で作る good
 https://marina.sys.wakayama-u.ac.jp/~tokoi/
+
+
+[OpenGL][GLSL] 粒子のレンダリング (2) ポイントの移動
+https://marina.sys.wakayama-u.ac.jp/~tokoi/?date=20181018
 
 https://github.com/BIVROST/360WebPlayer
