@@ -1,3 +1,7 @@
+## unity doc
+https://docs.unity3d.com/cn/current/Manual/LightingOverview.html
+
+
 ## 頂点プログラム
 https://docs.unity3d.com/jp/540/Manual/SL-VertexProgramInputs.html
 
