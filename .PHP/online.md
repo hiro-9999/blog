@@ -1,3 +1,6 @@
+# local server
+https://ngrok.com/docs
+
 # online 🔴
 https://syncer.jp/Web/PHP/Reference/Function/array_intersect/
 
