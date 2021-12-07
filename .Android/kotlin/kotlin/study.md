@@ -1,3 +1,6 @@
+## Atomic Kotlin by Bruce Eckel and Svetlana Isakova (z-lib.org).mobi
+https://github.com/BruceEckel/AtomicKotlinExamples
+
 # Kotlin Playground
 https://play.kotlinlang.org/
 
