@@ -7,6 +7,8 @@ https://www.codegrid.net/articles/2020-webxr-1/
 
 https://www.mitsue.co.jp/knowledge/blog/frontend/201912/13_0000.html
 
+https://zenn.dev/ikkou/articles/c2832ccbe6a078
+
 ```
 inlineモードでは単一のビューで出力されるのに対して、immersive-vrとimmersive-arモードでは画面が自動的に2分割されます。デバイスが各モードに対応しているかどうかはXRオブジェクトが持っているisSessionSupportedメソッドを使用します。
 
