@@ -1,3 +1,6 @@
+# local server
+https://ngrok.com/docs
+
 # DL
 https://clipgrab.jp.malavida.com/mac/#gref
 
