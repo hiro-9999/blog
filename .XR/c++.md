@@ -13,7 +13,10 @@ https://developer.mozilla.org/ja/docs/Web/API/WebXR_Device_API
 # webGL
 https://developer.mozilla.org/zh-CN/docs/Web/API/WebGL_API/Tutorial/Adding_2D_content_to_a_WebGL_context
 
-# opengl
+# opengl　doc
+https://www.khronos.org/files/opengles_shading_language.pdf
+
+## 先生
 https://tokoik.github.io/opengl/libglut.html
 
 [OpenGL][GLSL] 粒子のレンダリング (2) ポイントの移動
