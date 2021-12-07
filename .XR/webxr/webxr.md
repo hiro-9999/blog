@@ -3,6 +3,22 @@ AR and VR Using the WebXR API Learn to Create Immersive Content with WebGL, Thre
 ### aframe:
 https://aframe.io/docs/1.2.0/introduction/vr-headsets-and-webvr-browsers.html
 
+VRDisplay.displayName
+
+```js
+  if (navigator.getVRDisplays) {
+    navigator.getVRDisplays().then(function (displays) {
+      var sceneEl = document.querySelector('a-scene');
+      vrDisplay = displays.length && displays[0];
+      if (sceneEl) { sceneEl.emit('displayconnected', {vrDisplay: vrDisplay}); }
+    });
+  }
+}
+
+function getVRDisplay () { return vrDisplay; }
+module.exports.getVRDisplay = getVRDisplay;
+```
+
 ### get device
 There are several utility functions in A-Frame we can use to detect compatibility: https://aframe.io/docs/master/core/utils.html
 
