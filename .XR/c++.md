@@ -28,9 +28,10 @@ https://marina.sys.wakayama-u.ac.jp/~tokoi/?date=20181018
 
 https://github.com/BIVROST/360WebPlayer
 
- 
+ ## Unity はいくつかのレンダリング API （すなわち Direct3D 9 と OpenGL ）をサポート
 ``` opengl
 https://docs.unity3d.com/jp/540/Manual/SL-ShaderPrograms.html
+
 d3d9 - Direct3D 9.
 d3d11 - Direct3D 11/12.
 glcore - OpenGL 3.x/4.x.
