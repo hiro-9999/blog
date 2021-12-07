@@ -27,3 +27,21 @@ https://tokoik.github.io/opengl/libglut.html
 https://marina.sys.wakayama-u.ac.jp/~tokoi/?date=20181018
 
 https://github.com/BIVROST/360WebPlayer
+
+ 
+``` opengl
+https://docs.unity3d.com/jp/540/Manual/SL-ShaderPrograms.html
+d3d9 - Direct3D 9.
+d3d11 - Direct3D 11/12.
+glcore - OpenGL 3.x/4.x.
+gles - OpenGL ES 2.0.
+gles3 - OpenGL ES 3.x.
+metal - iOS/Mac Metal.
+d3d11_9x - 一般的には WSA プラットフォーム上で使用される Direct3D 11 9.x フィーチャーレベル。
+xbox360 - Xbox 360.
+xboxone - Xbox One.
+ps4 - PlayStation 4.
+psp2 - PlayStation Vita.
+n3ds - Nintendo 3DS.
+wiiu - Nintendo Wii U.
+```
