@@ -2,6 +2,9 @@
 #news
 https://vrscout.com
 
+# WebXRでのコントローラ入力
+https://www.crossroad-tech.com/entry/babylonjs-webxr-vr2
+
 # ar webxr api
 https://www.codegrid.net/articles/2020-webxr-1/
 
