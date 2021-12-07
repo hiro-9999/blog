@@ -4,3 +4,18 @@ https://vrscout.com
 
 # ar webxr api
 https://www.codegrid.net/articles/2020-webxr-1/
+
+https://www.mitsue.co.jp/knowledge/blog/frontend/201912/13_0000.html
+
+```
+inlineモードでは単一のビューで出力されるのに対して、immersive-vrとimmersive-arモードでは画面が自動的に2分割されます。デバイスが各モードに対応しているかどうかはXRオブジェクトが持っているisSessionSupportedメソッドを使用します。
+
+const isSupportVR = await navigator.xr.isSessionSupported( 'immersive-vr' );
+XRSessionオブジェクト
+XRデバイスに描画したり、ユーザーの姿勢（頭の傾き、スマートフォンの回転角など）を得るなどのブラウザとXRデバイスの連携はXRSessionオブジェクトを通して行われます。XRSessionはXRオブジェクトが持つrequestSessionメソッドを実行すると取得できます。
+
+const vrSession = await navigator.xr.requestSession( "immersive-vr" );
+requestSessionを実行するとデバイス側にプロンプトが表示されます。以下はAndroid Chromeでの表示です。
+
+
+```
