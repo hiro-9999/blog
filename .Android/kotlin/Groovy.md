@@ -79,6 +79,11 @@ on functions and minimizes changes of state (using immutable data structures). I
 Some languages allow you such freedom that you can create a DSL inside the language. For example, Groovy and Scala allow you to override the math symbols (+, -, etc.). The other freedoms of these languages (optional parentheses and semicolons) allow for DSL-like interfaces. We call these DSL-like interfaces fluent interfaces.
 You can also create fluent interfaces in Java and other languages. The following sections discuss building a DSL with Groovy.
 
-Modern Programming Made Easy Using Java, Scala, Groovy, and JavaScript by Adam L. Davis (z-lib.org).pdf
+### Modern Programming Made Easy Using Java, Scala, Groovy, and JavaScript by Adam L. Davis (z-lib.org).pdf
+UX: User experience. The total experience of using an application
+UI: User interface. The web page or graphical interface used by the user
+KISS: Keep it simple, stupid. An overall design concept
+RWD: Responsive Web Design (an approach to web design allowing web pages to render in many different devices)
+
 # Java Groovy Scala
 In Java, the compiler is called javac; in Groovy it is groovyc; and it is scalac in Scala (see a trend here?). All three of these languages can be compiled to bytecode and run on the JVM.
