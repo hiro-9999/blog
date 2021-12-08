@@ -1,5 +1,9 @@
 # gradle
 https://gradle.org
+$ ./gradlew build --scan
+
+https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html
+
 
 # Groovy 1.4
 https://groovy.apache.org/download.html
