@@ -7,6 +7,7 @@ https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html
 
 https://docs.gradle.org/current/userguide/groovy_build_script_primer.html
 ### Grails
+http://views.grails.org/latest/
 Grails is a web framework for Groovy that follows the example of Ruby on Rails (hence Grails). It is an opinionated web framework with a command- line tool that gets things done really fast. 
 ```gradle
 gradle.taskGraph.beforeTask 
