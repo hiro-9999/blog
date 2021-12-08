@@ -1,3 +1,5 @@
+https://go.dev/doc/
+
 https://go.dev/dl/
 
 ## ok 🔴
