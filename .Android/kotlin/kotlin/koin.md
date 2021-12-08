@@ -2,6 +2,9 @@ https://insert-koin.io/docs/reference/koin-core/start-koin
 
 https://roadmap.sh/android
 
+// this good
+https://blog.csdn.net/weixin_45365889/article/details/100566332?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-2-100566332.pc_agg_new_rank&utm_term=koin+%E4%BD%BF%E7%94%A8&spm=1000.2123.3001.4430
+
 https://github.com/CaesarShao/CSKoin
 
 https://blog.csdn.net/Shaojihan/article/details/104349741?utm_term=koin%E4%BD%BF%E7%94%A8&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-1-104349741&spm=3001.4430
