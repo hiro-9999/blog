@@ -1,10 +1,36 @@
 # gradle
 https://gradle.org
+
 $ ./gradlew build --scan
 
 https://docs.gradle.org/current/samples/sample_building_kotlin_libraries.html
 
 https://docs.gradle.org/current/userguide/groovy_build_script_primer.html
+```gradle
+gradle.taskGraph.beforeTask 
+
+gradle.taskGraph.beforeTask { Task task ->
+    if (task.name ==~ /process.*GoogleServices/) {
+        android.applicationVariants.all { variant ->
+            if (task.name ==~ /(?i)processDev.*GoogleServices/) {
+                copy {
+                    from "src/dev"
+                    into "."
+                    include "google-services.json"
+                }
+            } else {
+                copy {
+                    from "src/prd"
+                    into "."
+                    include "google-services.json"
+                }
+            }
+        }
+    }
+}
+https://qiita.com/farman0629/items/11c498af824f02a484b6
+```
+
 
 
 # Groovy 1.4
