@@ -1,5 +1,19 @@
+# maproad
+https://roadmap.sh/android
+
+# google devlop
+https://developer.android.com/guide
+
+### RxJava, RxKotlin workmanager
+Reactive Programming with Kotlin (First Edition) Learn Rx with RxJava, RxKotlin, and RXAndroid by Alex Sullivan, Marin Todorov, Scott Gardner, Florent Pillet, Junior Bontognali (z-lib.org).pdf
+
+https://developer.android.com/topic/libraries/architecture/workmanager/basics
+
+
+
 ## Atomic Kotlin by Bruce Eckel and Svetlana Isakova (z-lib.org).mobi
 https://github.com/BruceEckel/AtomicKotlinExamples
+
 
 # Kotlin Playground
 https://play.kotlinlang.org/
