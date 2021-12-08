@@ -1,6 +1,10 @@
 ### 官方文档
 https://go-zh.org/doc/
 
+Go 1.17 is released
+Matt Pearring and Alex Rakoczy
+16 August 2021
+
 ### Go指南，练习一遍
 https://go-tour-jp.appspot.com/moretypes/1
 
