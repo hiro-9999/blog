@@ -29,6 +29,39 @@ gradle.taskGraph.beforeTask { Task task ->
     }
 }
 https://qiita.com/farman0629/items/11c498af824f02a484b6
+
+android {
+//　略
+    flavorDimensions "mode", "api"
+    productFlavors {
+        dev {
+            dimension "mode"
+            applicationIdSuffix '.dev'
+        }
+        prd {
+            dimension "mode"
+        }
+
+        minApi23 {
+            dimension "api"
+            minSdkVersion '23'
+        }
+
+        minApi21 {
+            dimension "api"
+            minSdkVersion '21'
+        }
+    }
+
+    buildTypes {
+        debug {
+           // 略
+        }
+        release {
+           // 略
+        }
+    }
+}
 ```
 
 
