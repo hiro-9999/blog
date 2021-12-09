@@ -1,4 +1,8 @@
 AR and VR Using the WebXR API Learn to Create Immersive Content with WebGL, Three.js, and A-Frame by Rakesh Baruah (z-lib.org).pdf
+
+# xr doc
+https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API/Inputs
+
 ### GLTF format
 https://www.codegrid.net/articles/2018-gltf-1/
 
