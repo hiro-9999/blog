@@ -2,6 +2,8 @@
 Building Distributed Applications in Gin A hands-on guide for Go developers to build and deploy distributed web apps with the Gin framework by Mohamed Labouardy (z-lib.org).pdf
 https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin
 
+### Pipeline as Code: Continuous Delivery with Jenkins, Kubernetes, and Terraform
+
 ## Learn Grafana 7.0 book
 A comprehensive introduction to help you get up and running with creating interactive dashboards to visualize and monitor time-series data in no time
 
