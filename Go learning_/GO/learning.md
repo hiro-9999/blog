@@ -1,6 +1,6 @@
 # book looking
 Building Distributed Applications in Gin A hands-on guide for Go developers to build and deploy distributed web apps with the Gin framework by Mohamed Labouardy (z-lib.org).pdf
-
+https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin
 
 ## Goの言語仕様
 https://go.dev/ref/spec
