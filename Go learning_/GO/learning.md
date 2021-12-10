@@ -8,6 +8,10 @@ A comprehensive introduction to help you get up and running with creating intera
 
 ## Hands-On Infrastructure Monitoring with Prometheus  book
  reliable monitoring and alerting system to sustain infrastructure security and performance
+ 
+ ### Prometheus
+ https://knowledge.sakura.ad.jp/27501/
+ Prometheusは時系列のデータベースを採用しているPull型のデータモデルを持っていて、Service Discovery（サービスディスカバリ）という機能によって（監視の対象の）ターゲットを自動的に追従してくれます。さらにPromQL（プロムキューエル）という専用のクエリ言語がありまして、これを使うことによってシンプルかつ柔軟なクエリを発行することができます。それから、多種多様なExporter（エクスポータ）というものが用意されています。いわゆる監視エージェントですね。これを使うことによって、サーバだけではなく特定のソフトウェアとかサービスなど、いろいろなものを監視することができます。
 
 ## Goの言語仕様
 https://go.dev/ref/spec
