@@ -2,6 +2,8 @@
 
 抜粋:: [美] Michael Fogus 福格斯 Chris Houser 豪泽  “Clojure编程乐趣(第2版)”。 Apple Books  
 
+https://qiita.com/MeguruMokke/items/c6e059f109122be5f991
+
 https://openstandia.jp/oss_info/clojure/
 
 https://japan-clojurians.github.io/clojure-site-ja/guides/learn/syntax
