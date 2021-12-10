@@ -1,3 +1,9 @@
+## Goの言語仕様
+https://go.dev/ref/spec
+
+### Java 17の言語仕様
+https://docs.oracle.com/javase/specs/jls/se17/jls17.pdf
+
 ### Go Building Web Applications by Nathan Kozyra, Mat Ryer (z-lib.org).pdf is old
 
 https://github.com/PacktPublishing/Go-Building-Web-Applications
