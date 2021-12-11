@@ -7,6 +7,28 @@ https://zetcode.com/golang/interface/
 
 ## book
 Learning Go Programming Build Scalable Next-Gen Web Application using Golang (English Edition) by Shubhangi Agarwal (z-lib.org).pdf
+```go
+import "sync"
+
+wg *sync.WaitGroup
+wg.Done()
+
+func show_value1(c int, wg *sync.WaitGroup){
+for c<110{
+fmt.Println(c)
+time.Sleep(200 * time.Millisecond)
+c = c+1
+}
+wg.Done()
+}
+
+var wg sync.WaitGroup
+wg.Add(2)
+go show_value(0, &wg)
+fmt.Println("We have called a goroutine show_value") go show_value1(100, &wg)
+fmt.Println("We have called a goroutine show_value1") wg.Wait()
+fmt.Println("Done")
+```
 
 ### Pipeline as Code: Continuous Delivery with Jenkins, Kubernetes, and Terraform
 
