@@ -1,6 +1,49 @@
 # online
 https://go.dev/play/
 
+```go
+package main
+
+import (
+	"fmt"
+	"time"
+)
+
+func runLoopSend(n int, ch chan int) {
+	for i := 0; i < n; i++ {
+		fmt.Println("send value:", i)
+		ch <- i
+	}
+	fmt.Println("send value finished")
+	close(ch)
+}
+func runLoopReceive(ch chan int) {
+for i := range ch {
+    fmt.Println("Received value:", i)
+  }
+	/*for {
+		i, ok := <-ch
+		if !ok {
+			fmt.Println("Received error:", ok)
+			break
+		}
+		fmt.Println("Received value:", i)
+	}*/
+}
+
+func main() {
+	myChannel := make(chan int)
+	go runLoopSend(10, myChannel)
+	go runLoopReceive(myChannel)
+	time.Sleep(2 * time.Second)
+}
+
+
+
+
+抜粋:: Mina Andrawos  “Hands-On Full Stack Development with Go”。 Apple Books  
+```
+
 # 学习中
 https://go.dev/tour/methods/10  is good
 
