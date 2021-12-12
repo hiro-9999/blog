@@ -1,3 +1,6 @@
+# 学习中
+https://go.dev/tour/concurrency/9
+
 # good book !  need to doing
 Building Distributed Applications in Gin A hands-on guide for Go developers to build and deploy distributed web apps with the Gin framework by Mohamed Labouardy (z-lib.org).pdf
 https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin
