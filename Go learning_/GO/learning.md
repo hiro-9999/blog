@@ -4,6 +4,15 @@ https://go.dev/play/
 ### mutex select ???
 
 ```go
+“  err = trace.Start(f)
+    if err != nil {
+        panic(err)
+    } 
+
+    defer trace.Stop()”
+
+抜粋:: Bob Strecansky  “Hands-On High Performance with Go”。 Apple Books  
+
 package main
 
 import (
