@@ -1,4 +1,6 @@
 # 学习中
+https://go.dev/tour/methods/10  is good
+
 https://go.dev/tour/concurrency/9
 
 # good book !  need to doing
