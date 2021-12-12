@@ -1,3 +1,6 @@
+# online
+https://go.dev/play/
+
 # 学习中
 https://go.dev/tour/methods/10  is good
 
