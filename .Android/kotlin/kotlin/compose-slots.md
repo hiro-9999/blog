@@ -1,5 +1,9 @@
 # DSL
+ Kotlin-based domain-specific languages (DSLs)
+ 
 https://developer.android.com/jetpack/compose/kotlin?hl=ja#dsl
+
+https://kotlinlang.org/docs/type-safe-builders.html#full-definition-of-the-com-example-html-package
 
 ## @Composable
 https://developer.android.com/jetpack/compose/lists?hl=ja
