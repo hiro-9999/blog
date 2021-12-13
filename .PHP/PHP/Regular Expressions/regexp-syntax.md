@@ -1,4 +1,19 @@
+```php
+<?php
+$str = "123-4567";
+if(preg_match('/^[0-9]{3}-[0-9]{4}$/', $str)) {
+  echo "マッチします。";
+}else{
+  echo "マッチしません。";
+}
+?>
+```
+https://www.webdesignleaves.com/pr/php/php_basic_03.php
+
+
 https://www.runoob.com/regexp/regexp-syntax.html
+
+
 
 ### exp1(?=exp2)：查找 exp2 前面的 exp1。
 ## 反向引用
