@@ -2,6 +2,9 @@
 
 抜粋:: Boro Sitnikovski  “Introducing Blockchain with Lisp”。 Apple Books  
 
+## book
+https://buildyourownlisp.com/contents
+
 
 “LFSP（聪明人的语言，Language For Smart People）　设计目标主要是追求功能强大而不是保证安全性的编程语言。”
 
