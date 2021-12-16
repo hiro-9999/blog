@@ -1,3 +1,9 @@
+## unity + webxr
+https://blog.csdn.net/weixin_42129718/article/details/113876958
+
+https://github.com/MozillaReality/unity-webxr-export/blob/master/docs/project-setup.md
+
+
 AR and VR Using the WebXR API Learn to Create Immersive Content with WebGL, Three.js, and A-Frame by Rakesh Baruah (z-lib.org).pdf
 
 https://developer.mozilla.org/zh-CN/docs/Web/API/WebXR_Device_API
