@@ -1,4 +1,4 @@
-# navigator​.xr
+# navigator​.xr. good 🔴
 https://whatwebcando.today/vr.html
 
 ## unity + webxr
