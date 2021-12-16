@@ -13,3 +13,8 @@ Cobra is both a library for creating powerful modern CLI applications as well as
 https://github.com/go-gorm
 
 The fantastic ORM library for Golang aims to be developer friendly.
+#### doc
+https://gorm.io/docs/create.html
+
+#### chinese doc
+https://learnku.com/docs/gorm/v2/about-mirror-image/9754
