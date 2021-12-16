@@ -1,6 +1,10 @@
 # navigator​.xr. good 🔴
 https://whatwebcando.today/vr.html
 
+
+### WebXR API Emulator good 🔴
+https://addons.mozilla.org/en-US/firefox/addon/webxr-api-emulator/
+
 ## unity + webxr
 https://blog.csdn.net/weixin_42129718/article/details/113876958
 
