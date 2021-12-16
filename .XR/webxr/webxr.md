@@ -1,5 +1,10 @@
 AR and VR Using the WebXR API Learn to Create Immersive Content with WebGL, Three.js, and A-Frame by Rakesh Baruah (z-lib.org).pdf
 
+https://developer.mozilla.org/zh-CN/docs/Web/API/WebXR_Device_API
+
+### VRデバイスが接続されていればENTER VRボタンを押すことでVRモードに移行することができるのサンプル
+https://immersive-web.github.io/webxr-samples/stereo-video.html
+
 # xr doc
 https://developer.mozilla.org/en-US/docs/Web/API/WebXR_Device_API/Inputs
 
