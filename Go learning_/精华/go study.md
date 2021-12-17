@@ -41,6 +41,15 @@ $GOOS_$GOARCH 命名的，Mac 平台上这个目录名就是 darwin_amd64。
 # go env 🔴 good 　初探 Go 的编译命令执行过程
 https://halfrost.com/go_command/
 
+《GO 命令教程》　　good
+https://github.com/hyper0x/go_command_tutorial
+
+3.《Go 包管理的前世今生》
+https://www.infoq.cn/article/history-go-package-management
+
+4.《初窥Go module》
+https://tonybai.com/2018/07/15/hello-go-module/
+
 ```GO
 compiler
 go build：compile packages and dependencies
