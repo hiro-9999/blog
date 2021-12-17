@@ -18,8 +18,29 @@ GOHOSTOS：程序运行环境的目标操作系统。
 GOHOSTARCH：程序运行环境的目标计算架构。
 GOROOT：Golang 安装根目录。
 GOPATH：Golang 工作区目录，可以包含多个目录，每一个工作区目录之下包含三个子文件夹。
+
+GOPATH && go get
+GOPATH 是工作区目录，编译过程中会按照 GOPATH 中路径的顺序寻找对应的依赖包。
+go get 会根据包地址将包代码下载到 GOPATH 中首个路径的 src 目录。
+这是最初版本的 Golang 包管理，可以通过 GOPATH 管理业务代码与依赖库目录。
+
+
+0x04 Thirdparty Dependences ？？？
+
+Protobuf
+
+protoc 生成 Go 文件，需要使用 protoc-gen-go 插件。如果需要支持 service 生成，需要使用 grpc 子插件。
+Go 语言独立的包依赖，所以需要在 .proto 文件指定 go_package 选项。
+
+Blade 是内部开源项目，部分功能满足公司内部特定场景需求。Bazel 适合类似 Google 统一代码库的超大型工程。两者差异化不大，所以选择了小而美，更适合公司内部使用的 Blade。
+
 ```
-https://www.toutiao.com/i6710153624028185100/?tt_from=copy_link&utm_campaign=client_share&timestamp=1639708405&app=news_article&utm_source=copy_link&utm_medium=toutiao_android&use_new_style=1&req_id=202112171033240101501702001A6F9198&share_token=ef3391ca-c110-47e7-a62e-623e9b278650&group_id=6710153624028185100&wid=1639708956725
+这里有两个隐藏的环境变量，GOOS 和 GOARCH。这两个环境变量是不用我们设置的，系统就默认的。GOOS 是 Go 所在的操作系统类型，GOARCH 是 Go 所在的计算架构。平台相关目录是以
+$GOOS_$GOARCH 命名的，Mac 平台上这个目录名就是 darwin_amd64。
+
+# go env 🔴 good 
+https://halfrost.com/go_command/
+
 ```GO
 compiler
 go build：compile packages and dependencies
