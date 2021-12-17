@@ -34,6 +34,18 @@ go list：list packages
 analyzer
 go vet：run go tool vet on packages
 go tool pprof
+
+go run
+仅针对 package main 的 Go 文件，且不支持 testing Go 文件。
+生成的相关库文件与可执行文件仅保留在临时工作区目录，并且会直接执行目标可执行文件。
+
+go build
+针对 package main 的 Go 文件会生成可执行文件，并且将可执行文件复制到当前目录（不是源代码所在目录）。
+针对其他 Go 文件只会做检查性的编译，不会链接生成可执行文件，也不会将库文件复制到当前目录。
+
+go install
+针对 package main 的 Go 文件会生成可执行文件，并且将相关库文件以包目录结构复制到 $GOPATH/pkg/ 目录，可执行文件将直接复制到 $GOPATH/bin 或 $GOBIN 目录。
+针对其他 Go 文件会将相关库文件以包目录结构复制到 $GOPATH/pkg/ 目录。
 ```
 
 ### Go指南，练习一遍
