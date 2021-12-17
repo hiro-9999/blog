@@ -1,6 +1,9 @@
 ### 官方文档
 https://go.dev/doc/
 
+#### Go语言很可能是第一个将代码风格强制统一的语言，例如Go语言要求public的变量必须以
+大写字母开头，private变量则以小写字母开头
+
 https://go-zh.org/doc/
 
 Go 1.17 is released
