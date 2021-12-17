@@ -38,7 +38,7 @@ Blade 是内部开源项目，部分功能满足公司内部特定场景需求�
 这里有两个隐藏的环境变量，GOOS 和 GOARCH。这两个环境变量是不用我们设置的，系统就默认的。GOOS 是 Go 所在的操作系统类型，GOARCH 是 Go 所在的计算架构。平台相关目录是以
 $GOOS_$GOARCH 命名的，Mac 平台上这个目录名就是 darwin_amd64。
 
-# go env 🔴 good 
+# go env 🔴 good 　初探 Go 的编译命令执行过程
 https://halfrost.com/go_command/
 
 ```GO
