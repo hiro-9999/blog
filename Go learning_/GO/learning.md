@@ -1,6 +1,13 @@
 # online
 https://go.dev/play/
 
+# “net/http 标准库提供了一个默认的多路复用器，这个多路复用器可以通过调用NewServeMux 函数来创建：
+mux := http.NewServeMux()”
+
+抜粋:: 郑兆雄 elib.cc  “Go Web编程（异步图书）(elib.cc)”。 Apple Books  
+https://github.com/sausheong/gwp
+
+
 ### mutex select ???
 
 ```go
