@@ -1,5 +1,9 @@
 npm update npm -g
 
+###  “deno run --unstable --allow-run reader.ts
+
+抜粋:: Fernando Doglio  “Introducing Deno”。 Apple Books  
+
 
 rm -rf /usr/local/lib/node_modules
 brew uninstall node
