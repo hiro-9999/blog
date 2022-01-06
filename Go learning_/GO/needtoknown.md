@@ -22,7 +22,16 @@ https://devcenter.heroku.com/ja/articles/gin-memcache
 
 https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-go
 
-// go ridis
+// go redis
+https://developer.redis.com/develop/golang/
+
+https://qiita.com/akubi0w1/items/8701c05fe7186ceee632
+
+https://www.asobou.co.jp/blog/web/redis
+
+https://selfnote.work/20210719/programming/golang/golang-redis/
+
+https://github.com/go-redis/redis
 
 // go cli
 
