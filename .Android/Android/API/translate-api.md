@@ -6,4 +6,6 @@ https://cloud.google.com/translate?hl=ja
 
 
 # Amazon Translate
+https://docs.aws.amazon.com/ja_jp/translate/latest/dg/get-started-cli.html
+
 https://hiromiick.com/decide-auto-translate-api/
