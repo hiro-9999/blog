@@ -1,8 +1,8 @@
-// aws + go
+# aws + go
 https://zenn.dev/kecy/articles/e2468760d22d8e
 
 
-// go + batch Golangでのバッチ処理
+# go + batch Golangでのバッチ処理
 https://blog.potproject.net/2019/03/06/golang-batch-practice
 
 https://www.xdata.jp/blogs/bigdata/go_lang.html
@@ -15,6 +15,11 @@ https://future-architect.github.io/articles/20210430b/
 
 # go + api
 https://simple-it-life.com/2021/05/08/go-api/
+
+https://www.cdatablog.jp/entry/golanghttpapi
+
+### Go の net/http
+https://free-engineer.life/golang-net-http-simple/
 
 https://chicog.me/articles/10/
 
