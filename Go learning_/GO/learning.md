@@ -1,6 +1,9 @@
 # online
 https://go.dev/play/
 
+# golang gin
+https://go.dev/doc/tutorial/web-service-gin
+
 # “net/http 标准库提供了一个默认的多路复用器，这个多路复用器可以通过调用NewServeMux 函数来创建：
 mux := http.NewServeMux()”
 
