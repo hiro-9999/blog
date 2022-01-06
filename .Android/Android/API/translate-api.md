@@ -3,3 +3,7 @@ https://recruit.gmo.jp/engineer/jisedai/blog/use_google-translate-api_for_transl
 # Google翻訳API
 
 https://cloud.google.com/translate?hl=ja
+
+
+# Amazon Translate
+https://hiromiick.com/decide-auto-translate-api/
