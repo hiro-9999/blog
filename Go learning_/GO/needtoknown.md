@@ -14,8 +14,24 @@ https://future-architect.github.io/articles/20210430b/
 
 
 // go + api
+https://simple-it-life.com/2021/05/08/go-api/
+
+https://chicog.me/articles/10/
+
+https://dev.classmethod.jp/articles/go-sample-rest-api/
+
+https://qiita.com/entaku0818/items/c29add790718c215381e
+
+https://engineering.mercari.com/blog/entry/2016-12-19-180000/
+
+https://zenn.dev/penguinshunya/scraps/db46ecac594094
 
 // go + web
+https://zenn.dev/tatsurom/articles/golang-simple-json-api
+
+
+
+
 
 // go + Memcache
 https://devcenter.heroku.com/ja/articles/gin-memcache
