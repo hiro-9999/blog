@@ -21,6 +21,9 @@ https://www.cdatablog.jp/entry/golanghttpapi
 ### Go の net/http https://github.com/golang/go/blob/master/src/net/http/http.go
 https://free-engineer.life/golang-net-http-simple/
 
+### Cookie も使いたい
+https://qiita.com/takayukioda/items/68c51c5a0e9757a882ee
+
 https://chicog.me/articles/10/
 
 https://dev.classmethod.jp/articles/go-sample-rest-api/
