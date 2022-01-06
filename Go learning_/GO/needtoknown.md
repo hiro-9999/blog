@@ -18,7 +18,7 @@ https://simple-it-life.com/2021/05/08/go-api/
 
 https://www.cdatablog.jp/entry/golanghttpapi
 
-### Go の net/http
+### Go の net/http https://github.com/golang/go/blob/master/src/net/http/http.go
 https://free-engineer.life/golang-net-http-simple/
 
 https://chicog.me/articles/10/
