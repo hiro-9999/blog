@@ -9,3 +9,5 @@ https://cloud.google.com/translate?hl=ja
 https://docs.aws.amazon.com/ja_jp/translate/latest/dg/get-started-cli.html
 
 https://hiromiick.com/decide-auto-translate-api/
+
+https://docs.aws.amazon.com/ja_jp/translate/latest/dg/what-is.html#what-is-languages
