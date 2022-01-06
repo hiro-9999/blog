@@ -13,7 +13,7 @@ https://dev.classmethod.jp/articles/aws-batch-golang-serverless-batch/
 https://future-architect.github.io/articles/20210430b/
 
 
-// go + api
+# go + api
 https://simple-it-life.com/2021/05/08/go-api/
 
 https://chicog.me/articles/10/
@@ -26,19 +26,19 @@ https://engineering.mercari.com/blog/entry/2016-12-19-180000/
 
 https://zenn.dev/penguinshunya/scraps/db46ecac594094
 
-// go + web
+# go + web
 https://zenn.dev/tatsurom/articles/golang-simple-json-api
 
 
 
 
 
-// go + Memcache
+# go + Memcache
 https://devcenter.heroku.com/ja/articles/gin-memcache
 
 https://elements.heroku.com/buildpacks/heroku/heroku-buildpack-go
 
-// go redis
+# go redis
 https://developer.redis.com/develop/golang/
 
 https://qiita.com/akubi0w1/items/8701c05fe7186ceee632
@@ -49,17 +49,20 @@ https://selfnote.work/20210719/programming/golang/golang-redis/
 
 https://github.com/go-redis/redis
 
-// go cli
+# go cli
 
-// go debug
+# go debug
 
-// go remote
+# go remote
 
-// go mysql
+# go mysql
 
-// go error
+# go ORM
+https://note.com/mkudo/n/n6482c47e9708
 
-// go + dev
+# go error
 
-// go + ci/cd
+# go + dev
+
+# go + ci/cd
 
