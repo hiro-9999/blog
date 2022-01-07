@@ -1,3 +1,9 @@
+
+ 
+# Learn Go with Tests. 🟡good
+https://quii.gitbook.io/learn-go-with-tests/
+https://github.com/quii/learn-go-with-tests
+
 # aws + go
 https://zenn.dev/kecy/articles/e2468760d22d8e
 
