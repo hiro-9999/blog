@@ -1,6 +1,14 @@
 # CLEAN ARCH Clean Architecture
 https://gist.github.com/mpppk/609d592f25cab9312654b39f1b357c60
 
+
+# Clean架构
+https://www.jianshu.com/p/66e749e19f0d
+
+
+### 依赖倒置
+https://www.jianshu.com/p/c899300f98fa
+
 ### go  good
 https://zenn.dev/maru44/articles/b9e07e91a0ea77
 
