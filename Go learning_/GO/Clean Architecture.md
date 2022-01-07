@@ -9,6 +9,8 @@ https://github.com/maru44/animar
 ### go dip
 https://nakawatch.hatenablog.com/entry/2018/07/11/181453
 
+https://bmf-tech.com/posts/Golang%E3%81%A7%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%A2%E3%83%BC%E3%82%AD%E3%83%86%E3%82%AF%E3%83%81%E3%83%A3%E3%81%AB%E5%85%A5%E9%96%80%E3%81%99%E3%82%8B
+
 ### dmm
 https://logmi.jp/tech/articles/323451
 
