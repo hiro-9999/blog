@@ -6,6 +6,9 @@ https://zenn.dev/maru44/articles/b9e07e91a0ea77
 
 https://github.com/maru44/animar
 
+### dmm
+https://logmi.jp/tech/articles/323451
+
 https://github.com/bxcodec/go-clean-arch
 
 https://qiita.com/hirotakan/items/698c1f5773a3cca6193e
