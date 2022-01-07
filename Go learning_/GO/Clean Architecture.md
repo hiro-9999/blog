@@ -6,6 +6,9 @@ https://zenn.dev/maru44/articles/b9e07e91a0ea77
 
 https://github.com/maru44/animar
 
+### go dip
+https://nakawatch.hatenablog.com/entry/2018/07/11/181453
+
 ### dmm
 https://logmi.jp/tech/articles/323451
 
