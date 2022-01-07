@@ -8,6 +8,11 @@ https://www.jianshu.com/p/66e749e19f0d
 
 ### 依赖倒置
 https://www.jianshu.com/p/c899300f98fa
+```
+高层模块不应该直接依赖底层模块,两者都应该依赖抽象.
+抽象不应依赖细节.
+细节应该依赖抽象.
+```
 
 ### go  good
 https://zenn.dev/maru44/articles/b9e07e91a0ea77
