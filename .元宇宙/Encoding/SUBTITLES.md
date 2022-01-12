@@ -2,6 +2,9 @@
 
 http://hlsbook.net/sample-chapter/
 
+## Amazon Transcribe を使用すると
+https://aws.amazon.com/jp/transcribe/
+
 ## ffmpeg
 https://jp.videoproc.com/edit-convert/ffmpeg-guide-for-beginners.htm
 
