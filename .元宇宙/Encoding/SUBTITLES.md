@@ -2,6 +2,10 @@
 
 http://hlsbook.net/sample-chapter/
 
+
+## variantplaylistcreator good
+https://dev.classmethod.jp/articles/htp-live-streaming2/
+
 ## 多字幕
 https://blog.csdn.net/weixin_43970890/article/details/86158311
 
