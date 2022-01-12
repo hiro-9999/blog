@@ -2,6 +2,15 @@
 
 http://hlsbook.net/sample-chapter/
 
+## How to Add subtitles to HLS Videos
+https://www.youtube.com/watch?v=HwedFvcu5fY
+
+
+## aws
+https://github.com/awslabs/live-streaming-with-automated-multi-language-subtitling
+
+https://aws.amazon.com/jp/blogs/news/get-started-with-the-aws-live-streaming-with-automated-multi-language-subtitling-solution/
+
 
 ### Adding Subtitles to Videos
 https://www.veed.io/
