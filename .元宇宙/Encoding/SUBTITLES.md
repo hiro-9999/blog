@@ -2,6 +2,10 @@
 
 http://hlsbook.net/sample-chapter/
 
+
+# Amazon Transcribeで作る字幕データ
+https://qiita.com/chibiegg/items/f02ea9c688b51ef0bfeb
+
 ## Amazon Transcribe を使用すると
 https://aws.amazon.com/jp/transcribe/
 
