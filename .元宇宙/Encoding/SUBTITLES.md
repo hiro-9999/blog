@@ -2,6 +2,12 @@
 
 http://hlsbook.net/sample-chapter/
 
+## 多字幕
+https://blog.csdn.net/weixin_43970890/article/details/86158311
+
+## 如何进行HLS打包
+https://help.aliyun.com/document_detail/68617.html?spm=a2c4g.11186623.6.597.4dce75e8dWNn5r
+
 ### mediasubtitlesegmenter
 https://developer.apple.com/documentation/http_live_streaming/about_apple_s_http_live_streaming_tools
 
