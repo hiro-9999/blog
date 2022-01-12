@@ -2,6 +2,21 @@
 
 http://hlsbook.net/sample-chapter/
 
+## ffmpegを使用してビデオから字幕を抽出する方法は？ good
+https://kujirahand.com/blog/index.php?%E5%8B%95%E7%94%BB%E3%81%8B%E3%82%89%E5%AD%97%E5%B9%95%E3%82%92%E6%8A%BD%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95
+
+FFMPEG -i mytestmovie.mkv -vn -an -codec:s:0.1 srt sub.srt
+https://www.fixes.pub/program/541216.html
+
+## MP4ファイルから字幕データの抽出
+https://digita-l-ocal.tech/?p=641
+
+
+
+# mp4 字幕 抽出 【字幕抽出】動画字幕の抽出方法
+https://www.aiseesoft.jp/tutorials/how-to-extract-subtitles-from-video.html
+
+
 ## How to Add subtitles to HLS Videos
 https://www.youtube.com/watch?v=HwedFvcu5fY
 
