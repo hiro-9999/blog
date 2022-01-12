@@ -2,6 +2,9 @@
 
 http://hlsbook.net/sample-chapter/
 
+## ffmpeg
+https://jp.videoproc.com/edit-convert/ffmpeg-guide-for-beginners.htm
+
 ## ffmpegを使用してビデオから字幕を抽出する方法は？ good
 https://kujirahand.com/blog/index.php?%E5%8B%95%E7%94%BB%E3%81%8B%E3%82%89%E5%AD%97%E5%B9%95%E3%82%92%E6%8A%BD%E5%87%BA%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95
 
