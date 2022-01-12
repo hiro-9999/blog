@@ -5,6 +5,12 @@ http://hlsbook.net/sample-chapter/
 
 # Amazon Transcribeで作る字幕データ
 https://qiita.com/chibiegg/items/f02ea9c688b51ef0bfeb
+```
+映像データから音声のみを抽出する (ffmpeg)
+音声データから文字起こしをする (Amazon Transcribe)
+文字起こし結果をSubRip字幕データにする (Python)
+映像データに字幕データを埋め込む (mkvmerge)
+```
 
 ## Amazon Transcribe を使用すると
 https://aws.amazon.com/jp/transcribe/
