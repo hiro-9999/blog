@@ -4,3 +4,6 @@ Windows Media Files: Embed Closed Captions and Subtitles by Encoding
 
 //字幕
 http://cn.voidcc.com/question/p-atnitvdm-kg.html
+
+## WebVTT subtitles
+https://github.com/video-dev/hls.js
