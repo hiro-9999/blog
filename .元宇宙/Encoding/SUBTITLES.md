@@ -4,7 +4,9 @@ http://hlsbook.net/sample-chapter/
 
 
 ### Adding Subtitles to Videos
-https://www.veed.io/tools/auto-subtitle-generator?utm_campaign=YouTube+Description&utm_medium=How+to+add+subtitles+to+a+video+automatically&utm_source=YouTube
+https://www.veed.io/
+
+https://www.youtube.com/watch?v=8wZARTDbNmc
 
 
 ## variantplaylistcreator good
