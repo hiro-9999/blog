@@ -12,6 +12,8 @@ https://github.com/awslabs/live-streaming-with-automated-multi-language-subtitli
 https://aws.amazon.com/jp/blogs/news/get-started-with-the-aws-live-streaming-with-automated-multi-language-subtitling-solution/
 AWS Elemental MediaLive チャネルは、ソースを取り込むときに字幕を抽出し、同じ形式または異なる形式で出力に含めるように設定できます。出力には複数の字幕を含めることができます。たとえば、複数の言語の字幕を含めることができます。ソース字幕アセットを取り込んで、1 つの出力で 1 つの形式に、別の出力で別の形式に変換できます。
 
+https://docs.aws.amazon.com/ja_jp/medialive/latest/ug/set-up-the-hls-manifest.html
+
 
 
 ## AWS MediaPackage
