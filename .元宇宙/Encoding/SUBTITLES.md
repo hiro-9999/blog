@@ -3,6 +3,10 @@
 http://hlsbook.net/sample-chapter/
 
 
+### Adding Subtitles to Videos
+https://www.veed.io/tools/auto-subtitle-generator?utm_campaign=YouTube+Description&utm_medium=How+to+add+subtitles+to+a+video+automatically&utm_source=YouTube
+
+
 ## variantplaylistcreator good
 https://dev.classmethod.jp/articles/htp-live-streaming2/
 
