@@ -12,6 +12,10 @@ https://qiita.com/chibiegg/items/f02ea9c688b51ef0bfeb
 映像データに字幕データを埋め込む (mkvmerge)
 ```
 
+## 音声→テキストに変換するAWSの「Amazon Transcribe」がついに日本語対応しました！ good
+音声ファイルからテキストに文字起こし！【Amazon Transcribe】
+https://apnari-san.com/entry/amazontranscribe
+
 ## Amazon Transcribe を使用すると
 https://aws.amazon.com/jp/transcribe/
 
