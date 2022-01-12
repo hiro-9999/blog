@@ -1,10 +1,13 @@
-## HTTP Live Streaming
+## HTTP Live Streaming good
 
 http://hlsbook.net/sample-chapter/
 
 
 ## variantplaylistcreator good
 https://dev.classmethod.jp/articles/htp-live-streaming2/
+
+### 動画を配信
+https://dev.classmethod.jp/articles/http-live-streaming/
 
 ## 多字幕
 https://blog.csdn.net/weixin_43970890/article/details/86158311
