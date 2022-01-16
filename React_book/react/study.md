@@ -1,3 +1,8 @@
+### Designing React Hooks the Right Way Explore design techniques and solutions to debunk the myths about adopting states using React Hooks by Jin, Fang, (z-lib.org) good
+https://codepen.io/windmaomao/pen/RwLrxbp
+
+
+
 
 # React Hooks in Action With Suspense and Concurrent Mode by John Larsen (z-lib.org).pdf
 reading
