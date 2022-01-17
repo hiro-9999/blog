@@ -4,3 +4,7 @@ https://assetstore.unity.com/packages/tools/video/nexplayer-video-streaming-play
 
 ## Simple VR Video Player
 https://store.steampowered.com/app/500500/Simple_VR_Video_Player/?l=japanese
+
+
+## Virtual Desktop
+https://store.steampowered.com/app/382110/Virtual_Desktop/?l=japanese
