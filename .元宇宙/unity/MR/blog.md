@@ -26,3 +26,6 @@ https://github.com/De-Panther/unity-webxr-export
 https://docs.unity3d.com/2019.3/Documentation/Manual/webgl-browsercompatibility.html
 
 https://speakerdeck.com/korinvr/challenge-to-use-unity-webxr-exporter-for-vr-sashimi-tanpopo?slide=24
+
+
+https://gist.github.com/korinVR
