@@ -18,5 +18,9 @@ https://docs.google.com/presentation/d/e/2PACX-1vRamEOhM7Zk-mkZRYiUAFZsiOlAt8vRN
 ## HTC Vive か Oculus Rift か判別するには
 SteamVR.instance.hmd_TrackingSystemName で、HTC Vive なら “lighthouse”、Oculus Rift なら “oculus” が取得できます。
 
-
+## webxr-export
 https://github.com/De-Panther/unity-webxr-export
+
+
+## WebGL Browser Compatibility
+https://docs.unity3d.com/2019.3/Documentation/Manual/webgl-browsercompatibility.html
