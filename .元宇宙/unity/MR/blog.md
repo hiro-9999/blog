@@ -15,5 +15,8 @@ https://framesynthesis.jp/tech/unity/htcvive/
 ### 
 https://docs.google.com/presentation/d/e/2PACX-1vRamEOhM7Zk-mkZRYiUAFZsiOlAt8vRN98x00-e-CZ4C45cVI4MAC_lqmpVfytaAfXi4FyBcX8_4SvO/pub?slide=id.gabdc4143ec_0_35
 
-HTC Vive か Oculus Rift か判別するには
+## HTC Vive か Oculus Rift か判別するには
 SteamVR.instance.hmd_TrackingSystemName で、HTC Vive なら “lighthouse”、Oculus Rift なら “oculus” が取得できます。
+
+
+https://github.com/De-Panther/unity-webxr-export
