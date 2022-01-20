@@ -4,6 +4,17 @@ https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 ## How to Create Video Player in Unity3D
 https://www.youtube.com/watch?v=aiISib1Mrs4&ab_channel=AkbarProject
 
+## Unity Video Player with Time Scrub and Controls
+https://www.youtube.com/watch?v=9LwOmMzOrp4&ab_channel=JasonWeimann
+
+
+## 01] [Oculus Quest] [Unity] 360ビデオプレーヤー
+https://www.youtube.com/watch?v=gK0CU0imuw0&ab_channel=VRwithAndrew
+
+
+### LEARN UNITY - The Most BASIC TUTORIAL I'll Ever Make 🔴 need to see 
+https://www.youtube.com/watch?v=pwZpJzpE2lQ&ab_channel=Imphenzia
+
  # STEAM VR - The Ultimate VR developer guide 🟡
  https://www.youtube.com/watch?v=5C6zr4Q5AlA&ab_channel=Valem
  
