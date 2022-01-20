@@ -1,6 +1,8 @@
 ## 360 VIDEO PLAYER (with VR mode) - Unity Tutorial good 🔴
-
 https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
+
+ # STEAM VR - The Ultimate VR developer guide 🟡
+ https://www.youtube.com/watch?v=5C6zr4Q5AlA&ab_channel=Valem
 
 ## How to Make VR Videos in Unity: Tutorial
 https://www.youtube.com/watch?v=C_u3rM-y154&ab_channel=DreadVR
@@ -50,5 +52,12 @@ https://www.youtube.com/watch?v=C_u3rM-y154&ab_channel=DreadVR
       Fallback "Diffuse"
 }
  ```
+
  
  https://docs.unity3d.com/ScriptReference/MeshFilter-mesh.html
+ 
+ 
+
+
+
+
