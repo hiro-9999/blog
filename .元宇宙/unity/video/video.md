@@ -1,6 +1,8 @@
 ## 360 VIDEO PLAYER (with VR mode) - Unity Tutorial good 🔴
 https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
+https://www.youtube.com/watch?v=qOKZjR4FzN0&ab_channel=Pixvana
+
 ## How to Create Video Player in Unity3D
 https://www.youtube.com/watch?v=aiISib1Mrs4&ab_channel=AkbarProject
 
@@ -10,6 +12,10 @@ https://www.youtube.com/watch?v=9LwOmMzOrp4&ab_channel=JasonWeimann
 
 ## 01] [Oculus Quest] [Unity] 360ビデオプレーヤー
 https://www.youtube.com/watch?v=gK0CU0imuw0&ab_channel=VRwithAndrew
+
+
+## Skybox from 360 Panorama Image in Unity3d
+https://www.youtube.com/watch?v=OQUtvyGrusk&ab_channel=LearnEverythingFast
 
 
 ### LEARN UNITY - The Most BASIC TUTORIAL I'll Ever Make 🔴 need to see 
