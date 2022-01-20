@@ -1,8 +1,11 @@
 ## 360 VIDEO PLAYER (with VR mode) - Unity Tutorial good 🔴
 https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
+https://www.youtube.com/watch?v=8LeEU2CR_IA&ab_channel=AmbiensVR
+
 https://www.youtube.com/watch?v=qOKZjR4FzN0&ab_channel=Pixvana
 
+https://www.youtube.com/watch?v=2oFwbuFXr0k&ab_channel=WearView
 
 UnityXRプラグイン
 
