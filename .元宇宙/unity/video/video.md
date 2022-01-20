@@ -3,6 +3,12 @@ https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
 https://www.youtube.com/watch?v=qOKZjR4FzN0&ab_channel=Pixvana
 
+
+UnityXRプラグイン
+
+# What Do I Need to Become a VR Developer? (VR Headsets, Apps, and Skills needed)
+https://www.youtube.com/watch?v=oqXBY51KP5A&ab_channel=JustinPBarnett-VRGameDev
+
 ## How to Create Video Player in Unity3D
 https://www.youtube.com/watch?v=aiISib1Mrs4&ab_channel=AkbarProject
 
