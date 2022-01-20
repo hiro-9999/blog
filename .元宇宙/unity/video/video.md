@@ -3,6 +3,8 @@ https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
  # STEAM VR - The Ultimate VR developer guide 🟡
  https://www.youtube.com/watch?v=5C6zr4Q5AlA&ab_channel=Valem
+ 
+ https://www.youtube.com/channel/UCPJlesN59MzHPPCp0Lg8sLw
 
 ## How to Make VR Videos in Unity: Tutorial
 https://www.youtube.com/watch?v=C_u3rM-y154&ab_channel=DreadVR
