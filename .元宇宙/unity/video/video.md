@@ -1,6 +1,9 @@
 ## 360 VIDEO PLAYER (with VR mode) - Unity Tutorial good 🔴
 https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
+## How to Create Video Player in Unity3D
+https://www.youtube.com/watch?v=aiISib1Mrs4&ab_channel=AkbarProject
+
  # STEAM VR - The Ultimate VR developer guide 🟡
  https://www.youtube.com/watch?v=5C6zr4Q5AlA&ab_channel=Valem
  
