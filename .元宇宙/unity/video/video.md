@@ -2,10 +2,8 @@
 
 https://www.youtube.com/watch?v=9WEjMckJPFY&ab_channel=NPNLUSC
 
-▶ Support my work and grab the source code on patreon : https://www.patreon.com/ValemVR
-▶ Join the Valem discord channel : https://discord.gg/5uhRegs
+## How to Make VR Videos in Unity: Tutorial
+https://www.youtube.com/watch?v=C_u3rM-y154&ab_channel=DreadVR
 
-In this quick tutorial we are learning how to create a 360 viewer inside unity for 360 video and photos. We will implement a simple User Interface to watch the video and we will make it support Virtual Reality headset such as Oculus Rift and HTC Vive.
-
-Introduction music : "All That" by "bensound.com"
-
+ ## Unity VR 360 Video Tutorial - How to Render a 360-Degree Video
+ https://www.youtube.com/watch?v=eaqwszsH6Jg&ab_channel=Zenva
