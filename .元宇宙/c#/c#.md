@@ -1,6 +1,47 @@
 # c# doc
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/operator-overloading
 
+## C# のデリゲート
+https://qiita.com/ysn/items/71fe3f332ea9a3114d36
+
+## ラムダ式のパラメータリストの型指定は省略可能ですが、記載することもできます。また、return を明示的に書くこともできます。
+ Func<int, int, int> a = (int x, int y) =>
+    {
+      return x + y;
+    };
+    
+    
+  属性	渡される値
+CallerMemberName	呼び出し元のメソッド名
+CallerFilePath	呼び出し元のファイル名
+CallerLineNumber	呼び出し元の行番号
+
+
+ ## LINQ のクエリ演算子
+ ```
+ using static System.Console;
+using System.Linq;
+
+partial class TestApp
+{
+  static void Main(string[] args)
+  {
+    var i = 0;
+    var fruits = new string[] { "Apple", "Banana", "Orange" };
+    var a = from elm in fruits
+            select new
+            {
+              id = ++i,
+              fruit = elm
+            };
+    foreach (var s in a)
+    {
+      WriteLine($"{s}");
+    }
+  }
+}
+ ```
+
 ### out
 ```
 class Program
