@@ -2,6 +2,8 @@
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/operator-overloading
 
 ### yield return
+https://csharp.keicode.com/basic/yield.php
+
 https://qiita.com/mrngsht/items/399a67e42c91978e38d1
 ### yield または IEnumerable を返す反復子の IEnumerator 型は object です
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/keywords/yield
@@ -20,27 +22,36 @@ IEnumerator<T>
 IEnumerator
 
 using System;
-using System.Collections;
 using System.Collections.Generic;
- 
-class Test
+
+class Program
 {
-    // イテレーターを定義
-    public static IEnumerable<string> GetStrings()
+  static void Main(string[] args)
+  {
+    var states = new List();
+    states.Add("California");
+    states.Add("Hawaii");
+    states.Add("Connecticut");
+    states.Add("Texas");
+    var i = FilterState(states, "C");
+    foreach (var m in i)
     {
-        yield return "ABC";
-        yield return "DEF";
-        yield return "GHI";
+      Console.WriteLine(m);
     }
- 
-    static void Main()
+  }
+
+  static IEnumerable FilterState(
+    List states,
+    string filter)
+  {
+    foreach (var s in states)
     {
-        foreach(var str in GetStrings())
-        {
-            Console.WriteLine(str);
-        }
-        Console.ReadKey();
+      if (s.StartsWith(filter))
+      {
+        yield return s;
+      }
     }
+  }
 }
 ```
 yield return命令はメソッドをそのまま終了させることができません。
