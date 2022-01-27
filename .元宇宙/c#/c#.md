@@ -2,6 +2,14 @@
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/operator-overloading
 
 ## C# のデリゲート
+delegate 戻り値の型 デリゲート名 (関数が引き受ける仮引数);
+
+https://qiita.com/segur/items/d6e790acc269085b8d75
+var printA = new Printer(Debug.Log);
+            // 実行すると、「Hello World A」とコンソールに表示されます。
+            printA("Hello World A");
+
+
 https://qiita.com/ysn/items/71fe3f332ea9a3114d36
 
 ## ラムダ式のパラメータリストの型指定は省略可能ですが、記載することもできます。また、return を明示的に書くこともできます。
