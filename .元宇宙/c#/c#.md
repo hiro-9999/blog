@@ -1,5 +1,30 @@
-# c# dov
+# c# doc
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/operator-overloading
+
+### out
+```
+class Program
+{
+  static void Main(string[] args)
+  {
+   // string n, t;
+   // int a;
+    GetEmployee(out string n, out a, out int t);
+    Console.WriteLine($"RESULT: {n}, {a}, {t}"); //C# 7.0 では、上記のように事前に宣言する必要はなくなりました。 out パラメータに変数を渡すと同時に、変数を宣言することが可能になりました。
+   // GetEmployee(out string n, out int a, out _);
+  }
+
+  public static void GetEmployee(
+      out string name,
+      out int age,
+      out string title)
+  {
+    name = "Hanako Yamada";
+    age = 30;
+    title = "Manager";
+  }
+}
+```
 
 ### yield return
 https://csharp.keicode.com/basic/yield.php
