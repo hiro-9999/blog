@@ -4,7 +4,7 @@ https://tool.lu/
 Java 开发人员对正则表达式肯定不陌生。“站长工具”提供的正则验证（http：//tool.chinaz.com/regex）就比较不错。
 5.对照类在线工具
 对照类在线工具如下。
-◎ ASCII对照表：http：//tool.oschina.net/commons？type=4。
+◎ ASCII对照表：https://tool.oschina.net/commons?type=4
 ◎ HTTP状态码：http：//tool.oschina.net/commons？type=5。
 ◎ HTTP Content-type:http://tool.oschina.net/commons.
 ◎ TCP/UDP常见端口参考：http：//tool.oschina.net/commons？type=7。
