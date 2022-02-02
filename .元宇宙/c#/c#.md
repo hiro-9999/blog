@@ -1,7 +1,29 @@
 ## Unityで学ぶC#入門
 https://xr-hub.com/archives/15201
+```c#
+gameObject.GetComponent<Renderer>().material.color = Color.red;
+            
+            https://docs.unity3d.com/ja/current/ScriptReference/Renderer.html
+ inputName = GameObject.Find("InputName").GetComponent<InputField>();
+        inputAddress = GameObject.Find("InputAddress").GetComponent<InputField>();
+            
+```            
+https://xr-hub.com/archives/9738
+
+Personal：無料チュートリアル（日本語/英語）
+Plus：Personalのコンテンツ＋Unity Game Dev Courses（英語）へのアクセス権1年分＋Unity Success Advisor（英語）
+Pro：Plusのコンテンツ＋プレミアムサポート（英語）へのアクセス
+
+
+### 2時間で作る五目並べゲーム！
+https://xr-hub.com/archives/13899
+
+## Unity Game Dev Courses
+https://unity.com/learn/swordsandshovels?_ga=2.48695012.336291594.1536583697-1964689275.1534853214#plus-productpage-ugdc
 
 # c# doc
+https://docs.microsoft.com/ja-jp/dotnet/csharp/
+
 https://docs.microsoft.com/ja-jp/dotnet/csharp/language-reference/operators/operator-overloading
 
 ## C# のデリゲート
