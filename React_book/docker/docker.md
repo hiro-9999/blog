@@ -1,5 +1,24 @@
 https://learning.oreilly.com/videos/the-complete-practical/9781803247892/9781803247892-video8_1/
 
+docker run -it ubuntu bash
+
+## -it:这是两个参数，一个是 -i:交互式操作，一个是 -t 终端。我们这里打算进入 bash 执行一些命令并查看返回结果，因此我们需要交互式终端。
+
+进入运行中/后台运行的容器
+$ docker exec -it [CONTAINER ID] /bin/bash
+
+decker rmi images
+
+docker kill  [CONTAINER ID]
+
+删除容器:
+docker rm [CONTAINER ID]
+
+
+删除<none>镜像可使用:
+docker image prune
+
+
 docker --help
 
 docker ps -a
