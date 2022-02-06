@@ -17,6 +17,9 @@ https://www.oreilly.com
 # book
 https://www.sxpdf.com/3599.html
 
+## 古腾堡计划
+https://www.toutiao.com/i7028818643526091272/?tt_from=copy_link&utm_campaign=client_share&timestamp=1643982317&app=news_article&utm_source=copy_link&utm_medium=toutiao_android&use_new_style=1&req_id=202202042145170101511920351635386B&share_token=c84db319-6810-4604-8ac5-234194fe4ff3&group_id=7028818643526091272
+
 # book ok
 https://www.chenjin5.com/books/
 
