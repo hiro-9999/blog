@@ -1,5 +1,10 @@
 https://buabajerry.medium.com
 
+＃＃ good
+https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306
+
+
+
 https://www.toutiao.com/i6852173232079340044/?tt_from=copy_link&utm_campaign=client_share&timestamp=1644283854&app=news_article&utm_source=copy_link&utm_medium=toutiao_android&use_new_style=1&req_id=20220208093053010158051067124EE7E4&share_token=7c4dbae3-24c0-4340-a1c1-16a7d6fe23aa&group_id=6852173232079340044
 
 https://towardsdatascience.com/mathematics-for-data-science-e53939ee8306
