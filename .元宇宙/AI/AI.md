@@ -1,3 +1,10 @@
+## i.am.ai
+AI Expert Roadmap
+
+https://github.com/AMAI-GmbH/AI-Expert-Roadmap
+
+
+
 ```
 自然语言处理(naturallanguageprocessing)使之能成功地用英文交流;
 煉知识表示(knowledgerepresentation) 以存储它知道的或听到的信息; 
