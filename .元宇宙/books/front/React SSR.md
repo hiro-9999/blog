@@ -7,4 +7,8 @@ https://www.digitalocean.com/community/tutorials/react-server-side-rendering-ja
 
 https://github.com/reactjs/server-components-demo
 
+// dl book
 https://flaviocopes.com/page/ebooks/
+
+
+https://tech-wiki.online/jp/react-server-side-rendering.html
