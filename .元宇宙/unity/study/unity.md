@@ -1,7 +1,9 @@
 # study good 🟠
 https://xr-hub.com/archives/2486
 
-
+## metaファイルとは
+Assetファイルと対になった、メタ情報が書かれたファイルのこと。Assetを一意に識別することができるguidや、画像の圧縮フォーマット、またAsset同士の関係も保存されている。
+https://qiita.com/4_mio_11/items/91ebcdd30398af607373
 
 https://qiita.com/Takaaki_Ichijo/items/0693504c90e67a698858
  ## [System.Serializable]
