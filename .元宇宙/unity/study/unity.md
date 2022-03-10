@@ -1,6 +1,17 @@
 # study good 🟠
 https://xr-hub.com/archives/2486
 
+🟠Unity+VSCode で快適な開発環境を作る
+https://nodachisoft.com/common/jp/article/jp000177/
+
+🟠[macOS] VSCodeで快適にUnity開発する設定
+https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
+
+QiitaQiita
+[macOS] VSCodeで快適にUnity開発する設定(2022/02/19) - Qiita
+
+
+
 ## metaファイルとは
 Assetファイルと対になった、メタ情報が書かれたファイルのこと。Assetを一意に識別することができるguidや、画像の圧縮フォーマット、またAsset同士の関係も保存されている。
 https://qiita.com/4_mio_11/items/91ebcdd30398af607373
