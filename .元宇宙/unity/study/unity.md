@@ -7,6 +7,15 @@ https://nodachisoft.com/common/jp/article/jp000177/
 🟠[macOS] VSCodeで快適にUnity開発する設定
 https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
 
+# build exe write log in appdata🟠
+ String path = Application.dataPath + "/" + "log.txt";
+     
+        FileInfo fi = new FileInfo(path);
+        using (StreamWriter sw = fi.AppendText()) {
+            sw.WriteLine(requestURL);
+            sw.close();
+        }
+
 QiitaQiita
 [macOS] VSCodeで快適にUnity開発する設定(2022/02/19) - Qiita
 
