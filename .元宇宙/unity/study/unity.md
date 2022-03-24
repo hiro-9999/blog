@@ -8,6 +8,7 @@ https://nodachisoft.com/common/jp/article/jp000177/
 https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
 
  //ログ出力しないようにする
+ https://www.fast-system.jp/unity%EF%BC%9A%E3%83%AD%E3%82%B0%E3%81%AE%E5%87%BA%E5%8A%9B%EF%BC%88debug-log%E7%B7%A8%EF%BC%89/
         Debug.unityLogger.logEnabled = false;
  
         //文字列をと出力
