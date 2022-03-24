@@ -1,6 +1,10 @@
 # study good 🟠
 https://xr-hub.com/archives/2486
 
+https://docs.unity3d.com/ja/2018.4/Manual/LogFiles.html
+🟠C:\Users\username\AppData\LocalLow\CompanyName\ProductName\output_log.txt
+	C:\Users\username\AppData\Local\Unity\Editor\Editor.log
+
 🟠Unity+VSCode で快適な開発環境を作る
 https://nodachisoft.com/common/jp/article/jp000177/
 
