@@ -20,6 +20,9 @@ https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
     var path = Path.Combine(Application.streamingAssetsPath, "log", "example.txt");
     var logWriter = new LogWriter(path, this.GetCancellationTokenOnDestroy());
 }
+https://gist.github.com/nekomimi-daimao/b9baa2282cd548fe066cf44d2fd35e7d
+
+https://hirokuma.blog/?p=1447
 
 private void Update()
 {
