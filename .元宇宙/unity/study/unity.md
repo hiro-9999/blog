@@ -7,6 +7,12 @@ https://nodachisoft.com/common/jp/article/jp000177/
 🟠[macOS] VSCodeで快適にUnity開発する設定
 https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
 
+ //ログ出力しないようにする
+        Debug.unityLogger.logEnabled = false;
+ 
+        //文字列をと出力
+        Debug.Log("文字列だよ！");
+        
 # build exe write log in appdata🟠
  String path = Application.dataPath + "/" + "log.txt";
      
