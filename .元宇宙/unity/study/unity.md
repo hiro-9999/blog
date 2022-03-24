@@ -14,6 +14,21 @@ https://qiita.com/kabosu3d/items/a4bc9abe991f95670964
         //文字列をと出力
         Debug.Log("文字列だよ！");
         
+        private void Start()
+{
+    // /Assets/StreamingAssets/log/example.txt
+    var path = Path.Combine(Application.streamingAssetsPath, "log", "example.txt");
+    var logWriter = new LogWriter(path, this.GetCancellationTokenOnDestroy());
+}
+
+private void Update()
+{
+    Debug.Log(UnityEngine.Random.onUnitSphere);
+    Debug.LogWarning(UnityEngine.Random.ColorHSV());
+    Debug.LogError(UnityEngine.Random.rotation);
+}
+https://zenn.dev/nekomimi_daimao/articles/a1d513b43f3ec5
+        
 # build exe write log in appdata🟠
  String path = Application.dataPath + "/" + "log.txt";
      
