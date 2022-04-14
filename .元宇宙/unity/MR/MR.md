@@ -1,4 +1,7 @@
-// Fujitsu Windows Mixed Reality
+## Windows Mixed Reality での SteamVR の使用
+https://docs.microsoft.com/ja-jp/windows/mixed-reality/enthusiast-guide/using-steamvr-with-windows-mixed-reality
+
+## Fujitsu Windows Mixed Reality
 https://www.fmworld.net/cs/azbyclub/qanavi/jsp/qacontents.jsp?PID=2111-1725
 
 
