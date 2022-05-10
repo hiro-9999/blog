@@ -1,3 +1,6 @@
+### aws
+https://aws.amazon.com/cn/blogs/china/encapsulation-of-hls-streaming-media-loaded-with-webvtt-subtitles-based-on-mediaconvert/
+
 https://developer.android.com/codelabs/exoplayer-intro#6
 
 https://github.com/google/ExoPlayer
