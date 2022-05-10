@@ -15,3 +15,23 @@ https://exoplayer.dev/live-streaming.html
 
 ### is good
 https://medium.com/google-exoplayer/improved-japanese-subtitle-support-7598fee12cf4
+
+
+### 5.字幕
+ExoPlayer Docで述べたように：ビデオファイルと個別の字幕ファイルが与えられた場合、MergingMediaSourceを使用してそれらを単一のソースにマージして再生できます。
+
+  Format subtitleFormat = Format.createTextSampleFormat(
+                id, // can be null
+                MimeTypes.APPLICATION_SUBRIP,
+                Format.NO_VALUE,
+                null);
+
+  MediaSource subtitleSource = new SingleSampleMediaSource
+                                .Factory(cacheDataSourceFactory)
+                                .createMediaSource(subtitleUri, subtitleFormat, C.TIME_UNSET);
+
+  exoPlayer.prepare(new MergingMediaSource(mediaSource, subtitleSource),
+   false, // Reset position
+   false //Reset state
+  );
+  
