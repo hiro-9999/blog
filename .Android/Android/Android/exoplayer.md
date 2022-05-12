@@ -23,3 +23,16 @@ https://qiita.com/emusute1212/items/81061b3de48f2b0f51e6
                         }
                     }
                 }
+
+
+This will shows subtitle. if you use "true" after C.TRACK_TYPE_VIDEO then it will disable subtitle and makes it invisible
+ trackSelector = new DefaultTrackSelector(/* context= */ this, new AdaptiveTrackSelection.Factory());
+        trackSelector.setParameters(new DefaultTrackSelector.ParametersBuilder(this)
+                .setRendererDisabled(C.TRACK_TYPE_VIDEO, false)
+                .build()
+        );
+        player = new ExoPlayer.Builder(getApplicationContext())
+                .setTrackSelector(trackSelector)
+                .build();
+        player.setTrackSelectionParameters(
+                player.getTrackSelectionParameters().buildUpon().setPreferredTextLanguage("zh").build());
