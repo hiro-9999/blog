@@ -3,6 +3,8 @@ https://exoplayer.dev/supported-formats.html
 
 https://www.mux.com/blog/subtitles-captions-webvtt-hls-and-those-magic-flags
 
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/track
+
 # ExoPlayer の UI変更
 https://qiita.com/emusute1212/items/81061b3de48f2b0f51e6
 
