@@ -14,7 +14,7 @@ goenv install -l
 goenv install 1.18.2
 goenv versions
 goenv global 1.18.2
-https://blogenist.jp/2018/01/18/1942/
+[https://blogenist.jp/2018/01/18/1942/](https://soulteary.com/2022/05/12/better-golang-usage-on-m1-mac.html)
 
 ~/.zprofile
 export GOENV_ROOT=
