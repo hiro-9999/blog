@@ -11,3 +11,5 @@ vm:
 
 example：
 https://oohira.github.io/gobyexample-jp/
+
+https://go.dev/dl/
