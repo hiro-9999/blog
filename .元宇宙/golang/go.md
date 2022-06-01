@@ -8,6 +8,7 @@ https://www.bilibili.com/video/BV1sA4y1f77X?spm_id_from=333.337.search-card.all.
 vm:
 -javaagent: ~path
 
+#------
 brew install goenv
 goenv install -l
 goenv install 1.18.2
