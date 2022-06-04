@@ -21,3 +21,6 @@ curl -X GET http://localhost:8080
 go list -m all
 
 https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin/tree/main/chapter02
+
+# JWT
+https://qiita.com/knaot0/items/8427918564400968bd2b
