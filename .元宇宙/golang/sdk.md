@@ -10,3 +10,8 @@ https://github.com/gin-gonic/gin
 
 
 https://www.ory.sh/docs/hydra/sdk/go
+
+## vscode
+ View | Command Pallete, or use the Ctrl + Shift + P shortcut and type goinstall update/tools:
+ 
+ 
