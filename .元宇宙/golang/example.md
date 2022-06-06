@@ -27,6 +27,12 @@ https://www.cloudtogo.cn/product-TitanIDE?B
 https://www.bilibili.com/video/BV1yg411R7hc?spm_id_from=333.337.search-card.all.click
 
 # channel
+http://c.biancheng.net/view/97.html
+
+2) 非阻塞接收数据
+使用非阻塞方式从通道接收数据时，语句不会发生阻塞，格式如下：
+data, ok := <-ch
+
 https://segmentfault.com/a/1190000017958702
 
 
