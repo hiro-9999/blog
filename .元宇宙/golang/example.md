@@ -26,6 +26,12 @@ https://www.cloudtogo.cn/product-TitanIDE?B
 # [TitanIDE] 上使用自定义模板来配置
 https://www.bilibili.com/video/BV1yg411R7hc?spm_id_from=333.337.search-card.all.click
 
+# out log 
+https://jankeyfu.github.io/posts/golang/logrus/
+
+
+### reflect.TypeOf(d)
+
 # channel
 http://c.biancheng.net/view/97.html
 
