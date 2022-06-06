@@ -11,6 +11,11 @@ https://github.com/gin-gonic/gin
 
 https://www.ory.sh/docs/hydra/sdk/go
 
+# cookie
+“npm install js-cookie --save”
+
+抜粋:: Mina Andrawos  “Hands-On Full Stack Development with Go”。 Apple Books  
+
 # mysql
 https://gorm.io/docs/dbresolver.html
 
