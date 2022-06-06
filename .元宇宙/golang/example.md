@@ -1,3 +1,10 @@
+# reading
+https://go.dev/doc/effective_go
+
+# go liblry
+https://pkg.go.dev/std
+
+
 https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin
 ## gin
 https://gin-gonic.com/docs/
