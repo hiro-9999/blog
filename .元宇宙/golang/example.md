@@ -33,7 +33,14 @@ http://c.biancheng.net/view/97.html
 使用非阻塞方式从通道接收数据时，语句不会发生阻塞，格式如下：
 data, ok := <-ch
 
+## time.Ticker 是一个定时器
+https://jankeyfu.github.io/posts/golang/channel/
+
 https://segmentfault.com/a/1190000017958702
+
+
+## Context
+(https://jankeyfu.github.io/posts/golang/context/)
 
 
 ## Methods
