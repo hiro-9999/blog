@@ -10,6 +10,10 @@ https://code.visualstudio.com/docs/languages/go
 vm:
 -javaagent: ~path
 
+
+https://www.jetbrains.com/ja-jp/toolbox-app/
+
+
 #------ gvm インストール
 gvm 《---
 https://codenote.net/golang/4307.html
