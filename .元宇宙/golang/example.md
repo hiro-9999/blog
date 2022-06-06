@@ -2,6 +2,9 @@ https://github.com/PacktPublishing/Building-Distributed-Applications-in-Gin
 ## gin
 https://gin-gonic.com/docs/
 
+# blog
+https://asong.cloud/
+
 ## gin exa example
 https://zenn.dev/a_ichi1/articles/67b51de22475f9
 
