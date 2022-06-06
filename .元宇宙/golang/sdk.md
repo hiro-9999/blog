@@ -14,6 +14,9 @@ https://www.ory.sh/docs/hydra/sdk/go
 # mysql
 https://gorm.io/docs/dbresolver.html
 
+# stripe
+https://stripe.com/docs/api/authentication
+
 ## vscode
  View | Command Pallete, or use the Ctrl + Shift + P shortcut and type goinstall update/tools:
  
