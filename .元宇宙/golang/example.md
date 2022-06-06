@@ -1,6 +1,9 @@
 # reading
 https://go.dev/doc/effective_go
 
+＃ reading
+https://github.com/PacktPublishing/Hands-On-Full-Stack-Development-with-Go
+
 # go liblry
 https://pkg.go.dev/std
 
