@@ -11,6 +11,9 @@ https://github.com/gin-gonic/gin
 
 https://www.ory.sh/docs/hydra/sdk/go
 
+# bcrpt
+https://pkg.go.dev/golang.org/x/crypto/bcrypt
+
 # cookie
 “npm install js-cookie --save”
 
