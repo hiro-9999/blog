@@ -22,3 +22,23 @@ https://www.cloudtogo.cn/product-TitanIDE?B
 
 # [TitanIDE] 上使用自定义模板来配置
 https://www.bilibili.com/video/BV1yg411R7hc?spm_id_from=333.337.search-card.all.click
+
+
+## Methods
+https://go.dev/tour/methods/1
+
+type Vertex struct {
+	X, Y float64
+}
+
+func (v Vertex) Abs() float64 {
+	return math.Sqrt(v.X*v.X + v.Y*v.Y)
+}
+
+Go does not have classes. However, you can define methods on types.
+
+A method is a function with a special receiver argument.
+
+The receiver appears in its own argument list between the func keyword and the method name.
+
+In this example, the Abs method has a receiver of type Vertex named v.
