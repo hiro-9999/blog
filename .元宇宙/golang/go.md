@@ -5,6 +5,9 @@ export PATH=$PATH:$GOPATH/bin;
 
 export PATH="$HOME/go/bin:$PATH"
 
+# vscode debug
+https://future-architect.github.io/articles/20201117/
+
 
 # 环境
 https://jetbra.in
