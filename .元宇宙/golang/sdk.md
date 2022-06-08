@@ -7,6 +7,23 @@ https://mp.weixin.qq.com/s/Eb8tae4az8UHMt1vdnHOVA
 
 https://github.com/mix-go/mix
 
+https://openstr.com/watch/aa328ff33de085aa8fc87301056f3407#%E5%AE%89%E8%A3%85-mixcli
+
+配置环境变量
+修改 golang 自己的环境变量
+开启 go mod
+配置代理
+配置库哈希效验网站
+go env -w GO111MODULE="on" GOPROXY="https://goproxy.io,direct" GOSUMDB="sum.golang.org"
+将 $GOPATH/bin 目录加入到 $PATH
+打印 GOPATH
+
+go env GOPATH
+编辑 ~/.bashrc or ~/.zshrc 把 $GOPATH/bin 加入到 $PATH
+
+export PATH="$PATH:/Users/**/go/bin"
+
+
 
 ## docker
 [https://jp1lib.org/?signAll=1&ts=1823]
