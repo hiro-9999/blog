@@ -1,4 +1,5 @@
 # 环境
+https://www.mano100.cn/thread-1942-1-1.html
 
 http://lic-server.mephi.ru
 
