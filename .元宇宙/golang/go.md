@@ -10,6 +10,9 @@ export PATH="$HOME/go/bin:$PATH"
 # vscode debug
 https://future-architect.github.io/articles/20201117/
 
+# docker dockerでgo開発環境構築
+https://zenn.dev/akakuro/articles/2426098256785b
+
 
 # 环境
 https://jetbra.in
