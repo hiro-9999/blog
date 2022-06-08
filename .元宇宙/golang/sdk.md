@@ -2,6 +2,12 @@
 https://michimani.net/post/programming-get-started-revel-go-web-framework/
 
 
+# Go 语言快速开发脚手架工具
+https://mp.weixin.qq.com/s/Eb8tae4az8UHMt1vdnHOVA
+
+https://github.com/mix-go/mix
+
+
 ## docker
 [https://jp1lib.org/?signAll=1&ts=1823]
 
