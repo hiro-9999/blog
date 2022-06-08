@@ -1,4 +1,8 @@
 # 环境
+https://luckymrwang.github.io/2022/01/08/IDEA%E5%85%A8%E7%89%88%E6%9C%AC%E9%80%9A%E6%9D%80%E5%AE%8C%E7%BE%8E%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%A1%88/
+
+### 解压压缩包后，修改config下的power.conf，将文件内容替换为
+
 https://www.mano100.cn/thread-1942-1-1.html
 
 http://lic-server.mephi.ru
