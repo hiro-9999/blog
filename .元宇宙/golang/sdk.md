@@ -7,6 +7,10 @@ https://michimani.net/post/programming-get-started-revel-go-web-framework/
 
 (https://semaphoreci.com/community/tutorials/how-to-deploy-a-go-web-application-with-docker)
 
+
+## goサーバーを雑にawsのec2にデプロイ
+https://aws.amazon.com/jp/ec2/?trk=c95527aa-2c0b-4c61-a33f-4ca98bab4822&sc_channel=ps&sc_campaign=acquisition&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|Compute|EC2|JP|JP|Text&s_kwcid=AL!4422!3!591672862796!p!!g!!aws%20ec2サーバー&ef_id=CjwKCAjw7vuUBhBUEiwAEdu2pI_RH5XeABXT2bsd08KrCe8zMXCtalBECOGSWCcqvnxnJwUkR9Z38xoCR08QAvD_BwE:G:s&s_kwcid=AL!4422!3!591672862796!p!!g!!aws%20ec2サーバー&gclid=CjwKCAjw7vuUBhBUEiwAEdu2pI_RH5XeABXT2bsd08KrCe8zMXCtalBECOGSWCcqvnxnJwUkR9Z38xoCR08QAvD_BwE
+
 ## Gin 
 https://www.bilibili.com/read/cv16474240
 
