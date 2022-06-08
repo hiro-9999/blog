@@ -7,6 +7,9 @@ export PATH=$PATH:$GOPATH/bin;
 
 export PATH="$HOME/go/bin:$PATH"
 
+## Go言語環境をDockerコンテナで作成し、リモート開発とデバッグを行います。
+https://chigusa-web.com/blog/vs-code-go-remote/
+
 # vscode debug
 https://future-architect.github.io/articles/20201117/
 
