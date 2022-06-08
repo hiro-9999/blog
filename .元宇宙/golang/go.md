@@ -1,4 +1,7 @@
 # go env
+
+go mod tidy <-upgrade version
+ 
 https://qiita.com/ichi_zamurai/items/de473e5d21376ccd9b91
 
 export GOPATH=$HOME/go;
