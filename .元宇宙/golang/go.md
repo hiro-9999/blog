@@ -1,3 +1,11 @@
+# go env
+export GOPATH=$HOME/go;
+ 
+export PATH=$PATH:$GOPATH/bin;
+
+export PATH="$HOME/go/bin:$PATH"
+
+
 # 环境
 https://jetbra.in
 
