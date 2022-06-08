@@ -13,6 +13,9 @@ https://future-architect.github.io/articles/20201117/
 # docker dockerでgo開発環境構築
 https://zenn.dev/akakuro/articles/2426098256785b
 
+### Standard Go Project Layoutに合わせたディレクトリ構成
+https://github.com/golang-standards/project-layout/blob/master/README_ja.md
+
 
 # 环境
 https://jetbra.in
