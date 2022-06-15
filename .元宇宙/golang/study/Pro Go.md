@@ -10,7 +10,11 @@ dlv version
  go doc -all 
  
  go install github.com/mgechev/revive@latest
-
+ 
+ 
+ brew install golangci-lint
+brew upgrade golangci-lint
+https://golangci-lint.run/usage/install/
 ```
 
 # vscodeでgoのデバッグ
