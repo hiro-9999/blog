@@ -7,4 +7,10 @@ go mod init partyinvites
 
 dlv version
 
+ go doc -all 
+
 ```
+
+# vscodeでgoのデバッグ
+https://zenn.dev/msksgm/articles/20220104-vscode-go-cannot-debug
+
