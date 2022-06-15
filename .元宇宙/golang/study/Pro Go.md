@@ -15,6 +15,8 @@ dlv version
  brew install golangci-lint
 brew upgrade golangci-lint
 https://golangci-lint.run/usage/install/
+
+golangci-lint run
 ```
 
 # vscodeでgoのデバッグ
