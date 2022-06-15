@@ -5,6 +5,8 @@ And run it with:
 
 golint ./...
 
+golangci-lint run
+
 ```
 
 抜粋:
