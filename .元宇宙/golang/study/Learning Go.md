@@ -7,6 +7,12 @@ golint ./...
 
 golangci-lint run
 
+“go fmt ./...
+go vet ./...
+go build hello.go”
+
+
+
 ```
 
 抜粋:
