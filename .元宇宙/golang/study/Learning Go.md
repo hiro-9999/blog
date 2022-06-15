@@ -11,7 +11,9 @@ golangci-lint run
 go vet ./...
 go build hello.go”
 
+go install golang.org/x/tools/go/analysis/passes/shadow/cmd/shadow@latest
 
+shadow ./...
 
 ```
 
