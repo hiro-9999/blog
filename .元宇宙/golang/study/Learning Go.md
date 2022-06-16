@@ -24,6 +24,8 @@ Jon Bodner
 
 
 # golang oauth2.0 サーバー側の処理：
+https://speakerdeck.com/hgsgtk/oauth-2-dot-0-sahawogoyan-yu-teshi-zhuang-sitesutowoshu-ku-at-golang-dot-tokyo-number-18?slide=15
+
 https://qiita.com/yumin/items/807de16385d3ea8d3616
 
 https://zenn.dev/satoken/articles/golang-oauth-server
