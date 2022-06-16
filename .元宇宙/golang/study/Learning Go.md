@@ -29,3 +29,5 @@ https://speakerdeck.com/hgsgtk/oauth-2-dot-0-sahawogoyan-yu-teshi-zhuang-sitesut
 https://qiita.com/yumin/items/807de16385d3ea8d3616
 
 https://zenn.dev/satoken/articles/golang-oauth-server
+
+https://github.com/openshift/osin
