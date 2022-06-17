@@ -9,3 +9,7 @@ GoでDI用のパッケージはいくつかありますが、今回は「google/
 
 # GitHub google / wire
 https://github.com/google/wire
+
+
+# GOPATH以外の場所でのimportの挙動について整理
+https://qiita.com/fetaro/items/31b02b940ce9ec579baf
