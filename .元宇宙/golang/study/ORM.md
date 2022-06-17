@@ -1,5 +1,7 @@
 # gorm.io/gorm 
 
+https://gorm.io/ja_JP/
+
 https://gorm.io/ja_JP/docs/index.html
 
 
