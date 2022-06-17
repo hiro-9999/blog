@@ -1,6 +1,6 @@
 # google/wire
-https://user-first.ikyu.co.jp/entry/google-wire
-
+[[https://user-first.ikyu.co.jp/entry/google-wire](https://www.cetus-media.info/article/2020/go-wire/)
+](https://www.cetus-media.info/article/2020/go-wire/)
 
 
 GoでDI（dependency injection）してみたいと思います。
