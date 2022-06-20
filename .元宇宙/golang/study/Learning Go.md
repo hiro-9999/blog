@@ -5,6 +5,8 @@ https://qiita.com/tfrcm/items/e2a3d7ce7ab8868e37f7
 golang.org/x/xerrors
 https://pkg.go.dev/golang.org/x/xerrors
 
+  xerrors.Errorf(s+": %w", err) 
+
 go install golang.org/x/lint/golint@latest
 
 And run it with:
