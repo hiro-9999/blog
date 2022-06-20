@@ -1,3 +1,5 @@
+https://qiita.com/tfrcm/items/e2a3d7ce7ab8868e37f7
+
 ```go
 go install golang.org/x/lint/golint@latest
 
