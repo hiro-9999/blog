@@ -7,3 +7,5 @@ https://github.com/microsoft/vscode-remote-try-go
 ]github.com/aws/aws-sdk-go/aws"
 
 	"github.com/aws/aws-sdk-go/service/sfn
+
+https://github.com/aws/aws-sdk-go
