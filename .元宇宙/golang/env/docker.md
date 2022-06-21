@@ -1,3 +1,6 @@
+docker-compose up -d
+
+
 https://docs.docker.com/compose/compose-file/#restart
 
 services:
