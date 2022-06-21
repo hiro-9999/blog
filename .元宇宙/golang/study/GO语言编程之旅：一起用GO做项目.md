@@ -1,6 +1,37 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
+```go
+go func(){
+  defer func(){
+     if e := recover(); e != nil{
+        log.Printf("%v",e)
+     }  
+  }()
+  panic("error")
+}
+```
 
 不错，在看！！！
+
+go mod graph
+
+go mod vendor
+
+go mod edit
+
+go mod verify
+
+go mod why
+
+go mod download
+
+go mod init
+
+## go env
+go modules on
+
+go env -w GO111MODULE="on"
+
+
 
 
 https://github.com/google/gops
