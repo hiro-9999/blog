@@ -67,6 +67,13 @@ go env -w GO111MODULE="on"
 
 ```
 
+# 零基础Go语言从入门到精通 (零壹快学) (z-lib.org)
+◇ sync.Map无须使用make创建。
+◇ Load()方法的第一个返回值是接口类型，需要将其转换为map值的类型。
+◇ 目前sync.Map没有提供获取map数量的方法，解决方案是通过循环遍历map。
+◇ 与较普通的map相比，sync.Map为了保证并发安全，会有性能上的损失，因此在非并发情况
+下，推荐使用map。
+
 https://github.com/google/gops
 
 $ go install github.com/google/gops@latest
