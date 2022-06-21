@@ -12,7 +12,14 @@ GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
 c1 := complex(1, 2)
 fmt.Println(c1, "实部为:", real(c1))
 fmt.Println(c1, "虚部为:", imag(c1))
-	
+
+const X complex128  = complex(1,1)
+const Y complex128  = complex(2,2)
+const multi = X * Y // 乗算
+
+_, theta := cmplx.Polar(multi) //極座標の形で距離と偏角を返す
+fmt.Println(theta * 180 / math.Pi) // ラジアンから度数に変換 90度になる
+https://qiita.com/souhei-etou/items/dae870612865faf542e7	
 	
 //其底层数组元素末尾
 s := []int{0, 1, 2, 3, 4, 5, 6, 7,9,10} // [0 1 2 3 4 5 6 7 8 9] len=10,cap=10　←其底层数组元素末尾
