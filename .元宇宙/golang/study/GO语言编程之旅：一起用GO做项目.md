@@ -7,7 +7,7 @@ https://github.com/google/gops
 
 $ go install github.com/google/gops@latest
 
-
+# 分析内存
 go build -gcflag '-m -l' main.go
 
 
