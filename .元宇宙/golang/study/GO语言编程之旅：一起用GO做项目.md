@@ -8,6 +8,13 @@ go func(){
   }()
   panic("error")
 }
+
+fatapanic
+fatalthrow <- error
+
+GOMAXPROCS. 
+
+import _ "go.uber.org/automacprocs"
 ```
 
 不错，在看！！！
