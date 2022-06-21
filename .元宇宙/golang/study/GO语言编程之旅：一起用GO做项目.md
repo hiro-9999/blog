@@ -1,4 +1,10 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
+◇ Go官方文档
+网址:https://golang.org/doc/
+
+◇ Go语言官方包索引与搜索引擎
+网址:https://godoc.org/
+
 ```go
 go func(){
   defer func(){
