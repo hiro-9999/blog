@@ -14,6 +14,12 @@ GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
 ### 切片 s 的长度和容量可通过表达式 len(s) 和 cap(s) 来获取 
 🔴　第一个元素到其底层数组元素末尾的个数
 ```go
+if _, _, line, ok := runtime.Caller(0); ok == true {
+	//错误所在位置
+	err := fmt.Errorf("***Line %d error***", line)
+	fmt.Println(err.Error())
+}
+	
 data := &struct {
 Code int
   Msg  string
