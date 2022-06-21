@@ -1,4 +1,7 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
+
+https://github.com/valyala/fastjson)，有兴趣的读者可以尝试操作。
+
 ◇ Go官方文档
 网址:https://golang.org/doc/
 
