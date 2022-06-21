@@ -5,6 +5,27 @@ https://github.com/valyala/fastjson)，有兴趣的读者可以尝试操作。
 ◇ Go官方文档
 网址:https://golang.org/doc/
 
+
+### 并发(concurrency):指在同一时刻只能有一条指令执行，但多个进程指令被快速地轮换 执行，得到在宏观上有多个进程同时执行的效果，但在微观上并不是同时执行，只是把时
+间片分成了若干段，使得多个进程快速交替执行。
+
+## go 函数名(函数参数) 如果函数有返回值，返回值会被忽略。因此，一旦使用go关键字，
+ 就不能使用函数返回值,来与主进程进行数据交换，而只能使用channel，关于channel将会在后面的章节中进行介绍。
+ 
+ ### 所以Go采用了动态扩张 收缩的策略，初始化为2 KB，最大可扩张到1 GB。
+
+第 13 章 并发与通道
+package main
+func run(arg string) {
+// 此线程的任务 }
+func main() {
+     go run("this is new thread")
+}
+
+# if value, ok := data.(int); ok == true {
+ switch value := data.(type) {
+      case int:
+      
 ◇ Go语言官方包索引与搜索引擎
 网址:https://godoc.org/
 
