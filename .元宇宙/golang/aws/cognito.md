@@ -25,3 +25,7 @@ https://github.com/ory/hydra
 - https://www.ory.sh/docs/hydra/5min-tutorial
 - 
 - https://www.ory.sh/run-oauth2-server-open-source-api-security/
+
+
+# hydra(ヒュドラ)というパスワードクラッカー
+https://qiita.com/shyamahira/items/fdb50f016e0e6c64ed4e
