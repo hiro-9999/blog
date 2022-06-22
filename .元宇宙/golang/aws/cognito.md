@@ -16,3 +16,12 @@ https://qiita.com/UpAllNight/items/ec522da70a6fe86a1d16
 →認証したユーザーに対するデータアクセス制御の仕組み	OAuth 2.0
 
 https://qiita.com/UpAllNight/items/ec522da70a6fe86a1d16
+
+
+Hydra: https://www.ory.sh/hydra/ 
+
+https://github.com/ory/hydra
+
+- https://www.ory.sh/docs/hydra/5min-tutorial
+- 
+- https://www.ory.sh/run-oauth2-server-open-source-api-security/
