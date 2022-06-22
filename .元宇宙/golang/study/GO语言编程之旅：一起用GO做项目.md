@@ -1,9 +1,25 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
-
+## colly爬取网页
+colly的代码托管在GitHub上，官方网站为http://go-colly.org/
 ```go
 func Add(a, b int) int {
 	return a + b
 }
+
+# "regexp"
+targetString := "hello world"
+	matchString := "(?i)hello" //不区分大小写
+	match, err := regexp.MatchString(matchString, targetString)
+	if err != nil {
+		fmt.Println(err)
+	}
+	fmt.Println(match)
+	
+re := regexp.MustCompile(`o`)
+ res := re.ReplaceAllString(targetString,"O")
+ 
+ re := regexp.MustCompile(`(\w)+`)
+ res := re.FindStringIndex(targetString)
 
 ***_test.go
 import "testing"
