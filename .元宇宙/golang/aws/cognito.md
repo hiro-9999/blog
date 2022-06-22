@@ -14,11 +14,12 @@ https://qiita.com/UpAllNight/items/ec522da70a6fe86a1d16
 →ユーザーの認証の仕組み	OpenID Connect 1.0
 認可	相手に適切な権限を付与すること
 →認証したユーザーに対するデータアクセス制御の仕組み	OAuth 2.0
-
+# これだけ見れば理解できるCognito〜認証機能つきサーバレスアーキテクチャの作成〜
 https://qiita.com/UpAllNight/items/ec522da70a6fe86a1d16
 
 
-Hydra: https://www.ory.sh/hydra/ 
+# Ory Hydra:
+https://www.ory.sh/hydra/ 
 
 https://github.com/ory/hydra
 
