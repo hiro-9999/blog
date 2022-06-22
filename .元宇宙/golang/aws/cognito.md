@@ -1,3 +1,5 @@
+https://dev.classmethod.jp/articles/amazon-cognito-now-supports-targeted-sign-out-through-refresh-token-revocation/
+
 https://aws.amazon.com/jp/cognito/faqs/
 
 Q: Amazon Cognito ではどのプラットフォームがサポートされていますか?
