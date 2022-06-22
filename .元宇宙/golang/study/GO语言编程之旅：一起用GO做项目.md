@@ -40,9 +40,23 @@ log.Fatal("数据表创建失败!",err) }
 log.Println("数据表创建成功!")
 }
 
+rs, err := db.Exec("INSERT INTO `user`(username,gender,password, created) VALUES (?,?,?,?)","john",1,"123456",time.Now()) checkErr(err)
+rowCount, err := rs.RowsAffected() checkErr(err)
+log.Printf("插入了 %d 行", rowCount)
+
 func Add(a, b int) int {
 	return a + b
 }
+
+rows, err := db.Query("select * from `user` where username=?", "john")
+defer rows.Close()
+
+for rows.Next() {
+          user := User{}
+err := rows.Scan(&user.Uid,&user.Username,&user. Gender,&user.Password,&user.Created)
+          checkErr(err)
+          log.Println(user)
+     }
 
 # "regexp"
 targetString := "hello world"
