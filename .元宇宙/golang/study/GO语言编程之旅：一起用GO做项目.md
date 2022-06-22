@@ -13,6 +13,58 @@ n := runtime.GOMAXPROCS(8)
 x, ok := <-channel
 //同上，并检查通道是否关闭，将此状态赋值给ok
 ```go
+ch := make(chan int)
+done := make(chan bool)
+go func() {
+	for {
+		select {
+		case val := <-ch:
+			fmt.Println(val)
+		case <-time.After(time.Second * 3):
+			fmt.Println("已超时3秒")
+			done <- true
+		}
+	}
+}()
+for i := 0; i < 10; i++ {
+	ch <- i
+}
+<-done
+fmt.Println("程序终止")
+	
+	
+ch := make(chan int, 4)
+go func() {
+	for i := 0; i < 3; i++ {
+		ch <- i
+	}
+	close(ch)
+}()
+for data := range ch {
+	fmt.Println(data)
+}
+
+go func() {
+		for i := 0; i < 3; i++ {
+			ch <- i
+		}
+		//close(ch)
+	}()
+	//for data := range ch {
+	//	fmt.Println(data)
+	//}
+	for {
+		select {
+		case msg := <-ch:
+			fmt.Println(msg)
+		default:
+			//time.Sleep(time.Second)
+			//runtime.Goexit()
+			//fmt.Println("over")
+		}
+	}
+	
+	
 ch := make(chan string)
 
 go func() {
@@ -21,6 +73,12 @@ go func() {
 ch <- "test"
 
 //time.Sleep(time.Second)
+
+ticker := time.NewTicker(time.Second)
+for {
+
+	fmt.Println("loop", <-ticker.C)
+}
 ```
 channel是一种特殊的类型，和map类似，channel也是一个对应make创建的底层数据结构的引 用。声明一个channel的方式如下:
 var 通道变量 chan 通道类型
