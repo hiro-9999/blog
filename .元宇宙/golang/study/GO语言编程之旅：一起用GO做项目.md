@@ -1,5 +1,30 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
 
+ ## runtime.Gosched()
+ runtime.Goexit() // 效果和return一样
+ Goexit()终止调用它的Go协程，但其他Go协程不会受影响。Goexit()会在终止该Go协程前执行所 有defer的函数。
+ # GOMAXPROCS
+ GOMAXPROCS(n int)函数可以设置程序在运行中所使用的CPU数，在以后的编程中是用得最多 的。Go语言程序默认会使用最大CPU数进行计算。
+n := runtime.GOMAXPROCS(8)
+	fmt.Println("先前的CPU核数设置为:", n) //8
+	
+# make(chan Type, capacity)	
+当capacity为0时，channel是无缓冲阻塞读写的;当capacity大于0时，channel是有缓冲、非阻塞 的，直到写满capacity个元素才阻塞写入。
+x, ok := <-channel
+//同上，并检查通道是否关闭，将此状态赋值给ok
+```go
+ch := make(chan string)
+
+go func() {
+	fmt.Println(<-ch)
+}()
+ch <- "test"
+
+//time.Sleep(time.Second)
+```
+channel是一种特殊的类型，和map类似，channel也是一个对应make创建的底层数据结构的引 用。声明一个channel的方式如下:
+var 通道变量 chan 通道类型
+
 https://github.com/valyala/fastjson)，有兴趣的读者可以尝试操作。
 
 ◇ Go官方文档
