@@ -1,5 +1,20 @@
 GO语言编程之旅：一起用GO做项目 (陈煎鱼) (z-lib.org)
 
+```go
+func Add(a, b int) int {
+	return a + b
+}
+
+***_test.go
+import "testing"
+
+func TestAdd(t *testing.T) {
+	if Add(1, 3) != 4 {
+		t.Error("Add函数存在问题!")
+	}
+}
+```
+
  ## runtime.Gosched()
  runtime.Goexit() // 效果和return一样
  Goexit()终止调用它的Go协程，但其他Go协程不会受影响。Goexit()会在终止该Go协程前执行所 有defer的函数。
