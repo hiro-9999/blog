@@ -32,3 +32,6 @@ https://github.com/go-kratos/kratos
 
 # hydra(ヒュドラ)というパスワードクラッカー
 https://qiita.com/shyamahira/items/fdb50f016e0e6c64ed4e
+
+# 認証認可製品いろいろ
+https://zenn.dev/inabajunmr/scraps/e6b98c45ba67bd
