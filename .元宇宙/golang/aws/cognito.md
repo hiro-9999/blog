@@ -27,6 +27,8 @@ https://github.com/ory/hydra
 - 
 - https://www.ory.sh/run-oauth2-server-open-source-api-security/
 
+### go-kratos
+https://github.com/go-kratos/kratos
 
 # hydra(ヒュドラ)というパスワードクラッカー
 https://qiita.com/shyamahira/items/fdb50f016e0e6c64ed4e
