@@ -4,6 +4,8 @@ https://meetup-jp.toast.com/3993
 https://qiita.com/OKsaiyowa/items/326a795359453e981384
 
 # UniWebView
+https://docs.uniwebview.com/guide/loading-local-files.html#from-game-bundle
+
 https://github.com/NabilNoaman/UniWebView
 
 # 2.WWebView支持PC
