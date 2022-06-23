@@ -1,4 +1,19 @@
 ## UNITY　WINDOWSビルドでWEBページを表示したい
+https://meetup-jp.toast.com/3993
+
+https://qiita.com/OKsaiyowa/items/326a795359453e981384
+
+# UniWebView
+https://github.com/NabilNoaman/UniWebView
+
+# 2.WWebView支持PC
+支持平台assetsore WWebView
+https://blog.csdn.net/qq_36927288/article/details/84970000?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-84970000-blog-52205497.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7Edefault-1-84970000-blog-52205497.pc_relevant_default&utm_relevant_index=2
+
+### WWWForm
+https://www.cnblogs.com/leng-yuye/archive/2012/08/01/2617971.html
+
+https://docs.unity3d.com/ScriptReference/WWWForm.html
 
 ## 在 Unity 编辑器中，打开一个用来显示网页的工具窗
 https://blog.csdn.net/WPAPA/article/details/122714518
