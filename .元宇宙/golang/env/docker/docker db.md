@@ -1,6 +1,8 @@
 # データおよび構成の変更の永続化
 https://mo-gu-mo-gu.com/mysql-env-with-docker/
 
+https://kiyobl.com/docker-mysql-persistence/
+
 https://qiita.com/leafeon00000/items/e190cf92af3a487cc749
 
 $ docker exec -it mysqlapp /bin/bash 
