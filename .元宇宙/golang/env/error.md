@@ -4,6 +4,8 @@ https://qiita.com/sonatard/items/9c9faf79ac03c20f4ae1
 
 import "golang.org/x/xerrors"
 
+https://kazuhira-r.hatenablog.com/entry/2021/02/28/011857
+
 ```go
 err := xerrors.New("error in main method")
 fmt.Printf("%v\n", err)
