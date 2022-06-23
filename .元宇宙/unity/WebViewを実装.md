@@ -1,5 +1,7 @@
 ## UNITY　WINDOWSビルドでWEBページを表示したい
 
+https://teratail.com/questions/io9r6ajcxikey6
+
 UNITY5.3 + awesomium_unity_1_7_4_2_sdk_win_full.unitypackage
 を用いることで、WindowsビルドにてWEBページを表示することができました。
 
