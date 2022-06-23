@@ -3,6 +3,9 @@ https://meetup-jp.toast.com/3993
 
 https://qiita.com/OKsaiyowa/items/326a795359453e981384
 
+# unity-webview
+https://sheltie-garage.xyz/2020/08/unity%E3%80%80%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E3%81%A7web%E3%83%9A%E3%83%BC%E3%82%B8%E3%82%92%E8%A1%A8%E7%A4%BA%E3%81%99%E3%82%8B/
+
 # UniWebView
 https://docs.uniwebview.com/guide/loading-local-files.html#from-game-bundle
 
