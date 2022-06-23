@@ -1,4 +1,8 @@
 ## UNITY　WINDOWSビルドでWEBページを表示したい
+https://qiita.com/fukaken5050/items/7d0fba55565d7e53dcc8
+
+### test example
+https://github.com/fukaken5050/TestGreeEditorWebView
 
 https://teratail.com/questions/io9r6ajcxikey6
 
