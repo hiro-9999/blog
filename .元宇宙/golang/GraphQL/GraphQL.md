@@ -1,9 +1,16 @@
 # GraphQL
 https://reffect.co.jp/html/graphql
 
+https://www.graphql-inspector.com
+
 スキーマタイプにはオブジェクトタイプの他にQueryタイプ、Mutationタイプ、Subscriptionタイプがあります。
 QueryタイプはRead Operation(問い合わせ)を行うクエリーの定義に利用します。MutationタイプはWrite Operations(作成、更新、削除)に利用します。
 SubscriptionタイプはChatアプリなどのようなリアルタイムのRead Operationに利用します。
+
+### PrismはORM
+PrismはORM(オブジェクト-リレーショナルマッピング)でPrismを利用することで接続するデータベースの種類を意識する必要がなくなりSQLを記述しなくても共通のオブジェクトメソッドを利用してデータベースの操作を行うことができます。
+
+% npm install prisma --save-dev
 
 ### JSONPlaceHolder
 外部データリソースには無料で利用可能なJSONPlaceHolderを利用します。決められたURLにGETリクエストを送信するとJSONでデータを取得することができます。
@@ -64,6 +71,10 @@ GraphQL Code Generatorでスキーマからリゾルバの型定義、openapi-ty
 https://www.graphql-code-generator.com/plugins/typescript-resolvers
 
 ## drwpow/openapi-typescript: Generate TypeScript types from Swagger OpenAPI specs
+https://github.com/drwpow/openapi-typescript
+
+https://www.graphql-code-generator.com/plugins/typescript-react-apollo
+
 
 
 https://inside.dmm.com/entry/2022/6/24/dmmgames-bff/
