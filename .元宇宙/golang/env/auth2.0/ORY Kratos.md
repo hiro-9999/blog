@@ -6,6 +6,8 @@ https://search.bilibili.com/all?keyword=go-kratos%2Fkratos&from_source=webtop_se
 # sample
 https://github.com/Windfarer/kratos-realworld
 
+https://space.bilibili.com/1885628842
+
 
 ## go-kratos/gateway微服务网关(1)
 https://github.com/go-kratos/gateway 
