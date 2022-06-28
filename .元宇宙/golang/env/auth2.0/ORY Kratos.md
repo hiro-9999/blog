@@ -3,6 +3,9 @@ https://github.com/go-kratos/kratos
 
 https://search.bilibili.com/all?keyword=go-kratos%2Fkratos&from_source=webtop_search&spm_id_from=333.976
 
+# sample
+https://github.com/Windfarer/kratos-realworld
+
 
 ## go-kratos/gateway微服务网关(1)
 https://github.com/go-kratos/gateway 
