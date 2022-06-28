@@ -1,4 +1,6 @@
 ## kratos
+https://www.ory.sh/docs/kratos/quickstart 
+
 https://github.com/go-kratos/kratos
 
 https://search.bilibili.com/all?keyword=go-kratos%2Fkratos&from_source=webtop_search&spm_id_from=333.976
