@@ -1,4 +1,5 @@
 # go env
+https://future-architect.github.io/articles/20201117/
 
 go mod tidy <-upgrade version
  
