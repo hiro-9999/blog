@@ -1,6 +1,9 @@
 
 https://zenn.dev/nekoshita/articles/097e00c6d3d1c9
 
+## まず公式のfmt.Errorfとxerrors.Errorfの違いについて説明します。
+https://christina04.hatenablog.com/entry/fmt-vs-xerrors-vs-original-error
+
 https://github.com/golang/xerrors
 を見てもらうとわかると思うのですが、もうメンテされないからです。xerrorsはgo v1.13に取り込まれたことで役目を終えたようです。
 
