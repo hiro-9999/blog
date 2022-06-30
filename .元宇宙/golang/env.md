@@ -31,7 +31,9 @@ https://github.com/Microsoft/vscode-remote-try-go
 https://github.com/golang-standards/project-layout/blob/master/README_ja.md
 
 
-# 环境
+# 环境 ok
+http://lic-server.mephi.ru
+
 https://jetbra.in
 
 https://luckymrwang.github.io/2022/01/08/IDEA%E5%85%A8%E7%89%88%E6%9C%AC%E9%80%9A%E6%9D%80%E5%AE%8C%E7%BE%8E%E7%A0%B4%E8%A7%A3%E6%96%B9%E6%A1%88/
@@ -40,7 +42,7 @@ https://luckymrwang.github.io/2022/01/08/IDEA%E5%85%A8%E7%89%88%E6%9C%AC%E9%80%9
 
 https://www.mano100.cn/thread-1942-1-1.html
 
-http://lic-server.mephi.ru
+
 
 https://www.bilibili.com/video/BV1sA4y1f77X?spm_id_from=333.337.search-card.all.click
 
