@@ -1,4 +1,8 @@
 ## AWS Certificate Manager (ACM) の証明書を使用して
+ACMを利用するときの1つ目のポイントは、利用できるサービスが限られていることです。
+
+パブリックなSSL/TLS証明書の発行が出来るのは「ELB（Elastic Load Balancing）」「Amazon CloudFront」「Amazon API Gateway」「AWS Elastic Beanstalk」「AWS CloudFormation」以上の5つのサービスだけです。
+https://www.fenet.jp/aws/column/aws-beginner/366/
 
 https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/cnames-and-https-requirements.html
 [
