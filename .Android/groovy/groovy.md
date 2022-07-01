@@ -6,4 +6,9 @@ brew install groovy
 
 groovysh
 
+Math.sqrt(16)
+
+
+groovyConsole
+
 ```
