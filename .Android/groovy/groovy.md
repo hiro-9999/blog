@@ -11,4 +11,8 @@ Math.sqrt(16)
 
 groovyConsole
 
+for(i in 0..2) { print 'ho ' }
+
+println 'Merry Groovy!'
+
 ```
