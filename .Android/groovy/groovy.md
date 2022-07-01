@@ -30,7 +30,7 @@ println "Year: $car.year"
 println "Miles: $car.miles"
 println 'Setting miles'
 car.miles = 25
-println "Miles: $car.miles
+println "Miles: $car.miles"
 
 抜粋:
 Groovy程序设计 (图灵程序设计丛书)
