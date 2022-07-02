@@ -4,6 +4,15 @@ https://groovy-lang.org/install.html
 https://qiita.com/yonetty/items/4322e76f93d36ce666c2
 
 
+## Spock Framework
+https://github.com/spockframework/spock
+
+### DSL
+“领域特定语言（Domain-Specific Language，DSL）针对的是“某一特定类型的问题”，”
+
+# gradle
+https://docs.gradle.org/current/samples/sample_building_groovy_libraries.html
+
 ```groovy
 
 brew install groovy
@@ -18,6 +27,23 @@ groovyConsole
 assert 4 * ( 2 + 3 ) - 5 == 14 : "test failed"
 
 for(i in 0..2) { print 'ho ' }
+
+langs = ['C++' : 'Stroustrup', 'Java' : 'Gosling', 'Lisp' : 'McCarthy']
+
+xmlDocument = new groovy.xml.StreamingMarkupBuilder().bind {
+  mkp.xmlDeclaration()
+  mkp.declareNamespace(computer: "Computer")
+  languages {
+    comment << "Created using StreamingMarkupBuilder" 
+    langs.each { key, value ->
+      computer.language(name: key) {
+        author (value)
+      }
+    }
+  }
+}
+println xmlDocument
+
 
 println 'Merry Groovy!'
 
@@ -37,6 +63,13 @@ println "Miles: $car.miles"
 println 'Setting miles'
 car.miles = 25
 println "Miles: $car.miles"
+
+try {
+ println "start: "
+ assert 4 * ( 2 + 3 ) - 5 == 14 : "test failed"
+} catch(Exception ex) {
+  println "Error: " + ex
+}
 
 抜粋:
 Groovy程序设计 (图灵程序设计丛书)
