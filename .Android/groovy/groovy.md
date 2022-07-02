@@ -1,5 +1,9 @@
 https://groovy-lang.org/install.html
 
+## assert
+https://qiita.com/yonetty/items/4322e76f93d36ce666c2
+
+
 ```groovy
 
 brew install groovy
@@ -10,6 +14,8 @@ Math.sqrt(16)
 
 
 groovyConsole
+
+assert 4 * ( 2 + 3 ) - 5 == 14 : "test failed"
 
 for(i in 0..2) { print 'ho ' }
 
@@ -67,4 +73,8 @@ Mixin”
 抜粋:
 Groovy程序设计 (图灵程序设计丛书)
 Venkat Subramaniam
-この素材は著作権で保護されている可能性があります。
+
+## Grails
+Grails （グレイルズ）は、プログラミング言語 Groovy を使用するオープンソースのWebアプリケーションフレームワーク。Grails や Groovy はJavaプラットフォーム上で動作する。「設定より規約 (convention over configuration)」というパラダイムにより高い生産性を実現し、スタンドアロンの開発環境を提供しつつ、開発者からはその設定の詳細を隠蔽している。
+
+かつては "Groovy on Rails" と名乗っていたが、Ruby on Rails の David Heinemeier Hansson の要求で現在の名称になった[1][2]。開発は2005年7月に開始され、2006年3月29日に 0.1 をリリース、2008年2月18日に 1.0 をリリース、2011年12月15日に 2.0、2015年3月31日に 3.0 をリリースした。
