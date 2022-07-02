@@ -13,6 +13,8 @@ https://github.com/spockframework/spock
 # gradle
 https://docs.gradle.org/current/samples/sample_building_groovy_libraries.html
 
+https://qiita.com/opengl-8080/items/0a192b62ee87d8ac7578
+
 ```groovy
 
 brew install groovy
