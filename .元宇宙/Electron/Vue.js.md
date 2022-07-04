@@ -18,3 +18,7 @@ https://www.electron.build
 
 # VueCLI
 https://cli.vuejs.org
+
+
+## Widevineを利用するためにカスタムされたcastLabs Electronを利用
+https://github.com/castlabs/electron-releases/
