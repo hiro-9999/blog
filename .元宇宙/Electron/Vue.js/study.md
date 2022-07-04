@@ -1,6 +1,6 @@
 http://vue_book.siwei.me/
 
-https://github.com/sg552/happy_book_vuej
+https://github.com/sg552/happy_book_vuejs
 
 抜粋:
 Vue.js快速入门
