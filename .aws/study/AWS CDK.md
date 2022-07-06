@@ -2,6 +2,7 @@
 # AWS CDK で作った Lambda に .env ファイルで環境変数を設定したい
 https://chaika.hatenablog.com/entry/2022/05/28/083000
 
+https://chaika.hatenablog.com/entry/2022/05/27/083000
 
 
 # AWS Cloud Development Kit (AWS CDK) 
