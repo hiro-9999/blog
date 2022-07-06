@@ -1,3 +1,7 @@
+# 理解するAWS CDK
+https://qiita.com/Brutus/items/6c8d9bfaab7af53d154a
+
+
 
 # AWS CDK で作った Lambda に .env ファイルで環境変数を設定したい
 https://chaika.hatenablog.com/entry/2022/05/28/083000
