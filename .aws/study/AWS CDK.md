@@ -1,3 +1,9 @@
+
+# AWS CDK で作った Lambda に .env ファイルで環境変数を設定したい
+https://chaika.hatenablog.com/entry/2022/05/28/083000
+
+
+
 # AWS Cloud Development Kit (AWS CDK) 
 
 https://qiita.com/Brutus/items/6c8d9bfaab7af53d154a
@@ -7,7 +13,8 @@ AWS Cloud Development Kit (AWS CDK) （以下、CDK）はTypeScript及びPython�
 
 https://constructs.dev/search?q=&cdk=aws-cdk&cdkver=2&langs=go&sort=downloadsDesc&offset=0&tags=datadog-published%2Caws-published
 
-
+# マルチアカウントでの運用方法
+https://tech.raksul.com/2021/11/26/aws-cdk-three-cautionaries/
 
 https://docs.aws.amazon.com/cdk/api/v1/docs/aws-secretsmanager-readme.html
 
