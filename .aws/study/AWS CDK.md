@@ -4,6 +4,21 @@ https://chaika.hatenablog.com/entry/2022/05/28/083000
 
 https://chaika.hatenablog.com/entry/2022/05/27/083000
 
+https://bobbyhadz.com/blog/get-secrets-manager-values-aws-cdk
+
+
+# Terrraform  AWS CDK 
+https://www.terraform.io/cdktf
+
+### CDK for Terraform (CDKTF) 
+https://www.terraform.io/cdktf/concepts/cdktf-architecture
+
+
+https://qiita.com/luton-mr/items/afe70781807bf3b5016a
+
+# python
+https://tech.nri-net.com/entry/aws_cdk_cross_region_stack_deployment_method
+
 
 # AWS Cloud Development Kit (AWS CDK) 
 
