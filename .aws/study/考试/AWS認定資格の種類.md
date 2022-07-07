@@ -1,3 +1,5 @@
+![资格](https://github.com/hiro-9999/blog/blob/master/.aws/study/%E8%80%83%E8%AF%95/AWS%E8%AA%8D%E5%AE%9A%E8%B3%87%E6%A0%BC%E4%B8%80%E8%A6%A7.jpeg)
+
 # AWS認定資格の種類  https://aws.amazon.com/jp/certification/
 
 ## AWS Certified Cloud Practitioner 試験 (CLF-C01) 
