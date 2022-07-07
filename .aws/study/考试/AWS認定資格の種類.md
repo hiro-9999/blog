@@ -2,6 +2,9 @@
 
 ### AWS認定資格の種類  https://aws.amazon.com/jp/certification/
 
+###  learn 🔴
+https://infra-note.net/aws-certification/
+
 # 🔴 CLF→SAA→DVA or SOA or 専門知識 or プロフェッショナル（SAP,DOP）
 
 # 🔴　AWS Certified Cloud Practitioner 試験 (CLF-C01) 
