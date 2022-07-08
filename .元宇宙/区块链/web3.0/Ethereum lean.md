@@ -19,6 +19,9 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
             
   https://github.com/golemfactory/golem
   
+  
+  https://github.com/Nielsvdiermen/WhoPays
+  
  ```           
                 
 The following are the things we will need for setting up the workflow:
