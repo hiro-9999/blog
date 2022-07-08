@@ -17,6 +17,8 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
   
   https://github.com/web3j/web3j
             
+  https://github.com/golemfactory/golem
+  
  ```           
                 
 The following are the things we will need for setting up the workflow:
