@@ -1,5 +1,12 @@
 https://github.com/PacktPublishing/Ethereum-Projects-for-Beginners
 
+“Hands-On Blockchain with Hyperledger”
+
+抜粋:
+Ethereum Projects for Beginners
+Kenny Vaneetvelde
+この素材は著作権で保護されている可能性があります。
+
 ### DeFi’s Total Value Locked (TVL) crossed an impressive $86.05 billion 
 https://defillama.com/chain/Ethereum
 
@@ -26,6 +33,13 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
   
   
   https://infura.io/customers/uniswap
+  
+  https://www.reddit.com/r/ethereum/
+  
+  https://www.coindesk.com
+  
+  https://consensys.net
+  
   
   
  ```           
