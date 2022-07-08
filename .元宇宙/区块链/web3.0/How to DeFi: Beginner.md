@@ -7,3 +7,5 @@
 How to DeFi Beginner (2nd Edition)
 CoinGecko
 この素材は著作権で保護されている可能性があります。
+
+https://blockgeeks.com/guides/disruptive-blockchain-technology-use-cases-2022/
