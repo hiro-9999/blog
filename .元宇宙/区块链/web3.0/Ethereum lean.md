@@ -22,6 +22,8 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
   
   https://github.com/Nielsvdiermen/WhoPays
   
+  https://geth.ethereum.org/docs/install-and-build/installing-geth#macos-via-homebrew
+  
  ```           
                 
 The following are the things we will need for setting up the workflow:
