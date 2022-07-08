@@ -11,6 +11,8 @@ Google Chrome.
 MetaMask, which is a Chrome extension. We will use this to connect to and to test the blockchain.
 Node Package Manager (NPM).
 Truffle, which is our first framework. We will be using it to develop our first decentralized application.
+https://trufflesuite.com/docs/ganache/quickstart/
+
 Ethereum-JS ganache-cli, which is a test blockchain.”
 
 抜粋:
