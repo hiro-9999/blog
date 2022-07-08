@@ -12,6 +12,10 @@ https://github.com/OpenZeppelin/openzeppelin-contracts
   
   ## ethereum
   https://github.com/ethereum
+  
+  https://github.com/ethereum/web3.py
+  
+  https://github.com/web3j/web3j
             
  ```           
                 
