@@ -4,4 +4,8 @@ brew tap mongodb/brew
  
  mongod --version
  
+  brew services start mongodb-community
+  
+  brew services stop mongodb-community
+ 
 https://reffect.co.jp/windows/mac-mongodb-install
