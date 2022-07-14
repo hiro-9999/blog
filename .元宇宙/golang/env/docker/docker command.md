@@ -54,4 +54,48 @@ docker push luksa/kubia
 http://kubernetes.io
 
 
+```node
+# goのバイナリビルドをビルドするステージ
+FROM golang:1.17 as builder
+
+ARG SERVICE_NAME
+ARG RELEASE_TAG
+ARG COMMIT_HASH
+
+WORKDIR /go/src/app
+
+COPY go.mod go.sum ./
+RUN go mod download
+
+COPY . /go/src/app
+
+RUN CGO_ENABLED=0 go build -o app -a -tags netgo -installsuffix netgo  -ldflags "-X main.releaseVersion=${RELEASE_TAG} -X main.commitHash=${COMMIT_HASH}" ./cmd/${SERVICE_NAME}
+
+
+# sleepのバイナリを取得するために参照するステージ
+FROM busybox:1.35-musl as busybox
+
+
+# distroless: バイナリの実行に必要な依存のみが含まれているContainerImage
+# パッケージマネージャやシェルも入っておらず、堅牢性が高くイメージサイズも小さい
+# Goで生成したバイナリを実行するユースケースに適している
+FROM gcr.io/distroless/static
+
+ENV TZ="Asia/Tokyo"
+
+# distrolessにはsleepコマンドが存在しない
+# しかしKubernetesのdeploymentリソースにて、Containerの終了をハンドリングする際にsleepが必要になる
+# sleepコマンドを実行するためにbusyboxからsleepのバイナリをコピーしている
+COPY --from=busybox /bin/sleep /bin/sleep
+# AWS EKSではCronJob実行環境のタイムゾーンがUTCである。
+# JSTで毎月1日、00:00 ~ 08:59 の間にJob実行するには各月の日にちの違いを考慮する必要がある。
+# そのため、busyboxからshとdateのバイナリをコピーしている。
+# 参考：https://stackoverflow.com/questions/71651529/schedule-cronjob-for-last-day-of-the-month-using-kubernetes
+COPY --from=busybox /bin/sh /bin/sh
+COPY --from=busybox /bin/date /bin/date
+COPY --from=builder /go/src/app/app ./app
+
+ENTRYPOINT ["./app"]
+```
+
 
