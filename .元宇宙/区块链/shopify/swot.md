@@ -4,6 +4,12 @@ The Business Book (Big Ideas Simply Explained) (DK Publishing) (z-lib.org)
 
 it is used to identify internal strengths (S) and weaknesses (W), and to analyze external opportunities (O) and threats (T).
 
+## start small, think big
+
+# “know something that nobody else knows” in order to stand out from the competition.
+a Unique Selling Proposition (USP). 
+
+Emotional Selling Proposition (ESP).
 
          PERFORMANCE
 
