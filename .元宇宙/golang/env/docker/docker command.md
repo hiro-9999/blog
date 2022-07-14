@@ -1,3 +1,17 @@
+```js
+const http = require('http');
+const os = require('os');
+console.log("start");
+var handler = funtion(request,response){
+ console.log("request " + request.connection.remoteAdderss );
+ response.writeHead(200);
+ response.end("finished os:" + os.hostname() + "\n");
+};
+var www = http.createServer(handler);
+www.listen(8080);
+
+```
+
 代码清单2.3 构建应用容器镜像的Dockerfile
 ```node
 FROM node:7
