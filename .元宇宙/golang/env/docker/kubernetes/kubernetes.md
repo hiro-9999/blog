@@ -2,6 +2,8 @@ https://kubernetes.io
 
 https://kubernetes.io/docs/reference/
 
+## Kubernetes in Action中文版
+
 多节点的Kubernetes集群并不是一项简单的工作，特别是如果你不精通Linux和网络管理的话。
 一个适当的Kubernetes安装需要包含多个物理或虚拟机，并需要正确地设置网络，
 以便在Kubernetes集群内运行的所有容器都可以在相同的扁平网络环境内相互连通。
@@ -32,6 +34,29 @@ kubectl get 命令可以列出各种Kubernetes对象。你将会经常使用到�
 查看对象的更多信息
 
 要查看关于对象的更详细的信息，可以使用 kubectl describe 命令，它显示了更多信息：
+ ### 请将initialDelaySeconds属性添加到存活探针的配置中，如下面的代码清单所示。
+
+代码清单4.3 具有初始延迟的存活探针：kubia-liveness-probe-initial-delay.yaml
+ 
+ label selector（标签选择器），用于确定ReplicationController作用域中有哪些pod
+
+replica count（副本个数），指定应运行的pod数量
+
+pod template（pod模板），用于创建新的pod副本
+ 
+但这次你的做法会不一样。
+
+通过编辑定义来缩放ReplicationController
+
+不使用kubectl scale命令，而是通过以声明的形式编辑ReplicationController的定义对其进行缩放：
+
+
+### 当文本编辑器打开时，找到spec.replicas字段并将其值更改为10，如下面的代码清单所示。
+
+代码清单4.7 运行kubectl edit在文本编辑器中编辑RC
+ 
+ ### 当使用kubectl delete删除ReplicationController时，可以通过给命令增加--cascade=false选项来保持pod的运行。马上试试看
+kubectl delete rc kubie --cascade=false
  
  
   ### ～/.bashrc 或类似的文件中：
@@ -191,8 +216,16 @@ env notin（prod,devel）选择带有env标签，但其值不是prod或devel的p
 
  Kubernetes可以通过存活探针（liveness probe）检查容器是否还在运行。
  
+ ## ReplicaSet
  
+ 通过在pod配置中设置activeDeadlineSeconds属性，可以限制pod的时间。如果pod运行时间超过此时间，系统将尝试终止pod，并将Job标记为失败。
+
+注意 通过指定Job manifest中的spec.backoffLimit字段，可以配置Job在被标记为失败之前可以重试的次数。如果你没有明确指定它，则默认为6。
  
+ ### Kubernetes中的cron任务通过创建CronJob资源进行配置。运行任务的时间表以知名的cron格式指定，所以如果你熟悉常规cron任务，你将在几秒钟内了解Kubernetes的CronJob。
+ 你希望每15分钟运行一次任务因此schedule字段的值应该是＂0,15,30,45****＂这意味着每小时的0、15、30和45分钟（第一个星号），每月的每一天（第二个星号），每月（第三个星号）和每周的每一天（第四个星号）。
+
+相反，如果你希望每隔30分钟运行一次，但仅在每月的第一天运行，则应将计划设置为＂0,30 * 1 * *＂，并且如果你希望它每个星期天的3AM运行，将它设置为＂0 3 * * 0＂（最后一个零代表星期天）。
  
  
  
