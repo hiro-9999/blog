@@ -56,7 +56,7 @@ http://kubernetes.io
 
 ```node
 # goのバイナリビルドをビルドするステージ
-FROM golang:1.17 as builder
+FROM golang:1.18 as builder
 
 ARG SERVICE_NAME
 ARG RELEASE_TAG
