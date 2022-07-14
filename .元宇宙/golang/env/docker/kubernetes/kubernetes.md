@@ -1,5 +1,7 @@
 https://kubernetes.io
 
+https://kubernetes.io/docs/reference/
+
 多节点的Kubernetes集群并不是一项简单的工作，特别是如果你不精通Linux和网络管理的话。
 一个适当的Kubernetes安装需要包含多个物理或虚拟机，并需要正确地设置网络，
 以便在Kubernetes集群内运行的所有容器都可以在相同的扁平网络环境内相互连通。
@@ -90,8 +92,113 @@ expose 命令的输出中提到一个名为kubian-http 的服务。服务是类�
  ### 要打开使用Minikube的Kubernetes集群的dashboard，请运行以下命令：
  minikube dashboard
  
+  ## 已部署pod的完整YAML
+kubectl get po kubia-** -o yaml
  
+ metadata 包括名称、命名空间、标签和关于该容器的其他信息。
 
+spec包含pod内容的实际说明，例如pod的容器、卷和其他数据。
+
+status 包含运行中的pod的当前信息，例如pod所处的条件、每个容器的描述和状态，以及内部IP和其他基本信息。
+ 
+ kubectl explain命令
+ ### kubectl explain pods
+ kubectl explain pods.spec
+ 
+ ### kubectl create-f命令用于从YAML或JSON文件创建任何资源（不只是pod）。
+ kubectl create -f kubia-manual.yaml
+ 
+ kubectl get po kubia-manual -o yaml
+ 
+  kubectl get po kubia-manual -o json
+ 
+ kubectl get pods
+ 
+ ### 并使用docker logs命令查看其日志，但Kubernetes提供了一种更为简单的方法。
+ docker logs <container id>
+ 
+kubectl logs kubia-manual
+ 
+使用kubectl logs命令获取pod日志
+ 
+ 在运行kubectl logs命令时则必须通过包含-c <容器名称>选项来显式指定容器名称。在kubia-manual pod中，我们将容器的名称设置为kubia，所以如果该pod中有其他容器，可以通过如下命令获取其日志：
+ ### kubectl logs kubia-manual -c kubia
+ 
+ kubectl port-forward kubia-manual 8888:8080
+ ### 通过运行在localhost:8888上的kubectl portforward代理，可以使用curl 命令向pod发送一个HTTP请求
+ 
+ ### 使用pod标签组织微服务架构中的pod 此时每个pod都标有两个标签：
+metadata.labels 部分已经包含了creation_method=manual 和env=prod标签。现在来创建该pod：
+ 
+app，它指定pod属于哪个应用、组件或微服务。
+
+rel，它显示在pod中运行的应用程序版本是stable、beta还是canary。
+ ## --showlabels选项来查看：
+ kubectl get po --showlabels
+ 
+  kubectl get po -L creation_method,env
+ 
+## 现在，将kubia-manual-v2 pod上的env=prod标签更改为env=debug，以演示现有标签也可以被更改。
+注意 在更改现有标签时，需要使用--overwrite选项。
+ 
+new cerate: kubectl label po kubia-manual creation_method=manual
+ 
+change:   kubectl label po kubia-manual env=dubug --overwrite
+ 
+#### creation_method!=manual 选择带有creation_method标签，并且值不等于manual的pod
+ kubectl get po -l '!env'
+
+env in（prod,devel）选择带有env标签且值为prod或devel的pod
+
+env notin（prod,devel）选择带有env标签，但其值不是prod或devel的pod
+ 
+ 
+ ### kubectl label  node ** gpu=true
+ kubectl get -l nodes gpu=true
+ 
+ 我们只是在spec部分添加了一个nodeSelector字段。当我们创建该pod时，调度器将只在包含标签gpu=true的节点中选择（在我们的例子中，只有一个这样的节点）。
+ 
+ 
+ # kubectl get ns
+ 命名空间的pod：
+ 
+ kubectl get po --namespace **
+ 
+ or
+ 
+ kubectl get po --n **
+ 
+###  kubectl create namespace命令创建命名空间
+ 
+ 删除kubia-gpu pod：
+### kubectl delete po kubia-gpu
+ 删除多个pod（例如：kubectl delete po pod1 pod2）。
+
+关于标签选择器的知识来停止kubia-manual和kubia-manual-v2 pod。这两个pod都包含标签creation_method=manual，因此可以通过使用一个标签选择器来删除它们：
+ ### kubectl delete po -l creation_method=manual
+ 
+ 
+ 可以简单地删除整个命名空间（pod将会伴随命名空间自动删除）。现在使用以下命令删除custom-namespace：
+ 
+ kubectl delete ns **
+ 
+ #### 使用--all选项告诉Kubernetes删除当前命名空间中的所有pod：
+  kubectl delete po --all
+ 
+ 删除资源时，kubectl将打印它删除的每个资源的名称。在列表中，可以看到在第2章中创建的名为kubia的ReplicationController和名为kubia-http的Service。
+
+注意 kubectl delete all--all命令也会删除名为kubernetes的Service，但它应该会在几分钟后自动重新创建。
+
+ Kubernetes可以通过存活探针（liveness probe）检查容器是否还在运行。
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
