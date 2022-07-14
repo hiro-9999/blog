@@ -1,5 +1,7 @@
 
 # SWOT analysis
+The Business Book (Big Ideas Simply Explained) (DK Publishing) (z-lib.org)
+
 it is used to identify internal strengths (S) and weaknesses (W), and to analyze external opportunities (O) and threats (T).
 
 
