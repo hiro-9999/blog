@@ -1,0 +1,5 @@
+https://kubernetes.io
+
+多节点的Kubernetes集群并不是一项简单的工作，特别是如果你不精通Linux和网络管理的话。
+一个适当的Kubernetes安装需要包含多个物理或虚拟机，并需要正确地设置网络，
+以便在Kubernetes集群内运行的所有容器都可以在相同的扁平网络环境内相互连通。
