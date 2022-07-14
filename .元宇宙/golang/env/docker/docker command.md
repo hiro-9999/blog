@@ -1,8 +1,21 @@
+代码清单2.3 构建应用容器镜像的Dockerfile
+```node
+FROM node:7
+ADD app.js /app.js
+ENTRYPOINT ["node","app.js"]
+```
+
+From 行定义了镜像的起始内容（构建所基于的基础镜像）。这个例子中使用的是 node 镜像的tag 7 版本。第二行中把app.js文件从本地文件夹添加到镜像的根目录，保持app.js这个文件名。最后一行定义了当镜像被运行时需要被执行的命令，这个例子中，命令是 node app.js。
+
+
+
+
 docker build -t kubia .
 
 docker images
 
 ## docker run --name kubia-container -p 8080:8080 -d kubia
+这条命令告知Docker基于 kubia 镜像创建一个叫 kubia-container 的新容器。这个容器与命令行分离（-d 标志），这意味着在后台运行。本机上的8080端口会被映射到容器内的8080端口（-p 8080:8080 选项），所以可以通过http://localhost:8080 访问这个应用。
 
 curl localhost:8080
 
