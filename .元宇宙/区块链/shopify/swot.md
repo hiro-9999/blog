@@ -11,6 +11,15 @@ a Unique Selling Proposition (USP).
 
 Emotional Selling Proposition (ESP).
 
+## In order to gain an edge, either be first, or be better.
+If you do things well, do them better.
+
+Securing a foothold
+
+the more you sweat, the luckier you get
+
+
+
          PERFORMANCE
 
 TECHNOLOGY     FASHION
