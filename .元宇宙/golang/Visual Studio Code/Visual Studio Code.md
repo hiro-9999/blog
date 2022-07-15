@@ -1,4 +1,5 @@
 ### how to create a Visual Studio Code extension
+https://zenn.dev/tomi/articles/2021-03-26-vscode-extension
 
 https://code.visualstudio.com/api/get-started/your-first-extension
 
