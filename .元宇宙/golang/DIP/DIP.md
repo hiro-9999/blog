@@ -1,5 +1,7 @@
 SOLID原則というオブジェクト指向設計原則のDにあたる、依存性逆転の原則について説明します。
 
+＃　🔴　interface使用方法がいい
+
 https://github.com/masalennon/DIP_sample
 ```
 A. 上位レベルのモジュールは下位レベルのモジュールに依存すべきではない。両方とも抽象（abstractions)に依存すべきである。
