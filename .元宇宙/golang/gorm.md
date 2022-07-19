@@ -4,3 +4,4 @@ https://ja.stackoverflow.com/questions/22184/gorm-%E3%81%A7-mysql-%E3%81%AB%E3%8
 upons テーブルは utf8mb4 になっているので問題ないのですが、接続の charset が utf8 になっています。
 1行目の gorm.Open の引数の charset=utf8 を charset=utf8mb4 にすればいいと思います。
 
+https://gorm.io/ja_JP/docs/data_types.html
