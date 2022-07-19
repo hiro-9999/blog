@@ -5,3 +5,13 @@ upons テーブルは utf8mb4 になっているので問題ないのですが�
 1行目の gorm.Open の引数の charset=utf8 を charset=utf8mb4 にすればいいと思います。
 
 https://gorm.io/ja_JP/docs/data_types.html
+
+
+https://qiita.com/mgoldchild/items/52abb8422d62ccd9f5dc
+
+type	違い
+char	固定長。最大255byte。CD値なのに
+varchar	可変長。0~65535文字まで。可変長なのでメモリ効率がいい
+NOTE
+- 文字数を記録するために1バイト消費する点に注意が必要。
+- 例えばvarchar(4)に"abcd"と格納した場合，5バイト分メモリを消費する．
