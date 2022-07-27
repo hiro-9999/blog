@@ -9,6 +9,7 @@ npm install nuxtでNuxt.jsをインストールする
  
  
  Universal(SSR)を選択するとサーバ側でレンダリングを行い、
+ 🔴
  https://www.ragate.co.jp/blog/articles/10524
  
  Single Page Appを選択するとブラウザ側でレンダリングを行います。
@@ -20,5 +21,6 @@ npm install nuxtでNuxt.jsをインストールする
 ## ISR（Incremental Static Generator）
 対応している JS フレームワークが Next.js
 2021/10/12にリリースされる Nuxt3 では対応される
+SSR や SSG、ISR で実装を進めることをおすすめします。
  
  パラメータの値はuniversalとspaの2つです。デフォルトではmodeパラメータはnuxt.config.jsには存在せずデフォルト値のuniversalが設定されています。明示的に設定を行いたい場合はmodeパラメータを下記のように追加する必要があります。
