@@ -10,6 +10,36 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
  https://developer.android.com/kotlin
  
+ ```kotlin
+  var charSet = 'A'..'Z'
+    for (value in charSet) {
+        println("$value")
+    }
+    
+     val r = ('A'..'Z').map { it.toString() }//.forEach(::println)
+     for (letter in r){
+       print(letter)
+     }
+ ```
+ ```kotlin
+ operator fun ClosedRange<String>.iterator() = object: Iterator<String> {
+    private val next = StringBuilder(start) 
+    private val last = endInclusive
+    override fun hasNext() =
+    last >= next.toString() && last.length >= next.length
+    override fun next(): String { val result = next.toString()
+    val lastCharacter = next.last()
+    if (lastCharacter < Char.MAX_VALUE) { next.setCharAt(next.length - 1, lastCharacter + 1)
+    } else { next.append(Char.MIN_VALUE)
+    }
+    return result }
+}
+
+fun main() {
+	for (word in "hell".."help") { print("$word, ") }
+   
+}
+                                       ```
  
 ###  “当一个函数同时接受多个参数时，你可以使用vararg。但是只有一个参数可以注释为vararg。”
 
