@@ -12,8 +12,76 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
  
  ### “静态方法时。@JvmStatic注释有助于解决这个问题。”
 
+ operator
+ 
+ action
+ 
+ lazy
+ 
+ infix
  
  ```kotlin
+ class Counter(val value: Int) {
+    operator fun inc() = Counter(value + 1)
+    operator fun dec() = Counter(value - 1) 
+    override fun toString() = "$value"
+}  
+fun main() {
+   
+
+var counter = Counter(2) 
+    println(counter) //2 
+    println(++counter) //3 
+    println(counter) //3 
+    println(counter++) //3 
+    println(counter) //4
+
+}
+
+
+ fun invokeWith(n: Int, action: (Int) -> Unit) { 
+    println("enter invokeWith $n")
+    action(n)
+    println("exit invokeWith $n")
+}
+fun caller() { 
+  (1..3).forEach { i ->
+    invokeWith(i) here@ { 
+      println("enter for $it")
+      if (it == 2) { return@here}
+      println("exit for $it")
+    }
+  }
+   println("end of caller")
+} 
+caller() 
+println("after return from caller")
+
+
+
+  fun walk1To(n: Int, action: (Int) -> Unit) = (1..n).forEach { action(it) }
+ walk1To(5, { i -> print(i) })
+  walk1To(5){ i -> print(i) }
+  walk1To(5) { print(it) }
+  
+    object Terminal {
+    	fun write(value: Int) = println(value)
+    }
+fun main() {
+   
+ // fun isPrime(n: Int) = n > 1 && (2 until n).none { n % it == 0 }
+ fun walk1To(n: Int, action: (Int) -> Unit) = (1..n).forEach { action(it) }
+  
+walk1To(5) { i -> Terminal.write(i) }
+walk1To(5, Terminal::write)
+}
+
+
+val names = listOf("Pam", "Pat", "Paul", "Paula") 
+    println(names.find {name -> name.length == 5 }) //Paula 
+    println(names.find { name -> name.length == 4 }) //Paul
+    
+    
  val doubleOfEven = (1..10)
         .filter { e -> e % 2 == 0}
         .map { e -> e * 2 }
