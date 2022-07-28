@@ -66,6 +66,21 @@ fun main() {
 	for (word in "hell".."help") { print("$word, ") }
    
 }
+
+
+
+enum class Suit(val symbol: Char) { 
+    CLUBS('\u2663'), 
+    DIAMONDS('\u2666'), 
+    HEARTS('\u2665') {
+    override fun display() = "${super.display()} ${this.symbol}" },
+    SPADES('\u2660');
+    open fun display() = "$symbol $name"
+}
+fun main() {
+    for (suit in Suit.values()) { println(suit.display())
+    }
+}
                                        ```
  
 ###  “当一个函数同时接受多个参数时，你可以使用vararg。但是只有一个参数可以注释为vararg。”
