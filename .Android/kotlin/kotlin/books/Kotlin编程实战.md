@@ -24,7 +24,19 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
     else
     	println("Nothing to report") //Nothing to report
 	
-	
+import kotlin.properties.Delegates.observable
+
+fun main() {
+   
+var count by observable(0) { property, oldValue, newValue -> println("Property: $property old: $oldValue: new: $newValue")
+}
+println("The value of count is: $count") 
+count++
+println("The value of count is: $count") 
+count--
+println("The value of count is: $count")
+
+}	
  
 sealed class Card(val suit: String)
 class Ace(suit: String) : Card(suit)
