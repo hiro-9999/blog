@@ -14,6 +14,17 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
  
  ```kotlin
+ fun getTemperature(city: String): Double { 
+        println("fetch from webservice for $city") 
+        return 30.0
+	}
+    val temperature by lazy { getTemperature("city") }
+    if (temperature > 20) //(nothing here) println("Warm")
+    	println("30 to report")
+    else
+    	println("Nothing to report") //Nothing to report
+	
+	
  
 sealed class Card(val suit: String)
 class Ace(suit: String) : Card(suit)
