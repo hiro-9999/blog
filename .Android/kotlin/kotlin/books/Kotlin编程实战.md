@@ -14,6 +14,12 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
  
  ```kotlin
+ val doubleOfEven = (1..10)
+        .filter { e -> e % 2 == 0}
+        .map { e -> e * 2 }
+ 	println(doubleOfEven)
+	
+	
  fun getTemperature(city: String): Double { 
         println("fetch from webservice for $city") 
         return 30.0
