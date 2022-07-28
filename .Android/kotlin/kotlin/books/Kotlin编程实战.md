@@ -10,6 +10,9 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
  https://developer.android.com/kotlin
  
+ ### “静态方法时。@JvmStatic注释有助于解决这个问题。”
+
+ 
  ```kotlin
   var charSet = 'A'..'Z'
     for (value in charSet) {
