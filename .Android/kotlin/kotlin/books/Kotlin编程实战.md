@@ -16,6 +16,28 @@ https://developer.android.com/kotlin
 
  operator
  
+ # companion
+ objectキーワードの前にcompanion修飾子を付与することでクラスに属するSingletonが作成できます。
+ https://qiita.com/tkhs0604/items/261e94a42b7097dfd204
+ ```kotlin
+ class Hoge {
+   companion object {
+    val buzz = "buzz"
+    fun bar() { ... }
+   }
+  }
+  
+   // companion objectの場合。 static=same
+  val buzz = Hoge.buzz
+  Hoge.bar()
+ ```
+ 
+ object
+ 
+ async await()
+ 
+ suspend
+ 
  # lazy
  遅延 (lazy)
 lazy() はラムダをとり、遅延プロパティを実装するためのデリゲートとして機能する Lazy<T> のインスタンスを返す関数です。get() の最初の呼び出しは lazy() に渡されたラムダを実行し、結果を保持します。 それ以降、get() を呼び出すと、単に記憶された結果が返されます。
