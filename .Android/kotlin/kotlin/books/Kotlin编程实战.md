@@ -12,13 +12,50 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
  
  ### “静态方法时。@JvmStatic注释有助于解决这个问题。”
 
+https://developer.android.com/kotlin
+
  operator
  
- action
+ # lazy
+ https://dogwood008.github.io/kotlin-web-site-ja/docs/reference/delegated-properties.html
+ ```kotlin
+ val lazyValue: String by lazy {
+    println("computed!")
+    "Hello"
+}
+
+fun main(args: Array<String>) {
+    println(lazyValue) // "computed!"  "Hello"
+    println(lazyValue)// "Hello"
+}
+ ```
+ https://qiita.com/u-dai/items/a31c5c2a7d5c7ed2cc47
  
- lazy
+ https://star-zero.medium.com/kotlin-lazy%E6%8B%A1%E5%BC%B5%E9%96%A2%E6%95%B0-16f7c5da84a8
  
  infix
+ 
+ “tailrec优化只适用于可以表示为尾递归的递归。要使用tailrec”
+ 
+ JvmStatic类
+ 
+ “ https://github.com/kotlintest/kotlintest”
+### “我们将使用KotlinTest来运行测试，并使用Mockk来模拟依赖项。我们还将使用Jacoco测量代码覆盖率。”
+https://mockk.io
+
+./gradlew
+https://gradle.org/
+
+# “好的测试是FAIR——快速的（fast）、自动化的（automated）、独立的（independent）和可重复的（repeatable）。”
+
+## “Spring主要支持三种不同的语言：Java、Groovy和Kotlin。”
+https://start.spring.io/
+
+
+## “协程是建立在强大的continuation（延续）”
+“让我们在task1()和task2()函数中都使用yield()。Kotlin将只允许在带有suspend关键字注释的函数中使用挂起点。但是，使用suspend标记函数并不会自动使函数在协程中运行或并发运行。 
+ ”“launch()函数的作用是：返回一个Job对象，该对象用于等待协程的终止或取消。但是无法从使用launch()启动的协程返回结果。如果希望异步执行任务并获得响应，请使用async()而不是launch()。”
+
  
  ```kotlin
  “asSequence()方法将一个集合包装成一个序列”
