@@ -14,7 +14,15 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
 https://developer.android.com/kotlin
 
- operator
+# LiveData
+https://www.youtube.com/watch?v=B8ppnjGPAGE&ab_channel=AndroidDevelopers
+
+# video study
+https://www.youtube.com/watch?v=FWxeDqM_WIU&list=PLWz5rJ2EKKc8ibQFkC77xUETd8BCkRbYc&ab_channel=AndroidDevelopers
+
+ # operator
+ Kotlinではoperatorキーワードを使って、メソッドのように演算子オーバーロードを定義します。リスト11では、自作の複素数クラス（整数のみ対応）で+演算子、-演算子（2項）、-演算子（単項）を定義しています。
+ https://atmarkit.itmedia.co.jp/ait/articles/1805/14/news012_3.html
  
  # companion
  objectキーワードの前にcompanion修飾子を付与することでクラスに属するSingletonが作成できます。
@@ -36,7 +44,28 @@ https://developer.android.com/kotlin
  
  async await()
  
- suspend
+ # suspend パフォーマンス withContext()　🔴
+ https://developer.android.com/kotlin/coroutines-adv?hl=ja
+ 
+ launch は、新規コルーチンを開始し、呼び出し元に結果を返しません。「ファイア アンド フォーゲット」とみなされるあらゆる作業は、launch を使用して開始できます。
+async は、新規コルーチンを開始し、await と呼ばれる中断関数で結果を返せるようにします。
+
+ Dispatchers.Main - このディスパッチャを使用すると、コルーチンはメインの Android スレッドで実行されます。UI を操作して処理を手早く作業する場合にのみ使用します。たとえば、suspend 関数の呼び出し、Android UI フレームワーク オペレーションの実行、LiveData オブジェクトのアップデートを行う場合などです。
+Dispatchers.IO - このディスパッチャは、メインスレッドの外部でディスクまたはネットワークの I/O を実行する場合に適しています。たとえば、Room コンポーネントの使用、ファイルの読み書き、ネットワーク オペレーションの実行などです。
+Dispatchers.Default - このディスパッチャは、メインスレッドの外部で CPU 負荷の高い作業を実行する場合に適しています。ユースケースの例としては、リストの並べ替えや JSON の解析などがあります。
+ コルーチンは、長時間実行タスクを処理する 2 つのオペレーションを標準の関数に追加することによって構築されています。invoke（または call）と return に加え、コルーチンは suspend と resume を追加します。
+
+suspend は、現在のコルーチンの実行を一時停止し、すべてのローカル変数を保存します。
+resume は、中断されたコルーチンの実行を中断箇所から再開します。
+ suspend関数では、非同期的な処理をまるで同期的な処理のように呼び出すことができます。
+ https://techblog.zozo.com/entry/kotlin-suspend-functions
+ 
+ https://qiita.com/wm3/items/48b5b5c878561ff4761a
+ 
+ https://qiita.com/duke105/items/b5be074c79c6bed4d560
+ 
+ ## delay
+ 先ほど関数delayがsuspend関数であると書きましたが、delayを呼び出した場合も同じように一度処理が中断され、指定した時間が経過してから処理が再開されます。注意したいのは、Thread.sleepが処理をブロックするのとは違い、delayのようなsuspend関数は処理をブロックはしないということです。
  
  # lazy
  遅延 (lazy)
@@ -70,7 +99,8 @@ fun main(args: Array<String>) {
  
  https://star-zero.medium.com/kotlin-lazy%E6%8B%A1%E5%BC%B5%E9%96%A2%E6%95%B0-16f7c5da84a8
  
- infix
+## infix
+	一定条件を満たすメソッド（拡張関数含む）を、「obj.methodA(param)」と書く代わりに「obj methodA param」のように書くことができます。
  
  “tailrec优化只适用于可以表示为尾递归的递归。要使用tailrec”
  
