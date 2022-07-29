@@ -32,6 +32,17 @@ fun main(args: Array<String>) {
     println(lazyValue) // "computed!"  "Hello"
     println(lazyValue)// "Hello"
 }
+	
+   val l = lazy {
+     println("lazyObj")
+    "hello"
+  }
+  println(l::class)
+
+  val lazyObj by l
+  println(lazyObj)
+  println(lazyObj)	
+	
  ```
  https://qiita.com/u-dai/items/a31c5c2a7d5c7ed2cc47
  
