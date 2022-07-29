@@ -17,6 +17,10 @@ https://developer.android.com/kotlin
  operator
  
  # lazy
+ 遅延 (lazy)
+lazy() はラムダをとり、遅延プロパティを実装するためのデリゲートとして機能する Lazy<T> のインスタンスを返す関数です。get() の最初の呼び出しは lazy() に渡されたラムダを実行し、結果を保持します。 それ以降、get() を呼び出すと、単に記憶された結果が返されます。
+
+
  https://dogwood008.github.io/kotlin-web-site-ja/docs/reference/delegated-properties.html
  ```kotlin
  val lazyValue: String by lazy {
