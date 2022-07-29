@@ -21,6 +21,11 @@ info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
  infix
  
  ```kotlin
+ “asSequence()方法将一个集合包装成一个序列”
+
+“一个自定义注释本身是用@DslMarker注释来注释的。”
+
+
  class Counter(val value: Int) {
     operator fun inc() = Counter(value + 1)
     operator fun dec() = Counter(value - 1) 
