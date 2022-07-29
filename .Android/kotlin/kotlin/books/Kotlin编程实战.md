@@ -73,6 +73,29 @@ https://start.spring.io/
 
  
  ```kotlin
+import kotlinx.coroutines.*
+fun main(args: Array<String>) {
+ 
+
+suspend fun task1() {
+    println("start task1 in Thread ${Thread.currentThread()}") 
+    yield()
+    println("end task1 in Thread ${Thread.currentThread()}")
+}
+suspend fun task2() {
+    println("start task2 in Thread ${Thread.currentThread()}") 
+    yield()
+    println("end task2 in Thread ${Thread.currentThread()}")
+}
+println("start")
+runBlocking {
+  launch { task1() }
+  launch { task2() }
+	println("called task1 and task2 from ${Thread.currentThread()}") 
+}
+	println("done")
+}
+	
  “asSequence()方法将一个集合包装成一个序列”
 
 “一个自定义注释本身是用@DslMarker注释来注释的。”
