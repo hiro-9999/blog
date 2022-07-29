@@ -3,6 +3,9 @@ http://www.pragprog.com/titles/vskotlin
 https://pragprog.com/titles/vskotlin/programming-kotlin/
 
 
+## Their Android Jetpack libraries, such as Lifecycle, WorkManager, and Room-KTX, now include support for coroutines.
+Android libraries, such as Retrofit, Ktor, and Coil, provide first-class support for Kotlin coroutines
+
 # kotlinc-jvm -version
 info: kotlinc-jvm 1.7.0 (JRE 18.0.1.1+0)
 
