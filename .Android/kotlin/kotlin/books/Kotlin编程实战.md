@@ -1,3 +1,9 @@
+# testing 🔴
+https://developer.android.com/training/testing
+
+# online 
+https://play.kotlinlang.org/
+
 http://www.pragprog.com/titles/vskotlin
 
 https://pragprog.com/titles/vskotlin/programming-kotlin/
