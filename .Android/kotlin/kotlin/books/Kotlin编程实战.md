@@ -3,8 +3,10 @@ https://developer.android.com/training/testing
 
 https://github.com/Kotlin/kotlinx.coroutines/tree/master/kotlinx-coroutines-test
 
-# study 🔴
+# study 🔴 example
 https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin
+
+https://github.com/PacktPublishing/Simplifying-Android-Development-with-Coroutines-and-Flows/
 
 # online 
 https://play.kotlinlang.org/
