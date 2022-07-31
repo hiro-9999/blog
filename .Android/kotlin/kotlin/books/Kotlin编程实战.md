@@ -8,6 +8,8 @@ https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin
 
 https://github.com/PacktPublishing/Simplifying-Android-Development-with-Coroutines-and-Flows/
 
+https://github.com/bpbpublications/Kotlin-In-Depth
+
 # online 
 https://play.kotlinlang.org/
 
