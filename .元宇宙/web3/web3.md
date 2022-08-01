@@ -3,6 +3,14 @@ https://mirror.xyz/masia02.eth/xG-bucXfEAJPwcFqFMKzTtpgIAoYgfJ-hqhrRVoxxew
 
 ゲームで稼ぐPlay to Earn、動いて稼ぐMove to Earnなどあらゆることで稼ぐ仕組み。
 
+```
+法律 → SmartContract
+通貨 → Cryptocurrency
+金融 → DeFi
+企業 → DAO
+価値 → NFT
+```
+
 # ブロックチェーンゲーム(BCG)
 
 P2Eは、ブロックチェーンゲーム(BCG)やNFTゲーム、DeFi要素を融合したGameFiなどと言われています。
