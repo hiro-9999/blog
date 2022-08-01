@@ -14,3 +14,6 @@ M2Eは、歩いて稼ぐSTEPNが有名ですが、類似アプリも増えてい
 https://qiita.com/4ita/items/6c835e849aee5d6798b1
 
 https://internetcomputer.org/samples/
+
+# oasys
+https://www.oasys.games
