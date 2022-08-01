@@ -16,7 +16,7 @@ https://dscvr.one/
 
 https://twitter.com/hashtag/blockchain?src=hashtag_click
 
-![web3](https://github.com/hiro-9999/blog/blob/master/.%E5%85%83%E5%AE%87%E5%AE%99/web3/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202022-08-01%2019.44.34.png)
+![web3](https://twitter.com/DfinityToday/status/1522010201125277696/photo/1)
 
 
 
