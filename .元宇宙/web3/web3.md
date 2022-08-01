@@ -1,3 +1,6 @@
+ビットコイン（BTC）やイーサリアム（ETH）
+https://coinpost.jp/?p=367284
+
 # IEO(Initial Exchange Offering) 
 暗号資産（仮想通貨）用語集
 
@@ -42,6 +45,8 @@ https://internetcomputer.org/samples/
 
 # oasys （オアシス）
 https://www.oasys.games
+
+https://news.yahoo.co.jp/articles/5a5c13ccffb2393a6ca763e87a399a54b0100ef1
 
 https://www.coindeskjapan.com/153862/
 Oasysは、ゲームに特化したProof of Stake（POS）を採用するブロックチェーンで、チェーンを運用するバリデータは、バンダイナムコ研究所などのゲーム会社やWeb3企業を含む21社で構成されている。シンガポールを拠点に、松原亮氏率いるOasys Pteが主導している。
