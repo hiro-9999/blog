@@ -1,6 +1,6 @@
+# X2E 🔴
 https://mirror.xyz/masia02.eth/xG-bucXfEAJPwcFqFMKzTtpgIAoYgfJ-hqhrRVoxxew
 
-# X2E
 ゲームで稼ぐPlay to Earn、動いて稼ぐMove to Earnなどあらゆることで稼ぐ仕組み。
 
 # ブロックチェーンゲーム(BCG)
