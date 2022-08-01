@@ -54,3 +54,6 @@ https://www.coindeskjapan.com/153862/
 Oasysは、ゲームに特化したProof of Stake（POS）を採用するブロックチェーンで、チェーンを運用するバリデータは、バンダイナムコ研究所などのゲーム会社やWeb3企業を含む21社で構成されている。シンガポールを拠点に、松原亮氏率いるOasys Pteが主導している。
 
 ![hub](https://github.com/hiro-9999/blog/blob/master/.%E5%85%83%E5%AE%87%E5%AE%99/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202022-08-01%2019.56.12.png)
+
+# トークンインセンティブ
+https://note.com/sota_watanabe/n/n2813ce470ad2
