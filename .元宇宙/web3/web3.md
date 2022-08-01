@@ -10,6 +10,13 @@ https://mirror.xyz/masia02.eth/xG-bucXfEAJPwcFqFMKzTtpgIAoYgfJ-hqhrRVoxxew
 企業 → DAO
 価値 → NFT
 ```
+https://dwqte-viaaa-aaaai-qaufq-cai.ic0.app/
+
+https://dscvr.one/
+
+https://twitter.com/hashtag/blockchain?src=hashtag_click
+
+
 
 # ブロックチェーンゲーム(BCG)
 
