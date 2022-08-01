@@ -33,6 +33,7 @@ P2Eは、ブロックチェーンゲーム(BCG)やNFTゲーム、DeFi要素を�
 Axie Infinityが有名で、今年はP2E元年と言われていますので、多くのゲームがリリースされています。
 
 M2Eは、歩いて稼ぐSTEPNが有名ですが、類似アプリも増えています。
+https://prtimes.jp/main/html/rd/p/000000001.000103934.html
 
 # Internet Computer
 https://qiita.com/4ita/items/6c835e849aee5d6798b1
