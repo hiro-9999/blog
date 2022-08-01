@@ -1,3 +1,10 @@
+# IEO(Initial Exchange Offering) 
+暗号資産（仮想通貨）用語集
+
+ブロックチェーンプロジェクトの発行するトークンを、仮想通貨取引所が先行販売するサービスを指します。IEOに参加すると、投資家は市場で一般に取引が開始される前の価格でトークンを購入することができます。IEOの参加者は公開価格より低い値段でトークンを購入できます。
+https://bitbank.cc/glossary/ieo
+
+
 # X2E 🔴
 https://mirror.xyz/masia02.eth/xG-bucXfEAJPwcFqFMKzTtpgIAoYgfJ-hqhrRVoxxew
 
