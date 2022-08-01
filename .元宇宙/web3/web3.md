@@ -44,6 +44,8 @@ https://qiita.com/4ita/items/6c835e849aee5d6798b1
 https://internetcomputer.org/samples/
 
 # oasys （オアシス）
+https://docs.oasys.games/docs/techdocs/build/verse-layer-node
+
 https://www.oasys.games
 
 https://news.yahoo.co.jp/articles/5a5c13ccffb2393a6ca763e87a399a54b0100ef1
