@@ -10,7 +10,7 @@ const androidCapabilities = [
     "deviceName": "Android Emulator", // 任意の値
     "avd": "AndroidEmulator", // 端末を特定するための名前
     "automationName": "Appium", // 端末操作のためのドライバ
-    "app": "./app/android-premium-app.apk" // インストールするアプリ
+    "app": "./app/android-app.apk" // インストールするアプリ
   }
 ]
 adb shell input keyevent ENTER
