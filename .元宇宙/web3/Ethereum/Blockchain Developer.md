@@ -1,6 +1,10 @@
 # Getting Started with Ethereum: A Step-by-Step Guide to Becoming a Blockchain Developer
 https://link.springer.com/chapter/10.1007/978-1-4842-8045-4_1
 
+
+# blockchain development tools dev 🔴
+https://www.dappuniversity.com/articles/blockchain-developer-toolkit
+
 ### Solidity programs can also work on other blockchains, so long as they're compatible with the Ethereum Virtual Machine (EVM). This means you can deploy projects on EVM-compatible blockchains, such as Binance Smart Chain, Avalanche, Polygon, Matic Network, and more.
 https://www.web3.university/article/20-blockchain-development-tools
 
