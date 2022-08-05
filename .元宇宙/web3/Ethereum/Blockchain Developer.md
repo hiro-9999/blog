@@ -1,4 +1,5 @@
 # Getting Started with Ethereum: A Step-by-Step Guide to Becoming a Blockchain Developer
+https://link.springer.com/chapter/10.1007/978-1-4842-8045-4_1
 
 # IPFS, Filecoin, ENS, Chainlink, Truffle, Ganache, OpenZeppelin, Pinata, Fleek, Infura, MetaMask, and OpenSea, 
 Docker, Truffle, Ganache, MetaMask, and Infura.
