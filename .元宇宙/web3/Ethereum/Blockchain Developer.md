@@ -17,8 +17,10 @@ https://code.visualstudio.com
 2.
 https://docs.docker.com/get-docker/
 
-3.
+3. NG
 https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain
+
+https://azure.microsoft.com/ja-jp/updates/azure-blockchain-development-kit-for-ethereum-is-now-generally-available/
 
 4.
 https://www.youtube.com/watch?v=WIUppKQhtKk
