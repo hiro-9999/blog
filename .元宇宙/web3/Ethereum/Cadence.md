@@ -1,6 +1,8 @@
 # flow Cadence
 https://techdo.mediado.jp/entry/2022/05/11/150000
 
+＃＃　ExecutionやCollection、Access、Verification、Consensusなどそれぞれのノードによってブロックチェーンが構築されています
+
 
 FlowではコントラクトをCadenceという新しい言語で記述します。これはEthereumで言うところのSolidityという言語と同じようなものです。
 
@@ -12,3 +14,9 @@ CadenceはDapper Labs社によって開発されたFlowのためのスマート�
 
 # online 🟠 
 https://play.onflow.org/local-project
+
+
+# flow example
+https://github.com/onflow/kitty-items
+
+https://mediado.jp/about/history/
