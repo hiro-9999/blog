@@ -4,6 +4,8 @@ https://ippeiblogs.com/solidity-tutorial/
 # クリプトのエンジニア 🟠
 https://voicy.jp/channel/2627/287637
 
+https://www.forbes.com/sites/jackkelly/2022/01/30/people-working-at-bitcoin-and-cryptocurrency-exchanges-can-earn-more-than-one-million-dollars-a-year/?sh=6006311da2f6
+
 イーサリアム
 
 SolanaだったらRustとか
