@@ -3,6 +3,8 @@ https://ippeiblogs.com/solidity-tutorial/
 
 イーサリアム
 
+SolanaだったらRustとか
+
 https://qiita.com/kyrieleison/items/7f37b5349fc6c7c220cd
 
 # Ethereum のローカル開発環境 Ganache 
