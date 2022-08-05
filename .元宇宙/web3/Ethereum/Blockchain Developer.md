@@ -6,6 +6,10 @@ Docker, Truffle, Ganache, MetaMask, and Infura.
 
 Ethereum is a platform that allows you to code smart contracts in the Solidity language. Using it, you can compile your code into bytecode to be interpreted by the Ethereum Virtual Machine (EVM).
 
+
+### You will need Docker to be started before compiling using Truffle.
+Installing the Blockchain Dev Kit Extension on VS Code
+
 Notes
 1.
 https://code.visualstudio.com
