@@ -1,6 +1,9 @@
 # Solidity
 https://ippeiblogs.com/solidity-tutorial/
 
+# クリプトのエンジニア 🟠
+https://voicy.jp/channel/2627/287637
+
 イーサリアム
 
 SolanaだったらRustとか
