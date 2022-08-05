@@ -1,6 +1,14 @@
 # Solidity
 https://ippeiblogs.com/solidity-tutorial/
 
+
+# Most of the examples shown in this book are executed using the online Remix editor available at 
+https://remix.ethereum.org
+
+# Solidity Programming Essentials
+https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition
+
+
 # クリプトのエンジニア 🟠
 https://voicy.jp/channel/2627/287637
 
