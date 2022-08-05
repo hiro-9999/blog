@@ -4,6 +4,21 @@ https://link.springer.com/chapter/10.1007/978-1-4842-8045-4_1
 ### Solidity programs can also work on other blockchains, so long as they're compatible with the Ethereum Virtual Machine (EVM). This means you can deploy projects on EVM-compatible blockchains, such as Binance Smart Chain, Avalanche, Polygon, Matic Network, and more.
 https://www.web3.university/article/20-blockchain-development-tools
 
+
+# 20+ Blockchain Development Tools 🔴
+https://www.web3.university/article/20-blockchain-development-tools
+
+Programming languages
+To develop blockchain applications, you need to learn a programming language. These languages allow you to create smart contract code that functions as the backend for your application. 
+
+Rust 
+Rust is a newer programming language that's gaining traction in the blockchain development community. It's a low-level language for writing smart contracts and is prized for its memory efficiency, simplicity, and reliability. 
+
+ The catch is that Rust is non-EVM compatible, so you cannot deploy projects on Ethereum and EVM-compatible chains. 
+### But newer chains like Solana, Terra, NEAR, Polkadot, and Elrond use Rust, so learning this language is still a good investment. 
+Ethcode 
+We also recommend Ethcode, a Visual Studio Code plugin for Ethereum smart contract development. Ethcode offers a beginner-friendly development environment for writing, debugging, and unit testing contract code. 
+
 # IPFS, Filecoin, ENS, Chainlink, Truffle, Ganache, OpenZeppelin, Pinata, Fleek, Infura, MetaMask, and OpenSea, 
 Docker, Truffle, Ganache, MetaMask, and Infura.
 
