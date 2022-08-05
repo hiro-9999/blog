@@ -15,3 +15,5 @@ https://github.com/trufflesuite/ganache
 
 # CryptoZombiesで基礎学習
 https://cryptozombies.io/jp/course/
+
+https://github.com/loomnetwork/cryptozombies-lesson-code
