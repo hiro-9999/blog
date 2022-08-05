@@ -16,7 +16,7 @@ CadenceはDapper Labs社によって開発されたFlowのためのスマート�
 https://play.onflow.org/local-project
 
 
-# flow example
+#  CryptoKitties Sample App is a complete NFT marketplac
 https://github.com/onflow/kitty-items
 
 https://mediado.jp/about/history/
