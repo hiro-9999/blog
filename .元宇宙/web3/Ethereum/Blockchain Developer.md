@@ -18,6 +18,10 @@ https://code.visualstudio.com
 https://docs.docker.com/get-docker/
 
 3. NG
+https://github.com/Azure-Samples/blockchain-devkit
+
+https://www.vsixhub.com/vsix/757/
+
 https://marketplace.visualstudio.com/items?itemName=AzBlockchain.azure-blockchain
 
 https://azure.microsoft.com/ja-jp/updates/azure-blockchain-development-kit-for-ethereum-is-now-generally-available/
