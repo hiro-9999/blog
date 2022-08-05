@@ -30,3 +30,7 @@ https://github.com/dapperlabs/nba-smart-contracts
 
 # ウォレット Blocto
 Flowを使ったサービスでは、Ethereumのようなブロックチェーンのサービスと同様に、ユーザー側にウォレットが必要です。そこでBloctoというウォレットを使っています。BloctoにはMetaMaskのような拡張をインストールしなくても、必要なときにウォレットとしてブラウザの中で動作させる仕組みが提供されています。
+
+### NFTマーケットプレイスのUI
+次にWebアプリ（ブラウザ）についてです。役割としてはNFTマーケットプレイスのUIと、NFT出品やNFT送信といったブロックチェーントランザクションの発行ができます。使用技術はNext.js/TypeScript/SWR/styled-components/FCLを利用しています（FCLはFlow Client Libraryの略で、Bloctoの認証やトランザクション用のライブラリのことです）。
+https://techdo.mediado.jp/entry/2022/04/28/150000
