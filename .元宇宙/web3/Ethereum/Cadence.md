@@ -1,3 +1,11 @@
+# NBA Top Shot 
+This repository contains the smart contracts and transactions that implement the core functionality of NBA Top Shot.
+https://github.com/dapperlabs/nba-smart-contracts
+The smart contracts are written in Cadence, a new resource oriented smart contract programming language designed for the Flow Blockchain.
+
+# Cadence
+https://docs.onflow.org/cadence/
+
 # ブロックチェーンの規格
 https://ja.wikipedia.org/wiki/非代替性トークン
 さまざまなブロックチェーンの用途をサポートするために、特定のトークンの規格が作成されている。イーサリアムは、ERC-721規格でNFTをサポートした最初のブロックチェーンであり、現在最も広く使用されている。他の多数のブロックチェーンも、NFTの人気沸騰を受けて、NFTをサポートしたり、サポートの計画を立てている[77]。
