@@ -7,7 +7,7 @@ development tooling such as Truffle and Ganache. Before Web3,
 # remix
 https://remix.ethereum.org.
 ```
-	CTRL + S: Compile the current contract
+　CTRL + S: Compile the current contract
 
   Ctrl + Shift + F : Open the File Explorer
 
@@ -21,8 +21,46 @@ https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Editio
 
 
 # cryptography
+Asymmetric cryptography　// Symmetric cryptography
+
+#### Hashing -- root transaction (Keccak256 = SHA3 not SHA-256)
+transaction Merkle root hash
+
+#### Digital signatures
+Alice creates a hash of the entire payload and encrypts the hash with her private key. She appends the resultant digital signature to the hash and transmits it to Tom. When the transaction reaches Tom, he extracts the digital signature and decrypts it using Alice's public key to find the original hash. 
+
 so you'll also learn about hash, encryption, and the usage of keys for creating transactions and accounts. How transactions and accounts are created, how gas is paid for each transaction, the difference between message calls and transactions, and the storage of code and state management will be explained in detail.
 
+Ether, gas, and transactions
+
+
+#### Ethereum Virtual Machine (EVM)
+miner, block, transaction, consensus algorithm, account, smart contract, mining, Ether, and gas
+
+##### Consensus
+Ethereum 2.0 is changing its consensus algorithm to the Proof-of-Stake (PoS) consensus algorithm.
+These nodes use a peer-to-peer protocol to talk to each other. They, by default, use port 30303 to talk among themselves.
+
+##### Proof of work
+The miner who solves the puzzle first writes the block containing transactions to their own ledger and sends the block and nonce value to other miners for verification.
+
+##### Proof of stake
+Ether (a minimum of 32 ETH)
+
+interested stakeholders can stake their Ether (a minimum of 32 ETH) with the network. Once the Ethers are staked, they are locked, and these stakeholders become validators. These validators have their nodes running, and their job is to attest to new blocks for their validity. Attestation here means that the validator is vouching for the correctness of the block and its constituent transactions.
+
+#### Ethereum nodes
+three types of nodes in Ethereum
+• The EVM
+• Mining nodes (Ethereum 1.0)
+• Validators (Ethereum 2.0)
+Please note that this distinction is made to clarify concepts of Ethereum. In most scenarios, there is no dedicated EVM. Instead, all nodes act as miners as well as EVM nodes.
+
+#### Ether wei
+https://github.com/ChainSafe/web3.js/blob/0.15.0/lib/utils/utils.js#L40
+
+##### EVMs
+EVMs are the execution components in Ethereum. The purpose of an EVM is to execute code in a smart contract line by line. However, when a transaction is submitted, the transaction is not executed immediately. Instead, it is added to a transaction pool. These transactions are not yet written to the Ethereum ledger.
 
 # Ethereum  and Ganache v7.03
 Installing Ethereum and Solidity, takes you through creating a private blockchain using the Ethereum platform. It will provide step-by-step guidance for creating a private chain. Another important tool in the Ethereum ecosystem is Ganache, which
