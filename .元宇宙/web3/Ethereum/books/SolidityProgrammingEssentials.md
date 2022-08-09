@@ -1,6 +1,7 @@
 # Solidity doc 🔴
 Further reading
 The Ethereum documentation is a great place to get started with basic concepts:
+
 https://ethereum.org/en/developers/docs/
 
 # Solidity Programming Essentials 🔴
