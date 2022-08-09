@@ -4,6 +4,15 @@ The Ethereum documentation is a great place to get started with basic concepts:
 
 https://ethereum.org/en/developers/docs/
 
+### CLI 
+parity rust
+
+Geth go
+
+eth c++
+
+mist
+
 # Solidity Programming Essentials 🔴
 https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition
 
