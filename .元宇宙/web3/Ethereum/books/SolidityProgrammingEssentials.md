@@ -4,6 +4,8 @@ The Ethereum documentation is a great place to get started with basic concepts:
 
 https://ethereum.org/en/developers/docs/
 
+１イーサ = 10^18 wei
+
 ### CLI 
 parity rust
 
