@@ -1,3 +1,8 @@
+# Solidity doc 🔴
+Further reading
+The Ethereum documentation is a great place to get started with basic concepts:
+https://ethereum.org/en/developers/docs/
+
 # Solidity Programming Essentials 🔴
 https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition
 
@@ -31,8 +36,8 @@ Alice creates a hash of the entire payload and encrypts the hash with her privat
 
 so you'll also learn about hash, encryption, and the usage of keys for creating transactions and accounts. How transactions and accounts are created, how gas is paid for each transaction, the difference between message calls and transactions, and the storage of code and state management will be explained in detail.
 
-Ether, gas, and transactions
-
+#### Ether, gas, and transactions
+https://block-chain.jp/ethereum/gas-limit-gas-price/
 
 #### Ethereum Virtual Machine (EVM)
 miner, block, transaction, consensus algorithm, account, smart contract, mining, Ether, and gas
@@ -78,6 +83,12 @@ contract HelloWorld
 
 }
 ```
+#### Solidity compiler.
+The bytecode and ABI are necessary inputs for deploying a contract.
+
+The compiler generates the following two major artifacts:
+• The Application Binary Interface (ABI) definition
+• Contracts bytecode
 
 # Ethereum  and Ganache v7.03
 Installing Ethereum and Solidity, takes you through creating a private blockchain using the Ethereum platform. It will provide step-by-step guidance for creating a private chain. Another important tool in the Ethereum ecosystem is Ganache, which
