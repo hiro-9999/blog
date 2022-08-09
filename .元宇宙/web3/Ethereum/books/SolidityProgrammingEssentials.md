@@ -1,4 +1,5 @@
-https://github.com/PacktPublishing/SolidityProgrammingEssentials
+# Solidity Programming Essentials 🔴
+https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition
 
 
 development tooling such as Truffle and Ganache. Before Web3,
