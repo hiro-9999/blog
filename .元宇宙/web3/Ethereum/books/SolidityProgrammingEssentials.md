@@ -133,6 +133,9 @@ Solc ??
 https://geth.ethereum.org/docs/install-and-build/installing-geth
 
 #### geth --help
+https://geth.ethereum.org/docs/install-and-build/installing-geth
+
+https://geth.ethereum.org/docs/interface/command-line-options
 
 Geth provides the --ropsten option to connect to the Ropsten network, the --rinkeby option to connect to the Rinkeby test network, and the –-goerli option to connect to the Goerli test network. These should be used in conjunction with the networkid command option. It also provides the –mainnet option to connect to the main network.
 
