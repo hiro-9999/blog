@@ -3,9 +3,15 @@ https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
 https://ethereum.org/en/
 
-# read ??
-Ethereum-Cookbook
+# read ?? Ethereum-Cookbook
 https://github.com/PacktPublishing/Ethereum-Cookbook
+
+“There are several clients that implement the Ethereum protocol and we will mainly focus on geth and parity”
+
+抜粋:
+Ethereum Cookbook
+Manoj P R
+この素材は著作権で保護されている可能性があります。
 
 # ??
 deployed using frameworks such as Truffle/Hardhat.
