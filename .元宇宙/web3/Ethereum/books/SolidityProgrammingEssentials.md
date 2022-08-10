@@ -1,6 +1,12 @@
+# コントラクトを作ってみる 🔴
+https://qiita.com/ikead/items/1f7c49384fd90cde4646
+
+
+
 # Solidity doc 🔴
 Further reading
 The Ethereum documentation is a great place to get started with basic concepts:
+
 
 https://ethereum.org/en/developers/docs/
 
@@ -208,6 +214,15 @@ personal.newAccount("test1")
 
 ```
 npm install web3
+
+``` metamask
+enforce mind once doctor pull good cluster ensure deliver impact pyramid mass
+
+local host 9090
+
+http://127.0.0.1:9090
+chain id :1337
+```
 
 #### Installing the Solidity compiler
 
