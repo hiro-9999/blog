@@ -1,16 +1,45 @@
 # コントラクトを作ってみる 🔴
 https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
+https://ethereum.org/en/
 
+# read ??
+Ethereum-Cookbook
+https://github.com/PacktPublishing/Ethereum-Cookbook
 
+# ??
+deployed using frameworks such as Truffle/Hardhat.
+```
+contract{
+  constructor() {
+  simpleInt = 5;
+  }
+}
+```
 # Solidity doc 🔴
+type:
+docs.soliditylang.org/en/v0.8.9/types.html
+
+control-structures:
+https://docs.soliditylang.org/en/v0.8.9/control-structures.html
+
 Further reading
 The Ethereum documentation is a great place to get started with basic concepts:
 
-
 https://ethereum.org/en/developers/docs/
 
-１イーサ = 10^18 wei
+１イーサ = 10^18 wei  🔴
+https://docs.soliditylang.org/en/v0.8.16/units-and-global-variables.html?highlight=units-and-global-variables
+```
+assert(1 wei == 1);
+assert(1 gwei == 1e9);
+assert(1 ether == 1e18);
+> eth.sendTransaction({to: "0xc94d95a5106270775351eecfe43f97e8e75e59e8", from: eth.accounts[0], value: 1e18})
+"0xc5c8297f4408bd40924e376e1f80b9ae9ecf0cad147a72cf0a86f18b56690a6e"
+> eth.getBalance("0xc94d95a5106270775351eecfe43f97e8e75e59e8")
+1000000000000025000
+```
+
 
 ### CLI 
 parity rust
@@ -20,6 +49,25 @@ Geth go
 eth c++
 
 mist
+
+It destroys the current contract, sending its available funds to the given address, as shown next:
+#### Selfdestruct(0x5B38Da6a701c568545dCfcB03FcB875f56beddC4)
+
+#### ecrecover function to extract the address.  ????
+```
+var sig = eth.sign(eth.accounts[0], msg)
+> var r = sig.substr(0,66)
+> var s = "0x" + sig.substr(66,64)
+> var v = 28
+> console.log(r)
+
+
+Address(this).transfer(1 ether)
+
+> var msg = web3.sha3("hello ritesh")
+> console.log(msg)
+0x23ad06b0e032848201fe7dccf69320f381a6de007e7e9a0896f5cf04821cc95f
+```
 
 # Solidity Programming Essentials 🔴
 https://github.com/PacktPublishing/Solidity-Programming-Essentials-Second-Edition
