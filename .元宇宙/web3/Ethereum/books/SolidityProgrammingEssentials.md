@@ -11,6 +11,9 @@ https://ethereum.org/en/
 
 geth --dat–ir=./ --networki–9090 --identity "ritesh --http - http.api="admin,debug,txpool,mi"e–eth,net,web3,personal" --snapshot=false
 
+$ geth --networkid 5 --datadir "./ropsten-db" --keystore "./ropsten-keys" --syncmode "full" --rpcapi "web3,eth,miner,admin" --rpccorsdomain "*" --port 30301 console
+
+https://subscription.packtpub.com/book/big-data-and-business-intelligence/9781789133998/1/ch01lvl1sec04/setting-up-a-node-and-participating-in-a-network
 抜粋:
 Ethereum Cookbook 
 Manoj P R
