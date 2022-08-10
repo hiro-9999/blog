@@ -5,10 +5,14 @@ https://ethereum.org/en/
 ```geth
 > eth.getBlock(3)
 > eth
-“$ geth --networkid 3 --datadir "./ropsten-db" --keystore "./ropsten-keys" --syncmode "fast" --rpc --rpcport "9090" --rpcapi "web3,eth,miner,admin" --rpccorsdomain "*" --port 30301 console”
+
+???===
+“$ geth --networkid 3 --datadir "./ropsten-db" --keystore "./ropsten-keys" --syncmode "full" --rpc --rpcport "9090" --rpcapi "web3,eth,miner,admin" --rpccorsdomain "*" --port 30301 console”
+
+geth --dat–ir=./ --networki–9090 --identity "ritesh --http - http.api="admin,debug,txpool,mi"e–eth,net,web3,personal" --snapshot=false
 
 抜粋:
-Ethereum Cookbook
+Ethereum Cookbook 
 Manoj P R
 ```
 
