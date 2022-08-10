@@ -7,6 +7,7 @@ https://ethereum.org/en/
 https://github.com/PacktPublishing/Ethereum-Cookbook
 
 “There are several clients that implement the Ethereum protocol and we will mainly focus on geth and parity”
+https://www.parity.io/technologies/ethereum/
 
 抜粋:
 Ethereum Cookbook
