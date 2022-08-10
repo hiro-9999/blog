@@ -115,6 +115,22 @@ The compiler generates the following two major artifacts:
 • The Application Binary Interface (ABI) definition
 • Contracts bytecode
 
+#### Introducing Solidity
+```
+• Solidity and Solidity files
+• The structure of a contract
+• Data types in Solidity
+• Storage and memory data locations
+• Literals
+• Integers
+• Booleans
+• The byte data type
+• Arrays
+The structure of an array Enumeration
+The address type
+The mapping type
+```
+
 # Ethereum  and Ganache v7.03
 Installing Ethereum and Solidity, takes you through creating a private blockchain using the Ethereum platform. It will provide step-by-step guidance for creating a private chain. Another important tool in the Ethereum ecosystem is Ganache, which
 is mainly used for development and testing purposes. This chapter will also show the process of installing Ganache and using it for developing, testing, and deploying Solidity contracts. You will also install MetaMask, which is a wallet and can interact with any kind of Ethereum network. MetaMask is used to create new accounts, interact with contracts, and use them. The mining of transactions will also be shown in this chapter. Remix is a great tool for authoring Solidity contracts, shown toward the end of the chapter.
