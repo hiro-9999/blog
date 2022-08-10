@@ -99,6 +99,10 @@ contract HelloWorld
 }
 ```
 #### Solidity compiler.
+npm install solc
+
+https://github.com/ethereum/solc-js
+
 The bytecode and ABI are necessary inputs for deploying a contract.
 
 The compiler generates the following two major artifacts:
@@ -203,6 +207,8 @@ eth.blockNumber
 personal.newAccount("test1")
 
 ```
+npm install web3
+
 #### Installing the Solidity compiler
 
 npm install -g solc
@@ -222,6 +228,7 @@ covers exceptions, events, and logging, which are important in Solidity from a c
 
 
 # Truffle Basics and Unit Testing, 
+https://blog.mktia.com/change-solidity-version/
 covers the basics of Truffle, including understanding its concepts, creating a project and understanding its project structure, modifying its configuration, and taking a sample contract through the entire life cycle of writing, testing, deploying, and migrating a contract. Testing is as important for contracts as writing a contract. Truffle helps in providing a framework to test; however, tests should be written. This chapter will discuss the basics of unit tests, writing unit tests using Solidity, and executing them against the smart contract. Unit tests will be executed by creating transactions and validating their results. This chapter will show implementation details for writing and executing unit tests for a sample contract. Interactively working with contracts using Truffle is also shown in this chapter.
 
 # Debugging Contracts,
