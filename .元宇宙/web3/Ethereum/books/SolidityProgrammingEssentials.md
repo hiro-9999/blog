@@ -108,6 +108,104 @@ The compiler generates the following two major artifacts:
 # Ethereum  and Ganache v7.03
 Installing Ethereum and Solidity, takes you through creating a private blockchain using the Ethereum platform. It will provide step-by-step guidance for creating a private chain. Another important tool in the Ethereum ecosystem is Ganache, which
 is mainly used for development and testing purposes. This chapter will also show the process of installing Ganache and using it for developing, testing, and deploying Solidity contracts. You will also install MetaMask, which is a wallet and can interact with any kind of Ethereum network. MetaMask is used to create new accounts, interact with contracts, and use them. The mining of transactions will also be shown in this chapter. Remix is a great tool for authoring Solidity contracts, shown toward the end of the chapter.
+```
+• Ethereum networks
+  test networks available at the time of writing, such as Ropsten, Kovan, Goerli, and Rinkeby.
+• Installing and configuring Geth
+• Creating a private network
+• Installing ganache-cli
+• Installing the Solidity compiler
+• Installing the web3 framework
+• Installing and working with MetaMask
+Solc ??
+```
+### Installing Geth
+https://geth.ethereum.org/docs/install-and-build/installing-geth
+
+#### geth --help
+
+Geth provides the --ropsten option to connect to the Ropsten network, the --rinkeby option to connect to the Rinkeby test network, and the –-goerli option to connect to the Goerli test network. These should be used in conjunction with the networkid command option. It also provides the –mainnet option to connect to the main network.
+
+###### Creating a private network 🔴
+// geth --networkid 12345
+
+https://geth.ethereum.org/docs/interface/private-network
+
+geth account new --datadir data
+
+```
+ geth account new --datadir data
+INFO [08-10|19:23:50.593] Maximum peer count                       ETH=50 LES=0 total=50
+Your new account is locked with a password. Please give a password. Do not forget this password.
+Password:
+Repeat password:
+
+Your new key was generated
+
+Public address of the key:   0x3B47396Bb31319040A25fbAA3a3fE39E9722f231
+Path of the secret key file: data/keystore/UTC--2022-08-10T10-24-02.966942000Z--3b47396bb31319040a25fbaa3a3fe39e9722f231
+
+- You can share your public address with anyone. Others need it to interact with you.
+- You must NEVER share the secret key with anyone! The key controls access to your funds!
+- You must BACKUP your key file! Without the key, it's impossible to access account funds!
+- You must REMEMBER your password! Without the password, it's impossible to decrypt the key!
+```
+geth init --datadir data genesis.json
+
+geth --datadir data --networkid 12345
+
+#### geth attach ***/Documents/blockchain/data/geth.ipc
+Welcome to the Geth JavaScript console!
+```
+> personal.newAccount()
+> personal.newAccount()
+Passphrase:
+Repeat passphrase:
+"0x874abfeefc231eefbf7a2ae9b444fe70f3df5160"
+
+> miner.setEtherBase("0x874abfeefc231eefbf7a2ae9b444fe70f3df5160") // donnt need to do it!!!
+
+> eth.coinbase
+"0x874abfeefc231eefbf7a2ae9b444fe70f3df5160"
+
+miner.start()
+
+miner.stop()
+
+https://github.com/trufflesuite/ganache
+npm install ganache --global
+//npm install -g ganache-cli
+//npm install -g ganache-cli --force
+
+ganache -p 9090
+Geth attach http://127.0.0.1:9090
+
+> eth.getBalance(eth.accounts[0])
+
+```
+
+```
+> eth.getBalance(eth.accounts[0])
+1e+21
+> eth.sendTransaction({to: "0xc94d95a5106270775351eecfe43f97e8e75e59e8", from: eth.accounts[0], value: 25000})
+"0xd926b75d3af120646ae07f0fa1a150bcc2f5fe128beb9b74e109275ad137e2f4"
+> eth.getBalance("0xc94d95a5106270775351eecfe43f97e8e75e59e8")
+25000
+> eth.getBalance(eth.accounts[0])
+999999976744140600000
+
+> eth.accounts[0]
+"0x9f23e2501156975f85c407591a0f345fa3e7a3d5"
+
+https://qiita.com/ikead/items/1f7c49384fd90cde4646 ok!!!
+eth.blockNumber
+
+personal.newAccount("test1")
+
+```
+#### Installing the Solidity compiler
+
+npm install -g solc
 
 # Solidity 0.8.13
 Introducing Solidity, begins the Solidity journey. In this chapter, you'll learn
