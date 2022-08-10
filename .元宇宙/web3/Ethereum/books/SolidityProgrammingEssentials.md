@@ -2,6 +2,10 @@
 https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
 https://ethereum.org/en/
+```geth
+> eth.getBlock(3)
+> eth
+```
 
 # read ?? Ethereum-Cookbook
 https://github.com/PacktPublishing/Ethereum-Cookbook
