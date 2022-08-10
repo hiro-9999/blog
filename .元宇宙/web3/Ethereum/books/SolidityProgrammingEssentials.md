@@ -5,6 +5,11 @@ https://ethereum.org/en/
 ```geth
 > eth.getBlock(3)
 > eth
+“$ geth --networkid 3 --datadir "./ropsten-db" --keystore "./ropsten-keys" --syncmode "fast" --rpc --rpcport "9090" --rpcapi "web3,eth,miner,admin" --rpccorsdomain "*" --port 30301 console”
+
+抜粋:
+Ethereum Cookbook
+Manoj P R
 ```
 
 # read ?? Ethereum-Cookbook
