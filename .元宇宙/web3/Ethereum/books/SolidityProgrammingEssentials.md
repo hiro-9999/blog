@@ -4,10 +4,11 @@ https://qiita.com/ikead/items/1f7c49384fd90cde4646
 #### Gethのインストール方法 マイニング 🔴
 http://kojiryo.com/762/
 
-geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
+geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
 
-geth % geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>> ~/geth/eth_private_net/geth_err.log
+geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>> ~/geth/eth_private_net/geth_err.log
 
+https://eng.shibuya24.info/entry/geth_eghereum_4
 
 ```
 personal.newAccount("任意のパスワード")
@@ -24,7 +25,7 @@ personal.unlockAccount(eth.accounts[0])
 > eth.accounts[1]
 "0x17b149c1f014b7ae5afdbc8643dddd527b667832"
 //eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[1], value: web3.toWei(10,"ether")})
-eth.sendTransaction({to: "0x17b149c1f014b7ae5afdbc8643dddd527b667832", from: eth.accounts[0], value: 100})
+eth.sendTransaction({to: "0xf39bb9cc59046c2291b25c3b92954e33b9825435", from: eth.accounts[0], value: 100})
 miner.stop()
 
 geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
