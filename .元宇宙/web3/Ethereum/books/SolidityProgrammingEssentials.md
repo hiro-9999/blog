@@ -19,6 +19,18 @@ https://docs.nethereum.com/en/latest/ethereum-and-clients/ganache-cli/
 
 Geth attach http://127.0.0.1:8545
 
+#### web3.fromWei()でweiからetherに単位を変換できます。
+
+> web3.fromWei(eth.getBalance(eth.accounts[1]), 'ether')
+2
+
+2 etherをweiに変換しています。
+
+> web3.toWei(2, 'ether')
+"2000000000000000000"
+
+https://tech.isid.co.jp/entry/2021/12/03/Geth%28%E3%82%B2%E3%82%B9%29%E3%81%AF%E3%81%98%E3%82%81%E3%81%BE%E3%81%97%E3%81%9F
+
 #### 報酬を紐づけるEOAのアドレス
 etherbase
 ここで、eth.coinbaseコマンドを実行してみます。すると下記のとおり実行結果には先ほど作成した2つのEOAのうちの一つが表示されます。このコマンドはetherbase（coinbaseとも呼ばれます）を表示するコマンドで、etherbaseとは、各ノードで採掘を行う際にその報酬を紐づけるEOAのアドレスを示します。
