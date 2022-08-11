@@ -1,4 +1,6 @@
 # TruffleとGanacheを使った環境構築
+sudo npm install truffle -g
+
 https://trufflesuite.com/.   https://trufflesuite.com/docs/
 
 https://qiita.com/romorimori/items/155bb1f5e4cced629ce8
