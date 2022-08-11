@@ -2,6 +2,8 @@
 https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
 #### Gethのインストール方法 マイニング 🔴
+https://geth.ethereum.org/downloads/
+
 http://kojiryo.com/762/
 
 https://eng.shibuya24.info/tag/blockchain  <- need read ???
