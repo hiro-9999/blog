@@ -1,6 +1,26 @@
 # コントラクトを作ってみる 🔴
 https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
+#### Gethのインストール方法 マイニング 🔴
+http://kojiryo.com/762/
+```
+miner.start(1)
+eth.mining
+
+geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
+INFO [08-11|19:26:46.870] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [08-11|19:26:46.874] Set global gas cap                       cap=50,000,000
+INFO [08-11|19:26:46.875] Allocated cache and file handles         database=~/eth_private_net/geth/chaindata cache=16.00MiB handles=16
+INFO [08-11|19:26:47.154] Opened ancient database                  database=~/geth/eth_private_net/geth/chaindata/ancient readonly=false
+INFO [08-11|19:26:47.154] Writing custom genesis block
+INFO [08-11|19:26:47.156] Persisted trie from memory database      nodes=3 size=397.00B time="148.5µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-11|19:26:47.157] Successfully wrote genesis state         database=chaindata hash=183ffe..c3fcaf
+INFO [08-11|19:26:47.157] Allocated cache and file handles         database=~/geth/eth_private_net/geth/lightchaindata cache=16.00MiB handles=16
+INFO [08-11|19:26:47.486] Opened ancient database                  database=~/geth/eth_private_net/geth/lightchaindata/ancient readonly=false
+INFO [08-11|19:26:47.486] Writing custom genesis block
+INFO [08-11|19:26:47.487] Persisted trie from memory database      nodes=3 size=397.00B time="362.583µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [08-11|19:26:47.489] Successfully wrote genesis state         database=lightchaindata hash=183ffe..c3fcaf
+```
 https://ethereum.org/en/
 ```geth
 > eth.getBlock(3)
