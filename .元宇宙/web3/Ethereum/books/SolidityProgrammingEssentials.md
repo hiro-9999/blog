@@ -19,6 +19,14 @@ https://trufflesuite.com/ganache/
 # コントラクトを作ってみる 🔴
 https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
+# More information about callcode is available
+https://docs.soliditylang.org/en/develop/introduction-to-smart-contracts.html
+
+Being a method of the address type, it can call methods on contracts with the
+given address. The main difference between other methods and staticcall is that staticall can only be used for the pure, view, and constant functions, which
+do not change the state variables. It will raise a revert opcode if the target function changes any state variable within the contract. It is important to understand the usage of the call, delegatecall, and staticcall functions. As mentioned before, these
+are low-level functions and should be used only in certain circumstances. These functions should be used when the source code of the target library or contract is not available. These libraries and contracts are deployed and provided to us with their addresses. Using these addresses, it is possible to invoke functions on them by making use of the low-level functions. In short, these functions should be used as a last resort when only an address to the library or contract is made available.
+
 #### Gethのインストール方法 マイニング 🔴
 https://geth.ethereum.org/downloads/
 
