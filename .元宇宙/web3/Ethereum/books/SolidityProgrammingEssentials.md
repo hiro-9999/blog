@@ -12,7 +12,49 @@ geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
 
 geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>> ~/geth/eth_private_net/geth_err.log
 
-https://eng.shibuya24.info/entry/geth_eghereum_4
+https://eng.shibuya24.info/entry/geth_eghereum_4.  <= is good 🔴
+
+#### 報酬を紐づけるEOAのアドレス
+etherbase
+ここで、eth.coinbaseコマンドを実行してみます。すると下記のとおり実行結果には先ほど作成した2つのEOAのうちの一つが表示されます。このコマンドはetherbase（coinbaseとも呼ばれます）を表示するコマンドで、etherbaseとは、各ノードで採掘を行う際にその報酬を紐づけるEOAのアドレスを示します。
+```geth
+> eth.coinbase
+"0xf631cd7a12788e85cb77f2371513b2c74cd6e56e"
+> eth.accounts[0]
+"0xf631cd7a12788e85cb77f2371513b2c74cd6e56e"
+
+
+> personal.unlockAccount(eth.accounts[0])
+> eth.getBalance(eth.accounts[1])
+
+> eth.sendTransaction({from: eth.accounts[0], to: eth.accounts[1], value: web3.toWei(5, "ether")})
+> eth.getTransaction("0x352eaba88b4659e3a8c175462f01b7f46673861b6e345763b960e01b21667898")
+{
+  blockHash: "0x60845fc76d5bea7b2e566243b5d7a57e778024e166c45dd84dc1e3117d4fba61",
+  blockNumber: 34,
+  chainId: "0xf",
+  from: "0xf631cd7a12788e85cb77f2371513b2c74cd6e56e",
+  gas: 21000,
+  gasPrice: 1000000000,
+  hash: "0x352eaba88b4659e3a8c175462f01b7f46673861b6e345763b960e01b21667898",
+  input: "0x",
+  nonce: 0,
+  r: "0xe2d7ddadc1606eaad255834d6d1adb6a7dd31c846bf6206fffc0adfa2a15e39b",
+  s: "0x3789028291ee3a94c569099536d6302eaa214d8ba9a377b73d8cd7e13d1b718b",
+  to: "0xc9e2ab80b177f984891096eca5edec82fe18c791",
+  transactionIndex: 0,
+  type: "0x0",
+  v: "0x42",
+  value: 10000000000000000000
+}
+```
+https://book.ethereum-jp.net/first_use/mining_ether
+
+> miner.setEtherbase(eth.accounts[1])
+
+> miner.start()
+
+> miner.stop()
 
 ```
 personal.newAccount("任意のパスワード")
