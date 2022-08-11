@@ -130,6 +130,10 @@ https://subscription.packtpub.com/book/big-data-and-business-intelligence/978178
 Ethereum Cookbook 
 Manoj P R
 ```
+##### geth port is 8545
+If no other commands are provided, Geth falls back to its default behaviour of accepting connections from the local loopback interface (127.0.0.1). The default listening port is 8545. The ip address and listening port can be customized using the --http.addr and --http.port flags:
+
+geth --http --http.port 3334
 
 # read ?? Ethereum-Cookbook
 https://github.com/PacktPublishing/Ethereum-Cookbook
