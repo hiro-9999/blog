@@ -14,6 +14,9 @@ geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>
 
 https://eng.shibuya24.info/entry/geth_eghereum_4.  <= is good 🔴
 
+## Ganache CLI
+https://docs.nethereum.com/en/latest/ethereum-and-clients/ganache-cli/
+
 Geth attach http://127.0.0.1:8545
 
 #### 報酬を紐づけるEOAのアドレス
