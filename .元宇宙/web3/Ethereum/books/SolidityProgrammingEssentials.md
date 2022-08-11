@@ -3,9 +3,29 @@ https://qiita.com/ikead/items/1f7c49384fd90cde4646
 
 #### Gethのインストール方法 マイニング 🔴
 http://kojiryo.com/762/
+
+geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
+
+geth % geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>> ~/geth/eth_private_net/geth_err.log
+
+
 ```
+personal.newAccount("任意のパスワード")
+personal.newAccount("test")
+eth.accounts
 miner.start(1)
 eth.mining
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+personal.unlockAccount("任意のアカウント")
+web3.fromWei(eth.getBalance(eth.accounts[0]), "ether")
+personal.unlockAccount(eth.accounts[0])
+> eth.accounts[0]
+"0xb94c342a7a1069a15fa247eff02a11b436f5b98d"
+> eth.accounts[1]
+"0x17b149c1f014b7ae5afdbc8643dddd527b667832"
+//eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[1], value: web3.toWei(10,"ether")})
+eth.sendTransaction({to: "0x17b149c1f014b7ae5afdbc8643dddd527b667832", from: eth.accounts[0], value: 100})
+miner.stop()
 
 geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
 INFO [08-11|19:26:46.870] Maximum peer count                       ETH=50 LES=0 total=50
