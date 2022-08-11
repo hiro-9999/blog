@@ -439,6 +439,36 @@ Contract JSON ABI
   address: undefined,
   transactionHash: "0xe3ffd66ae540c2dba260dd4d05e3cedee2d94d094cc768dd4909c957049f60de"
 }
+
+> hoge
+{
+  abi: [{
+      inputs: [],
+      name: "convertToUint",
+      outputs: [{...}],
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      inputs: [],
+      name: "manageBool",
+      outputs: [{...}],
+      stateMutability: "nonpayable",
+      type: "function"
+  }],
+  address: "0x3f9ab25bb4b37e4bbd0c93cf0660b4083bfcb018",
+  transactionHash: "0xd728f26774aa295cfdc2ca4ed47529afc1dd1af356c21ccc558e0d0c96cdfa5e",
+  allEvents: function bound(),
+  convertToUint: function bound(),
+  manageBool: function bound()
+}
+> hoge.convertToUint
+function bound()
+> hoge.convertToUint.call()
+10
+> hoge.manageBool
+function bound()
+> hoge.manageBool.call()
+false
 ```
 
 
