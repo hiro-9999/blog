@@ -176,9 +176,9 @@ contract HelloWorld
 }
 ```
 #### Solidity compiler.
-npm install solc
+https://qiita.com/yusukeito58/items/2ca16a768c7347a0f7bd
 
-https://github.com/ethereum/solc-js
+$ solc --bin --abi hogehoge.sol
 
 The bytecode and ABI are necessary inputs for deploying a contract.
 
@@ -256,6 +256,9 @@ geth --datadir data --networkid 12345
 
 #### geth attach ***/Documents/blockchain/data/geth.ipc
 Welcome to the Geth JavaScript console!
+
+### ganache -p 9090 🔴
+Geth attach http://127.0.0.1:9090
 ```
 > personal.newAccount()
 > personal.newAccount()
@@ -316,7 +319,87 @@ chain id :1337
 
 #### Installing the Solidity compiler
 
-sudo npm install -g solc
+//sudo npm install -g solc <- not need
+
+//solcjs BoolContract.sol --abi --bin <- not need
+
+### macのターミナルでSolidityをコンパイル  🔴
+https://qiita.com/yusukeito58/items/2ca16a768c7347a0f7bd
+
+https://qiita.com/ikead/items/1f7c49384fd90cde4646
+
+```
+$ brew update
+$ brew upgrade
+$ brew tap ethereum/ethereum
+$ brew install solidity
+
+% solc --bin --abi BoolContract.sol
+
+======= BoolContract.sol:BoolContract =======
+Binary:
+608060405260016000806101000a81548160ff02191690831515021790555034801561002a57600080fd5b5061016a8061003a6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80639257618a1461003b578063b8d5a30f14610059575b600080fd5b610043610077565b60405161005091906100e2565b60405180910390f35b6100616100a5565b60405161006e9190610119565b60405180910390f35b6000806000806101000a81548160ff02191690831515021790555060008054906101000a900460ff16905090565b6000806000806101000a81548160ff021916908315150217905550600a905090565b60008115159050919050565b6100dc816100c7565b82525050565b60006020820190506100f760008301846100d3565b92915050565b600060ff82169050919050565b610113816100fd565b82525050565b600060208201905061012e600083018461010a565b9291505056fea2646970667358221220479a864809dbbc595e51b0a2df0a17d867672aa4d115496933cf0725050ab1dc64736f6c63430008100033
+Contract JSON ABI
+[{"inputs":[],"name":"convertToUint","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"manageBool","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}]
+```
+出力されたBINとABIをコピーして、Geth上で下記のように登録します。
+
+> bin = "0x606060405〜"
+> abi = [{"constant":〜
+## ※binは先頭に「0x」を付与する必要があります。
+
+最後にhogeという変数にコントラクトを定義します。
+
+> hoge = eth.contract(abi).new({ from: eth.accounts[0], data: bin, gas: 1000000 })
+あとはhoge変数でコントラクトを操作できます。
+
+```
+> bin  = "0x608060405260016000806101000a81548160ff02191690831515021790555034801561002a57600080fd5b5061016a8061003a6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80639257618a1461003b578063b8d5a30f14610059575b600080fd5b610043610077565b60405161005091906100e2565b60405180910390f35b6100616100a5565b60405161006e9190610119565b60405180910390f35b6000806000806101000a81548160ff02191690831515021790555060008054906101000a900460ff16905090565b6000806000806101000a81548160ff021916908315150217905550600a905090565b60008115159050919050565b6100dc816100c7565b82525050565b60006020820190506100f760008301846100d3565b92915050565b600060ff82169050919050565b610113816100fd565b82525050565b600060208201905061012e600083018461010a565b9291505056fea2646970667358221220479a864809dbbc595e51b0a2df0a17d867672aa4d115496933cf0725050ab1dc64736f6c63430008100033"
+"0x608060405260016000806101000a81548160ff02191690831515021790555034801561002a57600080fd5b5061016a8061003a6000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c80639257618a1461003b578063b8d5a30f14610059575b600080fd5b610043610077565b60405161005091906100e2565b60405180910390f35b6100616100a5565b60405161006e9190610119565b60405180910390f35b6000806000806101000a81548160ff02191690831515021790555060008054906101000a900460ff16905090565b6000806000806101000a81548160ff021916908315150217905550600a905090565b60008115159050919050565b6100dc816100c7565b82525050565b60006020820190506100f760008301846100d3565b92915050565b600060ff82169050919050565b610113816100fd565b82525050565b600060208201905061012e600083018461010a565b9291505056fea2646970667358221220479a864809dbbc595e51b0a2df0a17d867672aa4d115496933cf0725050ab1dc64736f6c63430008100033"
+
+> abi = [{"inputs":[],"name":"convertToUint","outputs":[{"internalType":"uint8","name":"","type":"uint8"}],"stateMutability":"nonpayable","type":"function"},{"inputs":[],"name":"manageBool","outputs":[{"internalType":"bool","name":"","type":"bool"}],"stateMutability":"nonpayable","type":"function"}]
+[{
+    inputs: [],
+    name: "convertToUint",
+    outputs: [{
+        internalType: "uint8",
+        name: "",
+        type: "uint8"
+    }],
+    stateMutability: "nonpayable",
+    type: "function"
+}, {
+    inputs: [],
+    name: "manageBool",
+    outputs: [{
+        internalType: "bool",
+        name: "",
+        type: "bool"
+    }],
+    stateMutability: "nonpayable",
+    type: "function"
+}]
+
+> hoge = eth.contract(abi).new({ from: eth.accounts[0], data: bin, gas: 1000000 })
+{
+  abi: [{
+      inputs: [],
+      name: "convertToUint",
+      outputs: [{...}],
+      stateMutability: "nonpayable",
+      type: "function"
+  }, {
+      inputs: [],
+      name: "manageBool",
+      outputs: [{...}],
+      stateMutability: "nonpayable",
+      type: "function"
+  }],
+  address: undefined,
+  transactionHash: "0xe3ffd66ae540c2dba260dd4d05e3cedee2d94d094cc768dd4909c957049f60de"
+}
+```
+
 
 # Solidity 0.8.13
 Introducing Solidity, begins the Solidity journey. In this chapter, you'll learn
