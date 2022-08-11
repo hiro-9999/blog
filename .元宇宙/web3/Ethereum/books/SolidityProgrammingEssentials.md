@@ -4,6 +4,8 @@ https://qiita.com/ikead/items/1f7c49384fd90cde4646
 #### Gethのインストール方法 マイニング 🔴
 http://kojiryo.com/762/
 
+https://eng.shibuya24.info/tag/blockchain  <- need read ???
+
 geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
 
 geth --networkid "15" --nodiscover --datadir "~/geth/eth_private_net" console 2>> ~/geth/eth_private_net/geth_err.log
@@ -27,6 +29,7 @@ personal.unlockAccount(eth.accounts[0])
 //eth.sendTransaction({from:eth.accounts[0], to:eth.accounts[1], value: web3.toWei(10,"ether")})
 eth.sendTransaction({to: "0xf39bb9cc59046c2291b25c3b92954e33b9825435", from: eth.accounts[0], value: 100})
 miner.stop()
+eth.getBlock(0)
 
 geth % geth --datadir ~/geth/eth_private_net init ~/geth/eth_private_net/myGenesis.json
 INFO [08-11|19:26:46.870] Maximum peer count                       ETH=50 LES=0 total=50
@@ -41,6 +44,30 @@ INFO [08-11|19:26:47.486] Opened ancient database                  database=~/ge
 INFO [08-11|19:26:47.486] Writing custom genesis block
 INFO [08-11|19:26:47.487] Persisted trie from memory database      nodes=3 size=397.00B time="362.583µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
 INFO [08-11|19:26:47.489] Successfully wrote genesis state         database=lightchaindata hash=183ffe..c3fcaf
+
+> eth.getBlock(0)
+{
+  difficulty: 16384,
+  extraData: "0x",
+  gasLimit: 134217728,
+  gasUsed: 0,
+  hash: "0x7b2e8be699df0d329cc74a99271ff7720e2875cd2c4dd0b419ec60d1fe7e0432",
+  logsBloom: "0x00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+  miner: "0x3333333333333333333333333333333333333333",
+  mixHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  nonce: "0x0000000000000042",
+  number: 0,
+  parentHash: "0x0000000000000000000000000000000000000000000000000000000000000000",
+  receiptsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  sha3Uncles: "0x1dcc4de8dec75d7aab85b567b6ccd41ad312451b948a7413f0a142fd40d49347",
+  size: 507,
+  stateRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  timestamp: 0,
+  totalDifficulty: 16384,
+  transactions: [],
+  transactionsRoot: "0x56e81f171bcc55a6ff8345e692c0f86e5b48e01b996cadc001622fb5e363b421",
+  uncles: []
+}
 ```
 https://ethereum.org/en/
 ```geth
@@ -301,8 +328,7 @@ Welcome to the Geth JavaScript console!
 ### ganache -p 9090 🔴
 Geth attach http://127.0.0.1:9090
 ```
-> personal.newAccount()
-> personal.newAccount()
+> personal.newAccount("password")
 Passphrase:
 Repeat passphrase:
 "0x874abfeefc231eefbf7a2ae9b444fe70f3df5160"
