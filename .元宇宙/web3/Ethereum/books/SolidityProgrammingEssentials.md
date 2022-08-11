@@ -316,7 +316,7 @@ chain id :1337
 
 #### Installing the Solidity compiler
 
-npm install -g solc
+sudo npm install -g solc
 
 # Solidity 0.8.13
 Introducing Solidity, begins the Solidity journey. In this chapter, you'll learn
