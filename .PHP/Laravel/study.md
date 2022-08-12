@@ -45,3 +45,6 @@ https://code.visualstudio.com/docs/remote/containers
 # Lifecycle Overview
 https://laravel.com/docs/9.x/lifecycle
 
+# env
+https://laravel.com/docs/9.x/configuration#environment-configuration
+
