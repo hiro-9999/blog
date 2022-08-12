@@ -48,3 +48,11 @@ https://laravel.com/docs/9.x/lifecycle
 # env
 https://laravel.com/docs/9.x/configuration#environment-configuration
 
+#### php artisan up
+“You can enable the maintenance mode on your Laravel web application using the following command –
+### php artisan down
+
+抜粋:
+Laravel (8) PHP Framework Handbook | Start From Zero Knowledge.: Ideal programming book for anyone who wants to learn more about the implementation, practical use of Laravel 8.x
+H. Thomas, David
+この素材は著作権で保護されている可能性があります。
