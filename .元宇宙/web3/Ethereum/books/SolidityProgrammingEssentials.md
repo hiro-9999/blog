@@ -1,5 +1,7 @@
 https://etherscan.io
 
+第一行代码——以太坊 (李宁) (z-lib.org)
+
 # assembly
 https://docs.soliditylang.org/en/latest/assembly.html#opcodes
 
