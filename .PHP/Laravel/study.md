@@ -21,4 +21,6 @@ ruby: gem
 python: pip
 ```
 
+# laravel
+https://laravel.com/docs/9.x
 
