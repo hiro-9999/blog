@@ -23,7 +23,25 @@ https://tech.drecom.co.jp/go_to_the_dapps_world/
 
 https://rightcode.co.jp/blog/information-technology/truffle-suite-dapp-production
 
+# envent 🔴
+https://docs.soliditylang.org/en/v0.8.9/contracts.html#events
 
+# web3js  🔴
+https://web3js.readthedocs.io/en/v1.7.0/
+
+# Truffle 
+https://trufflesuite.com/docs/
+
+Truffle is one such development, testing, and deployment utility that can make these activities a breeze.
+• Ganache • Truffle
+```
+% truffle version
+Truffle v5.5.26 (core: 5.5.26)
+Ganache v7.4.0
+Solidity v0.5.16 (solc-js)
+Node v16.16.0
+Web3.js v1.7.4
+```
 
 ### Ganache install
 https://trufflesuite.com/ganache/
