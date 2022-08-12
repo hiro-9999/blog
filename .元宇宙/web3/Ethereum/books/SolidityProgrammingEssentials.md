@@ -1,6 +1,18 @@
 # TruffleとGanacheを使った環境構築
 sudo npm install truffle -g
 
+``` reading miyata
+https://github.com/ethereum/EIPs/blob/master/EIPS/eip-4907.md
+
+https://note.com/tck/n/n65420c0631b1
+
+https://firefoo.app
+
+https://speakerdeck.com/masuda220/domeinqu-dong-she-ji-nirdra2-dot-0wohuo-yong-suru?slide=12
+
+https://git.dmm.com/ai/searchproxy-api
+
+```
 truffle init
 
 https://trufflesuite.com/.   https://trufflesuite.com/docs/
