@@ -41,3 +41,7 @@ Laravel v9.24.0 (PHP v8.1.8)
 # Developing inside a Container  ???
 https://code.visualstudio.com/docs/remote/containers
 
+
+# Lifecycle Overview
+https://laravel.com/docs/9.x/lifecycle
+
