@@ -30,6 +30,11 @@ curl -s "https://laravel.build/example-app" | bash
 
 https://laravel.com/docs/9.x#getting-started-on-macos
 
+cd example-app
+ 
+./vendor/bin/sail up
+
+http://localhost
 
 # Developing inside a Container  ???
 https://code.visualstudio.com/docs/remote/containers
