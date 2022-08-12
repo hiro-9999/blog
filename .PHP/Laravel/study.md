@@ -24,3 +24,13 @@ python: pip
 # laravel
 https://laravel.com/docs/9.x
 
+https://laravel.com/docs/9.x/sail
+
+curl -s "https://laravel.build/example-app" | bash
+
+https://laravel.com/docs/9.x#getting-started-on-macos
+
+
+# Developing inside a Container  ???
+https://code.visualstudio.com/docs/remote/containers
+
