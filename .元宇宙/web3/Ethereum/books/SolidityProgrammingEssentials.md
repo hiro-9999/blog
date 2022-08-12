@@ -1,3 +1,44 @@
+https://etherscan.io
+
+# assembly
+https://docs.soliditylang.org/en/latest/assembly.html#opcodes
+
+https://docs.soliditylang.org/en/v0.5.3/assembly.html#opcodes
+
+https://docs.soliditylang.org/en/v0.5.3/miscellaneous.html
+
+https://docs.soliditylang.org/en/v0.5.3/assembly.html
+
+# ERC721
+https://eips.ethereum.org/EIPS/eip-721
+
+https://eips.ethereum.org/erc
+
+# Ethereum Improvement Proposals
+https://eips.ethereum.org
+
+# Common Patterns
+https://docs.soliditylang.org/en/latest/common-patterns.html
+
+# Security
+https://docs.openzeppelin.com/contracts/4.x/api/security#ReentrancyGuard
+
+https://docs.soliditylang.org/en/v0.8.11/security-considerations.html
+
+https://docs.soliditylang.org/en/v0.8.11/security-considerations.html#recommendations
+
+
+#### Smart Contract Weakness Classification and Test Cases
+https://swcregistry.io
+
+
+
+### Some of the security-related tools for smart contracts
+https://consensys.net/diligence/tools/
+
+# remix
+https://remix-ide.readthedocs.io/en/latest/tutorial_debug.html
+
 # TruffleとGanacheを使った環境構築
 sudo npm install truffle -g
 
