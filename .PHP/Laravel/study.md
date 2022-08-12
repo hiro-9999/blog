@@ -5,8 +5,13 @@ composer create-project "laravel/laravel=9.*" sample
 
 php artisan serve
 
-# PHP 组件管理工具： composer 
+# reading
+https://chigusa-web.com/blog/laravel-beginner/
 
+# Laravel Sail
+https://chigusa-web.com/blog/laravel-sail-mac/
+
+# PHP 组件管理工具： composer 
 https://labo.kon-ruri.co.jp/composer-macos-install/
 ```
 % brew install composer
