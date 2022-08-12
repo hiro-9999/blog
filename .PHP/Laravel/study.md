@@ -1,6 +1,8 @@
 # Laravel環境構築(Mac編)
 https://grune.co.jp/blog/laravel-create-local-environment/
 
+composer create-project "laravel/laravel=9.*" sample
+
 php artisan serve
 
 # PHP 组件管理工具： composer 
