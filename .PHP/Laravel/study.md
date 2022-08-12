@@ -1,3 +1,8 @@
+# Laravel環境構築(Mac編)
+https://grune.co.jp/blog/laravel-create-local-environment/
+
+php artisan serve
+
 # PHP 组件管理工具： composer 
 
 https://labo.kon-ruri.co.jp/composer-macos-install/
