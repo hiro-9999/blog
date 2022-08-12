@@ -10,3 +10,6 @@ https://hnavi.co.jp/knowledge/blog/laravel/
 どのていどの技術の幅をフルスタックと呼ぶか、明確な線引きがあるわけではない。フロントエンドからバックエンドまで（何から何まで）こなせる技術を指す場合も多いが、Webデザインの範囲で用いられるHTML、CSS、JavaScript、加えてPHPやRubyやApacheなども扱えるスキルをフルスタックと呼ぶ場合もあり得る。
 
 特定の研究開発事業を、分業化せず一手に引き受け、ハードウェアからソフトウェアまで全般的に構築するような携わり方を「フルスタックで開発する」という風に表現することもある。
+
+# php untest 
+https://laracasts.com/series/php-testing-jargon/episodes/2
