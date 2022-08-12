@@ -1,4 +1,4 @@
-# Laravel環境構築(Mac編)
+# Laravel環境構築(Mac編) 🔴
 https://grune.co.jp/blog/laravel-create-local-environment/
 
 composer create-project "laravel/laravel=9.*" sample
