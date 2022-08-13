@@ -74,6 +74,10 @@ https://chigusa-web.com/blog/laravel-deepl/
 https://chigusa-web.com/blog/laravel-chart-js/
 
 
+# Developing inside a Container  ??? 🟡
+https://code.visualstudio.com/docs/remote/containers
+
+
 # study page 🔴 🔴
 https://laracasts.com/
 
@@ -460,9 +464,6 @@ sail down
 sail build --no-cache
 
 $ sail up -d  
-
-# Developing inside a Container  ???
-https://code.visualstudio.com/docs/remote/containers
 
 
 # Lifecycle Overview
