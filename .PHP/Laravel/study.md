@@ -1,6 +1,9 @@
 # example
 https://github.com/chigusa-web/laravel9-app-crud
 
+# read page 🔴 🔴
+https://chigusa-web.com/
+
 ### sail ---
 https://readouble.com/laravel/9.x/ja/sail.html
 
