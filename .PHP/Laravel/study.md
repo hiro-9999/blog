@@ -33,7 +33,7 @@ ruby: gem
 python: pip
 ```
 
-# laravel
+# laravel sail
 https://laravel.com/docs/9.x
 
 https://laravel.com/docs/9.x/sail
@@ -48,7 +48,104 @@ cd example-app
 
 http://localhost
 
+
+% vi ~/.zshrc
+以下の内容を追記して保存します。
+
+
+alias sail='[ -f sail ] && bash sail || bash vendor/bin/sail'
+以下のコマンドで反映させます。
+
+
+% source ~/.zshrc
+改めてSailを起動して、Laravelの画面にアクセスできることを確認してください。
+
+
+# sail up 🔴
+https://chigusa-web.com/blog/laravel-sail-mac/
+
+#### Sailをバックグラウンドで実行します。
+sail up -d
+
+#### 停止する
+sail down
+
+% sail php --version
+
+% sail artisan list
+
+% sail artisan route:list
+```
+  GET|HEAD   / .............................................................................................. 
+  POST       _ignition/execute-solution ignition.executeSolution › Spatie\LaravelIgnition › ExecuteSolutionC…
+  GET|HEAD   _ignition/health-check ... ignition.healthCheck › Spatie\LaravelIgnition › HealthCheckController
+  POST       _ignition/update-config ignition.updateConfig › Spatie\LaravelIgnition › UpdateConfigController
+  GET|HEAD   api/user ....................................................................................... 
+  GET|HEAD   sanctum/csrf-cookie .......... sanctum.csrf-cookie › Laravel\Sanctum › CsrfCookieController@show
+```
+
+sail node --version
+
+sail npm install
+
+% sail npm run prod
+
+例：
+% sail npm run dev
+% sail npm run watch
+
+
+% sail artisan migrate
+
 Laravel v9.24.0 (PHP v8.1.8)
+
+# Xdebugによるデバッグ方法
+https://chigusa-web.com/blog/laravel-sail-xdebug/
+
+$ sail up -d  
+
+$ sail php -v
+```
+routes/web.php
+Route::get('/phpinfo', function () {
+    phpinfo();
+});
+```
+http://localhost/phpinfo
+
+## .envファイルを開き、以下の一行を追記します。
+SAIL_XDEBUG_MODE=develop,debug
+
+//DB creat
+$ sail artisan make:migration create_samples_table
+
+// API debug  🔴
+$ sail debug migrate
+
+「sail artisan」ではなく「sail debug」で実行するのがポイントです。
+
+//web debug  🔴
+http://localhost?XDEBUG_SESSION_START=session_name
+
+http://localhost?XDEBUG_SESSION_STOP=session_name
+
+自動でXdebugが開始されませんので、手動でデバッグを開始します。
+URLパラメータに以下を追加してアクセスするとXdebugが開始されます。
+#### ?XDEBUG_SESSION_START=session_name
+
+プロジェクト直下に「docker」フォルダが作成されました。
+#### sail artisan sail:publish  🔴 自動デバッグ開始設定
+docker\8.1\php.ini
+以下の内容を追記します。
+
+[xdebug]
+xdebug.start_with_request=yes
+
+sail down
+
+sail build --no-cache
+
+$ sail up -d  
 
 # Developing inside a Container  ???
 https://code.visualstudio.com/docs/remote/containers
