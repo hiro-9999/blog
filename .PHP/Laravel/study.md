@@ -7,6 +7,7 @@ https://chigusa-web.com/
   ### [6] MinIO
   https://www.ritolab.com/entry/232
   
+    MinIOはAmazon S3と互換性があるため、Amazon S3と全く同じインタフェース(AWS CLIや、AWS SDK)からもアクセスが可能です(ただし一部、MinIOではサポートしていないAPIもあります)。そのため、本番環境ではAmazon S3を使用するが、開発時には、MinIOで開発／テストを行うなどの用途で利用することができます。
   ```
   config/filesystems.php
    's3' => [
@@ -30,8 +31,7 @@ https://chigusa-web.com/
    AWS_URL=http://localhost:9000
   ```
   
-  MinIOはAmazon S3と互換性があるため、Amazon S3と全く同じインタフェース(AWS CLIや、AWS SDK)からもアクセスが可能です(ただし一部、MinIOではサポートしていないAPIもあります)。そのため、本番環境ではAmazon S3を使用するが、開発時には、MinIOで開発／テストを行うなどの用途で利用することができます。
-  
+
  ### [7] mailhog
  Docker環境にメールサーバー構築でMailhogを利用する
  https://laptrinhx.com/docker-laravel-meruno-song-xin-chu-liworokarude-que-rensuru-1410764577/
