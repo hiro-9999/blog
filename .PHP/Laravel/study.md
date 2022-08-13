@@ -1,8 +1,78 @@
 # example
 https://github.com/chigusa-web/laravel9-app-crud
 
+🔴【初心者向け】Laravelを始めよう 🔴
+https://chigusa-web.com/blog/laravel-beginner/
+
 # vite ??? need read!!! 🟡
 https://readouble.com/laravel/9.x/ja/vite.html
+```
+# next.js 
+https://github.com/laravel/breeze-next
+
+
+#Eloquent ORM
+https://readouble.com/laravel/9.x/ja/eloquent.html
+
+```
+
+# phpMyAdminのインストール 🟡
+https://chigusa-web.com/blog/laravel-sail-phpmyadmin/
+
+
+### 【Laravel】Vue.js v3導入とComposition API実装 🟡
+https://chigusa-web.com/blog/laravel-vue3/
+
+###  LaravelにTypeScriptを導入 🟡
+https://chigusa-web.com/blog/laravel8-typescript/
+
+###  脆弱性対策 🟡
+https://chigusa-web.com/blog/laravel-sql-injection/
+
+https://chigusa-web.com/blog/owasp-zap-install/
+
+## 【GitHub】プロジェクトリポジトリにプッシュ 🟡
+https://chigusa-web.com/blog/github-push/
+
+https://chigusa-web.com/blog/laravel-github-clone/
+
+###【Laravel8/9】認証機能の導入 (Breeze) 🟡
+https://chigusa-web.com/blog/laravel8-breeze/
+
+### 外部サーバーへ公開 🟡
+https://chigusa-web.com/blog/heroku-laravel/
+
+$ npm run prod
+
+https://chigusa-web.com/blog/xserver-laravel/
+
+
+###【Laravel】AdminLTEを導入 🟡
+https://chigusa-web.com/blog/laravel-adminlte/
+```
+$ sail composer require jeroennoten/laravel-adminlte
+$ sail php artisan adminlte:install
+
+# AdminLTEの導入状況を確認します。
+$ sail php artisan adminlte:status
+
+$ sail php artisan adminlte:install --only=auth_views
+```
+Web アプリケーションの画面を作成する際、レスポンシブデザイン対応など、イチから作成するのは非常に手間です。
+
+そんな時は、出来合いのテンプレートを使い、サクッとアプリケーションを作成しましょう。
+「AdminLTE」というパッケージを導入します。
+
+### アプリケーションの実装  🟡
+https://chigusa-web.com/blog/laravel-crud/
+
+https://chigusa-web.com/blog/laravel-fullcalendar/
+
+###【Laravel】翻訳できるWebアプリを作ろう【DeepL】 🟡
+https://chigusa-web.com/blog/laravel-deepl/
+
+https://chigusa-web.com/blog/laravel-chart-js/
+
 
 # study page 🔴 🔴
 https://laracasts.com/
@@ -13,12 +83,24 @@ https://chigusa-web.com/
 https://chigusa-web.com/blog/laravel-to-sail/
 
  
-# Artisan アーティザン
+# Artisan アーティザン  🔴
 https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/
 Artisan とは、PHP フレームワーク『 Laravel 』に搭載されているコマンドラインインターフェースのことです。読み方は「アーティザン」で「職人」を意味する言葉でもあります。
 Artisan には、ファイルの作成や設定ファイルのキャッシュ、データベースの操作など様々な機能が含まれています。
 今回はArisan の中でも、 Laravel の実装に欠かせないコントローラーやモデル、マイグレーションファイルなどを、雛形（あらかじめ用意されているテンプレート）をもとに作成する Artisan make コマンドについて説明いたします。
 ```
+sail artisan list  🔴
+sail artisan route:list
+https://chigusa-web.com/blog/laravel-sail-mac/
+
+% sail npm run prod
+
+例：
+% sail npm run dev
+% sail npm run watch
+
+% sail artisan migrate
+
 sail artisan make:controller HelloController　--resource //コマンドに引数 「 –resource 」を与えると、Web アプリケーションで典型的な操作を行うためのメソッド（初期表示、登録、変更、削除など）があらかじめコントローラーに追加された状態で作成されます。
 
 # コントローラーの作成
