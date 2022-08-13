@@ -4,6 +4,8 @@ https://github.com/chigusa-web/laravel9-app-crud
 # read page 🔴 🔴
 https://chigusa-web.com/
 
+https://chigusa-web.com/blog/laravel-to-sail/
+
   ### [6] MinIO
   https://www.ritolab.com/entry/232
   
