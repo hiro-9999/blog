@@ -4,8 +4,98 @@ https://github.com/chigusa-web/laravel9-app-crud
 # read page 🔴 🔴
 https://chigusa-web.com/
 
+  ### [6] MinIO
+  https://www.ritolab.com/entry/232
+  
+  ```
+  config/filesystems.php
+   's3' => [
+       'driver' => 's3',
+       'key' => env('AWS_ACCESS_KEY_ID'),
+       'secret' => env('AWS_SECRET_ACCESS_KEY'),
+       'region' => env('AWS_DEFAULT_REGION'),
+       'bucket' => env('AWS_BUCKET'),
+       'url' => env('AWS_URL'), // <- これがあるか確認
+       'endpoint' => env('AWS_ENDPOINT'), // <- これがあるか確認
+       'use_path_style_endpoint' => env('AWS_USE_PATH_STYLE_ENDPOINT', false), // <- これがあるか確認
+   ],
+
+  .env
+   AWS_ACCESS_KEY_ID=minioadminuser
+   AWS_SECRET_ACCESS_KEY=minioadminpassword
+   AWS_DEFAULT_REGION=ap-northeast-1
+   AWS_BUCKET=YOUR_BUCKET_NAME　
+   AWS_USE_PATH_STYLE_ENDPOINT=true
+   AWS_ENDPOINT=http://minio:9999
+   AWS_URL=http://localhost:9000
+  ```
+  
+  MinIOはAmazon S3と互換性があるため、Amazon S3と全く同じインタフェース(AWS CLIや、AWS SDK)からもアクセスが可能です(ただし一部、MinIOではサポートしていないAPIもあります)。そのため、本番環境ではAmazon S3を使用するが、開発時には、MinIOで開発／テストを行うなどの用途で利用することができます。
+  
+ ### [7] mailhog
+ Docker環境にメールサーバー構築でMailhogを利用する
+ https://laptrinhx.com/docker-laravel-meruno-song-xin-chu-liworokarude-que-rensuru-1410764577/
+ 
+ https://zenn.dev/naoki0722/articles/5b8bd8fdc22bb8
+  
+ ### [8] selenium
+ https://www.selenium.dev
+ RPAとは【ロボティック・プロセス・オートメーション】の略で、自動化技術の一種です。
+ RPAにも色々なツールがあります。
+その中でもブラウザ操作に特化したSelenium(セレニウム)を使った方法を今回はご紹介します。
+https://developers.gmo.jp/15591/
+
+#### Selenium API(逆引き)
+https://www.seleniumqref.com/api/webdriver_gyaku.html
+
+
+#### 面倒なブラウザ操作をSeleniumを使って自動化する
+https://developers.gmo.jp/15591/
+
+``` python
+driver.find_element_by_xpath('取得したXPATH').send_keys("入力したい内容")
+
+#ライブラリ読み込み
+from selenium import webdriver
+import time
+
+#クロームの立ち上げ
+driver=webdriver.Chrome()
+
+#ページ接続
+driver.get('https://account.onamae.com/accountCreate')
+
+#キー入力
+driver.find_element_by_xpath('//*[@id="lnameML"]').send_keys("なかむら")
+
+#10秒終了を待つ
+time.sleep(10)
+
+#クロームの終了処理
+driver.close()
+```
+
+### ChromeDriver
+WebDriver is an open source tool for automated testing of webapps across many browsers
+ https://chromedriver.chromium.org/home
+ 
+### Duskって？ テスト環境の構築
+https://readouble.com/laravel/9.x/ja/dusk.html
+
+https://qiita.com/mox692/items/533e4d10bef49f126ff9
+-ドキュメント
+Laravelが標準で用意している、ブラウザの自動操作によるテストAPI。
+テスト中はブラウザが勝手に動くのを眺めながらのんびりできます（笑）
+Duskは「$php artisan dusk:install」でコマンドインストール後、すぐに使えます。
+しかし今回は現場の意向でデフォルトのChromeDriverの使用ではなくseleniumを使用することになりました。
+
+ ###  Laravel8でSelenium+php-webdriverを動かす
+ https://www.ukkari-san.net/seleniumlaravel8php-webdriverを動かす/
+
 ### sail ---
 https://readouble.com/laravel/9.x/ja/sail.html
+
+https://readouble.com/laravel/9.x/ja/sail.html?header=Laravel%2520Dusk
 
 # study page 🔴 🔴
 https://laracasts.com/
