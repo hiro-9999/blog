@@ -1,6 +1,9 @@
 # example
 https://github.com/chigusa-web/laravel9-app-crud
 
+# study page 🔴 🔴
+https://laracasts.com/
+
 # read page 🔴 🔴
 https://chigusa-web.com/
 
@@ -27,7 +30,58 @@ sail artisan make:model Hello //app/Models/Hello.php
 sail artisan make:migration <マイグレーションファイル名> --create=<モデル名>
 sail artisan make:migration create_hello_table --create=hello
 sail artisan migrate
+
+# オリジナルコマンド用のコマンドクラスを生成する
+sail artisan make:command UserCountCommand
+
+Laravel にはコマンドスケジューラという機能があります。
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-command/. <- not good ---- need to search again!!!
+
+#「ログイン機能」
+sail artisan make:auth
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-login/
+
+# キャッシュクリアを実行してください。
+sail artisan clear-compiled
+sail artisan optimize
+sail artisan view:clear
+
+# 初期データを登録するシーディング( Seading )機能と、ダミーの氏名や住所、メールアドレス、電話番号などを簡単に自動生成できるFakerライブラリ
+シーダーファイル ( Seader file )
+# 管理者ユーザー用のシーダーファイルを生成する
+sail artisan make:seeder AdminUserSeeder
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-faker/
+
+# テストユーザー用のシーダーファイルを生成する
+sail artisan make:seeder TestUserSeeder
+
+sail ../composer.phar dump-autoload. ????
+
+# シーダーファイル単体を実行する
+sail artisan db:seed --class=AdminUserSeeder
+
+sail artisan migrate:refresh
+sail artisan db:seed
+or
+sail artisan migrate:refresh --seed
+
+# Faker ライブラリの使い方  🔴
+Laravel では、Factory::create プロシージャを呼び出すだけで、様々なダミーデータを自動生成することができます。
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-faker/
+//100件のテストユーザーを登録する 
+    for( $cnt = 1; $cnt <= 100; $cnt++ ) { 
+      $faker = Faker\Factory::create('ja_JP');
+ 
+      User::create([
+      'name' => $faker->lastName. ' ' . $faker->firstName,
+      'email' => $faker->email,
+      'password' => Hash::make('testtest'),
+      ]);
+      }
+    }
 ```
+
+###### VNC 「Virtual Network Computing」の略だよ
 
 # データベースを見る   🔴
 https://knowledge.cpi.ad.jp/howto-cpi/laravel-migration/
@@ -110,7 +164,7 @@ https://developers.gmo.jp/15591/
 https://www.seleniumqref.com/api/webdriver_gyaku.html
 
 
-#### 面倒なブラウザ操作をSeleniumを使って自動化する
+#### 面倒なブラウザ操作をSeleniumを使って自動化する 🟠
 https://developers.gmo.jp/15591/
 
 ``` python
@@ -140,7 +194,7 @@ driver.close()
 WebDriver is an open source tool for automated testing of webapps across many browsers
  https://chromedriver.chromium.org/home
  
-### Duskって？ テスト環境の構築
+### Duskって？ テスト環境の構築　🔴
 https://readouble.com/laravel/9.x/ja/dusk.html
 
 https://qiita.com/mox692/items/533e4d10bef49f126ff9
@@ -158,8 +212,6 @@ https://readouble.com/laravel/9.x/ja/sail.html
 
 https://readouble.com/laravel/9.x/ja/sail.html?header=Laravel%2520Dusk
 
-# study page 🔴 🔴
-https://laracasts.com/
 
 #### Meilisearch 🔴
 https://note.com/tomo_program/n/n30c6419a6e27
