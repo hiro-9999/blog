@@ -6,6 +6,65 @@ https://chigusa-web.com/
 
 https://chigusa-web.com/blog/laravel-to-sail/
 
+ 
+# Artisan アーティザン
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/
+Artisan とは、PHP フレームワーク『 Laravel 』に搭載されているコマンドラインインターフェースのことです。読み方は「アーティザン」で「職人」を意味する言葉でもあります。
+Artisan には、ファイルの作成や設定ファイルのキャッシュ、データベースの操作など様々な機能が含まれています。
+今回はArisan の中でも、 Laravel の実装に欠かせないコントローラーやモデル、マイグレーションファイルなどを、雛形（あらかじめ用意されているテンプレート）をもとに作成する Artisan make コマンドについて説明いたします。
+```
+sail artisan make:controller HelloController　--resource //コマンドに引数 「 –resource 」を与えると、Web アプリケーションで典型的な操作を行うためのメソッド（初期表示、登録、変更、削除など）があらかじめコントローラーに追加された状態で作成されます。
+
+# コントローラーの作成
+sail artisan make:controller <コントローラー名> //app/Http/Controllersの配下
+sail artisan make:controller HelloController //app/Http/Controllers/HelloController.php
+
+# モデルの作成
+sail artisan make:model <モデル名>
+sail artisan make:model Hello //app/Models/Hello.php
+
+# マイグレーションファイル（テーブルの操作定義）の作成
+sail artisan make:migration <マイグレーションファイル名> --create=<モデル名>
+sail artisan make:migration create_hello_table --create=hello
+sail artisan migrate
+```
+
+# データベースを見る   🔴
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-migration/
+
+```
+public function up()
+{
+  Schema::table('hello', function (Blueprint $table) {
+  $table->string('hello', 20)->change(); //バイト長の制約を追加
+  $table->renameColumn('world', 'laravel'); //カラム名を変更
+  $table->integer('suuji')->nullable(); //整数型のカラム「suuji」を追加
+});
+｝
+
+前回のマイグレーションをロールバック
+sail artisan migrate:rollback
+
+sail artisan migrate:rollback --step=<数字>
+
+全マイグレーションのロールバック
+sail artisan migrate:reset
+
+
+sail artisan migrate:refresh
+すべてのテーブルを削除して、初めから順番にマイグレーションを実行します。
+全テーブルのレコードを削除するのと同じです。
+開発用に登録したテストデータを削除する際などに便利です。
+```
+
+### Laravel の特徴として、ビューには blade テンプレートが標準搭載されています。
+https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/
+ビューは Artisan make コマンドでは作ることができませんので、自分でファイルを作る必要があります。
+作成したファイルは resources/views に格納してください。
+
+
+
+
   ### [6] MinIO
   https://www.ritolab.com/entry/232
   
