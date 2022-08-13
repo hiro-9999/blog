@@ -55,7 +55,10 @@ https://knowledge.cpi.ad.jp/howto-cpi/laravel-faker/
 # テストユーザー用のシーダーファイルを生成する
 sail artisan make:seeder TestUserSeeder
 
-sail ../composer.phar dump-autoload. ????
+sail composer dump-autoload
+https://search.readouble.com/?query=sail+..%2Fcomposer.phar
+sail composer require laravel/octane spiral/roadrunner 🔴 
+sail composer require
 
 # シーダーファイル単体を実行する
 sail artisan db:seed --class=AdminUserSeeder
