@@ -1,6 +1,9 @@
 # example
 https://github.com/chigusa-web/laravel9-app-crud
 
+# vite ??? need read!!! 🟡
+https://readouble.com/laravel/9.x/ja/vite.html
+
 # study page 🔴 🔴
 https://laracasts.com/
 
