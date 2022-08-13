@@ -1,3 +1,23 @@
+# example
+https://github.com/chigusa-web/laravel9-app-crud
+
+### sail ---
+https://readouble.com/laravel/9.x/ja/sail.html
+
+# study page 🔴 🔴
+https://laracasts.com/
+
+#### Meilisearch 🔴
+https://note.com/tomo_program/n/n30c6419a6e27
+
+Rustで実装された全文検索エンジン、という認識。
+メイリサーチ　
+
+#### DB table 🔴
+https://note.com/tomo_program/n/n65f85e7fa91f
+
+https://note.com/tomo_program/n/n9d9919ac616b
+
 # Laravel環境構築(Mac編) 🔴
 https://grune.co.jp/blog/laravel-create-local-environment/
 
