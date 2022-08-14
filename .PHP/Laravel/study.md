@@ -16,8 +16,29 @@ https://readouble.com/laravel/9.x/ja/eloquent.html
 
 ```
 
-# phpMyAdminのインストール 🟡
+# phpMyAdminのインストール 
 https://chigusa-web.com/blog/laravel-sail-phpmyadmin/
+
+phpMyAdminに関する情報を、servicesブロック内に追記します。
+```
+  phpmyadmin:
+       image: phpmyadmin/phpmyadmin
+       links:
+           - mysql:mysql
+       ports:
+           - 8080:80
+       environment:
+           #PMA_USER: "${DB_USERNAME}"
+           #PMA_PASSWORD: "${DB_PASSWORD}"
+           PMA_HOST: mysql
+       networks:
+           - sail
+ .env          
+ DB_USERNAME=sail
+DB_PASSWORD=password
+
+http://localhost:8080
+```
 
 
 ### 【Laravel】Vue.js v3導入とComposition API実装 🟡
