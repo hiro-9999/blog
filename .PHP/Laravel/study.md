@@ -37,6 +37,8 @@ phpMyAdminに関する情報を、servicesブロック内に追記します。
  DB_USERNAME=sail
 DB_PASSWORD=password
 
+sail up
+
 http://localhost:8080
 ```
 
