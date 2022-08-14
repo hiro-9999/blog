@@ -4,7 +4,44 @@ https://github.com/chigusa-web/laravel9-app-crud
 🔴【初心者向け】Laravelを始めよう 🔴
 https://chigusa-web.com/blog/laravel-beginner/
 
-# vite ??? need read!!! 🟡
+### アプリケーションの実装  🟡
+https://chigusa-web.com/blog/laravel-crud/
+
+https://chigusa-web.com/blog/laravel-fullcalendar/
+
+###【Laravel】翻訳できるWebアプリを作ろう【DeepL】 🟡
+https://chigusa-web.com/blog/laravel-deepl/
+
+https://chigusa-web.com/blog/laravel-chart-js/
+
+
+# Developing inside a Container  ??? 🟡
+https://code.visualstudio.com/docs/remote/containers
+
+
+###  LaravelにTypeScriptを導入 🟡
+//https://chigusa-web.com/blog/laravel8-typescript/
+
+https://laravel-news.com/typescript-laravel
+
+sail npm install ts-loader typescript --save-dev
+```
+tsconfig.json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "strict": true,         // Enable strict type-checking options
+        "skipLibCheck": true,   // Skip type checking of declaration files
+        "noImplicitAny": false  // Bypass raising errors on `any` type
+    },
+    "include": ["resources/js/**/*"] // Frontend paths pattern
+}
+```
+
+# vite 🔴
 https://readouble.com/laravel/9.x/ja/vite.html
 ```
 # next.js 
@@ -16,7 +53,7 @@ https://readouble.com/laravel/9.x/ja/eloquent.html
 
 ```
 
-# phpMyAdminのインストール 
+# phpMyAdminのインストール  🔴
 https://chigusa-web.com/blog/laravel-sail-phpmyadmin/
 
 phpMyAdminに関する情報を、servicesブロック内に追記します。
@@ -115,39 +152,22 @@ resources/views/welcome.blade.php
 ```
 
 
-###  LaravelにTypeScriptを導入 🟡
-//https://chigusa-web.com/blog/laravel8-typescript/
-
-https://laravel-news.com/typescript-laravel
-
-sail npm install ts-loader typescript --save-dev
-```
-tsconfig.json
-{
-    "compilerOptions": {
-        "target": "es5",
-        "module": "es2020",
-        "moduleResolution": "node",
-        "baseUrl": "./",
-        "strict": true,         // Enable strict type-checking options
-        "skipLibCheck": true,   // Skip type checking of declaration files
-        "noImplicitAny": false  // Bypass raising errors on `any` type
-    },
-    "include": ["resources/js/**/*"] // Frontend paths pattern
-}
-```
-
-###  脆弱性対策 🟡
+###  脆弱性対策  🔴
 https://chigusa-web.com/blog/laravel-sql-injection/
+**** whereRawを極力使用しないほうが良いでしょう
+
+OWASP ZAPを使用して、Webの脆弱性診断を行ってみます。OWASP ZAPはオープンソースで無料で使うことができます。
+#### MacのOWASP ZAPで動作確認
+https://chigusa-web.com/blog/owasp-zap-mac/
 
 https://chigusa-web.com/blog/owasp-zap-install/
 
-## 【GitHub】プロジェクトリポジトリにプッシュ 🟡
+## 【GitHub】プロジェクトリポジトリにプッシュ 🔴
 https://chigusa-web.com/blog/github-push/
 
 https://chigusa-web.com/blog/laravel-github-clone/
 
-###【Laravel8/9】認証機能の導入 (Breeze) 🔴
+####【Laravel9】認証機能の導入 (Breeze) 🔴
 https://chigusa-web.com/blog/laravel8-breeze/
 ```
 $ sail composer require laravel/breeze --dev
@@ -166,7 +186,7 @@ $ npm run prod
 https://chigusa-web.com/blog/xserver-laravel/
 
 
-###【Laravel】AdminLTEを導入 🟡
+###【Laravel】AdminLTEを導入 🔴
 https://chigusa-web.com/blog/laravel-adminlte/
 ```
 $ sail composer require jeroennoten/laravel-adminlte
@@ -181,20 +201,6 @@ Web アプリケーションの画面を作成する際、レスポンシブデ�
 
 そんな時は、出来合いのテンプレートを使い、サクッとアプリケーションを作成しましょう。
 「AdminLTE」というパッケージを導入します。
-
-### アプリケーションの実装  🟡
-https://chigusa-web.com/blog/laravel-crud/
-
-https://chigusa-web.com/blog/laravel-fullcalendar/
-
-###【Laravel】翻訳できるWebアプリを作ろう【DeepL】 🟡
-https://chigusa-web.com/blog/laravel-deepl/
-
-https://chigusa-web.com/blog/laravel-chart-js/
-
-
-# Developing inside a Container  ??? 🟡
-https://code.visualstudio.com/docs/remote/containers
 
 
 # study page 🔴 🔴
