@@ -147,10 +147,10 @@ https://chigusa-web.com/blog/github-push/
 
 https://chigusa-web.com/blog/laravel-github-clone/
 
-###【Laravel8/9】認証機能の導入 (Breeze) 🟡
+###【Laravel8/9】認証機能の導入 (Breeze) 
 https://chigusa-web.com/blog/laravel8-breeze/
 
-### 外部サーバーへ公開 🟡
+### 外部サーバーへ公開 
 https://chigusa-web.com/blog/heroku-laravel/
 
 $ npm run prod
