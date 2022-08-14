@@ -43,8 +43,77 @@ http://localhost:8080
 ```
 
 
-### 【Laravel】Vue.js v3導入とComposition API実装 🟡
-https://chigusa-web.com/blog/laravel-vue3/
+### 【Laravel】Vue.js v3導入とComposition API実装 🔴
+https://blog.capilano-fw.com/?p=10747
+
+//https://chigusa-web.com/blog/laravel-vue3/
+
+https://v3.ja.vuejs.org/
+```
+sail up -d
+sail npm install vue@next
+
+sail npm run build　🔴
+sail npm run dev　🔴
+
+http://localhost
+
+
+vite.config.js
+import vue from '@vitejs/plugin-vue'
+
+export default defineConfig({
+    plugins: [
+        laravel({
+            input: ['resources/css/app.css', 'resources/js/app.js'],
+            refresh: true,
+        }),
+        vue(),
+    ],
+    // server: {
+    //     host: true
+    // }
+});
+
+resources/js/app.js
+import './bootstrap';
+
+import { createApp, ref } from 'vue/dist/vue.esm-bundler';
+
+createApp({
+    setup() {
+
+        const greeting = ref('おはよyama！2020');
+
+        return {
+            greeting,
+        }
+
+    },
+}).mount('#app');
+
+resources/css/app.css
+h1 {
+    color: #ff0000;
+}
+
+resources/views/welcome.blade.php
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        @vite(['resources/css/app.css', 'resources/js/app.js'])
+    </head>
+    <body>
+        <h1>
+            Vite のテストです!!!hahah
+        </h1>
+        <div id="app">
+            <span v-text="greeting"></span>
+        </div>
+    </body>
+</html>
+```
+
 
 ###  LaravelにTypeScriptを導入 🟡
 https://chigusa-web.com/blog/laravel8-typescript/
