@@ -6,7 +6,7 @@ https://chigusa-web.com/blog/laravel-beginner/
 
 2）.env文件
 用以存储一些依赖环境的变量，比如数据库配置，因为它不会被加入到版本库中， 所以还用以配置一些敏感信息：比如正式环境的一些第三方应用账号，token 等。
-
+![mvc](https://github.com/hiro-9999/blog/blob/master/.PHP/Laravel/1062096-20200907121628814-735488605.png)
 
 
 ### アプリケーションの実装  🟡
