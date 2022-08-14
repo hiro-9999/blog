@@ -8,6 +8,27 @@ https://chigusa-web.com/blog/laravel-beginner/
 用以存储一些依赖环境的变量，比如数据库配置，因为它不会被加入到版本库中， 所以还用以配置一些敏感信息：比如正式环境的一些第三方应用账号，token 等。
 ![mvc](https://github.com/hiro-9999/blog/blob/master/.PHP/Laravel/1062096-20200907121628814-735488605.png)
 
+app/Providers/RouteServiceProvider.php
+
+1）web.php
+https://www.cnblogs.com/hld123/p/13626173.html?share_token=abc73691-86f2-436f-8fcf-c9240ccda13d&tt_from=copy_link&utm_source=copy_link&utm_medium=toutiao_android&utm_campaign=client_share
+
+文件包含的路由通过 RouteServiceProvider 引入，都被约束在 web 中间件组中，因而支持 Session、CSRF 保护以及 Cookie 加密功能，如果应用无需提供无状态的、RESTful 风格的 API，那么路由基本上都要定义在 web.php 文件中
+
+2）api.php
+
+文件包含的路由通过 RouteServiceProvider 引入，都被约束在 api 中间件组中，因而支持频率限制功能，这些路由是无状态的，所以请求通过这些路由进入应用需要通过 token 进行认证并且不能访问 Session 状态。
+
+5、中间件
+
+提到中间件，那一定离不开app/Http/Kernel.php这个文件
+
+1) kernel
+
+Kernel 中定义了重要的中间件列表，所有的请求 request 在被应用处理前，都必须经过这些中间件，筛过一遍后，才会被决定如何处理。这涉及到中间件（middleware）的作用。
+
+App\Http\Kernel
+
 
 ### アプリケーションの実装  🟡
 https://chigusa-web.com/blog/laravel-crud/
