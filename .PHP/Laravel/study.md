@@ -1,7 +1,119 @@
 # example
 https://github.com/chigusa-web/laravel9-app-crud
 
-🔴【初心者向け】Laravelを始めよう 🔴
+https://www.ziruchu.com/art/455
+
+#### 注意哦~，使用 breeze 会自动安装 auth 系统
+https://www.ziruchu.com/art/439. <-reading
+
+npm run dev 后需要重新开一个窗口或终端本次运行，然后执行 migrate
+https://www.ziruchu.com/art/439
+
+### 使用 bootstrap5
+php artisan ui bootstrap --auth
+
+若不需要使用 auth 系统，可以直接安装 php artisan ui bootstrap
+https://www.ziruchu.com/art/442
+
+
+# Laravel9.x Rest Api passport验证
+https://www.ziruchu.com/art/443
+```php
+ sail artisan make:controller Api/AuthController 
+ sail composer require laravel/passport
+ sail php artisan migrate
+ 生成客户端秘钥
+ sail  php artisan passport:install
+// routes/api.php
+Route::post('login', [\App\Http\Controllers\Api\AuthControler::class, 'login']);
+Route::post('register', [\App\Http\Controllers\Api\AuthControler::class, 'register']);
+```
+# 不使用Laravel的paginate进行分页。
+取出指定条数的数据并对其进行分页。如用户表取出指定的1000条数据，并对这1000条数据进行分页。
+https://www.ziruchu.com/art/431
+``` php
+class DemoController extends Controller
+{
+   public function index(Request $request)
+   {
+       // users数据集合对象
+       $users = User::limit(1000)->get();
+       // 页码
+       $page = $request->page ?? 1;
+       //每页的条数
+       $perPage = 100;
+       //计算每页分页的初始位置
+       $offset = ($page * $perPage) - $perPage;
+       // slice方法对对象进行分页
+       $users =new LengthAwarePaginator($users->slice($offset, $perPage), count($users), $perPage,$page, ['path' => $request->url(), 'query' => $request->query()]);
+
+       return UserResource::collection($users);
+   }
+}
+```
+
+### Laravel9 自定义command&定时调用任务
+https://www.cnblogs.com/chihuobao/p/16502323.html
+
+
+### Laravel9框架的路由探讨
+https://baijiahao.baidu.com/s?id=1740310227888823544&wfr=spider&for=pc
+
+
+# 防XSS攻击
+https://www.kancloud.cn/qq291601203/laravel_cms/2742056
+```
+安装：
+> composer require mews/purifier
+在 config/app.php 文件的 providers 数组添加以下
+Mews\Purifier\PurifierServiceProvider::class,
+发布配置
+> php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
+> php artisan vendor:publish --provider="Mews\Purifier\PurifierServiceProvider"
+修改配置 config/purifier.php 增加自定义配置 jiuge_config
+return [
+    ...
+    'settings'         => [
+        ...
+        'jiuge_config'      => [
+            'HTML.Doctype'             => 'XHTML 1.0 Strict',
+            'HTML.Allowed'             => 'div,b,strong,i,em,a[href|title],ul,ol,li,p[style],br,span[style],img[width|height|alt|src],pre,code',
+            'CSS.AllowedProperties'    => 'font,font-size,font-weight,font-style,font-family,text-decoration,padding-left,color,background-color,text-align',
+            'AutoFormat.AutoParagraph' => true,
+            'AutoFormat.RemoveEmpty'   => true,
+        ],
+    ],
+];
+```
+
+🔴Laravel 9 中文文档  🔴
+https://learnku.com/docs/laravel/9.x
+```
+Laravel 9 正式版已发布，新功能包括：使用 PHP v8.0、控制器路由组、新的默认 Ignition 错误页面、Laravel Scout 数据库引擎、集成 Symfony Mailer、Flysystem 3.x、改进的 Eloquent 访问器/修改器，以及更多功能。
+Laravel 9 主要新功能：
+使用的 PHP 版本最低要求是 PHP 8
+为 routes:list 引入新设计
+新增 --coverage 测试选项，可直接在终端显示覆盖率
+默认使用匿名存根迁移 (Anonymous Stub Migrations)
+新的查询器构建接口
+支持 PHP 8 字符串函数
+将邮件功能从 SwiftMailer 迁移至 Symfony Mailer
+Flysystem 3.x
+优化 Eloquent 访问器/修改器
+使用 Enums (PHP 8.1) 的隐式路由绑定
+控制器路由组
+Enum Eloquent 属性转换
+强制范围绑定
+Laravel Breeze API & Next.js
+Laravel Scout 数据库引擎
+全文索引 / Where 子句
+渲染内联 Blade 模板
+Soketi Echo 服务器
+可选的 Bootstrap 5 分页视图
+优化 Ignition 异常页面
+新的 str() 和 to_route() 辅助函数
+```
+
 https://chigusa-web.com/blog/laravel-beginner/
 
 2）.env文件
