@@ -116,7 +116,26 @@ resources/views/welcome.blade.php
 
 
 ###  LaravelにTypeScriptを導入 🟡
-https://chigusa-web.com/blog/laravel8-typescript/
+//https://chigusa-web.com/blog/laravel8-typescript/
+
+https://laravel-news.com/typescript-laravel
+
+sail npm install ts-loader typescript --save-dev
+```
+tsconfig.json
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "strict": true,         // Enable strict type-checking options
+        "skipLibCheck": true,   // Skip type checking of declaration files
+        "noImplicitAny": false  // Bypass raising errors on `any` type
+    },
+    "include": ["resources/js/**/*"] // Frontend paths pattern
+}
+```
 
 ###  脆弱性対策 🟡
 https://chigusa-web.com/blog/laravel-sql-injection/
