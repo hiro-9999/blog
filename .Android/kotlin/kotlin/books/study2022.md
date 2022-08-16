@@ -1,5 +1,9 @@
 # Moshi is a modern JSON library for Android
 https://github.com/square/moshi
+
+# ・Gradleに「Saripaar」のライブラリを追加 🔴
+https://blog.dreamhanks.com/39-%e3%80%90android-kotlin%e3%80%91saripaar/
+バリデーションチェックをアノテーション形式にできるように提供するライブラリです。
  
 ### KotlinとRetrofitを使った初めてのAndroidアプリ開発 ok
 https://zenn.dev/nemuki/articles/my-first-android-app
