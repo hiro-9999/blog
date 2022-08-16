@@ -8,7 +8,8 @@ https://techgrowup.net/2021/11/16/moshi-1-9-0/
 
 http://y-anz-m.blogspot.com/2021/12/moshi-kotlin-json-fieldjson.html
 
-#【Android/Kotlin】Picasso（イメージをロード）
+#【Android/Kotlin】Picasso（イメージをロード） 🔴
+PicassoのイメージのロードがGlideイメージより遅いことを確認することができます。
 http://blog.dreamhanks.com/22-%e3%80%90android-kotlin%e3%80%91picasso%ef%bc%88%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%e3%82%92%e3%83%ad%e3%83%bc%e3%83%89%ef%bc%89/
 
 # Glide library
