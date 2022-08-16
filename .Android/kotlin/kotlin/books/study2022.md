@@ -1,5 +1,20 @@
 # 20220816 start
 ####### As Kotlin has been the preferred language for Android development since 2017
+
+#viewBinding findViewById との違い 🔴
+https://developer.android.com/topic/libraries/view-binding
+ビュー バインディングには、findViewById を使用するよりも大きなメリットがあります。
+
+https://github.com/android/architecture-components-samples/blob/master/ViewBindingSample/app/src/main/java/com/android/example/viewbindingsample/BindFragment.kt#L36-L41
+```
+android {
+        ...
+        viewBinding {
+            enabled = true
+        }
+    }
+```
+https://developer.android.com/topic/libraries/view-binding
  
 ### How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org) 🔴 🔴
 https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin/tree/master/Chapter01/Exercise1.05
