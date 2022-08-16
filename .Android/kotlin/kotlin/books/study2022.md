@@ -4,6 +4,9 @@ https://github.com/square/moshi
 🔴 android example
 https://blog.dreamhanks.com/android-kotlin%e3%82%a2%e3%83%97%e3%83%aa%e9%96%8b%e7%99%ba/
 
+ ##### CircleImageViewは原本のイメージを丸いイメージに変換してくれるImageViewのライブラリです。
+ https://blog.dreamhanks.com/12-%e3%80%90android-kotlin%e3%80%91%e4%b8%b8%e3%81%84%e3%82%a4%e3%83%a1%e3%83%bc%e3%82%b8%ef%bc%88circleimageview%ef%bc%89/
+
 # ・Gradleに「Saripaar」のライブラリを追加 🔴
 https://blog.dreamhanks.com/39-%e3%80%90android-kotlin%e3%80%91saripaar/
 
