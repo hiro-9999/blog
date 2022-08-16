@@ -1,5 +1,20 @@
 # 20220816 start
-How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
+####### As Kotlin has been the preferred language for Android development since 2017
+ 
+### How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org) 🔴 🔴
+https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin/tree/master/Chapter01/Exercise1.05
+
+hapter 9, Unit Tests and Integration Tests with JUnit, Mockito, and Espresso, teaches you about the different types of tests for an Android application, what frameworks are used for each type of test, and the concept of test-driven development.
+
+Chapter 10, Android Architecture Components, gives an insight into components from the Android Jetpack libraries, such as LiveData and ViewModel, which help you structure your code, and Room, which allows you to persist data on a device in a database.
+
+Chapter 12, Dependency Injection with Dagger and Koin, explains the concept of dependency injection and the benefits it provides to an application. Frameworks such as Dagger and Koin are introduced to help you manage your dependencies.
+
+Chapter 13, RxJava and Coroutines, introduces you to doing background operations and data manipulations with RxJava and Coroutines. You'll also learn about manipulating and displaying data using RxJava operators and LiveData transformation.
+
+Chapter 14, Architecture Patterns, explains the architecture patterns you can use to structure your Android projects to separate them into different components with distinct functionality. These make it easier for you to develop, test, and maintain your code.
+
+Chapter 15, Animations and Transitions with CoordinatorLayout and MotionLayout, discusses how to enhance your apps with animations and transitions with CoordinatorLayout and MotionLayout.
 
 # Moshi is a modern JSON library for Android
 https://github.com/square/moshi
