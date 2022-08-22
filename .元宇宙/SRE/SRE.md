@@ -69,6 +69,8 @@ https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/using-c
 Amazon Rekognition（顔コレクション）
 https://aws.amazon.com/jp/blogs/news/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
 https://docs.aws.amazon.com/rekognition/latest/dg/search-face-with-image-procedure.html
+
+https://aws.amazon.com/jp/blogs/news/managing-kubernetes-control-plane-events-in-amazon-eks/
 ```
 
 # Redis と Memcached 
