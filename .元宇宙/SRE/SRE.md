@@ -65,6 +65,10 @@ https://docs.datadoghq.com/ja/integrations/amazon_cloudfront/?tab=standardlogs
 
 CloudFront で利用できるカスタムヘッダ - Country Code
 https://docs.aws.amazon.com/ja_jp/AmazonCloudFront/latest/DeveloperGuide/using-cloudfront-headers.html#cloudfront-headers-viewer-location
+
+Amazon Rekognition（顔コレクション）
+https://aws.amazon.com/jp/blogs/news/building-a-visual-search-application-with-amazon-sagemaker-and-amazon-es/
+https://docs.aws.amazon.com/rekognition/latest/dg/search-face-with-image-procedure.html
 ```
 
 # Redis と Memcached 
