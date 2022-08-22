@@ -1,6 +1,20 @@
 //page 🔴
 https://github.com/dastergon/awesome-sre
 
+DevOps in Python Infrastructure as Python (Moshe Zadka) (z-lib.org).pdf
+
+Practical Linux Infrastructure (Ali, Syed) (z-lib.org)
+
+Continuous Delivery with Docker and Jenkins: Create secure applications by building complete CI/CD pipelines, 3rd Edition 
+
+
+# Docker and Kubernetes
+
+# Ansible
+
+# Terraform
+
+
 # CircleCI
 https://agency-star.co.jp/column/circleci
 
