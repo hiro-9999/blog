@@ -18,7 +18,7 @@ Continuous Delivery with Docker and Jenkins: Create secure applications by build
 https://aws.amazon.com/jp/elasticache/redis-vs-memcached/
 
 
-# CircleCI
+# CircleCI サークルCI
 https://agency-star.co.jp/column/circleci
 
 ＃＃＃　CircleCIとは？EC2にsshしてデプロイ自動化
