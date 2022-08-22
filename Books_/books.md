@@ -1,5 +1,7 @@
 ![宁静致远](https://github.com/hiro-9999/blog/blob/master/Books_/nrngjingzhiyusn2020-05-23%2012.11.43.png)
 
+# 一命二运三风水，四积阴德五读书，六名七相八敬神，九交贵人十养生。
+
 Clearview -->kindle reader
 
 # study
