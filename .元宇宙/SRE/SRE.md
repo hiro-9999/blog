@@ -26,7 +26,18 @@ https://www.cloudflare.com/products/bot-management
 ```
 Amazon Rekognition（顔コレクション）
 
-# Docker and Kubernetes
+# Docker and 
+
+# Kubernetes
+helm : The package manager for Kubernetes
+https://helm.sh
+
+https://docs.aws.amazon.com/ja_jp/eks/latest/userguide/install-kubectl.html
+
+### eksctl - The official CLI for Amazon EKS
+https://github.com/weaveworks/eksctl#installation
+
+https://aws.amazon.com/jp/blogs/news/managing-kubernetes-control-plane-events-in-amazon-eks/
 
 # Ansible
 
