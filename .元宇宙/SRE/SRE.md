@@ -7,6 +7,8 @@ Practical Linux Infrastructure (Ali, Syed) (z-lib.org)
 
 Continuous Delivery with Docker and Jenkins: Create secure applications by building complete CI/CD pipelines, 3rd Edition 
 
+QPS 【Queries Per Second】 クエリ毎秒
+
 ### MTBFとMTTR 平均故障時間であるMTTF（Mean Time To Failure）
 MTBFは、Mean Time Between Failuresの略。平均故障間隔のことを指します。
 ```
