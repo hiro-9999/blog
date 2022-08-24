@@ -9,6 +9,9 @@ Continuous Delivery with Docker and Jenkins: Create secure applications by build
 
 QPS 【Queries Per Second】 クエリ毎秒
 
+### Redash
+https://shinyorke.hatenablog.com/entry/personal-redash
+
 ### MTBFとMTTR 平均故障時間であるMTTF（Mean Time To Failure）
 MTBFは、Mean Time Between Failuresの略。平均故障間隔のことを指します。
 ```
