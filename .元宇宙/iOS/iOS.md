@@ -25,5 +25,15 @@ while Int.random(in: 1...6) != 6 {
  print("Not a six")
     print(Int.random(in: 1...6))
 }
+
+var sum = 1
+let count = 10
+var lastSum = 0
+for _ in 0..<count {
+  let temp = sum
+  sum = sum + lastSum
+  lastSum = temp
+}
+
 ```
 
