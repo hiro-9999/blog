@@ -16,5 +16,9 @@ print(dogString)
 for scalar in dogString.unicodeScalars {
     print("\(scalar) ")
 }
+
+ var switchState = true  🟠 toggle()
+switchState.toggle() // switchState = false
+switchState.toggle() // switchState = true
 ```
 
