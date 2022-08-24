@@ -20,5 +20,10 @@ for scalar in dogString.unicodeScalars {
  var switchState = true  🟠 toggle()
 switchState.toggle() // switchState = false
 switchState.toggle() // switchState = true
+
+while Int.random(in: 1...6) != 6 {
+ print("Not a six")
+    print(Int.random(in: 1...6))
+}
 ```
 
