@@ -17,6 +17,8 @@ for scalar in dogString.unicodeScalars {
     print("\(scalar) ")
 }
 
+//Swift Apprentice (Seventh Edition) (Eli Ganim, Cosmin Pupaza, Matt Galloway) (z-lib.org)
+
  var switchState = true  🟠 toggle()
 switchState.toggle() // switchState = false
 switchState.toggle() // switchState = true
