@@ -7,3 +7,14 @@ Ahmad Sahar and Craig Clayton
 
 
 https://www.youtube.com/playlist?list=PLeLcvrwLe18497zpDN912nAY-G0nNXg1s
+
+```swift
+https://home.unicode.org
+//use unicode in swift
+let dogString = "\u{1F436}" 🟠
+print(dogString)
+for scalar in dogString.unicodeScalars {
+    print("\(scalar) ")
+}
+```
+
