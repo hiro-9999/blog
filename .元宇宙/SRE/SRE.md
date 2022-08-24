@@ -9,6 +9,9 @@ Continuous Delivery with Docker and Jenkins: Create secure applications by build
 
 QPS 【Queries Per Second】 クエリ毎秒
 
+# AWS Media Services（AWS Elemental MediaLive、AWS Elemental MediaPackage、AWS Elemental MediaConnect、AWS Elemental MediaConvert）
+https://aws.amazon.com/jp/solutions/case-studies/u-next_2022/
+
 ### Redash
 https://shinyorke.hatenablog.com/entry/personal-redash
 
