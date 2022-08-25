@@ -9,6 +9,9 @@ Ahmad Sahar and Craig Clayton
 # Apple セキュリティアップデート
 https://support.apple.com/ja-jp/HT201222
 
+ios16ではiPhone8のiOSのアップデートはいつまで対応するのでしょうか？あくまでも予想ではありますが2024年です。
+https://crusie-n-more.com/iphone7-8itumade/
+
 > 移动App测试实战：顶级互联网企业软件测试和质量提升最佳实践
 
 
