@@ -8,4 +8,7 @@ https://github.com/reachscript-jak/book-react-code
 memo : compent　コンポーネントメモリ優化
 useCallback : function関数メモリ優化
 useMemo : pram変数メモリ
+
+() => {return 0;};
+(1,2)=>({};)
 ```
