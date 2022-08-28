@@ -5,3 +5,14 @@ For backend developers, TypeScript generates JavaScript that runs natively in No
 Learning TypeScript Enhance Your Web Development Skills Using Type-Safe JavaScript (Josh Goldberg) (z-lib.org)
 
 https://www.learningtypescript.com
+
+ sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+ 
+ npm i -g typescript
+ 
+ tsc --version
+ 
+ > % tsc -version (2022/09)
+Version 4.8.2
+ 
+ 
