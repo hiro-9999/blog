@@ -3,23 +3,42 @@ https://play.kotlinlang.org/
 
 # doc 🔴
 https://kotlinlang.org/docs/basic-syntax.html#variables
+
+# Kotlin 语法的练习 🔴
+https://play.kotlinlang.org/byExample/overview
+
+https://play.kotlinlang.org/koans/overview
  
  # Atomic Kotlin (Bruce Eckel, Svetlana Isakova) (z-lib.org)
  优先使用不可变（而不是可变）数据。初始化后未修改的局部变量与属性，总是将其声明为  val 
  
  ### tailrec ???
  ```
- open class //类之间继承由冒号（ : ）声明。默认情况下类都是 final 的；如需让一个类可继承， 请将其标记为  open 。
- abstract class
- by
+  by
  Sealed
   .map(::travel)
+  tailrec
+  suspend ?
+
+  
+ open class //类之间继承由冒号（ : ）声明。默认情况下类都是 final 的；如需让一个类可继承， 请将其标记为  open 。
+ abstract class
+
   
   sealed vs. abstract //  val myObject = object : MyAbstractClass() {
   inner class
   Companion Objects
+  class MyClass {
+    companion object Factory {
+        fun create(): MyClass = MyClass()
+    }
+}
+val instance = MyClass.create() //The name of the companion object can be omitted, in which case the name Companion will be used:
+
   by lazy/lazyInit
+  
   infix //如果一个方法会改动其接收者，那么不要声明为中缀（ infix ）形式
+    operator
   
   let/also  -> it
   with, run/apply -> this
@@ -38,11 +57,7 @@ override
 
 lateinit
 
-tailrec
-
-vararg
-
-suspend ?
+vararg //Varargs allow you to pass any number of arguments by separating them with commas.
 
 inner
 
@@ -52,11 +67,18 @@ companion
 
 inline/ value
 
-infix
-
-operator
+infix // They must be member functions or extension functions. 方法继承  🔴
+  infix fun Int.times(str: String) = str.repeat(this)        // 1
+  println(2 times "Bye ")                                    // 2
 
 data
+
+ val text = """
+    |Tell me and I forget.
+    |Teach me and I remember.
+    |Involve me and I learn.
+    |(Benjamin Franklin)
+    """.trimMargin()
  ```
  
  
