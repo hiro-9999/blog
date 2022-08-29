@@ -1,3 +1,8 @@
+# kotlin
+https://www.youtube.com/channel/UCP7uiEZIqci43m22KDl0sNw 🔴
+
+https://www.youtube.com/watch?v=R2395u7SdcI
+
 https://www.youtube.com/watch?v=7rmYu_Of2-g
 
 # APIと非同期処理
