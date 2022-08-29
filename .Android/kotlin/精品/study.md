@@ -4,6 +4,8 @@ https://play.kotlinlang.org/
 # doc 🔴
 https://kotlinlang.org/docs/basic-syntax.html#variables
 
+kotlincn-docs.mobi
+
 # Kotlin 语法的练习 🔴
 https://play.kotlinlang.org/byExample/overview
 
