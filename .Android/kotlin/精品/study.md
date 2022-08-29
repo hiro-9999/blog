@@ -1,5 +1,8 @@
 # ONLINE
 https://play.kotlinlang.org/ 
+
+# doc 🔴
+https://kotlinlang.org/docs/basic-syntax.html#variables
  
  # Atomic Kotlin (Bruce Eckel, Svetlana Isakova) (z-lib.org)
  优先使用不可变（而不是可变）数据。初始化后未修改的局部变量与属性，总是将其声明为  val 
