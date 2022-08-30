@@ -2,6 +2,11 @@
 https://roadmap.sh/android
 
 ```
+sealed class　🔴
+https://qiita.com/kikuchy/items/ad89a12029082be8d218
+sealed classでネストされたクラスと、同じファイル内で宣言されたクラスのみです。
+https://pouhon.net/kotlin-sealed/3567/
+
 val a : String 
 if(true){
   a = "hahha"  
