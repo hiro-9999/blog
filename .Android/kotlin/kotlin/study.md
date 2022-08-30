@@ -1,6 +1,20 @@
 # road map
 https://roadmap.sh/android
 
+```
+val a : String 
+if(true){
+  a = "hahha"  
+}else{
+   a="" 
+}
+println(a)
+
+val list = arrayListOf("10", "11", "1001")
+for ((index, element) in list.withIndex()) {
+println("$index: $element") }
+```
+
 # google devlop
 https://developer.android.com/guide
 
