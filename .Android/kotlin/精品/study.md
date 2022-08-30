@@ -22,12 +22,19 @@ https://hirauchi-genta.com/category/kotlin/
  
  https://hirauchi-genta.com/kotlin-mvp-1/
  
- ### tailrec ???
+ ### tailrec 
  ```
-  by
- Sealed
+ tailrec fun gcd(a: Int, b: Int): Int =
+        if (b == 0) a
+        else gcd(b, a % b)
+  println(gcd(9,2)) //递归
+  
+  by //代理
+  
+ Sealed 一个文件里使用 可以和enum一起使用enum
+ 
   .map(::travel)
-  tailrec
+
   
   suspend 🔴suspend 関数とは非同期処理のための仕組みであって、「別の suspend 関数を呼び出すために使用する」のである。
   https://karino2.github.io/kotlin-lesson/suspend_intro.html
@@ -60,7 +67,7 @@ private suspend fun asyncTask(): String = withContext(Dispatchers.IO) {
   
   sealed vs. abstract //  val myObject = object : MyAbstractClass() {
   inner class
-  Companion Objects
+  Companion Objects // same to static 
   class MyClass {
     companion object Factory {
         fun create(): MyClass = MyClass()
