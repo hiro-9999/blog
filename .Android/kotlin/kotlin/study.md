@@ -13,6 +13,41 @@ println(a)
 val list = arrayListOf("10", "11", "1001")
 for ((index, element) in list.withIndex()) {
 println("$index: $element") }
+
+fun <T> joinToString(
+collection: Collection<T>,
+separator: String, prefix: String, postfix: String
+): String {
+  val result = StringBuilder(prefix)
+  for ((index, element) in collection.withIndex()) {
+  if (index > 0) result.append(separator)
+  result.append(element) }
+  result.append(postfix)
+  return result.toString() 
+}
+val list1 = listOf(1, 2, 3)
+println(joinToString(list1, "; ", "(", ")"))
+
+🔴　toRegex
+fun parsePathRegexp(path: String) {
+  val regex = """(.+)/(.+)\.(.+)""".toRegex() 
+  val matchResult = regex.matchEntire(path) 
+  if (matchResult != null) {
+    val (directory, filename, extension) = matchResult.destructured
+    println("Dir: $directory, name: $filename, ext: $extension") 
+  }
+}
+parsePathRegexp("/Users/yole/kotlin-book/chapter.adoc")
+Kotlin in Action (Dmitry Jemerov, Svetlana Isakova) (z-lib.org)　p73
+
+class A {
+  companion object
+  { fun bar() {
+    println("Companion object called") }
+  } 
+}
+A.bar()
+
 ```
 
 # google devlop
