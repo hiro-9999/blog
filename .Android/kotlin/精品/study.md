@@ -28,7 +28,29 @@ https://hirauchi-genta.com/category/kotlin/
  Sealed
   .map(::travel)
   tailrec
-  suspend ?
+  
+  suspend 🔴suspend 関数とは非同期処理のための仕組みであって、「別の suspend 関数を呼び出すために使用する」のである。
+  https://karino2.github.io/kotlin-lesson/suspend_intro.html
+ https://android.suzu-sd.com/2022/01/coroutine_suspend/
+  
+  private fun testCoroutine() {
+    viewModel.viewModelScope.launch {
+        // ここはメインスレッドで呼び出される
+
+        // asyncTask() は suspend 関数なので、呼び出してもメインスレッドをブロックしない
+        val result = asyncTask()
+
+        // asyncTask() が終了したら、メインスレッドでこのブロックが実行される
+        viewModel.textValue.value = result
+    }
+}
+
+private suspend fun asyncTask(): String = withContext(Dispatchers.IO) {
+    // ここは DefaultDispatcher-worker-X というバックグラウンドスレッドで呼び出される
+    Thread.sleep(1000)
+    return@withContext "RESULT"
+}
+  
   companion
 
   
