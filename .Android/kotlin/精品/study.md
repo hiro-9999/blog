@@ -17,6 +17,11 @@ https://hirauchi-genta.com/category/kotlin/
  # Atomic Kotlin (Bruce Eckel, Svetlana Isakova) (z-lib.org)
  优先使用不可变（而不是可变）数据。初始化后未修改的局部变量与属性，总是将其声明为  val 
  
+### MVPを学んでいくにあたり、GoogleがGitHubに公開しているtodo-mvp-kotlinというサンプル side menu 🔴
+ git clone https://github.com/android/architecture-samples.git
+ 
+ https://hirauchi-genta.com/kotlin-mvp-1/
+ 
  ### tailrec ???
  ```
   by
@@ -24,6 +29,7 @@ https://hirauchi-genta.com/category/kotlin/
   .map(::travel)
   tailrec
   suspend ?
+  companion
 
   
  open class //类之间继承由冒号（ : ）声明。默认情况下类都是 final 的；如需让一个类可继承， 请将其标记为  open 。
@@ -42,11 +48,39 @@ val instance = MyClass.create() //The name of the companion object can be omitte
 
   by lazy/lazyInit
   
+  ライブラリの生成と利用方法について解説🔴
+  https://hirauchi-genta.com/kotlin-library/
+  
   infix //如果一个方法会改动其接收者，那么不要声明为中缀（ infix ）形式
     operator
   
-  let/also  -> it
+  let/also  -> it 🔴
   with, run/apply -> this
+  
+  enum class Color(val rgb: Int, val description: String) {
+    RED(0xFF0000, "赤です"),
+    GREEN(0x00FF00, "緑です"),
+    BLUE(0x0000FF, "青です")
+   }
+val color: Color = Color.RED
+println(color.description)
+println(color.rgb)
+enumにはパラメータを持たせることができる
+パラメータにアクセスするには、変数.パラメータ名と実装する
+https://hirauchi-genta.com/kotlin-enum/
+
+配列1 contentEquals 配列2とすることで、2つの配列を比較することができます。
+また、Arrays.javaに定義されているArrays.equals()関数でも、配列を比較することができます。
+
+val names = arrayOf("佐藤", "鈴木", "井上")
+for (name in names) {
+   println(name)
+}
+
+names.forEach {
+   println(it)
+}
+
   
   泛型函数 //fun <T> singletonList(item: T): List<T> {
   
@@ -84,6 +118,18 @@ data
     |Involve me and I learn.
     |(Benjamin Franklin)
     """.trimMargin()
+    
+    
+    var number = 10
+val hello = "こんにちは"
+
+val result = number.run {
+   this + 10
+   hello
+}
+
+println(result)
+println(number)
  ```
  
  
