@@ -24,6 +24,32 @@ https://hirauchi-genta.com/category/kotlin/
  
  ### tailrec 
  ```
+     val list = listOf(1, 2, 3)
+https://dev.classmethod.jp/articles/kotlin-everyday-26/
+
+ val list = listOf(listOf("a", "b"), listOf("c", "d"), listOf("e", "f"))
+    println(list.map { it }) // [[a, b], [c, d], [e, f]]
+    println(list.flatMap { it }) //[a, b, c, d, e, f]
+    
+    // map
+    val convertedByMap = list
+        .map { listOf(it, it) }
+    println(convertedByMap)
+    // [[1, 1], [2, 2], [3, 3]]
+
+    // map + flatten
+    val convertedByMapFlatten = list
+        .map { listOf(it, it) }
+        .flatten()
+    println(convertedByMapFlatten)
+    // [1, 1, 2, 2, 3, 3]
+
+    // flatMap
+    val convertedByFlatMap = list
+        .flatMap { listOf(it, it) }
+    println(convertedByFlatMap)
+    // [1, 1, 2, 2, 3, 3]
+    https://4engineer.net/kotlin/map-vs-flatmap/
  tailrec fun gcd(a: Int, b: Int): Int =
         if (b == 0) a
         else gcd(b, a % b)
@@ -34,7 +60,56 @@ https://hirauchi-genta.com/category/kotlin/
  Sealed 一个文件里使用 可以和enum一起使用enum
  
   .map(::travel)
+  convert the function to a value. You use the :: operator
+  val getAge = Person::age
+  
+  fun salute() = println("Salute!")
+run(::salute)
 
+val p = Person("Dmitry", 34)
+val personsAgeFunction = Person::age
+println(personsAgeFunction(p))
+
+val personsAgeFunction1 = p::age
+    println(personsAgeFunction1())
+    
+     println(people.filter { it.age > 30 }.map(Person::name))
+  
+  val sum = { x: Int, y: Int ->
+    println("Computing the sum of $x and $y")  
+    x+y
+}
+println(sum(1, 2))
+
+fun <T> joinToString(
+collection: Collection<T>,
+separator: String, prefix: String, postfix: String
+): String {
+ val result = StringBuilder(prefix)
+ for ((index, element) in collection.withIndex()) {
+  if (index > 0) result.append(separator)
+  result.append(element) 
+ }
+ result.append(postfix)
+ return result.toString() 
+}
+
+data class Person(val name: String, val age: Int)
+val people = listOf(Person("Alice", 29), Person("Bob", 31))
+
+val people = listOf(Person("Alice", 29), Person("Bob", 31))
+ println(people.maxBy { it.age })
+ println(people.maxBy({ p: Person -> p.age }))
+ println(people.minBy { it.age })
+ 
+  val names = people.joinToString(separator = " ",
+transform = { p: Person -> p.name })
+ println(names)
+ 
+ people.joinToString(" ") { p: Person -> p.name }
+  val names = people.joinToString(" ") { p: Person -> p.name }
+   val names = people.joinToString(" ") {p-> p.name }
+ val names = people.joinToString(" ") { it.name }
   
   suspend 🔴suspend 関数とは非同期処理のための仕組みであって、「別の suspend 関数を呼び出すために使用する」のである。
   https://karino2.github.io/kotlin-lesson/suspend_intro.html
