@@ -24,6 +24,10 @@ https://hirauchi-genta.com/category/kotlin/
  
  ### tailrec 
  ```
+     val naturalNumbers = generateSequence(0) { it + 1 }
+ val numbersTo100 = naturalNumbers.takeWhile { it <= 100 }
+ println(numbersTo100.sum())
+ 
      val list = listOf(1, 2, 3)
 https://dev.classmethod.jp/articles/kotlin-everyday-26/
 
