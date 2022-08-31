@@ -20,10 +20,48 @@ https://hirauchi-genta.com/category/kotlin/
 ### MVPを学んでいくにあたり、GoogleがGitHubに公開しているtodo-mvp-kotlinというサンプル side menu 🔴
  git clone https://github.com/android/architecture-samples.git
  
+ 
  https://hirauchi-genta.com/kotlin-mvp-1/
  
  ### tailrec 
  ```
+ fun sendEmailTo(email: String) { println("Sending email to $email") }
+var email: String? = "yole@example.com" 
+email?.let { sendEmailTo(it) }
+
+ throw IllegalArgumentException("No address")
+ 
+  fun createAllDoneRunnable(): Runnable { return Runnable { println("All done!") } }
+   createAllDoneRunnable().run()
+   
+   val listener = OnClickListener { view ->
+      val text = when (view.id) { 
+      R.id.button1 -> "First button" 
+      R.id.button2 -> "Second button" 
+      else -> "Unknown button"
+     }
+      toast(text)
+  }
+button1.setOnClickListener(listener) 
+button2.setOnClickListener(listener)
+
+
+   fun alphabet() = with(StringBuilder()) { 
+       for (letter in 'A'..'Z') {
+            append(letter)
+       } 
+   
+    append("\nNow I know the alphabet!")
+    toString() 
+  }
+  
+  fun alphabet() = StringBuilder().apply { 
+    for (letter in 'A'..'Z') {
+        append(letter)
+	} 
+	append("\nNow I know the alphabet!") 
+}.toString()
+
      val naturalNumbers = generateSequence(0) { it + 1 }
  val numbersTo100 = naturalNumbers.takeWhile { it <= 100 }
  println(numbersTo100.sum())
