@@ -27,6 +27,8 @@ https://hirauchi-genta.com/category/kotlin/
      val list = listOf(1, 2, 3)
 https://dev.classmethod.jp/articles/kotlin-everyday-26/
 
+ println(list.flatMap { it }.toSet())
+
  val list = listOf(listOf("a", "b"), listOf("c", "d"), listOf("e", "f"))
     println(list.map { it }) // [[a, b], [c, d], [e, f]]
     println(list.flatMap { it }) //[a, b, c, d, e, f]
