@@ -4,6 +4,7 @@ https://github.com/square/moshi/
 https://github.com/cbeust/klaxon
 
 ### GSON, Jackson, and Moshi
+GSON (https://github.com/google/ gson) and, more recently, Square's Moshi (https://github.com/square/moshi). 
 
 ## 実装
 https://star-zero.medium.com/タイプによって構造の異なるjsonをmoshiでパースする-7f8ba366594a　🔴
