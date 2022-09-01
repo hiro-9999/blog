@@ -16,7 +16,7 @@ https://github.com/raamcosta/compose-destinations
 # HTTP clients
 https://square.github.io/retrofit/
 
-# Jetpack Compose 🔴　 🔴　
+# Jetpack Compose 🔴　 🔴　🔴　
 https://github.com/android/compose-samples
 
 https://www.youtube.com/watch?v=PjQdFmiDgwk&ab_channel=AndroidDevelopers
