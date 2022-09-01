@@ -5,7 +5,7 @@ https://github.com/cbeust/klaxon
 
 ## 実装
 https://star-zero.medium.com/タイプによって構造の異なるjsonをmoshiでパースする-7f8ba366594a　🔴
-```
+```kotlin
 implementation "com.squareup.moshi:moshi:1.8.0"
 implementation "com.squareup.moshi:moshi-adapters:1.8.0"
 kapt "com.squareup.moshi:moshi-kotlin-codegen:1.8.0"
