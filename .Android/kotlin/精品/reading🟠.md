@@ -6,6 +6,10 @@ https://github.com/raamcosta/compose-destinations
 # Jetpack Compose
 
 # Dagger　Hilt 🔴　？？？
+https://www.youtube.com/watch?v=EfN8wHhc8Nw&ab_channel=DroidKaigi
+
+Dagger Hiltは1つのSubcomponentが作られる
+Dagger AndroidはActivityごとに専用のSubcomponentが作られる
 https://tech.mokelab.com/android/compose/app/hilt/viewModel.html
 
 https://www.geeksforgeeks.org/dagger-hilt-in-android-with-example/
