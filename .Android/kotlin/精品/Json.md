@@ -3,4 +3,7 @@ https://github.com/square/moshi/
 
 https://github.com/cbeust/klaxon
 
+## 実装
+https://qiita.com/unpi/items/962a3d5ddf1ba9714fb2
+
 
