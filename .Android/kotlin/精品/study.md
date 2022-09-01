@@ -25,6 +25,11 @@ https://hirauchi-genta.com/category/kotlin/
  
  ### tailrec 
  ```
+val map = mutableMapOf(1 to "one")
+map.apply { this[2] = "two"}
+with (map) { this[3] = "three" } 
+println(map)
+
  fun sendEmailTo(email: String) { println("Sending email to $email") }
 var email: String? = "yole@example.com" 
 email?.let { sendEmailTo(it) }
