@@ -10,6 +10,12 @@ https://www.youtube.com/c/AndroidDevelopers
 
 ## navigation drawer 🔴
 How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
+```kotlin
+implementation
+  'androidx.navigation:navigation-fragment-ktx:2.3.2'
+implementation 'androidx.navigation:navigation-ui-ktx:2.3.2'
+```
+https://github.com/PacktPublishing/How-to-Build-Android-Apps-with-Kotlin/tree/master/Chapter04
 
 
 >Kotlin实战 by Dmitry Jemerov Svetlana Isakova 覃宇 罗丽 李思阳 蒋扬海 (z-lib.org)
