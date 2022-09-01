@@ -4,3 +4,10 @@ https://star-zero.medium.com
 https://github.com/raamcosta/compose-destinations
 
 # Jetpack Compose
+
+# Dagger
+Dagger を利用してアプリの依存関係注入（DI）を自動化する方法について説明しました。
+https://developer.android.com/training/dependency-injection/dagger-android?hl=ja
+
+https://developer.android.com/training/dependency-injection/dagger-basics?hl=ja
+
