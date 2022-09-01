@@ -5,9 +5,37 @@ https://github.com/raamcosta/compose-destinations
 
 # Jetpack Compose
 
-# Dagger　🔴　？？？
+# Dagger　Hilt 🔴　？？？
+https://tech.mokelab.com/android/compose/app/hilt/viewModel.html
+
+https://www.geeksforgeeks.org/dagger-hilt-in-android-with-example/
+
+https://aakira.app/blog/2020/05/dagger-hilt/
+
+https://speakerdeck.com/kkagurazaka/yuan-li-karawan-quan-li-jie-surudagger-hilt-migration?slide=3 🔴
+
+https://techblog.recochoku.jp/7924
+```kotlin
+buildscript {
+    dependencies {
+        classpath("com.google.dagger:hilt-android-gradle-plugin:2.40.2")
+    }
+}
+
+appフォルダ配下のGradle
+plugins {
+    id('dagger.hilt.android.plugin')
+}
+dependencies {
+    implementation("com.google.dagger:hilt-android:2.40.2")
+    kapt("com.google.dagger:hilt-android-compiler:2.40.2")
+}
+```
+https://developer.android.com/training/dependency-injection/hilt-android?hl=ja
 Dagger を利用してアプリの依存関係注入（DI）を自動化する方法について説明しました。
 https://developer.android.com/training/dependency-injection/dagger-android?hl=ja
+
+https://kaleidot.net/%E8%A9%B1%E9%A1%8C%E3%81%AE-dagger-hilt-%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%9F-13acab8163e0
 
 https://developer.android.com/training/dependency-injection/dagger-basics?hl=ja
 
