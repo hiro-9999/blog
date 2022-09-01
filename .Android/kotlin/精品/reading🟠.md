@@ -11,3 +11,18 @@ https://developer.android.com/training/dependency-injection/dagger-android?hl=ja
 
 https://developer.android.com/training/dependency-injection/dagger-basics?hl=ja
 
+
+# Spotless
+https://github.com/diffplug/spotless
+正規表現や単純なフォーマットのチェックも出来るので 簡単なファイルフォーマットであれば Spotlessをフォーマッタとして便利に使うことが出来るでしょう。
+https://progret.hatenadiary.com/entry/2019/12/09/165048
+
+
+## KtLint + Spotless + GitHub ActionsでPRにsuggested changeさせる
+https://qiita.com/takahirom/items/2a3d2912e74107748765
+
+https://qiita.com/tfandkusu/items/0dff21c046de7ff0cdbe
+
+# Gradle/Kotlinで開発する私的ベストプラクティス2022
+https://blog.kengo-toda.jp/entry/2022/02/06/122835
+
