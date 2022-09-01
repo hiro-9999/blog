@@ -1,4 +1,9 @@
-https://star-zero.medium.com
+# page study
+https://star-zero.medium.com  🔴
+
+
+# google dev 🔴
+https://www.youtube.com/c/AndroidDevelopers
 
 ＞Navigation Composeはそのまま使うとコード量が増えたり引数の扱いが面倒だったりします。こういった問題を便利にしてくれる compose-destinations というライブラリを紹介します。
 https://github.com/raamcosta/compose-destinations
