@@ -5,7 +5,8 @@ https://github.com/raamcosta/compose-destinations
 
 # Jetpack Compose
 
-# Dagger　Hilt 🔴　？？？
+# Dagger　Hilt 🔴　
+外部からインスタンスを受け取る形になっています。インスタンスを組み立てる際に依存するインスタンスを(何らかの方法で)持ってきて渡す(Injectする)ことから、DI(Dependency Injection)と呼びます。
 https://www.youtube.com/watch?v=2-B-X0NwrEM&ab_channel=%E3%83%A2%E3%82%B1%E3%83%A9%E3%83%9C
 
 https://blog.mokelab.com/53/android_todo9.html
