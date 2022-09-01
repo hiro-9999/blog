@@ -8,6 +8,9 @@ https://www.youtube.com/c/AndroidDevelopers
 ＞Navigation Composeはそのまま使うとコード量が増えたり引数の扱いが面倒だったりします。こういった問題を便利にしてくれる compose-destinations というライブラリを紹介します。
 https://github.com/raamcosta/compose-destinations
 
+# HTTP clients
+https://square.github.io/retrofit/
+
 # Jetpack Compose 🔴　
 https://github.com/android/compose-samples
 
@@ -24,6 +27,12 @@ KotlinでOrmaを使うために
 https://blog.mokelab.com/50/android_todo6.html
 
 https://qiita.com/uhooi/items/836902cdd322f9accded
+
+## Supported Databases Orma Database access
+https://github.com/jetbrains/Exposed
+
+# Web applications
+https://github.com/ktorio/ktor
 
 # Dagger　Hilt 🔴　
 https://www.youtube.com/channel/UCT_d1VMe2Jx0wW_b-oQ71XQ
