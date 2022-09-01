@@ -5,6 +5,9 @@ https://star-zero.medium.com  🔴
 # google dev 🔴
 https://www.youtube.com/c/AndroidDevelopers
 
+
+>Kotlin实战 by Dmitry Jemerov Svetlana Isakova 覃宇 罗丽 李思阳 蒋扬海 (z-lib.org)
+
 ＞Navigation Composeはそのまま使うとコード量が増えたり引数の扱いが面倒だったりします。こういった問題を便利にしてくれる compose-destinations というライブラリを紹介します。
 https://github.com/raamcosta/compose-destinations
 
