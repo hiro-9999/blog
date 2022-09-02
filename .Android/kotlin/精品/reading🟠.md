@@ -10,6 +10,9 @@ https://www.youtube.com/c/AndroidDevelopers
 
 ## WorkManager
 
+>フラグメント Fragment 🔴
+https://developer.android.com/guide/fragments
+
 
 ## navigation drawer 🔴
 How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
