@@ -13,6 +13,15 @@ https://github.com/InsertKoinIO/koin
 Hilt を使用した依存関係の注入
 https://developer.android.com/training/dependency-injection/hilt-android?hl=ja
 
+```
+依存関係インジェクションを実装すると、次のようなメリットがもたらされます。
+
+コードを再利用できる
+リファクタリングが容易になる
+テストが容易になる
+https://developer.android.com/training/dependency-injection?hl=ja
+```
+
 https://github.com/linux-link/HiltUseDemo 🔴
 
 为什么要复杂化的去使用Hilt依赖注入？
