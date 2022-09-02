@@ -5,7 +5,8 @@ https://github.com/spekframework/spek
 
 ./gradlew test
 
-
+# Espresso
+https://developer.android.com/training/testing/espresso/basics?hl=ja
 
 # mockito-kotlin
 https://github.com/mockito/mockito-kotlin
