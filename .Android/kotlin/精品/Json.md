@@ -3,16 +3,16 @@ https://github.com/square/moshi/
 
 https://github.com/cbeust/klaxon
 
-### GSON, Jackson, and Moshi
+### GSON, Jackson, and Moshi +  Retrofit instance with a Moshi converter
 GSON (https://github.com/google/ gson) and, more recently, Square's Moshi (https://github.com/square/moshi). 
 
-How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
+How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org) 🔴
 
 # Fragment lifecycle
 https://developer.android.com/guide/fragments/lifecycle
 
 
-# フラグメント Fragment
+# フラグメント Fragment 🔴
 https://developer.android.com/guide/fragments
 
 ## Glide
