@@ -8,6 +8,11 @@ https://star-zero.medium.com  🔴
 https://www.youtube.com/c/AndroidDevelopers
 
 
+
+# Clean Android Architecture 🔴
+https://github.com/PacktPublishing/Clean-Android-Architecture
+
+
 # 存関係インジェクション DI
 https://developer.android.com/training/dependency-injection?hl=ja
 
