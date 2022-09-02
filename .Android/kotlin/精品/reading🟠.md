@@ -8,6 +8,16 @@ https://star-zero.medium.com  🔴
 https://www.youtube.com/c/AndroidDevelopers
 
 
+# 存関係インジェクション DI
+https://developer.android.com/training/dependency-injection?hl=ja
+
+複数人場合、依存関係インジェクションを使用方がいいい
+hilt コードを再利用できる
+リファクタリングが容易になる
+テストが容易になる
+
+
+
 ## WorkManager
 
 >フラグメント Fragment 🔴
