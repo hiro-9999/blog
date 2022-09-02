@@ -15,6 +15,12 @@ https://developer.android.com/guide/fragments
 
 >LiveData
 
+> Rxjava
+https://github.com/ReactiveX/RxJava/wiki/Creating-Observables
+
+### coroutines  コルーチン 🔴
+https://developer.android.com/kotlin/coroutines?hl=ja
+
 
 ## navigation drawer 🔴
 How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
