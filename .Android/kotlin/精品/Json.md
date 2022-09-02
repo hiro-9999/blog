@@ -7,6 +7,14 @@ https://github.com/cbeust/klaxon
 GSON (https://github.com/google/ gson) and, more recently, Square's Moshi (https://github.com/square/moshi). 
 
 How to Build Android Apps with Kotlin A hands-on guide to developing, testing and publishing your first apps with Android (Alex Forrester, Eran Boudjnah etc.) (z-lib.org)
+
+# Fragment lifecycle
+https://developer.android.com/guide/fragments/lifecycle
+
+
+# フラグメント Fragment
+https://developer.android.com/guide/fragments
+
 ## Glide
 Picasso (https://square.github.io/picasso/) and Glide by Bump Technologies (https://github.com/bumptech/glide). Facebook's Fresco (https://frescolib.org/) is somewhat less popular. We will proceed with Glide because it is consistently the faster of the two for loading images, whether it is from the internet or from the cache. It's worth noting that Picasso is more lightweight, so it is a trade- off, and both libraries are quite useful.
 
