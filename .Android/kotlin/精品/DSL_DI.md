@@ -9,9 +9,11 @@ https://insert-koin.io/
 https://github.com/InsertKoinIO/koin
 
 
-# Dagger Hilt 
+# Dagger Hilt 🔴
 Hilt を使用した依存関係の注入
 https://developer.android.com/training/dependency-injection/hilt-android?hl=ja
+
+https://github.com/linux-link/HiltUseDemo 🔴
 
 为什么要复杂化的去使用Hilt依赖注入？
 https://blog.csdn.net/weixin_29692653/article/details/117681717
