@@ -8,6 +8,9 @@ https://star-zero.medium.com  🔴
 https://www.youtube.com/c/AndroidDevelopers
 
 
+> 🔴 Android Debugging by Tutorials Learn to Debug Real World Android Apps (raywenderlich Tutorial Team , Vincenzo Guzzi etc.) (z-lib.org)
+
+
 
 # Clean Android Architecture 🔴
 https://github.com/PacktPublishing/Clean-Android-Architecture
