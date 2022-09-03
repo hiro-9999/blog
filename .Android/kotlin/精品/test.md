@@ -8,6 +8,9 @@ https://github.com/spekframework/spek
 # Espresso
 https://developer.android.com/training/testing/espresso/basics?hl=ja
 
+# android-profiler Android Profiler は、Android Monitor の後継ツールです
+https://developer.android.com/studio/profile/android-profiler
+
 # mockito-kotlin
 https://github.com/mockito/mockito-kotlin
 
