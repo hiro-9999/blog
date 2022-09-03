@@ -39,6 +39,45 @@ val heavy by lazy { // Initialization block
 }
 by  🔴  property delegation
 https://kotlinlang.org/docs/delegated-properties.html#translation-rules-when-delegating-to-another-property
+
+val yearMonthDate: String
+}
+class TimeExtensions {
+    // other code
+    companion object StdTimeExtension : Formatter { 
+    const val TAG = "TIME_EXTENSIONS"
+	override val yearMonthDate = "yyyy-MM-d"
+	} 
+}
+
+val timeExtensionsTag = TimeExtensions.StdTimeExtension.TAG
+print(timeExtensionsTag)
+
+data class Point(var x: Int, var y: Int? = 3) 
+val p = Point(1) // x = 1, y = 3 
+val copy = p.copy(y = 2) // x = 1, y = 2
+
+// enum class を定義する
+enum class Color(val rgb: Int) {
+  RED(0xFF0000),
+  BLUE(0x0000FF),
+  GREEN(0x00FF00)
+}
+
+fun main() {
+  // REDのrgb値を取得する
+  val rgb = Color.RED.rgb
+  // Int型の値rgbを文字列に変換する
+  println(rgb.toString(16))
+}
+
+ enum class LENGTH(val value: Int) {
+	TEN(10), TWENTY(20), THIRTY(30), SIXTY(60);
+}
+print(LENGTH.TEN.value)
+
+println((listOf(1, 2) + 3).equals(listOf(1, 2, 3))) // true
+println((listOf(1, 2) + listOf(3, 4)) .equals(listOf(1, 2, 3, 4))) // true
 ```
 
 
