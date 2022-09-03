@@ -10,6 +10,41 @@ https://www.youtube.com/c/AndroidDevelopers
 
 > 🔴 Android Debugging by Tutorials Learn to Debug Real World Android Apps (raywenderlich Tutorial Team , Vincenzo Guzzi etc.) (z-lib.org)
 ```kotlin
+fun main() = runBlocking { 
+	val job: Job = launch {
+		while (true) { 
+			println("I'm working") 
+			Thread.sleep(10L)
+		} 
+	}
+	delay(30)
+        job.cancel()
+    }
+
+
+val list: MutableList<Any?> = mutablelistOf(1L, 3.14, "e")
+fun forAll() = collection.forEach(::doSomething)
+
+val numbers = listOf(1, 20, 18, 37, 2) 
+val groupedNumbers = numbers.groupBy {
+when {
+it < 20 -> "less than 20"
+else -> "greater than or equal to 20"
+} }
+println(groupedNumbers)
+{less than 20=[1, 18, 2], greater than or equal to 20=[20, 37]}
+
+val nums = listOf(10, 20, 100, 5)
+val isAny = nums.any() // true 
+val isAnyOdd = nums.any { it % 1 > 0 } // true 
+val isAnyBig = nums.any { it > 1000} // false
+
+val nums = listOf(10, 20, 100, 5)
+val numbers = nums.filterNot { it > 20 }
+A beautifully convenient special case of filterNot is the function filterNotNull. It removes all of the nulls from a collection:
+val nums = listOf(null, 20, null, 5)
+val numbers = nums.filterNotNull() // { 20, 5 }
+
  class Rectangle(val l: Int, val w: Int) { 
  val area: Int
     get()=l*w
