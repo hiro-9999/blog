@@ -9,11 +9,46 @@ https://www.youtube.com/c/AndroidDevelopers
 
 
 > 🔴 Android Debugging by Tutorials Learn to Debug Real World Android Apps (raywenderlich Tutorial Team , Vincenzo Guzzi etc.) (z-lib.org)
+```kotlin
+ class Rectangle(val l: Int, val w: Int) { 
+ val area: Int
+    get()=l*w
+}
+val rect = Rectangle(3, 4)
+print(rect.area)
 
+ class ExpensiveToHash(_summary: String) {
+	var summary: String = _summary 
+     set(value) {
+	 	field = value
+     }
+
+}
+
+val rect = ExpensiveToHash("3, 4")
+print(rect.summary)
+
+class MyFragment: Fragment() {
+  private lateinit var button: Button // will initialize later
+}
+
+class Lightweight {
+val heavy by lazy { // Initialization block
+          Heavyweight()
+      }
+}
+by  🔴  property delegation
+https://kotlinlang.org/docs/delegated-properties.html#translation-rules-when-delegating-to-another-property
+```
 
 
 # Clean Android Architecture 🔴
 https://github.com/PacktPublishing/Clean-Android-Architecture
+
+
+
+# Programming Android With Kotlin
+https://github.com/ProgrammingAndroidWithKotlin
 
 
 # 存関係インジェクション DI
