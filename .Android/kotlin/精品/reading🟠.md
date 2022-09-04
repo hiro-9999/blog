@@ -7,6 +7,15 @@ https://star-zero.medium.com  🔴
 # google dev 🔴
 https://www.youtube.com/c/AndroidDevelopers
 
+# Jetpack Composeでレイアウト作成の基本 🔴. 2021年の7月に安定版のバージョン1.0.0が公開
+https://codezine.jp/article/detail/15404
+
+https://engawapg.net/programming/jetpack-compose/
+
+https://www.isoroot.jp/blog/3034/
+
+https://techblog.zozo.com/entry/zozotown-android-jetpack-compose
+
 
 > 🔴 Android Debugging by Tutorials Learn to Debug Real World Android Apps (raywenderlich Tutorial Team , Vincenzo Guzzi etc.) (z-lib.org)
 ```kotlin
