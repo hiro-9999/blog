@@ -1,5 +1,8 @@
 https://github.com/android/nowinandroid
 
+# Android UI Development with Jetpack Compose 🔴 reading
+https://github.com/PacktPublishing/Android-UI-Development-with-Jetpack-Compose
+
 # Jetpack Compose
 https://github.com/raywenderlich/jet-materials/tree/editions/1.1 🔴
 
