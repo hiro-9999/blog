@@ -8,7 +8,7 @@ https://star-zero.medium.com  🔴
 https://www.youtube.com/c/AndroidDevelopers
 
 # Jetpack Composeでレイアウト作成の基本 🔴. 2021年の7月に安定版のバージョン1.0.0が公開
-https://codezine.jp/article/detail/15404
+https://logmi.jp/tech/articles/325525
 
 https://engawapg.net/programming/jetpack-compose/
 
