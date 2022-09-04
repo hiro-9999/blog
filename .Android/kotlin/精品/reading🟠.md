@@ -8,6 +8,10 @@ https://star-zero.medium.com  🔴
 https://www.youtube.com/c/AndroidDevelopers
 
 # Jetpack Composeでレイアウト作成の基本 🔴. 2021年の7月に安定版のバージョン1.0.0が公開
+https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary 🔴
+
+https://io.google/2022/program/213421b6-9873-464f-9b36-38eeb232a854/intl/ja/  <good>
+
 https://developer.android.com/jetpack/compose/kotlin?hl=ja
 
 https://logmi.jp/tech/articles/325525
