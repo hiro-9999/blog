@@ -11,6 +11,9 @@ https://www.raywenderlich.com/17332237-jetpack-compose
 #  Jetpack Compose Animations Tutorial: Getting Started 🔴
 https://www.raywenderlich.com/13282144-jetpack-compose-animations-
 
+# Simplifying Application Development with Kotlin Multiplatform Mobile 🔴
+https://github.com/PacktPublishing/Simplifying-Application-Development-with-Kotlin-Multiplatform-Mobile
+
 # Clean Android Architecture 🔴
 https://github.com/PacktPublishing/Clean-Android-Architecture
 
