@@ -1,6 +1,8 @@
 https://github.com/android/nowinandroid
 
 # Jetpack Compose
+https://github.com/raywenderlich/jet-materials/tree/editions/1.1 🔴
+
 https://www.raywenderlich.com/17332237-jetpack-compose
 
 #  Jetpack Compose Animations Tutorial: Getting Started 🔴
