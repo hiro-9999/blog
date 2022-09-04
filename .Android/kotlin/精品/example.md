@@ -4,6 +4,9 @@ https://github.com/android/nowinandroid
 https://developer.android.com/codelabs/jetpack-compose-basics?hl=ja#0　🔴 reading
 
 
+https://droidkaigi.jp/2021/timetable?day=3　　🔴 reading　＋＋
+
+
 # Android UI Development with Jetpack Compose 🔴 reading
 https://github.com/PacktPublishing/Android-UI-Development-with-Jetpack-Compose
 
