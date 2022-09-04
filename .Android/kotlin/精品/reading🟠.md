@@ -7,6 +7,10 @@ https://star-zero.medium.com  🔴
 # google dev 🔴
 https://www.youtube.com/c/AndroidDevelopers
 
+https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary 
+
+https://developer.android.com/reference/kotlin/androidx/classes.html
+
 ![1](https://github.com/hiro-9999/blog/blob/master/.Android/kotlin/%E7%B2%BE%E5%93%81/book/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202022-09-04%2017.12.54.png)
 
 ![2](https://github.com/hiro-9999/blog/blob/master/.Android/kotlin/%E7%B2%BE%E5%93%81/book/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202022-09-04%2017.13.15.png)
@@ -20,6 +24,8 @@ https://io.google/2022/program/213421b6-9873-464f-9b36-38eeb232a854/intl/ja/  <g
 https://developer.android.com/reference/kotlin/androidx/compose/material/package-summary 🔴	
 
 https://developer.android.com/jetpack/compose/kotlin?hl=ja
+
+https://developer.android.com/reference/kotlin/androidx/compose/foundation/package-summary.html 🔴
 
 https://logmi.jp/tech/articles/325525
 
