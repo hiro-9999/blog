@@ -1,5 +1,9 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
+	
+# Beginning iOS Programming with Swift and SwiftUI🟡
+var totalPriceMessage = "The price of the book is $ \(totalPrice)"
+
 
 https://qiita.com/shtnkgm/items/8b7979fc84a3cc065238
 ```
