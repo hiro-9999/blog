@@ -1,9 +1,15 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
+# dynamic-links
+https://firebase.google.com/docs/dynamic-links/ios/create?hl=ja
+
 # swift doc 🟡
 https://docs.swift.org/swift-book/
 
 https://developer.apple.com/xcode/swiftui/
+
+# api
+https://developer.apple.com/documentation/
 
 	
 # Beginning iOS Programming with Swift and SwiftUI🟡
@@ -19,12 +25,45 @@ ZStack - overlays one view on top of another
 プロトタイピング（Prototyping）とは、実働するモデル（プロトタイプ）を早期に製作する手法およびその過程を意味する。
 Figma (https://www.figma.com)
 
+https://www.adobe.com/products/xd.html
+
+Invision (https://www.invisionapp.com/)
+
+Flinto (https://www.flinto.com) 
+
 Sketch (https://www.sketchapp.com)
 https://designcode.io
 https://www.sketch.com/docs/prototyping/
 
 https://sneakpeekit.com
 https://marvelapp.com/prototype/10c52gg6/screen/33520749
+
+struct ContentView: View {
+    var body: some View {
+        List(1...4, id: \.self) {
+            Text("Item \($0)")
+} }
+}
+
+var body: some View {
+        List {
+            ForEach(1...4, id: \.self) {
+	     Text("Item \($0)")
+	} 
+}
+
+ List {
+        ForEach(0...restaurantNames.count-1, id: \.self) { index in
+            Text(restaurantNames[index])
+} }
+
+ForEach(restaurantNames.indices, id: \.self) { index in
+
+RestaurantListView()
+RestaurantListView()
+    .preferredColorScheme(.dark)
+    
+   Settings > Developer. Turn the switch of the Dark
 
 @Environment(\.verticalSizeClass) var verticalSizeClass 🟡
 if verticalSizeClass == .compact {
