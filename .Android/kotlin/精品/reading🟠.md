@@ -3,6 +3,10 @@ https://kotlinlang.org/
 
 https://star-zero.medium.com  🔴
 
+# ＠ObservedObject（オブザードオブジェクト）
+https://thwork.net/2021/08/31/swiftui_observableobject/
+https://ios-docs.dev/swiftui-observerdobjects/
+
 ## Simpleperf は多用途に利用できる便利なコマンドライン CPU プロファイリング ツールです。
 https://developer.android.com/ndk/guides/simpleperf
 
