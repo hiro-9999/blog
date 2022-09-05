@@ -3,6 +3,25 @@ https://kotlinlang.org/
 
 https://star-zero.medium.com  🔴
 
+``` 
+🔴
+Flow ??
+Room ??
+livedata
+coroutines and Flow 
+
+protocol-buffers  🔴
+https://developers.google.com/protocol-buffers 
+https://developers.google.com/protocol-buffers/docs/kotlintutorial
+
+example: https://medium.com/canopas/exploring-data-store-a-new-way-of-storing-data-in-android-fb97c2ae298
+```
+
+
+#### SharedPreferences
+https://developer.android.com/reference/kotlin/android/content/SharedPreferences
+
+
 # ＠ObservedObject（オブザードオブジェクト）
 https://thwork.net/2021/08/31/swiftui_observableobject/
 https://ios-docs.dev/swiftui-observerdobjects/
