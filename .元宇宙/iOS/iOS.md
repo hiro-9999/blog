@@ -17,6 +17,8 @@ ZStack - overlays one view on top of another
 
 プロトタイプ（英: prototype）は、デモンストレーション目的や新技術・新機構の検証、試験、量産前での問題点の洗い出しのために設計・仮組み・製造された原型機
 プロトタイピング（Prototyping）とは、実働するモデル（プロトタイプ）を早期に製作する手法およびその過程を意味する。
+Figma (https://www.figma.com)
+
 Sketch (https://www.sketchapp.com)
 https://designcode.io
 https://www.sketch.com/docs/prototyping/
