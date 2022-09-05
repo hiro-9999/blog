@@ -7,14 +7,27 @@ https://star-zero.medium.com  🔴
 🔴
 Flow ??
 Room ??
-livedata
-coroutines and Flow 
+livedata ???
+viewmodel
+Jetpack Compose
+coroutines コルーチン
+coroutines and Flow ???
+
+hilt コードを再利用できる ???
+リファクタリングが容易になる
+テストが容易になる
+https://developer.android.com/training/dependency-injection?hl=ja
 
 protocol-buffers  🔴
 https://developers.google.com/protocol-buffers 
 https://developers.google.com/protocol-buffers/docs/kotlintutorial
 
 example: https://medium.com/canopas/exploring-data-store-a-new-way-of-storing-data-in-android-fb97c2ae298
+
+Electron（エレクトロン
+KMM plugin ->share data
+Jetpack Compose
+
 ```
 
 
