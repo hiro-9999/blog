@@ -10,6 +10,11 @@ https://droidkaigi.jp/2021/timetable?day=3　　🔴 reading　＋＋
 # Android UI Development with Jetpack Compose 🔴 reading
 https://github.com/PacktPublishing/Android-UI-Development-with-Jetpack-Compose
 
+# Make Expandable List with Jetpack Compose 🔴
+https://johncodeos.com/how-to-make-expandable-list-with-jetpack-compose/
+
+https://github.com/johncodeos-blog/ExpandableListComposeExample
+
 # Jetpack Compose
 https://github.com/raywenderlich/jet-materials/tree/editions/1.1 🔴
 
