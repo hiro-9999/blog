@@ -1,9 +1,68 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
+# swift doc 🟡
+https://docs.swift.org/swift-book/
+
+https://developer.apple.com/xcode/swiftui/
+
 	
 # Beginning iOS Programming with Swift and SwiftUI🟡
+```swift
 var totalPriceMessage = "The price of the book is $ \(totalPrice)"
+VStack is a vertical stack view for laying out views vertically. 
 
+HStack - arranges the views horizontally 
+VStack - arranges the views vertically 
+ZStack - overlays one view on top of another
+
+プロトタイプ（英: prototype）は、デモンストレーション目的や新技術・新機構の検証、試験、量産前での問題点の洗い出しのために設計・仮組み・製造された原型機
+プロトタイピング（Prototyping）とは、実働するモデル（プロトタイプ）を早期に製作する手法およびその過程を意味する。
+Sketch (https://www.sketchapp.com)
+https://designcode.io
+https://www.sketch.com/docs/prototyping/
+
+https://sneakpeekit.com
+https://marvelapp.com/prototype/10c52gg6/screen/33520749
+
+@Environment(\.verticalSizeClass) var verticalSizeClass 🟡
+if verticalSizeClass == .compact {
+    HSignUpButtonGroup()
+} else {
+    VSignUpButtonGroup()
+}
+
+.background {
+    Image("background")
+}
+.resizable()
+.ignoresSafeArea()
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+	    ContentView()
+		    .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro"))
+		    .previewDisplayName("iPhone 12 Pro")
+	}
+	// or
+  static var previews: some View {
+    Group {
+    ContentView()
+        .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro"))
+        .previewDisplayName("iPhone 12 Pro")
+    ContentView()
+        .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro"))
+        .previewDisplayName("iPhone 12 Pro")
+        .previewInterfaceOrientation(.landscapeLeft)
+    ContentView()
+        .previewDevice(PreviewDevice(rawValue: "iPhone 12 Pro Max"
+        .previewDisplayName("iPhone 12 Pro Max")
+    ContentView()
+        .previewDevice(PreviewDevice(rawValue: "iPad Air (4th gene")
+        .previewDisplayName("iPad Air")
+    }
+   }
+}
+```
 
 https://qiita.com/shtnkgm/items/8b7979fc84a3cc065238
 ```
@@ -44,6 +103,13 @@ let dogString = "\u{1F436}" 🟠
 print(dogString)
 for scalar in dogString.unicodeScalars {
     print("\(scalar) ")
+}
+var jobTitle :String?
+if let jobTitleWithValue = jobTitle {
+    var message = "Your job title is " + jobTitleWithValue
+}
+if jobTitle != nil {
+    var message = "Your job title is " + jobTitle!
 }
 
 //Swift Apprentice (Seventh Edition) (Eli Ganim, Cosmin Pupaza, Matt Galloway) (z-lib.org)
