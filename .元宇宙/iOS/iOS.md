@@ -1,5 +1,14 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
+### 存プロジェクトをUIKitからSwiftUIに移行するまでにやったこと
+https://qiita.com/kamimi01/items/bbef57d845034b5c5b1b
+
+# iOSアプリにSwiftUI化されたい
+https://yutaabe200.hatenablog.com/entry/2021/03/31/%E6%97%A2%E5%AD%98%E3%83%97%E3%83%AD%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E3%81%B8SwiftUI%E3%81%AE%E5%B0%8E%E5%85%A5%E3%81%99%E3%82%8B%E6%99%82%E3%81%AE%E8%A9%B1
+それを解決するのが後述するCombineフレームワークや@Stateや@ObservedObjectを含むProperty Wrapperです。
+
+これらを使用することでViewの状態を管理するオブジェクトや変数が見やすくなる恩恵があります。
+
 # dynamic-links
 https://firebase.google.com/docs/dynamic-links/ios/create?hl=ja
 
