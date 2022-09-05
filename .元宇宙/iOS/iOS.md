@@ -1,6 +1,18 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
 
+https://qiita.com/shtnkgm/items/8b7979fc84a3cc065238
+```
+Swiftの型（クラス、構造体、列挙体）とイニシャライザの関係を整理します。
+以下のキーワードがモヤっとしている方におすすめです。
+Failable Initilizer｜失敗可能イニシャライザ
+Default Initializer｜既定イニシャライザ
+Memberwise Initilaizer｜全項目イニシャライザ
+Designated Initializer｜指定イニシャライザ
+Convenience Initializer｜簡易イニシャライザ
+Required Initializer｜必須イニシャライザ
+```
+
 抜粋:
 iOS 15 Programming for Beginners, Sixth Edition
 Ahmad Sahar and Craig Clayton
