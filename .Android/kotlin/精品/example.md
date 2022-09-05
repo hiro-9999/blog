@@ -3,6 +3,11 @@ https://github.com/android/nowinandroid
 
 https://developer.android.com/codelabs/jetpack-compose-basics?hl=ja#0　🔴 reading
 
+# Glance Experimental Tools 🔴
+https://medium.com/androiddevelopers/experimenting-with-jetpack-glance-35fbffe520f4
+
+https://github.com/google/glance-experimental-tools
+
 
 https://droidkaigi.jp/2021/timetable?day=3　　🔴 reading　＋＋
 
