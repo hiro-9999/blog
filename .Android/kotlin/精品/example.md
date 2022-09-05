@@ -1,5 +1,17 @@
 https://github.com/android/nowinandroid
 
+# Exploring Data Store — A New Way of Storing Data in Android 🔴
+https://blog.canopas.com/exploring-data-store-a-new-way-of-storing-data-in-android-fb97c2ae298
+
+https://gist.github.com/cp-hardik-p/05e36ad7abb3e2e578c7bad8665e17a9
+
+https://gitlab.com/cp-hardik-p/preferences-datastore
+
+https://gitlab.com/cp-hardik-p/proto-datastore
+
+# Android — Infinite Auto-Scroll with Jetpack compose
+https://gitlab.com/cp-hardik-p/infiniteautoscrolling
+
 
 https://developer.android.com/codelabs/jetpack-compose-basics?hl=ja#0　🔴 reading
 
