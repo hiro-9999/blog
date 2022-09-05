@@ -3,6 +3,11 @@ https://kotlinlang.org/
 
 https://star-zero.medium.com  🔴
 
+## Simpleperf は多用途に利用できる便利なコマンドライン CPU プロファイリング ツールです。
+https://developer.android.com/ndk/guides/simpleperf
+
+https://android-developers.googleblog.com/2022/08/precise-improvements-how-tiktok-enhanced-its-social-experience-on-android.html
+
 
 ### Android UI Development with Jetpack Compose 🔴 reading
 https://github.com/PacktPublishing/Android-UI-Development-with-Jetpack-Compose 
