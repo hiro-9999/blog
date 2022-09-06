@@ -1,3 +1,6 @@
+# test ui 🔴
+https://medium.com/mobile-app-development-publication/testing-composable-in-jetpack-compose-android-testing-fundamentals-d89d8d7115ae
+
 # kotest
 https://github.com/kotest/kotest
 
