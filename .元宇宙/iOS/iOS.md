@@ -1,5 +1,28 @@
 “https://github.com/PacktPublishing/iOS-15-Programming-for-Beginners-Sixth-Edition. ”
 
+```swift
+🤬
+weak var
+deinit
+protocol ??
+guard?
+associatedtype
+typealias
+extension
+
+Hashable
+The Hashable protocol, a subprotocol of Equatable, is required for any type you want to use as a key to a Dictionary. As with Equatable
+
+enum Coin: Int {
+  case penny = 1
+  case nickel = 5
+  case dime = 10
+  case quarter = 25
+}
+ let coin = Coin.quarter
+coin.rawValue // 25
+```
+
 ### 存プロジェクトをUIKitからSwiftUIに移行するまでにやったこと
 https://dev.classmethod.jp/articles/first-step-uikit-to-swiftui/
 
