@@ -17,3 +17,8 @@ services.http.response.headers.location: account.jetbrains.com/fls-auth
 52.137.14.60
 
 https://www.ahhhhfs.com/18694/
+
+# php 
+http://lic-server.mephi.ru
+
+
