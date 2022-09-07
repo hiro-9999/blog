@@ -1,6 +1,6 @@
 https://blog.csdn.net/shangsongwww/article/details/119538415
 
->IntelliJ jetbrains Toolbox
+> jetbrains Toolbox
 ### help=> vm option🔴 -javaagent:/Applications/ja-netfilter/ja-netfilter.jar
 
 https://github.com/hiro-9999/blog/blob/master/.%E5%85%83%E5%AE%87%E5%AE%99/golang/%E6%BF%80%E6%B4%BB%E6%8F%92%E4%BB%B62022.1.0.zip
@@ -13,12 +13,14 @@ https://search.censys.io/
 ```
 services.http.response.headers.location: account.jetbrains.com/fls-auth
 ```
-
-52.137.14.60
+# IntelliJ
+http://52.137.14.60
 
 https://www.ahhhhfs.com/18694/
 
 # php 
-http://lic-server.mephi.ru
+http://134.53.225.196
+
+
 
 
