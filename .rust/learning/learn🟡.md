@@ -3,20 +3,78 @@ https://github.com/apress/beginning-rust-2e
 
 ## Rust编程：入门、实战与进阶 (朱春雷) (z-lib.org) 🟡
 https://github.com/inrust/Rust-Programming-in-Action
+
+>fault-tolerant
+
+### Zero to Production in Rust An Opinionated Introduction to Backend Development (Luca Palmieri) (z-lib.org)🟡 reading 
+3.7 Working With HTML Forms <-2022/09/07 reading
+
+RPC frameworks like gRPC or Apache Avro ???
+https://www.lpalmieri.com/posts/2020-06-06-zero-to-production-1-setup-toolchain-ides-ci/#5-2-ready-to-go-ci-pipelines
+
+https://www.lpalmieri.com/posts/2020-07-04-choosing-a-rust-web-framework-2020-edition/
+
+>web actix_web
+https://actix.rs
+
+https://docs.rs/actix-web/4.0.1/actix_web/index.html
+
+https://github.com/actix/examples
+
+
+https://docs.rs 🟡
+
+# ide Rust-analyzer
+https://rust-analyzer.github.io
+
+https://github.com/intellij-rust/intellij-rust
+
+# test coverage
+http://www.exampler.com/testing-com/writings/coverage.pdf
+
 ```
+https://rustup.rs
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+
 % rustc --version
 rustc 1.63.0 (4b91a6ea7 2022-08-08)
 
-rustup update
+%  rustup update
+cargo --version
 
 $ cargo help <command> 🟡
  % cargo -V
 cargo 1.63.0 (fd9c4297c 2022-07-01)
 
+cargo install cargo-tarpaulin
+cargo tarpaulin --ignore-tests
+
+
+rustup component add clippy
+cargo clippy
+cargo clippy -- -D warnings
+
+rustup component add rustfmt
+cargo fmt
+cargo fmt -- --check
+
+cargo install cargo-audit
+cargo audit
+
+cargo install cargo-expand
+cargo expand
+rustup toolchain install nightly --allow-downgrade
+
+curl -v http://127.0.0.1:8000/health_check
+
+
 $ cargo new project_name
 cargo new project_name --lib
 
 编译项目，在终端运行以下命令 target/test:
+cargo install cargo-watch
+cargo watch -x check -x test -x run
+
 $ cargo build
 $ cargo run
 
