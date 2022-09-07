@@ -5,10 +5,14 @@ https://www.rust-lang.org
 
 ### Rust 開発環境の構築
 次に、2つのVS Code拡張をインストールします。
+https://plugins.jetbrains.com/plugin/8182-rust
 
 
 ## CodeLLDB (デバッグに必要） 🔴　rust-analyzer　（コード補完、定義の表示等）
 https://qiita.com/akira_kawahara/items/b122551c5b46ba52f898
+
+# remote debug
+https://chigusa-web.com/blog/vs-code-rust-remote/
 
 https://zenn.dev/hidenori3/articles/be1f287562fe0e
 
