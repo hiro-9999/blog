@@ -3,6 +3,9 @@ https://github.com/apress/beginning-rust-2e
 
 https://www.rust-lang.org
 
+### Rust 開発環境の構築
+https://zenn.dev/hidenori3/articles/be1f287562fe0e
+
 “Diesel
 Diesel is both an ORM and a query builder with a focus on compile time safety, performance, and productivity. It has quickly becoming the standard tool for interacting with databases in Rust.”
 
