@@ -1,6 +1,29 @@
 # Beginning Rust, Second Edition
 https://github.com/apress/beginning-rust-2e
 
+## Rust编程：入门、实战与进阶 (朱春雷) (z-lib.org) 🟡
+https://github.com/inrust/Rust-Programming-in-Action
+```
+% rustc --version
+rustc 1.63.0 (4b91a6ea7 2022-08-08)
+
+rustup update
+
+$ cargo help <command> 🟡
+ % cargo -V
+cargo 1.63.0 (fd9c4297c 2022-07-01)
+
+$ cargo new project_name
+cargo new project_name --lib
+
+编译项目，在终端运行以下命令:
+$ cargo build
+
+$ cargo run
+
+最终准备发布时，可以使用cargo build -- release来优化编译项目，这时会在target/release目录下生成一个在 生产环境中使用的可执行文件。
+```
+
 https://www.rust-lang.org
 
 ### Rust 開発環境の構築
