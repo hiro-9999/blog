@@ -28,6 +28,8 @@ https://jamstack.org/
 # Dynamic Rendering + seo 🔴
 https://developers.google.com/search/docs/advanced/javascript/dynamic-rendering?hl=ja
 
+https://codelabs.developers.google.com/codelabs/dynamic-rendering#0
+
 https://tech.hello.ai/entry/2022/05/09/135247
 
 >Rendertron
