@@ -5,6 +5,8 @@ https://aws.amazon.com/jp/cli/
 
 >AWS CloudShell
 
+https://udemy.benesse.co.jp/development/system/aws-cli.html
+
 # AWS Cookbook 
 2022/09/08 start
 https://github.com/awscookbook
