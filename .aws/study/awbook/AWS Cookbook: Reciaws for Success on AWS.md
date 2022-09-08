@@ -4,6 +4,26 @@ https://github.com/orgs/AWSCookbook/repositories?type=all
 2022/09/08 start
 https://github.com/awscookbook
 
+## アクセスキーとシークレットアクセスキーは以下の手順
+https://www.karakaram.com/aws-cli-getting-started/
+```
+aws configure
+AWS Access Key ID [None]: AKIAXXXXXXXXXXXX
+AWS Secret Access Key [None]: vlxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Default region name [None]: us-east-1
+Default output format [None]: json
+設定が完了すると ~/.aws/credentials と ~/.aws/config に入力した内容が書き込まれます。直接ファイルを編集しても大丈夫です。
+export AWS_REGION=us-east-1
+
+  % AWS_ACCOUNT_ID=$(aws sts get-caller-identity \
+       --query Account --output text)
+  % aws sts get-caller-identity
+  
+  aws secretsmanager list-secrets
+  
+  
+  
+```
 
 AWS Cloud Development Kit (CDK)
 
