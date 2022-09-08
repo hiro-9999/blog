@@ -24,3 +24,8 @@ https://blog.microcms.io/jamstack-introduction/
 
 Jamstack公式サイト
 https://jamstack.org/
+
+
+# GraphQL 問題点
+https://engineering.mercari.com/blog/entry/20220303-concerns-with-using-graphql/
+
