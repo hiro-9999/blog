@@ -25,7 +25,9 @@ https://blog.microcms.io/jamstack-introduction/
 Jamstack公式サイト
 https://jamstack.org/
 
-# Dynamic Rendering
+# Dynamic Rendering + seo 🔴
+https://developers.google.com/search/docs/advanced/javascript/dynamic-rendering?hl=ja
+
 https://tech.hello.ai/entry/2022/05/09/135247
 
 >Rendertron
