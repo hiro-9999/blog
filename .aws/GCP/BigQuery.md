@@ -1,0 +1,2 @@
+# BigQuery
+https://cloud.google.com/bigquery/?utm_source=google&utm_medium=cpc&utm_campaign=japac-JP-all-ja-dr-bkws-all-super-trial-e-dr-1009882&utm_content=text-ad-none-none-DEV_c-CRE_314712312210-ADGP_Hybrid%20%7C%20BKWS%20-%20EXA%20%7C%20Txt%20~%20Data%20Analytics%20~%20BigQuery_big%20query-bigquery-en-KWID_43700030995747722-aud-970366092687%3Akwd-47616965283&userloc_1009278-network_g&utm_term=KW_bigquery&gclid=Cj0KCQjwpeaYBhDXARIsAEzItbE-tc-5bp5UBA10zSaedVcuXomfZqnBKG7BRSL-CG122D0TceOOXTEaAgIQEALw_wcB&gclsrc=aw.ds
