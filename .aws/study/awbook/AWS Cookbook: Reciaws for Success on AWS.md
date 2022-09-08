@@ -1,6 +1,12 @@
 https://github.com/orgs/AWSCookbook/repositories?type=all
 
 # cli
+ls -la ~/.aws
+
+cat ~/.aws/config
+
+https://dev.classmethod.jp/articles/mac-aws-cli/
+
 https://aws.amazon.com/jp/cli/
 
 >AWS CloudShell
