@@ -25,6 +25,11 @@ https://blog.microcms.io/jamstack-introduction/
 Jamstack公式サイト
 https://jamstack.org/
 
+# Dynamic Rendering
+https://tech.hello.ai/entry/2022/05/09/135247
+
+>Rendertron
+https://github.com/GoogleChrome/rendertron
 
 # GraphQL 問題点
 https://engineering.mercari.com/blog/entry/20220303-concerns-with-using-graphql/
