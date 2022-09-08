@@ -5,6 +5,8 @@ ls -la ~/.aws
 
 cat ~/.aws/config
 
+https://docs.aws.amazon.com/ja_jp/cli/latest/userguide/getting-started-install.html
+
 https://dev.classmethod.jp/articles/mac-aws-cli/
 
 https://aws.amazon.com/jp/cli/
