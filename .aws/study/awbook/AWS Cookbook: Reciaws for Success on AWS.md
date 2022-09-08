@@ -1,5 +1,10 @@
 https://github.com/orgs/AWSCookbook/repositories?type=all
 
+# cli
+https://aws.amazon.com/jp/cli/
+
+>AWS CloudShell
+
 # AWS Cookbook 
 2022/09/08 start
 https://github.com/awscookbook
