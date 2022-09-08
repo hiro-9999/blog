@@ -1,7 +1,10 @@
 # Headless CMS
 https://www.aspicjapan.org/asu/article/15445
 
-# Vercel Vercel(https://vercel.com/)
+>microcms
+https://microcms.io/
+
+# Vercel Vercel(https://vercel.com/) 🔴🔴
 初心者でもできるNext.jsのVercelへのデプロイ方法(GitHub経由)
 https://reffect.co.jp/react/next-js-github-vercel
 
@@ -11,3 +14,13 @@ https://reffect.co.jp/php
 https://reffect.co.jp/laravel
 
 https://reffect.co.jp/python
+
+
+# Jamstack
+Nuxt.jsやNext.jsなどJamstackを実現する静的サイトジェネレータ
+実数で確認してみましょう。
+例えばJamstack構成でよく使われるCloudFrontはなんと標準で1秒あたり25万アクセスに耐えうる設計をしています。
+https://blog.microcms.io/jamstack-introduction/
+
+Jamstack公式サイト
+https://jamstack.org/
