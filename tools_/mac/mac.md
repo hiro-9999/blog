@@ -1,6 +1,9 @@
 # 输入以下命令，回车；
 sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 
+
+https://macwk.com/
+
 ## soft page
 http://www.pc6.com/mac/111949.html
 
