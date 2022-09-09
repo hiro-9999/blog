@@ -34,6 +34,8 @@ https://github.com/golang-standards/project-layout/blob/master/README_ja.md
 # 环境 ok
 http://lic-server.mephi.ru
 
+http://lic-server.mephi.ru
+
 https://jetbra.in
 
 https://macwk.com/article/jetbrains-crack
