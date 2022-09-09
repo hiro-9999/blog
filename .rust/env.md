@@ -1,6 +1,8 @@
 https://blog.csdn.net/shangsongwww/article/details/119538415
 
 > jetbrains Toolbox
+https://my.oschina.net/zq2599/blog/5223800 免费申请和使用 IntelliJ IDEA 商业版 License 指南
+
 ### help=> vm option🔴 -javaagent:/Applications/ja-netfilter/ja-netfilter.jar
 
 https://github.com/hiro-9999/blog/blob/master/.%E5%85%83%E5%AE%87%E5%AE%99/golang/%E6%BF%80%E6%B4%BB%E6%8F%92%E4%BB%B62022.1.0.zip
