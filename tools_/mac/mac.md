@@ -1,8 +1,12 @@
 # 输入以下命令，回车；
 sudo xattr -d com.apple.quarantine /Applications/xxxx.app
 
-
-https://macwk.com/
+# soft good 🔴
+https://giveaway.tickcoupon.com/imymac-powermymac-license-key-free/
+```
+User ID: giveaway@giveawayoftheday.com
+License Key: 1BF08BDDE2A1755B5D6710B0A081CE51
+```
 
 ## soft page
 http://www.pc6.com/mac/111949.html
