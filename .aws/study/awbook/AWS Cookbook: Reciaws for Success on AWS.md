@@ -17,6 +17,8 @@ https://aws.amazon.com/jp/cli/
 
 https://udemy.benesse.co.jp/development/system/aws-cli.html
 
+https://docs.aws.amazon.com/ja_jp/cli/v1/userguide/install-macos.html
+
 # AWS Cookbook 
 2022/09/08 start
 https://github.com/awscookbook
