@@ -1,6 +1,10 @@
 # video good
 https://www.bilibili.com/video/BV1NE411R7XF?p=3&spm_id_from=pageDriver
 
+
+https://iteablue.com/posts/category/aws-cloud
+
+
 # AWS EC2にSSHでアクセスする方法
 https://engineer-ninaritai.com/aws-ec2-make/
 
