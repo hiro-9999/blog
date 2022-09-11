@@ -21,6 +21,20 @@ AWS操作指南系列课程：https://www.bilibili.com/video/av51638898?from=sea
 
 AWS官方视频中心：http://aws.amazon.bokecc.com/
 
+学习
+Jayendra's Blog
+
+挨踢茶馆
+
+刷题
+www.lleicloud.com/index.php/a…
+
+www.briefmenow.org/amazon/
+
+mytodo.vip/
+
+quizlet.com/euxyabe
+
 
 
 https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
