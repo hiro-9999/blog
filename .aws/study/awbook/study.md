@@ -5,6 +5,8 @@ https://www.lalapodo.com/
 
 https://zhuanlan.zhihu.com/p/110184463
 
+https://www.ernestchiang.com/zh/posts/2022/aws-learning-path-and-strategy/
+
 AWS官网：https://amazonaws-china.com/ 和 https://amazonaws.com
 
 AWS培训官网：https://amazonaws-china.com/cn/training/
