@@ -1,0 +1,1 @@
+https://webkaru.net/linux/
