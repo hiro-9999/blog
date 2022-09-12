@@ -1,12 +1,20 @@
 https://www.amazon.jobs/zh/jobs/939653/network-development-engineer
 
+
+# 一亩三分地
+https://www.1point3acres.com/bbs/
+
+
+# Linux Command Line and Shell Scripting Bible
+
 https://blog.51cto.com/gingerbeer/2463610
 
 ```
+https://blog.51cto.com/gingerbeer/2463610
 路由协议
 为了彻底了解OSPF和BGP，市面上无数的书籍中，一本足矣。
 
-那就是Jeff Doyle的TCP/IP 路由技术卷一、卷二。
+那就是Jeff Doyle的TCP/IP 路由技术卷一、卷二。🔴
 
 我以前到现在读了无数遍，这一次再次针对上面两个协议，彻彻底底的过了一遍，那需要了解到什么程度呢，以OSPF为例，你需要记下来每一个LSA数据包结构字段的含义，以及每一个OSPF 数据包类型的结构和对应的flag标识。
 
