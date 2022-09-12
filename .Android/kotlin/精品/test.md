@@ -1,6 +1,9 @@
 # test ui 🔴
 https://medium.com/mobile-app-development-publication/testing-composable-in-jetpack-compose-android-testing-fundamentals-d89d8d7115ae
 
+# How can I use Maestro using Jetpack Compose
+https://www.composables.co/blog/maestro
+
 # kotest
 https://github.com/kotest/kotest
 
