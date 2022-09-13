@@ -12,14 +12,22 @@ eni （Elastic Network Interface） AWSのENIは、物理的環境において�
 route53
 acm
 
-load balancer
+load balancer　　ELB(ALB)
+DynamoDB
+redshift
+elasticache
+aurora
+
 auto scaling
 ddb throttle
 api gateway
 lambda
 stepfunction
 cloudformation
-s3
+s3 glacier
+sqs
+sns
+
 ec2
 sqs
 sns
