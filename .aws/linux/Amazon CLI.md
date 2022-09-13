@@ -4,6 +4,33 @@ https://docs.amazonaws.cn/cli/latest/userguide/cli-chap-welcome.html
 # study 🔴
 https://engineer-ninaritai.com/aws-lesson-list/
 ```
+find -name "*test*" https://engineer-ninaritai.com/linux-file-search/
+find [オプション] [検索文字列]
+touch test{1..10}.txt
+ls -la
+apt-get install bind9
+sudo su
+Debian
+Ubuntu
+Kali Linux https://engineer-ninaritai.com/linux-install-easy/
+apache2.config  vi /etc/apache2/apache2.config
+
+/etc/init.d/apache2 restart https://engineer-ninaritai.com/apache-basic-authentication-config/
+service apache2 restart
+
+vi /etc/httpd/httpd.conf
+
+git add .
+git commit -m "first commit"
+git push --set-upstream origin master
+
+
+Webサーバー
+DNSサーバー
+Linuxの基礎コマンド
+IPアドレス
+ルーティング
+
 IAM https://engineer-ninaritai.com/aws-lesson-list/
 vpc (Amazon Virtual Private Cloud)
 subset [](https://docs.aws.amazon.com/zh_cn/vpc/latest/userguide/configure-subnets.html)
