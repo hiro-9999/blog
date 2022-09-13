@@ -4,7 +4,7 @@ https://docs.amazonaws.cn/cli/latest/userguide/cli-chap-welcome.html
 # study 🔴
 https://engineer-ninaritai.com/aws-lesson-list/
 ```
-IAM
+IAM https://engineer-ninaritai.com/aws-lesson-list/
 vpc (Amazon Virtual Private Cloud)
 subset [](https://docs.aws.amazon.com/zh_cn/vpc/latest/userguide/configure-subnets.html)
 security group
