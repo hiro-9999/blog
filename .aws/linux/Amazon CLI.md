@@ -11,6 +11,7 @@ security group
 eni （Elastic Network Interface） AWSのENIは、物理的環境においてのNIC（Network Interface Card）を指します。
 route53
 acm
+NACLs
 
 load balancer　　ELB(ALB)
 DynamoDB
