@@ -1,6 +1,8 @@
 # Amazon CLI 
 https://docs.amazonaws.cn/cli/latest/userguide/cli-chap-welcome.html
 
+# aws iam creat-user --cli-auto-ptompt
+
 # study 🔴
 https://engineer-ninaritai.com/aws-lesson-list/
 ```
