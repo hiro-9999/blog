@@ -8,6 +8,8 @@ https://engineer-ninaritai.com/aws-lesson-list/
 ```
 STS 認証
 
+ACL intent setting ???
+
 SAM. 
 Serverless Application Model  https://dev.classmethod.jp/articles/sam-lambda-with-library/
 SAMのメリットは？
