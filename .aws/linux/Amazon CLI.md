@@ -7,12 +7,14 @@ https://docs.amazonaws.cn/cli/latest/userguide/cli-chap-welcome.html
 https://engineer-ninaritai.com/aws-lesson-list/
 ```
 STS 認証
-sam Serverless Application Model  https://dev.classmethod.jp/articles/sam-lambda-with-library/
+
+SAM. 
+Serverless Application Model  https://dev.classmethod.jp/articles/sam-lambda-with-library/
 SAMのメリットは？
 Lambda関数実装時の開発の手間を大幅に削減することができます。
 
 Lambdaの関数を実際にAWS上でデプロイしなくても、ローカルの開発マシンでLambdaの動きを再現することが可能です。Lambdaに与えられるパラメータもjson形式で定義しておくことができるので、開発時にわざわざLambdaをデプロイして、テスト実行する、という手間を省くことができるのです。
-https://www.fenet.jp/aws/column/technique/437/
+https://www.fenet.jp/aws/column/technique/437/ 🔴
 
 
 find -name "*test*" https://engineer-ninaritai.com/linux-file-search/
