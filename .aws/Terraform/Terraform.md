@@ -8,7 +8,7 @@ HashiCorpによってGo言語で開発されました。具体的にはTerraform
 https://www.lac.co.jp/lacwatch/service/20200903_002270.html
 
 ## pulumi 2019
-https://qiita.com/kenseitogari1/items/0c16f2434a3b7178b7bb
+https://www.pulumi.com/docs/intro/vs/terraform/
 
 ## ansible 2012
 
