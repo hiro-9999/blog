@@ -33,6 +33,9 @@ https://search.censys.io/
 
 >然后搜索框输入🔴
 
+# [Rust] 開発環境と実行環境が違う場合のビルド方法
+https://dev.classmethod.jp/articles/rust-crosscompile/
+
 ```
 services.http.response.headers.location: account.jetbrains.com/fls-auth
 ```
