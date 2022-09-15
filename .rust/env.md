@@ -11,7 +11,7 @@ Homebrew を使わずにインストールすることもできます。
 ターミナル
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
-# debug tool
+# debug tool 🔴
 https://plugins.jetbrains.com/plugin/12775-native-debugging-support
 
 https://plugins.jetbrains.com/plugin/8182-rust/docs/rust-debugging.html
