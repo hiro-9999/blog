@@ -1,3 +1,17 @@
+# install 🔴
+```
+https://qiita.com/notakaos/items/9f3ee8a3f3a0caf39f7b
+# rustupインストールおよびrust環境のセットアップ
+brew install rustup-init
+rustup-init
+# シェルの再起動
+exec $SHELL -l
+Homebrew を使わずにインストールすることもできます。
+
+ターミナル
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
 https://blog.csdn.net/shangsongwww/article/details/119538415
 
 > jetbrains Toolbox
