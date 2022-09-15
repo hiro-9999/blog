@@ -11,6 +11,13 @@ Homebrew を使わずにインストールすることもできます。
 ターミナル
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+# debug tool
+https://plugins.jetbrains.com/plugin/12775-native-debugging-support
+
+https://plugins.jetbrains.com/plugin/8182-rust/docs/rust-debugging.html
+
+In IntelliJ IDEA Ultimate and other IDEs, debugging is available for LLDB only, and it requires the Native Debugging Support plugin. You will also need to install the debugger binaries separately (IntelliJ Rust will prompt you to do that upon starting the first debug session).
+
 
 https://blog.csdn.net/shangsongwww/article/details/119538415
 
