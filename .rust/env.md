@@ -47,6 +47,9 @@ https://www.ahhhhfs.com/18694/
 # php 
 http://134.53.225.196
 
+# vs code🔴
+https://chigusa-web.com/blog/vs-code-rust-remote/
+
 
 
 
