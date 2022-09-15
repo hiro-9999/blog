@@ -11,6 +11,9 @@ Homebrew を使わずにインストールすることもできます。
 ターミナル
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 ```
+### debug need docker
+https://docs.docker.com/desktop/install/mac-install/
+
 # debug tool 🔴
 https://plugins.jetbrains.com/plugin/12775-native-debugging-support
 
