@@ -1,6 +1,10 @@
 # MacでDockerを使ってubuntu環境を構築する 🔴
-
 https://qiita.com/yasuoka_dev/items/073f7e8c7dba75993323
+
+### python env
+https://kazu-oji.com/python-quickly-create-env-docker/
+
+
 ```shell
 docker pull ubuntu:18.04
 docker images
