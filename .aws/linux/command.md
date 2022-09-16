@@ -11,6 +11,8 @@ Linux Command Line and Shell Scripting Bible (Richard Blum, Christine Bresnahan)
 
 Mastering Linux System Administration (Christine Bresnahan, Richard Blum) (z-lib.org)
 
+CompTIA Linux+ Study Guide Exam XK0-005, 5th Edition (Richard Blum, Christine Bresnahan) (z-lib.org)
+
 Richard Blum
 
 ```shell
