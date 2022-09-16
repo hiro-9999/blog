@@ -9,6 +9,25 @@ https://zenn.dev/nkys39/articles/setup-docker-commandless
 
 https://zenn.dev/optimisuke/articles/05cc509d1a106d16fe17
 
+### php env🟡
+https://tech-lab.sios.jp/archives/18677
+```Docker
+Dockerコンテナを作成するためのDockerfileです。
+
+# Apache上でPHPが動くDockerイメージを取得します。
+FROM php:7.3.8-apache
+
+# xdebugの設定をコンテナにコピーします。このディレクトリに
+# コピーするとPHPの設定として有効になります。xdebug.iniについては後述します。
+ADD xdebug/xdebug.ini /usr/local/etc/php/conf.d/xdebug.ini
+
+# デバッグ対象のPHPをコンテナにコピーします。
+ADD html/index.php /var/www/html
+
+# xdebugのインストールをします。
+RUN pecl install xdebug && docker-php-ext-enable xdebug
+```
+
 ### python env
 https://kazu-oji.com/python-quickly-create-env-docker/
 
