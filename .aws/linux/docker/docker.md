@@ -1,8 +1,19 @@
 # MacでDockerを使ってubuntu環境を構築する 🔴
+https://weseek.co.jp/tech/2331/
+
 https://qiita.com/yasuoka_dev/items/073f7e8c7dba75993323
+
+https://zenn.dev/nkys39/articles/setup-docker-commandless
+
+https://zenn.dev/optimisuke/articles/05cc509d1a106d16fe17
 
 ### python env
 https://kazu-oji.com/python-quickly-create-env-docker/
+
+https://chigusa-web.com/blog/vs-code%E3%81%A7docker%E3%81%AEpython%E7%92%B0%E5%A2%83%E3%81%A7%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E9%96%8B%E7%99%BA/
+
+### front env
+https://qiita.com/P-man_Brown/items/298e34af3fd6d363e085
 
 
 ```shell
