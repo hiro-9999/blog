@@ -9,9 +9,25 @@ How Linux Works What Every Superuser Should Know (Brian Ward) (z-lib.org)
 
 Linux Command Line and Shell Scripting Bible (Richard Blum, Christine Bresnahan) (z-lib.org)
 
+Mastering Linux System Administration (Christine Bresnahan, Richard Blum) (z-lib.org)
+
+Richard Blum
+
 ```shell
 ѕudо apt uрdаtе  
 sudo apt upgrade
+
+“System memory management
+Software program management
+Hardware management
+Filesystem management”
+
+抜粋:
+Linux Fundamentals, Second Edition
+Richard Blum
+
+$ runlevel
+ps ax 
 
 
 登录与注销
