@@ -3,6 +3,10 @@ https://webkaru.net/linux/
 https://blog.csdn.net/as604049322/article/details/120446586?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522166295545316782427414474%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=166295545316782427414474&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-120446586-null-null.142^v47^pc_rank_34_1,201^v3^control&utm_term=linux&spm=1018.2226.3001.4187
 
 ```shell
+ѕudо apt uрdаtе  
+sudo apt upgrade
+
+
 登录与注销
 1)	sudo useradd lilei  //添加用户 (不能被立即使用，需设置密码 sudo passwd lilei)  
 2)	sudo adduser lilei  //添加用户
