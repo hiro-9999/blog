@@ -38,6 +38,10 @@ https://kazu-oji.com/python-quickly-create-env-docker/
 
 https://chigusa-web.com/blog/vs-code%E3%81%A7docker%E3%81%AEpython%E7%92%B0%E5%A2%83%E3%81%A7%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E9%96%8B%E7%99%BA/
 
+
+# Compose and Rails
+https://docs.docker.com/samples/rails/
+
 ### front env
 https://qiita.com/P-man_Brown/items/298e34af3fd6d363e085
 
