@@ -15,6 +15,24 @@ CompTIA Linux+ Study Guide Exam XK0-005, 5th Edition (Richard Blum, Christine Br
 
 Richard Blum
 
+### .bashrc と .bash_profile の使ひ分け
+.bash_profile はログイン時にのみ実行されます。具体的な用途は:
+.bash_profileには環境変数だったり、PCの設定で必要な記述をする。
+
+.bashrcにはコマンドラインで使うエイリアスやターミナルの設定を書いていくって感じかな！
+
+環境変数を設定する (export する変数)
+https://qiita.com/magicant/items/d3bb7ea1192e63fba850
+
+.bashrc
+.bashrc は対話モードの bash を起動する時に毎回実行されます。具体的な用途は:
+
+環境変数でない変数を設定する (export しない変数)
+エイリアスを定義する
+シェル関数を定義する
+コマンドライン補完の設定をする
+これらは bash を起動する度に毎回設定する必要があるものです。
+
 ```shell
 ѕudо apt uрdаtе  
 sudo apt upgrade
