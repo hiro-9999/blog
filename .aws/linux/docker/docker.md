@@ -9,7 +9,10 @@ https://zenn.dev/nkys39/articles/setup-docker-commandless
 
 https://zenn.dev/optimisuke/articles/05cc509d1a106d16fe17
 
+＃＃　image docker docker-compose up is good
 https://qiita.com/Dai_Kentaro/items/de26054e8cf1e019a667
+
+Docker Compose
 
 ### php env🟡
 https://tech-lab.sios.jp/archives/18677
