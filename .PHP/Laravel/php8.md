@@ -95,8 +95,13 @@ print_r($lengths);
 ?>
 ```
 
-## trait
+## trait トレイト
 https://www.w3schools.com/php/php_oop_traits.asp
+
+Laravelのフレームワーク内のソースコードを題材に解説してみました。
+https://www.sria.co.jp/blog/2022/06/6772/
+
+https://qiita.com/kazuhei/items/dd4e275c03eb6916f522
 
 ```php
 <?php
