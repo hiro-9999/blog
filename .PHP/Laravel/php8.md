@@ -1,5 +1,121 @@
 # page 🔴
 https://www.w3schools.com/php/php_file_open.asp
 
+https://www.w3schools.com/php/php_superglobals_server.asp
+
+```php 
+$_SERVER['PHP_SELF'] https://wepicks.net/phpref-server/
+<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+$_SERVER['PHP_SELF']をhtmlspecialchars🔴でエスケープする ことです。また、CGI版以外では$ _SERVER['PHP_SELF']の代わりに$_SERVER ['SCRIPT_NAME']を用いることも可能です。もしくは、formタグ内の action属性 値を空にしてもいいでしょう。
+同様の脆弱性が$_SERVER['PATH_INFO']と$_SERVER['PATH_TRANSLATED']にもXSS存在します。お気を付け下さい。
+
+特殊文字	    html変換
+＆（アンパサンド）	＆amp
+“（二重引用符）	＆quot;
+‘（一重引用符）	&apos;
+<（より小）	    &lt;
+>（より大きい）	 ＆gt;
+
+Strip unnecessary characters (extra space, tab, newline) from the user input data (with the PHP trim() function)
+ stripslashes()🔴 Remove backslashes (\) from the user input data (with the PHP stripslashes() function)
+
+$_SERVER['HTTP_ACCEPT']
+$_SERVER['REMOTE_ADDR']
+$_SERVER['REMOTE_HOST']
+
+XSSや悪意のあるスクリプトによる攻撃 https://flytech.work/blog/7620/
+■Laravel
+viewの出力箇所に「{{ $name }}」と実装することでXSS対策を行うことができます。
+もし、タグをそのまま実行したいときは「{!! $name !!}」 🔴 とするとタグをそのまま実行します。 https://tech-lab.sios.jp/archives/21780
+
+「Cross Site Scripting」の略称として「XSS」. WAFで防御する
+https://www.shadan-kun.com/waf/xss/
+
+<?php
+function getIterable():iterable {
+  return ["a", "b", "c"];
+}
+$a = "";
+$myIterable = getIterable();
+foreach($myIterable as $item) {
+  $a .=($item ."/n") ;
+  echo $item;
+  //改行タグ<br>と改行文字"\n"で改行
+  echo "<br>\n";  // https://www.flatflag.nir87.com/nl2br-540
+}
+echo nl2br($a,false) ;
+?>
+
+```
+## array
+https://www.w3schools.com/php/php_ref_array.asp
+
+# regex
+https://www.w3schools.com/php/php_regex.asp
+
+https://www.w3schools.com/php/func_regex_preg_filter.asp
+
+# AJAX and PHP
+https://www.w3schools.com/php/php_ajax_php.asp
 
 https://kinsta.com/jp/blog/php-8/
+
+### preg_quote() 
+https://www.w3schools.com/php/func_regex_preg_quote.asp
+```php
+<?php
+$search = preg_quote("://", "/");
+$input = 'https://www.w3schools.com/';
+$pattern = "/$search/";
+if(preg_match($pattern, $input)) {
+  echo "The input is a URL.";
+} else {
+  echo "The input is not a URL.";
+}
+?>
+
+filter_var https://www.w3schools.com/php/php_filter_advanced.asp
+```
+
+## callback functions
+```php
+<?php
+$strings = ["apple", "orange", "banana", "coconut"];
+$lengths = array_map( function($item) { return strlen($item); } , $strings);
+print_r($lengths);
+
+
+function my_callback($item) {
+  return strlen($item);
+}
+
+$strings = ["apple", "orange", "banana", "coconut"];
+$lengths = array_map("my_callback", $strings);
+print_r($lengths);
+?>
+```
+
+## trait
+https://www.w3schools.com/php/php_oop_traits.asp
+
+```php
+<?php
+trait message1 {
+public function msg1() {
+    echo "OOP is fun! "; 
+  }
+}
+
+class Welcome {
+  use message1;
+}
+
+$obj = new Welcome();
+$obj->msg1();
+?>
+PHP only supports single inheritance: a child class can inherit only from one single parent.
+
+So, what if a class needs to inherit multiple behaviors? OOP traits solve this problem.
+
+Traits are used to declare methods that can be used in multiple classes. Traits can have methods and abstract methods that can be used in multiple classes, and the methods can have any access modifier (public, private, or protected).
+```
