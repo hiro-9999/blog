@@ -26,6 +26,9 @@ https://hirauchi-genta.com/category/kotlin/
  ## Compose samples 🔴
  https://medium.com/androiddevelopers/thinking-in-compose-c4ef150bb7cf
  
+ ## adb command
+ https://medium.com/androiddevelopers/deep-links-crash-course-part-3-troubleshooting-your-deep-links-61329fecb93
+ 
  ### tailrec 
  ```
 val map = mutableMapOf(1 to "one")
