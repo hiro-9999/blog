@@ -23,6 +23,9 @@ https://hirauchi-genta.com/category/kotlin/
  
  https://hirauchi-genta.com/kotlin-mvp-1/
  
+ ## Compose samples 🔴
+ https://medium.com/androiddevelopers/thinking-in-compose-c4ef150bb7cf
+ 
  ### tailrec 
  ```
 val map = mutableMapOf(1 to "one")
