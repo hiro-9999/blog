@@ -3,7 +3,74 @@ https://www.w3schools.com/php/php_file_open.asp
 
 https://www.w3schools.com/php/php_superglobals_server.asp
 
+
+# books
+PHP, MySQL,  JavaScript All-in-One For Dummies (Richard Blum) (z-lib.org)
+
+https://pecl.php.net
+
 ```php 
+filter_var Data-Sanitizing Options
+FILTER_SANITIZE_EMAIL 
+FILTER_SANITIZE_STRING
+
+htmlspecialchars
+
+color: hsla(0, 100%, 50%, 0.5)
+background: linear-gradient(red, orange);
+
+<link rel="stylesheet" href="desktop.css" media="screen and (max-width:500px)">
+
+console.log()
+
+<!DOCTYPE html>
+<!--
+COMMENTING
+-->
+<meta charset="UTF-8">
+<ol type="I">
+
+<style>
+table tr td {
+border: 1px solid black;
+border-collapse: collapse; //doble line
+} </style>
+
+<fieldset>
+ <legend>Enter your name</legend> <label>
+ Last Name
+ <input type="text" name="lastname"> </label>
+ <label>
+ First Name
+ <input type="text" name="firstname"> </label>
+</fieldset>
+
+ CSS3 code necessary to extract the border image properties.
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Border-image_generator
+
+p::first-letter {font-size: 20px}
+Pseudo-Class
+
+ /etc/httpd or /etc/apache2.
+ 
+sudo apt-get install apache2
+sudo apt-get install mysql-server
+
+ 
+ sudo apt-get install php libapache2-mod-php
+sudo apt-get install php-mcrypt php-mysql
+sudo apt-get install phpmyadmin
+
+sudo dnf install httpd
+sudo systemctl enable httpd
+sudo systemsctl start httpd
+
+sudo systemctl restart httpd
+
+ sudo dnf install mariadb-server
+sudo systemctl enable mariadb
+sudo systemctl start mariadb
+
 $_SERVER['PHP_SELF'] https://wepicks.net/phpref-server/
 <form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
 $_SERVER['PHP_SELF']をhtmlspecialchars🔴でエスケープする ことです。また、CGI版以外では$ _SERVER['PHP_SELF']の代わりに$_SERVER ['SCRIPT_NAME']を用いることも可能です。もしくは、formタグ内の action属性 値を空にしてもいいでしょう。
