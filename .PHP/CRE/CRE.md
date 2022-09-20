@@ -11,3 +11,4 @@ AWSやAzureといったクラウド製品の使用経験
 各種ミドルウェアやOSSの使用経験
 BtoB製品やSaaS製品のプリセールス経験
 ```
+https://karakuri.ai/media/727
