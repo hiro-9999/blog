@@ -9,6 +9,15 @@ PHP, MySQL,  JavaScript All-in-One For Dummies (Richard Blum) (z-lib.org)
 
 https://pecl.php.net
 
+# UI Workbench
+https://www.mysql.com/jp/products/workbench/
+```sql
+SHOW DATABASES;
+mysqldump --user=root --password dbtest1 > dbtest1.sql
+mysql --user=root --password dbtest1 < dbtest1.sql
+
+```
+
 ```php 
 filter_var Data-Sanitizing Options
 FILTER_SANITIZE_EMAIL 
