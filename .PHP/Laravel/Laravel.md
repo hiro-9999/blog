@@ -1,8 +1,17 @@
 # Laravel ララベル
 https://laravel.com/
 
+
 https://hnavi.co.jp/knowledge/blog/laravel/
 
+# books
+Laravel 9.x Documentation
+```php
+php artisan test --coverage
+
+# 🔴　automate your application upgrades
+https://laravelshift.com
+```
 
 # full-stack フルスタック
 ウェブ開発には、サーバーの構築、ネットワークインフラの整備、システムやUIの設計・デザイン、プログラミング、コーディング、等々、さまざまな技術要素が求められる。それぞれ異なる技術や知識が求められるため、サーバーエンジニア、ネットワークエンジニア、ウェブプログラマーにコーダーと、複数名で分業する形を取るのが一般的といえる。これらの業務を一手にこなし、開発業務の大半あるい全部を単独で構築してしまえるような技術者がフルスタックなエンジニアと呼ばれる。
