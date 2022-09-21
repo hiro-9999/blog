@@ -11,6 +11,18 @@ php artisan test --coverage
 
 # 🔴　automate your application upgrades
 https://laravelshift.com
+
+### Shift - Upgrading from Laravel 5.4 to Laravel 9.x (Part 1)
+https://www.youtube.com/watch?v=xLLylL0aru0&ab_channel=JasonMcCreary
+
+https://www.youtube.com/watch?v=OW2div5-Udk&ab_channel=LaravelDaily
+
+https://zenn.dev/naopusyu/articles/444d1bbcb6d664
+
+https://kzkohashi.hatenablog.com/entry/2018/12/11/071415
+
+
+Laravel Roles and Permissions: All CORE Things You Need To Know
 ```
 
 # full-stack フルスタック
