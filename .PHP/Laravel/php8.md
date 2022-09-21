@@ -21,6 +21,8 @@ mysql --user=root --password dbtest1 < dbtest1.sql
 ```
 
 ```php 
+echo PHP_EOL; //改行コード https://www.sejuku.net/blog/23486
+
 filter_var Data-Sanitizing Options
 FILTER_SANITIZE_EMAIL 
 FILTER_SANITIZE_STRING
