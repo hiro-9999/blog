@@ -7,9 +7,33 @@ https://hnavi.co.jp/knowledge/blog/laravel/
 # pakage find 🔴
 https://packagist.org/
 
-# books
+# books 🔴
+```
+Laravel框架关键技术解析
+
+Practical Laravel: Develop clean MVC web applications
+https://github.com/PracticalBooks/Practical-Laravel
+
+Laravel: Up & Running: A Framework for Building Modern PHP Apps
+
 Laravel 9.x Documentation
+
+
+Beginning Laravel
+
+
+Laravel: The Modular Way
+
+Laravel queues in action
+
+LARAVEL FOR BEGINNERS
+	
+BaseLaravel
+```
+
 ```php
+composer create-project --prefer-dist laravel/laravel appname
+
 php artisan test --coverage
 
 # 🔴　automate your application upgrades
