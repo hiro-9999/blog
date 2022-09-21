@@ -4,6 +4,9 @@ https://laravel.com/
 
 https://hnavi.co.jp/knowledge/blog/laravel/
 
+# pakage find 🔴
+https://packagist.org/
+
 # books
 Laravel 9.x Documentation
 ```php
@@ -12,7 +15,7 @@ php artisan test --coverage
 # 🔴　automate your application upgrades
 https://laravelshift.com
 
-### Shift - Upgrading from Laravel 5.4 to Laravel 9.x (Part 1)
+### Shift - Upgrading from Laravel 5.4 to Laravel 9.x (Part 1)  🔴
 https://www.youtube.com/watch?v=xLLylL0aru0&ab_channel=JasonMcCreary
 
 https://www.youtube.com/watch?v=OW2div5-Udk&ab_channel=LaravelDaily
@@ -23,6 +26,12 @@ https://kzkohashi.hatenablog.com/entry/2018/12/11/071415
 
 
 Laravel Roles and Permissions: All CORE Things You Need To Know
+
+composer remove :::
+composer update
+composer required laravel/ui
+php artisan  https://knowledge.cpi.ad.jp/howto-cpi/laravel-artisan/
+Shift - Upgrading from Laravel 8 to Laravel 9  https://www.youtube.com/watch?v=2c2s8QHuHi8&ab_channel=JasonMcCreary
 ```
 
 # full-stack フルスタック
