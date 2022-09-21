@@ -1,10 +1,10 @@
 # page 🔴
-https://syncer.jp/Web/PHP/Reference/Function/array_intersect/
-
 https://www.w3schools.com/php/php_file_open.asp
 
 https://www.w3schools.com/php/php_superglobals_server.asp
 
+# 🔴関数リファレンス
+https://syncer.jp/Web/PHP/Reference/Function/array_intersect/
 
 # books
 PHP, MySQL,  JavaScript All-in-One For Dummies (Richard Blum) (z-lib.org)
