@@ -7,6 +7,9 @@ https://hnavi.co.jp/knowledge/blog/laravel/
 # pakage find 🔴
 https://packagist.org/
 
+### PHP 开发的规范即 PSR 编码规范标准
+https://www.php-fig.org
+
 # books 🔴
 ```
 Laravel框架关键技术解析
