@@ -1,4 +1,6 @@
 # page 🔴
+https://syncer.jp/Web/PHP/Reference/Function/array_intersect/
+
 https://www.w3schools.com/php/php_file_open.asp
 
 https://www.w3schools.com/php/php_superglobals_server.asp
