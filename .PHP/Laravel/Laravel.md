@@ -8,9 +8,13 @@ https://hnavi.co.jp/knowledge/blog/laravel/
 ## 6.0 install docker
 https://www.chickensblog.com/laravel-docker/
 
+https://yutaro-blog.net/2021/05/25/docker-laravel-vuejs-m1/
+
 https://grune.co.jp/blog/laravel-create-local-environment/
 
 https://zenn.dev/yasumasaabe/articles/enviroment-setting
+
+https://qiita.com/joh_luck/items/f3321ee81166aea0ff3b
 
 # pakage find 🔴
 https://packagist.org/
