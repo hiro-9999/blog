@@ -1,14 +1,29 @@
 # Laravel ララベル
 https://laravel.com/
 
+https://chigusa-web.com/blog/laravel-sail-mac/ ->insatll by sail
 
 https://hnavi.co.jp/knowledge/blog/laravel/
+
+## 6.0 install docker
+https://www.chickensblog.com/laravel-docker/
+
+https://grune.co.jp/blog/laravel-create-local-environment/
+
+https://zenn.dev/yasumasaabe/articles/enviroment-setting
 
 # pakage find 🔴
 https://packagist.org/
 
 ### PHP 开发的规范即 PSR 编码规范标准
 https://www.php-fig.org
+
+### composer page
+https://getcomposer.org
+
+https://www.vagrantup.com/downloads
+
+https://www.virtualbox.org/wiki/Downloads
 
 # books 🔴
 ```
