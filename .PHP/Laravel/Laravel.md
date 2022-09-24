@@ -5,6 +5,9 @@ https://chigusa-web.com/blog/laravel-sail-mac/ ->insatll by sail
 
 https://hnavi.co.jp/knowledge/blog/laravel/
 
+https://github.com/illuminate/contracts
+
+
 ## 6.0 install docker
 https://www.chickensblog.com/laravel-docker/
 
@@ -33,7 +36,11 @@ https://www.virtualbox.org/wiki/Downloads
 ```
 Laravel框架关键技术解析 ->good 2022/9/22
 
-Beginning Laravel ->9/23
+Beginning Laravel -> not good
+php artisan serve
+php artisan routes
+php artisan –list -> Controller staff
+php artisan controller:make UserController
 
 Practical Laravel: Develop clean MVC web applications
 https://github.com/PracticalBooks/Practical-Laravel
@@ -43,7 +50,7 @@ Laravel: Up & Running: A Framework for Building Modern PHP Apps
 Laravel 9.x Documentation
 
 
-
+ return redirect('/');  
 
 Laravel: The Modular Way
 
@@ -55,6 +62,13 @@ BaseLaravel
 ```
 
 ```php
+middleware 🟠
+https://progtext.net/programming/laravel-middleware/
+php artisan route:list
+https://blog.capilano-fw.com/?p=3987
+middleware https://codelikes.com/use-laravel-middleware/
+https://qiita.com/ktanoooo/items/a746a96b12489ae56553
+
 apt-get update
 apt-get install curl
 curl -sS https://getcomposer.org/installer | php
@@ -77,6 +91,33 @@ php artisan test --coverage
 $ref = new ReflectionClass('A');  //反射机制
 $inst = $ref->newInstanceArgs(); $inst->call();
 输出:Hello wshuo
+
+//config/database.php
+'default' => env('DB_CONNECTION', 'mysql'),
+It’s MySQL. We’re not going to change it for now although it’s temporary, because in the later part of the book we’ll see how we can work with SQLite database. At present just keep it as it is – our default database is MySQL. Now opening up our ‘.env’ file we add our database, username, and password.
+//.env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=testdb
+DB_USERNAME=root
+DB_PASSWORD=pass
+
+php artisan make:migration create_tasks_table --create="tasks"
+php artisan migrate
+php artisan make:migration add_reminder_to_tasks_table --table="tasks"
+
+//creating model task
+php artisan make:model Task
+
+//adding to database table ‘tasks’ by tinker
+php artisan tinker
+
+php artisan make:TaskController
+
+php artisan make:middleware RoleMiddleware
+
+
 
 app:主要包含应用程序的核心代码，用户构建应用的大部分工作都在这个目录下进行， 包括路由文件、控制器文件、模型文件等。
 bootstrap:主要包含几个框架启动和自动加载配置的文件。
