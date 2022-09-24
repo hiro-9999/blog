@@ -8,6 +8,11 @@ https://hnavi.co.jp/knowledge/blog/laravel/
 https://github.com/illuminate/contracts
 
 
+＃ vedio study 🔴
+https://laracasts.com
+
+https://laravel-news.com
+
 ## 6.0 install docker
 https://www.chickensblog.com/laravel-docker/
 
@@ -68,6 +73,8 @@ php artisan route:list
 https://blog.capilano-fw.com/?p=3987
 middleware https://codelikes.com/use-laravel-middleware/
 https://qiita.com/ktanoooo/items/a746a96b12489ae56553
+
+{{ HTML::link_to_action('users@login') }}  
 
 apt-get update
 apt-get install curl
