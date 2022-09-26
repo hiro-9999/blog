@@ -1,6 +1,32 @@
 # Laravel 速查表 🔴
 https://learnku.com/docs/laravel-cheatsheet/9.x
 
+Practical Laravel: Develop clean MVC web applications
+https://github.com/PracticalBooks/Practical-Laravel
+
+
+Laravel 9.x Documentation
+
+Laravel: The Modular Way
+
+Laravel queues in action
+
+Domain-Driven Laravel Learn to Implement Domain-Driven Design Using Laravel (Jesse Griffin) (z-lib.org)
+
+Design Patterns in PHP and Laravel (Kelt Dockins) (z-lib.org)
+
+Build an API with Laravel by Wacky Studio (Thomas Gamborg Nørgaard) (z-lib.org)
+
+Design Patterns in PHP and Laravel (Kelt Dockins) (z-lib.org)
+
+Easy Laravel 5 - A Hands On Introduction Using A Real World Project (W. Jason Gilmore) (z-lib.org)
+
+Full-Stack Vue.js 2 and Laravel 5 Bring the frontend and backend together with Vue, Vuex, and Laravel (Anthony Gore) (z-lib.org)
+
+Laravel  Code Smart (Dayle Rees) (z-lib.org)
+	
+BaseLaravel
+
 # video  🟠 Laravel 新手入门教程
 https://www.youtube.com/hashtag/laravel%E5%AD%A6%E4%B9%A0
 
