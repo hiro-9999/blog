@@ -9,6 +9,9 @@ https://www.youtube.com/watch?v=-RhVH2iyTJA&ab_channel=%E7%8C%BF%E6%8A%80%E6%9C%
 ### Laravel高级实战教程
 https://www.youtube.com/channel/UCr7rhORaDfGjsj3vPql4MTw
 
+# Laravel code
+https://github.com/laravel/framework/blob/5.8/src/Illuminate/Support/ServiceProvider.php
+
 # Laravel 编码技巧 🔴
 https://learnku.com/docs/laravel-tips/8.x
 
@@ -58,8 +61,53 @@ https://www.vagrantup.com/downloads
 
 https://www.virtualbox.org/wiki/Downloads
 
+# API
+php artisan make:controller Api\DogsController --api
+https://laravel.com/docs/9.x/eloquent-resources
+
+https://apisyouwonthate.com
+
+# Flysystem
+php artisan storage:link
+https://github.com/thephpleague/flysystem
+
+# session
+https://laravel.com/docs/master/session
+
+# cache
+https://laravel.com/docs/master/cache
+
+
+# log
+https://github.com/timacdonald/log-fake
+
+
+# mail
+https://laravel.com/docs/5.2/mail
+
+https://mailtrap.io
+
+php artisan make:mail AssignmentCreated --markdown=emails.assignment-created
+
 # test  🔴
+php artisan make:test UserTest
+https://laravel.com/docs/5.3/testing
+
 https://learnku.com/articles/71834
+
+>Mocking Facades
+ php artisan dusk:make RatingTest
+ 
+ php artisan dusk:page CreatePackage
+ https://laravel.com/docs/9.x/dusk
+ 
+  .env.dusk.local (and you can replace .local if you’re working in a different environment, like “staging”).
+  https://qiita.com/qwe001/items/96a83fadcfaeb3cd4a6e
+  APP_ENV=staging
+APP_DEBUG=false
+https://www.larajapan.com/2022/05/09/laravelはどの環境で実行されている？/
+
+https://laravelupandrunning.com/docs/laravel-up-and-running-1e-testing-chapter.pdf
 
 ### LaravelのModelの命名規則
 https://www.wakuwakubank.com/posts/453-laravel-sql-basic/
@@ -86,6 +134,10 @@ https://www.cnblogs.com/caibaotimes/articles/13603418.html
 ### schedule
 * * * * * php /home/myapp.com/artisan schedule:run >> /dev/null 2>&1
 
+https://codelikes.com/laravel-command-scheduling/
+
+https://qiita.com/Takuma_Ikeda/items/1323e5a6bea51860ed57
+
 https://psysh.org
 
 $ php artisan dump-server
@@ -102,7 +154,7 @@ https://learnku.com/laravel/t/67406
 laravel的服务容器，服务提供者Provider，门面facade的理解  🟠
 https://www.361shipin.com/blog/1552780834228928512
 
-
+IoC (inversion of control) container
 
 AppServiceProvider
 AuthServiceProvider
