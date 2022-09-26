@@ -6,7 +6,8 @@ https://www.youtube.com/hashtag/laravel%E5%AD%A6%E4%B9%A0
 
 https://www.youtube.com/watch?v=-RhVH2iyTJA&ab_channel=%E7%8C%BF%E6%8A%80%E6%9C%AF
 
-Laravel高级实战教程
+### Laravel高级实战教程
+https://www.youtube.com/channel/UCr7rhORaDfGjsj3vPql4MTw
 
 # Laravel 编码技巧 🔴
 https://learnku.com/docs/laravel-tips/8.x
