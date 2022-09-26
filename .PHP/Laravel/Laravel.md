@@ -1,3 +1,17 @@
+# Laravel 速查表 🔴
+https://learnku.com/docs/laravel-cheatsheet/9.x
+
+# video  🟠 Laravel 新手入门教程
+https://www.youtube.com/watch?v=-RhVH2iyTJA&ab_channel=%E7%8C%BF%E6%8A%80%E6%9C%AF
+
+Laravel高级实战教程
+
+# Laravel 编码技巧 🔴
+https://learnku.com/docs/laravel-tips/8.x
+
+### mix doc
+https://github.com/laravel-mix/laravel-mix/blob/master/docs/hot-module-replacement.md
+
 # Laravel ララベル 🔴
 https://learnku.com/docs/laravel/9.x/laravel-vite-compiles-assets/13052
 
@@ -66,8 +80,79 @@ https://www.cnblogs.com/caibaotimes/articles/13603418.html
 このように、テーブル名とモデル名を決められた規則で作成することで、Eloquentを使用して対象のテーブル操作が可能です。
 先ほどのコマンドを使用して、モデルと一緒にマイグレーションファイルを作成するとテーブル名をつけてくれるので楽です。
 
+### schedule
+* * * * * php /home/myapp.com/artisan schedule:run >> /dev/null 2>&1
+
+https://psysh.org
+
+$ php artisan dump-server
+
+### Providers 🟠
+https://laravel-news.com/service-providers
+
+让我们从 Laravel 中包含的默认服务提供者开始，它们都在 app/Providers 文件夹中：
+https://learnku.com/laravel/t/67406
+
+ 我们新建一个类或一个接口来提供某种服务， 此时有三个对象， 服务（也就是我们新建的类或接口）， 服务提供者（也就是 laravel 的 ServiceProvider）, 容器（也就是 container app()）
+
+我们通过服务提供者， 把一个服务 注册到 容器中
+laravel的服务容器，服务提供者Provider，门面facade的理解  🟠
+https://www.361shipin.com/blog/1552780834228928512
+
+
+
+AppServiceProvider
+AuthServiceProvider
+BroadcastServiceProvider
+EventServiceProvider
+RouteServiceProvider
+
+————————————————
+原文作者：诺墨
+转自链接：https://learnku.com/laravel/t/67406
+版权声明：著作权归作者所有。商业转载请联系作者获得授权，非商业转载请保留以上作者信息和原文链接。
+
+https://qiita.com/ucan-lab/items/738abfd650be76333da6
+config/app.php の providers に登録されているサービスプロバイダーはLaravelアプリケーションにリクエストの際に自動的に読み込まれます。
+
+https://blog.csdn.net/wuxing164/article/details/106155301
+
+php artisan optimizeしてキャッシュをクリアする必要があります。
+https://progtext.net/programming/laravel-service-provider/
+
+# Validator
+https://qiita.com/gone0021/items/c613ef7e006b6f5d47ce
+```php
+Validator::make($request->all(), [
+    'name' => 'required',
+    'age' => 'integer | between:0,150',
+    'sex' => ['max:1', 'regex:/^[男|女]+$/u'],
+  ])->validate(); // validateメソッドによるリダイレクト
+  return view('sample.index', ['msg' => 'OK']);
+```
 
 ```php
+  php artisan preset react
+    php artisan preset bootstrap
+    php artisan preset none
+    
+// PostsController
+https://laravel.com/docs/5.1/pagination
+public function index() {
+return view('posts.index', ['posts' => DB::table('posts')->paginate(20)]); }
+Example 6-15 specifies that this route should return 20 posts per page,
+
+    
+ddはLaravelで開発する時にデバックで使います。
+https://qiita.com/Hashimoto-Noriaki/items/e7546bff8a3e2e42aa9b
+
+uuid:
+composer require goldspecdigital/laravel-eloquent-uuid:^8.0
+https://qiita.com/howaito01/items/b529af6f4d3112b91818
+
+use Illuminate\Support\Str;
+$uuid = (string) Str::uuid();
+https://zenn.dev/nshiro/articles/07b1e4834b9214
 
  php artisan make:model Fruit -mcr  
 -m 将创建一个迁移文件
