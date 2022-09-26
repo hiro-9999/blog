@@ -38,6 +38,8 @@ https://www.vagrantup.com/downloads
 https://www.virtualbox.org/wiki/Downloads
 
 ### LaravelのModelの命名規則
+https://www.wakuwakubank.com/posts/453-laravel-sql-basic/
+
  php artisan make:model Fruit -m    
  
 https://codelikes.com/laravel-model/ 🔴
@@ -52,6 +54,35 @@ LaravelのModelの名前はテーブルに対して、単数形で書くよう�
 
 このように、テーブル名とモデル名を決められた規則で作成することで、Eloquentを使用して対象のテーブル操作が可能です。
 先ほどのコマンドを使用して、モデルと一緒にマイグレーションファイルを作成するとテーブル名をつけてくれるので楽です。
+```php
+https://leben.mobi/blog/laravel_orderby_eloquent/php/
+
+https://zenn.dev/yum3/articles/t_laravel_eloquent_performance パフォーマンスを上げる
+<?php
+   
+namespace App\Http\Controllers;
+   
+use Illuminate\Http\Request;
+use App\User;
+   
+class UserController extends Controller
+{
+    /**
+     * Display a listing of the resource.
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function index()
+    {
+        $users = User::select("*")
+                        ->where("status", 1)
+                        ->orderByDesc("name")
+                        ->get();
+   
+        dd($users);
+    }
+}
+```
 
 # books 🔴
 ```
