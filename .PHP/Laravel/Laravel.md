@@ -1,4 +1,6 @@
-# Laravel ララベル
+# Laravel ララベル 🔴
+https://learnku.com/docs/laravel/9.x/laravel-vite-compiles-assets/13052
+
 https://laravel.com/
 
 https://chigusa-web.com/blog/laravel-sail-mac/ ->insatll by sail
@@ -9,6 +11,8 @@ https://github.com/illuminate/contracts
 
 
 ＃ vedio study 🔴
+https://learnku.com/articles/71862
+
 https://laracasts.com
 
 https://laravel-news.com
@@ -37,6 +41,9 @@ https://www.vagrantup.com/downloads
 
 https://www.virtualbox.org/wiki/Downloads
 
+# test  🔴
+https://learnku.com/articles/71834
+
 ### LaravelのModelの命名規則
 https://www.wakuwakubank.com/posts/453-laravel-sql-basic/
 
@@ -44,6 +51,10 @@ https://www.wakuwakubank.com/posts/453-laravel-sql-basic/
  
 https://codelikes.com/laravel-model/ 🔴
 LaravelのModelの名前はテーブルに対して、単数形で書くように決まっています。
+https://www.jianshu.com/p/98e5de87816d/
+
+https://www.cnblogs.com/caibaotimes/articles/13603418.html
+
 
 例えば、テーブル名がusersの場合はモデル名はUserになります。
 先ほどのようにテーブル名がfruitsの場合はモデル名はFruitです。
@@ -54,7 +65,25 @@ LaravelのModelの名前はテーブルに対して、単数形で書くよう�
 
 このように、テーブル名とモデル名を決められた規則で作成することで、Eloquentを使用して対象のテーブル操作が可能です。
 先ほどのコマンドを使用して、モデルと一緒にマイグレーションファイルを作成するとテーブル名をつけてくれるので楽です。
+
+
 ```php
+
+ php artisan make:model Fruit -mcr  
+-m 将创建一个迁移文件
+-c 将创建一个控制器
+-r 表示控制器应该是一个资源控制器
+
+20 个 Laravel Eloquent 必备的实用技巧
+https://blog.csdn.net/summerliguilong/article/details/79984042 🟠
+protected $primaryKey = 'uuid'; // 更换主键
+public $incrementing = false; // 设置 不自增长
+protected $perPage = 25; // 定义分页每页显示数量（默认15）
+const CREATED_AT = 'created_at';
+const UPDATED_AT = 'updated_at'; //重写 时间字段名
+public $timestamps = false; // 设置不需要维护时间字段
+
+
 https://leben.mobi/blog/laravel_orderby_eloquent/php/
 
 https://zenn.dev/yum3/articles/t_laravel_eloquent_performance パフォーマンスを上げる
