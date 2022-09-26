@@ -9,6 +9,11 @@ https://www.youtube.com/watch?v=-RhVH2iyTJA&ab_channel=%E7%8C%BF%E6%8A%80%E6%9C%
 ### Laravel高级实战教程
 https://www.youtube.com/channel/UCr7rhORaDfGjsj3vPql4MTw
 
+# Scout
+Laravel ScoutはLaravelのドキュメントサイトでも利用されているような全文検索を行うためのパッケージです。
+% composer require laravel/scout
+https://reffect.co.jp/laravel/laravel-scout
+
 # Laravel code
 https://github.com/laravel/framework/blob/5.8/src/Illuminate/Support/ServiceProvider.php
 
@@ -165,10 +170,6 @@ BroadcastServiceProvider
 EventServiceProvider
 RouteServiceProvider
 
-————————————————
-原文作者：诺墨
-转自链接：https://learnku.com/laravel/t/67406
-版权声明：著作权归作者所有。商业转载请联系作者获得授权，非商业转载请保留以上作者信息和原文链接。
 
 https://qiita.com/ucan-lab/items/738abfd650be76333da6
 config/app.php の providers に登録されているサービスプロバイダーはLaravelアプリケーションにリクエストの際に自動的に読み込まれます。
