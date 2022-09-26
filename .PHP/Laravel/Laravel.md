@@ -47,6 +47,40 @@ php artisan routes
 php artisan –list -> Controller staff
 php artisan controller:make UserController
 
+php artisan route:cache
+php artisan route:clear
+
+@unless ($condition) is the same as <?php if (! $condition)
+Laravel Up  Running A Framework for Building Modern PHP Apps (Matt Stauffer) (z-lib
+@forelse ($talks as $talk)
+• {{ $talk->title }} ({{ $talk->length }} minutes)<br>
+@empty
+No talks this day.
+@endforelse
+
+bladeで改行したいだけ（nl2br） https://techracho.bpsinc.jp/wingdoor/2020_06_11/92793
+改行されて表示することができます。
+{!! nl2br(e($value)) !!}
+// Binding
+Blade::directive('ifPublic', function () {
+return "<?php if (app('context')->isPublic()): ?>";
+});
+// In use
+@ifPublic
+    &copy; Copyright MyApp LLC
+@else
+&copy; Copyright {{ app('context')->client->name }}
+@endif
+// Binding
+Blade::if('ifPublic', function () { return (app('context'))->isPublic();
+});
+Schema::dropIfExists('contacts');
+
+Eloquent
+https://migisanblog.com/laravel-eloquent-relation/
+https://qiita.com/shosho/items/5ca6bdb880b130260586
+https://readouble.com/laravel/8.x/ja/eloquent.html
+
 Practical Laravel: Develop clean MVC web applications
 https://github.com/PracticalBooks/Practical-Laravel
 
