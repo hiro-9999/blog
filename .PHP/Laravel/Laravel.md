@@ -37,6 +37,9 @@ https://laracasts.com
 
 https://laravel-news.com
 
+# Facade
+https://qiita.com/minato-naka/items/095f2a1beec1d09f423e
+
 ## 6.0 install docker
 https://www.chickensblog.com/laravel-docker/
 
