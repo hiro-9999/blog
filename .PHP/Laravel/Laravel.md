@@ -2,6 +2,8 @@
 https://learnku.com/docs/laravel-cheatsheet/9.x
 
 # video  🟠 Laravel 新手入门教程
+https://www.youtube.com/hashtag/laravel%E5%AD%A6%E4%B9%A0
+
 https://www.youtube.com/watch?v=-RhVH2iyTJA&ab_channel=%E7%8C%BF%E6%8A%80%E6%9C%AF
 
 Laravel高级实战教程
