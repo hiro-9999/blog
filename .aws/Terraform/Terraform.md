@@ -1,6 +1,21 @@
 # asdfでterraform0.1系をM1 Macで使いたいときの方法 🔴
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
 
+# epub to pdf
+https://www.freepdfconvert.com/ja
+
+
+# terraform
+https://learn.hashicorp.com/tutorials/terraform/install-cli
+
+# books
+```
+Terraform: Up & Running Code
+https://github.com/brikis98/terraform-up-and-running-code
+infrastructure as code (IaC) 
+
+
+```
 # Terraform入門シリーズ 🔴
 https://qiita.com/m-oka-system/items/6103bbb9f103db1fea0e
 
