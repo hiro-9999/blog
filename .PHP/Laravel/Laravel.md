@@ -6,6 +6,10 @@ https://github.com/PracticalBooks/Practical-Laravel
 
 
 ## Laravel+GraphQL Lighthouse  🔴
+https://don-bu-rakko.com/laravel-%E3%81%A7-graphql-%E3%82%92%E4%BD%BF%E3%81%88%E3%82%8B%E3%82%88%E3%81%86%E3%81%AB%E3%81%99%E3%82%8B%EF%BC%81-lighthouse%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3/
+
+https://akamist.com/blog/archives/5478
+
 https://qiita.com/ucan-lab/items/e7c151133541fbeaebe9
 
 https://lighthouse-php.com/tutorial/#what-is-graphql
@@ -15,6 +19,7 @@ https://lighthouse-php.com/master/api-reference/directives.html#enum
 
 https://github.com/nuwave/lighthouse
 
+プログラミングにおける指示（英: directive，ディレクティブ）
 
 
 # GraphQL
