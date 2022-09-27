@@ -298,6 +298,8 @@ SELECT カラム名 FROM テーブル名 LIMIT 取得件数 OFFSET 開始位置;
 SELECT カラム名 FROM テーブル名 LIMIT 開始位置,取得件数;
 
 ```
+## scout
+https://learnku.com/docs/laravel/5.5/scout/1346
 
 # books 🔴
 ```
