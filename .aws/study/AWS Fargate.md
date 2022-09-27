@@ -1,3 +1,8 @@
+https://qiita.com/tonishy 🔴
+
+https://qiita.com/tonishy/items/b2c1e6af8d56906f1de3
+
+
 # AWS Fargate
 https://licensecounter.jp/engineer-voice/blog/articles/20220518_aws_fargateprisma_cloudfargate.html
 AWS Fargateとは、Amazon Elastic Container Service (ECS) と Amazon Elastic Kubernetes Service (EKS) で動作する、ホストマシンを意識せずにコンテナを実行できる環境です。AWS Fargateを利用すれば、コンテナとコンテナの実行環境の2重管理が不要になります。
