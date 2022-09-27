@@ -6,6 +6,10 @@ https://www.ziruchu.com/art/455
 #### 注意哦~，使用 breeze 会自动安装 auth 系统
 https://www.ziruchu.com/art/439. <-reading
 
+# ARPU(Average Revenue Per User）とは?
+ARPUとは、1ユーザーあたりの平均的売り上げを示す指標で「Average Revenue Per User」の頭文字を取ったものです。主に通信事業のような月額課金モデルのビジネスで使われてきたKPIですが、最近ではスマホゲームなどのゲーム事業でも企業の業績を評価する指標として普及しています。ARPUを求める計算式は「売り上げ÷ユーザー数」で、たとえば月間の売り上げが3億円でユーザー数が6万人であれば、月間のARPUは5000円です。通信事業者の場合、売り上げが通話料やデータ通信料などで構成されるため、通話料を「音声ARPU」、データ通信料を「データARPU」と区別することもあります。
+https://www.emotion-tech.co.jp/resource/2018/what_is_arpu
+
 npm run dev 后需要重新开一个窗口或终端本次运行，然后执行 migrate
 https://www.ziruchu.com/art/439
 
