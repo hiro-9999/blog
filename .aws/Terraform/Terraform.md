@@ -1,6 +1,8 @@
 # asdfでterraform0.1系をM1 Macで使いたいときの方法 🔴
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
 
+# Terraform入門シリーズ
+https://qiita.com/m-oka-system/items/6103bbb9f103db1fea0e
 
 ＃ Terraform 入門から精通まで（コマンド整理）
 https://qiita.com/youyonghua/items/782bd0cdbceaa5d8ff0a
