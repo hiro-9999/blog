@@ -5,6 +5,20 @@ Practical Laravel: Develop clean MVC web applications
 https://github.com/PracticalBooks/Practical-Laravel
 
 
+## Laravel+GraphQL Lighthouse  🔴
+https://qiita.com/ucan-lab/items/e7c151133541fbeaebe9
+
+https://lighthouse-php.com/tutorial/#what-is-graphql
+
+## Lighthouse doc
+https://lighthouse-php.com/master/api-reference/directives.html#enum
+
+https://github.com/nuwave/lighthouse
+
+
+
+# GraphQL
+
 Laravel 9.x Documentation
 
 Laravel: The Modular Way
