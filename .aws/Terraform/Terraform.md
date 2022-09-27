@@ -2,6 +2,10 @@
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
 
 
+＃ Terraform 入門から精通まで（コマンド整理）
+https://qiita.com/youyonghua/items/782bd0cdbceaa5d8ff0a
+
+
 # arm64 向け terraform 実行環境を Docker で用意する
 https://qiita.com/mziyut/items/a71a300ea8d4ebb69e14
 
