@@ -244,6 +244,16 @@ https://zenn.dev/nshiro/articles/07b1e4834b9214
 -c 将创建一个控制器
 -r 表示控制器应该是一个资源控制器
 
+// 方法1：deleteで削除
+DB::table('users')->delete();
+
+// 方法2：トランケートで削除
+DB::table('users')->truncate();
+// 全件削除する
+User::query()->delete();
+トランケートを用いることも可能です。トランケートの場合、DBの自動採番もリセットできます。しかし、ロールバックができないので注意が必要です。
+User::truncate();
+
 20 个 Laravel Eloquent 必备的实用技巧
 https://blog.csdn.net/summerliguilong/article/details/79984042 🟠
 protected $primaryKey = 'uuid'; // 更换主键
@@ -281,6 +291,12 @@ class UserController extends Controller
         dd($users);
     }
 }
+
+SELECT カラム名 FROM テーブル名 LIMIT 取得件数 OFFSET 開始位置;
+
+//以下の書式も可能
+SELECT カラム名 FROM テーブル名 LIMIT 開始位置,取得件数;
+
 ```
 
 # books 🔴
