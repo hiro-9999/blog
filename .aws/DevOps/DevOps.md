@@ -9,6 +9,15 @@ Use Vagrant to create a local development environment
 Containerize applications with Docker and Kubernetes
 Apply DevSecOps for testing compliance and securing DevOps infrastructure
 
+Development (Dev) and Operations (Ops)
+ continuous integration (CI) and continuous delivery (CD) practices, which are software engineering practices, but also with Infrastructure as Code (IaC),
+ 
+ behavior-driven design (BDD) or test-driven design (TDD).
+ 
+ TypeScript, Java, Python, and C#.
+ 
+ the npm package and a Terraform CDK called cdktf. 
+ https://www.youtube.com/watch?v=5hSdb0nadRQ
 ```
 
 # video
