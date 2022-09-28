@@ -8,4 +8,8 @@ Install and write Packer, Terraform, and Ansible code for provisioning and confi
 Use Vagrant to create a local development environment
 Containerize applications with Docker and Kubernetes
 Apply DevSecOps for testing compliance and securing DevOps infrastructure
+
 ```
+
+# video
+https://www.youtube.com/watch?v=yOJCjNWkWKw&list=PLeLcvrwLe186lUsUIjCxMEZH2R9NzVQdP&index=5&t=69s
