@@ -1,3 +1,12 @@
+Terraform code is written in the HashiCorp Configuration Language (HCL) in files with the extension .tf.
+
+“https://github.com/brikis98/terraform-up-and-running-code”
+
+抜粋:
+Terraform: Up and Running, 3rd Edition
+Yevgeniy Brikman
+この素材は著作権で保護されている可能性があります。
+
 # asdfでterraform0.1系をM1 Macで使いたいときの方法 🔴
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
 
