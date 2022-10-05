@@ -10,6 +10,8 @@ Terraform code is written in the HashiCorp Configuration Language (HCL) in files
 
 “https://github.com/brikis98/terraform-up-and-running-code”
 
+https://www.terraform.io/language/syntax/configuration
+
 抜粋:
 Terraform: Up and Running, 3rd Edition
 Yevgeniy Brikman
