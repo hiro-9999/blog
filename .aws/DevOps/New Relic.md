@@ -1,4 +1,4 @@
-# New Relic 
+# New Relic New Relic (ニューレリック) 
 https://dev.classmethod.jp/articles/for-beginners-what-is-newrelic/
 
 https://aws.amazon.com/jp/featured-partners-jp/newrelic/
