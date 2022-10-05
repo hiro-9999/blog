@@ -1,3 +1,5 @@
+https://www.hashicorp.com/products/terraform
+
 Terraform code is written in the HashiCorp Configuration Language (HCL) in files with the extension .tf.
 
 “https://github.com/brikis98/terraform-up-and-running-code”
@@ -16,6 +18,8 @@ terraform-aws-modules eks.
 
 ＃＃＃ Terraform Cookbook
 https://github.com/PacktPublishing/Terraform-Cookbook
+
+
 
 # asdfでterraform0.1系をM1 Macで使いたいときの方法 🔴
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
