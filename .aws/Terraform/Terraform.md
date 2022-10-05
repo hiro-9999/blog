@@ -1,5 +1,11 @@
 https://www.hashicorp.com/products/terraform
 
+https://www.terraform.io/docs/glossary#cli
+
+https://github.com/hashicorp/hcl
+
+https://github.com/hashicorp/hcl/blob/main/hclsyntax/spec.md
+
 Terraform code is written in the HashiCorp Configuration Language (HCL) in files with the extension .tf.
 
 “https://github.com/brikis98/terraform-up-and-running-code”
@@ -15,6 +21,51 @@ Elastic Kubernetes Service (EKS)
 
 terraform-aws-modules eks.
 
+# 自動でフォーマット整形
+```
+前提条件
+PhpStormを導入
+Terraformを導入(バージョン0.11.11(2019/07時点))
+terraform install
+# tfenv をインストール
+brew install tfenv
+ 
+# バージョン0.11.11をインストール
+tfenv install 0.11.11
+tfenv use 0.11.11
+ 
+terraform -v
+
+コマンド実行
+Terraformを導入すると打てるようになる｡
+
+1.	
+terraform fmt ファイル名.tf
+ファイル名を指定してフォーマットを整える｡
+PhpStormを使用したフォーマット整形
+上記のコマンドでもコードフォーマットができるが､PhpStormを使用場合､コマンドを打たなくてもショートカットのみで整形してくれる｡
+｢command + option + shift + f｣で対象ファイルを整形できる｡
+以下に導入方法を示す｡
+No.
+概要
+No.
+概要
+1.	PhpStorm内でpreferences(日本語だと環境設定)を開く｡
+2.	plugin(日本語だとプラグイン)を選択､｢marketplace(日本語だとマーケットプレイス)｣を選択する｡
+3.	marketplace内で｢terraform｣と検索｡｢HashiCorp Terraform/HCL language support｣をインストール
+4.	導入完了｡ ｢command + option + shift + f｣でフォーマット整形ができるようになる｡
+VScodeを使用したフォーマット整形
+VScodeを使用している場合、対象のpluginをinstallするとファイル保存時に自動でフォーマット整形を行うことができる。
+以下に導入方法を示す。
+No.
+概要
+1.	VScode内のExtensionsからvscode-terraformをinstallする。(https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
+2.	VScode内のpreferences → Settings画面の検索ボックスで、 [terraform]editor.formatOnSave と検索する。
+3.	Editor: Format On Save のチェックボックスにチェックを入れる
+4.	導入完了｡　⌘S でファイル保存時に、自動でフォーマット整形ができるようになる。
+
+
+```
 
 ＃＃＃ Terraform Cookbook
 https://github.com/PacktPublishing/Terraform-Cookbook
