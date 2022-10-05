@@ -7,6 +7,16 @@ Terraform: Up and Running, 3rd Edition
 Yevgeniy Brikman
 この素材は著作権で保護されている可能性があります。
 
+Virtual Private Cloud (VPC) within AWS
+
+Elastic Kubernetes Service (EKS) 
+
+terraform-aws-modules eks.
+
+
+＃＃＃ Terraform Cookbook
+https://github.com/PacktPublishing/Terraform-Cookbook
+
 # asdfでterraform0.1系をM1 Macで使いたいときの方法 🔴
 https://qiita.com/ume3_/items/2d95d4cb61cc6a205fba
 
