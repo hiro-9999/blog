@@ -1,4 +1,4 @@
-B: Chrome拡張機能（おすすめ）
+# Chrome拡張機能（おすすめ）
 https://dev.classmethod.jp/articles/introduction-aws-extend-switch-role/
 
 ```
