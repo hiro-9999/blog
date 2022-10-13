@@ -1,7 +1,32 @@
 # OPTIMIZE TABLE 
 https://til.toshimaru.net/2021-09-10
 
+https://zhuanlan.zhihu.com/p/94226633. ?
+
+
+https://www.jianshu.com/p/3723d8b333d1
+# 登录数据库 执行 SHOW PROCESSLIST;
+2.select * from information_schema.innodb_trx\G; 查询当前事务
+3.kill **** ;杀死当前进程
+
+1.创建临时表备份数据
+CREATE TABLE user_game_log_old SELECT * FROM user_game_log where cts>1619798400000;
+2.截断表
+TRUNCATE TABLE user_game_log;
+3.备份的数据插入到表中
+INSERT INTO user_game_log SELECT * FROM user_game_log_old;
+
+作者：我咋不瞌睡
+链接：https://www.jianshu.com/p/3723d8b333d1
+来源：简书
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+
 # MySQL数据库删除大量数据的方式
+https://blog.csdn.net/jike11231/article/details/126551510
+
+DELETE  FROM `table_name` WHERE id< 66169770 limit 1000000;
+
 https://blog.csdn.net/weixin_43730203/article/details/125723674
 
 https://qiita.com/ynii/items/7ae0a33c59e235ff683c
