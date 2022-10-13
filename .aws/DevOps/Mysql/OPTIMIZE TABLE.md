@@ -1,6 +1,18 @@
 # OPTIMIZE TABLE 
 https://til.toshimaru.net/2021-09-10
 
+# MySQL数据库删除大量数据的方式
+https://blog.csdn.net/weixin_43730203/article/details/125723674
+
+https://qiita.com/ynii/items/7ae0a33c59e235ff683c
+
+# パーティションの作成
+https://github.com/hiro-9999/blog/edit/master/.aws/DevOps/Mysql/OPTIMIZE%20TABLE.md
+
+
+https://minory.org/mysql-innodb-delete.html
+### MyISAMの場合は削除した分のデータ領域を開放するのに対し、InnoDBは削除した分のデータ領域も開放せず確保し続けるので、容量が減ることなくそのまま増え続けます。
+
 https://medium.com/inet-lab/mysql%E3%81%AE%E5%B7%A8%E5%A4%A7%E3%81%AA%E3%83%86%E3%83%BC%E3%83%96%E3%83%AB%E3%81%AB%E3%81%8A%E3%81%91%E3%82%8Bdelete-b427e915d2de
 
 https://agohack.com/mysql-fragmention-optimization/
