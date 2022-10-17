@@ -1,6 +1,8 @@
 # docker-compose exec php php artisan serve --host=0.0.0.0 --port=8000
 https://www.chickensblog.com/laravel-docker/
 
+https://github.com/masayan1126/docker-laravel/blob/main/docker-compose.yml　🔴
+
 docker-compose exec php composer create-project --prefer-dist "laravel/laravel=8.*" .
 
 https://qiita.com/masayan1126/items/39d164b141f9a9c92ed6
