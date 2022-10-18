@@ -1,3 +1,17 @@
+https://tagsqa.com/detail/13805
+
+```
+//php.ini
+
+[XDebug]
+xdebug.remote_enable = 1
+xdebug.remote_autostart = 1
+xdebug.remote_host = host.docker.internal
+xdebug.remote_port = 9001
+```
+
+
+
 # docker-compose exec php php artisan serve --host=0.0.0.0 --port=8000
 https://www.chickensblog.com/laravel-docker/
 
