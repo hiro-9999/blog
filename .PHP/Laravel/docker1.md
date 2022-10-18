@@ -1,10 +1,11 @@
-https://github.com/szabizs/demo_public_api/　🔴
+　🔴
+https://github.com/szabizs/demo_public_api/
 
 # Laravel - How to use Xdebug with Docker, PhpStorm and Tinkerwel
 https://www.youtube.com/watch?v=3Fz667cny0M&ab_channel=CodewithS
 
-
-https://github.com/masayan1126/docker-laravel 🔴
+🔴
+https://github.com/masayan1126/docker-laravel 
 
 
 https://tagsqa.com/detail/13805
