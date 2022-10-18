@@ -41,6 +41,7 @@ xdebug.idekey = "PHPSTORM"
 
 $ cd /etc/init.d
 $ sudo service php7.1-fpm restart
+https://www.tam-tam.co.jp/tipsnote/program/post13770.html
 ```
 
 🔴
