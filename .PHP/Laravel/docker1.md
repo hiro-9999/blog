@@ -27,6 +27,20 @@ xdebug.show_error_trace = 1
 xdebug.max_nesting_level = 512
 
 vagrant@homestead:~$ sudo service php7.4-fpm restart
+
+
+$ sudo vim /etc/php/7.1/mods-available/xdebug.ini
+
+zend_extension=xdebug.so
+xdebug.remote_enable = 1
+xdebug.remote_connect_back = 1
+xdebug.remote_port = 9001
+xdebug.max_nesting_level = 512
+xdebug.idekey = "PHPSTORM"
+からのphp再起動。
+
+$ cd /etc/init.d
+$ sudo service php7.1-fpm restart
 ```
 
 🔴
