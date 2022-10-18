@@ -1,6 +1,13 @@
 　🔴 https://akamist.com/blog/archives/4917
  
  ```
+     container_name: app-dl
+    build: ./docker/php
+    volumes:
+      - ./:/var/www
+      - ./docker/php/php.ini:/usr/local/etc/php/php.ini 
+      
+      
  Dockerfile
 php:7.4-apacheのイメージを利用したDockerfileを作成する。
 
