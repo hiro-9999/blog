@@ -1,8 +1,33 @@
 　🔴
+ https://qiita.com/_hiro_dev/items/07e87a7d95bdaea98ad4
+ 
 https://github.com/szabizs/demo_public_api/
 
 # Laravel - How to use Xdebug with Docker, PhpStorm and Tinkerwel
 https://www.youtube.com/watch?v=3Fz667cny0M&ab_channel=CodewithS
+```
+# モジュールを有効化
+vagrant@homestead:~$ sudo phpenmod xdebug
+
+# もう一度確認
+vagrant@homestead:~$ php --ini | grep xdebug
+/etc/php/7.4/cli/conf.d/20-xdebug.ini, # ← 設定ファイルが追加された
+
+# 設定ファイルを編集
+vagrant@homestead:~$ sudo vim /etc/php/7.4/cli/conf.d/20-xdebug.ini
+
+zend_extension=xdebug.so
+xdebug.remote_enable = 1
+xdebug.remote_host = 10.0.2.2
+xdebug.remote_port = 9001
+xdebug.remote_autostart = 1
+xdebug.idekey = PHPSTORM
+xdebug.remote_log = /tmp/xdebug.log
+xdebug.show_error_trace = 1
+xdebug.max_nesting_level = 512
+
+vagrant@homestead:~$ sudo service php7.4-fpm restart
+```
 
 🔴
 https://github.com/masayan1126/docker-laravel 
