@@ -1,4 +1,63 @@
-　🔴
+　🔴 https://akamist.com/blog/archives/4917
+ 
+ ```
+ Dockerfile
+php:7.4-apacheのイメージを利用したDockerfileを作成する。
+
+docker-php-ext-enable xdebugを実行することで、xdebugが有効化されてコンテナ内にiniファイルが作成される。
+
+FROM php:7.4-apache
+
+RUN pecl install xdebug && \
+    docker-php-ext-enable xdebug
+
+WORKDIR /var/www
+ ```
+ 
+ ```
+ php --version
+ 
+ php -m | grep Xdebug
+Xdebug
+
+php -i | fgrep xdebug.ini
+/usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini,
+
+php -i | fgrep 'Loaded Configuration File'
+Loaded Configuration File => /usr/local/etc/php/php.ini
+
+
+php.ini
+XDebugの設定を含めたphp.iniの設定ファイルを設置する。XDebugはversion2と3で設定内容が異なることに注意。(XDebug2の時に使われる設定をコメントアウトした形で記載しておきます)
+
+[Date]
+date.timezone = "Asia/Tokyo"
+
+[mbstring]
+mbstring.internal_encoding = "UTF-8"
+mbstring.language = "Japanese"
+
+[xdebug]
+# for XDebug2
+#xdebug.remote_enable=1
+#xdebug.remote_autostart=1
+#xdebug.remote_host=host.docker.internal
+#xdebug.remote_port=9000
+#xdebug.remote_log=/tmp/xdebug.log
+
+# for XDebug3
+xdebug.client_host = host.docker.internal
+xdebug.client_port = 9003
+xdebug.idekey = PHPSTORM
+xdebug.mode = debug
+ ```
+ 
+ 
+ https://drdavejoos.medium.com/setup-phpstorm-for-laravel-with-valet-and-xdebug-php-7-4-4e94128b9f6f
+ 
+ pecl install xdebug
+Validate that xdebug is installed: php -m | grep 'xdebug' . Output should be xdebug.
+
  https://qiita.com/_hiro_dev/items/07e87a7d95bdaea98ad4
  
 https://github.com/szabizs/demo_public_api/
