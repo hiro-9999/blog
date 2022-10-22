@@ -9,8 +9,8 @@ https://dev.classmethod.jp/articles/step-functions-from-cron/
 
 
 
-## Amazon EventBridgeルールでAWS Step Functionsステートマシンを定期実行する
-https://dev.classmethod.jp/articles/step-functions-from-cron/
+## Amazon EventBridgeルールでAWS Step Functionsステートマシンを定期実行する 🔴
+https://dev.classmethod.jp/articles/run-the-aws-step-functions-state-machine-periodically-with-amazon-eventbridge-rules/
 
 
 処理が複雑でジョブの依存関係を定義したい場合は、AWS Batch 単体で制御するか、より複雑な場合は Step Functions を用いて Lambda、ECS（Fargate）、AWS Batch（Fargate） を組み合わせる。
