@@ -1,3 +1,7 @@
+https://lonegunmanb.github.io/introduction-terraform/ 🔴
+
+https://help.aliyun.com/product/95817.html?spm=a2cls.b92374736.0.0.267599deCIHp3f
+
 https://blog.csdn.net/NewTyun/article/details/124138462
 
 	
