@@ -1,3 +1,8 @@
+https://blog.csdn.net/NewTyun/article/details/124138462
+
+	
+Terraform in Action
+
 https://www.hashicorp.com/products/terraform
 
 https://www.terraform.io/docs/glossary#cli
