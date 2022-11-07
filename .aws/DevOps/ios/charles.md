@@ -7,3 +7,5 @@ https://helpx.adobe.com/jp/x-productkb/global/how-to-get-packet-information-with
 
 
 https://www.hellotech.com/guide/for/how-to-find-ip-address-on-mac
+
+ifconfig -l | xargs -n1 ipconfig getifaddr  ->local IP
