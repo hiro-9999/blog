@@ -14,3 +14,6 @@ https://webukatu.com/wordpress/blog/25529/
 
  req.withCredentials = true;
 https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials
+
+
+https://codepen.io/hiro-9999/pen/jOKVYde
