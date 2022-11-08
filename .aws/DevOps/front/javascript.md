@@ -1,3 +1,5 @@
+https://www.techiedelight.com/ja/bind-change-event-handler-radio-button-javascript/
+
 https://1-notes.com/javascript-specifying-the-form-with-queryselector/
 
 https://properprogramming.com/tools/jquery-to-javascript-converter/#Convert_jQuery_to_JavaScript_Online_Too
