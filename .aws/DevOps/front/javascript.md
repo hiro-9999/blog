@@ -1,0 +1,7 @@
+https://1-notes.com/javascript-specifying-the-form-with-queryselector/
+
+https://properprogramming.com/tools/jquery-to-javascript-converter/#Convert_jQuery_to_JavaScript_Online_Too
+
+https://qiita.com/okame_qiita/items/d8d85906b88e33ba0eff#ajax関連
+
+https://1-notes.com/javascript-radio-button-event/
