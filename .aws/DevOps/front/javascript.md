@@ -10,3 +10,7 @@ https://1-notes.com/javascript-radio-button-event/
 
 
 https://webukatu.com/wordpress/blog/25529/
+
+
+ req.withCredentials = true;
+https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/withCredentials
