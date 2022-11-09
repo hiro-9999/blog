@@ -8,9 +8,17 @@ Clearview -->kindle reader
 # good books
 https://v4.zhelper.net/
 
+https://www.shuxiangjia.cn/
+
 [https://zlib.quest/](http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion/?signAll=1&ts=0630)
 
 https://book4you.org
+
+鸠摩搜索（jiumodiary.com）
+
+libgen.gs
+
+pdfdrive.com
 
 # study
 https://www.curriki.org/
