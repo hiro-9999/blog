@@ -6,6 +6,9 @@
 Clearview -->kindle reader
 
 # good books
+https://www.shuxiangjia.cn/
+
+
 https://v4.zhelper.net/
 
 https://www.shuxiangjia.cn/
