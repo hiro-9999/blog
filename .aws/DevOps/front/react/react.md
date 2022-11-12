@@ -18,3 +18,5 @@ https://github.com/enriquemolinari/react-practical-2
 https://react-bootstrap-v4.netlify.app/getting-started/introduction/
 
 https://www.ecma-international.org
+
+http://latentflip.com/loupe/
