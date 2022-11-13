@@ -1,5 +1,8 @@
 https://github.com/rq2e/rq2e
 
+### video
+https://www.youtube.com/watch?v=oxDfrke8rZg&ab_channel=ReactConf2021
+
 ### import { graphql, usePreloadedQuery, /* ... */ } from "react-relay";
 https://relay.dev/
 
