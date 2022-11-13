@@ -33,6 +33,7 @@ https://ics.media/entry/221020/
  
  
 ### yield
+https://www.sejuku.net/blog/category/programming-language/php/php-study/page/2
 ジェネレータを使用した関数は、yieldを記述する事で何度も値を保持出来ます。
 
 ```php
@@ -53,6 +54,54 @@ https://www.sejuku.net/blog/74314
         print($value."<br>");
         $sum_value += $value;
     }
+?>
+
+// 月を指定
+$month = '2018-08';
+$first_date = date('Y-m-d', strtotime('first day of ' . $month));
+$last_date = date('Y-m-d', strtotime('last day of ' . $month));
+ 
+echo "指定月の初日：" . $first_date . "n";
+echo "指定月の末日：" . $last_date . "n";
+
+// 今月初日
+$first_date = date("Y-m-01");
+ 
+// 今月末日
+$last_date = date("Y-m-t");
+ 
+echo "今月初日：" . $first_date . "n";
+echo "今月末日：" . $last_date . "n";
+
+<?php
+$html_code = "<html><body><title>侍エンジニア</title><p>今日はいい天気です</p></body></html>";
+$html_code_result = strip_tags($html_code, '<p>');
+echo $html_code_result;
+
+
+<?php
+// 配列にデータを入れる
+$book_data = array(
+    array(
+        'book_id' => 5,
+        'book_name' => '本1'
+    ),
+    array(
+        'book_id' => 10,
+        'book_name' => '本2',
+    ),
+    array(
+        'book_id' => 3,
+        'book_name' => '本3',
+    )
+);
+ 
+// 第一引数にデータを入れた配列を指定
+// 第二引数に取り出したい項目名を指定
+$array_column_data = array_column($book_data, 'book_name');
+ 
+print_r($array_column_data);
+ 
 ?>
 ```
  https://ja.javascript.info/generators
