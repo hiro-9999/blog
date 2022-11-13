@@ -6,6 +6,9 @@ https://tanstack.com/query/v4/?from=reactQueryV3&original=https://react-query-v3
 
 https://github.com/brillout/awesome-react-components
 
+## useCallback
+https://blog.uhy.ooo/entry/2021-02-23/usecallback-custom-hooks/
+
 ## useRefの基本
 // 設定した値を取り出す
 const value = ref.current;
@@ -105,3 +108,6 @@ print_r($array_column_data);
 ?>
 ```
  https://ja.javascript.info/generators
+ 
+ ### Debugbar
+ https://www.sejuku.net/blog/61948
