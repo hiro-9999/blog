@@ -1,3 +1,5 @@
+https://www.pudn.com/news/62a9137adfc5ee19686df54e.html
+
 ＃＃ 知らず知らずのうちに Terraform がディスクをほとんど一杯にしてた
 https://qiita.com/tonishy/items/adcf67e959dffaa03f93
 
