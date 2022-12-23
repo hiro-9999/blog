@@ -1,6 +1,11 @@
 # go doc
 https://golang.org/doc/effective_go
 
+### Docker, gRPC, and Kubernete concurrency generics
+https://cs.opensource.google/go/x/website/+/e0d934b4:blog/blog.go;l=32
+# Simple doesn’t mean easy
+100 Go Mistakes How to Avoid Them (MEAP) 
+
 # learning frist book
 https://www.agiratech.com/blog/learn-go-programming-tutorials/
 
