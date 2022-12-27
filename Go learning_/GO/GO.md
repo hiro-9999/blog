@@ -3,6 +3,8 @@ https://golang.org/doc/effective_go
 
 https://go.dev/doc/code　🔴
 
+## Goプログラミング実践入門
+https://github.com/mushahiroyuki/gowebprog
 
 
 ### Docker, gRPC, and Kubernete concurrency generics
