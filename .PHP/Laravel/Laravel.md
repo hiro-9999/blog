@@ -1,6 +1,9 @@
 # Laravel 速查表 🔴
 https://learnku.com/docs/laravel-cheatsheet/9.x
 
+http://laravel.jp 🔴
+https://laravel.com 🔴
+
 Practical Laravel: Develop clean MVC web applications
 https://github.com/PracticalBooks/Practical-Laravel
 
