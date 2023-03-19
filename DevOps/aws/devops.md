@@ -1,4 +1,4 @@
-https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops）
+https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aws.amazon.com/jp/devops/what-is-devops/
 
 パッケージ化、モジュール管理、メトリクスの分析
 利用するAWSサービスのパラメータ設計
