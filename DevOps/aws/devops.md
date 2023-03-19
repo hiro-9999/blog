@@ -15,6 +15,8 @@ https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aw
  ### AWS Cloud9はブラウザ上で操作が出来る統合開発環境で
  https://registry.terraform.io/browse/providers
  
+ Auto Scaling Groups (ASGs),Elastic Compute Cloud (Amazon EC2),Elastic Load Balancers (ELBs)
+ 
  # SAA資格
  https://blog.dcs.co.jp/aws/aws-saa.html
  
