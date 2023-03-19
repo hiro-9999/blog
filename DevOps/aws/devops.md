@@ -18,7 +18,7 @@ https://blog.gruntwork.io/a-comprehensive-guide-to-authenticating-to-aws-on-the-
  ### AWS Cloud9はブラウザ上で操作が出来る統合開発環境で
  https://registry.terraform.io/browse/providers
  
- Auto Scaling Groups (ASGs),Elastic Compute Cloud (Amazon EC2),Elastic Load Balancers (ELBs)
+ #### Auto Scaling Groups (ASGs),Elastic Compute Cloud (Amazon EC2),Elastic Load Balancers (ELBs),The Amazon Machine Image (AMI) to run on the EC2 Instance
  
  # SAA資格
  https://blog.dcs.co.jp/aws/aws-saa.html
