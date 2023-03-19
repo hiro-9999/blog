@@ -26,6 +26,9 @@ https://blog.gruntwork.io/a-comprehensive-guide-to-authenticating-to-aws-on-the-
  # terraform
  https://github.com/brikis98/terraform-up-and-running-code
  
+ ## terraform aws instance
+ https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
+ 
  ### Amazon Elastic Kubernetes Service (EKS), Google Kubernetes Engine (GKE), and Azure Kubernetes Service (AKS).
 
 # CDK,DevOps,CloudFormation
