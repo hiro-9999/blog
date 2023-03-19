@@ -14,6 +14,9 @@ https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aw
  Terraformと似た位置付けのツールにAWS CloudFormationが存在しますが、Terraformとは違いAWS専用です。TerraformはAWSだけでなくAzureやGCP、GitHub、Datadogなど、複数のクラウドプロバイダーに対応しているため、マルチクラウド環境においても構築手段を統一することが出来ます。
  ### AWS Cloud9はブラウザ上で操作が出来る統合開発環境で
  https://registry.terraform.io/browse/providers
+ 
+ # SAA資格
+ https://blog.dcs.co.jp/aws/aws-saa.html
 
 # CDK,DevOps,CloudFormation
 ```
