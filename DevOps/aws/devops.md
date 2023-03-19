@@ -6,6 +6,14 @@ https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aw
  ## AWS Cloud Development Kit (AWS CDK) 🟠🟠
  https://aws.amazon.com/jp/cloudformation/features/?pg=ln&sec=hs
  AWS サーバーレスアプリケーションモデル (SAM、Serverless Application Model) は、サーバーレスアプリケーション構築用のオープンソースフレームワークです。迅速に記述可能な構文で関数、API、データベース、イベントソースマッピングを表現できます。リソースごとにわずか数行で、任意のアプリケーションを定義して YAML を使用してモデリングできます。デプロイ中、SAM が SAM 構文を AWS CloudFormation 構文に変換および拡張することで、サーバーレスアプリケーションの構築を高速化することができます。
+ 
+ 
+ ## 完全初心者向けTerraform入門（AWS）
+ https://blog.dcs.co.jp/aws/20210401-terraformaws.html
+ クラウドリソースはTerraformで構築し、サーバ内の設定変更はAnsible、といった使い分けが可能です。
+ Terraformと似た位置付けのツールにAWS CloudFormationが存在しますが、Terraformとは違いAWS専用です。TerraformはAWSだけでなくAzureやGCP、GitHub、Datadogなど、複数のクラウドプロバイダーに対応しているため、マルチクラウド環境においても構築手段を統一することが出来ます。
+ ### AWS Cloud9はブラウザ上で操作が出来る統合開発環境で
+ https://registry.terraform.io/browse/providers
 
 # CDK,DevOps,CloudFormation
 ```
