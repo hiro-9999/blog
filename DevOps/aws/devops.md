@@ -3,12 +3,18 @@ https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aw
 パッケージ化、モジュール管理、メトリクスの分析
 利用するAWSサービスのパラメータ設計
 
+ ## AWS Cloud Development Kit (AWS CDK) 🟠🟠
+ https://aws.amazon.com/jp/cloudformation/features/?pg=ln&sec=hs
+ AWS サーバーレスアプリケーションモデル (SAM、Serverless Application Model) は、サーバーレスアプリケーション構築用のオープンソースフレームワークです。迅速に記述可能な構文で関数、API、データベース、イベントソースマッピングを表現できます。リソースごとにわずか数行で、任意のアプリケーションを定義して YAML を使用してモデリングできます。デプロイ中、SAM が SAM 構文を AWS CloudFormation 構文に変換および拡張することで、サーバーレスアプリケーションの構築を高速化することができます。
+
 # CDK,DevOps,CloudFormation
 ```
 🔴・AWS IAM、、VPC、EC2、ELB、RDS、SQS,CDK、ECloudFront、CS ,Elastic Beanstalk, S3,Elasticache、AWS SageMakerなど🔴
  Aurora Serverless, Cognito, DynamoDB、Aurora、Athena🟠 Amazon ECS or EKS (Fargate含む)・Amazon SQS
 
  AmazonConnect / Amazon Opensearch Service / DynamoDB / AWS Amplify / Lambda / Kinesis / Amazon API Gateway / 他🟠
+ 
+
  
  🔴コンテナ(Amazon ECS, Amazon EKS, AWS Fargate, Docker, Kubernetes)
  🔴IaC(AWS CloudFormation, Terraform)
