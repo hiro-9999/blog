@@ -3,6 +3,9 @@ https://aws.amazon.com/jp/devops/ //開発（Dev）と運用（Ops） https://aw
 パッケージ化、モジュール管理、メトリクスの分析
 利用するAWSサービスのパラメータ設計
 
+# IAM creat🟠
+https://blog.gruntwork.io/a-comprehensive-guide-to-authenticating-to-aws-on-the-command-line-63656a686799
+
  ## AWS Cloud Development Kit (AWS CDK) 🟠🟠
  https://aws.amazon.com/jp/cloudformation/features/?pg=ln&sec=hs
  AWS サーバーレスアプリケーションモデル (SAM、Serverless Application Model) は、サーバーレスアプリケーション構築用のオープンソースフレームワークです。迅速に記述可能な構文で関数、API、データベース、イベントソースマッピングを表現できます。リソースごとにわずか数行で、任意のアプリケーションを定義して YAML を使用してモデリングできます。デプロイ中、SAM が SAM 構文を AWS CloudFormation 構文に変換および拡張することで、サーバーレスアプリケーションの構築を高速化することができます。
