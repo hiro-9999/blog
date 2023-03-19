@@ -6,6 +6,28 @@
 Clearview -->kindle reader
 
 # good books
+https://ja.annas-archive.org/
+
+https://lib-5fvsrc6p4k2rvzr4hgq4d4zo.1lib.cz
+
+https://lib-6pbwd6sjujodtnztvyumlkil.1lib.ph/
+
+https://lib-j35ynkkosd7leou2lmtwac2z.1lib.at/login
+
+https://lib-ptggrv4xwwiglrnhokvxkcpc.1lib.cz/login
+
+https://lib-tsq3w7nsi5zqq656os5fuzds.1lib.at
+
+https://lib-jqbldjjbwqu2xhek3pj5nrcp.1lib.at
+
+https://lib-nprjsorhpqu5qeosfyd2spgc.1lib.at
+
+http://bookszlibb74ugqojhzhg2a63w5i2atv5bqarulgczawnbmsb6s6qead.onion
+
+
+
+
+
 https://www.shuxiangjia.cn/
 
 
