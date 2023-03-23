@@ -17,3 +17,10 @@ https://ja.reactjs.org/docs/handling-events.html
 https://github.com/cloudscape-design/demos/blob/main/src/pages/delete-one-click/index.jsx
 
 
+ const onCancel = () => {
+    setLoading(true);
+  };
+onClick={onCancel}
+https://github.com/cloudscape-design/demos/blob/main/src/pages/delete-one-click/index.jsx
+
+
