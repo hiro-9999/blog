@@ -5,3 +5,6 @@ https://github.com/cloudscape-design
 https://cloudscape.design/components/overview/
 
 https://cloudscape.design/get-started/integration/using-cloudscape-components/
+
+# react click:
+https://ja.reactjs.org/docs/handling-events.html
