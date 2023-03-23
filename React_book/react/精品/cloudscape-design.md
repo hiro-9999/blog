@@ -10,3 +10,8 @@ https://github.com/cloudscape-design/demos
 
 # react click:
 https://ja.reactjs.org/docs/handling-events.html
+
+# click:
+https://github.com/cloudscape-design/demos/blob/main/src/pages/delete-one-click/index.jsx
+
+
