@@ -8,6 +8,8 @@ https://cloudscape.design/get-started/integration/using-cloudscape-components/
 
 https://github.com/cloudscape-design/demos
 
+https://cloudscape.design/components/button/?tabId=playground
+
 # react click:
 https://ja.reactjs.org/docs/handling-events.html
 
