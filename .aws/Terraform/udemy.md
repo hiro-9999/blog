@@ -22,7 +22,7 @@ terraform init
 terraform fmat #source format
 terraform validate #check
 terraform plan
-terraform apply -auto-approve
+terraform apply -auto-approve #実行planがcheckしない
 
 terraform show を見てみる
 terraform が作成したオブジェクトの内容が出力されます
