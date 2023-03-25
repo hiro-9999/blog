@@ -13,6 +13,24 @@ https://developer.hashicorp.com/terraform/cli
 
 https://registry.terraform.io/providers/hashicorp/aws/latest
 
+# terraform.tfvars
+```
+Name    = "${var.project}-${var.environment}-vpc"
+# ---------------------------------------------
+# Variables
+# ---------------------------------------------
+variable "project" {
+  type = string
+}
+
+variable "environment" {
+  type = string
+}
+
+project     = "tastylog"
+environment = "dev"
+```
+
 # command
 ```terraform
 $ aws configure で認証情報をセットした後であれば自動でこのAWS認証情報を参照してくれます
