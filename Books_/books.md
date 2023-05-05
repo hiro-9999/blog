@@ -22,6 +22,8 @@ yamaguchi-hiro+20210228
 M1 Mac firefox
 yamaguchi-hiro+2022
 M1 Mac Oprea
+
+http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/md5/04a04d054dfc3896861225dc9d5f2f4e
 ```
 # good books
 https://ja.annas-archive.org/
