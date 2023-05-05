@@ -5,6 +5,24 @@
 
 Clearview -->kindle reader
 
+yamaguchi-hiro+20210226
+roi
+------
+yamaguchi-hiro+2021
+Firefox----
+------
+yamaguchi-hiro
+chrome----
+------
+yamaguchi-hiro@kcgrp.jp
+Oprea----
+yamaguchi-hiro+2023
+M1 Mac chrome
+yamaguchi-hiro+20210228
+M1 Mac firefox
+yamaguchi-hiro+2022
+M1 Mac Oprea
+
 # good books
 https://ja.annas-archive.org/
 
