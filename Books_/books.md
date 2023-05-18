@@ -68,6 +68,11 @@ pdfdrive.com
 # study
 https://www.curriki.org/
 
+# 安娜的档案
+https://ja.annas-archive.org/
+
+
+
 # book dev
 https://www.oreilly.com/?utm_medium=email&utm_source=platform+b2c&utm_campaign=engagement&utm_content=b2c+trialer+onboarding
 
