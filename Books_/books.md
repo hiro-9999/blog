@@ -14,7 +14,7 @@ Firefox----
 yamaguchi-hiro
 chrome----
 ------
-yamaguchi-hiro@kcgrp.jp
+yamaguchi-hiro
 Oprea----
 yamaguchi-hiro+2023
 M1 Mac chrome
