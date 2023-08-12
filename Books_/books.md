@@ -8,6 +8,8 @@ https://z-lib.is/
 ```
 https://z-lib.is/
 
+https://chrome.google.com/webstore/detail/z-library-finder/eebjmekegoofamhbnjoboeifabhbbddn/related  ⭕️
+
 yamaguchi-hiro+20210226
 roi
 ------
