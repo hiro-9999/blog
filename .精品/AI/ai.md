@@ -7,6 +7,26 @@ https://www.youtube.com/watch?v=YqMLQH3dNCI
 
 # MidjourneyとFramePlannnerを使用し
 
+【artbreeder】写真を合成できるAI
+https://www.artbreeder.com/create
+
+【runway】写真に命を吹き込むAI
+https://runwayml.com/
+
+【clipdrop】便利AI詰め合わせサイト
+https://clipdrop.co/
+
+【AIいらすとや】
+https://aisozai.com/irasutoya
+
+【書籍も出してます】
+達人だけが知っている！ PC＆ネットのずるテク大全（ずるいテクニック）
+https://amzn.to/3PeNIm3
+
+
+https://www.youtube.com/watch?v=oHsWWDK6Hio
+# artbreeder
+https://www.artbreeder.com/
 
 https://vanceai.com/ja/posts/how-to-make-manga-of-your-own-with-ai-ja/
 # １．VansPortrait
