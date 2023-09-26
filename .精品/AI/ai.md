@@ -5,6 +5,8 @@ https://www.youtube.com/watch?v=YqMLQH3dNCI
 
 /blend
 
+# MidjourneyとFramePlannnerを使用し
+
 
 https://vanceai.com/ja/posts/how-to-make-manga-of-your-own-with-ai-ja/
 # １．VansPortrait
