@@ -3,6 +3,8 @@ https://note.com/yossymura/n/n64b421ffd927
 
 https://www.youtube.com/watch?v=YqMLQH3dNCI
 
+/blend
+
 
 https://vanceai.com/ja/posts/how-to-make-manga-of-your-own-with-ai-ja/
 # １．VansPortrait
