@@ -1,6 +1,8 @@
 # Stable Diffusion（Diffusers）による画像生成の効率化と、基本的な使い方まとめ
 https://note.com/yossymura/n/n64b421ffd927
 
+https://www.youtube.com/watch?v=YqMLQH3dNCI
+
 
 https://vanceai.com/ja/posts/how-to-make-manga-of-your-own-with-ai-ja/
 # １．VansPortrait
