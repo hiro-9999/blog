@@ -10,24 +10,6 @@ https://z-lib.is/
 
 https://chrome.google.com/webstore/detail/z-library-finder/eebjmekegoofamhbnjoboeifabhbbddn/related  ⭕️
 
-yamaguchi-hiro+20210226
-roi
-------
-yamaguchi-hiro+2021
-Firefox----
-------
-yamaguchi-hiro
-chrome----
-------
-yamaguchi-hiro
-Oprea----
-yamaguchi-hiro+2023
-M1 Mac chrome
-yamaguchi-hiro+20210228
-M1 Mac firefox
-yamaguchi-hiro+2022
-M1 Mac Oprea
-
 http://zlibrary24tuxziyiyfr7zd46ytefdqbqd2axkmxm4o5374ptpc52fad.onion/md5/04a04d054dfc3896861225dc9d5f2f4e
 ```
 # good books
