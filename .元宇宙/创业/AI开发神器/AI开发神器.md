@@ -1,3 +1,64 @@
+# 合約網格
+https://www.youtube.com/watch?v=7j0uHMCr9a4
+
+
+➡️第1步：🏆《PIONEX交易所》
+被動收入機器人傳送門：https://www.pionex.com/signUp?r=ry888
+
+➡️第2步：學會如何『正確開戶與儲值轉帳』
+新手出入金完整教學：   • 新手如何投資虛擬貨幣？ 1天內就完成開戶、儲值、購買與轉帳  
+
+➡️第3步：創建【被動收入機器人】
+創建教學：本影片即創建教學✅
+
+
+# 3D动画
+https://www.youtube.com/watch?v=InUhESC5HyE
+
+
+📝 脚本：
+🤖【CHAGPT提示词#1】
+Create a a story of Moses, following the structure and style of the transcript provided below. Maintain the overall tone and flow but introduce new phrasing, unique descriptions to make the story distinct.  Include a moral lesson that reflects the essence of Moses' journey.
+
+🤖【CHAGPT提示词#2】
+Rewrite the story like a film script. For example: narrator words, character’s actions and spoken words.
+
+🤖【CHAGPT提示词#3】
+Now design a comprehensive series of highly detailed scenes for this story (at least 50 scenes). Ensure the story flow naturally and feel like a film.
+
+🤖【CHAGPT提示词#4】
+Create highly detailed prompts for generating images for each scenes, 
+including character position, expressions, background etc. 
+
+🤖【CHAGPT提示词#5】
+Divide the images into different character lines
+
+ 
+🎨 一致性人物生成：
+🤖【CHAGPT提示词#1】
+Describe the appearance and outfit of [Character]
+
+🤖【CHAGPT提示词#2】
+Create a short prompt for me that I can use to generate 3D Disney Pixar-style animation of the[Character]
+
+🖥️免费用户提示词：
+Before we get start, instead of generating image, give me directly the prompt of the image which I can use to paste in DALL.E
+
+
+🔗 【有用链接】
+ChatGPT：https://chat.openai.com/
+脚本插件下载：https://glasp.co/youtube-summary?ref=...
+AI配音Eleven Labs：https://elevenlabs.io/?from=partnermc...
+免费生图Copilot：https://copilot.microsoft.com/
+扩展图片Adobe firefly: https://firefly.adobe.com/
+AI动图制作：https://lumalabs.ai/dream-machine
+口型同步：https://pika.art/
+CapCut剪映海外版：https://www.capcut.com/
+
+🔗 【大米推荐】
+最牛的AI配音：https://elevenlabs.io/?from=partnermc...
+
+
 # DeepSeek资料大全
 https://ccnk05wgo092.feishu.cn/wiki/Q52dwmohyi5dNAkUmMWcTFEfnLq
 
