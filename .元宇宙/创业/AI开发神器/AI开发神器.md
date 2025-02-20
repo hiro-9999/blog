@@ -1,3 +1,7 @@
+# 致富心態
+https://www.youtube.com/watch?v=HNwDUsvD2kY
+
+
 # 合約網格
 https://www.youtube.com/watch?v=7j0uHMCr9a4
 
