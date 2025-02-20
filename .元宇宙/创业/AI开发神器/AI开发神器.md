@@ -11,6 +11,8 @@ https://www.youtube.com/watch?v=7j0uHMCr9a4
 ➡️第3步：創建【被動收入機器人】
 創建教學：本影片即創建教學✅
 
+https://www.youtube.com/watch?v=awEB-UO13PA
+
 
 # 3D动画
 https://www.youtube.com/watch?v=InUhESC5HyE
